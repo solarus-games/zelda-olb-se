@@ -29,6 +29,8 @@ tileset{ id = "temple_blue", description = "Temple (blue)" }
 tileset{ id = "temple_green", description = "Temple (green)" }
 tileset{ id = "temple_yellow", description = "Temple (yellow)" }
 
+sprite{ id = "console/cursor", description = "Console: Cursor" }
+sprite{ id = "console/icons", description = "Console: Icons" }
 sprite{ id = "enemies/agahnim", description = "Agahnim" }
 sprite{ id = "enemies/agahnim_lightning", description = "Agahnim's lightning" }
 sprite{ id = "enemies/armos", description = "Armos" }
@@ -485,5 +487,6 @@ language{ id = "fr", description = "Français" }
 font{ id = "alttp", description = "alttp" }
 font{ id = "green_digits", description = "green_digits" }
 font{ id = "minecraftia", description = "minecraftia" }
+font{ id = "minecraftia_mono", description = "minecraftia_mono" }
 font{ id = "white_digits", description = "white_digits" }
 
