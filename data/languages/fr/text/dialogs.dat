@@ -1,0 +1,564 @@
+dialog{
+  id = "_crystal",
+  text = [[
+C'est un interrupteur de cristal !
+Frappe-le avec quelque chose...
+]]
+}
+
+dialog{
+  id = "_shop.amount_full",
+  text = [[
+Tu n'as pas besoin de ça maintenant.
+]]
+}
+
+dialog{
+  id = "_shop.not_enough_money",
+  text = [[
+Désolé, mais tu n'as pas assez de rubis.
+]]
+}
+
+dialog{
+  id = "_shop.question",
+  text = [[
+Prix : $v rubis. Ok ?
+    $? Oui
+    $? Non
+]]
+}
+
+dialog{
+  id = "_treasure.arrow.1",
+  text = [[
+Tu as trouvé une flèche !
+Utilise l'arc et les flèches pour vaincre des
+ennemis à distance.
+]]
+}
+
+dialog{
+  id = "_treasure.arrow.2",
+  text = [[
+Tu as trouvé 5 flèches !
+Utilise l'arc et les flèches pour vaincre des
+ennemis à distance.
+]]
+}
+
+dialog{
+  id = "_treasure.arrow.3",
+  text = [[
+Tu as trouvé 10 flèches !
+Utilise l'arc et les flèches pour vaincre des
+ennemis à distance.
+]]
+}
+
+dialog{
+  id = "_treasure.bomb.1",
+  text = [[
+Tu as trouvé une bombe !
+Utilise les bombes pour faire exploser des
+ennemis ou des obstacles.
+]]
+}
+
+dialog{
+  id = "_treasure.bomb.2",
+  text = [[
+Tu as trouvé 3 bombes !
+Utilise les bombes pour faire exploser des
+ennemis ou des obstacles.
+]]
+}
+
+dialog{
+  id = "_treasure.bomb.3",
+  text = [[
+Tu as trouvé 8 bombes !
+Utilise les bombes pour faire exploser des
+ennemis ou des obstacles.
+]]
+}
+
+dialog{
+  id = "_treasure.boss_key.1",
+  text = [[
+Tu as trouvé la clé du boss !!!
+]]
+}
+
+dialog{
+  id = "_treasure.bottle_1.1",
+  text = [[
+Tu as trouvé un flacon vide !!!
+Tu vas pouvoir t'en servir pour stocker des
+potions !!!
+]]
+}
+
+dialog{
+  id = "_treasure.bottle_1.2",
+  text = [[
+Tu as obtenu une potion rouge !!!
+Bois-la pour restaurer ton énergie !!!
+]]
+}
+
+dialog{
+  id = "_treasure.bottle_1.3",
+  text = [[
+Tu as obtenu une potion verte !!!
+Bois-la pour restaurer ta magie !!!
+]]
+}
+
+dialog{
+  id = "_treasure.bottle_1.4",
+  text = [[
+Tu as obtenu une potion bleue !!!
+Bois-la pour restaurer ton énergie et ta
+magie !!!
+]]
+}
+
+dialog{
+  id = "_treasure.bottle_2.1",
+  text = [[
+Tu as trouvé un flacon vide !!!
+Tu vas pouvoir t'en servir pour stocker des
+potions !!!
+]]
+}
+
+dialog{
+  id = "_treasure.bottle_2.2",
+  text = [[
+Tu as obtenu une potion rouge !!!
+Bois-la pour restaurer ton énergie !!!
+]]
+}
+
+dialog{
+  id = "_treasure.bottle_2.3",
+  text = [[
+Tu as obtenu une potion verte !!!
+Bois-la pour restaurer ta magie !!!
+]]
+}
+
+dialog{
+  id = "_treasure.bottle_2.4",
+  text = [[
+Tu as obtenu une potion bleue !!!
+Bois-la pour restaurer ton énergie et ta
+magie !!!
+]]
+}
+
+dialog{
+  id = "_treasure.bottle_3.1",
+  text = [[
+Tu as trouvé un flacon vide !!!
+Tu vas pouvoir t'en servir pour stocker des
+potions !!!
+]]
+}
+
+dialog{
+  id = "_treasure.bottle_3.2",
+  text = [[
+Tu as obtenu une potion rouge !!!
+Bois-la pour restaurer ton énergie !!!
+]]
+}
+
+dialog{
+  id = "_treasure.bottle_3.3",
+  text = [[
+Tu as obtenu une potion verte !!!
+Bois-la pour restaurer ta magie !!!
+]]
+}
+
+dialog{
+  id = "_treasure.bottle_3.4",
+  text = [[
+Tu as obtenu une potion bleue !!!
+Bois-la pour restaurer ton énergie et ta
+magie !!!
+]]
+}
+
+dialog{
+  id = "_treasure.bow.1",
+  text = [[
+Tu as obtenu l'arc !!!
+Utilise-le pour atteindre des cibles éloignées.
+]]
+}
+
+dialog{
+  id = "_treasure.bow.2",
+  text = [[
+Tu as obtenu l'arc !!!
+Utilise-le pour atteindre des cibles éloignées.
+]]
+}
+
+dialog{
+  id = "_treasure.bow_silver.1",
+  text = [[
+Ton arc tire désormais des flèches d'argent
+d'une puissance dévastatrice !!!
+]]
+}
+
+dialog{
+  id = "_treasure.bow_silver.2",
+  text = [[
+Ton arc tire désormais des flèches d'argent
+d'une puissance dévastatrice !!!
+]]
+}
+
+dialog{
+  id = "_treasure.compass.1",
+  text = [[
+Tu as trouvé la boussole !!!
+Tu peux localiser le boss et les coffres sur
+le plan.
+]]
+}
+
+dialog{
+  id = "_treasure.din_medallion.1",
+  text = [[
+Tu as obtenu un médaillon magique !!!
+Ta défense vient d'augmenter !!!
+]]
+}
+
+dialog{
+  id = "_treasure.farore_medallion.1",
+  text = [[
+Tu as obtenu un médaillon magique !!!
+Ta défense vient d'augmenter !!!
+]]
+}
+
+dialog{
+  id = "_treasure.fire_rod.1",
+  text = [[
+Tu as trouvé le bâton de feu !!!
+Tu peux désormais lancer de puissantes flammes
+à distance.
+]]
+}
+
+dialog{
+  id = "_treasure.flippers.1",
+  text = [[
+Tu as trouvé les palmes !!!
+Tu peux nager en eau profonde !
+]]
+}
+
+dialog{
+  id = "_treasure.glove.1",
+  text = [[
+Tu as trouvé les gants !!!
+Utilise-les pour soulever des objets en
+appuyant sur la touche Action.
+]]
+}
+
+dialog{
+  id = "_treasure.glove.2",
+  text = [[
+La puissance de tes gants va te permettre de
+soulever de lourds rochers.
+]]
+}
+
+dialog{
+  id = "_treasure.hammer.1",
+  text = [[
+Tu as trouvé le marteau magique !!!
+Utilise-le pour écraser les obstacles.
+]]
+}
+
+dialog{
+  id = "_treasure.heart.1",
+  text = [[
+Tu as trouvé un coeur !
+]]
+}
+
+dialog{
+  id = "_treasure.hookshot.1",
+  text = [[
+Tu as trouvé le grappin !!!
+Utilise-le pour franchir des obstacles.
+]]
+}
+
+dialog{
+  id = "_treasure.ice_rod.1",
+  text = [[
+Tu as trouvé le baton de glace !!!
+Utilise-le pour tout congeler à distance.
+]]
+}
+
+dialog{
+  id = "_treasure.lamp.1",
+  text = [[
+Tu as trouvé la lanterne !!!
+Utilise-la pour faire jaillir des flammes.
+]]
+}
+
+dialog{
+  id = "_treasure.magic_crystal.1",
+  text = [[
+Tu as trouvé un cristal magique !!!
+]]
+}
+
+dialog{
+  id = "_treasure.magic_flask.1",
+  text = [[
+Tu as trouvé une petite fiole de magie !
+]]
+}
+
+dialog{
+  id = "_treasure.magic_flask.2",
+  text = [[
+Tu as trouvé une grande fiole de magie !
+]]
+}
+
+dialog{
+  id = "_treasure.map.1",
+  text = [[
+Tu as trouvé la carte du donjon !!!
+Affiche-la dans l'écran de pause pour voir
+le plan.
+]]
+}
+
+dialog{
+  id = "_treasure.mudora_book.1",
+  text = [[
+Tu as trouvé le livre de Mudora !!!
+Tu comprends désormais l'Hylien ancien!!!
+]]
+}
+
+dialog{
+  id = "_treasure.nayru_medallion.1",
+  text = [[
+Tu as obtenu un médaillon magique !!!
+Ta défense vient d'augmenter !!!
+]]
+}
+
+dialog{
+  id = "_treasure.piece_of_heart.1",
+  text = [[
+Tu as trouvé un quart de coeur !!!
+]]
+}
+
+dialog{
+  id = "_treasure.shield.1",
+  text = [[
+Tu as trouvé un bouclier !!!
+
+Ta défense augmente d'un point !
+]]
+}
+
+dialog{
+  id = "_treasure.small_key.1",
+  text = [[
+Tu as trouvé une petite clé !
+Appuie sur la touche Action devant une porte
+verrouillée pour l'ouvrir.
+]]
+}
+
+dialog{
+  id = "_treasure.sword.1",
+  text = [[
+Tu as trouvé une épée !!!
+
+Tu vas pouvoir te défendre face aux monstres
+avec la touche C !
+Maintiens C enfoncé pour charger une attaque
+cyclone !!!
+]]
+}
+
+dialog{
+  id = "_treasure.sword.2",
+  text = [[
+Ton épée a triplé de puissance et peut
+désormais renvoyer certaines attaques magiques,
+trop bien !!!
+]]
+}
+
+dialog{
+  id = "_treasure.sword.3",
+  text = [[
+Tu as trouvé Excalibur !!!
+Même Ganon ne devrait pas pouvoir résister à sa
+puissance ! (en théorie)
+]]
+}
+
+dialog{
+  id = "_treasure.triforce.1",
+  text = [[
+Tu as trouvé la Triforce !!!
+]]
+}
+
+dialog{
+  id = "boss_key_required",
+  text = [[
+C'est la porte du maître des lieux !
+Il te faut la clé du boss pour l'ouvrir.
+]]
+}
+
+dialog{
+  id = "dungeon_finished_save",
+  text = [[
+Souhaites-tu sauvegarder ta partie ?
+
+                   $? Oui
+                   $? Non
+]]
+}
+
+dialog{
+  id = "found_piece_of_heart.first",
+  text = [[
+Encore 3 et tu gagneras un coeur
+supplémentaire !!!
+]]
+}
+
+dialog{
+  id = "found_piece_of_heart.fourth",
+  text = [[
+Ton nombre de coeurs vient
+d'augmenter !!!
+]]
+}
+
+dialog{
+  id = "found_piece_of_heart.second",
+  text = [[
+Encore 2 et tu gagneras un coeur
+supplémentaire !!!
+]]
+}
+
+dialog{
+  id = "found_piece_of_heart.third",
+  text = [[
+Encore 1 et tu gagneras un coeur
+supplémentaire !!!
+]]
+}
+
+dialog{
+  id = "not_enough_money",
+  text = [[
+Désolé, mais tu n'as pas assez de rubis.
+]]
+}
+
+dialog{
+  id = "potion_not_needed",
+  text = [[
+Tu n'as pas besoin de boire cette potion
+maintenant.
+]]
+}
+
+dialog{
+  id = "save_quit",
+  text = [[
+                 Déjà fatigué ?
+                 $? Continuer
+           $? Sauvegarder et quitter
+          $? Quitter sans sauvegarder
+]]
+}
+
+dialog{
+  id = "shop.arrow.2",
+  text = [[
+5 flèches.
+]]
+}
+
+dialog{
+  id = "shop.bomb.1",
+  text = [[
+Une bombe.
+]]
+}
+
+dialog{
+  id = "shop.bow.2",
+  text = [[
+Un arc.
+]]
+}
+
+dialog{
+  id = "shop.choose",
+  text = [[
+Choisis ce que tu veux.
+]]
+}
+
+dialog{
+  id = "shop.heart.1",
+  text = [[
+Un coeur.
+]]
+}
+
+dialog{
+  id = "shop.magic_flask.1",
+  text = [[
+Un peu de magie.
+]]
+}
+
+dialog{
+  id = "shop.magic_flask.2",
+  text = [[
+Beaucoup de magie.
+]]
+}
+
+dialog{
+  id = "small_key_required",
+  text = [[
+Cette porte est verrouillée.
+Il te faut une petite clé pour l'ouvrir !
+]]
+}
+
