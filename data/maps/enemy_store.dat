@@ -1,0 +1,466 @@
+properties{
+  x = 0,
+  y = 0,
+  width = 640,
+  height = 480,
+  tileset = "dungeon_grayblue",
+  music = "same",
+}
+
+dynamic_tile{
+  name = "invisible_tile_3",
+  layer = 1,
+  x = 272,
+  y = 224,
+  pattern = "barrier.1",
+  width = 16,
+  height = 8,
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  name = "invisible_tile_4",
+  layer = 1,
+  x = 272,
+  y = 232,
+  pattern = "barrier.1",
+  width = 16,
+  height = 8,
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  name = "invisible_tile_1",
+  layer = 1,
+  x = 176,
+  y = 176,
+  pattern = "barrier.1",
+  width = 16,
+  height = 8,
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  name = "invisible_tile_2",
+  layer = 1,
+  x = 176,
+  y = 184,
+  pattern = "barrier.1",
+  width = 16,
+  height = 8,
+  enabled_at_start = true,
+}
+
+enemy{
+  name = "auto_enemy_1",
+  layer = 1,
+  x = 24,
+  y = 45,
+  direction = 3,
+  breed = "skeleton",
+  treasure_name = "random_weapon",
+}
+
+enemy{
+  name = "auto_enemy_17",
+  layer = 1,
+  x = 216,
+  y = 93,
+  direction = 3,
+  breed = "pike_auto",
+}
+
+enemy{
+  name = "auto_enemy_18",
+  layer = 1,
+  x = 248,
+  y = 93,
+  direction = 3,
+  breed = "keese",
+  treasure_name = "random_heart",
+}
+
+enemy{
+  name = "auto_enemy_4",
+  layer = 1,
+  x = 120,
+  y = 45,
+  direction = 3,
+  breed = "tentacle",
+  treasure_name = "random_heart",
+}
+
+enemy{
+  name = "auto_enemy_3",
+  layer = 1,
+  x = 88,
+  y = 45,
+  direction = 3,
+  breed = "tektite_blue",
+  treasure_name = "random_heart",
+}
+
+enemy{
+  name = "auto_enemy_7",
+  layer = 1,
+  x = 216,
+  y = 45,
+  direction = 3,
+  breed = "rope",
+  treasure_name = "random",
+}
+
+enemy{
+  name = "auto_enemy_8",
+  layer = 1,
+  x = 248,
+  y = 45,
+  direction = 3,
+  breed = "pikku",
+  treasure_name = "random_rupee",
+}
+
+enemy{
+  name = "auto_enemy_9",
+  layer = 1,
+  x = 280,
+  y = 45,
+  direction = 3,
+  breed = "zora_feet",
+  treasure_name = "random_rupee",
+}
+
+enemy{
+  name = "auto_enemy_10",
+  layer = 1,
+  x = 312,
+  y = 45,
+  direction = 3,
+  breed = "zora_water",
+  treasure_name = "random_rupee",
+}
+
+enemy{
+  name = "auto_enemy_23",
+  layer = 1,
+  x = 88,
+  y = 141,
+  direction = 3,
+  breed = "sand_crab",
+  treasure_name = "random_heart",
+}
+
+enemy{
+  layer = 1,
+  x = 56,
+  y = 285,
+  direction = 3,
+  breed = "chicken",
+}
+
+enemy{
+  name = "auto_enemy_22",
+  layer = 1,
+  x = 56,
+  y = 141,
+  direction = 3,
+  breed = "bari_blue",
+  treasure_name = "random_weapon",
+}
+
+enemy{
+  name = "auto_enemy_6",
+  layer = 1,
+  x = 184,
+  y = 45,
+  direction = 3,
+  breed = "armos",
+  treasure_name = "random_weapon",
+}
+
+enemy{
+  name = "auto_enemy_5",
+  layer = 1,
+  x = 152,
+  y = 45,
+  direction = 3,
+  breed = "moblin",
+  treasure_name = "random_weapon",
+}
+
+enemy{
+  name = "auto_enemy_13",
+  layer = 1,
+  x = 88,
+  y = 93,
+  direction = 3,
+  breed = "vulture",
+  treasure_name = "random_rupee",
+}
+
+enemy{
+  name = "auto_enemy_14",
+  layer = 1,
+  x = 120,
+  y = 93,
+  direction = 3,
+  breed = "geldman",
+  treasure_name = "random_weapon",
+}
+
+enemy{
+  name = "auto_enemy_11",
+  layer = 1,
+  x = 24,
+  y = 93,
+  direction = 3,
+  breed = "stal",
+  treasure_name = "random_weapon",
+}
+
+enemy{
+  name = "auto_enemy_12",
+  layer = 1,
+  x = 56,
+  y = 93,
+  direction = 3,
+  breed = "poe",
+  treasure_name = "random_heart",
+}
+
+enemy{
+  name = "auto_enemy_15",
+  layer = 1,
+  x = 152,
+  y = 93,
+  direction = 3,
+  breed = "lynel",
+  treasure_name = "random",
+}
+
+enemy{
+  name = "auto_enemy_29",
+  layer = 1,
+  x = 280,
+  y = 141,
+  direction = 3,
+  breed = "gibdo",
+  treasure_name = "random_magic",
+}
+
+enemy{
+  name = "auto_enemy_30",
+  layer = 1,
+  x = 312,
+  y = 141,
+  direction = 3,
+  breed = "wizzrobe_white",
+  treasure_name = "random_rupee",
+}
+
+enemy{
+  name = "auto_enemy_21",
+  layer = 1,
+  x = 24,
+  y = 141,
+  direction = 3,
+  breed = "hover",
+  treasure_name = "random_heart",
+}
+
+enemy{
+  name = "auto_enemy_32",
+  layer = 1,
+  x = 56,
+  y = 189,
+  direction = 3,
+  breed = "ropa",
+  treasure_name = "random_rupee",
+}
+
+enemy{
+  name = "auto_enemy_33",
+  layer = 1,
+  x = 88,
+  y = 189,
+  direction = 3,
+  breed = "goriya_green",
+  treasure_name = "random",
+}
+
+enemy{
+  name = "auto_enemy_34",
+  layer = 1,
+  x = 120,
+  y = 189,
+  direction = 3,
+  breed = "eyegore_green",
+  treasure_name = "random_rupee",
+}
+
+enemy{
+  name = "auto_enemy_16",
+  layer = 1,
+  x = 184,
+  y = 93,
+  direction = 3,
+  breed = "wizzrobe_blue",
+  treasure_name = "random_weapon",
+}
+
+enemy{
+  layer = 1,
+  x = 24,
+  y = 285,
+  direction = 3,
+  breed = "wallmaster",
+}
+
+enemy{
+  name = "auto_enemy_26",
+  layer = 1,
+  x = 184,
+  y = 141,
+  direction = 3,
+  breed = "chasupa",
+  treasure_name = "random_heart",
+}
+
+enemy{
+  name = "auto_enemy_25",
+  layer = 1,
+  x = 152,
+  y = 141,
+  direction = 3,
+  breed = "hinox",
+  treasure_name = "random",
+}
+
+enemy{
+  name = "auto_enemy_27",
+  layer = 1,
+  x = 216,
+  y = 141,
+  direction = 3,
+  breed = "octorok",
+  treasure_name = "random_weapon",
+}
+
+enemy{
+  name = "auto_enemy_41",
+  layer = 1,
+  x = 24,
+  y = 237,
+  direction = 3,
+  breed = "pengator",
+  treasure_name = "random_magic",
+}
+
+enemy{
+  name = "auto_enemy_37",
+  layer = 1,
+  x = 216,
+  y = 189,
+  direction = 3,
+  breed = "skeleton_red",
+  treasure_name = "random_weapon",
+}
+
+enemy{
+  name = "auto_enemy_38",
+  layer = 1,
+  x = 248,
+  y = 189,
+  direction = 3,
+  breed = "goriya_red",
+  treasure_name = "random_magic",
+}
+
+enemy{
+  name = "auto_enemy_39",
+  layer = 1,
+  x = 280,
+  y = 189,
+  direction = 3,
+  breed = "eyegore_red",
+  treasure_name = "random_rupee",
+}
+
+enemy{
+  name = "auto_enemy_2",
+  layer = 1,
+  x = 56,
+  y = 45,
+  direction = 3,
+  breed = "zazak_blue",
+  treasure_name = "random_rupee",
+}
+
+enemy{
+  name = "auto_enemy_36",
+  layer = 1,
+  x = 184,
+  y = 189,
+  direction = 3,
+  breed = "medusa",
+}
+
+enemy{
+  name = "auto_enemy_42",
+  layer = 1,
+  x = 56,
+  y = 237,
+  direction = 3,
+  breed = "freezor",
+  treasure_name = "random_magic",
+}
+
+enemy{
+  name = "auto_enemy_44",
+  layer = 1,
+  x = 120,
+  y = 237,
+  direction = 3,
+  breed = "tarosu_red",
+  treasure_name = "random_weapon",
+}
+
+enemy{
+  name = "auto_enemy_46",
+  layer = 1,
+  x = 184,
+  y = 237,
+  direction = 3,
+  breed = "sword_soldier_green",
+  treasure_name = "random_magic",
+}
+
+enemy{
+  name = "auto_enemy_47",
+  layer = 1,
+  x = 216,
+  y = 237,
+  direction = 3,
+  breed = "sword_soldier_blue",
+  treasure_name = "random_weapon",
+}
+
+enemy{
+  name = "auto_enemy_48",
+  layer = 1,
+  x = 248,
+  y = 237,
+  direction = 3,
+  breed = "spear_soldier_red",
+  treasure_name = "random_heart",
+}
+
+enemy{
+  name = "auto_enemy_40",
+  layer = 1,
+  x = 280,
+  y = 237,
+  direction = 3,
+  breed = "medusa_purple",
+}
+
