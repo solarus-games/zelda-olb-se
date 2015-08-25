@@ -5,4 +5,4 @@
 This new version is being developed with the [Solarus engine](https://github.com/christopho/solarus) by Christopho and Mymy.
 While this is essentially the same game, a lot of details will be improved thanks to the use of Solarus.
 
-The project is currently a work in progress and there is no released date planned yet.
+The project is currently a work in progress and there is no release date planned yet.
