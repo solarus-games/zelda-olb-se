@@ -846,33 +846,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 24,
-  y = 792,
-  width = 48,
-  height = 16,
-  pattern = "grass.tree.roots.1",
-}
-
-tile{
-  layer = 0,
-  x = 24,
-  y = 808,
-  width = 48,
-  height = 8,
-  pattern = "grass.tree.roots.2",
-}
-
-tile{
-  layer = 0,
-  x = 24,
-  y = 752,
-  width = 48,
-  height = 40,
-  pattern = "tree.under",
-}
-
-tile{
-  layer = 0,
   x = 72,
   y = 784,
   width = 8,
@@ -8069,15 +8042,6 @@ tile{
   width = 8,
   height = 8,
   pattern = "sand.soil.diag.2b",
-}
-
-tile{
-  layer = 0,
-  x = 16,
-  y = 880,
-  width = 16,
-  height = 16,
-  pattern = "grass.under_stone",
 }
 
 tile{
@@ -8755,6 +8719,159 @@ tile{
   pattern = "house_tree.steps.bottom",
 }
 
+tile{
+  layer = 0,
+  x = 96,
+  y = 784,
+  width = 8,
+  height = 16,
+  pattern = "dirt.tree.roots.3",
+}
+
+tile{
+  layer = 0,
+  x = 152,
+  y = 784,
+  width = 8,
+  height = 16,
+  pattern = "dirt.tree.roots.4",
+}
+
+tile{
+  layer = 0,
+  x = 104,
+  y = 808,
+  width = 48,
+  height = 8,
+  pattern = "dirt.tree.roots.2",
+}
+
+tile{
+  layer = 0,
+  x = 24,
+  y = 808,
+  width = 48,
+  height = 8,
+  pattern = "grass.tree.roots.2",
+}
+
+tile{
+  layer = 0,
+  x = 232,
+  y = 856,
+  width = 16,
+  height = 16,
+  pattern = "forest.4",
+}
+
+tile{
+  layer = 0,
+  x = 232,
+  y = 872,
+  width = 16,
+  height = 16,
+  pattern = "forest.corner.4",
+}
+
+tile{
+  layer = 0,
+  x = 136,
+  y = 872,
+  width = 16,
+  height = 16,
+  pattern = "forest.corner.3",
+}
+
+tile{
+  layer = 0,
+  x = 152,
+  y = 872,
+  width = 80,
+  height = 16,
+  pattern = "forest.2",
+}
+
+tile{
+  layer = 0,
+  x = 136,
+  y = 856,
+  width = 16,
+  height = 16,
+  pattern = "forest.3",
+}
+
+tile{
+  layer = 0,
+  x = 136,
+  y = 840,
+  width = 16,
+  height = 16,
+  pattern = "forest.corner.1",
+}
+
+tile{
+  layer = 0,
+  x = 232,
+  y = 840,
+  width = 16,
+  height = 16,
+  pattern = "forest.corner.2",
+}
+
+tile{
+  layer = 0,
+  x = 152,
+  y = 840,
+  width = 80,
+  height = 16,
+  pattern = "forest.1",
+}
+
+tile{
+  layer = 0,
+  x = 152,
+  y = 856,
+  width = 80,
+  height = 16,
+  pattern = "forest",
+}
+
+tile{
+  layer = 0,
+  x = 200,
+  y = 672,
+  width = 16,
+  height = 40,
+  pattern = "ladder",
+}
+
+tile{
+  layer = 0,
+  x = 192,
+  y = 672,
+  width = 8,
+  height = 40,
+  pattern = "ladder.border.1",
+}
+
+tile{
+  layer = 0,
+  x = 216,
+  y = 672,
+  width = 8,
+  height = 40,
+  pattern = "ladder.border.2",
+}
+
+tile{
+  layer = 0,
+  x = 16,
+  y = 880,
+  width = 16,
+  height = 16,
+  pattern = "grass.under_stone",
+}
+
 destructible{
   layer = 0,
   x = 24,
@@ -8786,17 +8903,6 @@ destructible{
   destruction_sound = "bush",
   weight = -1,
   can_be_cut = true,
-}
-
-destructible{
-  layer = 0,
-  x = 24,
-  y = 893,
-  treasure_name = "random",
-  sprite = "entities/stone_white",
-  destruction_sound = "stone",
-  weight = 1,
-  damage_on_enemies = 2,
 }
 
 destructible{
@@ -8957,8 +9063,8 @@ custom_entity{
 
 custom_entity{
   layer = 0,
-  x = 104,
-  y = 797,
+  x = 240,
+  y = 757,
   width = 32,
   height = 32,
   direction = 0,
@@ -8968,7 +9074,7 @@ custom_entity{
 
 custom_entity{
   layer = 0,
-  x = 152,
+  x = 192,
   y = 813,
   direction = 0,
   sprite = "entities/hook_green",
@@ -8977,7 +9083,7 @@ custom_entity{
 
 custom_entity{
   layer = 0,
-  x = 216,
+  x = 256,
   y = 813,
   direction = 0,
   sprite = "entities/hook_brown",
@@ -8986,7 +9092,7 @@ custom_entity{
 
 custom_entity{
   layer = 0,
-  x = 184,
+  x = 224,
   y = 813,
   direction = 0,
   sprite = "entities/hook_yellow",
@@ -8995,13 +9101,46 @@ custom_entity{
 
 custom_entity{
   layer = 0,
-  x = 104,
-  y = 749,
+  x = 192,
+  y = 757,
   width = 32,
   height = 32,
   direction = 0,
   sprite = "entities/hook_tree_small_green",
   model = "hookable",
+}
+
+custom_entity{
+  layer = 0,
+  x = 112,
+  y = 765,
+  width = 48,
+  height = 56,
+  direction = 0,
+  sprite = "entities/hook_tree_brown",
+  model = "hookable",
+}
+
+custom_entity{
+  layer = 0,
+  x = 32,
+  y = 765,
+  width = 48,
+  height = 56,
+  direction = 0,
+  sprite = "entities/hook_tree_green",
+  model = "hookable",
+}
+
+destructible{
+  layer = 0,
+  x = 24,
+  y = 893,
+  treasure_name = "random",
+  sprite = "entities/stone_white",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
 }
 
 tile{
@@ -9758,6 +9897,42 @@ tile{
   width = 64,
   height = 56,
   pattern = "house_tree.roof",
+}
+
+tile{
+  layer = 1,
+  x = 96,
+  y = 744,
+  width = 8,
+  height = 40,
+  pattern = "tree.green.3",
+}
+
+tile{
+  layer = 1,
+  x = 104,
+  y = 736,
+  width = 48,
+  height = 16,
+  pattern = "tree.green.2",
+}
+
+tile{
+  layer = 1,
+  x = 152,
+  y = 744,
+  width = 8,
+  height = 40,
+  pattern = "tree.green.4",
+}
+
+tile{
+  layer = 1,
+  x = 104,
+  y = 752,
+  width = 48,
+  height = 40,
+  pattern = "tree.green.1",
 }
 
 dynamic_tile{

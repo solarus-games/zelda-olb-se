@@ -11,6 +11,231 @@ properties{
 tile{
   layer = 0,
   x = 0,
+  y = 0,
+  width = 1280,
+  height = 960,
+  pattern = "grass.soil",
+}
+
+tile{
+  layer = 0,
+  x = 1256,
+  y = 936,
+  width = 24,
+  height = 24,
+  pattern = "sand.soil",
+}
+
+tile{
+  layer = 0,
+  x = 936,
+  y = 432,
+  width = 24,
+  height = 24,
+  pattern = "forest",
+}
+
+tile{
+  layer = 0,
+  x = 856,
+  y = 408,
+  width = 136,
+  height = 24,
+  pattern = "forest",
+}
+
+tile{
+  layer = 0,
+  x = 960,
+  y = 424,
+  width = 64,
+  height = 104,
+  pattern = "forest",
+}
+
+tile{
+  layer = 0,
+  x = 1216,
+  y = 512,
+  width = 16,
+  height = 200,
+  pattern = "forest",
+}
+
+tile{
+  layer = 0,
+  x = 960,
+  y = 768,
+  width = 240,
+  height = 48,
+  pattern = "dirt.soil",
+}
+
+tile{
+  layer = 0,
+  x = 960,
+  y = 768,
+  width = 16,
+  height = 16,
+  pattern = "cliff.top.border.diag.1",
+}
+
+tile{
+  layer = 0,
+  x = 456,
+  y = 904,
+  width = 288,
+  height = 8,
+  pattern = "cliff.2",
+}
+
+tile{
+  layer = 0,
+  x = 464,
+  y = 776,
+  width = 272,
+  height = 8,
+  pattern = "cliff.top.1",
+}
+
+tile{
+  layer = 0,
+  x = 464,
+  y = 784,
+  width = 272,
+  height = 16,
+  pattern = "cliff.1",
+}
+
+tile{
+  layer = 0,
+  x = 464,
+  y = 800,
+  width = 272,
+  height = 16,
+  pattern = "dirt.cliff.1",
+}
+
+tile{
+  layer = 0,
+  x = 440,
+  y = 584,
+  width = 256,
+  height = 8,
+  pattern = "cliff.2",
+}
+
+tile{
+  layer = 0,
+  x = 96,
+  y = 576,
+  width = 176,
+  height = 48,
+  pattern = "water",
+}
+
+tile{
+  layer = 0,
+  x = 256,
+  y = 528,
+  width = 16,
+  height = 16,
+  pattern = "cliff.top.border.diag.2",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 544,
+  width = 16,
+  height = 16,
+  pattern = "cliff.top.border.diag.2",
+}
+
+tile{
+  layer = 0,
+  x = 288,
+  y = 560,
+  width = 16,
+  height = 16,
+  pattern = "cliff.top.border.diag.2",
+}
+
+tile{
+  layer = 0,
+  x = 96,
+  y = 528,
+  width = 16,
+  height = 16,
+  pattern = "cliff.top.border.diag.1",
+}
+
+tile{
+  layer = 0,
+  x = 80,
+  y = 544,
+  width = 16,
+  height = 16,
+  pattern = "cliff.top.border.diag.1",
+}
+
+tile{
+  layer = 0,
+  x = 64,
+  y = 560,
+  width = 16,
+  height = 16,
+  pattern = "cliff.top.border.diag.1",
+}
+
+tile{
+  layer = 0,
+  x = -8,
+  y = 936,
+  width = 1264,
+  height = 8,
+  pattern = "cliff.2",
+}
+
+tile{
+  layer = 0,
+  x = 408,
+  y = 88,
+  width = 144,
+  height = 8,
+  pattern = "cliff.2",
+}
+
+tile{
+  layer = 0,
+  x = 920,
+  y = 88,
+  width = 176,
+  height = 8,
+  pattern = "cliff.2",
+}
+
+tile{
+  layer = 0,
+  x = 1016,
+  y = 344,
+  width = 208,
+  height = 8,
+  pattern = "cliff.2",
+}
+
+tile{
+  layer = 0,
+  x = 1120,
+  y = 256,
+  width = 32,
+  height = 32,
+  pattern = "dirt.soil",
+}
+
+tile{
+  layer = 0,
+  x = 0,
   y = 528,
   width = 32,
   height = 384,
@@ -46,7 +271,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 192,
+  x = 176,
   y = 704,
   width = 176,
   height = 16,
@@ -55,7 +280,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 264,
+  x = 248,
   y = 720,
   width = 80,
   height = 80,
@@ -64,7 +289,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 272,
+  x = 256,
   y = 800,
   width = 40,
   height = 112,
@@ -73,7 +298,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 312,
+  x = 296,
   y = 872,
   width = 120,
   height = 40,
@@ -82,7 +307,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 408,
+  x = 392,
   y = 824,
   width = 24,
   height = 48,
@@ -501,33 +726,6 @@ tile{
   width = 32,
   height = 336,
   pattern = "forest",
-}
-
-tile{
-  layer = 0,
-  x = 112,
-  y = 32,
-  width = 32,
-  height = 32,
-  pattern = "grass.tree_small.green.2",
-}
-
-tile{
-  layer = 0,
-  x = 144,
-  y = 32,
-  width = 32,
-  height = 32,
-  pattern = "grass.tree_small.green.2",
-}
-
-tile{
-  layer = 0,
-  x = 176,
-  y = 32,
-  width = 32,
-  height = 32,
-  pattern = "grass.tree_small.green.2",
 }
 
 tile{
@@ -2458,51 +2656,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 432,
-  y = 128,
-  width = 32,
-  height = 32,
-  pattern = "grass.tree_small.green.2",
-}
-
-tile{
-  layer = 0,
-  x = 496,
-  y = 128,
-  width = 32,
-  height = 32,
-  pattern = "grass.tree_small.green.2",
-}
-
-tile{
-  layer = 0,
-  x = 416,
-  y = 224,
-  width = 32,
-  height = 32,
-  pattern = "grass.tree_small.green.2",
-}
-
-tile{
-  layer = 0,
-  x = 512,
-  y = 224,
-  width = 32,
-  height = 32,
-  pattern = "grass.tree_small.green.2",
-}
-
-tile{
-  layer = 0,
-  x = 592,
-  y = 96,
-  width = 32,
-  height = 32,
-  pattern = "grass.tree_small.green.2",
-}
-
-tile{
-  layer = 0,
   x = 448,
   y = 112,
   width = 16,
@@ -2567,27 +2720,27 @@ tile{
 tile{
   layer = 0,
   x = 568,
-  y = 320,
+  y = 328,
   width = 16,
-  height = 48,
+  height = 40,
   pattern = "ladder",
 }
 
 tile{
   layer = 0,
   x = 560,
-  y = 320,
+  y = 328,
   width = 8,
-  height = 48,
+  height = 40,
   pattern = "ladder.border.1",
 }
 
 tile{
   layer = 0,
   x = 584,
-  y = 320,
+  y = 328,
   width = 8,
-  height = 48,
+  height = 40,
   pattern = "ladder.border.2",
 }
 
@@ -2674,60 +2827,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 640,
-  y = 96,
-  width = 32,
-  height = 32,
-  pattern = "grass.tree_small.green.2",
-}
-
-tile{
-  layer = 0,
-  x = 688,
-  y = 96,
-  width = 32,
-  height = 32,
-  pattern = "grass.tree_small.green.2",
-}
-
-tile{
-  layer = 0,
-  x = 736,
-  y = 96,
-  width = 32,
-  height = 32,
-  pattern = "grass.tree_small.green.2",
-}
-
-tile{
-  layer = 0,
-  x = 736,
-  y = 144,
-  width = 32,
-  height = 32,
-  pattern = "grass.tree_small.green.2",
-}
-
-tile{
-  layer = 0,
-  x = 736,
-  y = 192,
-  width = 32,
-  height = 32,
-  pattern = "grass.tree_small.green.2",
-}
-
-tile{
-  layer = 0,
-  x = 736,
-  y = 240,
-  width = 32,
-  height = 32,
-  pattern = "grass.tree_small.green.2",
-}
-
-tile{
-  layer = 0,
   x = 688,
   y = 256,
   width = 16,
@@ -2742,15 +2841,6 @@ tile{
   width = 16,
   height = 8,
   pattern = "grass.weed",
-}
-
-tile{
-  layer = 0,
-  x = 1272,
-  y = 0,
-  width = 8,
-  height = 928,
-  pattern = "dirt.cliff.top.4",
 }
 
 tile{
@@ -2922,15 +3012,6 @@ tile{
   width = 144,
   height = 16,
   pattern = "grass.under_bush",
-}
-
-tile{
-  layer = 0,
-  x = 1200,
-  y = 48,
-  width = 32,
-  height = 32,
-  pattern = "grass.tree_small.green.2",
 }
 
 tile{
@@ -3183,51 +3264,6 @@ tile{
   width = 160,
   height = 8,
   pattern = "grass.cliff.top.1",
-}
-
-tile{
-  layer = 0,
-  x = 968,
-  y = 168,
-  width = 48,
-  height = 16,
-  pattern = "grass.tree.roots.1",
-}
-
-tile{
-  layer = 0,
-  x = 968,
-  y = 184,
-  width = 48,
-  height = 8,
-  pattern = "grass.tree.roots.2",
-}
-
-tile{
-  layer = 0,
-  x = 968,
-  y = 128,
-  width = 48,
-  height = 40,
-  pattern = "tree.under",
-}
-
-tile{
-  layer = 0,
-  x = 1016,
-  y = 160,
-  width = 8,
-  height = 16,
-  pattern = "grass.tree.roots.4",
-}
-
-tile{
-  layer = 0,
-  x = 960,
-  y = 160,
-  width = 8,
-  height = 16,
-  pattern = "grass.tree.roots.3",
 }
 
 tile{
@@ -3845,73 +3881,28 @@ tile{
 tile{
   layer = 0,
   x = 1176,
-  y = 128,
+  y = 136,
   width = 16,
-  height = 48,
+  height = 40,
   pattern = "ladder",
 }
 
 tile{
   layer = 0,
   x = 1168,
-  y = 128,
+  y = 136,
   width = 8,
-  height = 48,
+  height = 40,
   pattern = "ladder.border.1",
 }
 
 tile{
   layer = 0,
   x = 1192,
-  y = 128,
+  y = 136,
   width = 8,
-  height = 48,
-  pattern = "ladder.border.2",
-}
-
-tile{
-  layer = 0,
-  x = 904,
-  y = 328,
-  width = 48,
-  height = 16,
-  pattern = "grass.tree.roots.1",
-}
-
-tile{
-  layer = 0,
-  x = 904,
-  y = 344,
-  width = 48,
-  height = 8,
-  pattern = "grass.tree.roots.2",
-}
-
-tile{
-  layer = 0,
-  x = 904,
-  y = 288,
-  width = 48,
   height = 40,
-  pattern = "tree.under",
-}
-
-tile{
-  layer = 0,
-  x = 952,
-  y = 320,
-  width = 8,
-  height = 16,
-  pattern = "grass.tree.roots.4",
-}
-
-tile{
-  layer = 0,
-  x = 896,
-  y = 320,
-  width = 8,
-  height = 16,
-  pattern = "grass.tree.roots.3",
+  pattern = "ladder.border.2",
 }
 
 tile{
@@ -4627,87 +4618,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 1264,
-  y = 928,
-  width = 8,
-  height = 8,
-  pattern = "dirt.cliff.top.diag.4",
-}
-
-tile{
-  layer = 0,
-  x = 1256,
-  y = 936,
-  width = 8,
-  height = 8,
-  pattern = "dirt.cliff.top.diag.4",
-}
-
-tile{
-  layer = 0,
-  x = 1248,
-  y = 944,
-  width = 8,
-  height = 8,
-  pattern = "dirt.cliff.top.diag.4",
-}
-
-tile{
-  layer = 0,
-  x = 1272,
-  y = 928,
-  width = 8,
-  height = 8,
-  pattern = "dirt.cliff.top.diag.4b",
-}
-
-tile{
-  layer = 0,
-  x = 1264,
-  y = 936,
-  width = 8,
-  height = 8,
-  pattern = "dirt.cliff.top.diag.4b",
-}
-
-tile{
-  layer = 0,
-  x = 1256,
-  y = 944,
-  width = 8,
-  height = 8,
-  pattern = "dirt.cliff.top.diag.4b",
-}
-
-tile{
-  layer = 0,
-  x = 1248,
-  y = 952,
-  width = 8,
-  height = 8,
-  pattern = "dirt.cliff.top.diag.4b",
-}
-
-tile{
-  layer = 0,
-  x = 0,
-  y = 952,
-  width = 1248,
-  height = 8,
-  pattern = "dirt.cliff.top.2",
-}
-
-tile{
-  layer = 0,
-  x = 0,
-  y = 944,
-  width = 1248,
-  height = 8,
-  pattern = "cliff.top.border.1",
-}
-
-tile{
-  layer = 0,
   x = 1216,
   y = 912,
   width = 16,
@@ -4888,7 +4798,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 176,
+  x = 160,
   y = 704,
   width = 16,
   height = 16,
@@ -4897,7 +4807,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 176,
+  x = 160,
   y = 688,
   width = 16,
   height = 16,
@@ -4924,7 +4834,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 176,
+  x = 160,
   y = 720,
   width = 16,
   height = 16,
@@ -4987,7 +4897,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 192,
+  x = 176,
   y = 720,
   width = 64,
   height = 16,
@@ -4996,7 +4906,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 192,
+  x = 176,
   y = 688,
   width = 176,
   height = 16,
@@ -5005,7 +4915,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 368,
+  x = 352,
   y = 688,
   width = 16,
   height = 16,
@@ -5014,7 +4924,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 368,
+  x = 352,
   y = 704,
   width = 16,
   height = 16,
@@ -5023,7 +4933,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 368,
+  x = 352,
   y = 720,
   width = 16,
   height = 16,
@@ -5032,7 +4942,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 352,
+  x = 336,
   y = 720,
   width = 16,
   height = 16,
@@ -5041,7 +4951,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 336,
+  x = 320,
   y = 736,
   width = 16,
   height = 64,
@@ -5050,7 +4960,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 336,
+  x = 320,
   y = 720,
   width = 16,
   height = 16,
@@ -5059,7 +4969,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 256,
+  x = 240,
   y = 736,
   width = 16,
   height = 176,
@@ -5068,7 +4978,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 256,
+  x = 240,
   y = 912,
   width = 16,
   height = 16,
@@ -5077,7 +4987,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 256,
+  x = 240,
   y = 720,
   width = 16,
   height = 16,
@@ -5086,7 +4996,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 336,
+  x = 320,
   y = 800,
   width = 16,
   height = 16,
@@ -5095,7 +5005,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 320,
+  x = 304,
   y = 800,
   width = 16,
   height = 16,
@@ -5104,7 +5014,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 304,
+  x = 288,
   y = 800,
   width = 16,
   height = 16,
@@ -5113,7 +5023,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 304,
+  x = 288,
   y = 864,
   width = 16,
   height = 16,
@@ -5122,7 +5032,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 320,
+  x = 304,
   y = 864,
   width = 48,
   height = 16,
@@ -5131,7 +5041,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 368,
+  x = 352,
   y = 848,
   width = 16,
   height = 16,
@@ -5140,7 +5050,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 384,
+  x = 368,
   y = 832,
   width = 16,
   height = 16,
@@ -5149,7 +5059,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 400,
+  x = 384,
   y = 816,
   width = 16,
   height = 16,
@@ -5158,7 +5068,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 416,
+  x = 400,
   y = 800,
   width = 16,
   height = 16,
@@ -5167,7 +5077,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 432,
+  x = 416,
   y = 800,
   width = 16,
   height = 16,
@@ -5176,7 +5086,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 432,
+  x = 416,
   y = 816,
   width = 16,
   height = 96,
@@ -5185,7 +5095,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 432,
+  x = 416,
   y = 912,
   width = 16,
   height = 16,
@@ -5194,7 +5104,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 272,
+  x = 256,
   y = 912,
   width = 160,
   height = 16,
@@ -5203,7 +5113,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 368,
+  x = 352,
   y = 864,
   width = 16,
   height = 16,
@@ -5212,8 +5122,17 @@ tile{
 
 tile{
   layer = 0,
-  x = 384,
+  x = 368,
   y = 848,
+  width = 16,
+  height = 16,
+  pattern = "forest.corner_reverse.1",
+}
+
+tile{
+  layer = 0,
+  x = 384,
+  y = 832,
   width = 16,
   height = 16,
   pattern = "forest.corner_reverse.1",
@@ -5222,15 +5141,6 @@ tile{
 tile{
   layer = 0,
   x = 400,
-  y = 832,
-  width = 16,
-  height = 16,
-  pattern = "forest.corner_reverse.1",
-}
-
-tile{
-  layer = 0,
-  x = 416,
   y = 816,
   width = 16,
   height = 16,
@@ -5239,7 +5149,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 256,
+  x = 240,
   y = 816,
   width = 8,
   height = 16,
@@ -5248,7 +5158,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 312,
+  x = 296,
   y = 816,
   width = 8,
   height = 16,
@@ -5257,7 +5167,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 312,
+  x = 296,
   y = 848,
   width = 8,
   height = 16,
@@ -5266,7 +5176,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 256,
+  x = 240,
   y = 848,
   width = 8,
   height = 16,
@@ -5275,7 +5185,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 256,
+  x = 240,
   y = 832,
   width = 8,
   height = 16,
@@ -5284,7 +5194,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 312,
+  x = 296,
   y = 832,
   width = 8,
   height = 16,
@@ -5293,7 +5203,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 392,
+  x = 376,
   y = 848,
   width = 16,
   height = 24,
@@ -5302,7 +5212,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 384,
+  x = 368,
   y = 864,
   width = 8,
   height = 8,
@@ -5392,7 +5302,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 208,
+  x = 192,
   y = 704,
   width = 8,
   height = 8,
@@ -5401,7 +5311,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 272,
+  x = 256,
   y = 744,
   width = 8,
   height = 8,
@@ -5410,7 +5320,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 320,
+  x = 304,
   y = 784,
   width = 8,
   height = 8,
@@ -5419,7 +5329,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 272,
+  x = 256,
   y = 896,
   width = 8,
   height = 8,
@@ -5428,7 +5338,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 352,
+  x = 336,
   y = 880,
   width = 8,
   height = 8,
@@ -5437,7 +5347,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 416,
+  x = 400,
   y = 840,
   width = 8,
   height = 8,
@@ -5446,7 +5356,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 360,
+  x = 344,
   y = 888,
   width = 8,
   height = 8,
@@ -5455,7 +5365,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 328,
+  x = 312,
   y = 792,
   width = 8,
   height = 8,
@@ -5527,7 +5437,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 208,
+  x = 192,
   y = 736,
   width = 48,
   height = 16,
@@ -5536,25 +5446,34 @@ tile{
 
 tile{
   layer = 0,
+  x = 192,
+  y = 912,
+  width = 48,
+  height = 16,
+  pattern = "grass.under_bush",
+}
+
+tile{
+  layer = 0,
+  x = 48,
+  y = 912,
+  width = 48,
+  height = 16,
+  pattern = "grass.under_bush",
+}
+
+tile{
+  layer = 0,
+  x = 48,
+  y = 752,
+  width = 32,
+  height = 16,
+  pattern = "grass.under_bush",
+}
+
+tile{
+  layer = 0,
   x = 208,
-  y = 912,
-  width = 48,
-  height = 16,
-  pattern = "grass.under_bush",
-}
-
-tile{
-  layer = 0,
-  x = 48,
-  y = 912,
-  width = 48,
-  height = 16,
-  pattern = "grass.under_bush",
-}
-
-tile{
-  layer = 0,
-  x = 48,
   y = 752,
   width = 32,
   height = 16,
@@ -5563,16 +5482,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 224,
-  y = 752,
-  width = 32,
-  height = 16,
-  pattern = "grass.under_bush",
-}
-
-tile{
-  layer = 0,
-  x = 224,
+  x = 208,
   y = 896,
   width = 32,
   height = 16,
@@ -5608,7 +5518,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 240,
+  x = 224,
   y = 768,
   width = 16,
   height = 16,
@@ -5617,7 +5527,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 240,
+  x = 224,
   y = 880,
   width = 16,
   height = 16,
@@ -5626,7 +5536,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 352,
+  x = 336,
   y = 736,
   width = 16,
   height = 48,
@@ -5689,7 +5599,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 384,
+  x = 368,
   y = 688,
   width = 16,
   height = 48,
@@ -5698,7 +5608,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 400,
+  x = 384,
   y = 672,
   width = 16,
   height = 48,
@@ -5707,7 +5617,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 416,
+  x = 400,
   y = 656,
   width = 16,
   height = 48,
@@ -5716,8 +5626,8 @@ tile{
 
 tile{
   layer = 0,
-  x = 488,
-  y = 616,
+  x = 464,
+  y = 624,
   width = 32,
   height = 32,
   pattern = "grass.under_bush",
@@ -5725,7 +5635,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 368,
+  x = 352,
   y = 736,
   width = 16,
   height = 16,
@@ -5734,7 +5644,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 336,
+  x = 320,
   y = 656,
   width = 16,
   height = 16,
@@ -5743,7 +5653,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 384,
+  x = 368,
   y = 784,
   width = 16,
   height = 16,
@@ -5752,7 +5662,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 224,
+  x = 208,
   y = 672,
   width = 16,
   height = 8,
@@ -5761,7 +5671,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 336,
+  x = 320,
   y = 848,
   width = 16,
   height = 8,
@@ -5770,7 +5680,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 400,
+  x = 384,
   y = 736,
   width = 16,
   height = 8,
@@ -5815,11 +5725,4511 @@ tile{
 
 tile{
   layer = 0,
-  x = 264,
+  x = 248,
   y = 832,
   width = 48,
   height = 16,
   pattern = "grass.soil",
+}
+
+tile{
+  layer = 0,
+  x = 1016,
+  y = 160,
+  width = 8,
+  height = 16,
+  pattern = "grass.tree.roots.4",
+}
+
+tile{
+  layer = 0,
+  x = 960,
+  y = 160,
+  width = 8,
+  height = 16,
+  pattern = "grass.tree.roots.3",
+}
+
+tile{
+  layer = 0,
+  x = 968,
+  y = 184,
+  width = 48,
+  height = 8,
+  pattern = "grass.tree.roots.2",
+}
+
+tile{
+  layer = 0,
+  x = 952,
+  y = 312,
+  width = 8,
+  height = 16,
+  pattern = "grass.tree.roots.4",
+}
+
+tile{
+  layer = 0,
+  x = 896,
+  y = 312,
+  width = 8,
+  height = 16,
+  pattern = "grass.tree.roots.3",
+}
+
+tile{
+  layer = 0,
+  x = 904,
+  y = 336,
+  width = 48,
+  height = 8,
+  pattern = "grass.tree.roots.2",
+}
+
+tile{
+  layer = 0,
+  x = 1152,
+  y = 176,
+  width = 64,
+  height = 160,
+  pattern = "dirt.soil",
+}
+
+tile{
+  layer = 0,
+  x = 1024,
+  y = 288,
+  width = 128,
+  height = 48,
+  pattern = "dirt.soil",
+}
+
+tile{
+  layer = 0,
+  x = 1024,
+  y = 336,
+  width = 192,
+  height = 8,
+  pattern = "dirt.cliff.2",
+}
+
+tile{
+  layer = 0,
+  x = 928,
+  y = 80,
+  width = 160,
+  height = 8,
+  pattern = "grass.cliff.2",
+}
+
+tile{
+  layer = 0,
+  x = 416,
+  y = 80,
+  width = 128,
+  height = 8,
+  pattern = "grass.cliff.2",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 928,
+  width = 1248,
+  height = 8,
+  pattern = "grass.cliff.2",
+}
+
+tile{
+  layer = 0,
+  x = 112,
+  y = 544,
+  width = 144,
+  height = 16,
+  pattern = "water.cliff.1",
+}
+
+tile{
+  layer = 0,
+  x = 112,
+  y = 560,
+  width = 144,
+  height = 16,
+  pattern = "water.cliff_wave.1",
+}
+
+tile{
+  layer = 0,
+  x = 96,
+  y = 560,
+  width = 16,
+  height = 16,
+  pattern = "water.cliff_wave.diag.1",
+}
+
+tile{
+  layer = 0,
+  x = 80,
+  y = 576,
+  width = 16,
+  height = 16,
+  pattern = "water.cliff_wave.diag.1",
+}
+
+tile{
+  layer = 0,
+  x = 256,
+  y = 560,
+  width = 16,
+  height = 16,
+  pattern = "water.cliff_wave.diag.2",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 576,
+  width = 16,
+  height = 16,
+  pattern = "water.cliff_wave.diag.2",
+}
+
+tile{
+  layer = 0,
+  x = 80,
+  y = 592,
+  width = 16,
+  height = 16,
+  pattern = "water.cliff_wave.3",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 592,
+  width = 16,
+  height = 16,
+  pattern = "water.cliff_wave.4",
+}
+
+tile{
+  layer = 0,
+  x = 80,
+  y = 608,
+  width = 16,
+  height = 16,
+  pattern = "water.cliff_wave.diag.3",
+}
+
+tile{
+  layer = 0,
+  x = 96,
+  y = 624,
+  width = 16,
+  height = 16,
+  pattern = "water.cliff_wave.diag.3",
+}
+
+tile{
+  layer = 0,
+  x = 96,
+  y = 608,
+  width = 16,
+  height = 16,
+  pattern = "water.cliff_wave.diag.3b",
+}
+
+tile{
+  layer = 0,
+  x = 96,
+  y = 576,
+  width = 16,
+  height = 16,
+  pattern = "water.cliff_wave.diag.1b",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 608,
+  width = 16,
+  height = 16,
+  pattern = "water.cliff_wave.diag.4",
+}
+
+tile{
+  layer = 0,
+  x = 256,
+  y = 624,
+  width = 16,
+  height = 16,
+  pattern = "water.cliff_wave.diag.4",
+}
+
+tile{
+  layer = 0,
+  x = 256,
+  y = 608,
+  width = 16,
+  height = 16,
+  pattern = "water.cliff_wave.diag.4b",
+}
+
+tile{
+  layer = 0,
+  x = 112,
+  y = 624,
+  width = 144,
+  height = 16,
+  pattern = "water.cliff_wave.2",
+}
+
+tile{
+  layer = 0,
+  x = 112,
+  y = 640,
+  width = 144,
+  height = 8,
+  pattern = "water.cliff.2",
+}
+
+tile{
+  layer = 0,
+  x = 80,
+  y = 624,
+  width = 16,
+  height = 16,
+  pattern = "cliff.top.border.diag.3",
+}
+
+tile{
+  layer = 0,
+  x = 96,
+  y = 640,
+  width = 16,
+  height = 16,
+  pattern = "cliff.top.border.diag.3",
+}
+
+tile{
+  layer = 0,
+  x = 64,
+  y = 608,
+  width = 16,
+  height = 16,
+  pattern = "cliff.top.border.diag.3",
+}
+
+tile{
+  layer = 0,
+  x = 256,
+  y = 640,
+  width = 16,
+  height = 16,
+  pattern = "cliff.top.border.diag.4",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 624,
+  width = 16,
+  height = 16,
+  pattern = "cliff.top.border.diag.4",
+}
+
+tile{
+  layer = 0,
+  x = 288,
+  y = 608,
+  width = 16,
+  height = 16,
+  pattern = "cliff.top.border.diag.4",
+}
+
+tile{
+  layer = 0,
+  x = 64,
+  y = 592,
+  width = 16,
+  height = 16,
+  pattern = "water.cliff.3",
+}
+
+tile{
+  layer = 0,
+  x = 288,
+  y = 592,
+  width = 16,
+  height = 16,
+  pattern = "water.cliff.4",
+}
+
+tile{
+  layer = 0,
+  x = 288,
+  y = 576,
+  width = 16,
+  height = 16,
+  pattern = "cliff.corner.diag.2",
+}
+
+tile{
+  layer = 0,
+  x = 64,
+  y = 576,
+  width = 16,
+  height = 16,
+  pattern = "cliff.corner.diag.1",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 560,
+  width = 16,
+  height = 16,
+  pattern = "cliff.diag.2",
+}
+
+tile{
+  layer = 0,
+  x = 256,
+  y = 544,
+  width = 16,
+  height = 16,
+  pattern = "cliff.diag.2",
+}
+
+tile{
+  layer = 0,
+  x = 96,
+  y = 544,
+  width = 16,
+  height = 16,
+  pattern = "cliff.diag.1",
+}
+
+tile{
+  layer = 0,
+  x = 80,
+  y = 560,
+  width = 16,
+  height = 16,
+  pattern = "cliff.diag.1",
+}
+
+tile{
+  layer = 0,
+  x = 112,
+  y = 520,
+  width = 144,
+  height = 8,
+  pattern = "cliff.top.1",
+}
+
+tile{
+  layer = 0,
+  x = 112,
+  y = 528,
+  width = 144,
+  height = 16,
+  pattern = "cliff.1",
+}
+
+tile{
+  layer = 0,
+  x = 112,
+  y = 512,
+  width = 144,
+  height = 8,
+  pattern = "grass.cliff.top.1",
+}
+
+tile{
+  layer = 0,
+  x = 256,
+  y = 520,
+  width = 8,
+  height = 8,
+  pattern = "grass.cliff.top.diag.2",
+}
+
+tile{
+  layer = 0,
+  x = 264,
+  y = 528,
+  width = 8,
+  height = 8,
+  pattern = "grass.cliff.top.diag.2",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 536,
+  width = 8,
+  height = 8,
+  pattern = "grass.cliff.top.diag.2",
+}
+
+tile{
+  layer = 0,
+  x = 280,
+  y = 544,
+  width = 8,
+  height = 8,
+  pattern = "grass.cliff.top.diag.2",
+}
+
+tile{
+  layer = 0,
+  x = 288,
+  y = 552,
+  width = 8,
+  height = 8,
+  pattern = "grass.cliff.top.diag.2",
+}
+
+tile{
+  layer = 0,
+  x = 296,
+  y = 560,
+  width = 8,
+  height = 8,
+  pattern = "grass.cliff.top.diag.2",
+}
+
+tile{
+  layer = 0,
+  x = 104,
+  y = 520,
+  width = 8,
+  height = 8,
+  pattern = "grass.cliff.top.diag.1",
+}
+
+tile{
+  layer = 0,
+  x = 96,
+  y = 528,
+  width = 8,
+  height = 8,
+  pattern = "grass.cliff.top.diag.1",
+}
+
+tile{
+  layer = 0,
+  x = 88,
+  y = 536,
+  width = 8,
+  height = 8,
+  pattern = "grass.cliff.top.diag.1",
+}
+
+tile{
+  layer = 0,
+  x = 80,
+  y = 544,
+  width = 8,
+  height = 8,
+  pattern = "grass.cliff.top.diag.1",
+}
+
+tile{
+  layer = 0,
+  x = 72,
+  y = 552,
+  width = 8,
+  height = 8,
+  pattern = "grass.cliff.top.diag.1",
+}
+
+tile{
+  layer = 0,
+  x = 64,
+  y = 560,
+  width = 8,
+  height = 8,
+  pattern = "grass.cliff.top.diag.1",
+}
+
+tile{
+  layer = 0,
+  x = 64,
+  y = 616,
+  width = 8,
+  height = 8,
+  pattern = "grass.cliff.top.diag.3",
+}
+
+tile{
+  layer = 0,
+  x = 72,
+  y = 624,
+  width = 8,
+  height = 8,
+  pattern = "grass.cliff.top.diag.3",
+}
+
+tile{
+  layer = 0,
+  x = 80,
+  y = 632,
+  width = 8,
+  height = 8,
+  pattern = "grass.cliff.top.diag.3",
+}
+
+tile{
+  layer = 0,
+  x = 88,
+  y = 640,
+  width = 8,
+  height = 8,
+  pattern = "grass.cliff.top.diag.3",
+}
+
+tile{
+  layer = 0,
+  x = 96,
+  y = 648,
+  width = 8,
+  height = 8,
+  pattern = "grass.cliff.top.diag.3",
+}
+
+tile{
+  layer = 0,
+  x = 296,
+  y = 616,
+  width = 8,
+  height = 8,
+  pattern = "grass.cliff.top.diag.4",
+}
+
+tile{
+  layer = 0,
+  x = 288,
+  y = 624,
+  width = 8,
+  height = 8,
+  pattern = "grass.cliff.top.diag.4",
+}
+
+tile{
+  layer = 0,
+  x = 280,
+  y = 632,
+  width = 8,
+  height = 8,
+  pattern = "grass.cliff.top.diag.4",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 640,
+  width = 8,
+  height = 8,
+  pattern = "grass.cliff.top.diag.4",
+}
+
+tile{
+  layer = 0,
+  x = 264,
+  y = 648,
+  width = 8,
+  height = 8,
+  pattern = "grass.cliff.top.diag.4",
+}
+
+tile{
+  layer = 0,
+  x = 104,
+  y = 656,
+  width = 160,
+  height = 8,
+  pattern = "grass.cliff.top.2",
+}
+
+tile{
+  layer = 0,
+  x = 96,
+  y = 656,
+  width = 8,
+  height = 8,
+  pattern = "grass.cliff.top.diag.3b",
+}
+
+tile{
+  layer = 0,
+  x = 88,
+  y = 648,
+  width = 8,
+  height = 8,
+  pattern = "grass.cliff.top.diag.3b",
+}
+
+tile{
+  layer = 0,
+  x = 80,
+  y = 640,
+  width = 8,
+  height = 8,
+  pattern = "grass.cliff.top.diag.3b",
+}
+
+tile{
+  layer = 0,
+  x = 72,
+  y = 632,
+  width = 8,
+  height = 8,
+  pattern = "grass.cliff.top.diag.3b",
+}
+
+tile{
+  layer = 0,
+  x = 64,
+  y = 624,
+  width = 8,
+  height = 8,
+  pattern = "grass.cliff.top.diag.3b",
+}
+
+tile{
+  layer = 0,
+  x = 56,
+  y = 616,
+  width = 8,
+  height = 8,
+  pattern = "grass.cliff.top.diag.3b",
+}
+
+tile{
+  layer = 0,
+  x = 56,
+  y = 560,
+  width = 8,
+  height = 8,
+  pattern = "grass.cliff.top.diag.1b",
+}
+
+tile{
+  layer = 0,
+  x = 64,
+  y = 552,
+  width = 8,
+  height = 8,
+  pattern = "grass.cliff.top.diag.1b",
+}
+
+tile{
+  layer = 0,
+  x = 72,
+  y = 544,
+  width = 8,
+  height = 8,
+  pattern = "grass.cliff.top.diag.1b",
+}
+
+tile{
+  layer = 0,
+  x = 80,
+  y = 536,
+  width = 8,
+  height = 8,
+  pattern = "grass.cliff.top.diag.1b",
+}
+
+tile{
+  layer = 0,
+  x = 88,
+  y = 528,
+  width = 8,
+  height = 8,
+  pattern = "grass.cliff.top.diag.1b",
+}
+
+tile{
+  layer = 0,
+  x = 96,
+  y = 520,
+  width = 8,
+  height = 8,
+  pattern = "grass.cliff.top.diag.1b",
+}
+
+tile{
+  layer = 0,
+  x = 104,
+  y = 512,
+  width = 8,
+  height = 8,
+  pattern = "grass.cliff.top.diag.1b",
+}
+
+tile{
+  layer = 0,
+  x = 48,
+  y = 576,
+  width = 8,
+  height = 32,
+  pattern = "grass.cliff.top.3",
+}
+
+tile{
+  layer = 0,
+  x = 312,
+  y = 576,
+  width = 8,
+  height = 32,
+  pattern = "grass.cliff.top.4",
+}
+
+tile{
+  layer = 0,
+  x = 304,
+  y = 616,
+  width = 8,
+  height = 8,
+  pattern = "grass.cliff.top.diag.4b",
+}
+
+tile{
+  layer = 0,
+  x = 296,
+  y = 624,
+  width = 8,
+  height = 8,
+  pattern = "grass.cliff.top.diag.4b",
+}
+
+tile{
+  layer = 0,
+  x = 288,
+  y = 632,
+  width = 8,
+  height = 8,
+  pattern = "grass.cliff.top.diag.4b",
+}
+
+tile{
+  layer = 0,
+  x = 280,
+  y = 640,
+  width = 8,
+  height = 8,
+  pattern = "grass.cliff.top.diag.4b",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 648,
+  width = 8,
+  height = 8,
+  pattern = "grass.cliff.top.diag.4b",
+}
+
+tile{
+  layer = 0,
+  x = 264,
+  y = 656,
+  width = 8,
+  height = 8,
+  pattern = "grass.cliff.top.diag.4b",
+}
+
+tile{
+  layer = 0,
+  x = 304,
+  y = 560,
+  width = 8,
+  height = 8,
+  pattern = "grass.cliff.top.diag.2b",
+}
+
+tile{
+  layer = 0,
+  x = 296,
+  y = 552,
+  width = 8,
+  height = 8,
+  pattern = "grass.cliff.top.diag.2b",
+}
+
+tile{
+  layer = 0,
+  x = 288,
+  y = 544,
+  width = 8,
+  height = 8,
+  pattern = "grass.cliff.top.diag.2b",
+}
+
+tile{
+  layer = 0,
+  x = 280,
+  y = 536,
+  width = 8,
+  height = 8,
+  pattern = "grass.cliff.top.diag.2b",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 528,
+  width = 8,
+  height = 8,
+  pattern = "grass.cliff.top.diag.2b",
+}
+
+tile{
+  layer = 0,
+  x = 264,
+  y = 520,
+  width = 8,
+  height = 8,
+  pattern = "grass.cliff.top.diag.2b",
+}
+
+tile{
+  layer = 0,
+  x = 256,
+  y = 512,
+  width = 8,
+  height = 8,
+  pattern = "grass.cliff.top.diag.2b",
+}
+
+tile{
+  layer = 0,
+  x = 304,
+  y = 576,
+  width = 8,
+  height = 32,
+  pattern = "cliff.top.4",
+}
+
+tile{
+  layer = 0,
+  x = 56,
+  y = 576,
+  width = 8,
+  height = 32,
+  pattern = "cliff.top.3",
+}
+
+tile{
+  layer = 0,
+  x = 56,
+  y = 568,
+  width = 8,
+  height = 8,
+  pattern = "grass.cliff.top.diag.1",
+}
+
+tile{
+  layer = 0,
+  x = 56,
+  y = 608,
+  width = 8,
+  height = 8,
+  pattern = "grass.cliff.top.diag.3",
+}
+
+tile{
+  layer = 0,
+  x = 304,
+  y = 608,
+  width = 8,
+  height = 8,
+  pattern = "grass.cliff.top.diag.4",
+}
+
+tile{
+  layer = 0,
+  x = 304,
+  y = 568,
+  width = 8,
+  height = 8,
+  pattern = "grass.cliff.top.diag.2",
+}
+
+tile{
+  layer = 0,
+  x = 312,
+  y = 568,
+  width = 8,
+  height = 8,
+  pattern = "grass.cliff.top.diag.2b",
+}
+
+tile{
+  layer = 0,
+  x = 48,
+  y = 568,
+  width = 8,
+  height = 8,
+  pattern = "grass.cliff.top.diag.1b",
+}
+
+tile{
+  layer = 0,
+  x = 48,
+  y = 608,
+  width = 8,
+  height = 8,
+  pattern = "grass.cliff.top.diag.3b",
+}
+
+tile{
+  layer = 0,
+  x = 312,
+  y = 608,
+  width = 8,
+  height = 8,
+  pattern = "grass.cliff.top.diag.4b",
+}
+
+tile{
+  layer = 0,
+  x = 256,
+  y = 576,
+  width = 16,
+  height = 16,
+  pattern = "water.cliff_wave.diag.2b",
+}
+
+tile{
+  layer = 0,
+  x = 104,
+  y = 648,
+  width = 160,
+  height = 8,
+  pattern = "cliff.top.2",
+}
+
+tile{
+  layer = 0,
+  x = 416,
+  y = 672,
+  width = 16,
+  height = 16,
+  pattern = "grass.cliff.corner_reverse.diag.1",
+}
+
+tile{
+  layer = 0,
+  x = 416,
+  y = 608,
+  width = 16,
+  height = 64,
+  pattern = "grass.cliff.4",
+}
+
+tile{
+  layer = 0,
+  x = 416,
+  y = 592,
+  width = 16,
+  height = 16,
+  pattern = "grass.cliff.diag.4",
+}
+
+tile{
+  layer = 0,
+  x = 432,
+  y = 576,
+  width = 16,
+  height = 16,
+  pattern = "grass.cliff.diag.4",
+}
+
+tile{
+  layer = 0,
+  x = 416,
+  y = 688,
+  width = 16,
+  height = 16,
+  pattern = "grass.cliff.diag.2",
+}
+
+tile{
+  layer = 0,
+  x = 432,
+  y = 704,
+  width = 16,
+  height = 16,
+  pattern = "grass.cliff.diag.2",
+}
+
+tile{
+  layer = 0,
+  x = 448,
+  y = 704,
+  width = 240,
+  height = 16,
+  pattern = "grass.cliff.1",
+}
+
+tile{
+  layer = 0,
+  x = 448,
+  y = 576,
+  width = 240,
+  height = 8,
+  pattern = "grass.cliff.2",
+}
+
+tile{
+  layer = 0,
+  x = 688,
+  y = 576,
+  width = 16,
+  height = 16,
+  pattern = "grass.cliff.diag.3",
+}
+
+tile{
+  layer = 0,
+  x = 704,
+  y = 592,
+  width = 16,
+  height = 16,
+  pattern = "grass.cliff.diag.3",
+}
+
+tile{
+  layer = 0,
+  x = 688,
+  y = 704,
+  width = 16,
+  height = 16,
+  pattern = "grass.cliff.diag.1",
+}
+
+tile{
+  layer = 0,
+  x = 704,
+  y = 688,
+  width = 16,
+  height = 16,
+  pattern = "grass.cliff.diag.1",
+}
+
+tile{
+  layer = 0,
+  x = 704,
+  y = 608,
+  width = 16,
+  height = 64,
+  pattern = "grass.cliff.3",
+}
+
+tile{
+  layer = 0,
+  x = 704,
+  y = 672,
+  width = 16,
+  height = 16,
+  pattern = "grass.cliff.corner_reverse.diag.2",
+}
+
+tile{
+  layer = 0,
+  x = 432,
+  y = 592,
+  width = 16,
+  height = 16,
+  pattern = "cliff.top.border.diag.4",
+}
+
+tile{
+  layer = 0,
+  x = 688,
+  y = 592,
+  width = 16,
+  height = 16,
+  pattern = "cliff.top.border.diag.3",
+}
+
+tile{
+  layer = 0,
+  x = 432,
+  y = 672,
+  width = 16,
+  height = 16,
+  pattern = "cliff.top.border.diag.2",
+}
+
+tile{
+  layer = 0,
+  x = 688,
+  y = 672,
+  width = 16,
+  height = 16,
+  pattern = "cliff.top.border.diag.1",
+}
+
+tile{
+  layer = 0,
+  x = 432,
+  y = 688,
+  width = 16,
+  height = 16,
+  pattern = "cliff.diag.2",
+}
+
+tile{
+  layer = 0,
+  x = 688,
+  y = 688,
+  width = 16,
+  height = 16,
+  pattern = "cliff.diag.1",
+}
+
+tile{
+  layer = 0,
+  x = 448,
+  y = 688,
+  width = 240,
+  height = 16,
+  pattern = "cliff.1",
+}
+
+tile{
+  layer = 0,
+  x = 448,
+  y = 680,
+  width = 240,
+  height = 8,
+  pattern = "cliff.top.1",
+}
+
+tile{
+  layer = 0,
+  x = 448,
+  y = 592,
+  width = 240,
+  height = 8,
+  pattern = "cliff.top.2",
+}
+
+tile{
+  layer = 0,
+  x = 432,
+  y = 608,
+  width = 8,
+  height = 64,
+  pattern = "cliff.top.4",
+}
+
+tile{
+  layer = 0,
+  x = 696,
+  y = 608,
+  width = 8,
+  height = 64,
+  pattern = "cliff.top.3",
+}
+
+tile{
+  layer = 0,
+  x = 448,
+  y = 672,
+  width = 240,
+  height = 8,
+  pattern = "grass.cliff.top.1",
+}
+
+tile{
+  layer = 0,
+  x = 440,
+  y = 672,
+  width = 8,
+  height = 8,
+  pattern = "grass.cliff.top.diag.2",
+}
+
+tile{
+  layer = 0,
+  x = 688,
+  y = 672,
+  width = 8,
+  height = 8,
+  pattern = "grass.cliff.top.diag.1",
+}
+
+tile{
+  layer = 0,
+  x = 440,
+  y = 608,
+  width = 8,
+  height = 64,
+  pattern = "grass.cliff.top.4",
+}
+
+tile{
+  layer = 0,
+  x = 688,
+  y = 608,
+  width = 8,
+  height = 64,
+  pattern = "grass.cliff.top.3",
+}
+
+tile{
+  layer = 0,
+  x = 440,
+  y = 600,
+  width = 8,
+  height = 8,
+  pattern = "grass.cliff.top.diag.4",
+}
+
+tile{
+  layer = 0,
+  x = 688,
+  y = 600,
+  width = 8,
+  height = 8,
+  pattern = "grass.cliff.top.diag.3",
+}
+
+tile{
+  layer = 0,
+  x = 448,
+  y = 600,
+  width = 240,
+  height = 8,
+  pattern = "grass.cliff.top.2",
+}
+
+tile{
+  layer = 0,
+  x = 720,
+  y = 592,
+  width = 16,
+  height = 48,
+  pattern = "grass.under_bush",
+}
+
+tile{
+  layer = 0,
+  x = 736,
+  y = 576,
+  width = 16,
+  height = 48,
+  pattern = "grass.under_bush",
+}
+
+tile{
+  layer = 0,
+  x = 752,
+  y = 560,
+  width = 16,
+  height = 48,
+  pattern = "grass.under_bush",
+}
+
+tile{
+  layer = 0,
+  x = 672,
+  y = 736,
+  width = 16,
+  height = 16,
+  pattern = "forest.4",
+}
+
+tile{
+  layer = 0,
+  x = 672,
+  y = 752,
+  width = 16,
+  height = 16,
+  pattern = "forest.corner.4",
+}
+
+tile{
+  layer = 0,
+  x = 576,
+  y = 752,
+  width = 16,
+  height = 16,
+  pattern = "forest.corner.3",
+}
+
+tile{
+  layer = 0,
+  x = 592,
+  y = 752,
+  width = 80,
+  height = 16,
+  pattern = "forest.2",
+}
+
+tile{
+  layer = 0,
+  x = 576,
+  y = 736,
+  width = 16,
+  height = 16,
+  pattern = "forest.3",
+}
+
+tile{
+  layer = 0,
+  x = 576,
+  y = 720,
+  width = 16,
+  height = 16,
+  pattern = "forest.corner.1",
+}
+
+tile{
+  layer = 0,
+  x = 672,
+  y = 720,
+  width = 16,
+  height = 16,
+  pattern = "forest.corner.2",
+}
+
+tile{
+  layer = 0,
+  x = 592,
+  y = 720,
+  width = 80,
+  height = 16,
+  pattern = "forest.1",
+}
+
+tile{
+  layer = 0,
+  x = 592,
+  y = 736,
+  width = 80,
+  height = 16,
+  pattern = "forest",
+}
+
+tile{
+  layer = 0,
+  x = 552,
+  y = 680,
+  width = 16,
+  height = 40,
+  pattern = "ladder",
+}
+
+tile{
+  layer = 0,
+  x = 544,
+  y = 680,
+  width = 8,
+  height = 40,
+  pattern = "ladder.border.1",
+}
+
+tile{
+  layer = 0,
+  x = 568,
+  y = 680,
+  width = 8,
+  height = 40,
+  pattern = "ladder.border.2",
+}
+
+tile{
+  layer = 0,
+  x = 504,
+  y = 776,
+  width = 16,
+  height = 40,
+  pattern = "ladder",
+}
+
+tile{
+  layer = 0,
+  x = 496,
+  y = 776,
+  width = 8,
+  height = 40,
+  pattern = "ladder.border.1",
+}
+
+tile{
+  layer = 0,
+  x = 520,
+  y = 776,
+  width = 8,
+  height = 40,
+  pattern = "ladder.border.2",
+}
+
+tile{
+  layer = 0,
+  x = 680,
+  y = 776,
+  width = 16,
+  height = 40,
+  pattern = "ladder",
+}
+
+tile{
+  layer = 0,
+  x = 672,
+  y = 776,
+  width = 8,
+  height = 40,
+  pattern = "ladder.border.1",
+}
+
+tile{
+  layer = 0,
+  x = 696,
+  y = 776,
+  width = 8,
+  height = 40,
+  pattern = "ladder.border.2",
+}
+
+tile{
+  layer = 0,
+  x = 448,
+  y = 816,
+  width = 16,
+  height = 80,
+  pattern = "dirt.cliff.3",
+}
+
+tile{
+  layer = 0,
+  x = 736,
+  y = 816,
+  width = 16,
+  height = 80,
+  pattern = "dirt.cliff.4",
+}
+
+tile{
+  layer = 0,
+  x = 464,
+  y = 896,
+  width = 272,
+  height = 8,
+  pattern = "dirt.cliff.2",
+}
+
+tile{
+  layer = 0,
+  x = 448,
+  y = 800,
+  width = 16,
+  height = 16,
+  pattern = "cliff.corner.diag.1",
+}
+
+tile{
+  layer = 0,
+  x = 736,
+  y = 800,
+  width = 16,
+  height = 16,
+  pattern = "cliff.corner.diag.2",
+}
+
+tile{
+  layer = 0,
+  x = 440,
+  y = 800,
+  width = 8,
+  height = 96,
+  pattern = "cliff.top.3",
+}
+
+tile{
+  layer = 0,
+  x = 752,
+  y = 800,
+  width = 8,
+  height = 96,
+  pattern = "cliff.top.4",
+}
+
+tile{
+  layer = 0,
+  x = 464,
+  y = 768,
+  width = 272,
+  height = 8,
+  pattern = "grass.cliff.top.1",
+}
+
+tile{
+  layer = 0,
+  x = 448,
+  y = 784,
+  width = 16,
+  height = 16,
+  pattern = "cliff.top.border.diag.1",
+}
+
+tile{
+  layer = 0,
+  x = 736,
+  y = 784,
+  width = 16,
+  height = 16,
+  pattern = "cliff.top.border.diag.2",
+}
+
+tile{
+  layer = 0,
+  x = 736,
+  y = 776,
+  width = 8,
+  height = 8,
+  pattern = "grass.cliff.top.diag.2",
+}
+
+tile{
+  layer = 0,
+  x = 744,
+  y = 784,
+  width = 8,
+  height = 8,
+  pattern = "grass.cliff.top.diag.2",
+}
+
+tile{
+  layer = 0,
+  x = 752,
+  y = 792,
+  width = 8,
+  height = 8,
+  pattern = "grass.cliff.top.diag.2",
+}
+
+tile{
+  layer = 0,
+  x = 456,
+  y = 776,
+  width = 8,
+  height = 8,
+  pattern = "grass.cliff.top.diag.1",
+}
+
+tile{
+  layer = 0,
+  x = 448,
+  y = 784,
+  width = 8,
+  height = 8,
+  pattern = "grass.cliff.top.diag.1",
+}
+
+tile{
+  layer = 0,
+  x = 440,
+  y = 792,
+  width = 8,
+  height = 8,
+  pattern = "grass.cliff.top.diag.1",
+}
+
+tile{
+  layer = 0,
+  x = 432,
+  y = 792,
+  width = 8,
+  height = 8,
+  pattern = "grass.cliff.top.diag.1b",
+}
+
+tile{
+  layer = 0,
+  x = 440,
+  y = 784,
+  width = 8,
+  height = 8,
+  pattern = "grass.cliff.top.diag.1b",
+}
+
+tile{
+  layer = 0,
+  x = 448,
+  y = 776,
+  width = 8,
+  height = 8,
+  pattern = "grass.cliff.top.diag.1b",
+}
+
+tile{
+  layer = 0,
+  x = 456,
+  y = 768,
+  width = 8,
+  height = 8,
+  pattern = "grass.cliff.top.diag.1b",
+}
+
+tile{
+  layer = 0,
+  x = 736,
+  y = 768,
+  width = 8,
+  height = 8,
+  pattern = "grass.cliff.top.diag.2b",
+}
+
+tile{
+  layer = 0,
+  x = 744,
+  y = 776,
+  width = 8,
+  height = 8,
+  pattern = "grass.cliff.top.diag.2b",
+}
+
+tile{
+  layer = 0,
+  x = 752,
+  y = 784,
+  width = 8,
+  height = 8,
+  pattern = "grass.cliff.top.diag.2b",
+}
+
+tile{
+  layer = 0,
+  x = 760,
+  y = 792,
+  width = 8,
+  height = 8,
+  pattern = "grass.cliff.top.diag.2b",
+}
+
+tile{
+  layer = 0,
+  x = 432,
+  y = 800,
+  width = 8,
+  height = 96,
+  pattern = "grass.cliff.top.3",
+}
+
+tile{
+  layer = 0,
+  x = 760,
+  y = 800,
+  width = 8,
+  height = 96,
+  pattern = "grass.cliff.top.4",
+}
+
+tile{
+  layer = 0,
+  x = 448,
+  y = 896,
+  width = 16,
+  height = 16,
+  pattern = "cliff.top.border.diag.3",
+}
+
+tile{
+  layer = 0,
+  x = 736,
+  y = 896,
+  width = 16,
+  height = 16,
+  pattern = "cliff.top.border.diag.4",
+}
+
+tile{
+  layer = 0,
+  x = 440,
+  y = 896,
+  width = 8,
+  height = 8,
+  pattern = "grass.cliff.top.diag.3",
+}
+
+tile{
+  layer = 0,
+  x = 448,
+  y = 904,
+  width = 8,
+  height = 8,
+  pattern = "grass.cliff.top.diag.3",
+}
+
+tile{
+  layer = 0,
+  x = 456,
+  y = 912,
+  width = 8,
+  height = 8,
+  pattern = "grass.cliff.top.diag.3",
+}
+
+tile{
+  layer = 0,
+  x = 752,
+  y = 896,
+  width = 8,
+  height = 8,
+  pattern = "grass.cliff.top.diag.4",
+}
+
+tile{
+  layer = 0,
+  x = 744,
+  y = 904,
+  width = 8,
+  height = 8,
+  pattern = "grass.cliff.top.diag.4",
+}
+
+tile{
+  layer = 0,
+  x = 736,
+  y = 912,
+  width = 8,
+  height = 8,
+  pattern = "grass.cliff.top.diag.4",
+}
+
+tile{
+  layer = 0,
+  x = 760,
+  y = 896,
+  width = 8,
+  height = 8,
+  pattern = "grass.cliff.top.diag.4b",
+}
+
+tile{
+  layer = 0,
+  x = 752,
+  y = 904,
+  width = 8,
+  height = 8,
+  pattern = "grass.cliff.top.diag.4b",
+}
+
+tile{
+  layer = 0,
+  x = 744,
+  y = 912,
+  width = 8,
+  height = 8,
+  pattern = "grass.cliff.top.diag.4b",
+}
+
+tile{
+  layer = 0,
+  x = 736,
+  y = 920,
+  width = 8,
+  height = 8,
+  pattern = "grass.cliff.top.diag.4b",
+}
+
+tile{
+  layer = 0,
+  x = 464,
+  y = 920,
+  width = 272,
+  height = 8,
+  pattern = "grass.cliff.top.2",
+}
+
+tile{
+  layer = 0,
+  x = 432,
+  y = 896,
+  width = 8,
+  height = 8,
+  pattern = "grass.cliff.top.diag.3b",
+}
+
+tile{
+  layer = 0,
+  x = 440,
+  y = 904,
+  width = 8,
+  height = 8,
+  pattern = "grass.cliff.top.diag.3b",
+}
+
+tile{
+  layer = 0,
+  x = 448,
+  y = 912,
+  width = 8,
+  height = 8,
+  pattern = "grass.cliff.top.diag.3b",
+}
+
+tile{
+  layer = 0,
+  x = 456,
+  y = 920,
+  width = 8,
+  height = 8,
+  pattern = "grass.cliff.top.diag.3b",
+}
+
+tile{
+  layer = 0,
+  x = 464,
+  y = 912,
+  width = 272,
+  height = 8,
+  pattern = "cliff.top.2",
+}
+
+tile{
+  layer = 0,
+  x = 464,
+  y = 816,
+  width = 272,
+  height = 80,
+  pattern = "dirt.soil",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 944,
+  width = 1248,
+  height = 8,
+  pattern = "cliff.top.2",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 952,
+  width = 1248,
+  height = 8,
+  pattern = "sand.soil.1",
+}
+
+tile{
+  layer = 0,
+  x = 768,
+  y = 864,
+  width = 16,
+  height = 16,
+  pattern = "grass.flower_double",
+}
+
+tile{
+  layer = 0,
+  x = 768,
+  y = 800,
+  width = 32,
+  height = 32,
+  pattern = "grass.stump",
+}
+
+tile{
+  layer = 0,
+  x = 800,
+  y = 816,
+  width = 32,
+  height = 32,
+  pattern = "grass.stump",
+}
+
+tile{
+  layer = 0,
+  x = 856,
+  y = 888,
+  width = 352,
+  height = 8,
+  pattern = "cliff.2",
+}
+
+tile{
+  layer = 0,
+  x = 864,
+  y = 776,
+  width = 96,
+  height = 8,
+  pattern = "cliff.top.1",
+}
+
+tile{
+  layer = 0,
+  x = 864,
+  y = 784,
+  width = 96,
+  height = 16,
+  pattern = "cliff.1",
+}
+
+tile{
+  layer = 0,
+  x = 864,
+  y = 800,
+  width = 96,
+  height = 16,
+  pattern = "dirt.cliff.1",
+}
+
+tile{
+  layer = 0,
+  x = 904,
+  y = 776,
+  width = 16,
+  height = 40,
+  pattern = "ladder",
+}
+
+tile{
+  layer = 0,
+  x = 896,
+  y = 776,
+  width = 8,
+  height = 40,
+  pattern = "ladder.border.1",
+}
+
+tile{
+  layer = 0,
+  x = 920,
+  y = 776,
+  width = 8,
+  height = 40,
+  pattern = "ladder.border.2",
+}
+
+tile{
+  layer = 0,
+  x = 848,
+  y = 816,
+  width = 16,
+  height = 64,
+  pattern = "dirt.cliff.3",
+}
+
+tile{
+  layer = 0,
+  x = 1200,
+  y = 768,
+  width = 16,
+  height = 112,
+  pattern = "dirt.cliff.4",
+}
+
+tile{
+  layer = 0,
+  x = 864,
+  y = 880,
+  width = 336,
+  height = 8,
+  pattern = "dirt.cliff.2",
+}
+
+tile{
+  layer = 0,
+  x = 848,
+  y = 800,
+  width = 16,
+  height = 16,
+  pattern = "cliff.corner.diag.1",
+}
+
+tile{
+  layer = 0,
+  x = 1200,
+  y = 752,
+  width = 16,
+  height = 16,
+  pattern = "cliff.corner.diag.2",
+}
+
+tile{
+  layer = 0,
+  x = 840,
+  y = 800,
+  width = 8,
+  height = 80,
+  pattern = "cliff.top.3",
+}
+
+tile{
+  layer = 0,
+  x = 1216,
+  y = 752,
+  width = 8,
+  height = 128,
+  pattern = "cliff.top.4",
+}
+
+tile{
+  layer = 0,
+  x = 864,
+  y = 768,
+  width = 96,
+  height = 8,
+  pattern = "grass.cliff.top.1",
+}
+
+tile{
+  layer = 0,
+  x = 848,
+  y = 784,
+  width = 16,
+  height = 16,
+  pattern = "cliff.top.border.diag.1",
+}
+
+tile{
+  layer = 0,
+  x = 1200,
+  y = 736,
+  width = 16,
+  height = 16,
+  pattern = "cliff.top.border.diag.2",
+}
+
+tile{
+  layer = 0,
+  x = 1200,
+  y = 728,
+  width = 8,
+  height = 8,
+  pattern = "grass.cliff.top.diag.2",
+}
+
+tile{
+  layer = 0,
+  x = 1208,
+  y = 736,
+  width = 8,
+  height = 8,
+  pattern = "grass.cliff.top.diag.2",
+}
+
+tile{
+  layer = 0,
+  x = 1216,
+  y = 744,
+  width = 8,
+  height = 8,
+  pattern = "grass.cliff.top.diag.2",
+}
+
+tile{
+  layer = 0,
+  x = 856,
+  y = 776,
+  width = 8,
+  height = 8,
+  pattern = "grass.cliff.top.diag.1",
+}
+
+tile{
+  layer = 0,
+  x = 848,
+  y = 784,
+  width = 8,
+  height = 8,
+  pattern = "grass.cliff.top.diag.1",
+}
+
+tile{
+  layer = 0,
+  x = 840,
+  y = 792,
+  width = 8,
+  height = 8,
+  pattern = "grass.cliff.top.diag.1",
+}
+
+tile{
+  layer = 0,
+  x = 832,
+  y = 792,
+  width = 8,
+  height = 8,
+  pattern = "grass.cliff.top.diag.1b",
+}
+
+tile{
+  layer = 0,
+  x = 840,
+  y = 784,
+  width = 8,
+  height = 8,
+  pattern = "grass.cliff.top.diag.1b",
+}
+
+tile{
+  layer = 0,
+  x = 848,
+  y = 776,
+  width = 8,
+  height = 8,
+  pattern = "grass.cliff.top.diag.1b",
+}
+
+tile{
+  layer = 0,
+  x = 856,
+  y = 768,
+  width = 8,
+  height = 8,
+  pattern = "grass.cliff.top.diag.1b",
+}
+
+tile{
+  layer = 0,
+  x = 1200,
+  y = 720,
+  width = 8,
+  height = 8,
+  pattern = "grass.cliff.top.diag.2b",
+}
+
+tile{
+  layer = 0,
+  x = 1208,
+  y = 728,
+  width = 8,
+  height = 8,
+  pattern = "grass.cliff.top.diag.2b",
+}
+
+tile{
+  layer = 0,
+  x = 1216,
+  y = 736,
+  width = 8,
+  height = 8,
+  pattern = "grass.cliff.top.diag.2b",
+}
+
+tile{
+  layer = 0,
+  x = 1224,
+  y = 744,
+  width = 8,
+  height = 8,
+  pattern = "grass.cliff.top.diag.2b",
+}
+
+tile{
+  layer = 0,
+  x = 832,
+  y = 800,
+  width = 8,
+  height = 80,
+  pattern = "grass.cliff.top.3",
+}
+
+tile{
+  layer = 0,
+  x = 1224,
+  y = 752,
+  width = 8,
+  height = 128,
+  pattern = "grass.cliff.top.4",
+}
+
+tile{
+  layer = 0,
+  x = 848,
+  y = 880,
+  width = 16,
+  height = 16,
+  pattern = "cliff.top.border.diag.3",
+}
+
+tile{
+  layer = 0,
+  x = 1200,
+  y = 880,
+  width = 16,
+  height = 16,
+  pattern = "cliff.top.border.diag.4",
+}
+
+tile{
+  layer = 0,
+  x = 840,
+  y = 880,
+  width = 8,
+  height = 8,
+  pattern = "grass.cliff.top.diag.3",
+}
+
+tile{
+  layer = 0,
+  x = 848,
+  y = 888,
+  width = 8,
+  height = 8,
+  pattern = "grass.cliff.top.diag.3",
+}
+
+tile{
+  layer = 0,
+  x = 856,
+  y = 896,
+  width = 8,
+  height = 8,
+  pattern = "grass.cliff.top.diag.3",
+}
+
+tile{
+  layer = 0,
+  x = 1216,
+  y = 880,
+  width = 8,
+  height = 8,
+  pattern = "grass.cliff.top.diag.4",
+}
+
+tile{
+  layer = 0,
+  x = 1208,
+  y = 888,
+  width = 8,
+  height = 8,
+  pattern = "grass.cliff.top.diag.4",
+}
+
+tile{
+  layer = 0,
+  x = 1200,
+  y = 896,
+  width = 8,
+  height = 8,
+  pattern = "grass.cliff.top.diag.4",
+}
+
+tile{
+  layer = 0,
+  x = 1224,
+  y = 880,
+  width = 8,
+  height = 8,
+  pattern = "grass.cliff.top.diag.4b",
+}
+
+tile{
+  layer = 0,
+  x = 1216,
+  y = 888,
+  width = 8,
+  height = 8,
+  pattern = "grass.cliff.top.diag.4b",
+}
+
+tile{
+  layer = 0,
+  x = 1208,
+  y = 896,
+  width = 8,
+  height = 8,
+  pattern = "grass.cliff.top.diag.4b",
+}
+
+tile{
+  layer = 0,
+  x = 1200,
+  y = 904,
+  width = 8,
+  height = 8,
+  pattern = "grass.cliff.top.diag.4b",
+}
+
+tile{
+  layer = 0,
+  x = 864,
+  y = 904,
+  width = 336,
+  height = 8,
+  pattern = "grass.cliff.top.2",
+}
+
+tile{
+  layer = 0,
+  x = 832,
+  y = 880,
+  width = 8,
+  height = 8,
+  pattern = "grass.cliff.top.diag.3b",
+}
+
+tile{
+  layer = 0,
+  x = 840,
+  y = 888,
+  width = 8,
+  height = 8,
+  pattern = "grass.cliff.top.diag.3b",
+}
+
+tile{
+  layer = 0,
+  x = 848,
+  y = 896,
+  width = 8,
+  height = 8,
+  pattern = "grass.cliff.top.diag.3b",
+}
+
+tile{
+  layer = 0,
+  x = 856,
+  y = 904,
+  width = 8,
+  height = 8,
+  pattern = "grass.cliff.top.diag.3b",
+}
+
+tile{
+  layer = 0,
+  x = 864,
+  y = 896,
+  width = 336,
+  height = 8,
+  pattern = "cliff.top.2",
+}
+
+tile{
+  layer = 0,
+  x = 864,
+  y = 816,
+  width = 336,
+  height = 64,
+  pattern = "dirt.soil",
+}
+
+tile{
+  layer = 0,
+  x = 992,
+  y = 728,
+  width = 208,
+  height = 8,
+  pattern = "cliff.top.1",
+}
+
+tile{
+  layer = 0,
+  x = 992,
+  y = 736,
+  width = 208,
+  height = 16,
+  pattern = "cliff.1",
+}
+
+tile{
+  layer = 0,
+  x = 992,
+  y = 752,
+  width = 208,
+  height = 16,
+  pattern = "dirt.cliff.1",
+}
+
+tile{
+  layer = 0,
+  x = 1112,
+  y = 728,
+  width = 16,
+  height = 40,
+  pattern = "ladder",
+}
+
+tile{
+  layer = 0,
+  x = 1104,
+  y = 728,
+  width = 8,
+  height = 40,
+  pattern = "ladder.border.1",
+}
+
+tile{
+  layer = 0,
+  x = 1128,
+  y = 728,
+  width = 8,
+  height = 40,
+  pattern = "ladder.border.2",
+}
+
+tile{
+  layer = 0,
+  x = 992,
+  y = 720,
+  width = 208,
+  height = 8,
+  pattern = "grass.cliff.top.1",
+}
+
+tile{
+  layer = 0,
+  x = 976,
+  y = 736,
+  width = 16,
+  height = 16,
+  pattern = "cliff.top.border.diag.1",
+}
+
+tile{
+  layer = 0,
+  x = 984,
+  y = 728,
+  width = 8,
+  height = 8,
+  pattern = "grass.cliff.top.diag.1",
+}
+
+tile{
+  layer = 0,
+  x = 976,
+  y = 736,
+  width = 8,
+  height = 8,
+  pattern = "grass.cliff.top.diag.1",
+}
+
+tile{
+  layer = 0,
+  x = 968,
+  y = 744,
+  width = 8,
+  height = 8,
+  pattern = "grass.cliff.top.diag.1",
+}
+
+tile{
+  layer = 0,
+  x = 960,
+  y = 744,
+  width = 8,
+  height = 8,
+  pattern = "grass.cliff.top.diag.1b",
+}
+
+tile{
+  layer = 0,
+  x = 968,
+  y = 736,
+  width = 8,
+  height = 8,
+  pattern = "grass.cliff.top.diag.1b",
+}
+
+tile{
+  layer = 0,
+  x = 976,
+  y = 728,
+  width = 8,
+  height = 8,
+  pattern = "grass.cliff.top.diag.1b",
+}
+
+tile{
+  layer = 0,
+  x = 984,
+  y = 720,
+  width = 8,
+  height = 8,
+  pattern = "grass.cliff.top.diag.1b",
+}
+
+tile{
+  layer = 0,
+  x = 960,
+  y = 752,
+  width = 8,
+  height = 16,
+  pattern = "grass.cliff.top.3",
+}
+
+tile{
+  layer = 0,
+  x = 960,
+  y = 768,
+  width = 8,
+  height = 8,
+  pattern = "grass.cliff.top.diag.1",
+}
+
+tile{
+  layer = 0,
+  x = 976,
+  y = 752,
+  width = 16,
+  height = 16,
+  pattern = "cliff.corner.diag.1",
+}
+
+tile{
+  layer = 0,
+  x = 968,
+  y = 752,
+  width = 8,
+  height = 16,
+  pattern = "cliff.top.3",
+}
+
+tile{
+  layer = 0,
+  x = 960,
+  y = 800,
+  width = 16,
+  height = 16,
+  pattern = "dirt.cliff.diag.1",
+}
+
+tile{
+  layer = 0,
+  x = 976,
+  y = 784,
+  width = 16,
+  height = 16,
+  pattern = "dirt.cliff.diag.1",
+}
+
+tile{
+  layer = 0,
+  x = 960,
+  y = 784,
+  width = 16,
+  height = 16,
+  pattern = "cliff.diag.1",
+}
+
+tile{
+  layer = 0,
+  x = 976,
+  y = 768,
+  width = 16,
+  height = 16,
+  pattern = "dirt.cliff.corner_reverse.diag.2",
+}
+
+tile{
+  layer = 0,
+  x = 1232,
+  y = 832,
+  width = 16,
+  height = 8,
+  pattern = "grass.weed",
+}
+
+tile{
+  layer = 0,
+  x = 1128,
+  y = 656,
+  width = 8,
+  height = 16,
+  pattern = "dungeon_c.steps.4",
+}
+
+tile{
+  layer = 0,
+  x = 1112,
+  y = 656,
+  width = 16,
+  height = 16,
+  pattern = "dungeon_c.steps",
+}
+
+tile{
+  layer = 0,
+  x = 1104,
+  y = 656,
+  width = 8,
+  height = 16,
+  pattern = "dungeon_c.steps.3",
+}
+
+tile{
+  layer = 0,
+  x = 1088,
+  y = 688,
+  width = 16,
+  height = 16,
+  pattern = "grass.under_sign",
+}
+
+tile{
+  layer = 0,
+  x = 1088,
+  y = 648,
+  width = 16,
+  height = 24,
+  pattern = "dungeon_c.pillar",
+}
+
+tile{
+  layer = 0,
+  x = 1136,
+  y = 648,
+  width = 16,
+  height = 24,
+  pattern = "dungeon_c.pillar",
+}
+
+tile{
+  layer = 0,
+  x = 1088,
+  y = 528,
+  width = 64,
+  height = 8,
+  pattern = "dungeon_c.1",
+}
+
+tile{
+  layer = 0,
+  x = 1096,
+  y = 592,
+  width = 16,
+  height = 8,
+  pattern = "dungeon_c.entrance.border.3",
+}
+
+tile{
+  layer = 0,
+  x = 1128,
+  y = 592,
+  width = 16,
+  height = 8,
+  pattern = "dungeon_c.entrance.border.4",
+}
+
+tile{
+  layer = 0,
+  x = 1112,
+  y = 592,
+  width = 16,
+  height = 8,
+  pattern = "dungeon_c.entrance.1",
+}
+
+tile{
+  layer = 0,
+  x = 1112,
+  y = 600,
+  width = 16,
+  height = 16,
+  pattern = "dungeon_c.entrance",
+}
+
+tile{
+  layer = 0,
+  x = 1104,
+  y = 600,
+  width = 8,
+  height = 8,
+  pattern = "dungeon_c.entrance.border.1",
+}
+
+tile{
+  layer = 0,
+  x = 1128,
+  y = 600,
+  width = 8,
+  height = 8,
+  pattern = "dungeon_c.entrance.border.2",
+}
+
+tile{
+  layer = 0,
+  x = 1112,
+  y = 616,
+  width = 16,
+  height = 40,
+  pattern = "dungeon_c.floor",
+}
+
+tile{
+  layer = 0,
+  x = 1104,
+  y = 608,
+  width = 8,
+  height = 48,
+  pattern = "castle.floor",
+}
+
+tile{
+  layer = 0,
+  x = 1128,
+  y = 608,
+  width = 8,
+  height = 48,
+  pattern = "castle.floor",
+}
+
+tile{
+  layer = 0,
+  x = 1152,
+  y = 560,
+  width = 16,
+  height = 8,
+  pattern = "grass.weed",
+}
+
+tile{
+  layer = 0,
+  x = 1120,
+  y = 672,
+  width = 16,
+  height = 8,
+  pattern = "grass.weed",
+}
+
+tile{
+  layer = 0,
+  x = 1056,
+  y = 616,
+  width = 16,
+  height = 8,
+  pattern = "grass.weed",
+}
+
+tile{
+  layer = 0,
+  x = 1040,
+  y = 704,
+  width = 16,
+  height = 8,
+  pattern = "grass.weed",
+}
+
+tile{
+  layer = 0,
+  x = 960,
+  y = 640,
+  width = 16,
+  height = 8,
+  pattern = "grass.weed",
+}
+
+tile{
+  layer = 0,
+  x = 880,
+  y = 672,
+  width = 16,
+  height = 8,
+  pattern = "grass.weed",
+}
+
+tile{
+  layer = 0,
+  x = 1072,
+  y = 512,
+  width = 16,
+  height = 16,
+  pattern = "grass.flower_double",
+}
+
+tile{
+  layer = 0,
+  x = 1184,
+  y = 656,
+  width = 16,
+  height = 16,
+  pattern = "grass.flower_double",
+}
+
+tile{
+  layer = 0,
+  x = 928,
+  y = 736,
+  width = 16,
+  height = 16,
+  pattern = "grass.flower_double",
+}
+
+tile{
+  layer = 0,
+  x = 1024,
+  y = 432,
+  width = 176,
+  height = 32,
+  pattern = "forest",
+}
+
+tile{
+  layer = 0,
+  x = 1024,
+  y = 464,
+  width = 8,
+  height = 8,
+  pattern = "forest",
+}
+
+tile{
+  layer = 0,
+  x = 984,
+  y = 528,
+  width = 8,
+  height = 8,
+  pattern = "forest",
+}
+
+tile{
+  layer = 0,
+  x = 992,
+  y = 528,
+  width = 32,
+  height = 160,
+  pattern = "forest",
+}
+
+tile{
+  layer = 0,
+  x = 880,
+  y = 400,
+  width = 96,
+  height = 8,
+  pattern = "forest",
+}
+
+tile{
+  layer = 0,
+  x = 912,
+  y = 416,
+  width = 8,
+  height = 8,
+  pattern = "forest.flower",
+}
+
+tile{
+  layer = 0,
+  x = 992,
+  y = 464,
+  width = 8,
+  height = 8,
+  pattern = "forest.flower",
+}
+
+tile{
+  layer = 0,
+  x = 960,
+  y = 520,
+  width = 8,
+  height = 8,
+  pattern = "forest.flower",
+}
+
+tile{
+  layer = 0,
+  x = 1008,
+  y = 576,
+  width = 8,
+  height = 8,
+  pattern = "forest.flower",
+}
+
+tile{
+  layer = 0,
+  x = 992,
+  y = 656,
+  width = 8,
+  height = 8,
+  pattern = "forest.flower",
+}
+
+tile{
+  layer = 0,
+  x = 920,
+  y = 424,
+  width = 8,
+  height = 8,
+  pattern = "forest.grass",
+}
+
+tile{
+  layer = 0,
+  x = 1000,
+  y = 472,
+  width = 8,
+  height = 8,
+  pattern = "forest.grass",
+}
+
+tile{
+  layer = 0,
+  x = 1016,
+  y = 584,
+  width = 8,
+  height = 8,
+  pattern = "forest.grass",
+}
+
+tile{
+  layer = 0,
+  x = 1192,
+  y = 456,
+  width = 8,
+  height = 8,
+  pattern = "forest.grass",
+}
+
+tile{
+  layer = 0,
+  x = 1224,
+  y = 696,
+  width = 8,
+  height = 8,
+  pattern = "forest.grass",
+}
+
+tile{
+  layer = 0,
+  x = 1216,
+  y = 688,
+  width = 8,
+  height = 8,
+  pattern = "forest.flower",
+}
+
+tile{
+  layer = 0,
+  x = 1216,
+  y = 616,
+  width = 8,
+  height = 8,
+  pattern = "forest.flower",
+}
+
+tile{
+  layer = 0,
+  x = 1216,
+  y = 528,
+  width = 8,
+  height = 8,
+  pattern = "forest.flower",
+}
+
+tile{
+  layer = 0,
+  x = 1184,
+  y = 448,
+  width = 8,
+  height = 8,
+  pattern = "forest.flower",
+}
+
+tile{
+  layer = 0,
+  x = 1104,
+  y = 432,
+  width = 8,
+  height = 8,
+  pattern = "forest.flower",
+}
+
+tile{
+  layer = 0,
+  x = 720,
+  y = 432,
+  width = 16,
+  height = 16,
+  pattern = "cliff.top.border.diag.3",
+}
+
+tile{
+  layer = 0,
+  x = 640,
+  y = 432,
+  width = 16,
+  height = 16,
+  pattern = "cliff.top.border.diag.4",
+}
+
+tile{
+  layer = 0,
+  x = 640,
+  y = 512,
+  width = 16,
+  height = 16,
+  pattern = "cliff.top.border.diag.2",
+}
+
+tile{
+  layer = 0,
+  x = 656,
+  y = 544,
+  width = 64,
+  height = 16,
+  pattern = "grass.cliff.1",
+}
+
+tile{
+  layer = 0,
+  x = 656,
+  y = 528,
+  width = 64,
+  height = 16,
+  pattern = "cliff.1",
+}
+
+tile{
+  layer = 0,
+  x = 656,
+  y = 520,
+  width = 64,
+  height = 8,
+  pattern = "cliff.top.1",
+}
+
+tile{
+  layer = 0,
+  x = 656,
+  y = 512,
+  width = 64,
+  height = 8,
+  pattern = "grass.cliff.top.1",
+}
+
+tile{
+  layer = 0,
+  x = 720,
+  y = 544,
+  width = 16,
+  height = 16,
+  pattern = "grass.cliff.diag.1",
+}
+
+tile{
+  layer = 0,
+  x = 720,
+  y = 528,
+  width = 16,
+  height = 16,
+  pattern = "cliff.diag.1",
+}
+
+tile{
+  layer = 0,
+  x = 720,
+  y = 512,
+  width = 16,
+  height = 16,
+  pattern = "cliff.top.border.diag.1",
+}
+
+tile{
+  layer = 0,
+  x = 720,
+  y = 512,
+  width = 8,
+  height = 8,
+  pattern = "grass.cliff.top.diag.1",
+}
+
+tile{
+  layer = 0,
+  x = 736,
+  y = 528,
+  width = 16,
+  height = 16,
+  pattern = "grass.cliff.diag.1",
+}
+
+tile{
+  layer = 0,
+  x = 720,
+  y = 448,
+  width = 8,
+  height = 64,
+  pattern = "grass.cliff.top.3",
+}
+
+tile{
+  layer = 0,
+  x = 728,
+  y = 448,
+  width = 8,
+  height = 64,
+  pattern = "cliff.top.3",
+}
+
+tile{
+  layer = 0,
+  x = 736,
+  y = 448,
+  width = 16,
+  height = 64,
+  pattern = "grass.cliff.3",
+}
+
+tile{
+  layer = 0,
+  x = 736,
+  y = 512,
+  width = 16,
+  height = 16,
+  pattern = "grass.cliff.corner_reverse.diag.2",
+}
+
+tile{
+  layer = 0,
+  x = 640,
+  y = 544,
+  width = 16,
+  height = 16,
+  pattern = "grass.cliff.diag.2",
+}
+
+tile{
+  layer = 0,
+  x = 624,
+  y = 528,
+  width = 16,
+  height = 16,
+  pattern = "grass.cliff.diag.2",
+}
+
+tile{
+  layer = 0,
+  x = 624,
+  y = 512,
+  width = 16,
+  height = 16,
+  pattern = "grass.cliff.corner_reverse.diag.1",
+}
+
+tile{
+  layer = 0,
+  x = 624,
+  y = 448,
+  width = 16,
+  height = 64,
+  pattern = "grass.cliff.4",
+}
+
+tile{
+  layer = 0,
+  x = 640,
+  y = 448,
+  width = 8,
+  height = 64,
+  pattern = "cliff.top.4",
+}
+
+tile{
+  layer = 0,
+  x = 648,
+  y = 448,
+  width = 8,
+  height = 64,
+  pattern = "grass.cliff.top.4",
+}
+
+tile{
+  layer = 0,
+  x = 648,
+  y = 512,
+  width = 8,
+  height = 8,
+  pattern = "grass.cliff.top.diag.2",
+}
+
+tile{
+  layer = 0,
+  x = 640,
+  y = 528,
+  width = 16,
+  height = 16,
+  pattern = "cliff.diag.2",
+}
+
+tile{
+  layer = 0,
+  x = 624,
+  y = 432,
+  width = 16,
+  height = 16,
+  pattern = "grass.cliff.diag.4",
+}
+
+tile{
+  layer = 0,
+  x = 736,
+  y = 432,
+  width = 16,
+  height = 16,
+  pattern = "grass.cliff.diag.3",
+}
+
+tile{
+  layer = 0,
+  x = 656,
+  y = 416,
+  width = 64,
+  height = 8,
+  pattern = "grass.cliff.2",
+}
+
+tile{
+  layer = 0,
+  x = 656,
+  y = 424,
+  width = 64,
+  height = 8,
+  pattern = "cliff.2",
+}
+
+tile{
+  layer = 0,
+  x = 656,
+  y = 432,
+  width = 64,
+  height = 8,
+  pattern = "cliff.top.2",
+}
+
+tile{
+  layer = 0,
+  x = 656,
+  y = 440,
+  width = 64,
+  height = 8,
+  pattern = "grass.cliff.top.2",
+}
+
+tile{
+  layer = 0,
+  x = 720,
+  y = 416,
+  width = 16,
+  height = 16,
+  pattern = "grass.cliff.diag.3",
+}
+
+tile{
+  layer = 0,
+  x = 640,
+  y = 416,
+  width = 16,
+  height = 16,
+  pattern = "grass.cliff.diag.4",
+}
+
+tile{
+  layer = 0,
+  x = 720,
+  y = 440,
+  width = 8,
+  height = 8,
+  pattern = "grass.cliff.top.diag.3",
+}
+
+tile{
+  layer = 0,
+  x = 648,
+  y = 440,
+  width = 8,
+  height = 8,
+  pattern = "grass.cliff.top.diag.4",
+}
+
+tile{
+  layer = 0,
+  x = 712,
+  y = 424,
+  width = 16,
+  height = 8,
+  pattern = "cliff.corner_reverse.diag.3",
+}
+
+tile{
+  layer = 0,
+  x = 648,
+  y = 424,
+  width = 16,
+  height = 8,
+  pattern = "cliff.corner_reverse.diag.4",
+}
+
+tile{
+  layer = 0,
+  x = 912,
+  y = 464,
+  width = 16,
+  height = 16,
+  pattern = "cliff.top.border.diag.3",
+}
+
+tile{
+  layer = 0,
+  x = 784,
+  y = 464,
+  width = 16,
+  height = 16,
+  pattern = "cliff.top.border.diag.4",
+}
+
+tile{
+  layer = 0,
+  x = 784,
+  y = 592,
+  width = 16,
+  height = 16,
+  pattern = "cliff.top.border.diag.2",
+}
+
+tile{
+  layer = 0,
+  x = 800,
+  y = 624,
+  width = 112,
+  height = 16,
+  pattern = "grass.cliff.1",
+}
+
+tile{
+  layer = 0,
+  x = 800,
+  y = 608,
+  width = 112,
+  height = 16,
+  pattern = "cliff.1",
+}
+
+tile{
+  layer = 0,
+  x = 800,
+  y = 600,
+  width = 112,
+  height = 8,
+  pattern = "cliff.top.1",
+}
+
+tile{
+  layer = 0,
+  x = 800,
+  y = 592,
+  width = 112,
+  height = 8,
+  pattern = "grass.cliff.top.1",
+}
+
+tile{
+  layer = 0,
+  x = 912,
+  y = 624,
+  width = 16,
+  height = 16,
+  pattern = "grass.cliff.diag.1",
+}
+
+tile{
+  layer = 0,
+  x = 912,
+  y = 608,
+  width = 16,
+  height = 16,
+  pattern = "cliff.diag.1",
+}
+
+tile{
+  layer = 0,
+  x = 912,
+  y = 592,
+  width = 16,
+  height = 16,
+  pattern = "cliff.top.border.diag.1",
+}
+
+tile{
+  layer = 0,
+  x = 912,
+  y = 592,
+  width = 8,
+  height = 8,
+  pattern = "grass.cliff.top.diag.1",
+}
+
+tile{
+  layer = 0,
+  x = 928,
+  y = 608,
+  width = 16,
+  height = 16,
+  pattern = "grass.cliff.diag.1",
+}
+
+tile{
+  layer = 0,
+  x = 912,
+  y = 480,
+  width = 8,
+  height = 112,
+  pattern = "grass.cliff.top.3",
+}
+
+tile{
+  layer = 0,
+  x = 920,
+  y = 480,
+  width = 8,
+  height = 112,
+  pattern = "cliff.top.3",
+}
+
+tile{
+  layer = 0,
+  x = 928,
+  y = 480,
+  width = 16,
+  height = 112,
+  pattern = "grass.cliff.3",
+}
+
+tile{
+  layer = 0,
+  x = 928,
+  y = 592,
+  width = 16,
+  height = 16,
+  pattern = "grass.cliff.corner_reverse.diag.2",
+}
+
+tile{
+  layer = 0,
+  x = 784,
+  y = 624,
+  width = 16,
+  height = 16,
+  pattern = "grass.cliff.diag.2",
+}
+
+tile{
+  layer = 0,
+  x = 768,
+  y = 608,
+  width = 16,
+  height = 16,
+  pattern = "grass.cliff.diag.2",
+}
+
+tile{
+  layer = 0,
+  x = 768,
+  y = 592,
+  width = 16,
+  height = 16,
+  pattern = "grass.cliff.corner_reverse.diag.1",
+}
+
+tile{
+  layer = 0,
+  x = 768,
+  y = 480,
+  width = 16,
+  height = 112,
+  pattern = "grass.cliff.4",
+}
+
+tile{
+  layer = 0,
+  x = 784,
+  y = 480,
+  width = 8,
+  height = 112,
+  pattern = "cliff.top.4",
+}
+
+tile{
+  layer = 0,
+  x = 792,
+  y = 480,
+  width = 8,
+  height = 112,
+  pattern = "grass.cliff.top.4",
+}
+
+tile{
+  layer = 0,
+  x = 792,
+  y = 592,
+  width = 8,
+  height = 8,
+  pattern = "grass.cliff.top.diag.2",
+}
+
+tile{
+  layer = 0,
+  x = 784,
+  y = 608,
+  width = 16,
+  height = 16,
+  pattern = "cliff.diag.2",
+}
+
+tile{
+  layer = 0,
+  x = 768,
+  y = 464,
+  width = 16,
+  height = 16,
+  pattern = "grass.cliff.diag.4",
+}
+
+tile{
+  layer = 0,
+  x = 928,
+  y = 464,
+  width = 16,
+  height = 16,
+  pattern = "grass.cliff.diag.3",
+}
+
+tile{
+  layer = 0,
+  x = 800,
+  y = 448,
+  width = 112,
+  height = 8,
+  pattern = "grass.cliff.2",
+}
+
+tile{
+  layer = 0,
+  x = 800,
+  y = 456,
+  width = 112,
+  height = 8,
+  pattern = "cliff.2",
+}
+
+tile{
+  layer = 0,
+  x = 800,
+  y = 464,
+  width = 112,
+  height = 8,
+  pattern = "cliff.top.2",
+}
+
+tile{
+  layer = 0,
+  x = 800,
+  y = 472,
+  width = 112,
+  height = 8,
+  pattern = "grass.cliff.top.2",
+}
+
+tile{
+  layer = 0,
+  x = 912,
+  y = 448,
+  width = 16,
+  height = 16,
+  pattern = "grass.cliff.diag.3",
+}
+
+tile{
+  layer = 0,
+  x = 784,
+  y = 448,
+  width = 16,
+  height = 16,
+  pattern = "grass.cliff.diag.4",
+}
+
+tile{
+  layer = 0,
+  x = 912,
+  y = 472,
+  width = 8,
+  height = 8,
+  pattern = "grass.cliff.top.diag.3",
+}
+
+tile{
+  layer = 0,
+  x = 792,
+  y = 472,
+  width = 8,
+  height = 8,
+  pattern = "grass.cliff.top.diag.4",
+}
+
+tile{
+  layer = 0,
+  x = 904,
+  y = 456,
+  width = 16,
+  height = 8,
+  pattern = "cliff.corner_reverse.diag.3",
+}
+
+tile{
+  layer = 0,
+  x = 792,
+  y = 456,
+  width = 16,
+  height = 8,
+  pattern = "cliff.corner_reverse.diag.4",
+}
+
+tile{
+  layer = 0,
+  x = 848,
+  y = 528,
+  width = 16,
+  height = 16,
+  pattern = "grass.under_bush",
+}
+
+tile{
+  layer = 0,
+  x = 656,
+  y = 496,
+  width = 16,
+  height = 8,
+  pattern = "grass.weed",
+}
+
+tile{
+  layer = 0,
+  x = 880,
+  y = 520,
+  width = 16,
+  height = 8,
+  pattern = "grass.weed",
+}
+
+tile{
+  layer = 0,
+  x = 832,
+  y = 576,
+  width = 16,
+  height = 8,
+  pattern = "grass.weed",
+}
+
+tile{
+  layer = 0,
+  x = 856,
+  y = 616,
+  width = 16,
+  height = 24,
+  pattern = "grass.cave_entrance",
+}
+
+tile{
+  layer = 0,
+  x = 872,
+  y = 616,
+  width = 8,
+  height = 24,
+  pattern = "grass.cave_entrance.border.2",
+}
+
+tile{
+  layer = 0,
+  x = 848,
+  y = 616,
+  width = 8,
+  height = 24,
+  pattern = "grass.cave_entrance.border.1",
+}
+
+tile{
+  layer = 0,
+  x = 848,
+  y = 608,
+  width = 32,
+  height = 8,
+  pattern = "cave_entrance.top",
+}
+
+tile{
+  layer = 0,
+  x = 896,
+  y = 576,
+  width = 16,
+  height = 16,
+  pattern = "grass.under_stone",
+}
+
+tile{
+  layer = 0,
+  x = 800,
+  y = 480,
+  width = 16,
+  height = 16,
+  pattern = "grass.flower_double",
+}
+
+tile{
+  layer = 0,
+  x = 752,
+  y = 640,
+  width = 16,
+  height = 16,
+  pattern = "grass.flower_double",
+}
+
+tile{
+  layer = 0,
+  x = 752,
+  y = 720,
+  width = 16,
+  height = 16,
+  pattern = "grass.under_bush",
+}
+
+tile{
+  layer = 0,
+  x = 856,
+  y = 720,
+  width = 8,
+  height = 16,
+  pattern = "grass.tree.roots.4",
+}
+
+tile{
+  layer = 0,
+  x = 800,
+  y = 720,
+  width = 8,
+  height = 16,
+  pattern = "grass.tree.roots.3",
+}
+
+tile{
+  layer = 0,
+  x = 808,
+  y = 744,
+  width = 48,
+  height = 8,
+  pattern = "grass.tree.roots.2",
+}
+
+tile{
+  layer = 0,
+  x = 376,
+  y = 560,
+  width = 8,
+  height = 16,
+  pattern = "grass.tree.roots.4",
+}
+
+tile{
+  layer = 0,
+  x = 320,
+  y = 560,
+  width = 8,
+  height = 16,
+  pattern = "grass.tree.roots.3",
+}
+
+tile{
+  layer = 0,
+  x = 328,
+  y = 584,
+  width = 48,
+  height = 8,
+  pattern = "grass.tree.roots.2",
+}
+
+tile{
+  layer = 0,
+  x = 504,
+  y = 544,
+  width = 8,
+  height = 16,
+  pattern = "grass.tree.roots.4",
+}
+
+tile{
+  layer = 0,
+  x = 448,
+  y = 544,
+  width = 8,
+  height = 16,
+  pattern = "grass.tree.roots.3",
+}
+
+tile{
+  layer = 0,
+  x = 456,
+  y = 568,
+  width = 48,
+  height = 8,
+  pattern = "grass.tree.roots.2",
+}
+
+tile{
+  layer = 0,
+  x = 600,
+  y = 528,
+  width = 8,
+  height = 16,
+  pattern = "grass.tree.roots.4",
+}
+
+tile{
+  layer = 0,
+  x = 544,
+  y = 528,
+  width = 8,
+  height = 16,
+  pattern = "grass.tree.roots.3",
+}
+
+tile{
+  layer = 0,
+  x = 552,
+  y = 552,
+  width = 48,
+  height = 8,
+  pattern = "grass.tree.roots.2",
+}
+
+tile{
+  layer = 0,
+  x = 584,
+  y = 432,
+  width = 8,
+  height = 16,
+  pattern = "grass.tree.roots.4",
+}
+
+tile{
+  layer = 0,
+  x = 528,
+  y = 432,
+  width = 8,
+  height = 16,
+  pattern = "grass.tree.roots.3",
+}
+
+tile{
+  layer = 0,
+  x = 536,
+  y = 456,
+  width = 48,
+  height = 8,
+  pattern = "grass.tree.roots.2",
+}
+
+tile{
+  layer = 0,
+  x = 488,
+  y = 400,
+  width = 8,
+  height = 16,
+  pattern = "grass.tree.roots.4",
+}
+
+tile{
+  layer = 0,
+  x = 432,
+  y = 400,
+  width = 8,
+  height = 16,
+  pattern = "grass.tree.roots.3",
+}
+
+tile{
+  layer = 0,
+  x = 440,
+  y = 424,
+  width = 48,
+  height = 8,
+  pattern = "grass.tree.roots.2",
+}
+
+tile{
+  layer = 0,
+  x = 280,
+  y = 464,
+  width = 8,
+  height = 16,
+  pattern = "grass.tree.roots.4",
+}
+
+tile{
+  layer = 0,
+  x = 224,
+  y = 464,
+  width = 8,
+  height = 16,
+  pattern = "grass.tree.roots.3",
+}
+
+tile{
+  layer = 0,
+  x = 232,
+  y = 488,
+  width = 48,
+  height = 8,
+  pattern = "grass.tree.roots.2",
+}
+
+tile{
+  layer = 0,
+  x = 424,
+  y = 464,
+  width = 8,
+  height = 16,
+  pattern = "grass.tree.roots.4",
+}
+
+tile{
+  layer = 0,
+  x = 368,
+  y = 464,
+  width = 8,
+  height = 16,
+  pattern = "grass.tree.roots.3",
+}
+
+tile{
+  layer = 0,
+  x = 376,
+  y = 488,
+  width = 48,
+  height = 8,
+  pattern = "grass.tree.roots.2",
+}
+
+tile{
+  layer = 0,
+  x = 328,
+  y = 384,
+  width = 8,
+  height = 16,
+  pattern = "grass.tree.roots.4",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 384,
+  width = 8,
+  height = 16,
+  pattern = "grass.tree.roots.3",
+}
+
+tile{
+  layer = 0,
+  x = 280,
+  y = 408,
+  width = 48,
+  height = 8,
+  pattern = "grass.tree.roots.2",
+}
+
+tile{
+  layer = 0,
+  x = 400,
+  y = 392,
+  width = 16,
+  height = 8,
+  pattern = "grass.weed",
+}
+
+tile{
+  layer = 0,
+  x = 448,
+  y = 456,
+  width = 16,
+  height = 8,
+  pattern = "grass.weed",
+}
+
+tile{
+  layer = 0,
+  x = 336,
+  y = 480,
+  width = 16,
+  height = 8,
+  pattern = "grass.weed",
+}
+
+tile{
+  layer = 0,
+  x = 304,
+  y = 544,
+  width = 16,
+  height = 8,
+  pattern = "grass.weed",
+}
+
+tile{
+  layer = 0,
+  x = 384,
+  y = 616,
+  width = 16,
+  height = 8,
+  pattern = "grass.weed",
+}
+
+tile{
+  layer = 0,
+  x = 528,
+  y = 656,
+  width = 16,
+  height = 8,
+  pattern = "grass.weed",
+}
+
+tile{
+  layer = 0,
+  x = 528,
+  y = 520,
+  width = 16,
+  height = 8,
+  pattern = "grass.weed",
+}
+
+tile{
+  layer = 0,
+  x = 624,
+  y = 392,
+  width = 16,
+  height = 8,
+  pattern = "grass.weed",
+}
+
+tile{
+  layer = 0,
+  x = 768,
+  y = 432,
+  width = 16,
+  height = 8,
+  pattern = "grass.weed",
+}
+
+tile{
+  layer = 0,
+  x = 704,
+  y = 368,
+  width = 16,
+  height = 16,
+  pattern = "grass.flower_double",
+}
+
+tile{
+  layer = 0,
+  x = 608,
+  y = 480,
+  width = 16,
+  height = 16,
+  pattern = "grass.flower_double",
+}
+
+tile{
+  layer = 0,
+  x = 512,
+  y = 400,
+  width = 16,
+  height = 16,
+  pattern = "grass.flower_double",
+}
+
+tile{
+  layer = 0,
+  x = 576,
+  y = 624,
+  width = 16,
+  height = 16,
+  pattern = "grass.flower_double",
+}
+
+tile{
+  layer = 0,
+  x = 448,
+  y = 608,
+  width = 16,
+  height = 16,
+  pattern = "grass.flower_double",
+}
+
+tile{
+  layer = 0,
+  x = 512,
+  y = 720,
+  width = 16,
+  height = 16,
+  pattern = "grass.flower_double",
+}
+
+tile{
+  layer = 0,
+  x = 320,
+  y = 432,
+  width = 16,
+  height = 16,
+  pattern = "grass.flower_double",
+}
+
+tile{
+  layer = 0,
+  x = 208,
+  y = 464,
+  width = 16,
+  height = 16,
+  pattern = "grass.flower_double",
+}
+
+tile{
+  layer = 0,
+  x = 480,
+  y = 760,
+  width = 16,
+  height = 8,
+  pattern = "grass.weed",
+}
+
+tile{
+  layer = 0,
+  x = 608,
+  y = 736,
+  width = 8,
+  height = 8,
+  pattern = "forest.flower",
+}
+
+tile{
+  layer = 0,
+  x = 544,
+  y = 720,
+  width = 32,
+  height = 16,
+  pattern = "grass.under_stone",
+}
+
+tile{
+  layer = 0,
+  x = 160,
+  y = 496,
+  width = 48,
+  height = 16,
+  pattern = "grass.under_bush",
+}
+
+tile{
+  layer = 0,
+  x = 64,
+  y = 496,
+  width = 16,
+  height = 16,
+  pattern = "grass.under_sign",
+}
+
+tile{
+  layer = 0,
+  x = 48,
+  y = 528,
+  width = 16,
+  height = 16,
+  pattern = "grass.flower_double",
+}
+
+tile{
+  layer = 0,
+  x = 32,
+  y = 472,
+  width = 16,
+  height = 8,
+  pattern = "grass.weed",
+}
+
+tile{
+  layer = 0,
+  x = 112,
+  y = 496,
+  width = 16,
+  height = 8,
+  pattern = "grass.weed",
+}
+
+tile{
+  layer = 0,
+  x = 288,
+  y = 128,
+  width = 16,
+  height = 16,
+  pattern = "grass.under_stone",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 144,
+  width = 16,
+  height = 16,
+  pattern = "grass.under_stone",
+}
+
+tile{
+  layer = 0,
+  x = 384,
+  y = 368,
+  width = 16,
+  height = 16,
+  pattern = "grass.under_stone",
+}
+
+tile{
+  layer = 0,
+  x = 224,
+  y = 496,
+  width = 16,
+  height = 16,
+  pattern = "grass.under_stone",
+}
+
+tile{
+  layer = 0,
+  x = 576,
+  y = 160,
+  width = 16,
+  height = 16,
+  pattern = "grass.under_stone",
+}
+
+tile{
+  layer = 0,
+  x = 1088,
+  y = 64,
+  width = 16,
+  height = 16,
+  pattern = "grass.under_stone",
+}
+
+tile{
+  layer = 0,
+  x = 944,
+  y = 176,
+  width = 16,
+  height = 16,
+  pattern = "grass.under_stone",
+}
+
+tile{
+  layer = 0,
+  x = 1232,
+  y = 128,
+  width = 16,
+  height = 16,
+  pattern = "grass.under_stone",
+}
+
+tile{
+  layer = 0,
+  x = 1136,
+  y = 400,
+  width = 16,
+  height = 16,
+  pattern = "grass.under_stone",
+}
+
+tile{
+  layer = 0,
+  x = 832,
+  y = 24,
+  width = 8,
+  height = 8,
+  pattern = "grass.shadow.diag.3",
+}
+
+tile{
+  layer = 0,
+  x = 904,
+  y = 88,
+  width = 8,
+  height = 8,
+  pattern = "grass.shadow.diag.4",
+}
+
+tile{
+  layer = 0,
+  x = 1104,
+  y = 88,
+  width = 8,
+  height = 8,
+  pattern = "grass.shadow.diag.3",
+}
+
+tile{
+  layer = 0,
+  x = 632,
+  y = 424,
+  width = 8,
+  height = 8,
+  pattern = "grass.shadow.diag.4",
+}
+
+tile{
+  layer = 0,
+  x = 776,
+  y = 456,
+  width = 8,
+  height = 8,
+  pattern = "grass.shadow.diag.4",
+}
+
+tile{
+  layer = 0,
+  x = 704,
+  y = 584,
+  width = 8,
+  height = 8,
+  pattern = "grass.shadow.diag.3",
+}
+
+tile{
+  layer = 0,
+  x = 928,
+  y = 456,
+  width = 8,
+  height = 8,
+  pattern = "grass.shadow.diag.3",
+}
+
+tile{
+  layer = 0,
+  x = 736,
+  y = 424,
+  width = 8,
+  height = 8,
+  pattern = "grass.shadow.diag.3",
+}
+
+tile{
+  layer = 0,
+  x = 424,
+  y = 584,
+  width = 8,
+  height = 8,
+  pattern = "grass.shadow.diag.4",
+}
+
+tile{
+  layer = 0,
+  x = 560,
+  y = 88,
+  width = 8,
+  height = 8,
+  pattern = "grass.shadow.diag.3",
+}
+
+tile{
+  layer = 0,
+  x = 392,
+  y = 88,
+  width = 8,
+  height = 8,
+  pattern = "grass.shadow.diag.4",
+}
+
+tile{
+  layer = 0,
+  x = 672,
+  y = 88,
+  width = 16,
+  height = 8,
+  pattern = "grass.weed",
+}
+
+tile{
+  layer = 0,
+  x = 768,
+  y = 136,
+  width = 16,
+  height = 8,
+  pattern = "grass.weed",
+}
+
+tile{
+  layer = 0,
+  x = 1272,
+  y = 0,
+  width = 8,
+  height = 928,
+  pattern = "sand.cliff.top.4",
+}
+
+tile{
+  layer = 0,
+  x = 1264,
+  y = 928,
+  width = 8,
+  height = 8,
+  pattern = "sand.cliff.top.diag.4",
+}
+
+tile{
+  layer = 0,
+  x = 1256,
+  y = 936,
+  width = 8,
+  height = 8,
+  pattern = "sand.cliff.top.diag.4",
+}
+
+tile{
+  layer = 0,
+  x = 1248,
+  y = 944,
+  width = 8,
+  height = 8,
+  pattern = "sand.cliff.top.diag.4",
+}
+
+tile{
+  layer = 0,
+  x = 1248,
+  y = 952,
+  width = 8,
+  height = 8,
+  pattern = "sand.cliff.top.diag.4b",
+}
+
+tile{
+  layer = 0,
+  x = 1256,
+  y = 944,
+  width = 8,
+  height = 8,
+  pattern = "sand.cliff.top.diag.4b",
+}
+
+tile{
+  layer = 0,
+  x = 1264,
+  y = 936,
+  width = 8,
+  height = 8,
+  pattern = "sand.cliff.top.diag.4b",
+}
+
+tile{
+  layer = 0,
+  x = 1272,
+  y = 928,
+  width = 8,
+  height = 8,
+  pattern = "sand.cliff.top.diag.4b",
 }
 
 destructible{
@@ -6704,315 +11114,315 @@ destructible{
 
 destructible{
   layer = 0,
+  x = 360,
+  y = 749,
+  treasure_name = "random",
+  sprite = "entities/bush_green",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 88,
+  y = 749,
+  treasure_name = "random",
+  sprite = "entities/bush_green",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 72,
+  y = 749,
+  treasure_name = "random",
+  sprite = "entities/bush_green",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 56,
+  y = 749,
+  treasure_name = "random",
+  sprite = "entities/bush_green",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 56,
+  y = 925,
+  treasure_name = "random",
+  sprite = "entities/bush_green",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 72,
+  y = 925,
+  treasure_name = "random",
+  sprite = "entities/bush_green",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 88,
+  y = 925,
+  treasure_name = "random",
+  sprite = "entities/bush_green",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 72,
+  y = 765,
+  treasure_name = "random",
+  sprite = "entities/bush_green",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 56,
+  y = 765,
+  treasure_name = "random",
+  sprite = "entities/bush_green",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 56,
+  y = 781,
+  treasure_name = "random",
+  sprite = "entities/bush_green",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 200,
+  y = 749,
+  treasure_name = "random",
+  sprite = "entities/bush_green",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 216,
+  y = 749,
+  treasure_name = "random",
+  sprite = "entities/bush_green",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 232,
+  y = 749,
+  treasure_name = "random",
+  sprite = "entities/bush_green",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 200,
+  y = 925,
+  treasure_name = "random",
+  sprite = "entities/bush_green",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 216,
+  y = 925,
+  treasure_name = "random",
+  sprite = "entities/bush_green",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 232,
+  y = 925,
+  treasure_name = "random",
+  sprite = "entities/bush_green",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 232,
+  y = 765,
+  treasure_name = "random",
+  sprite = "entities/bush_green",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 216,
+  y = 765,
+  treasure_name = "random",
+  sprite = "entities/bush_green",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 232,
+  y = 909,
+  treasure_name = "random",
+  sprite = "entities/bush_green",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 216,
+  y = 909,
+  treasure_name = "random",
+  sprite = "entities/bush_green",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 72,
+  y = 909,
+  treasure_name = "random",
+  sprite = "entities/bush_green",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 56,
+  y = 909,
+  treasure_name = "random",
+  sprite = "entities/bush_green",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 56,
+  y = 893,
+  treasure_name = "random",
+  sprite = "entities/bush_green",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 232,
+  y = 893,
+  treasure_name = "random",
+  sprite = "entities/bush_green",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 232,
+  y = 781,
+  treasure_name = "random",
+  sprite = "entities/bush_green",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 344,
+  y = 749,
+  treasure_name = "random",
+  sprite = "entities/bush_green",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 344,
+  y = 765,
+  treasure_name = "random",
+  sprite = "entities/bush_green",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 344,
+  y = 781,
+  treasure_name = "random",
+  sprite = "entities/bush_green",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
   x = 376,
-  y = 749,
-  treasure_name = "random",
-  sprite = "entities/bush_green",
-  destruction_sound = "bush",
-  weight = -1,
-  can_be_cut = true,
-}
-
-destructible{
-  layer = 0,
-  x = 88,
-  y = 749,
-  treasure_name = "random",
-  sprite = "entities/bush_green",
-  destruction_sound = "bush",
-  weight = -1,
-  can_be_cut = true,
-}
-
-destructible{
-  layer = 0,
-  x = 72,
-  y = 749,
-  treasure_name = "random",
-  sprite = "entities/bush_green",
-  destruction_sound = "bush",
-  weight = -1,
-  can_be_cut = true,
-}
-
-destructible{
-  layer = 0,
-  x = 56,
-  y = 749,
-  treasure_name = "random",
-  sprite = "entities/bush_green",
-  destruction_sound = "bush",
-  weight = -1,
-  can_be_cut = true,
-}
-
-destructible{
-  layer = 0,
-  x = 56,
-  y = 925,
-  treasure_name = "random",
-  sprite = "entities/bush_green",
-  destruction_sound = "bush",
-  weight = -1,
-  can_be_cut = true,
-}
-
-destructible{
-  layer = 0,
-  x = 72,
-  y = 925,
-  treasure_name = "random",
-  sprite = "entities/bush_green",
-  destruction_sound = "bush",
-  weight = -1,
-  can_be_cut = true,
-}
-
-destructible{
-  layer = 0,
-  x = 88,
-  y = 925,
-  treasure_name = "random",
-  sprite = "entities/bush_green",
-  destruction_sound = "bush",
-  weight = -1,
-  can_be_cut = true,
-}
-
-destructible{
-  layer = 0,
-  x = 72,
-  y = 765,
-  treasure_name = "random",
-  sprite = "entities/bush_green",
-  destruction_sound = "bush",
-  weight = -1,
-  can_be_cut = true,
-}
-
-destructible{
-  layer = 0,
-  x = 56,
-  y = 765,
-  treasure_name = "random",
-  sprite = "entities/bush_green",
-  destruction_sound = "bush",
-  weight = -1,
-  can_be_cut = true,
-}
-
-destructible{
-  layer = 0,
-  x = 56,
-  y = 781,
-  treasure_name = "random",
-  sprite = "entities/bush_green",
-  destruction_sound = "bush",
-  weight = -1,
-  can_be_cut = true,
-}
-
-destructible{
-  layer = 0,
-  x = 216,
-  y = 749,
-  treasure_name = "random",
-  sprite = "entities/bush_green",
-  destruction_sound = "bush",
-  weight = -1,
-  can_be_cut = true,
-}
-
-destructible{
-  layer = 0,
-  x = 232,
-  y = 749,
-  treasure_name = "random",
-  sprite = "entities/bush_green",
-  destruction_sound = "bush",
-  weight = -1,
-  can_be_cut = true,
-}
-
-destructible{
-  layer = 0,
-  x = 248,
-  y = 749,
-  treasure_name = "random",
-  sprite = "entities/bush_green",
-  destruction_sound = "bush",
-  weight = -1,
-  can_be_cut = true,
-}
-
-destructible{
-  layer = 0,
-  x = 216,
-  y = 925,
-  treasure_name = "random",
-  sprite = "entities/bush_green",
-  destruction_sound = "bush",
-  weight = -1,
-  can_be_cut = true,
-}
-
-destructible{
-  layer = 0,
-  x = 232,
-  y = 925,
-  treasure_name = "random",
-  sprite = "entities/bush_green",
-  destruction_sound = "bush",
-  weight = -1,
-  can_be_cut = true,
-}
-
-destructible{
-  layer = 0,
-  x = 248,
-  y = 925,
-  treasure_name = "random",
-  sprite = "entities/bush_green",
-  destruction_sound = "bush",
-  weight = -1,
-  can_be_cut = true,
-}
-
-destructible{
-  layer = 0,
-  x = 248,
-  y = 765,
-  treasure_name = "random",
-  sprite = "entities/bush_green",
-  destruction_sound = "bush",
-  weight = -1,
-  can_be_cut = true,
-}
-
-destructible{
-  layer = 0,
-  x = 232,
-  y = 765,
-  treasure_name = "random",
-  sprite = "entities/bush_green",
-  destruction_sound = "bush",
-  weight = -1,
-  can_be_cut = true,
-}
-
-destructible{
-  layer = 0,
-  x = 248,
-  y = 909,
-  treasure_name = "random",
-  sprite = "entities/bush_green",
-  destruction_sound = "bush",
-  weight = -1,
-  can_be_cut = true,
-}
-
-destructible{
-  layer = 0,
-  x = 232,
-  y = 909,
-  treasure_name = "random",
-  sprite = "entities/bush_green",
-  destruction_sound = "bush",
-  weight = -1,
-  can_be_cut = true,
-}
-
-destructible{
-  layer = 0,
-  x = 72,
-  y = 909,
-  treasure_name = "random",
-  sprite = "entities/bush_green",
-  destruction_sound = "bush",
-  weight = -1,
-  can_be_cut = true,
-}
-
-destructible{
-  layer = 0,
-  x = 56,
-  y = 909,
-  treasure_name = "random",
-  sprite = "entities/bush_green",
-  destruction_sound = "bush",
-  weight = -1,
-  can_be_cut = true,
-}
-
-destructible{
-  layer = 0,
-  x = 56,
-  y = 893,
-  treasure_name = "random",
-  sprite = "entities/bush_green",
-  destruction_sound = "bush",
-  weight = -1,
-  can_be_cut = true,
-}
-
-destructible{
-  layer = 0,
-  x = 248,
-  y = 893,
-  treasure_name = "random",
-  sprite = "entities/bush_green",
-  destruction_sound = "bush",
-  weight = -1,
-  can_be_cut = true,
-}
-
-destructible{
-  layer = 0,
-  x = 248,
-  y = 781,
-  treasure_name = "random",
-  sprite = "entities/bush_green",
-  destruction_sound = "bush",
-  weight = -1,
-  can_be_cut = true,
-}
-
-destructible{
-  layer = 0,
-  x = 360,
-  y = 749,
-  treasure_name = "random",
-  sprite = "entities/bush_green",
-  destruction_sound = "bush",
-  weight = -1,
-  can_be_cut = true,
-}
-
-destructible{
-  layer = 0,
-  x = 360,
-  y = 765,
-  treasure_name = "random",
-  sprite = "entities/bush_green",
-  destruction_sound = "bush",
-  weight = -1,
-  can_be_cut = true,
-}
-
-destructible{
-  layer = 0,
-  x = 360,
-  y = 781,
-  treasure_name = "random",
-  sprite = "entities/bush_green",
-  destruction_sound = "bush",
-  weight = -1,
-  can_be_cut = true,
-}
-
-destructible{
-  layer = 0,
-  x = 392,
   y = 701,
   treasure_name = "random",
   sprite = "entities/bush_green",
@@ -7023,7 +11433,7 @@ destructible{
 
 destructible{
   layer = 0,
-  x = 392,
+  x = 376,
   y = 717,
   treasure_name = "random",
   sprite = "entities/bush_green",
@@ -7034,7 +11444,7 @@ destructible{
 
 destructible{
   layer = 0,
-  x = 392,
+  x = 376,
   y = 733,
   treasure_name = "random",
   sprite = "entities/bush_green",
@@ -7045,7 +11455,7 @@ destructible{
 
 destructible{
   layer = 0,
-  x = 408,
+  x = 392,
   y = 685,
   treasure_name = "random",
   sprite = "entities/bush_green",
@@ -7056,7 +11466,7 @@ destructible{
 
 destructible{
   layer = 0,
-  x = 408,
+  x = 392,
   y = 701,
   treasure_name = "random",
   sprite = "entities/bush_green",
@@ -7067,7 +11477,7 @@ destructible{
 
 destructible{
   layer = 0,
-  x = 408,
+  x = 392,
   y = 717,
   treasure_name = "random",
   sprite = "entities/bush_green",
@@ -7078,7 +11488,7 @@ destructible{
 
 destructible{
   layer = 0,
-  x = 424,
+  x = 408,
   y = 669,
   treasure_name = "random",
   sprite = "entities/bush_green",
@@ -7089,7 +11499,7 @@ destructible{
 
 destructible{
   layer = 0,
-  x = 424,
+  x = 408,
   y = 685,
   treasure_name = "random",
   sprite = "entities/bush_green",
@@ -7100,7 +11510,7 @@ destructible{
 
 destructible{
   layer = 0,
-  x = 424,
+  x = 408,
   y = 701,
   treasure_name = "random",
   sprite = "entities/bush_green",
@@ -7111,8 +11521,8 @@ destructible{
 
 destructible{
   layer = 0,
-  x = 496,
-  y = 629,
+  x = 472,
+  y = 637,
   treasure_name = "random",
   sprite = "entities/bush_green",
   destruction_sound = "bush",
@@ -7122,8 +11532,8 @@ destructible{
 
 destructible{
   layer = 0,
-  x = 496,
-  y = 645,
+  x = 472,
+  y = 653,
   treasure_name = "random",
   sprite = "entities/bush_green",
   destruction_sound = "bush",
@@ -7133,8 +11543,8 @@ destructible{
 
 destructible{
   layer = 0,
-  x = 512,
-  y = 629,
+  x = 488,
+  y = 637,
   treasure_name = "random",
   sprite = "entities/bush_green",
   destruction_sound = "bush",
@@ -7144,13 +11554,687 @@ destructible{
 
 destructible{
   layer = 0,
-  x = 512,
-  y = 645,
+  x = 488,
+  y = 653,
   treasure_name = "random",
   sprite = "entities/bush_green",
   destruction_sound = "bush",
   weight = -1,
   can_be_cut = true,
+}
+
+custom_entity{
+  layer = 0,
+  x = 120,
+  y = 45,
+  width = 32,
+  height = 32,
+  direction = 0,
+  sprite = "entities/hook_tree_small_green",
+  model = "hookable",
+}
+
+custom_entity{
+  layer = 0,
+  x = 152,
+  y = 45,
+  width = 32,
+  height = 32,
+  direction = 0,
+  sprite = "entities/hook_tree_small_green",
+  model = "hookable",
+}
+
+custom_entity{
+  layer = 0,
+  x = 184,
+  y = 45,
+  width = 32,
+  height = 32,
+  direction = 0,
+  sprite = "entities/hook_tree_small_green",
+  model = "hookable",
+}
+
+custom_entity{
+  layer = 0,
+  x = 440,
+  y = 141,
+  width = 32,
+  height = 32,
+  direction = 0,
+  sprite = "entities/hook_tree_small_green",
+  model = "hookable",
+}
+
+custom_entity{
+  layer = 0,
+  x = 504,
+  y = 141,
+  width = 32,
+  height = 32,
+  direction = 0,
+  sprite = "entities/hook_tree_small_green",
+  model = "hookable",
+}
+
+custom_entity{
+  layer = 0,
+  x = 520,
+  y = 237,
+  width = 32,
+  height = 32,
+  direction = 0,
+  sprite = "entities/hook_tree_small_green",
+  model = "hookable",
+}
+
+custom_entity{
+  layer = 0,
+  x = 424,
+  y = 237,
+  width = 32,
+  height = 32,
+  direction = 0,
+  sprite = "entities/hook_tree_small_green",
+  model = "hookable",
+}
+
+custom_entity{
+  layer = 0,
+  x = 744,
+  y = 109,
+  width = 32,
+  height = 32,
+  direction = 0,
+  sprite = "entities/hook_tree_small_green",
+  model = "hookable",
+}
+
+custom_entity{
+  layer = 0,
+  x = 744,
+  y = 157,
+  width = 32,
+  height = 32,
+  direction = 0,
+  sprite = "entities/hook_tree_small_green",
+  model = "hookable",
+}
+
+custom_entity{
+  layer = 0,
+  x = 744,
+  y = 205,
+  width = 32,
+  height = 32,
+  direction = 0,
+  sprite = "entities/hook_tree_small_green",
+  model = "hookable",
+}
+
+custom_entity{
+  layer = 0,
+  x = 744,
+  y = 253,
+  width = 32,
+  height = 32,
+  direction = 0,
+  sprite = "entities/hook_tree_small_green",
+  model = "hookable",
+}
+
+custom_entity{
+  layer = 0,
+  x = 696,
+  y = 109,
+  width = 32,
+  height = 32,
+  direction = 0,
+  sprite = "entities/hook_tree_small_green",
+  model = "hookable",
+}
+
+custom_entity{
+  layer = 0,
+  x = 648,
+  y = 109,
+  width = 32,
+  height = 32,
+  direction = 0,
+  sprite = "entities/hook_tree_small_green",
+  model = "hookable",
+}
+
+custom_entity{
+  layer = 0,
+  x = 600,
+  y = 109,
+  width = 32,
+  height = 32,
+  direction = 0,
+  sprite = "entities/hook_tree_small_green",
+  model = "hookable",
+}
+
+custom_entity{
+  layer = 0,
+  x = 976,
+  y = 141,
+  width = 48,
+  height = 56,
+  direction = 0,
+  sprite = "entities/hook_tree_green",
+  model = "hookable",
+}
+
+custom_entity{
+  layer = 0,
+  x = 912,
+  y = 293,
+  width = 48,
+  height = 56,
+  direction = 0,
+  sprite = "entities/hook_tree_green",
+  model = "hookable",
+}
+
+custom_entity{
+  layer = 0,
+  x = 1208,
+  y = 61,
+  width = 32,
+  height = 32,
+  direction = 0,
+  sprite = "entities/hook_tree_small_green",
+  model = "hookable",
+}
+
+destructible{
+  layer = 0,
+  x = 728,
+  y = 605,
+  treasure_name = "random",
+  sprite = "entities/bush_green",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 728,
+  y = 621,
+  treasure_name = "random",
+  sprite = "entities/bush_green",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 728,
+  y = 637,
+  treasure_name = "random",
+  sprite = "entities/bush_green",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 744,
+  y = 589,
+  treasure_name = "random",
+  sprite = "entities/bush_green",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 744,
+  y = 605,
+  treasure_name = "random",
+  sprite = "entities/bush_green",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 744,
+  y = 621,
+  treasure_name = "random",
+  sprite = "entities/bush_green",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 760,
+  y = 573,
+  treasure_name = "random",
+  sprite = "entities/bush_green",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 760,
+  y = 589,
+  treasure_name = "random",
+  sprite = "entities/bush_green",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 760,
+  y = 605,
+  treasure_name = "random",
+  sprite = "entities/bush_green",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+}
+
+custom_entity{
+  layer = 0,
+  x = 648,
+  y = 637,
+  width = 32,
+  height = 32,
+  direction = 0,
+  sprite = "entities/hook_tree_small_green",
+  model = "hookable",
+}
+
+custom_entity{
+  layer = 0,
+  x = 792,
+  y = 909,
+  width = 32,
+  height = 32,
+  direction = 0,
+  sprite = "entities/hook_tree_small_green",
+  model = "hookable",
+}
+
+npc{
+  layer = 0,
+  x = 1096,
+  y = 701,
+  direction = 3,
+  subtype = 0,
+  sprite = "entities/sign",
+}
+
+custom_entity{
+  layer = 0,
+  x = 680,
+  y = 477,
+  width = 32,
+  height = 32,
+  direction = 0,
+  sprite = "entities/hook_tree_small_green",
+  model = "hookable",
+}
+
+custom_entity{
+  layer = 0,
+  x = 824,
+  y = 509,
+  width = 32,
+  height = 32,
+  direction = 0,
+  sprite = "entities/hook_tree_small_green",
+  model = "hookable",
+}
+
+destructible{
+  layer = 0,
+  x = 856,
+  y = 541,
+  treasure_name = "random",
+  sprite = "entities/bush_green",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 760,
+  y = 733,
+  treasure_name = "random",
+  sprite = "entities/bush_green",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+}
+
+custom_entity{
+  layer = 0,
+  x = 816,
+  y = 701,
+  width = 48,
+  height = 56,
+  direction = 0,
+  sprite = "entities/hook_tree_green",
+  model = "hookable",
+}
+
+custom_entity{
+  layer = 0,
+  x = 336,
+  y = 541,
+  width = 48,
+  height = 56,
+  direction = 0,
+  sprite = "entities/hook_tree_green",
+  model = "hookable",
+}
+
+custom_entity{
+  layer = 0,
+  x = 464,
+  y = 525,
+  width = 48,
+  height = 56,
+  direction = 0,
+  sprite = "entities/hook_tree_green",
+  model = "hookable",
+}
+
+custom_entity{
+  layer = 0,
+  x = 560,
+  y = 509,
+  width = 48,
+  height = 56,
+  direction = 0,
+  sprite = "entities/hook_tree_green",
+  model = "hookable",
+}
+
+custom_entity{
+  layer = 0,
+  x = 544,
+  y = 413,
+  width = 48,
+  height = 56,
+  direction = 0,
+  sprite = "entities/hook_tree_green",
+  model = "hookable",
+}
+
+custom_entity{
+  layer = 0,
+  x = 448,
+  y = 381,
+  width = 48,
+  height = 56,
+  direction = 0,
+  sprite = "entities/hook_tree_green",
+  model = "hookable",
+}
+
+custom_entity{
+  layer = 0,
+  x = 240,
+  y = 445,
+  width = 48,
+  height = 56,
+  direction = 0,
+  sprite = "entities/hook_tree_green",
+  model = "hookable",
+}
+
+custom_entity{
+  layer = 0,
+  x = 384,
+  y = 445,
+  width = 48,
+  height = 56,
+  direction = 0,
+  sprite = "entities/hook_tree_green",
+  model = "hookable",
+}
+
+custom_entity{
+  layer = 0,
+  x = 288,
+  y = 365,
+  width = 48,
+  height = 56,
+  direction = 0,
+  sprite = "entities/hook_tree_green",
+  model = "hookable",
+}
+
+destructible{
+  layer = 0,
+  x = 552,
+  y = 733,
+  treasure_name = "random",
+  sprite = "entities/stone_black",
+  destruction_sound = "stone",
+  weight = 2,
+  damage_on_enemies = 4,
+}
+
+destructible{
+  layer = 0,
+  x = 568,
+  y = 733,
+  treasure_name = "random",
+  sprite = "entities/stone_black",
+  destruction_sound = "stone",
+  weight = 2,
+  damage_on_enemies = 4,
+}
+
+destructible{
+  layer = 0,
+  x = 200,
+  y = 509,
+  treasure_name = "random",
+  sprite = "entities/bush_green",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 184,
+  y = 509,
+  treasure_name = "random",
+  sprite = "entities/bush_green",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 168,
+  y = 509,
+  treasure_name = "random",
+  sprite = "entities/bush_green",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+}
+
+npc{
+  layer = 0,
+  x = 72,
+  y = 509,
+  direction = 3,
+  subtype = 0,
+  sprite = "entities/sign",
+}
+
+destructible{
+  layer = 0,
+  x = 1144,
+  y = 413,
+  treasure_name = "random",
+  sprite = "entities/stone_black",
+  destruction_sound = "stone",
+  weight = 2,
+  damage_on_enemies = 4,
+}
+
+destructible{
+  layer = 0,
+  x = 1240,
+  y = 141,
+  treasure_name = "random",
+  sprite = "entities/stone_white",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 0,
+  x = 1096,
+  y = 77,
+  treasure_name = "random",
+  sprite = "entities/stone_white",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 0,
+  x = 952,
+  y = 189,
+  treasure_name = "random",
+  sprite = "entities/stone_white",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 0,
+  x = 904,
+  y = 589,
+  treasure_name = "random",
+  sprite = "entities/stone_white",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 0,
+  x = 232,
+  y = 509,
+  treasure_name = "random",
+  sprite = "entities/stone_white",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 0,
+  x = 392,
+  y = 381,
+  treasure_name = "random",
+  sprite = "entities/stone_white",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 0,
+  x = 584,
+  y = 173,
+  treasure_name = "random",
+  sprite = "entities/stone_white",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 0,
+  x = 280,
+  y = 157,
+  treasure_name = "random",
+  sprite = "entities/stone_white",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 0,
+  x = 296,
+  y = 141,
+  treasure_name = "random",
+  sprite = "entities/stone_white",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+wall{
+  layer = 0,
+  x = 624,
+  y = 128,
+  width = 96,
+  height = 64,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+tile{
+  layer = 1,
+  x = 248,
+  y = 816,
+  width = 8,
+  height = 48,
+  pattern = "trunk.entrance.3.top",
+}
+
+tile{
+  layer = 1,
+  x = 288,
+  y = 816,
+  width = 8,
+  height = 48,
+  pattern = "trunk.entrance.4.top",
+}
+
+tile{
+  layer = 1,
+  x = 256,
+  y = 816,
+  width = 32,
+  height = 48,
+  pattern = "trunk.top.2",
 }
 
 tile{
@@ -7192,7 +12276,7 @@ tile{
 tile{
   layer = 1,
   x = 896,
-  y = 280,
+  y = 272,
   width = 8,
   height = 40,
   pattern = "tree.green.3",
@@ -7201,7 +12285,7 @@ tile{
 tile{
   layer = 1,
   x = 904,
-  y = 272,
+  y = 264,
   width = 48,
   height = 16,
   pattern = "tree.green.2",
@@ -7210,7 +12294,7 @@ tile{
 tile{
   layer = 1,
   x = 952,
-  y = 280,
+  y = 272,
   width = 8,
   height = 40,
   pattern = "tree.green.4",
@@ -7219,7 +12303,7 @@ tile{
 tile{
   layer = 1,
   x = 904,
-  y = 288,
+  y = 280,
   width = 48,
   height = 40,
   pattern = "tree.green.1",
@@ -7227,108 +12311,496 @@ tile{
 
 tile{
   layer = 1,
-  x = 264,
-  y = 816,
+  x = 1144,
+  y = 536,
   width = 8,
-  height = 48,
-  pattern = "trunk.entrance.3.top",
+  height = 112,
+  pattern = "dungeon_c.roof.4",
 }
 
 tile{
   layer = 1,
-  x = 304,
-  y = 816,
+  x = 1088,
+  y = 536,
+  width = 8,
+  height = 112,
+  pattern = "dungeon_c.roof.3",
+}
+
+tile{
+  layer = 1,
+  x = 1136,
+  y = 544,
+  width = 8,
+  height = 32,
+  pattern = "dungeon_c.roof.4",
+}
+
+tile{
+  layer = 1,
+  x = 1096,
+  y = 544,
+  width = 8,
+  height = 32,
+  pattern = "dungeon_c.roof.3",
+}
+
+tile{
+  layer = 1,
+  x = 1096,
+  y = 576,
+  width = 48,
+  height = 16,
+  pattern = "dungeon_c.entrance.top",
+}
+
+tile{
+  layer = 1,
+  x = 1096,
+  y = 600,
   width = 8,
   height = 48,
-  pattern = "trunk.entrance.4.top",
+  pattern = "dungeon_c.roof.4",
+}
+
+tile{
+  layer = 1,
+  x = 1136,
+  y = 600,
+  width = 8,
+  height = 48,
+  pattern = "dungeon_c.roof.3",
+}
+
+tile{
+  layer = 1,
+  x = 800,
+  y = 680,
+  width = 8,
+  height = 40,
+  pattern = "tree.green.3",
+}
+
+tile{
+  layer = 1,
+  x = 808,
+  y = 672,
+  width = 48,
+  height = 16,
+  pattern = "tree.green.2",
+}
+
+tile{
+  layer = 1,
+  x = 856,
+  y = 680,
+  width = 8,
+  height = 40,
+  pattern = "tree.green.4",
+}
+
+tile{
+  layer = 1,
+  x = 808,
+  y = 688,
+  width = 48,
+  height = 40,
+  pattern = "tree.green.1",
+}
+
+tile{
+  layer = 1,
+  x = 320,
+  y = 520,
+  width = 8,
+  height = 40,
+  pattern = "tree.green.3",
+}
+
+tile{
+  layer = 1,
+  x = 328,
+  y = 512,
+  width = 48,
+  height = 16,
+  pattern = "tree.green.2",
+}
+
+tile{
+  layer = 1,
+  x = 376,
+  y = 520,
+  width = 8,
+  height = 40,
+  pattern = "tree.green.4",
+}
+
+tile{
+  layer = 1,
+  x = 328,
+  y = 528,
+  width = 48,
+  height = 40,
+  pattern = "tree.green.1",
+}
+
+tile{
+  layer = 1,
+  x = 448,
+  y = 504,
+  width = 8,
+  height = 40,
+  pattern = "tree.green.3",
+}
+
+tile{
+  layer = 1,
+  x = 456,
+  y = 496,
+  width = 48,
+  height = 16,
+  pattern = "tree.green.2",
+}
+
+tile{
+  layer = 1,
+  x = 504,
+  y = 504,
+  width = 8,
+  height = 40,
+  pattern = "tree.green.4",
+}
+
+tile{
+  layer = 1,
+  x = 456,
+  y = 512,
+  width = 48,
+  height = 40,
+  pattern = "tree.green.1",
+}
+
+tile{
+  layer = 1,
+  x = 544,
+  y = 488,
+  width = 8,
+  height = 40,
+  pattern = "tree.green.3",
+}
+
+tile{
+  layer = 1,
+  x = 552,
+  y = 480,
+  width = 48,
+  height = 16,
+  pattern = "tree.green.2",
+}
+
+tile{
+  layer = 1,
+  x = 600,
+  y = 488,
+  width = 8,
+  height = 40,
+  pattern = "tree.green.4",
+}
+
+tile{
+  layer = 1,
+  x = 552,
+  y = 496,
+  width = 48,
+  height = 40,
+  pattern = "tree.green.1",
+}
+
+tile{
+  layer = 1,
+  x = 528,
+  y = 392,
+  width = 8,
+  height = 40,
+  pattern = "tree.green.3",
+}
+
+tile{
+  layer = 1,
+  x = 536,
+  y = 384,
+  width = 48,
+  height = 16,
+  pattern = "tree.green.2",
+}
+
+tile{
+  layer = 1,
+  x = 584,
+  y = 392,
+  width = 8,
+  height = 40,
+  pattern = "tree.green.4",
+}
+
+tile{
+  layer = 1,
+  x = 536,
+  y = 400,
+  width = 48,
+  height = 40,
+  pattern = "tree.green.1",
+}
+
+tile{
+  layer = 1,
+  x = 432,
+  y = 360,
+  width = 8,
+  height = 40,
+  pattern = "tree.green.3",
+}
+
+tile{
+  layer = 1,
+  x = 440,
+  y = 352,
+  width = 48,
+  height = 16,
+  pattern = "tree.green.2",
+}
+
+tile{
+  layer = 1,
+  x = 488,
+  y = 360,
+  width = 8,
+  height = 40,
+  pattern = "tree.green.4",
+}
+
+tile{
+  layer = 1,
+  x = 440,
+  y = 368,
+  width = 48,
+  height = 40,
+  pattern = "tree.green.1",
+}
+
+tile{
+  layer = 1,
+  x = 224,
+  y = 424,
+  width = 8,
+  height = 40,
+  pattern = "tree.green.3",
+}
+
+tile{
+  layer = 1,
+  x = 232,
+  y = 416,
+  width = 48,
+  height = 16,
+  pattern = "tree.green.2",
+}
+
+tile{
+  layer = 1,
+  x = 280,
+  y = 424,
+  width = 8,
+  height = 40,
+  pattern = "tree.green.4",
+}
+
+tile{
+  layer = 1,
+  x = 232,
+  y = 432,
+  width = 48,
+  height = 40,
+  pattern = "tree.green.1",
+}
+
+tile{
+  layer = 1,
+  x = 368,
+  y = 424,
+  width = 8,
+  height = 40,
+  pattern = "tree.green.3",
+}
+
+tile{
+  layer = 1,
+  x = 376,
+  y = 416,
+  width = 48,
+  height = 16,
+  pattern = "tree.green.2",
+}
+
+tile{
+  layer = 1,
+  x = 424,
+  y = 424,
+  width = 8,
+  height = 40,
+  pattern = "tree.green.4",
+}
+
+tile{
+  layer = 1,
+  x = 376,
+  y = 432,
+  width = 48,
+  height = 40,
+  pattern = "tree.green.1",
 }
 
 tile{
   layer = 1,
   x = 272,
-  y = 816,
-  width = 32,
-  height = 48,
-  pattern = "trunk.top.2",
+  y = 344,
+  width = 8,
+  height = 40,
+  pattern = "tree.green.3",
 }
 
-block{
-  layer = 1,
-  x = 296,
-  y = 141,
-  sprite = "entities/stone_white",
-  pushable = true,
-  pullable = false,
-  maximum_moves = 1,
-}
-
-block{
+tile{
   layer = 1,
   x = 280,
-  y = 157,
-  sprite = "entities/stone_white",
-  pushable = true,
-  pullable = false,
-  maximum_moves = 1,
+  y = 336,
+  width = 48,
+  height = 16,
+  pattern = "tree.green.2",
 }
 
-block{
+tile{
   layer = 1,
-  x = 584,
-  y = 173,
-  sprite = "entities/stone_white",
-  pushable = true,
-  pullable = false,
-  maximum_moves = 1,
+  x = 328,
+  y = 344,
+  width = 8,
+  height = 40,
+  pattern = "tree.green.4",
 }
 
-block{
+tile{
   layer = 1,
-  x = 392,
-  y = 381,
-  sprite = "entities/stone_white",
-  pushable = true,
-  pullable = false,
-  maximum_moves = 1,
+  x = 280,
+  y = 352,
+  width = 48,
+  height = 40,
+  pattern = "tree.green.1",
 }
 
-block{
+tile{
   layer = 1,
   x = 1096,
-  y = 77,
-  sprite = "entities/stone_white",
-  pushable = true,
-  pullable = false,
-  maximum_moves = 1,
+  y = 536,
+  width = 48,
+  height = 8,
+  pattern = "dungeon_c.roof.1",
 }
 
-block{
+tile{
   layer = 1,
-  x = 952,
-  y = 189,
-  sprite = "entities/stone_white",
-  pushable = true,
-  pullable = false,
-  maximum_moves = 1,
+  x = 1104,
+  y = 568,
+  width = 32,
+  height = 8,
+  pattern = "dungeon_c.roof.2",
 }
 
-block{
+tile{
   layer = 1,
-  x = 1240,
-  y = 141,
-  sprite = "entities/stone_white",
-  pushable = true,
-  pullable = false,
-  maximum_moves = 1,
+  x = 1104,
+  y = 544,
+  width = 32,
+  height = 24,
+  pattern = "dungeon_c.roof",
 }
 
-block{
+tile{
   layer = 1,
-  x = 1128,
-  y = 413,
-  sprite = "entities/stone_black",
-  pushable = true,
-  pullable = false,
-  maximum_moves = 1,
+  x = 624,
+  y = 184,
+  width = 8,
+  height = 8,
+  pattern = "house.roof_leaves.corner.3",
+}
+
+tile{
+  layer = 1,
+  x = 632,
+  y = 128,
+  width = 80,
+  height = 8,
+  pattern = "house.roof_leaves.1",
+}
+
+tile{
+  layer = 1,
+  x = 632,
+  y = 136,
+  width = 80,
+  height = 48,
+  pattern = "house.roof_leaves",
+}
+
+tile{
+  layer = 1,
+  x = 712,
+  y = 136,
+  width = 8,
+  height = 48,
+  pattern = "house.roof_leaves.4",
+}
+
+tile{
+  layer = 1,
+  x = 624,
+  y = 136,
+  width = 8,
+  height = 48,
+  pattern = "house.roof_leaves.3",
+}
+
+tile{
+  layer = 1,
+  x = 712,
+  y = 184,
+  width = 8,
+  height = 8,
+  pattern = "house.roof_leaves.corner.4",
+}
+
+tile{
+  layer = 1,
+  x = 712,
+  y = 128,
+  width = 8,
+  height = 8,
+  pattern = "house.roof_leaves.corner.2",
+}
+
+tile{
+  layer = 1,
+  x = 624,
+  y = 128,
+  width = 8,
+  height = 8,
+  pattern = "house.roof_leaves.corner.1",
+}
+
+tile{
+  layer = 1,
+  x = 632,
+  y = 184,
+  width = 80,
+  height = 8,
+  pattern = "house.roof_leaves.2",
 }
 

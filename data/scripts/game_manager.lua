@@ -16,7 +16,7 @@ local game_manager = {}
 
 -- Sets initial values for a new savegame of this quest.
 local function initialize_new_savegame(game)
-  game:set_starting_location("intro")
+  game:set_starting_location("out/1")
   game:set_max_money(999)
   game:set_max_life(6)
   game:set_life(game:get_max_life())
