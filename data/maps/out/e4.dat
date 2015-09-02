@@ -12210,6 +12210,14 @@ wall{
   stops_projectiles = true,
 }
 
+destination{
+  name = "from_pit_house",
+  layer = 0,
+  x = 672,
+  y = 221,
+  direction = 3,
+}
+
 tile{
   layer = 1,
   x = 248,
