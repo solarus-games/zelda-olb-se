@@ -172,7 +172,7 @@ sprite{ id = "menus/dungeon_maps/map_8", description = "Dungeon 8 map" }
 sprite{ id = "menus/dungeon_maps/map_9", description = "Dungeon 9 map" }
 sprite{ id = "menus/hero_head", description = "Link head" }
 sprite{ id = "menus/item_cursor", description = "Item cursor" }
-sprite{ id = "menus/solarus_logo", description = "Menu: Solarus logo" }
+sprite{ id = "menus/solarus_logo", description = "Solarus logo" }
 sprite{ id = "npc/bird_green", description = "Green bird" }
 sprite{ id = "npc/blacksmith", description = "Blacksmith" }
 sprite{ id = "npc/book_old_man", description = "Old man with book" }
