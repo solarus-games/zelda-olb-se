@@ -4,6 +4,6 @@ quest{
   title_bar = "Zelda Oni Link Begins",
   normal_quest_size = "320x240",
   min_quest_size = "320x240",
-  max_quest_size = "320x240",
+  max_quest_size = "320x240"
 }
 
