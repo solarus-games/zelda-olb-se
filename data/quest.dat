@@ -6,3 +6,4 @@ quest{
   min_quest_size = "320x240",
   max_quest_size = "320x240",
 }
+
