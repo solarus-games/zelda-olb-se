@@ -5,7 +5,6 @@ properties{
   height = 960,
   world = "outside",
   num_layers = 3,
-  num_layers = 3,
   tileset = "light_world",
   music = "overworld",
 }

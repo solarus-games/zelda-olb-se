@@ -4,7 +4,6 @@ properties{
   width = 640,
   height = 480,
   num_layers = 3,
-  num_layers = 3,
   tileset = "dungeon_grayblue",
   music = "same",
 }

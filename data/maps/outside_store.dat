@@ -4,7 +4,6 @@ properties{
   width = 1280,
   height = 960,
   num_layers = 3,
-  num_layers = 3,
   tileset = "light_world",
   music = "same",
 }
