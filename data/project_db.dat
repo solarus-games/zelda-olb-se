@@ -1,5 +1,6 @@
 map{ id = "enemy_store", description = "Enemy Store" }
 map{ id = "inside_store", description = "Inside Store" }
+map{ id = "out/b4", description = "B4 (Swamp)" }
 map{ id = "out/c4", description = "C4 (Lake)" }
 map{ id = "out/e4", description = "E4 (Forest)" }
 map{ id = "outside_store", description = "Outside Store" }
