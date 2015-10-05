@@ -3,6 +3,7 @@ properties{
   y = 3360,
   width = 1280,
   height = 960,
+  num_layers = 3,
   world = "outside",
   tileset = "light_world",
   music = "overworld",
