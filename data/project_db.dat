@@ -1,10 +1,18 @@
 map{ id = "enemy_store", description = "Enemy Store" }
 map{ id = "inside_store", description = "Inside Store" }
 map{ id = "out/a1", description = "A1 (Mountains)" }
+map{ id = "out/a2", description = "A2 (Mido)" }
+map{ id = "out/a3", description = "A3 (Graveyard)" }
 map{ id = "out/a4", description = "A4 (Kasuto)" }
+map{ id = "out/b2", description = "B2 (West Plains)" }
 map{ id = "out/b4", description = "B4 (Swamp)" }
 map{ id = "out/c1", description = "C1 (Desert)" }
+map{ id = "out/c2", description = "C2 (Forgotten Land)" }
+map{ id = "out/c3", description = "C3 (Rauru)" }
 map{ id = "out/c4", description = "C4 (Lake)" }
+map{ id = "out/d2", description = "D2 (Latouane)" }
+map{ id = "out/d3", description = "D3 (East Plains)" }
+map{ id = "out/e2", description = "E2 (Ruto)" }
 map{ id = "out/e4", description = "E4 (Forest)" }
 map{ id = "outside_store", description = "Outside Store" }
 

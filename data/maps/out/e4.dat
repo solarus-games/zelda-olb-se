@@ -6,7 +6,7 @@ properties{
   num_layers = 4,
   world = "outside",
   tileset = "light_world",
-  music = "overworld",
+  music = "lost_woods",
 }
 
 tile{

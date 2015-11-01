@@ -6,6 +6,6 @@ properties{
   num_layers = 3,
   world = "outside",
   tileset = "light_world",
-  music = "overworld",
+  music = "dark_world",
 }
 
