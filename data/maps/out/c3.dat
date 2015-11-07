@@ -1,0 +1,11 @@
+properties{
+  x = 2560,
+  y = 2400,
+  width = 1280,
+  height = 960,
+  num_layers = 3,
+  world = "outside",
+  tileset = "light_world",
+  music = "village",
+}
+

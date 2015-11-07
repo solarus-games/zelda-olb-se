@@ -1,0 +1,11 @@
+properties{
+  x = 1280,
+  y = 1440,
+  width = 1280,
+  height = 1920,
+  num_layers = 3,
+  world = "outside",
+  tileset = "light_world",
+  music = "mini_game",
+}
+

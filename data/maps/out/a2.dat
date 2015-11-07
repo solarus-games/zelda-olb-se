@@ -1,0 +1,11 @@
+properties{
+  x = 0,
+  y = 1440,
+  width = 1280,
+  height = 960,
+  num_layers = 3,
+  world = "outside",
+  tileset = "light_world",
+  music = "overworld",
+}
+
