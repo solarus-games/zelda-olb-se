@@ -196,8 +196,10 @@ sprite{ id = "npc/book_old_man", description = "Old man with book" }
 sprite{ id = "npc/broom_grandma", description = "Brrom Grandma" }
 sprite{ id = "npc/bully", description = "Bully" }
 sprite{ id = "npc/drunk_man", description = "Drunk man" }
+sprite{ id = "npc/flute_boy", description = "Flute boy" }
 sprite{ id = "npc/frog", description = "Frog" }
 sprite{ id = "npc/ghostly_proprietor", description = "Ghostly Proprietor" }
+sprite{ id = "npc/grandson", description = "Small boy" }
 sprite{ id = "npc/great_fairy", description = "Great Fairy" }
 sprite{ id = "npc/little_tree", description = "Little tree" }
 sprite{ id = "npc/lost_old_man", description = "Lost old man" }
@@ -211,13 +213,14 @@ sprite{ id = "npc/old_man", description = "Old man" }
 sprite{ id = "npc/pink_ball", description = "Pink ball" }
 sprite{ id = "npc/priest", description = "Priest" }
 sprite{ id = "npc/running_man", description = "Running man" }
-sprite{ id = "npc/small_boy", description = "Small boy" }
-sprite{ id = "npc/thief", description = "Thief" }
+sprite{ id = "npc/thief_red", description = "Red thief" }
+sprite{ id = "npc/thief_yellow", description = "Yellow thief" }
 sprite{ id = "npc/wise_old_man_green", description = "Green wise old man" }
 sprite{ id = "npc/wise_old_man_yellow", description = "Yellow wise old man" }
 sprite{ id = "npc/witch", description = "Witch" }
 sprite{ id = "npc/wizard", description = "Wizard" }
 sprite{ id = "npc/woman_blue", description = "Blue woman" }
+sprite{ id = "npc/woman_green", description = "Green woman" }
 sprite{ id = "npc/woman_red", description = "Red woman" }
 sprite{ id = "npc/woman_yellow", description = "Yellow woman" }
 sprite{ id = "npc/yellow_hair_boy", description = "Yellow hair boy" }
