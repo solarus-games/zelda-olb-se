@@ -1,4 +1,4 @@
-background_color{ 255, 170, 255 }
+background_color{ 255, 255, 255 }
 tile_pattern{
   id = "1",
   ground = "wall",
@@ -1214,6 +1214,7 @@ tile_pattern{
   y = 96,
   width = 16,
   height = 8,
+  repeat_mode = "horizontal",
 }
 
 tile_pattern{
@@ -1477,7 +1478,6 @@ tile_pattern{
   y = 208,
   width = 16,
   height = 32,
-  repeat_mode = "horizontal",
 }
 
 tile_pattern{
@@ -4956,6 +4956,7 @@ tile_pattern{
   y = 176,
   width = 8,
   height = 8,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -4976,6 +4977,7 @@ tile_pattern{
   y = 176,
   width = 8,
   height = 8,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -4996,6 +4998,7 @@ tile_pattern{
   y = 168,
   width = 8,
   height = 8,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -5016,6 +5019,7 @@ tile_pattern{
   y = 168,
   width = 8,
   height = 8,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -8296,6 +8300,7 @@ tile_pattern{
   y = 360,
   width = 8,
   height = 8,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -8317,6 +8322,7 @@ tile_pattern{
   y = 360,
   width = 8,
   height = 8,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -8338,6 +8344,7 @@ tile_pattern{
   y = 352,
   width = 8,
   height = 8,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -8359,6 +8366,7 @@ tile_pattern{
   y = 352,
   width = 8,
   height = 8,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -8463,6 +8471,7 @@ tile_pattern{
   y = 368,
   width = 8,
   height = 8,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -8473,6 +8482,7 @@ tile_pattern{
   y = 368,
   width = 8,
   height = 8,
+  repeat_mode = "none",
 }
 
 tile_pattern{

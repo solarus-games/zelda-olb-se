@@ -3,7 +3,7 @@ properties{
   y = 0,
   width = 1280,
   height = 960,
-  num_layers = 3,
+  num_layers = 5,
   tileset = "light_world",
   music = "same",
 }
@@ -10267,6 +10267,33 @@ tile{
   pattern = "cave_entrance_blast.top",
 }
 
+tile{
+  layer = 2,
+  x = 408,
+  y = 672,
+  width = 16,
+  height = 40,
+  pattern = "ladder",
+}
+
+tile{
+  layer = 2,
+  x = 424,
+  y = 672,
+  width = 8,
+  height = 40,
+  pattern = "ladder.border.2",
+}
+
+tile{
+  layer = 2,
+  x = 400,
+  y = 672,
+  width = 8,
+  height = 40,
+  pattern = "ladder.border.1",
+}
+
 dynamic_tile{
   name = "invisible_tile_4",
   layer = 2,
@@ -10369,6 +10396,181 @@ sensor{
   layer = 2,
   x = 376,
   y = 757,
+  width = 16,
+  height = 16,
+}
+
+wall{
+  layer = 2,
+  x = 408,
+  y = 672,
+  width = 16,
+  height = 40,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+sensor{
+  name = "layer_up_sensor_5",
+  layer = 2,
+  x = 416,
+  y = 701,
+  width = 16,
+  height = 16,
+}
+
+tile{
+  layer = 3,
+  x = 448,
+  y = 672,
+  width = 16,
+  height = 40,
+  pattern = "ladder",
+}
+
+tile{
+  layer = 3,
+  x = 464,
+  y = 672,
+  width = 8,
+  height = 40,
+  pattern = "ladder.border.2",
+}
+
+tile{
+  layer = 3,
+  x = 440,
+  y = 672,
+  width = 8,
+  height = 40,
+  pattern = "ladder.border.1",
+}
+
+dynamic_tile{
+  name = "invisible_tile_13",
+  layer = 3,
+  x = 408,
+  y = 672,
+  pattern = "ladder",
+  width = 16,
+  height = 40,
+  enabled_at_start = true,
+}
+
+wall{
+  layer = 3,
+  x = 408,
+  y = 672,
+  width = 16,
+  height = 40,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+}
+
+dynamic_tile{
+  name = "invisible_tile_14",
+  layer = 3,
+  x = 400,
+  y = 672,
+  pattern = "ladder.border.1",
+  width = 8,
+  height = 40,
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  name = "invisible_tile_15",
+  layer = 3,
+  x = 424,
+  y = 672,
+  pattern = "ladder.border.2",
+  width = 8,
+  height = 40,
+  enabled_at_start = true,
+}
+
+sensor{
+  name = "layer_down_sensor_5",
+  layer = 3,
+  x = 416,
+  y = 709,
+  width = 16,
+  height = 16,
+}
+
+wall{
+  layer = 3,
+  x = 448,
+  y = 672,
+  width = 16,
+  height = 40,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+sensor{
+  name = "layer_up_sensor_6",
+  layer = 3,
+  x = 456,
+  y = 701,
+  width = 16,
+  height = 16,
+}
+
+dynamic_tile{
+  name = "invisible_tile_16",
+  layer = 4,
+  x = 448,
+  y = 672,
+  pattern = "ladder",
+  width = 16,
+  height = 40,
+  enabled_at_start = true,
+}
+
+wall{
+  layer = 4,
+  x = 448,
+  y = 672,
+  width = 16,
+  height = 40,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+}
+
+dynamic_tile{
+  name = "invisible_tile_17",
+  layer = 4,
+  x = 440,
+  y = 672,
+  pattern = "ladder.border.1",
+  width = 8,
+  height = 40,
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  name = "invisible_tile_18",
+  layer = 4,
+  x = 464,
+  y = 672,
+  pattern = "ladder.border.2",
+  width = 8,
+  height = 40,
+  enabled_at_start = true,
+}
+
+sensor{
+  name = "layer_down_sensor_6",
+  layer = 4,
+  x = 456,
+  y = 709,
   width = 16,
   height = 16,
 }
