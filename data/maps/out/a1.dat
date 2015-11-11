@@ -10987,85 +10987,94 @@ tile{
   pattern = "sand.weed",
 }
 
-custom_entity{
+tile{
   layer = 2,
-  x = 1128,
-  y = 1293,
-  direction = 0,
-  sprite = "entities/hook_yellow",
-  model = "hookable",
+  x = 1120,
+  y = 1280,
+  width = 8,
+  height = 16,
+  pattern = "grass.barrier.border.1",
 }
 
-custom_entity{
+tile{
   layer = 2,
-  x = 1128,
-  y = 1301,
-  direction = 0,
-  sprite = "entities/hook_yellow",
-  model = "hookable",
+  x = 1120,
+  y = 1288,
+  width = 8,
+  height = 16,
+  pattern = "grass.barrier.border.1",
 }
 
-custom_entity{
+tile{
   layer = 2,
-  x = 1128,
-  y = 1309,
-  direction = 0,
-  sprite = "entities/hook_yellow",
-  model = "hookable",
+  x = 1120,
+  y = 1296,
+  width = 8,
+  height = 16,
+  pattern = "grass.barrier.border.1",
 }
 
-custom_entity{
+tile{
   layer = 2,
-  x = 1128,
-  y = 1317,
-  direction = 0,
-  sprite = "entities/hook_yellow",
-  model = "hookable",
+  x = 1120,
+  y = 1304,
+  width = 8,
+  height = 16,
+  pattern = "grass.barrier.border.1",
 }
 
-custom_entity{
+tile{
   layer = 2,
-  x = 1128,
-  y = 1325,
-  direction = 0,
-  sprite = "entities/hook_yellow",
-  model = "hookable",
+  x = 1120,
+  y = 1312,
+  width = 8,
+  height = 16,
+  pattern = "grass.barrier.border.1",
 }
 
-custom_entity{
+tile{
   layer = 2,
-  x = 1128,
-  y = 1333,
-  direction = 0,
-  sprite = "entities/hook_yellow",
-  model = "hookable",
+  x = 1120,
+  y = 1320,
+  width = 8,
+  height = 16,
+  pattern = "grass.barrier.border.1",
 }
 
-custom_entity{
+tile{
   layer = 2,
-  x = 1128,
-  y = 1341,
-  direction = 0,
-  sprite = "entities/hook_yellow",
-  model = "hookable",
+  x = 1120,
+  y = 1328,
+  width = 8,
+  height = 16,
+  pattern = "grass.barrier.border.1",
 }
 
-custom_entity{
+tile{
   layer = 2,
-  x = 1128,
-  y = 1349,
-  direction = 0,
-  sprite = "entities/hook_yellow",
-  model = "hookable",
+  x = 1120,
+  y = 1336,
+  width = 8,
+  height = 16,
+  pattern = "grass.barrier.border.1",
 }
 
-custom_entity{
+tile{
   layer = 2,
-  x = 1128,
-  y = 1357,
-  direction = 0,
-  sprite = "entities/hook_yellow",
-  model = "hookable",
+  x = 1120,
+  y = 1344,
+  width = 8,
+  height = 16,
+  pattern = "grass.barrier.border.1",
+}
+
+tile{
+  layer = 2,
+  x = 1120,
+  y = 1352,
+  width = 8,
+  height = 8,
+  pattern = "dirt.barrier.border.1",
 }
 
 dynamic_tile{
@@ -11906,6 +11915,16 @@ custom_entity{
   height = 32,
   direction = 0,
   sprite = "entities/hook_tree_small_yellow",
+  model = "hookable",
+}
+
+custom_entity{
+  layer = 2,
+  x = 1128,
+  y = 1293,
+  width = 8,
+  height = 80,
+  direction = 0,
   model = "hookable",
 }
 

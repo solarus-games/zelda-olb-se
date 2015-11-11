@@ -4946,6 +4946,7 @@ tile_pattern{
   y = 184,
   width = 8,
   height = 8,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -4967,6 +4968,7 @@ tile_pattern{
   y = 184,
   width = 8,
   height = 8,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -4988,6 +4990,7 @@ tile_pattern{
   y = 168,
   width = 8,
   height = 8,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -5009,6 +5012,7 @@ tile_pattern{
   y = 168,
   width = 8,
   height = 8,
+  repeat_mode = "none",
 }
 
 tile_pattern{
