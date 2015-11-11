@@ -4496,6 +4496,24 @@ sensor{
 
 tile{
   layer = 1,
+  x = 208,
+  y = 912,
+  width = 24,
+  height = 16,
+  pattern = "grass.soil",
+}
+
+tile{
+  layer = 1,
+  x = 192,
+  y = 888,
+  width = 16,
+  height = 40,
+  pattern = "grass.soil",
+}
+
+tile{
+  layer = 1,
   x = 984,
   y = 912,
   width = 16,
@@ -8398,24 +8416,6 @@ tile{
   width = 16,
   height = 16,
   pattern = "grass.under_sign",
-}
-
-tile{
-  layer = 1,
-  x = 208,
-  y = 912,
-  width = 24,
-  height = 16,
-  pattern = "grass.soil",
-}
-
-tile{
-  layer = 1,
-  x = 192,
-  y = 888,
-  width = 16,
-  height = 40,
-  pattern = "grass.soil",
 }
 
 tile{

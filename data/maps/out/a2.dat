@@ -2106,6 +2106,24 @@ tile{
   pattern = "dirt.soil",
 }
 
+tile{
+  layer = 0,
+  x = 784,
+  y = 32,
+  width = 16,
+  height = 32,
+  pattern = "dirt.cliff.4",
+}
+
+tile{
+  layer = 0,
+  x = 784,
+  y = 0,
+  width = 16,
+  height = 32,
+  pattern = "sand.cliff.4",
+}
+
 wall{
   layer = 0,
   x = 616,
@@ -2797,15 +2815,6 @@ tile{
   width = 16,
   height = 8,
   pattern = "cliff.corner_reverse.diag.4",
-}
-
-tile{
-  layer = 1,
-  x = 784,
-  y = 0,
-  width = 16,
-  height = 64,
-  pattern = "grass.cliff.4",
 }
 
 tile{
