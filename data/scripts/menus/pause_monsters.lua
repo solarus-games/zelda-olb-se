@@ -3,14 +3,14 @@ local monsters_manager = {}
 local gui_designer = require("scripts/menus/lib/gui_designer")
 
 local models = {
-  { enemy = "tentacle",            page = 1, frame = { 152,   8, 32, 32 }, xy = {  8, 13 } },  -- TODO rename to Popo
+  { enemy = "popo",                page = 1, frame = { 152,   8, 32, 32 }, xy = {  8, 13 } },
   { enemy = "rope",                page = 1, frame = { 208,   8, 32, 32 }, xy = {  8, 13 } },
   { enemy = "stal",                page = 1, frame = { 264,   8, 32, 32 }, xy = {  8, 13 } },
   { enemy = "poe",                 page = 1, frame = {  16,  48, 48, 48 }, xy = { 16, 21 } },
   { enemy = "zora_water",          page = 1, frame = {  96,  48, 48, 48 }, xy = { 16, 21 } },
   { enemy = "zora_feet",           page = 1, frame = { 176,  48, 48, 48 }, xy = { 16, 25 } },
   { enemy = "pikku",               page = 1, frame = { 256,  48, 48, 48 }, xy = { 16, 25 } },
-  { enemy = "skeleton",            page = 1, frame = {  16, 112, 48, 48 }, xy = { 16, 25 } },  -- TODO rename to Blue Stalfos
+  { enemy = "stalfos_blue",        page = 1, frame = {  16, 112, 48, 48 }, xy = { 16, 25 } },
   { enemy = "armos",               page = 1, frame = {  96, 112, 48, 48 }, xy = { 16, 29 } },
   { enemy = "moblin",              page = 1, frame = { 176, 112, 48, 48 }, xy = { 16, 25 } },
   { enemy = "wizzrobe_blue",       page = 1, frame = { 256, 112, 48, 48 }, xy = { 16, 25 } },
@@ -27,7 +27,7 @@ local models = {
   { enemy = "wizzrobe_white",      page = 2, frame = { 176, 112, 48, 48 }, xy = { 16, 25 } },
   { enemy = "sand_crab",           page = 2, frame = { 256, 112, 48, 48 }, xy = { 16, 21 } },
   { enemy = "freezor",             page = 2, frame = {  16, 176, 48, 48 }, xy = { 16, 21 } },
-  { enemy = "skeleton_red",        page = 2, frame = {  96, 176, 48, 48 }, xy = { 16, 25 } },
+  { enemy = "stalfos_red",         page = 2, frame = {  96, 176, 48, 48 }, xy = { 16, 25 } },
   { enemy = "pengator",            page = 2, frame = { 176, 176, 48, 48 }, xy = { 16, 25 } },
   { enemy = "gibdo",               page = 2, frame = { 256, 176, 48, 48 }, xy = { 16, 25 } },
   { enemy = "zazak_blue",          page = 3, frame = {  16,  48, 48, 48 }, xy = { 16, 25 } },

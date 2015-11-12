@@ -58,7 +58,7 @@ enemy{
   x = 24,
   y = 45,
   direction = 3,
-  breed = "skeleton",
+  breed = "stalfos_blue",
   treasure_name = "random_weapon",
 }
 
@@ -87,7 +87,7 @@ enemy{
   x = 120,
   y = 45,
   direction = 3,
-  breed = "tentacle",
+  breed = "popo",
   treasure_name = "random_heart",
 }
 
@@ -363,7 +363,7 @@ enemy{
   x = 216,
   y = 189,
   direction = 3,
-  breed = "skeleton_red",
+  breed = "stalfos_red",
   treasure_name = "random_weapon",
 }
 

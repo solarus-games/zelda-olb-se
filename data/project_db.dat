@@ -68,15 +68,16 @@ sprite{ id = "enemies/pengator", description = "Pengator" }
 sprite{ id = "enemies/pike_auto", description = "Pike (always moving)" }
 sprite{ id = "enemies/pikku", description = "Pikku" }
 sprite{ id = "enemies/poe", description = "Poe" }
+sprite{ id = "enemies/popo", description = "Popo" }
 sprite{ id = "enemies/rabbit_beam", description = "Rabbit beam" }
 sprite{ id = "enemies/ropa", description = "Ropa" }
 sprite{ id = "enemies/rope", description = "Rope" }
 sprite{ id = "enemies/sand_crab", description = "Sand Crab" }
-sprite{ id = "enemies/skeleton", description = "Skeleton" }
-sprite{ id = "enemies/skeleton_red", description = "Red Skeleton" }
 sprite{ id = "enemies/spear_soldier_red", description = "Red Spear Soldier" }
 sprite{ id = "enemies/spear_soldier_red_weapon", description = "Red Spear Soldier's sword" }
 sprite{ id = "enemies/stal", description = "Stal" }
+sprite{ id = "enemies/stalfos_blue", description = "Blue Stalfos" }
+sprite{ id = "enemies/stalfos_red", description = "Red Stalfos" }
 sprite{ id = "enemies/sword_soldier_blue", description = "Blue Sword Soldier" }
 sprite{ id = "enemies/sword_soldier_blue_weapon", description = "Blue Sword Soldier's sword" }
 sprite{ id = "enemies/sword_soldier_green", description = "Green Sword Soldier" }
@@ -84,7 +85,6 @@ sprite{ id = "enemies/sword_soldier_green_weapon", description = "Green Sword So
 sprite{ id = "enemies/tarosu_red", description = "Red Tarosu" }
 sprite{ id = "enemies/tarosu_red_weapon", description = "Red Tarosu's trident" }
 sprite{ id = "enemies/tektite_blue", description = "Blue Tektite" }
-sprite{ id = "enemies/tentacle", description = "Tentacle" }
 sprite{ id = "enemies/vitreous", description = "Vitreous" }
 sprite{ id = "enemies/vulture", description = "Vulture" }
 sprite{ id = "enemies/wallmaster", description = "Wallmaster" }
@@ -92,6 +92,7 @@ sprite{ id = "enemies/wizzrobe_beam", description = "Wizzrobe beam" }
 sprite{ id = "enemies/wizzrobe_blue", description = "Blue Wizzrobe" }
 sprite{ id = "enemies/wizzrobe_white", description = "White Wizzrobe" }
 sprite{ id = "enemies/zazak_blue", description = "Blue Zazak" }
+sprite{ id = "enemies/zol_green", description = "Green Zol" }
 sprite{ id = "enemies/zora_feet", description = "Zora (on feet)" }
 sprite{ id = "enemies/zora_water", description = "Zora (in water)" }
 sprite{ id = "entities/arrow", description = "Arrow" }
@@ -447,19 +448,19 @@ enemy{ id = "pengator", description = "Pengator" }
 enemy{ id = "pike_auto", description = "Pike (always moving)" }
 enemy{ id = "pikku", description = "Pikku" }
 enemy{ id = "poe", description = "Poe" }
+enemy{ id = "popo", description = "Popo" }
 enemy{ id = "rabbit_beam", description = "Rabbit beam" }
 enemy{ id = "ropa", description = "Ropa" }
 enemy{ id = "rope", description = "Rope" }
 enemy{ id = "sand_crab", description = "Sand Crab" }
-enemy{ id = "skeleton", description = "Skeleton" }
-enemy{ id = "skeleton_red", description = "Red Skeleton" }
 enemy{ id = "spear_soldier_red", description = "Red Spear Soldier" }
 enemy{ id = "stal", description = "Stal" }
+enemy{ id = "stalfos_blue", description = "Blue Stalfos" }
+enemy{ id = "stalfos_red", description = "Red Stalfos" }
 enemy{ id = "sword_soldier_blue", description = "Blue Sword Soldier" }
 enemy{ id = "sword_soldier_green", description = "Green Sword Soldier" }
 enemy{ id = "tarosu_red", description = "Red Tarosu" }
 enemy{ id = "tektite_blue", description = "Blue Tektite" }
-enemy{ id = "tentacle", description = "Tentacle" }
 enemy{ id = "vitreous", description = "Vitreous" }
 enemy{ id = "vulture", description = "Vulture" }
 enemy{ id = "wallmaster", description = "Wallmaster" }

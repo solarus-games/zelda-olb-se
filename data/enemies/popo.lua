@@ -1,6 +1,6 @@
 local enemy = ...
 
--- Tentacle: a basic enemy that follows the hero.
+-- Popo: tentacles that follow the hero.
 
 local behavior = require("enemies/lib/towards_hero")
 
