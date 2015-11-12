@@ -28,24 +28,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 440,
-  y = 616,
-  width = 8,
-  height = 24,
-  pattern = "house.wall.corner.2",
-}
-
-tile{
-  layer = 0,
-  x = 352,
-  y = 616,
-  width = 8,
-  height = 24,
-  pattern = "house.wall.corner.1",
-}
-
-tile{
-  layer = 0,
   x = 304,
   y = 96,
   width = 16,
@@ -100,15 +82,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 16,
-  y = 616,
-  width = 8,
-  height = 24,
-  pattern = "house.wall.corner.1",
-}
-
-tile{
-  layer = 0,
   x = 24,
   y = 624,
   width = 24,
@@ -159,15 +132,6 @@ tile{
   width = 16,
   height = 16,
   pattern = "house.entrance",
-}
-
-tile{
-  layer = 0,
-  x = 104,
-  y = 616,
-  width = 8,
-  height = 24,
-  pattern = "house.wall.corner.2",
 }
 
 tile{
@@ -240,24 +204,6 @@ tile{
   width = 16,
   height = 16,
   pattern = "house.door",
-}
-
-tile{
-  layer = 0,
-  x = 216,
-  y = 616,
-  width = 8,
-  height = 24,
-  pattern = "house.wall.corner.2",
-}
-
-tile{
-  layer = 0,
-  x = 128,
-  y = 616,
-  width = 8,
-  height = 24,
-  pattern = "house.wall.corner.1",
 }
 
 tile{
@@ -8873,6 +8819,60 @@ tile{
   pattern = "pontoon.border.1",
 }
 
+tile{
+  layer = 0,
+  x = 16,
+  y = 624,
+  width = 8,
+  height = 16,
+  pattern = "house.wall.border.1",
+}
+
+tile{
+  layer = 0,
+  x = 104,
+  y = 624,
+  width = 8,
+  height = 16,
+  pattern = "house.wall.border.2",
+}
+
+tile{
+  layer = 0,
+  x = 128,
+  y = 624,
+  width = 8,
+  height = 16,
+  pattern = "house.wall.border.1",
+}
+
+tile{
+  layer = 0,
+  x = 216,
+  y = 624,
+  width = 8,
+  height = 16,
+  pattern = "house.wall.border.2",
+}
+
+tile{
+  layer = 0,
+  x = 352,
+  y = 624,
+  width = 8,
+  height = 16,
+  pattern = "house.wall.border.1",
+}
+
+tile{
+  layer = 0,
+  x = 440,
+  y = 624,
+  width = 8,
+  height = 16,
+  pattern = "house.wall.border.2",
+}
+
 wall{
   layer = 0,
   x = 16,
@@ -9353,15 +9353,6 @@ tile{
 
 tile{
   layer = 1,
-  x = 104,
-  y = 600,
-  width = 8,
-  height = 16,
-  pattern = "house.roof_red.corner.4",
-}
-
-tile{
-  layer = 1,
   x = 152,
   y = 592,
   width = 48,
@@ -9488,15 +9479,6 @@ tile{
 
 tile{
   layer = 1,
-  x = 216,
-  y = 600,
-  width = 8,
-  height = 16,
-  pattern = "house.roof_blue.corner.4",
-}
-
-tile{
-  layer = 1,
   x = 328,
   y = 616,
   width = 8,
@@ -9565,15 +9547,6 @@ tile{
   width = 8,
   height = 8,
   pattern = "house.roof_blue.top.corner.4",
-}
-
-tile{
-  layer = 1,
-  x = 128,
-  y = 600,
-  width = 8,
-  height = 16,
-  pattern = "house.roof_blue.corner.3",
 }
 
 tile{
@@ -9718,15 +9691,6 @@ tile{
   width = 24,
   height = 8,
   pattern = "house.roof_red.corner.2",
-}
-
-tile{
-  layer = 1,
-  x = 16,
-  y = 600,
-  width = 8,
-  height = 16,
-  pattern = "house.roof_red.corner.3",
 }
 
 tile{
@@ -10114,6 +10078,42 @@ tile{
   width = 8,
   height = 24,
   pattern = "pontoon.border.1",
+}
+
+tile{
+  layer = 1,
+  x = 16,
+  y = 600,
+  width = 8,
+  height = 24,
+  pattern = "house.roof_red.corner.3",
+}
+
+tile{
+  layer = 1,
+  x = 104,
+  y = 600,
+  width = 8,
+  height = 24,
+  pattern = "house.roof_red.corner.4",
+}
+
+tile{
+  layer = 1,
+  x = 216,
+  y = 600,
+  width = 8,
+  height = 24,
+  pattern = "house.roof_blue.corner.4",
+}
+
+tile{
+  layer = 1,
+  x = 128,
+  y = 600,
+  width = 8,
+  height = 24,
+  pattern = "house.roof_blue.corner.3",
 }
 
 dynamic_tile{

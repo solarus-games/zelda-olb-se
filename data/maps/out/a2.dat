@@ -5379,7 +5379,7 @@ tile{
   y = 376,
   width = 8,
   height = 24,
-  pattern = "house.wall.corner.2",
+  pattern = "house.wall.border.2",
 }
 
 tile{
@@ -5676,7 +5676,7 @@ tile{
   y = 456,
   width = 8,
   height = 24,
-  pattern = "house.wall.corner.2",
+  pattern = "house.wall.border.2",
 }
 
 tile{
@@ -5775,7 +5775,7 @@ tile{
   y = 536,
   width = 8,
   height = 24,
-  pattern = "house.wall.corner.2",
+  pattern = "house.wall.border.2",
 }
 
 tile{
@@ -5874,7 +5874,7 @@ tile{
   y = 424,
   width = 8,
   height = 24,
-  pattern = "house.wall.corner.2",
+  pattern = "house.wall.border.2",
 }
 
 tile{

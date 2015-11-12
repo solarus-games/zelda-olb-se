@@ -5623,6 +5623,7 @@ tile_pattern{
   y = 136,
   width = 8,
   height = 8,
+  repeat_mode = "horizontal",
 }
 
 tile_pattern{
@@ -6191,9 +6192,9 @@ tile_pattern{
   ground = "traversable",
   default_layer = 1,
   x = 296,
-  y = 24,
+  y = 16,
   width = 8,
-  height = 16,
+  height = 24,
   repeat_mode = "none",
 }
 
@@ -6213,9 +6214,9 @@ tile_pattern{
   ground = "traversable",
   default_layer = 1,
   x = 344,
-  y = 24,
+  y = 16,
   width = 8,
-  height = 16,
+  height = 24,
   repeat_mode = "none",
 }
 
@@ -6654,9 +6655,9 @@ tile_pattern{
   ground = "traversable",
   default_layer = 1,
   x = 240,
-  y = 24,
+  y = 16,
   width = 8,
-  height = 16,
+  height = 24,
   repeat_mode = "none",
 }
 
@@ -6676,9 +6677,9 @@ tile_pattern{
   ground = "traversable",
   default_layer = 1,
   x = 288,
-  y = 24,
+  y = 16,
   width = 8,
-  height = 16,
+  height = 24,
   repeat_mode = "none",
 }
 
@@ -6989,24 +6990,24 @@ tile_pattern{
 }
 
 tile_pattern{
-  id = "house.wall.corner.1",
+  id = "house.wall.border.1",
   ground = "wall",
   default_layer = 0,
   x = 240,
-  y = 40,
+  y = 48,
   width = 8,
-  height = 24,
+  height = 16,
   repeat_mode = "none",
 }
 
 tile_pattern{
-  id = "house.wall.corner.2",
+  id = "house.wall.border.2",
   ground = "wall",
   default_layer = 0,
   x = 344,
-  y = 40,
+  y = 48,
   width = 8,
-  height = 24,
+  height = 16,
   repeat_mode = "none",
 }
 
@@ -8875,6 +8876,7 @@ tile_pattern{
   y = 192,
   width = 8,
   height = 8,
+  repeat_mode = "vertical",
 }
 
 tile_pattern{
@@ -8885,6 +8887,7 @@ tile_pattern{
   y = 192,
   width = 8,
   height = 8,
+  repeat_mode = "vertical",
 }
 
 tile_pattern{
