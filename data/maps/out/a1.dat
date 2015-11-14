@@ -14225,15 +14225,6 @@ tile{
 
 tile{
   layer = 3,
-  x = 280,
-  y = 1000,
-  width = 16,
-  height = 8,
-  pattern = "cliff.corner_reverse.diag.3",
-}
-
-tile{
-  layer = 3,
   x = 96,
   y = 992,
   width = 192,
@@ -14797,6 +14788,15 @@ tile{
   width = 80,
   height = 16,
   pattern = "sand.under_bush",
+}
+
+tile{
+  layer = 3,
+  x = 280,
+  y = 1000,
+  width = 16,
+  height = 8,
+  pattern = "cliff.corner_reverse.diag.3",
 }
 
 dynamic_tile{
