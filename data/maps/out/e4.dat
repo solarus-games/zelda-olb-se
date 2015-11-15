@@ -2051,9 +2051,9 @@ tile{
 
 tile{
   layer = 1,
-  x = 440,
+  x = 456,
   y = 584,
-  width = 256,
+  width = 224,
   height = 8,
   pattern = "cliff.2",
 }
@@ -2069,9 +2069,9 @@ tile{
 
 tile{
   layer = 1,
-  x = 920,
+  x = 936,
   y = 88,
-  width = 176,
+  width = 144,
   height = 8,
   pattern = "cliff.2",
 }
@@ -5849,9 +5849,9 @@ tile{
 
 tile{
   layer = 1,
-  x = 352,
+  x = 360,
   y = 24,
-  width = 464,
+  width = 448,
   height = 8,
   pattern = "cliff.2",
 }
@@ -8153,9 +8153,9 @@ tile{
 
 tile{
   layer = 1,
-  x = 656,
+  x = 664,
   y = 424,
-  width = 64,
+  width = 48,
   height = 8,
   pattern = "cliff.2",
 }
@@ -8369,9 +8369,9 @@ tile{
 
 tile{
   layer = 1,
-  x = 800,
+  x = 808,
   y = 456,
-  width = 112,
+  width = 96,
   height = 8,
   pattern = "cliff.2",
 }
@@ -9238,6 +9238,60 @@ tile{
   width = 16,
   height = 8,
   pattern = "cliff.top.1",
+}
+
+tile{
+  layer = 1,
+  x = 1080,
+  y = 88,
+  width = 16,
+  height = 8,
+  pattern = "cliff.corner_reverse.diag.3",
+}
+
+tile{
+  layer = 1,
+  x = 920,
+  y = 88,
+  width = 16,
+  height = 8,
+  pattern = "cliff.corner_reverse.diag.4",
+}
+
+tile{
+  layer = 1,
+  x = 344,
+  y = 24,
+  width = 16,
+  height = 8,
+  pattern = "cliff.corner_reverse.diag.4",
+}
+
+tile{
+  layer = 1,
+  x = 808,
+  y = 24,
+  width = 16,
+  height = 8,
+  pattern = "cliff.corner_reverse.diag.3",
+}
+
+tile{
+  layer = 1,
+  x = 440,
+  y = 584,
+  width = 16,
+  height = 8,
+  pattern = "cliff.corner_reverse.diag.4",
+}
+
+tile{
+  layer = 1,
+  x = 680,
+  y = 584,
+  width = 16,
+  height = 8,
+  pattern = "cliff.corner_reverse.diag.3",
 }
 
 destructible{
@@ -11756,9 +11810,9 @@ tile{
 
 tile{
   layer = 2,
-  x = 408,
+  x = 424,
   y = 88,
-  width = 144,
+  width = 112,
   height = 8,
   pattern = "cliff.2",
 }
@@ -13210,6 +13264,24 @@ tile{
   width = 112,
   height = 8,
   pattern = "cliff.top.1",
+}
+
+tile{
+  layer = 2,
+  x = 408,
+  y = 88,
+  width = 16,
+  height = 8,
+  pattern = "cliff.corner_reverse.diag.4",
+}
+
+tile{
+  layer = 2,
+  x = 536,
+  y = 88,
+  width = 16,
+  height = 8,
+  pattern = "cliff.corner_reverse.diag.3",
 }
 
 custom_entity{
