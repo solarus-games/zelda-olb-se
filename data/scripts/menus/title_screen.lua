@@ -11,7 +11,7 @@ end
 function title_screen:on_draw(dst_surface)
 
   background_img:draw(dst_surface)
-  logo_img:draw(dst_surface, 85, 6)
+  logo_img:draw(dst_surface, 91, 12)
 end
 
 function title_screen:on_key_pressed(key)
