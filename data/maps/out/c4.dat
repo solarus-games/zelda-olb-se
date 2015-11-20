@@ -8087,7 +8087,7 @@ tile{
 
 tile{
   layer = 1,
-  x = 0,
+  x = -8,
   y = 776,
   width = 96,
   height = 8,
