@@ -16439,7 +16439,7 @@ door{
   y = 1392,
   direction = 1,
   sprite = "entities/door_weak_wall",
-  savegame_variable = "outside_c1_weak_wall",
+  savegame_variable = "out_b2_weak_wall_a",
   opening_method = "explosion",
 }
 
