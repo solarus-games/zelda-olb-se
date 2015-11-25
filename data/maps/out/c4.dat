@@ -4473,6 +4473,80 @@ tile{
   pattern = "pontoon.border.1",
 }
 
+tile{
+  layer = 0,
+  x = 1488,
+  y = 504,
+  width = 32,
+  height = 8,
+  pattern = "cave_entrance_blast.top",
+}
+
+tile{
+  layer = 0,
+  x = 1488,
+  y = 512,
+  width = 8,
+  height = 8,
+  pattern = "cave_entrance_blast.border.1",
+}
+
+tile{
+  layer = 0,
+  x = 1512,
+  y = 512,
+  width = 8,
+  height = 8,
+  pattern = "cave_entrance_blast.border.2",
+}
+
+tile{
+  layer = 0,
+  x = 1496,
+  y = 512,
+  width = 16,
+  height = 8,
+  pattern = "cave_entrance_blast",
+}
+
+tile{
+  layer = 0,
+  x = 1496,
+  y = 520,
+  width = 16,
+  height = 8,
+  pattern = "dirt.cave_entrance_blast",
+}
+
+tile{
+  layer = 0,
+  x = 1488,
+  y = 520,
+  width = 8,
+  height = 8,
+  pattern = "dirt.cave_entrance_blast.border.1",
+}
+
+tile{
+  layer = 0,
+  x = 1512,
+  y = 520,
+  width = 8,
+  height = 8,
+  pattern = "dirt.cave_entrance_blast.border.2",
+}
+
+dynamic_tile{
+  name = "weak_wall_a_closed",
+  layer = 0,
+  x = 1488,
+  y = 512,
+  pattern = "dirt.cliff.1",
+  width = 32,
+  height = 16,
+  enabled_at_start = true,
+}
+
 wall{
   layer = 0,
   x = 472,
@@ -4492,6 +4566,17 @@ sensor{
   y = 485,
   width = 16,
   height = 16,
+}
+
+door{
+  name = "weak_wall_a",
+  layer = 0,
+  x = 1496,
+  y = 512,
+  direction = 1,
+  sprite = "entities/door_weak_wall",
+  savegame_variable = "out_c4_weak_wall_a",
+  opening_method = "explosion",
 }
 
 tile{

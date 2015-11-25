@@ -4202,15 +4202,6 @@ tile{
 
 tile{
   layer = 1,
-  x = 1208,
-  y = 352,
-  width = 80,
-  height = 8,
-  pattern = "cliff.2",
-}
-
-tile{
-  layer = 1,
   x = 80,
   y = 1408,
   width = 80,
@@ -5590,7 +5581,7 @@ tile{
   layer = 1,
   x = 936,
   y = 344,
-  width = 288,
+  width = 352,
   height = 8,
   pattern = "cliff.top.2",
 }
@@ -7867,33 +7858,6 @@ tile{
   layer = 1,
   x = 1208,
   y = 360,
-  width = 16,
-  height = 8,
-  pattern = "cliff.corner_reverse.diag.4",
-}
-
-tile{
-  layer = 1,
-  x = 1224,
-  y = 344,
-  width = 64,
-  height = 8,
-  pattern = "cliff.2",
-}
-
-tile{
-  layer = 1,
-  x = 1208,
-  y = 344,
-  width = 16,
-  height = 16,
-  pattern = "grass.cliff.diag.4",
-}
-
-tile{
-  layer = 1,
-  x = 1216,
-  y = 352,
   width = 16,
   height = 8,
   pattern = "cliff.corner_reverse.diag.4",
@@ -16240,6 +16204,24 @@ tile{
   width = 16,
   height = 16,
   pattern = "grass.flower_double",
+}
+
+tile{
+  layer = 1,
+  x = 1216,
+  y = 352,
+  width = 16,
+  height = 8,
+  pattern = "cliff.corner_reverse.diag.4",
+}
+
+tile{
+  layer = 1,
+  x = 1232,
+  y = 352,
+  width = 48,
+  height = 8,
+  pattern = "dirt.cliff.2",
 }
 
 npc{
