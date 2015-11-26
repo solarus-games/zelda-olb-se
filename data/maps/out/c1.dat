@@ -136,7 +136,313 @@ tile{
 }
 
 tile{
-  layer = 0,
+  layer = 1,
+  x = 1120,
+  y = 1072,
+  width = 16,
+  height = 16,
+  pattern = "sand.floor_big",
+}
+
+tile{
+  layer = 1,
+  x = 1104,
+  y = 1056,
+  width = 32,
+  height = 16,
+  pattern = "sand.floor_big",
+}
+
+tile{
+  layer = 1,
+  x = 1040,
+  y = 1024,
+  width = 16,
+  height = 16,
+  pattern = "sand.floor_big",
+}
+
+tile{
+  layer = 1,
+  x = 1024,
+  y = 1008,
+  width = 32,
+  height = 16,
+  pattern = "sand.floor_big",
+}
+
+tile{
+  layer = 1,
+  x = 960,
+  y = 976,
+  width = 16,
+  height = 16,
+  pattern = "sand.floor_big",
+}
+
+tile{
+  layer = 1,
+  x = 928,
+  y = 912,
+  width = 16,
+  height = 16,
+  pattern = "sand.floor_big",
+}
+
+tile{
+  layer = 1,
+  x = 912,
+  y = 832,
+  width = 16,
+  height = 16,
+  pattern = "sand.floor_big",
+}
+
+tile{
+  layer = 1,
+  x = 2016,
+  y = 1088,
+  width = 32,
+  height = 32,
+  pattern = "sand.floor_big",
+}
+
+tile{
+  layer = 1,
+  x = 2544,
+  y = 1216,
+  width = 32,
+  height = 32,
+  pattern = "sand.floor_big",
+}
+
+tile{
+  layer = 1,
+  x = 2752,
+  y = 1296,
+  width = 32,
+  height = 32,
+  pattern = "sand.floor_big",
+}
+
+tile{
+  layer = 1,
+  x = 2848,
+  y = 1360,
+  width = 32,
+  height = 32,
+  pattern = "sand.floor_big",
+}
+
+tile{
+  layer = 1,
+  x = 2944,
+  y = 1296,
+  width = 32,
+  height = 32,
+  pattern = "sand.floor_big",
+}
+
+tile{
+  layer = 1,
+  x = 3072,
+  y = 1088,
+  width = 32,
+  height = 32,
+  pattern = "sand.floor_big",
+}
+
+tile{
+  layer = 1,
+  x = 2976,
+  y = 336,
+  width = 32,
+  height = 32,
+  pattern = "sand.floor_big",
+}
+
+tile{
+  layer = 1,
+  x = 3104,
+  y = 336,
+  width = 32,
+  height = 32,
+  pattern = "sand.floor_big",
+}
+
+tile{
+  layer = 1,
+  x = 3104,
+  y = 240,
+  width = 32,
+  height = 32,
+  pattern = "sand.floor_big",
+}
+
+tile{
+  layer = 1,
+  x = 2976,
+  y = 240,
+  width = 32,
+  height = 32,
+  pattern = "sand.floor_big",
+}
+
+tile{
+  layer = 1,
+  x = 2768,
+  y = 336,
+  width = 32,
+  height = 32,
+  pattern = "sand.floor_big",
+}
+
+tile{
+  layer = 1,
+  x = 2896,
+  y = 336,
+  width = 32,
+  height = 32,
+  pattern = "sand.floor_big",
+}
+
+tile{
+  layer = 1,
+  x = 2896,
+  y = 240,
+  width = 32,
+  height = 32,
+  pattern = "sand.floor_big",
+}
+
+tile{
+  layer = 1,
+  x = 2768,
+  y = 240,
+  width = 32,
+  height = 32,
+  pattern = "sand.floor_big",
+}
+
+tile{
+  layer = 1,
+  x = 2976,
+  y = 176,
+  width = 32,
+  height = 32,
+  pattern = "sand.floor_big",
+}
+
+tile{
+  layer = 1,
+  x = 3104,
+  y = 176,
+  width = 32,
+  height = 32,
+  pattern = "sand.floor_big",
+}
+
+tile{
+  layer = 1,
+  x = 3104,
+  y = 80,
+  width = 32,
+  height = 32,
+  pattern = "sand.floor_big",
+}
+
+tile{
+  layer = 1,
+  x = 2976,
+  y = 80,
+  width = 32,
+  height = 32,
+  pattern = "sand.floor_big",
+}
+
+tile{
+  layer = 1,
+  x = 2768,
+  y = 176,
+  width = 32,
+  height = 32,
+  pattern = "sand.floor_big",
+}
+
+tile{
+  layer = 1,
+  x = 2896,
+  y = 176,
+  width = 32,
+  height = 32,
+  pattern = "sand.floor_big",
+}
+
+tile{
+  layer = 1,
+  x = 2896,
+  y = 80,
+  width = 32,
+  height = 32,
+  pattern = "sand.floor_big",
+}
+
+tile{
+  layer = 1,
+  x = 2768,
+  y = 80,
+  width = 32,
+  height = 32,
+  pattern = "sand.floor_big",
+}
+
+tile{
+  layer = 1,
+  x = 1552,
+  y = 64,
+  width = 32,
+  height = 32,
+  pattern = "sand.floor_big",
+}
+
+tile{
+  layer = 1,
+  x = 1328,
+  y = 64,
+  width = 32,
+  height = 32,
+  pattern = "sand.floor_big",
+}
+
+tile{
+  layer = 1,
+  x = 1552,
+  y = 192,
+  width = 32,
+  height = 32,
+  pattern = "sand.floor_big",
+}
+
+tile{
+  layer = 1,
+  x = 1328,
+  y = 192,
+  width = 32,
+  height = 32,
+  pattern = "sand.floor_big",
+}
+
+tile{
+  layer = 1,
+  x = 1008,
+  y = 96,
+  width = 32,
+  height = 32,
+  pattern = "sand.floor_big",
+}
+
+tile{
+  layer = 1,
   x = 32,
   y = 48,
   width = 640,
@@ -145,9 +451,36 @@ tile{
 }
 
 tile{
-  layer = 0,
+  layer = 1,
+  x = 864,
+  y = 512,
+  width = 32,
+  height = 32,
+  pattern = "sand.floor_big",
+}
+
+tile{
+  layer = 1,
   x = 672,
   y = 512,
+  width = 32,
+  height = 32,
+  pattern = "sand.floor_big",
+}
+
+tile{
+  layer = 1,
+  x = 896,
+  y = 768,
+  width = 32,
+  height = 32,
+  pattern = "sand.floor_big",
+}
+
+tile{
+  layer = 1,
+  x = 896,
+  y = 624,
   width = 32,
   height = 32,
   pattern = "sand.floor_big",
@@ -349,15 +682,6 @@ tile{
   width = 16,
   height = 16,
   pattern = "cliff.corner.diag.1",
-}
-
-tile{
-  layer = 1,
-  x = 896,
-  y = 768,
-  width = 32,
-  height = 32,
-  pattern = "sand.soil",
 }
 
 tile{
@@ -1777,15 +2101,6 @@ tile{
   layer = 1,
   x = 1008,
   y = 96,
-  width = 32,
-  height = 32,
-  pattern = "sand.soil",
-}
-
-tile{
-  layer = 1,
-  x = 1008,
-  y = 96,
   width = 16,
   height = 16,
   pattern = "cliff.diag.1",
@@ -3121,6 +3436,132 @@ tile{
   width = 8,
   height = 40,
   pattern = "ladder.border.1",
+}
+
+tile{
+  layer = 1,
+  x = 672,
+  y = 544,
+  width = 224,
+  height = 80,
+  pattern = "sand.floor_big",
+}
+
+tile{
+  layer = 1,
+  x = 896,
+  y = 800,
+  width = 32,
+  height = 32,
+  pattern = "sand.floor_big",
+}
+
+tile{
+  layer = 1,
+  x = 2784,
+  y = 1296,
+  width = 96,
+  height = 64,
+  pattern = "sand.floor_big",
+}
+
+tile{
+  layer = 1,
+  x = 2880,
+  y = 1296,
+  width = 64,
+  height = 144,
+  pattern = "sand.floor_big",
+}
+
+tile{
+  layer = 1,
+  x = 2576,
+  y = 1216,
+  width = 496,
+  height = 80,
+  pattern = "sand.floor_big",
+}
+
+tile{
+  layer = 1,
+  x = 2048,
+  y = 1088,
+  width = 1024,
+  height = 128,
+  pattern = "sand.floor_big",
+}
+
+tile{
+  layer = 1,
+  x = 1040,
+  y = 48,
+  width = 2128,
+  height = 16,
+  pattern = "sand.floor_big",
+}
+
+tile{
+  layer = 1,
+  x = 1584,
+  y = 64,
+  width = 1584,
+  height = 16,
+  pattern = "sand.floor_big",
+}
+
+tile{
+  layer = 1,
+  x = 1040,
+  y = 64,
+  width = 288,
+  height = 64,
+  pattern = "sand.floor_big",
+}
+
+tile{
+  layer = 1,
+  x = 1584,
+  y = 80,
+  width = 1184,
+  height = 144,
+  pattern = "sand.floor_big",
+}
+
+tile{
+  layer = 1,
+  x = 2928,
+  y = 80,
+  width = 48,
+  height = 128,
+  pattern = "sand.floor_big",
+}
+
+tile{
+  layer = 1,
+  x = 2928,
+  y = 240,
+  width = 48,
+  height = 128,
+  pattern = "sand.floor_big",
+}
+
+tile{
+  layer = 1,
+  x = 2768,
+  y = 208,
+  width = 368,
+  height = 32,
+  pattern = "sand.floor_big",
+}
+
+tile{
+  layer = 1,
+  x = 3136,
+  y = 80,
+  width = 32,
+  height = 288,
+  pattern = "sand.floor_big",
 }
 
 wall{
