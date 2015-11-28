@@ -3573,6 +3573,24 @@ tile{
   pattern = "sand.floor_big",
 }
 
+tile{
+  layer = 1,
+  x = 896,
+  y = 224,
+  width = 1872,
+  height = 144,
+  pattern = "sand.floor_big",
+}
+
+tile{
+  layer = 1,
+  x = 896,
+  y = 368,
+  width = 2272,
+  height = 256,
+  pattern = "sand.floor_big",
+}
+
 wall{
   layer = 1,
   x = 3048,
