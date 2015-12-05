@@ -3636,6 +3636,42 @@ tile{
   pattern = "sand.soil.3",
 }
 
+tile{
+  layer = 1,
+  x = 832,
+  y = 1080,
+  width = 8,
+  height = 8,
+  pattern = "grass.soil",
+}
+
+tile{
+  layer = 1,
+  x = 816,
+  y = 1048,
+  width = 8,
+  height = 8,
+  pattern = "grass.soil",
+}
+
+tile{
+  layer = 1,
+  x = 800,
+  y = 1008,
+  width = 16,
+  height = 48,
+  pattern = "grass.soil",
+}
+
+tile{
+  layer = 1,
+  x = 800,
+  y = 1056,
+  width = 32,
+  height = 32,
+  pattern = "grass.soil",
+}
+
 wall{
   layer = 1,
   x = 3048,
