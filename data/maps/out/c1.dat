@@ -12,6 +12,141 @@ properties{
 
 tile{
   layer = 1,
+  x = 2048,
+  y = 1088,
+  width = 1024,
+  height = 128,
+  pattern = "sand.floor_big",
+}
+
+tile{
+  layer = 1,
+  x = 2576,
+  y = 1216,
+  width = 496,
+  height = 80,
+  pattern = "sand.floor_big",
+}
+
+tile{
+  layer = 1,
+  x = 2784,
+  y = 1296,
+  width = 96,
+  height = 64,
+  pattern = "sand.floor_big",
+}
+
+tile{
+  layer = 1,
+  x = 2832,
+  y = 1344,
+  width = 48,
+  height = 16,
+  pattern = "dirt.soil",
+}
+
+tile{
+  layer = 1,
+  x = 2848,
+  y = 1328,
+  width = 32,
+  height = 16,
+  pattern = "dirt.soil",
+}
+
+tile{
+  layer = 1,
+  x = 2864,
+  y = 1312,
+  width = 16,
+  height = 16,
+  pattern = "dirt.soil",
+}
+
+tile{
+  layer = 1,
+  x = 2880,
+  y = 1296,
+  width = 64,
+  height = 144,
+  pattern = "dirt.soil",
+}
+
+tile{
+  layer = 1,
+  x = 2896,
+  y = 1280,
+  width = 64,
+  height = 16,
+  pattern = "dirt.soil",
+}
+
+tile{
+  layer = 1,
+  x = 2912,
+  y = 1264,
+  width = 48,
+  height = 16,
+  pattern = "dirt.soil",
+}
+
+tile{
+  layer = 1,
+  x = 2928,
+  y = 1248,
+  width = 32,
+  height = 16,
+  pattern = "dirt.soil",
+}
+
+tile{
+  layer = 1,
+  x = 2960,
+  y = 1232,
+  width = 112,
+  height = 64,
+  pattern = "dirt.soil",
+}
+
+tile{
+  layer = 1,
+  x = 3056,
+  y = 1200,
+  width = 16,
+  height = 16,
+  pattern = "dirt.soil",
+}
+
+tile{
+  layer = 1,
+  x = 3008,
+  y = 1216,
+  width = 64,
+  height = 16,
+  pattern = "dirt.soil",
+}
+
+tile{
+  layer = 1,
+  x = 2944,
+  y = 1296,
+  width = 32,
+  height = 32,
+  pattern = "dirt.soil",
+}
+
+tile{
+  layer = 1,
+  x = 2848,
+  y = 1360,
+  width = 32,
+  height = 32,
+  pattern = "dirt.soil",
+}
+
+tile{
+  layer = 1,
   x = 864,
   y = 928,
   width = 80,
@@ -229,24 +364,6 @@ tile{
 tile{
   layer = 1,
   x = 2752,
-  y = 1296,
-  width = 32,
-  height = 32,
-  pattern = "sand.floor_big",
-}
-
-tile{
-  layer = 1,
-  x = 2848,
-  y = 1360,
-  width = 32,
-  height = 32,
-  pattern = "sand.floor_big",
-}
-
-tile{
-  layer = 1,
-  x = 2944,
   y = 1296,
   width = 32,
   height = 32,
@@ -3454,42 +3571,6 @@ tile{
   y = 544,
   width = 224,
   height = 80,
-  pattern = "sand.floor_big",
-}
-
-tile{
-  layer = 1,
-  x = 2784,
-  y = 1296,
-  width = 96,
-  height = 64,
-  pattern = "sand.floor_big",
-}
-
-tile{
-  layer = 1,
-  x = 2880,
-  y = 1296,
-  width = 64,
-  height = 144,
-  pattern = "sand.floor_big",
-}
-
-tile{
-  layer = 1,
-  x = 2576,
-  y = 1216,
-  width = 496,
-  height = 80,
-  pattern = "sand.floor_big",
-}
-
-tile{
-  layer = 1,
-  x = 2048,
-  y = 1088,
-  width = 1024,
-  height = 128,
   pattern = "sand.floor_big",
 }
 
