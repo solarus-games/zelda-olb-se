@@ -10,3 +10,102 @@ properties{
   music = "dark_world",
 }
 
+tile{
+  layer = 0,
+  x = 0,
+  y = 120,
+  width = 128,
+  height = 8,
+  pattern = "cliff.top.1",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 112,
+  width = 128,
+  height = 8,
+  pattern = "sand.cliff.top.1",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 0,
+  width = 128,
+  height = 112,
+  pattern = "sand.soil",
+}
+
+tile{
+  layer = 1,
+  x = 0,
+  y = 176,
+  width = 160,
+  height = 16,
+  pattern = "cliff.1",
+}
+
+tile{
+  layer = 1,
+  x = 0,
+  y = 192,
+  width = 160,
+  height = 16,
+  pattern = "grass.cliff.1",
+}
+
+tile{
+  layer = 1,
+  x = 0,
+  y = 208,
+  width = 160,
+  height = 608,
+  pattern = "grass.soil",
+}
+
+tile{
+  layer = 1,
+  x = 0,
+  y = 272,
+  width = 16,
+  height = 16,
+  pattern = "forest.1",
+}
+
+tile{
+  layer = 2,
+  x = 0,
+  y = 168,
+  width = 160,
+  height = 8,
+  pattern = "cliff.top.1",
+}
+
+tile{
+  layer = 2,
+  x = 0,
+  y = 160,
+  width = 160,
+  height = 8,
+  pattern = "sand.cliff.top.1",
+}
+
+tile{
+  layer = 2,
+  x = 0,
+  y = 144,
+  width = 128,
+  height = 16,
+  pattern = "sand.cliff.1",
+}
+
+tile{
+  layer = 2,
+  x = 0,
+  y = 128,
+  width = 128,
+  height = 16,
+  pattern = "cliff.1",
+}
+
