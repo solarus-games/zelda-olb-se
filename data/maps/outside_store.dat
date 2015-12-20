@@ -8874,6 +8874,42 @@ tile{
   pattern = "house.wall.border.2",
 }
 
+tile{
+  layer = 0,
+  x = 792,
+  y = 104,
+  width = 16,
+  height = 24,
+  pattern = "grass.stairs_down.1",
+}
+
+tile{
+  layer = 0,
+  x = 808,
+  y = 96,
+  width = 8,
+  height = 32,
+  pattern = "grass.stairs_down.border.3",
+}
+
+tile{
+  layer = 0,
+  x = 784,
+  y = 96,
+  width = 8,
+  height = 32,
+  pattern = "grass.stairs_down.border.2",
+}
+
+tile{
+  layer = 0,
+  x = 792,
+  y = 96,
+  width = 16,
+  height = 8,
+  pattern = "grass.stairs_down.border.1",
+}
+
 wall{
   layer = 0,
   x = 16,
