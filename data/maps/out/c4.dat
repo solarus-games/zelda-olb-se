@@ -4580,6 +4580,17 @@ door{
   opening_method = "explosion",
 }
 
+teletransporter{
+  layer = 0,
+  x = 1920,
+  y = 0,
+  width = 16,
+  height = 960,
+  transition = "scrolling",
+  destination_map = "out/e4",
+  destination = "_side",
+}
+
 tile{
   layer = 1,
   x = 208,
@@ -11351,6 +11362,17 @@ sensor{
   height = 16,
 }
 
+teletransporter{
+  layer = 1,
+  x = 1920,
+  y = 0,
+  width = 16,
+  height = 960,
+  transition = "scrolling",
+  destination_map = "out/e4",
+  destination = "_side",
+}
+
 tile{
   layer = 2,
   x = 704,
@@ -12114,5 +12136,16 @@ tile{
   width = 32,
   height = 24,
   pattern = "dungeon_c.roof",
+}
+
+teletransporter{
+  layer = 2,
+  x = 1920,
+  y = 0,
+  width = 16,
+  height = 960,
+  transition = "scrolling",
+  destination_map = "out/e4",
+  destination = "_side",
 }
 
