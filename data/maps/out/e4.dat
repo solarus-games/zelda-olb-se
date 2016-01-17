@@ -1663,6 +1663,16 @@ sensor{
   height = 16,
 }
 
+teletransporter{
+  layer = 0,
+  x = -16,
+  y = 0,
+  width = 16,
+  height = 960,
+  destination_map = "out/c4",
+  destination = "_side",
+}
+
 tile{
   layer = 1,
   x = 264,
@@ -11314,6 +11324,16 @@ sensor{
   height = 16,
 }
 
+teletransporter{
+  layer = 1,
+  x = -16,
+  y = 0,
+  width = 16,
+  height = 960,
+  destination_map = "out/c4",
+  destination = "_side",
+}
+
 tile{
   layer = 2,
   x = 352,
@@ -13643,6 +13663,16 @@ sensor{
   height = 16,
 }
 
+teletransporter{
+  layer = 2,
+  x = -16,
+  y = 0,
+  width = 16,
+  height = 960,
+  destination_map = "out/c4",
+  destination = "_side",
+}
+
 tile{
   layer = 3,
   x = 416,
@@ -13906,5 +13936,15 @@ custom_entity{
   direction = 0,
   sprite = "entities/hook_tree_small_green",
   model = "hookable",
+}
+
+teletransporter{
+  layer = 3,
+  x = -16,
+  y = 0,
+  width = 16,
+  height = 960,
+  destination_map = "out/c4",
+  destination = "_side",
 }
 
