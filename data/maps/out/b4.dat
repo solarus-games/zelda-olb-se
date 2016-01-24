@@ -8291,6 +8291,17 @@ sensor{
   height = 16,
 }
 
+teletransporter{
+  layer = 0,
+  x = 1280,
+  y = 0,
+  width = 16,
+  height = 960,
+  transition = "scrolling",
+  destination_map = "out/c4",
+  destination = "_side",
+}
+
 tile{
   layer = 1,
   x = 288,
@@ -12165,6 +12176,17 @@ sensor{
   height = 16,
 }
 
+teletransporter{
+  layer = 1,
+  x = 1280,
+  y = 0,
+  width = 16,
+  height = 960,
+  transition = "scrolling",
+  destination_map = "out/c4",
+  destination = "_side",
+}
+
 tile{
   layer = 2,
   x = 80,
@@ -12820,5 +12842,16 @@ tile{
   width = 64,
   height = 56,
   pattern = "house_tree.roof",
+}
+
+teletransporter{
+  layer = 2,
+  x = 1280,
+  y = 0,
+  width = 16,
+  height = 960,
+  transition = "scrolling",
+  destination_map = "out/c4",
+  destination = "_side",
 }
 
