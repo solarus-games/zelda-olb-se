@@ -1,9 +1,15 @@
 quest{
   solarus_version = "1.5",
   write_dir = "zelda_olb_se",
-  title_bar = "Zelda Oni Link Begins",
+  title = "Zelda Oni Link Begins",
+  short_description = "Remake of the game from Vincent Jouillat",
+  long_description = [[
+]],
+  author = "Christopho",
+  quest_version = "1.0",
+  release_date = "",
+  website = "http://www.solarus-games.org",
   normal_quest_size = "320x240",
   min_quest_size = "320x240",
   max_quest_size = "320x240",
 }
-
