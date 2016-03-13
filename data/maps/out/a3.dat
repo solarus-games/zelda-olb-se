@@ -1201,6 +1201,28 @@ sensor{
   height = 16,
 }
 
+teletransporter{
+  layer = 0,
+  x = 0,
+  y = 960,
+  width = 1280,
+  height = 16,
+  transition = "scrolling",
+  destination_map = "out/a4",
+  destination = "_side",
+}
+
+teletransporter{
+  layer = 0,
+  x = 1280,
+  y = 0,
+  width = 16,
+  height = 960,
+  transition = "scrolling",
+  destination_map = "out/b2",
+  destination = "_side",
+}
+
 tile{
   layer = 1,
   x = 392,
@@ -5348,6 +5370,28 @@ custom_entity{
   model = "hookable",
 }
 
+teletransporter{
+  layer = 1,
+  x = 0,
+  y = 960,
+  width = 1280,
+  height = 16,
+  transition = "scrolling",
+  destination_map = "out/a4",
+  destination = "_side",
+}
+
+teletransporter{
+  layer = 1,
+  x = 1280,
+  y = 0,
+  width = 16,
+  height = 960,
+  transition = "scrolling",
+  destination_map = "out/b2",
+  destination = "_side",
+}
+
 tile{
   layer = 2,
   x = 288,
@@ -7335,6 +7379,28 @@ tile{
   width = 32,
   height = 24,
   pattern = "dungeon_c.roof",
+}
+
+teletransporter{
+  layer = 2,
+  x = 0,
+  y = 960,
+  width = 1280,
+  height = 16,
+  transition = "scrolling",
+  destination_map = "out/a4",
+  destination = "_side",
+}
+
+teletransporter{
+  layer = 2,
+  x = 1280,
+  y = 0,
+  width = 16,
+  height = 960,
+  transition = "scrolling",
+  destination_map = "out/b2",
+  destination = "_side",
 }
 
 tile{

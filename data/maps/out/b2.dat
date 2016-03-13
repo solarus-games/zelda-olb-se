@@ -3142,6 +3142,42 @@ tile{
   pattern = "water.wave_small",
 }
 
+tile{
+  layer = 0,
+  x = 16,
+  y = 1472,
+  width = 16,
+  height = 16,
+  pattern = "dirt.cliff.1",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 1472,
+  width = 16,
+  height = 16,
+  pattern = "sand.cliff.1",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 1568,
+  width = 32,
+  height = 8,
+  pattern = "sand.cliff.2",
+}
+
+tile{
+  layer = 0,
+  x = 32,
+  y = 1568,
+  width = 16,
+  height = 8,
+  pattern = "dirt.cliff.2",
+}
+
 wall{
   layer = 0,
   x = 632,
@@ -3200,6 +3236,72 @@ custom_entity{
   direction = 3,
   sprite = "entities/hammer_stake_green",
   model = "hammer_stake",
+}
+
+teletransporter{
+  layer = 0,
+  x = 0,
+  y = -16,
+  width = 1280,
+  height = 16,
+  transition = "scrolling",
+  destination_map = "out/a1",
+  destination = "_side",
+}
+
+teletransporter{
+  layer = 0,
+  x = -16,
+  y = 0,
+  width = 16,
+  height = 960,
+  transition = "scrolling",
+  destination_map = "out/a2",
+  destination = "_side",
+}
+
+teletransporter{
+  layer = 0,
+  x = -16,
+  y = 960,
+  width = 16,
+  height = 960,
+  transition = "scrolling",
+  destination_map = "out/a3",
+  destination = "_side",
+}
+
+teletransporter{
+  layer = 0,
+  x = 1280,
+  y = 0,
+  width = 16,
+  height = 960,
+  transition = "scrolling",
+  destination_map = "out/c2",
+  destination = "_side",
+}
+
+teletransporter{
+  layer = 0,
+  x = 1280,
+  y = 960,
+  width = 16,
+  height = 960,
+  transition = "scrolling",
+  destination_map = "out/c3",
+  destination = "_side",
+}
+
+teletransporter{
+  layer = 0,
+  x = 0,
+  y = 1920,
+  width = 1280,
+  height = 16,
+  transition = "scrolling",
+  destination_map = "out/b4",
+  destination = "_side",
 }
 
 tile{
@@ -7497,18 +7599,18 @@ tile{
 
 tile{
   layer = 1,
-  x = 0,
+  x = 32,
   y = 1472,
-  width = 48,
+  width = 16,
   height = 16,
   pattern = "grass.cliff.1",
 }
 
 tile{
   layer = 1,
-  x = 0,
+  x = 48,
   y = 1568,
-  width = 128,
+  width = 80,
   height = 8,
   pattern = "grass.cliff.2",
 }
@@ -17450,6 +17552,72 @@ npc{
   sprite = "entities/sign",
 }
 
+teletransporter{
+  layer = 1,
+  x = 0,
+  y = -16,
+  width = 1280,
+  height = 16,
+  transition = "scrolling",
+  destination_map = "out/a1",
+  destination = "_side",
+}
+
+teletransporter{
+  layer = 1,
+  x = -16,
+  y = 0,
+  width = 16,
+  height = 960,
+  transition = "scrolling",
+  destination_map = "out/a2",
+  destination = "_side",
+}
+
+teletransporter{
+  layer = 1,
+  x = -16,
+  y = 960,
+  width = 16,
+  height = 960,
+  transition = "scrolling",
+  destination_map = "out/a3",
+  destination = "_side",
+}
+
+teletransporter{
+  layer = 1,
+  x = 1280,
+  y = 0,
+  width = 16,
+  height = 960,
+  transition = "scrolling",
+  destination_map = "out/c2",
+  destination = "_side",
+}
+
+teletransporter{
+  layer = 1,
+  x = 1280,
+  y = 960,
+  width = 16,
+  height = 960,
+  transition = "scrolling",
+  destination_map = "out/c3",
+  destination = "_side",
+}
+
+teletransporter{
+  layer = 1,
+  x = 0,
+  y = 1920,
+  width = 1280,
+  height = 16,
+  transition = "scrolling",
+  destination_map = "out/b4",
+  destination = "_side",
+}
+
 tile{
   layer = 2,
   x = 1192,
@@ -19734,5 +19902,71 @@ npc{
   direction = 3,
   subtype = 0,
   sprite = "entities/sign",
+}
+
+teletransporter{
+  layer = 2,
+  x = 0,
+  y = -16,
+  width = 1280,
+  height = 16,
+  transition = "scrolling",
+  destination_map = "out/a1",
+  destination = "_side",
+}
+
+teletransporter{
+  layer = 2,
+  x = -16,
+  y = 0,
+  width = 16,
+  height = 960,
+  transition = "scrolling",
+  destination_map = "out/a2",
+  destination = "_side",
+}
+
+teletransporter{
+  layer = 2,
+  x = -16,
+  y = 960,
+  width = 16,
+  height = 960,
+  transition = "scrolling",
+  destination_map = "out/a3",
+  destination = "_side",
+}
+
+teletransporter{
+  layer = 2,
+  x = 1280,
+  y = 0,
+  width = 16,
+  height = 960,
+  transition = "scrolling",
+  destination_map = "out/c2",
+  destination = "_side",
+}
+
+teletransporter{
+  layer = 2,
+  x = 1280,
+  y = 960,
+  width = 16,
+  height = 960,
+  transition = "scrolling",
+  destination_map = "out/c3",
+  destination = "_side",
+}
+
+teletransporter{
+  layer = 2,
+  x = 0,
+  y = 1920,
+  width = 1280,
+  height = 16,
+  transition = "scrolling",
+  destination_map = "out/b4",
+  destination = "_side",
 }
 

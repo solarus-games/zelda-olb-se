@@ -127,6 +127,28 @@ tile{
   pattern = "dirt.soil",
 }
 
+teletransporter{
+  layer = 0,
+  x = 0,
+  y = -16,
+  width = 1280,
+  height = 16,
+  transition = "scrolling",
+  destination_map = "out/e4",
+  destination = "_side",
+}
+
+teletransporter{
+  layer = 0,
+  x = 1280,
+  y = 0,
+  width = 16,
+  height = 960,
+  transition = "scrolling",
+  destination_map = "out/b4",
+  destination = "_side",
+}
+
 tile{
   layer = 1,
   x = 32,
@@ -5558,6 +5580,28 @@ destructible{
   can_be_cut = true,
 }
 
+teletransporter{
+  layer = 1,
+  x = 0,
+  y = -16,
+  width = 1280,
+  height = 16,
+  transition = "scrolling",
+  destination_map = "out/e4",
+  destination = "_side",
+}
+
+teletransporter{
+  layer = 1,
+  x = 1280,
+  y = 0,
+  width = 16,
+  height = 960,
+  transition = "scrolling",
+  destination_map = "out/b4",
+  destination = "_side",
+}
+
 tile{
   layer = 2,
   x = 496,
@@ -8868,6 +8912,28 @@ custom_entity{
   width = 80,
   direction = 0,
   model = "hookable",
+}
+
+teletransporter{
+  layer = 2,
+  x = 0,
+  y = -16,
+  width = 1280,
+  height = 16,
+  transition = "scrolling",
+  destination_map = "out/a3",
+  destination = "_side",
+}
+
+teletransporter{
+  layer = 2,
+  x = 1280,
+  y = 0,
+  width = 16,
+  height = 960,
+  transition = "scrolling",
+  destination_map = "out/b4",
+  destination = "_side",
 }
 
 tile{

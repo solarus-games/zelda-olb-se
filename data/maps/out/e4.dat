@@ -1673,6 +1673,17 @@ teletransporter{
   destination = "_side",
 }
 
+teletransporter{
+  layer = 0,
+  x = 0,
+  y = -16,
+  width = 1280,
+  height = 16,
+  transition = "scrolling",
+  destination_map = "out/d3",
+  destination = "_side",
+}
+
 tile{
   layer = 1,
   x = 264,
@@ -11335,6 +11346,17 @@ teletransporter{
   destination = "_side",
 }
 
+teletransporter{
+  layer = 1,
+  x = 0,
+  y = -16,
+  width = 1280,
+  height = 16,
+  transition = "scrolling",
+  destination_map = "out/d3",
+  destination = "_side",
+}
+
 tile{
   layer = 2,
   x = 352,
@@ -13672,6 +13694,17 @@ teletransporter{
   height = 960,
   transition = "scrolling",
   destination_map = "out/c4",
+  destination = "_side",
+}
+
+teletransporter{
+  layer = 2,
+  x = 0,
+  y = -16,
+  width = 1280,
+  height = 16,
+  transition = "scrolling",
+  destination_map = "out/d3",
   destination = "_side",
 }
 

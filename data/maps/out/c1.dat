@@ -1411,6 +1411,17 @@ sensor{
   height = 16,
 }
 
+teletransporter{
+  layer = 0,
+  x = 1920,
+  y = 1440,
+  width = 1280,
+  height = 16,
+  transition = "scrolling",
+  destination_map = "out/e2",
+  destination = "_side",
+}
+
 tile{
   layer = 1,
   x = 896,
@@ -14965,6 +14976,17 @@ destructible{
   damage_on_enemies = 2,
 }
 
+teletransporter{
+  layer = 1,
+  x = 1920,
+  y = 1440,
+  width = 1280,
+  height = 16,
+  transition = "scrolling",
+  destination_map = "out/e2",
+  destination = "_side",
+}
+
 tile{
   layer = 2,
   x = 2992,
@@ -19258,6 +19280,17 @@ custom_entity{
   direction = 0,
   sprite = "entities/hook_yellow",
   model = "hookable",
+}
+
+teletransporter{
+  layer = 2,
+  x = 1920,
+  y = 1440,
+  width = 1280,
+  height = 16,
+  transition = "scrolling",
+  destination_map = "out/e2",
+  destination = "_side",
 }
 
 tile{

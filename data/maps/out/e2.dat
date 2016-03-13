@@ -37,6 +37,39 @@ tile{
   pattern = "sand.soil",
 }
 
+teletransporter{
+  layer = 0,
+  x = -16,
+  y = 0,
+  width = 16,
+  height = 960,
+  transition = "scrolling",
+  destination_map = "out/d2",
+  destination = "_side",
+}
+
+teletransporter{
+  layer = 0,
+  x = 0,
+  y = -16,
+  width = 1280,
+  height = 16,
+  transition = "scrolling",
+  destination_map = "out/c1",
+  destination = "_side",
+}
+
+teletransporter{
+  layer = 0,
+  x = 0,
+  y = 960,
+  width = 1280,
+  height = 16,
+  transition = "scrolling",
+  destination_map = "out/d3",
+  destination = "_side",
+}
+
 tile{
   layer = 1,
   x = 0,
@@ -73,6 +106,39 @@ tile{
   pattern = "forest.1",
 }
 
+teletransporter{
+  layer = 1,
+  x = -16,
+  y = 0,
+  width = 16,
+  height = 960,
+  transition = "scrolling",
+  destination_map = "out/d2",
+  destination = "_side",
+}
+
+teletransporter{
+  layer = 1,
+  x = 0,
+  y = -16,
+  width = 1280,
+  height = 16,
+  transition = "scrolling",
+  destination_map = "out/c1",
+  destination = "_side",
+}
+
+teletransporter{
+  layer = 1,
+  x = 0,
+  y = 960,
+  width = 1280,
+  height = 16,
+  transition = "scrolling",
+  destination_map = "out/d3",
+  destination = "_side",
+}
+
 tile{
   layer = 2,
   x = 0,
@@ -107,5 +173,38 @@ tile{
   width = 128,
   height = 16,
   pattern = "cliff.1",
+}
+
+teletransporter{
+  layer = 2,
+  x = -16,
+  y = 0,
+  width = 16,
+  height = 960,
+  transition = "scrolling",
+  destination_map = "out/d2",
+  destination = "_side",
+}
+
+teletransporter{
+  layer = 2,
+  x = 0,
+  y = -16,
+  width = 1280,
+  height = 16,
+  transition = "scrolling",
+  destination_map = "out/c1",
+  destination = "_side",
+}
+
+teletransporter{
+  layer = 2,
+  x = 0,
+  y = 960,
+  width = 1280,
+  height = 16,
+  transition = "scrolling",
+  destination_map = "out/d3",
+  destination = "_side",
 }
 

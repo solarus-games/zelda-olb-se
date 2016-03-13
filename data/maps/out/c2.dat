@@ -1268,6 +1268,28 @@ sensor{
   height = 16,
 }
 
+teletransporter{
+  layer = 0,
+  x = 640,
+  y = 0,
+  width = 16,
+  height = 960,
+  transition = "scrolling",
+  destination_map = "out/d2",
+  destination = "_side",
+}
+
+teletransporter{
+  layer = 0,
+  x = 0,
+  y = 960,
+  width = 640,
+  height = 16,
+  transition = "scrolling",
+  destination_map = "out/c3",
+  destination = "_side",
+}
+
 tile{
   layer = 1,
   x = 224,
@@ -4882,6 +4904,28 @@ destructible{
   can_be_cut = true,
 }
 
+teletransporter{
+  layer = 1,
+  x = 640,
+  y = 0,
+  width = 16,
+  height = 960,
+  transition = "scrolling",
+  destination_map = "out/d2",
+  destination = "_side",
+}
+
+teletransporter{
+  layer = 1,
+  x = 0,
+  y = 960,
+  width = 640,
+  height = 16,
+  transition = "scrolling",
+  destination_map = "out/c3",
+  destination = "_side",
+}
+
 tile{
   layer = 2,
   x = 240,
@@ -6599,6 +6643,39 @@ tile{
   width = 8,
   height = 8,
   pattern = "tower.floor.2",
+}
+
+teletransporter{
+  layer = 2,
+  x = -16,
+  y = 0,
+  width = 16,
+  height = 960,
+  transition = "scrolling",
+  destination_map = "out/b2",
+  destination = "_side",
+}
+
+teletransporter{
+  layer = 2,
+  x = 640,
+  y = 0,
+  width = 16,
+  height = 960,
+  transition = "scrolling",
+  destination_map = "out/d2",
+  destination = "_side",
+}
+
+teletransporter{
+  layer = 2,
+  x = 0,
+  y = 960,
+  width = 640,
+  height = 16,
+  transition = "scrolling",
+  destination_map = "out/c3",
+  destination = "_side",
 }
 
 tile{
