@@ -11,6 +11,115 @@ tile_pattern{
 }
 
 tile_pattern{
+  id = "10",
+  ground = "wall",
+  default_layer = 1,
+  x = 592,
+  y = 8,
+  width = 8,
+  height = 8,
+  repeat_mode = "vertical",
+}
+
+tile_pattern{
+  id = "11",
+  ground = "wall",
+  default_layer = 1,
+  x = 552,
+  y = 16,
+  width = 8,
+  height = 24,
+  repeat_mode = "none",
+}
+
+tile_pattern{
+  id = "12",
+  ground = "wall",
+  default_layer = 1,
+  x = 584,
+  y = 16,
+  width = 8,
+  height = 24,
+  repeat_mode = "none",
+}
+
+tile_pattern{
+  id = "13",
+  ground = "wall",
+  default_layer = 1,
+  x = 584,
+  y = 40,
+  width = 8,
+  height = 8,
+  repeat_mode = "horizontal",
+}
+
+tile_pattern{
+  id = "14",
+  ground = "wall",
+  default_layer = 1,
+  x = 560,
+  y = 16,
+  width = 8,
+  height = 8,
+  repeat_mode = "none",
+}
+
+tile_pattern{
+  id = "15",
+  ground = "wall",
+  default_layer = 1,
+  x = 576,
+  y = 16,
+  width = 8,
+  height = 8,
+  repeat_mode = "none",
+}
+
+tile_pattern{
+  id = "16",
+  ground = "wall",
+  default_layer = 1,
+  x = 560,
+  y = 8,
+  width = 8,
+  height = 8,
+  repeat_mode = "vertical",
+}
+
+tile_pattern{
+  id = "17",
+  ground = "wall",
+  default_layer = 1,
+  x = 576,
+  y = 8,
+  width = 8,
+  height = 8,
+  repeat_mode = "vertical",
+}
+
+tile_pattern{
+  id = "18",
+  ground = "wall",
+  default_layer = 1,
+  x = 568,
+  y = 8,
+  width = 8,
+  height = 8,
+}
+
+tile_pattern{
+  id = "19",
+  ground = "wall",
+  default_layer = 1,
+  x = 568,
+  y = 16,
+  width = 8,
+  height = 8,
+  repeat_mode = "horizontal",
+}
+
+tile_pattern{
   id = "2",
   ground = "wall",
   default_layer = 0,
@@ -19,6 +128,77 @@ tile_pattern{
   width = 8,
   height = 32,
   repeat_mode = "none",
+}
+
+tile_pattern{
+  id = "20",
+  ground = "wall",
+  default_layer = 1,
+  x = 568,
+  y = 0,
+  width = 8,
+  height = 8,
+  repeat_mode = "horizontal",
+}
+
+tile_pattern{
+  id = "21",
+  ground = "wall",
+  default_layer = 1,
+  x = 552,
+  y = 8,
+  width = 8,
+  height = 8,
+}
+
+tile_pattern{
+  id = "22",
+  ground = "wall",
+  default_layer = 0,
+  x = 304,
+  y = 344,
+  width = 8,
+  height = 16,
+}
+
+tile_pattern{
+  id = "23",
+  ground = "wall",
+  default_layer = 0,
+  x = 328,
+  y = 344,
+  width = 8,
+  height = 16,
+}
+
+tile_pattern{
+  id = "24",
+  ground = "traversable",
+  default_layer = 0,
+  x = 304,
+  y = 360,
+  width = 32,
+  height = 8,
+}
+
+tile_pattern{
+  id = "25",
+  ground = "traversable",
+  default_layer = 0,
+  x = 312,
+  y = 344,
+  width = 16,
+  height = 16,
+}
+
+tile_pattern{
+  id = "26",
+  ground = "traversable",
+  default_layer = 1,
+  x = 304,
+  y = 320,
+  width = 32,
+  height = 24,
 }
 
 tile_pattern{
@@ -39,6 +219,61 @@ tile_pattern{
   x = 280,
   y = 240,
   width = 16,
+  height = 24,
+  repeat_mode = "none",
+}
+
+tile_pattern{
+  id = "5",
+  ground = "wall",
+  default_layer = 1,
+  x = 544,
+  y = 0,
+  width = 24,
+  height = 8,
+  repeat_mode = "none",
+}
+
+tile_pattern{
+  id = "6",
+  ground = "wall",
+  default_layer = 1,
+  x = 576,
+  y = 0,
+  width = 24,
+  height = 8,
+  repeat_mode = "none",
+}
+
+tile_pattern{
+  id = "7",
+  ground = "wall",
+  default_layer = 1,
+  x = 544,
+  y = 8,
+  width = 8,
+  height = 8,
+  repeat_mode = "vertical",
+}
+
+tile_pattern{
+  id = "8",
+  ground = "wall",
+  default_layer = 1,
+  x = 544,
+  y = 16,
+  width = 8,
+  height = 24,
+  repeat_mode = "none",
+}
+
+tile_pattern{
+  id = "9",
+  ground = "wall",
+  default_layer = 1,
+  x = 592,
+  y = 16,
+  width = 8,
   height = 24,
   repeat_mode = "none",
 }
@@ -7386,7 +7621,7 @@ tile_pattern{
   id = "peak",
   ground = "wall",
   default_layer = 0,
-  x = 496,
+  x = 528,
   y = 0,
   width = 16,
   height = 48,
@@ -8831,8 +9066,8 @@ tile_pattern{
   id = "statue.3",
   ground = "wall",
   default_layer = 0,
-  x = 304,
-  y = 336,
+  x = 496,
+  y = 16,
   width = 32,
   height = 32,
 }
@@ -8841,8 +9076,8 @@ tile_pattern{
   id = "statue.3.top",
   ground = "traversable",
   default_layer = 1,
-  x = 304,
-  y = 320,
+  x = 496,
+  y = 0,
   width = 32,
   height = 16,
 }

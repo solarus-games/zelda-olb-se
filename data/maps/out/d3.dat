@@ -1392,17 +1392,6 @@ teletransporter{
 
 teletransporter{
   layer = 0,
-  x = 0,
-  y = -16,
-  width = 640,
-  height = 16,
-  transition = "scrolling",
-  destination_map = "out/c3",
-  destination = "_side",
-}
-
-teletransporter{
-  layer = 0,
   x = 640,
   y = -16,
   width = 1280,
@@ -1420,6 +1409,17 @@ teletransporter{
   height = 16,
   transition = "scrolling",
   destination_map = "out/e4",
+  destination = "_side",
+}
+
+teletransporter{
+  layer = 0,
+  x = 0,
+  y = -16,
+  width = 640,
+  height = 16,
+  transition = "scrolling",
+  destination_map = "out/d2",
   destination = "_side",
 }
 
@@ -11135,17 +11135,6 @@ teletransporter{
 
 teletransporter{
   layer = 1,
-  x = 0,
-  y = -16,
-  width = 640,
-  height = 16,
-  transition = "scrolling",
-  destination_map = "out/c3",
-  destination = "_side",
-}
-
-teletransporter{
-  layer = 1,
   x = 640,
   y = -16,
   width = 1280,
@@ -11163,6 +11152,17 @@ teletransporter{
   height = 16,
   transition = "scrolling",
   destination_map = "out/e4",
+  destination = "_side",
+}
+
+teletransporter{
+  layer = 1,
+  x = 0,
+  y = -16,
+  width = 640,
+  height = 16,
+  transition = "scrolling",
+  destination_map = "out/d2",
   destination = "_side",
 }
 
@@ -13158,7 +13158,7 @@ teletransporter{
   width = 640,
   height = 16,
   transition = "scrolling",
-  destination_map = "out/c3",
+  destination_map = "out/d2",
   destination = "_side",
 }
 
@@ -13665,15 +13665,6 @@ tile{
 
 tile{
   layer = 3,
-  x = 1424,
-  y = 464,
-  width = 32,
-  height = 8,
-  pattern = "cave_entrance.top",
-}
-
-tile{
-  layer = 3,
   x = 1536,
   y = 432,
   width = 16,
@@ -13903,5 +13894,14 @@ tile{
   width = 16,
   height = 16,
   pattern = "grass.flower_double",
+}
+
+tile{
+  layer = 4,
+  x = 1424,
+  y = 464,
+  width = 32,
+  height = 8,
+  pattern = "cave_entrance.top",
 }
 

@@ -7,7 +7,7 @@ properties{
   max_layer = 2,
   world = "outside",
   tileset = "light_world",
-  music = "mini_game",
+  music = "overworld",
 }
 
 tile{
@@ -8486,15 +8486,6 @@ tile{
   width = 8,
   height = 8,
   pattern = "grass.shadow.diag.3",
-}
-
-tile{
-  layer = 1,
-  x = 624,
-  y = 1384,
-  width = 32,
-  height = 8,
-  pattern = "cave_entrance_blast.top",
 }
 
 tile{
@@ -19893,6 +19884,15 @@ tile{
   width = 16,
   height = 8,
   pattern = "grass.weed",
+}
+
+tile{
+  layer = 2,
+  x = 624,
+  y = 1384,
+  width = 32,
+  height = 8,
+  pattern = "cave_entrance_blast.top",
 }
 
 npc{
