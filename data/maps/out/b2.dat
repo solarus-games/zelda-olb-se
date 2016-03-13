@@ -6860,7 +6860,7 @@ tile{
   layer = 1,
   x = 544,
   y = 584,
-  width = 192,
+  width = 80,
   height = 8,
   pattern = "cliff.top.1",
 }
@@ -16223,6 +16223,15 @@ tile{
   width = 48,
   height = 8,
   pattern = "dirt.cliff.2",
+}
+
+tile{
+  layer = 1,
+  x = 656,
+  y = 584,
+  width = 80,
+  height = 8,
+  pattern = "cliff.top.1",
 }
 
 npc{

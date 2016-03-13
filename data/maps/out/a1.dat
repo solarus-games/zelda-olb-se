@@ -19,6 +19,17 @@ tile{
   pattern = "water.cliff.4",
 }
 
+teletransporter{
+  layer = 0,
+  x = 0,
+  y = 1440,
+  width = 1280,
+  height = 16,
+  transition = "scrolling",
+  destination_map = "out/a2",
+  destination = "_side",
+}
+
 tile{
   layer = 1,
   x = 624,
@@ -5199,6 +5210,17 @@ custom_entity{
   direction = 0,
   sprite = "entities/hook_tree_small_yellow",
   model = "hookable",
+}
+
+teletransporter{
+  layer = 1,
+  x = 0,
+  y = 1440,
+  width = 1280,
+  height = 16,
+  transition = "scrolling",
+  destination_map = "out/a2",
+  destination = "_side",
 }
 
 tile{
@@ -11927,6 +11949,17 @@ custom_entity{
   height = 80,
   direction = 0,
   model = "hookable",
+}
+
+teletransporter{
+  layer = 2,
+  x = 0,
+  y = 1440,
+  width = 1280,
+  height = 16,
+  transition = "scrolling",
+  destination_map = "out/a2",
+  destination = "_side",
 }
 
 tile{
