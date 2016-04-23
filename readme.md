@@ -1,4 +1,4 @@
-![Zelda Oni Link Begins logo](zelda_olb_se_title_small.png)
+![Zelda Oni Link Begins logo](data/logos/logo.png)
 
 # Zelda Oni Link Begins
 
