@@ -7144,6 +7144,15 @@ custom_entity{
   model = "hookable",
 }
 
+npc{
+  layer = 1,
+  x = 264,
+  y = 357,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/merchant_blue",
+}
+
 tile{
   layer = 2,
   x = 448,
