@@ -1,4 +1,3 @@
-map{ id = "a", description = "tmp" }
 map{ id = "enemy_store", description = "Enemy Store" }
 map{ id = "inside_store", description = "Inside Store" }
 map{ id = "out/a1", description = "A1 (Mountains)" }
@@ -26,7 +25,6 @@ tileset{ id = "ice_brightblue", description = "Ice (bright blue)" }
 tileset{ id = "ice_brown", description = "Ice (brown)" }
 tileset{ id = "light_world", description = "Light World" }
 tileset{ id = "palace_purple", description = "Palace (purple)" }
-tileset{ id = "sanctuary", description = "tmp" }
 tileset{ id = "temple_blue", description = "Temple (blue)" }
 tileset{ id = "temple_green", description = "Temple (green)" }
 tileset{ id = "temple_yellow", description = "Temple (yellow)" }
