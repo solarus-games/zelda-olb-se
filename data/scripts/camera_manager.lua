@@ -57,7 +57,7 @@ function camera_manager:create(game)
         just_restored = true
         update_camera()
       end
-    end, 0, 0)
+    end)
     moving = false
   end
 
@@ -100,7 +100,7 @@ function camera_manager:create(game)
     end
 
     if not moving then
-      initial_x, initial_y, camera_width, camera_height = map:get_camera_position()
+      initial_x, initial_y, camera_width, camera_height = map:get_bounding_box()
     end
     moving = true
 
@@ -121,9 +121,7 @@ function camera_manager:create(game)
     local x = initial_x + camera_width / 2 + dx
     local y = initial_y + camera_height / 2 + dy
 
-    map:move_camera(x, y, camera_speed, function()
-
-    end, 0, 1e9)
+    map:move_camera(x, y, camera_speed)
   end
 
   function camera_menu:on_command_pressed(command)
