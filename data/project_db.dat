@@ -85,6 +85,8 @@ sprite{ id = "enemies/sword_soldier_blue", description = "Blue Sword Soldier" }
 sprite{ id = "enemies/sword_soldier_blue_weapon", description = "Blue Sword Soldier's sword" }
 sprite{ id = "enemies/sword_soldier_green", description = "Green Sword Soldier" }
 sprite{ id = "enemies/sword_soldier_green_weapon", description = "Green Sword Soldier's sword" }
+sprite{ id = "enemies/tarosu_blue", description = "Blue Tarosu" }
+sprite{ id = "enemies/tarosu_blue_weapon", description = "Blue Tarosu's weapon" }
 sprite{ id = "enemies/tarosu_red", description = "Red Tarosu" }
 sprite{ id = "enemies/tarosu_red_weapon", description = "Red Tarosu's trident" }
 sprite{ id = "enemies/tektite_blue", description = "Blue Tektite" }
