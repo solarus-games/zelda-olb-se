@@ -8865,6 +8865,7 @@ custom_entity{
   x = 136,
   y = 141,
   width = 112,
+  height = 16,
   direction = 0,
   model = "hookable",
 }
@@ -8874,6 +8875,7 @@ custom_entity{
   x = 296,
   y = 141,
   width = 112,
+  height = 16,
   direction = 0,
   model = "hookable",
 }
@@ -8883,6 +8885,7 @@ custom_entity{
   x = 296,
   y = 701,
   width = 64,
+  height = 16,
   direction = 0,
   model = "hookable",
 }
@@ -8892,6 +8895,7 @@ custom_entity{
   x = 408,
   y = 701,
   width = 64,
+  height = 16,
   direction = 0,
   model = "hookable",
 }
@@ -8901,6 +8905,7 @@ custom_entity{
   x = 952,
   y = 701,
   width = 80,
+  height = 16,
   direction = 0,
   model = "hookable",
 }
@@ -8910,6 +8915,7 @@ custom_entity{
   x = 1080,
   y = 701,
   width = 80,
+  height = 16,
   direction = 0,
   model = "hookable",
 }

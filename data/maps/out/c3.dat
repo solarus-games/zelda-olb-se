@@ -5949,6 +5949,7 @@ custom_entity{
   x = 856,
   y = 509,
   width = 32,
+  height = 16,
   direction = 0,
   model = "hookable",
 }
@@ -5958,6 +5959,7 @@ custom_entity{
   x = 856,
   y = 317,
   width = 32,
+  height = 16,
   direction = 0,
   model = "hookable",
 }
@@ -5967,6 +5969,7 @@ custom_entity{
   x = 1096,
   y = 317,
   width = 32,
+  height = 16,
   direction = 0,
   model = "hookable",
 }
@@ -5976,6 +5979,7 @@ custom_entity{
   x = 488,
   y = 317,
   width = 32,
+  height = 16,
   direction = 0,
   model = "hookable",
 }
@@ -5985,6 +5989,7 @@ custom_entity{
   x = 248,
   y = 541,
   width = 32,
+  height = 16,
   direction = 0,
   model = "hookable",
 }
@@ -5994,6 +5999,7 @@ custom_entity{
   x = 376,
   y = 541,
   width = 32,
+  height = 16,
   direction = 0,
   model = "hookable",
 }
@@ -10131,6 +10137,7 @@ custom_entity{
   x = 184,
   y = 205,
   width = 64,
+  height = 16,
   direction = 0,
   model = "hookable",
 }
@@ -10140,6 +10147,7 @@ custom_entity{
   x = 296,
   y = 205,
   width = 64,
+  height = 16,
   direction = 0,
   model = "hookable",
 }
@@ -10149,6 +10157,7 @@ custom_entity{
   x = 168,
   y = 669,
   width = 448,
+  height = 16,
   direction = 0,
   model = "hookable",
 }
@@ -10158,6 +10167,7 @@ custom_entity{
   x = 664,
   y = 669,
   width = 528,
+  height = 16,
   direction = 0,
   model = "hookable",
 }
@@ -10226,6 +10236,7 @@ custom_entity{
   x = 536,
   y = 77,
   width = 32,
+  height = 16,
   direction = 0,
   model = "hookable",
 }
@@ -10235,6 +10246,7 @@ custom_entity{
   x = 856,
   y = 77,
   width = 32,
+  height = 16,
   direction = 0,
   model = "hookable",
 }
@@ -10244,6 +10256,7 @@ custom_entity{
   x = 984,
   y = 77,
   width = 32,
+  height = 16,
   direction = 0,
   model = "hookable",
 }
