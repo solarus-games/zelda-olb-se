@@ -11,7 +11,7 @@ local function victory_cutscene()
   local map = game:get_map()
   local hero = map:get_hero()
 
-  sol.audio.play_music("victory")
+  sol.audio.play_sound("treasure")
   hero:set_direction(3)
   game:add_max_life(2)
   game:set_life(game:get_max_life())

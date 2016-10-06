@@ -254,7 +254,6 @@ music{ id = "boss_mini", description = "Mini-boss" }
 music{ id = "castle", description = "Castle" }
 music{ id = "cave", description = "Cave" }
 music{ id = "coliseum", description = "Coliseum" }
-music{ id = "death", description = "Death" }
 music{ id = "desert", description = "Desert" }
 music{ id = "dungeon_1", description = "Dungeon 1" }
 music{ id = "dungeon_2", description = "Dungeon 2" }
@@ -268,6 +267,7 @@ music{ id = "farore", description = "Farore" }
 music{ id = "fire", description = "Fire" }
 music{ id = "forest", description = "Forest" }
 music{ id = "game", description = "Mini-game" }
+music{ id = "game_over", description = "Death" }
 music{ id = "home", description = "Link home" }
 music{ id = "house", description = "House" }
 music{ id = "ice", description = "Ice" }
@@ -291,7 +291,7 @@ music{ id = "shadow", description = "Shadow world" }
 music{ id = "shop", description = "Shop" }
 music{ id = "swamp", description = "Swamp" }
 music{ id = "sword", description = "Sword" }
-music{ id = "title", description = "Title screen" }
+music{ id = "title_screen", description = "Title screen" }
 music{ id = "valley", description = "Valley" }
 music{ id = "village_east", description = "East village" }
 music{ id = "zant", description = "Xanto" }

@@ -145,7 +145,7 @@ end
 
 function savegames_menu:on_started()
 
-  sol.audio.play_music("game_over")
+  sol.audio.play_music("selection")
 
   build_layout()
   read_savegames()
