@@ -6,17 +6,6 @@
 -- game:start()
 
 require("scripts/multi_events")
-
-require("scripts/equipment")
-require("scripts/dungeons")
-require("scripts/menus/dialog_box")
-require("scripts/menus/pause")
-require("scripts/menus/game_over")
-require("scripts/hud/hud")
-require("scripts/rabbit")
-require("scripts/chronometer")
-require("scripts/walking_speed")
-
 local initial_game = require("scripts/initial_game")
 
 local game_manager = {}
@@ -31,8 +20,6 @@ function game_manager:create(file)
     -- This is a new savegame file.
     initial_game:initialize_new_savegame(game)
   end
- 
-  local previous_world
 
   -- Function called when the player presses a key during the game.
   game:register_event("on_key_pressed", function(game, key)

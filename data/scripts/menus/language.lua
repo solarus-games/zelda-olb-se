@@ -3,8 +3,6 @@
 
 local language_menu = {}
 
-local quest_manager = require("scripts/quest_manager.lua")
-
 function language_menu:on_started()
 
   if sol.language.get_language() ~= nil then

@@ -1,8 +1,9 @@
 -- Main Lua script of the quest.
 
+require("scripts/features")
+
 local game_manager = require("scripts/game_manager")
 local debug = require("scripts/debug")
-local quest_manager = require("scripts/quest_manager")
 
 local language_menu = require("scripts/menus/language")
 local solarus_logo = require("scripts/menus/solarus_logo")

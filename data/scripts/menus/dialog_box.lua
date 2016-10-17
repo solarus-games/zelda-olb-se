@@ -5,8 +5,6 @@
 
 require("scripts/multi_events")
 
-local quest_manager = require("scripts/quest_manager")
-
 -- Creates and sets up a dialog box for the specified game.
 local function create_dialog_box(game)
 
@@ -57,7 +55,7 @@ local function create_dialog_box(game)
   local box_height = 60
 
   -- Initialize dialog box data.
-  local dialog_font, dialog_font_size = quest_manager:get_dialog_font()
+  local dialog_font, dialog_font_size = "alttp", nil
   for i = 1, nb_visible_lines do
     dialog_box.lines[i] = ""
     dialog_box.line_surfaces[i] = sol.text_surface.create{

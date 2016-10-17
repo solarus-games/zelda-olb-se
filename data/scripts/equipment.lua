@@ -3,6 +3,8 @@
 -- Usage:
 -- require("scripts/equipment")
 
+require("scripts/multi_events")
+
 local num_bottles = 3
 
 local function initialize_equipment_features(game)
