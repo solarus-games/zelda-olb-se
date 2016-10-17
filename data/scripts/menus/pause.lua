@@ -1,13 +1,12 @@
 -- Script that creates a pause menu for a game.
 
 -- Usage:
--- local pause_manager = require("scripts/menus/pause")
--- local pause_menu = pause_manager:create(game)
+-- require("scripts/menus/pause")
 
-local pause_manager = {}
+require("scripts/multi_events")
 
 -- Creates a pause menu for the specified game.
-function pause_manager:create(game)
+local function initialize_pause_features(game)
 
   local inventory_builder = require("scripts/menus/pause_inventory")
   local map_builder = require("scripts/menus/pause_map")
@@ -104,6 +103,10 @@ function pause_manager:create(game)
     end
   end
 
+  function pause_menu:open()
+    sol.menu.start(game, pause_menu)
+  end
+
   function pause_menu:close()
     sol.menu.stop(pause_menu)
   end
@@ -125,7 +128,23 @@ function pause_manager:create(game)
     return handled
   end
 
-  return pause_menu
+  -- Pauses the game with the specified pause submenu,
+  -- or unpauses the game if this submenu is already active.
+  function game:switch_pause_menu(submenu_name)
+    pause_menu:switch_submenu(submenu_name)
+  end
+
+  game:register_event("on_paused", function(game)
+    pause_menu:open()
+  end)
+  game:register_event("on_unpaused", function(game)
+    pause_menu:close()
+  end)
+
 end
 
-return pause_manager
+-- Set up the pause menu on any game that starts.
+local game_meta = sol.main.get_metatable("game")
+game_meta:register_event("on_started", initialize_pause_features)
+
+return true

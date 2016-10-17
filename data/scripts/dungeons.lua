@@ -1,12 +1,11 @@
 -- Defines the dungeon information of a game.
 
 -- Usage:
--- local dungeon_manager = require("scripts/dungeons")
--- dungeon_manager:create(game)
+-- require("scripts/dungeons")
 
-local dungeon_manager = {}
+require("scripts/multi_events")
 
-function dungeon_manager:create(game)
+local function initialize_dungeon_features(game)
 
   -- Define the existing dungeons and their floors for the minimap menu.
   local dungeons_info = {
@@ -236,5 +235,8 @@ function dungeon_manager:create(game)
 
 end
 
-return dungeon_manager
+-- Set up dungeon features on any game that starts.
+local game_meta = sol.main.get_metatable("game")
+game_meta:register_event("on_started", initialize_dungeon_features)
 
+return true

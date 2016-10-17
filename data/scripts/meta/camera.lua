@@ -1,14 +1,10 @@
 -- This module moves the camera when pressing Ctrl + direction.
 
--- Usage:
--- local camera_manager = require("scripts/camera_manager")
--- camera_manager:create(game)
-
-local camera_manager = {}
+require("scripts/multi_events")
 
 local camera_speed = 128
 
-function camera_manager:create(game)
+local function initialize_camera_features(game)
 
   local camera_menu = {}
 
@@ -185,9 +181,10 @@ function camera_manager:create(game)
   end
 
   sol.menu.start(game, camera_menu)
-
-  return camera_menu
 end
 
-return camera_manager
+-- Set up the camera features on any game that starts.
+local game_meta = sol.main.get_metatable("game")
+game_meta:register_event("on_started", initialize_camera_features)
 
+return true

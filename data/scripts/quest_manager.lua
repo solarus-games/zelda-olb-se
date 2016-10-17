@@ -3,6 +3,7 @@
 local quest_manager = {}
 
 require("scripts/meta/map")
+require("scripts/meta/camera")
 require("scripts/meta/dynamic_tile")
 require("scripts/meta/enemy")
 require("scripts/meta/hero")

@@ -1,5 +1,7 @@
 -- Initialize hero behavior specific to this quest.
 
+require("scripts/multi_events")
+
 local hero_meta = sol.main.get_metatable("hero")
 
 -- Redefine how to calculate the damage received by the hero.
@@ -22,17 +24,6 @@ function hero_meta:on_taking_damage(damage)
   end
 
   game:remove_life(damage)
-end
-
--- Stop rabbit mode when entering some states.
-function hero_meta:on_state_changed(state)
-
-  if state == "hurt" or state == "treasure" then
-    local game = self:get_game()
-    if game:is_rabbit() then
-      game:stop_rabbit()
-    end
-  end
 end
 
 return true

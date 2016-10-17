@@ -1,13 +1,12 @@
 -- Script that creates a head-up display for a game.
 
 -- Usage:
--- local hud_manager = require("scripts/hud/hud")
--- local hud = hud_manager:create(game)
+-- require("scripts/hud/hud")
 
-local hud_manager = {}
+require("scripts/multi_events")
 
 -- Creates and runs a HUD for the specified game.
-function hud_manager:create(game)
+local function initialize_hud_features(game)
 
   -- Set up the HUD.
   local hud = {
@@ -71,42 +70,6 @@ function hud_manager:create(game)
     end
   end
 
-  -- Call this function to notify the HUD that the current map has changed.
-  function hud:on_map_changed(map)
-
-    if hud:is_enabled() then
-      for _, menu in ipairs(hud.elements) do
-        if menu.on_map_changed ~= nil then
-          menu:on_map_changed(map)
-        end
-      end
-    end
-  end
-
-  -- Call this function to notify the HUD that the game was just paused.
-  function hud:on_paused()
-
-    if hud:is_enabled() then
-      for _, menu in ipairs(hud.elements) do
-        if menu.on_paused ~= nil then
-          menu:on_paused()
-        end
-      end
-    end
-  end
-
-  -- Call this function to notify the HUD that the game was just unpaused.
-  function hud:on_unpaused()
-
-    if hud:is_enabled() then
-      for _, menu in ipairs(hud.elements) do
-        if menu.on_unpaused ~= nil then
-          menu:on_unpaused()
-        end
-      end
-    end
-  end
-
   -- Returns whether the HUD is currently enabled.
   function hud:is_enabled()
     return hud.enabled
@@ -130,13 +93,61 @@ function hud_manager:create(game)
     end
   end
 
+  -- Returns whether the HUD is currently shown.
+  function game:is_hud_enabled()
+    return hud:is_enabled()
+  end
+
+  -- Enables or disables the HUD.
+  function game:set_hud_enabled(enable)
+    return hud:set_enabled(enable)
+  end
+
+  -- Call this function to notify the HUD that the current map has changed.
+  local function hud_on_map_changed(game, map)
+
+    if hud:is_enabled() then
+      for _, menu in ipairs(hud.elements) do
+        if menu.on_map_changed ~= nil then
+          menu:on_map_changed(map)
+        end
+      end
+    end
+  end
+
+  -- Call this function to notify the HUD that the game was just paused.
+  local function hud_on_paused(game)
+
+    if hud:is_enabled() then
+      for _, menu in ipairs(hud.elements) do
+        if menu.on_paused ~= nil then
+          menu:on_paused()
+        end
+      end
+    end
+  end
+
+  -- Call this function to notify the HUD that the game was just unpaused.
+  local function hud_on_unpaused(game)
+
+    if hud:is_enabled() then
+      for _, menu in ipairs(hud.elements) do
+        if menu.on_unpaused ~= nil then
+          menu:on_unpaused()
+        end
+      end
+    end
+  end
+
+  game:register_event("on_map_changed", hud_on_map_changed)
+  game:register_event("on_paused", hud_on_paused)
+  game:register_event("on_unpaused", hud_on_unpaused)
+
   -- Start the HUD.
   hud:set_enabled(true)
-
-  -- Return the HUD.
-  return hud
 end
 
-return hud_manager
-
-
+-- Set up the HUD features on any game that starts.
+local game_meta = sol.main.get_metatable("game")
+game_meta:register_event("on_started", initialize_hud_features)
+return true
