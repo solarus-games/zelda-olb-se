@@ -13708,26 +13708,6 @@ teletransporter{
   destination = "_side",
 }
 
-enemy{
-  name = "auto_enemy_55",
-  layer = 2,
-  x = 440,
-  y = 277,
-  direction = 3,
-  breed = "crow",
-  treasure_name = "random_heart",
-}
-
-enemy{
-  name = "auto_enemy_54",
-  layer = 2,
-  x = 472,
-  y = 277,
-  direction = 3,
-  breed = "tarosu_blue",
-  treasure_name = "random_weapon",
-}
-
 tile{
   layer = 3,
   x = 416,
