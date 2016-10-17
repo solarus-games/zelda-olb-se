@@ -14,9 +14,6 @@ function sol.main:on_started()
 
   math.randomseed(os.time())
 
-  -- Make quest-specific initializations.
-  quest_manager:initialize_quest()
-
   -- Load built-in settings (audio volume, video mode, etc.).
   sol.main.load_settings()
 
