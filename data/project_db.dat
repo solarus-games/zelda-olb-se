@@ -445,6 +445,7 @@ enemy{ id = "bari_blue", description = "Blue Bari" }
 enemy{ id = "blind", description = "Blind" }
 enemy{ id = "chasupa", description = "Chasupa" }
 enemy{ id = "chicken", description = "Chicken" }
+enemy{ id = "crow", description = "Crow" }
 enemy{ id = "eyegore_green", description = "Green Eyegore" }
 enemy{ id = "eyegore_red", description = "Red Eyegore" }
 enemy{ id = "fireball_purple_small", description = "Purple small Fireball" }
@@ -484,6 +485,7 @@ enemy{ id = "stalfos_blue", description = "Blue Stalfos" }
 enemy{ id = "stalfos_red", description = "Red Stalfos" }
 enemy{ id = "sword_soldier_blue", description = "Blue Sword Soldier" }
 enemy{ id = "sword_soldier_green", description = "Green Sword Soldier" }
+enemy{ id = "tarosu_blue", description = "Blue Tarosu" }
 enemy{ id = "tarosu_red", description = "Red Tarosu" }
 enemy{ id = "tektite_blue", description = "Blue Tektite" }
 enemy{ id = "vitreous", description = "Vitreous" }
@@ -493,6 +495,7 @@ enemy{ id = "wizzrobe_beam", description = "Wizzrobe beam" }
 enemy{ id = "wizzrobe_blue", description = "Blue Wizzrobe" }
 enemy{ id = "wizzrobe_white", description = "White Wizzrobe" }
 enemy{ id = "zazak_blue", description = "Blue Zazak" }
+enemy{ id = "zol_green", description = "Zol" }
 enemy{ id = "zora_feet", description = "Zora (on feet)" }
 enemy{ id = "zora_water", description = "Zora (in water)" }
 

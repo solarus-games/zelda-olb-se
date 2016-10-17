@@ -466,3 +466,33 @@ enemy{
   breed = "medusa_purple",
 }
 
+enemy{
+  name = "auto_enemy_53",
+  layer = 1,
+  x = 88,
+  y = 285,
+  direction = 3,
+  breed = "zol_green",
+  treasure_name = "random_rupee",
+}
+
+enemy{
+  name = "auto_enemy_55",
+  layer = 1,
+  x = 120,
+  y = 285,
+  direction = 3,
+  breed = "crow",
+  treasure_name = "random_heart",
+}
+
+enemy{
+  name = "auto_enemy_54",
+  layer = 1,
+  x = 152,
+  y = 285,
+  direction = 3,
+  breed = "tarosu_blue",
+  treasure_name = "random_weapon",
+}
+
