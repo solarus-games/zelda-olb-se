@@ -153,4 +153,3 @@ function debug:on_update()
 end
 
 return debug
-
