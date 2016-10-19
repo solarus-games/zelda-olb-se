@@ -1,14 +1,14 @@
 local enemy = ...
 local game = enemy:get_game()
 
--- A ghost that can traverse walls and only be killed with the third sword or the silver arrows.
+-- A ghost that can traverse walls and only be killed with the second sword or the silver arrows.
 
 local behavior = require("enemies/lib/towards_hero")
 
 local properties = {
   sprite = "enemies/" .. enemy:get_breed(),
   life = 10,
-  damage = 3,
+  damage = 12,
   normal_speed = 64,
   faster_speed = 64,
   detection_distance = 220,
@@ -28,6 +28,7 @@ enemy:set_fire_reaction("custom")
 enemy:set_hammer_reaction("custom")
 enemy:set_hookshot_reaction("custom")
 
+-- TODO check this
 if game:get_ability("sword") > 2 then
   enemy:set_attack_consequence("sword", 1)
 end

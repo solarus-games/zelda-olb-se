@@ -477,7 +477,7 @@ enemy{
 }
 
 enemy{
-  name = "auto_enemy_55",
+  name = "auto_enemy_54",
   layer = 1,
   x = 120,
   y = 285,
@@ -487,12 +487,22 @@ enemy{
 }
 
 enemy{
-  name = "auto_enemy_54",
+  name = "auto_enemy_55",
   layer = 1,
   x = 152,
   y = 285,
   direction = 3,
   breed = "tarosu_blue",
   treasure_name = "random_weapon",
+}
+
+enemy{
+  name = "auto_enemy_56",
+  layer = 1,
+  x = 184,
+  y = 285,
+  direction = 3,
+  breed = "hyu",
+  treasure_name = "random",
 }
 

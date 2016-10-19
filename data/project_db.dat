@@ -57,6 +57,7 @@ sprite{ id = "enemies/goriya_red", description = "Red Goriya" }
 sprite{ id = "enemies/helmasaur_king", description = "Helmasaur King" }
 sprite{ id = "enemies/hinox", description = "Hinox" }
 sprite{ id = "enemies/hover", description = "Hover" }
+sprite{ id = "enemies/hyu", description = "Hyu" }
 sprite{ id = "enemies/keese", description = "Keese" }
 sprite{ id = "enemies/kholdstare", description = "Kholdstare" }
 sprite{ id = "enemies/lynel", description = "Lynel" }
@@ -460,6 +461,7 @@ enemy{ id = "goriya_red", description = "Red Goriya" }
 enemy{ id = "helmasaur_king", description = "Helmasaur King" }
 enemy{ id = "hinox", description = "Hinox" }
 enemy{ id = "hover", description = "Hover" }
+enemy{ id = "hyu", description = "Hyu" }
 enemy{ id = "keese", description = "Keese" }
 enemy{ id = "kholdstare", description = "Kholdstare" }
 enemy{ id = "lynel", description = "Lynel" }
