@@ -7,8 +7,8 @@ local behavior = require("enemies/lib/towards_hero")
 
 local properties = {
   sprite = "enemies/" .. enemy:get_breed(),
-  life = 10,
-  damage = 3,
+  life = 4,
+  damage = 2,
   normal_speed = 64,
   faster_speed = 64,
   detection_distance = 220,
@@ -33,7 +33,7 @@ if game:get_ability("sword") > 2 then
 end
 
 if game:has_item("bow_silver") then
-  enemy:set_arrow_reaction(10)
+  enemy:set_arrow_reaction(5)
 end
 
 function enemy:on_custom_attack_received(attack)
