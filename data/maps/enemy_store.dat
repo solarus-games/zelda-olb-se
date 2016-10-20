@@ -59,7 +59,7 @@ enemy{
   x = 24,
   y = 45,
   direction = 3,
-  breed = "stalfos_blue",
+  breed = "alttp/stalfos_blue",
   treasure_name = "random_weapon",
 }
 
@@ -69,7 +69,7 @@ enemy{
   x = 216,
   y = 93,
   direction = 3,
-  breed = "pike_auto",
+  breed = "alttp/pike_auto",
 }
 
 enemy{
@@ -78,7 +78,7 @@ enemy{
   x = 248,
   y = 93,
   direction = 3,
-  breed = "keese",
+  breed = "alttp/keese",
   treasure_name = "random_heart",
 }
 
@@ -88,7 +88,7 @@ enemy{
   x = 120,
   y = 45,
   direction = 3,
-  breed = "popo",
+  breed = "alttp/popo",
   treasure_name = "random_heart",
 }
 
@@ -98,7 +98,7 @@ enemy{
   x = 88,
   y = 45,
   direction = 3,
-  breed = "tektite_blue",
+  breed = "alttp/tektite_blue",
   treasure_name = "random_heart",
 }
 
@@ -108,7 +108,7 @@ enemy{
   x = 216,
   y = 45,
   direction = 3,
-  breed = "rope",
+  breed = "alttp/rope",
   treasure_name = "random",
 }
 
@@ -118,7 +118,7 @@ enemy{
   x = 248,
   y = 45,
   direction = 3,
-  breed = "pikku",
+  breed = "alttp/pikku",
   treasure_name = "random_rupee",
 }
 
@@ -128,7 +128,7 @@ enemy{
   x = 280,
   y = 45,
   direction = 3,
-  breed = "zora_feet",
+  breed = "alttp/zora_feet",
   treasure_name = "random_rupee",
 }
 
@@ -138,7 +138,7 @@ enemy{
   x = 312,
   y = 45,
   direction = 3,
-  breed = "zora_water",
+  breed = "alttp/zora_water",
   treasure_name = "random_rupee",
 }
 
@@ -148,7 +148,7 @@ enemy{
   x = 88,
   y = 141,
   direction = 3,
-  breed = "sand_crab",
+  breed = "alttp/sand_crab",
   treasure_name = "random_heart",
 }
 
@@ -157,7 +157,7 @@ enemy{
   x = 56,
   y = 285,
   direction = 3,
-  breed = "chicken",
+  breed = "alttp/chicken",
 }
 
 enemy{
@@ -166,7 +166,7 @@ enemy{
   x = 56,
   y = 141,
   direction = 3,
-  breed = "bari_blue",
+  breed = "alttp/bari_blue",
   treasure_name = "random_weapon",
 }
 
@@ -176,7 +176,7 @@ enemy{
   x = 184,
   y = 45,
   direction = 3,
-  breed = "armos",
+  breed = "alttp/armos",
   treasure_name = "random_weapon",
 }
 
@@ -186,7 +186,7 @@ enemy{
   x = 152,
   y = 45,
   direction = 3,
-  breed = "moblin",
+  breed = "alttp/moblin",
   treasure_name = "random_weapon",
 }
 
@@ -196,7 +196,7 @@ enemy{
   x = 88,
   y = 93,
   direction = 3,
-  breed = "vulture",
+  breed = "alttp/vulture",
   treasure_name = "random_rupee",
 }
 
@@ -206,7 +206,7 @@ enemy{
   x = 120,
   y = 93,
   direction = 3,
-  breed = "geldman",
+  breed = "alttp/geldman",
   treasure_name = "random_weapon",
 }
 
@@ -216,7 +216,7 @@ enemy{
   x = 24,
   y = 93,
   direction = 3,
-  breed = "stal",
+  breed = "alttp/stal",
   treasure_name = "random_weapon",
 }
 
@@ -226,7 +226,7 @@ enemy{
   x = 56,
   y = 93,
   direction = 3,
-  breed = "poe",
+  breed = "alttp/poe",
   treasure_name = "random_heart",
 }
 
@@ -236,7 +236,7 @@ enemy{
   x = 152,
   y = 93,
   direction = 3,
-  breed = "lynel",
+  breed = "alttp/lynel",
   treasure_name = "random",
 }
 
@@ -246,7 +246,7 @@ enemy{
   x = 280,
   y = 141,
   direction = 3,
-  breed = "gibdo",
+  breed = "alttp/gibdo",
   treasure_name = "random_magic",
 }
 
@@ -256,7 +256,7 @@ enemy{
   x = 312,
   y = 141,
   direction = 3,
-  breed = "wizzrobe_white",
+  breed = "alttp/wizzrobe_white",
   treasure_name = "random_rupee",
 }
 
@@ -266,7 +266,7 @@ enemy{
   x = 24,
   y = 141,
   direction = 3,
-  breed = "hover",
+  breed = "alttp/hover",
   treasure_name = "random_heart",
 }
 
@@ -276,7 +276,7 @@ enemy{
   x = 56,
   y = 189,
   direction = 3,
-  breed = "ropa",
+  breed = "alttp/ropa",
   treasure_name = "random_rupee",
 }
 
@@ -286,7 +286,7 @@ enemy{
   x = 88,
   y = 189,
   direction = 3,
-  breed = "goriya_green",
+  breed = "alttp/goriya_green",
   treasure_name = "random",
 }
 
@@ -296,7 +296,7 @@ enemy{
   x = 120,
   y = 189,
   direction = 3,
-  breed = "eyegore_green",
+  breed = "alttp/eyegore_green",
   treasure_name = "random_rupee",
 }
 
@@ -306,7 +306,7 @@ enemy{
   x = 184,
   y = 93,
   direction = 3,
-  breed = "wizzrobe_blue",
+  breed = "alttp/wizzrobe_blue",
   treasure_name = "random_weapon",
 }
 
@@ -315,7 +315,7 @@ enemy{
   x = 24,
   y = 285,
   direction = 3,
-  breed = "wallmaster",
+  breed = "alttp/wallmaster",
 }
 
 enemy{
@@ -324,7 +324,7 @@ enemy{
   x = 184,
   y = 141,
   direction = 3,
-  breed = "chasupa",
+  breed = "alttp/chasupa",
   treasure_name = "random_heart",
 }
 
@@ -334,7 +334,7 @@ enemy{
   x = 152,
   y = 141,
   direction = 3,
-  breed = "hinox",
+  breed = "alttp/hinox",
   treasure_name = "random",
 }
 
@@ -344,7 +344,7 @@ enemy{
   x = 216,
   y = 141,
   direction = 3,
-  breed = "octorok",
+  breed = "alttp/octorok",
   treasure_name = "random_weapon",
 }
 
@@ -354,7 +354,7 @@ enemy{
   x = 24,
   y = 237,
   direction = 3,
-  breed = "pengator",
+  breed = "alttp/pengator",
   treasure_name = "random_magic",
 }
 
@@ -364,7 +364,7 @@ enemy{
   x = 216,
   y = 189,
   direction = 3,
-  breed = "stalfos_red",
+  breed = "alttp/stalfos_red",
   treasure_name = "random_weapon",
 }
 
@@ -374,7 +374,7 @@ enemy{
   x = 248,
   y = 189,
   direction = 3,
-  breed = "goriya_red",
+  breed = "alttp/goriya_red",
   treasure_name = "random_magic",
 }
 
@@ -384,7 +384,7 @@ enemy{
   x = 280,
   y = 189,
   direction = 3,
-  breed = "eyegore_red",
+  breed = "alttp/eyegore_red",
   treasure_name = "random_rupee",
 }
 
@@ -394,7 +394,7 @@ enemy{
   x = 56,
   y = 45,
   direction = 3,
-  breed = "zazak_blue",
+  breed = "alttp/zazak_blue",
   treasure_name = "random_rupee",
 }
 
@@ -404,7 +404,7 @@ enemy{
   x = 184,
   y = 189,
   direction = 3,
-  breed = "medusa",
+  breed = "alttp/medusa",
 }
 
 enemy{
@@ -413,7 +413,7 @@ enemy{
   x = 56,
   y = 237,
   direction = 3,
-  breed = "freezor",
+  breed = "alttp/freezor",
   treasure_name = "random_magic",
 }
 
@@ -423,7 +423,7 @@ enemy{
   x = 120,
   y = 237,
   direction = 3,
-  breed = "tarosu_red",
+  breed = "alttp/tarosu_red",
   treasure_name = "random_weapon",
 }
 
@@ -433,7 +433,7 @@ enemy{
   x = 184,
   y = 237,
   direction = 3,
-  breed = "sword_soldier_green",
+  breed = "alttp/sword_soldier_green",
   treasure_name = "random_magic",
 }
 
@@ -443,7 +443,7 @@ enemy{
   x = 216,
   y = 237,
   direction = 3,
-  breed = "sword_soldier_blue",
+  breed = "alttp/sword_soldier_blue",
   treasure_name = "random_weapon",
 }
 
@@ -453,7 +453,7 @@ enemy{
   x = 248,
   y = 237,
   direction = 3,
-  breed = "spear_soldier_red",
+  breed = "alttp/spear_soldier_red",
   treasure_name = "random_heart",
 }
 
@@ -463,7 +463,7 @@ enemy{
   x = 280,
   y = 237,
   direction = 3,
-  breed = "medusa_purple",
+  breed = "alttp/medusa_purple",
 }
 
 enemy{
@@ -472,7 +472,7 @@ enemy{
   x = 88,
   y = 285,
   direction = 3,
-  breed = "zol_green",
+  breed = "alttp/zol_green",
   treasure_name = "random_rupee",
 }
 
@@ -482,7 +482,7 @@ enemy{
   x = 120,
   y = 285,
   direction = 3,
-  breed = "crow",
+  breed = "alttp/crow",
   treasure_name = "random_heart",
 }
 
@@ -492,7 +492,7 @@ enemy{
   x = 152,
   y = 285,
   direction = 3,
-  breed = "tarosu_blue",
+  breed = "alttp/tarosu_blue",
   treasure_name = "random_weapon",
 }
 
@@ -502,7 +502,7 @@ enemy{
   x = 184,
   y = 285,
   direction = 3,
-  breed = "hyu",
+  breed = "alttp/hyu",
   treasure_name = "random",
 }
 
