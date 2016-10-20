@@ -8,7 +8,7 @@ local children = {}
 function enemy:on_created()
 
   enemy:set_life(3)
-  enemy:set_damage(4)
+  enemy:set_damage(5)
   enemy:create_sprite("enemies/" .. enemy:get_breed())
   enemy:set_invincible()
 end
