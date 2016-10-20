@@ -1,6 +1,6 @@
 animation{
   name = "stopped",
-  src_image = "enemies/keese.png",
+  src_image = "enemies/alttp/keese.png",
   directions = {
     { x = 0, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
     { x = 0, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
@@ -10,7 +10,7 @@ animation{
 }
 animation{
   name = "hurt",
-  src_image = "enemies/keese.png",
+  src_image = "enemies/alttp/keese.png",
   frame_delay = 50,
   frame_to_loop_on = 0,
   directions = {
@@ -22,7 +22,7 @@ animation{
 }
 animation{
   name = "immobilized",
-  src_image = "enemies/keese.png",
+  src_image = "enemies/alttp/keese.png",
   directions = {
     { x = 16, y = 16, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
     { x = 16, y = 16, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
@@ -32,7 +32,7 @@ animation{
 }
 animation{
   name = "shaking",
-  src_image = "enemies/keese.png",
+  src_image = "enemies/alttp/keese.png",
   frame_delay = 50,
   frame_to_loop_on = 0,
   directions = {
@@ -44,7 +44,7 @@ animation{
 }
 animation{
   name = "walking",
-  src_image = "enemies/keese.png",
+  src_image = "enemies/alttp/keese.png",
   frame_delay = 100,
   frame_to_loop_on = 0,
   directions = {

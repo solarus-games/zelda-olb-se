@@ -1,6 +1,6 @@
 animation{
   name = "walking",
-  src_image = "enemies/zora_water.png",
+  src_image = "enemies/alttp/zora_water.png",
   directions = {
     { x = 0, y = 0, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 29 },
     { x = 0, y = 0, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 29 },
@@ -10,7 +10,7 @@ animation{
 }
 animation{
   name = "hurt",
-  src_image = "enemies/zora_water.png",
+  src_image = "enemies/alttp/zora_water.png",
   frame_delay = 50,
   frame_to_loop_on = 0,
   directions = {
@@ -22,7 +22,7 @@ animation{
 }
 animation{
   name = "immobilized",
-  src_image = "enemies/zora_water.png",
+  src_image = "enemies/alttp/zora_water.png",
   directions = {
     { x = 96, y = 0, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 29 },
     { x = 96, y = 0, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 29 },
@@ -32,7 +32,7 @@ animation{
 }
 animation{
   name = "shaking",
-  src_image = "enemies/zora_water.png",
+  src_image = "enemies/alttp/zora_water.png",
   frame_delay = 50,
   frame_to_loop_on = 0,
   directions = {
@@ -44,7 +44,7 @@ animation{
 }
 animation{
   name = "shooting",
-  src_image = "enemies/zora_water.png",
+  src_image = "enemies/alttp/zora_water.png",
   frame_delay = 1000,
   directions = {
     { x = 160, y = 0, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 29 },
