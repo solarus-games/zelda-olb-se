@@ -5,8 +5,8 @@ local game = enemy:get_game()
 
 function enemy:on_created()
 
-  enemy:set_life(100)
-  enemy:set_damage(20)
+  enemy:set_life(200)
+  enemy:set_damage(50)
   enemy:create_sprite("enemies/" .. enemy:get_breed())
   enemy:set_hurt_style("boss")
   enemy:set_pushed_back_when_hurt(false)
@@ -14,7 +14,7 @@ function enemy:on_created()
   enemy:set_origin(8, 13)
 
   enemy:set_invincible()
-  if game:get_item("sword"):get_variant() >= 3 then
+  if game:get_item("sword"):get_variant() >= 5 then
     -- The force value is 5.
     enemy:set_attack_consequence("sword", 1)
   end

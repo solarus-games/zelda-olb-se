@@ -1,6 +1,6 @@
 -- The bow has two variants: without arrows or with arrows.
 -- This is necessary to allow it to have different icons in both cases.
--- Therefore, the silver bow is implement as another item (bow_silver),
+-- Therefore, the silver bow is implemented as another item (bow_silver),
 -- and calls code from this bow.
 -- It could be simpler if it was possible to change the icon of items dynamically.
 
@@ -150,6 +150,14 @@ local function initialize_meta()
     previous_set_invincible_sprite(self, sprite)
     self:set_arrow_reaction_sprite(sprite, "ignored")
   end
+end
+
+function game:get_arrow_force()
+
+  if game:has_item("bow_silver") then
+    return game:get_item("bow_silver"):get_force()
+  end
+  return game:get_item("bow"):get_force()
 end
 
 initialize_meta()

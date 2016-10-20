@@ -22,7 +22,7 @@ enemy:set_attack_consequence("thrown_item", "custom")
 enemy:set_attack_consequence("boomerang", "custom")
 enemy:set_arrow_reaction("custom")
 enemy:set_hookshot_reaction("custom")
-enemy:set_hammer_reaction(1)
+enemy:set_hammer_reaction(3)
 
 function enemy:on_custom_attack_received(attack)
 

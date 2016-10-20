@@ -4,7 +4,7 @@ local enemy = ...
 
 function enemy:on_created()
 
-  enemy:set_life(24)
+  enemy:set_life(30)
   enemy:set_damage(10)
   enemy:create_sprite("enemies/" .. enemy:get_breed())
   enemy:set_hurt_style("boss")

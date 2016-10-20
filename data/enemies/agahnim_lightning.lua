@@ -6,7 +6,7 @@ local map = enemy:get_map()
 function enemy:on_created()
 
   enemy:set_life(1)
-  enemy:set_damage(6)
+  enemy:set_damage(9)
   enemy:set_size(16, 16)
   enemy:set_origin(8, 0)
   enemy:set_can_hurt_hero_running(true)
