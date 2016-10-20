@@ -47,7 +47,7 @@ local function shoot()
   sol.timer.start(enemy, 300, function()
     sol.audio.play_sound("stone")
     local stone = enemy:create_enemy({
-      breed = "octorok_stone",
+      breed = "alttp/octorok_stone",
       x = dxy[direction + 1][1],
       y = dxy[direction + 1][2],
     })

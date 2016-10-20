@@ -39,7 +39,7 @@ function enemy:on_restarted()
       end
 
       children[#children + 1] = enemy:create_enemy({
-        breed = "fireball_red_small",
+        breed = "alttp/fireball_red_small",
       })
     end
     return true  -- Repeat the timer.

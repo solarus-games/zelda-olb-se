@@ -35,7 +35,7 @@ local function shoot_fireball()
     sprite:set_animation("walking")
 
     enemy:create_enemy({
-      breed = "fireball_red_big",
+      breed = "alttp/fireball_red_big",
       name = projectile_prefix,
     })
     sol.audio.play_sound("boss_fireball")
@@ -57,7 +57,7 @@ local function shoot_lightning()
     sprite:set_animation("walking")
 
     enemy:create_enemy({
-      breed = "agahnim_lightning",
+      breed = "alttp/agahnim_lightning",
       name = projectile_prefix,
     })
     sol.audio.play_sound("lightning")
@@ -85,7 +85,7 @@ local function shoot_rabbit_beam()
     sprite:set_animation("walking")
 
     enemy:create_enemy({
-      breed = "rabbit_beam",
+      breed = "alttp/rabbit_beam",
       name = projectile_prefix,
     })
     sol.audio.play_sound("boss_fireball")
