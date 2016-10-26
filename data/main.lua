@@ -1,10 +1,7 @@
 -- Main Lua script of the quest.
 
 require("scripts/features")
-
 local game_manager = require("scripts/game_manager")
-local debug = require("scripts/debug")
-
 local language_menu = require("scripts/menus/language")
 local solarus_logo = require("scripts/menus/solarus_logo")
 local presentation_screen = require("scripts/menus/presentation_screen")
@@ -17,12 +14,6 @@ function sol.main:on_started()
 
   -- Load built-in settings (audio volume, video mode, etc.).
   sol.main.load_settings()
-
-  -- If there is a file called "debug" or "debug.lua" in the write directory,
-  -- enable debugging features.
-  if sol.file.exists("debug") or sol.file.exists("debug.lua") then
-    sol.menu.start(self, debug)
-  end
 
   -- Show the Solarus logo initially.
   sol.menu.start(self, solarus_logo)
