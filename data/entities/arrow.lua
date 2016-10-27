@@ -27,8 +27,6 @@ function arrow:on_created()
     arrow:set_origin(4, 8)
   end
 
-  arrow:set_optimization_distance(0)  -- Make the arrow continue outside the screen until the max distance.
-
   local bow = game:get_item("bow")
   force = bow.get_force and bow:get_force() or 1
 

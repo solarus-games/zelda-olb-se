@@ -17,7 +17,6 @@ function enemy:on_created()
   self:set_obstacle_behavior("flying")
 
   self:set_can_hurt_hero_running(true)
-  self:set_optimization_distance(0)  -- Keep them aligned when there are several ones.
   self:set_invincible()
   self:set_attack_consequence("sword", "protected")
   self:set_attack_consequence("thrown_item", "protected")
