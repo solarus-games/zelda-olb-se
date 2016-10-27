@@ -102,6 +102,7 @@ sprite{ id = "enemies/alttp/zora_feet", description = "Zora (on feet)" }
 sprite{ id = "enemies/alttp/zora_water", description = "Zora (in water)" }
 sprite{ id = "enemies/enemy_killed", description = "Enemy killed" }
 sprite{ id = "enemies/som/brambler", description = "Brambler" }
+sprite{ id = "enemies/som/kilroy", description = "Kilroy" }
 sprite{ id = "enemies/som/tropicallo", description = "Tropicallo" }
 sprite{ id = "entities/arrow", description = "Arrow" }
 sprite{ id = "entities/arrow_silver", description = "Silver arrow" }
