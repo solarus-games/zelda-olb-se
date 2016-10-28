@@ -504,6 +504,7 @@ enemy{ id = "alttp/zol_green", description = "Zol" }
 enemy{ id = "alttp/zora_feet", description = "Zora (on feet)" }
 enemy{ id = "alttp/zora_water", description = "Zora (in water)" }
 enemy{ id = "som/brambler", description = "Tropicallo's plant" }
+enemy{ id = "som/kilroy", description = "Kilroy" }
 enemy{ id = "som/tropicallo", description = "Tropicallo" }
 
 entity{ id = "arrow", description = "Arrow" }
