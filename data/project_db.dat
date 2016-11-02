@@ -73,6 +73,7 @@ sprite{ id = "enemies/alttp/pikku", description = "Pikku" }
 sprite{ id = "enemies/alttp/poe", description = "Poe" }
 sprite{ id = "enemies/alttp/popo", description = "Popo" }
 sprite{ id = "enemies/alttp/rabbit_beam", description = "Rabbit beam" }
+sprite{ id = "enemies/alttp/rolling_spike_trap", description = "Rolling Spike Trap" }
 sprite{ id = "enemies/alttp/ropa", description = "Ropa" }
 sprite{ id = "enemies/alttp/rope", description = "Rope" }
 sprite{ id = "enemies/alttp/sand_crab", description = "Sand Crab" }
@@ -481,6 +482,7 @@ enemy{ id = "alttp/pikku", description = "Pikku" }
 enemy{ id = "alttp/poe", description = "Poe" }
 enemy{ id = "alttp/popo", description = "Popo" }
 enemy{ id = "alttp/rabbit_beam", description = "Rabbit beam" }
+enemy{ id = "alttp/rolling_spike_trap", description = "Rolling Spike Trap" }
 enemy{ id = "alttp/ropa", description = "Ropa" }
 enemy{ id = "alttp/rope", description = "Rope" }
 enemy{ id = "alttp/sand_crab", description = "Sand Crab" }
