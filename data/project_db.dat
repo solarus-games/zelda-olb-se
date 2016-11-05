@@ -81,6 +81,7 @@ sprite{ id = "enemies/alttp/spear_soldier_red", description = "Red Spear Soldier
 sprite{ id = "enemies/alttp/spear_soldier_red_weapon", description = "Red Spear Soldier's sword" }
 sprite{ id = "enemies/alttp/stal", description = "Stal" }
 sprite{ id = "enemies/alttp/stalfos_blue", description = "Blue Stalfos" }
+sprite{ id = "enemies/alttp/stalfos_knight", description = "Stalfos Knight" }
 sprite{ id = "enemies/alttp/stalfos_red", description = "Red Stalfos" }
 sprite{ id = "enemies/alttp/sword_soldier_blue", description = "Blue Sword Soldier" }
 sprite{ id = "enemies/alttp/sword_soldier_blue_weapon", description = "Blue Sword Soldier's sword" }
@@ -489,6 +490,7 @@ enemy{ id = "alttp/sand_crab", description = "Sand Crab" }
 enemy{ id = "alttp/spear_soldier_red", description = "Red Spear Soldier" }
 enemy{ id = "alttp/stal", description = "Stal" }
 enemy{ id = "alttp/stalfos_blue", description = "Blue Stalfos" }
+enemy{ id = "alttp/stalfos_knight", description = "Stalfos Knight" }
 enemy{ id = "alttp/stalfos_red", description = "Red Stalfos" }
 enemy{ id = "alttp/sword_soldier_blue", description = "Blue Sword Soldier" }
 enemy{ id = "alttp/sword_soldier_green", description = "Green Sword Soldier" }
