@@ -104,6 +104,7 @@ sprite{ id = "enemies/alttp/zora_feet", description = "Zora (on feet)" }
 sprite{ id = "enemies/alttp/zora_water", description = "Zora (in water)" }
 sprite{ id = "enemies/enemy_killed", description = "Enemy killed" }
 sprite{ id = "enemies/som/brambler", description = "Brambler" }
+sprite{ id = "enemies/som/ghoul", description = "Ghoul" }
 sprite{ id = "enemies/som/kilroy", description = "Kilroy" }
 sprite{ id = "enemies/som/tropicallo", description = "Tropicallo" }
 sprite{ id = "enemies/som/vampire", description = "Vampire" }
@@ -509,6 +510,7 @@ enemy{ id = "alttp/zol_green", description = "Zol" }
 enemy{ id = "alttp/zora_feet", description = "Zora (on feet)" }
 enemy{ id = "alttp/zora_water", description = "Zora (in water)" }
 enemy{ id = "som/brambler", description = "Tropicallo's plant" }
+enemy{ id = "som/ghoul", description = "Ghoul" }
 enemy{ id = "som/kilroy", description = "Kilroy" }
 enemy{ id = "som/tropicallo", description = "Tropicallo" }
 enemy{ id = "som/vampire", description = "Vampire" }
