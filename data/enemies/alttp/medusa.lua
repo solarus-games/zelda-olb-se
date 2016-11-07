@@ -30,7 +30,7 @@ function enemy:on_restarted()
 
       if not map.medusa_recent_sound then
         sol.audio.play_sound("zora")
-        -- Avoid loudy simultaneous sounds if there are several medusa.
+        -- Avoid loud simultaneous sounds if there are several medusa.
         map.medusa_recent_sound = true
         sol.timer.start(map, 200, function()
           map.medusa_recent_sound = nil

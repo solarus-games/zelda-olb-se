@@ -1,4 +1,4 @@
--- A fixed enemy who shoots purple fireballs that remove half of the player's life.
+-- A fixed enemy who shoots blue fireballs that increase the player's anger.
 
 local enemy = ...
 
@@ -38,7 +38,7 @@ function enemy:on_restarted()
       end
 
       children[#children + 1] = enemy:create_enemy({
-        breed = "alttp/fireball_purple_small",
+        breed = "alttp/fireball_blue_small",
       })
     end
     return true  -- Repeat the timer.

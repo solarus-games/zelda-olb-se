@@ -44,8 +44,9 @@ sprite{ id = "enemies/alttp/chicken", description = "Chicken" }
 sprite{ id = "enemies/alttp/crow", description = "Crow" }
 sprite{ id = "enemies/alttp/eyegore_green", description = "Green Eyegore" }
 sprite{ id = "enemies/alttp/eyegore_red", description = "Red Eyegore" }
-sprite{ id = "enemies/alttp/fireball_purple_small", description = "Purple small fireball" }
-sprite{ id = "enemies/alttp/fireball_red_big", description = "Red big fireball" }
+sprite{ id = "enemies/alttp/fireball_blue_small", description = "Blue small Fireball" }
+sprite{ id = "enemies/alttp/fireball_purple_small", description = "Purple small Fireball" }
+sprite{ id = "enemies/alttp/fireball_red_big", description = "Red big Fireball" }
 sprite{ id = "enemies/alttp/fireball_red_small", description = "Red small Fireball" }
 sprite{ id = "enemies/alttp/freezor", description = "Freezor" }
 sprite{ id = "enemies/alttp/ganon", description = "Ganon" }
@@ -62,6 +63,7 @@ sprite{ id = "enemies/alttp/kholdstare", description = "Kholdstare" }
 sprite{ id = "enemies/alttp/lynel", description = "Lynel" }
 sprite{ id = "enemies/alttp/lynel_flame", description = "Lynel's flame" }
 sprite{ id = "enemies/alttp/medusa", description = "Medusa" }
+sprite{ id = "enemies/alttp/medusa_blue", description = "Blue Medusa" }
 sprite{ id = "enemies/alttp/medusa_purple", description = "Purple Medusa" }
 sprite{ id = "enemies/alttp/moblin", description = "Moblin" }
 sprite{ id = "enemies/alttp/mothula", description = "Mothula" }
@@ -456,6 +458,7 @@ enemy{ id = "alttp/chicken", description = "Chicken" }
 enemy{ id = "alttp/crow", description = "Crow" }
 enemy{ id = "alttp/eyegore_green", description = "Green Eyegore" }
 enemy{ id = "alttp/eyegore_red", description = "Red Eyegore" }
+enemy{ id = "alttp/fireball_blue_small", description = "Blue small Fireball" }
 enemy{ id = "alttp/fireball_purple_small", description = "Purple small Fireball" }
 enemy{ id = "alttp/fireball_red_big", description = "Red big Fireball" }
 enemy{ id = "alttp/fireball_red_small", description = "Red small Fireball" }
@@ -474,6 +477,7 @@ enemy{ id = "alttp/kholdstare", description = "Kholdstare" }
 enemy{ id = "alttp/lynel", description = "Lynel" }
 enemy{ id = "alttp/lynel_flame", description = "Lynel's flame" }
 enemy{ id = "alttp/medusa", description = "Medusa" }
+enemy{ id = "alttp/medusa_blue", description = "Blue Medusa" }
 enemy{ id = "alttp/medusa_purple", description = "Purple Medusa" }
 enemy{ id = "alttp/moblin", description = "Moblin" }
 enemy{ id = "alttp/mothula", description = "Mothula" }

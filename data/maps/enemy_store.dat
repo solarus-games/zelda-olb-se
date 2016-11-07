@@ -516,3 +516,12 @@ enemy{
   treasure_name = "random_weapon",
 }
 
+enemy{
+  name = "auto_enemy_65",
+  layer = 1,
+  x = 152,
+  y = 333,
+  direction = 3,
+  breed = "alttp/medusa_blue",
+}
+
