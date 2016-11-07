@@ -1,0 +1,45 @@
+animation{
+  name = "walking",
+  src_image = "enemies/som/vampire.png",
+  directions = {
+    { x = 0, y = 0, frame_width = 96, frame_height = 72, origin_x = 48, origin_y = 57 },
+    { x = 0, y = 0, frame_width = 96, frame_height = 72, origin_x = 48, origin_y = 57 },
+    { x = 0, y = 0, frame_width = 96, frame_height = 72, origin_x = 48, origin_y = 57 },
+    { x = 0, y = 0, frame_width = 96, frame_height = 72, origin_x = 48, origin_y = 57 },
+  },
+}
+animation{
+  name = "hurt",
+  src_image = "enemies/som/vampire.png",
+  frame_delay = 50,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 192, y = 144, frame_width = 96, frame_height = 72, origin_x = 48, origin_y = 57, num_frames = 3 },
+    { x = 192, y = 144, frame_width = 96, frame_height = 72, origin_x = 48, origin_y = 57, num_frames = 3 },
+    { x = 192, y = 144, frame_width = 96, frame_height = 72, origin_x = 48, origin_y = 57, num_frames = 3 },
+    { x = 192, y = 144, frame_width = 96, frame_height = 72, origin_x = 48, origin_y = 57, num_frames = 3 },
+  },
+}
+animation{
+  name = "open",
+  src_image = "enemies/som/vampire.png",
+  frame_delay = 500,
+  directions = {
+    { x = 0, y = 72, frame_width = 96, frame_height = 72, origin_x = 48, origin_y = 57 },
+    { x = 0, y = 72, frame_width = 96, frame_height = 72, origin_x = 48, origin_y = 57 },
+    { x = 0, y = 72, frame_width = 96, frame_height = 72, origin_x = 48, origin_y = 57 },
+    { x = 0, y = 72, frame_width = 96, frame_height = 72, origin_x = 48, origin_y = 57 },
+  },
+}
+animation{
+  name = "opening",
+  src_image = "enemies/som/vampire.png",
+  frame_delay = 200,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 0, y = 144, frame_width = 96, frame_height = 72, origin_x = 48, origin_y = 57, num_frames = 2 },
+    { x = 0, y = 144, frame_width = 96, frame_height = 72, origin_x = 48, origin_y = 57, num_frames = 2 },
+    { x = 0, y = 144, frame_width = 96, frame_height = 72, origin_x = 48, origin_y = 57, num_frames = 2 },
+    { x = 0, y = 144, frame_width = 96, frame_height = 72, origin_x = 48, origin_y = 57, num_frames = 2 },
+  },
+}

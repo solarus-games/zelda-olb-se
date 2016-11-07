@@ -106,6 +106,7 @@ sprite{ id = "enemies/enemy_killed", description = "Enemy killed" }
 sprite{ id = "enemies/som/brambler", description = "Brambler" }
 sprite{ id = "enemies/som/kilroy", description = "Kilroy" }
 sprite{ id = "enemies/som/tropicallo", description = "Tropicallo" }
+sprite{ id = "enemies/som/vampire", description = "Vampire" }
 sprite{ id = "entities/arrow", description = "Arrow" }
 sprite{ id = "entities/arrow_silver", description = "Silver arrow" }
 sprite{ id = "entities/bed", description = "Hero's bed" }
@@ -510,6 +511,7 @@ enemy{ id = "alttp/zora_water", description = "Zora (in water)" }
 enemy{ id = "som/brambler", description = "Tropicallo's plant" }
 enemy{ id = "som/kilroy", description = "Kilroy" }
 enemy{ id = "som/tropicallo", description = "Tropicallo" }
+enemy{ id = "som/vampire", description = "Vampire" }
 
 entity{ id = "arrow", description = "Arrow" }
 entity{ id = "cactus", description = "Cactus" }
