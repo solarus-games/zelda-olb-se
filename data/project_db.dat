@@ -105,6 +105,10 @@ sprite{ id = "enemies/alttp/zol_green", description = "Green Zol" }
 sprite{ id = "enemies/alttp/zora_feet", description = "Zora (on feet)" }
 sprite{ id = "enemies/alttp/zora_water", description = "Zora (in water)" }
 sprite{ id = "enemies/enemy_killed", description = "Enemy killed" }
+sprite{ id = "enemies/soe/aquagoth", description = "Aquagoth" }
+sprite{ id = "enemies/soe/aquagoth_tentacle_center", description = "Aquagoth center tentacle" }
+sprite{ id = "enemies/soe/aquagoth_tentacle_side", description = "Aquagoth side tentacle" }
+sprite{ id = "enemies/soe/aquagoth_wave", description = "Aquagoth wave" }
 sprite{ id = "enemies/som/brambler", description = "Brambler" }
 sprite{ id = "enemies/som/ghoul", description = "Ghoul" }
 sprite{ id = "enemies/som/kilroy", description = "Kilroy" }
