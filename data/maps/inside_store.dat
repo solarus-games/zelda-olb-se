@@ -5,7 +5,7 @@ properties{
   height = 960,
   min_layer = 0,
   max_layer = 2,
-  tileset = "temple_blue",
+  tileset = "house",
 }
 
 tile{
@@ -1814,7 +1814,7 @@ tile{
   y = 48,
   width = 256,
   height = 176,
-  pattern = "floor.14",
+  pattern = "floor.1",
 }
 
 destructible{

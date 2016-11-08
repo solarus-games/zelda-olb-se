@@ -13701,6 +13701,16 @@ npc{
   sprite = "npc/pit",
 }
 
+teletransporter{
+  layer = 2,
+  x = 664,
+  y = 184,
+  width = 16,
+  height = 16,
+  destination_map = "houses/pit_house",
+  destination = "from_outside",
+}
+
 tile{
   layer = 3,
   x = 416,

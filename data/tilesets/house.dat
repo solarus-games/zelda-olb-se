@@ -1,5 +1,15 @@
 background_color{ 255, 255, 255 }
 tile_pattern{
+  id = "1",
+  ground = "traversable",
+  default_layer = 0,
+  x = 320,
+  y = 400,
+  width = 320,
+  height = 240,
+}
+
+tile_pattern{
   id = "704",
   ground = "wall",
   default_layer = 1,
@@ -525,17 +535,6 @@ tile_pattern{
 }
 
 tile_pattern{
-  id = "blacksmith.table",
-  ground = "wall",
-  default_layer = 1,
-  x = 520,
-  y = 0,
-  width = 32,
-  height = 24,
-  repeat_mode = "none",
-}
-
-tile_pattern{
   id = "barrier.1",
   ground = "low_wall",
   default_layer = 1,
@@ -653,6 +652,17 @@ tile_pattern{
   y = 16,
   width = 16,
   height = 16,
+  repeat_mode = "none",
+}
+
+tile_pattern{
+  id = "blacksmith.table",
+  ground = "wall",
+  default_layer = 1,
+  x = 520,
+  y = 0,
+  width = 32,
+  height = 24,
   repeat_mode = "none",
 }
 

@@ -1,5 +1,6 @@
 map{ id = "caves/portal_cave", description = "Portal cave" }
 map{ id = "enemy_store", description = "Enemy Store" }
+map{ id = "houses/pit_house", description = "Pit house" }
 map{ id = "inside_store", description = "Inside Store" }
 map{ id = "out/a1", description = "A1 (Mountains)" }
 map{ id = "out/a2", description = "A2 (Mido)" }
