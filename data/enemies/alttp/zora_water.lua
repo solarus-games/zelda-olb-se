@@ -14,6 +14,12 @@ function enemy:on_created()
   enemy:set_size(16, 16)
   enemy:set_origin(8, 13)
 
+  enemy:set_random_treasures(
+    { "arrow", 2 },
+    { "heart", 1 },
+    { "rupee", 3 }
+  )
+
   sprite = enemy:create_sprite("enemies/" .. enemy:get_breed())
   function sprite:on_animation_finished(animation)
     if animation == "shooting" then

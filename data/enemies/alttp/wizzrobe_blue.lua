@@ -11,6 +11,13 @@ function enemy:on_created()
   enemy:set_damage(10)
   enemy:create_sprite("enemies/" .. enemy:get_breed())
   enemy:set_invincible()
+
+  enemy:set_random_treasures(
+    { "bomb", 1 },
+    { "arrow", 2 },
+    { "heart", 1 }
+  )
+
 end
 
 local function shoot()

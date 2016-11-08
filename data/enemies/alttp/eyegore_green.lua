@@ -15,3 +15,9 @@ behavior:create(enemy, properties)
 -- Only sensible to arrows.
 enemy:set_invincible()
 enemy:set_arrow_reaction(game:get_arrow_force())
+
+enemy:set_random_treasures(
+  { "arrow", 2 },
+  { "rupee", 3 },
+  { "rupee", 3 }
+)

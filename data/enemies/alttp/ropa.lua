@@ -11,3 +11,9 @@ local properties = {
 }
 
 behavior:create(enemy, properties)
+
+enemy:set_random_treasures(
+  { "magic_flask", 1 },
+  { "rupee", 2 },
+  { "rupee", 3 }
+)

@@ -11,6 +11,12 @@ function enemy:on_created()
   enemy:set_life(10)
   enemy:set_damage(12)
   enemy:create_sprite("enemies/" .. enemy:get_breed())
+
+  enemy:set_random_treasures(
+    { "rupee", 2 },
+    { "rupee", 3 },
+    { "bomb", 1 }
+  )
 end
 
 local function go_hero()

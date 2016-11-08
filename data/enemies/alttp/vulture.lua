@@ -17,4 +17,10 @@ local properties = {
 
 behavior:create(enemy, properties)
 
+enemy:set_random_treasures(
+  { "rupee", 1 },
+  { "rupee", 2 },
+  { "arrow", 2 }
+)
+
 enemy:set_layer_independent_collisions(true)

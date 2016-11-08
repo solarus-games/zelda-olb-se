@@ -24,6 +24,12 @@ enemy:set_arrow_reaction("custom")
 enemy:set_hookshot_reaction("custom")
 enemy:set_hammer_reaction(3)
 
+enemy:set_random_treasures(
+  { "bomb", 1 },
+  { "rupee", 2 },
+  { "heart", 1 }
+)
+
 function enemy:on_custom_attack_received(attack)
 
   -- Custom reaction: don't get hurt but step back.

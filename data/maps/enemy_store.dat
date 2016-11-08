@@ -421,7 +421,7 @@ enemy{
 }
 
 enemy{
-  name = "auto_enemy_40",
+  name = "auto_enemy_49",
   layer = 1,
   x = 280,
   y = 237,

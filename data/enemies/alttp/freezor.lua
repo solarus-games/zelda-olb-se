@@ -27,6 +27,12 @@ enemy:set_hookshot_reaction("custom")
 
 enemy:set_fire_reaction(3)
 
+enemy:set_random_treasures(
+  { "magic_flask", 1 },
+  { "magic_flask", 1 },
+  { "magic_flask", 2 }
+)
+
 function enemy:on_custom_attack_received(attack)
 
   -- Custom reaction: don't get hurt but step back.

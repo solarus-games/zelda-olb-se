@@ -16,6 +16,12 @@ local properties = {
 
 behavior:create(enemy, properties)
 
+enemy:set_random_treasures(
+  nil,
+  { "rupee", 1 },
+  { "rupee", 2 }
+)
+
 -- Set the life to 1.
 function enemy:on_attacking_hero(hero, enemy_sprite)
 

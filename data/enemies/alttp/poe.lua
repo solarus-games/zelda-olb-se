@@ -36,6 +36,12 @@ if game:has_item("bow_silver") then
   enemy:set_arrow_reaction(5)
 end
 
+enemy:set_random_treasures(
+  { "rupee", 2 },
+  { ",agic_flask", 1 },
+  { "heart", 1 }
+)
+
 function enemy:on_custom_attack_received(attack)
 
   -- Custom reaction: don't get hurt but step back.

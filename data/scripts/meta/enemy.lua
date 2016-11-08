@@ -62,6 +62,7 @@ function enemy_meta:set_random_treasures(item_1, item_2, item_3)
   end
 
   if item == nil then
+    self:set_treasure(nil)
     return
   end
 

@@ -21,3 +21,9 @@ enemy:set_arrow_reaction("protected")
 enemy:set_hammer_reaction("protected")
 enemy:set_hookshot_reaction("protected")
 enemy:set_fire_reaction(1)
+
+enemy:set_random_treasures(
+  { "rupee", 2 },
+  { "magic_flask", 1 },
+  { "magic_flask", 2 }
+)

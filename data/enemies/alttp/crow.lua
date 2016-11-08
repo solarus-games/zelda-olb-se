@@ -1,6 +1,6 @@
 local enemy = ...
 
--- Keese: a bat that sleeps until the hero gets close.
+-- A crow that sleeps until the hero gets close.
 
 local behavior = require("enemies/lib/waiting_for_hero")
 
@@ -18,3 +18,9 @@ local properties = {
 behavior:create(enemy, properties)
 
 enemy:set_layer_independent_collisions(true)
+
+enemy:set_random_treasures(
+  { "heart", 1 },
+  { "heart", 1 },
+  { "rupee", 2 }
+)
