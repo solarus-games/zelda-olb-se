@@ -1,6 +1,6 @@
 animation{
   name = "stopped",
-  src_image = "npc/alttp.png",
+  src_image = "npc/alttp/alttp.png",
   frame_delay = 250,
   frame_to_loop_on = 0,
   directions = {

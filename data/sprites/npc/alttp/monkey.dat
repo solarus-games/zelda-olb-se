@@ -1,6 +1,6 @@
 animation{
   name = "stopped",
-  src_image = "npc/alttp.png",
+  src_image = "npc/alttp/alttp.png",
   directions = {
     { x = 192, y = 96, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29 },
     { x = 192, y = 128, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29 },
@@ -11,7 +11,7 @@ animation{
 
 animation{
   name = "walking",
-  src_image = "npc/alttp.png",
+  src_image = "npc/alttp/alttp.png",
   frame_delay = 125,
   frame_to_loop_on = 0,
   directions = {
@@ -24,7 +24,7 @@ animation{
 
 animation{
   name = "jumping",
-  src_image = "npc/alttp.png",
+  src_image = "npc/alttp/alttp.png",
   frame_delay = 125,
   frame_to_loop_on = 1,
   directions = {

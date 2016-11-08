@@ -1,6 +1,6 @@
 animation{
   name = "stopped",
-  src_image = "npc/witch.png",
+  src_image = "npc/alttp/witch.png",
   frame_delay = 200,
   frame_to_loop_on = 0,
   directions = {

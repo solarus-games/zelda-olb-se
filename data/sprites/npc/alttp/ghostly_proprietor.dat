@@ -1,6 +1,6 @@
 animation{
   name = "stopped",
-  src_image = "npc/ghostly_proprietor.png",
+  src_image = "npc/alttp/ghostly_proprietor.png",
   frame_delay = 300,
   frame_to_loop_on = 0,
   directions = {
