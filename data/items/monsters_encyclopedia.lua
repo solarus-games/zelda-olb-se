@@ -11,7 +11,7 @@ end
 
 function item:add_monster_type_killed(breed)
 
-  local savegame_variable = "monsters_encyclopedia_" .. breed
+  local savegame_variable = "monsters_encyclopedia_" .. breed:gsub("/", "_")
   game:set_value(savegame_variable, true)
 end
 
