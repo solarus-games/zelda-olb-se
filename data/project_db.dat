@@ -112,10 +112,10 @@ sprite{ id = "enemies/soe/aquagoth_tentacle_side", description = "Aquagoth side 
 sprite{ id = "enemies/soe/aquagoth_wave", description = "Aquagoth wave" }
 sprite{ id = "enemies/som/brambler", description = "Brambler" }
 sprite{ id = "enemies/som/dragon_red", description = "Red Dragon" }
-sprite{ id = "enemies/som/dragon_red_fireball", description = "Red Dragon Fireball" }
 sprite{ id = "enemies/som/dragon_snow", description = "Snow Dragon" }
-sprite{ id = "enemies/som/dragon_snow_iceball", description = "Snow Dragon Iceball" }
+sprite{ id = "enemies/som/fireball", description = "Fireball" }
 sprite{ id = "enemies/som/ghoul", description = "Ghoul" }
+sprite{ id = "enemies/som/iceball", description = "Iceball" }
 sprite{ id = "enemies/som/kilroy", description = "Kilroy" }
 sprite{ id = "enemies/som/minotaur", description = "Minotaur" }
 sprite{ id = "enemies/som/tropicallo", description = "Tropicallo" }
@@ -526,10 +526,10 @@ enemy{ id = "alttp/zora_feet", description = "Zora (on feet)" }
 enemy{ id = "alttp/zora_water", description = "Zora (in water)" }
 enemy{ id = "som/brambler", description = "Tropicallo's plant" }
 enemy{ id = "som/dragon_red", description = "Red Dragon" }
-enemy{ id = "som/dragon_red_fireball", description = "Red Dragon Fireball" }
 enemy{ id = "som/dragon_snow", description = "Snow Dragon" }
-enemy{ id = "som/dragon_snow_iceball", description = "Snow Dragon Iceball" }
+enemy{ id = "som/fireball", description = "Fireball" }
 enemy{ id = "som/ghoul", description = "Ghoul" }
+enemy{ id = "som/iceball", description = "Iceball" }
 enemy{ id = "som/kilroy", description = "Kilroy" }
 enemy{ id = "som/minotaur", description = "Minotaur" }
 enemy{ id = "som/tropicallo", description = "Tropicallo" }
