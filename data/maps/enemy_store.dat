@@ -525,3 +525,12 @@ enemy{
   breed = "alttp/medusa_blue",
 }
 
+enemy{
+  name = "auto_enemy_72",
+  layer = 1,
+  x = 56,
+  y = 381,
+  direction = 3,
+  breed = "alttp/stalfos_grey",
+}
+
