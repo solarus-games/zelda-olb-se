@@ -1,4 +1,5 @@
 local enemy = ...
+local game = enemy:get_game()
 
 local behavior = require("enemies/lib/towards_hero")
 

@@ -9,7 +9,7 @@ function enemy:on_created()
 
   self:set_life(1)
   self:set_damage(1)
-  self:create_sprite("enemies/pike_auto")
+  self:create_sprite("enemies/" .. self:get_breed())
   self:set_size(16, 16)
   self:set_origin(8, 13)
 

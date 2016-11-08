@@ -40,7 +40,7 @@ end
 enemy:set_random_treasures(
   { "rupee", 2 },
   { "magic_flask", 1 },
-  { "rupee", 1 }
+  { "heart", 1 }
 )
 
 function enemy:on_custom_attack_received(attack)
