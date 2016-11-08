@@ -1116,13 +1116,11 @@ tile{
 }
 
 destination{
-  name = "from_hyrule",
   layer = 1,
   x = 152,
   y = 77,
   direction = 3,
   sprite = "entities/destination",
-  default = true,
 }
 
 destination{
@@ -1421,6 +1419,24 @@ destructible{
   damage_on_enemies = 2,
 }
 
+chest{
+  layer = 1,
+  x = 160,
+  y = 605,
+  treasure_name = "shield",
+  treasure_savegame_variable = "portal_cave_shield_chest",
+  sprite = "entities/chest",
+}
+
+destination{
+  name = "from_hyrule",
+  layer = 1,
+  x = 160,
+  y = 93,
+  direction = 3,
+  default = true,
+}
+
 tile{
   layer = 2,
   x = 144,
@@ -1626,5 +1642,23 @@ tile{
   width = 80,
   height = 32,
   pattern = "ceiling",
+}
+
+separator{
+  name = "auto_separator_1",
+  layer = 2,
+  x = 0,
+  y = 232,
+  width = 320,
+  height = 16,
+}
+
+separator{
+  name = "auto_separator_2",
+  layer = 2,
+  x = 0,
+  y = 472,
+  width = 320,
+  height = 16,
 }
 

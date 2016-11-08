@@ -1,24 +1,19 @@
--- Lua script of map caves/portal_cave.
--- This script is executed every time the hero enters this map.
-
--- Feel free to modify the code below.
--- You can add more events and remove the ones you don't need.
-
--- See the Solarus Lua API documentation:
--- http://www.solarus-games.org/doc/latest
-
 local map = ...
 local game = map:get_game()
 
--- Event called at initialization time, as soon as this map becomes is loaded.
-function map:on_started()
-
-  -- You can initialize the movement and sprites of various
-  -- map entities here.
-end
-
--- Event called after the opening transition effect of the map,
--- that is, when the player takes control of the hero.
 function map:on_opening_transition_finished()
 
+  if not game:get_value("portal_cave_help_done") then
+    game:start_dialog("caves.portal_cave.help")
+    game:set_value("portal_cave_help_done", true)
+  end
+end
+
+function auto_separator_1:on_activated()
+
+  if not game:get_value("portal_cave_tutorial_done") then
+    local key = game:get_command_keyboard_binding("action")
+    game:start_dialog("caves.portal_cave.tutorial", key)
+    game:set_value("portal_cave_tutorial_done", true)
+  end
 end

@@ -11335,6 +11335,15 @@ sensor{
   height = 16,
 }
 
+npc{
+  layer = 1,
+  x = 904,
+  y = 77,
+  direction = 3,
+  subtype = 0,
+  sprite = "entities/sign",
+}
+
 tile{
   layer = 2,
   x = 352,
@@ -13671,6 +13680,25 @@ teletransporter{
   height = 16,
   destination_map = "caves/portal_cave",
   destination = "from_outside",
+}
+
+npc{
+  layer = 2,
+  x = 456,
+  y = 253,
+  direction = 3,
+  subtype = 0,
+  sprite = "entities/sign",
+}
+
+npc{
+  name = "pit",
+  layer = 2,
+  x = 480,
+  y = 261,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/pit",
 }
 
 tile{

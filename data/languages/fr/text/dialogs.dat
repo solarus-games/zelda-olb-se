@@ -380,7 +380,8 @@ dialog{
   text = [[
 Tu as trouvé un bouclier !!!
 
-Ta défense augmente d'un point !
+Ta défense augmente d'un point, tu résistes
+mieux aux attaques ennemies !!!
 ]]
 }
 
@@ -439,9 +440,25 @@ Il te faut la clé du boss pour l'ouvrir.
 }
 
 dialog{
+  id = "caves.portal_cave.help",
+  text = [[
+AIDE : Appuie sur F1 pour consulter l'aide.
+]]
+}
+
+dialog{
   id = "caves.portal_cave.sign",
   text = [[
-Appuie sur C pour soulever un objet léger.
+Appuie sur Action pour soulever un objet léger.
+]]
+}
+
+dialog{
+  id = "caves.portal_cave.tutorial",
+  text = [[
+Tutoriel : appuie sur Action ($v)
+pour parler, lire ou ouvrir un coffre, et pour
+passer les textes à l'écran.
 ]]
 }
 
