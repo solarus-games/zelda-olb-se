@@ -118,6 +118,7 @@ sprite{ id = "enemies/som/ghoul", description = "Ghoul" }
 sprite{ id = "enemies/som/iceball", description = "Iceball" }
 sprite{ id = "enemies/som/kilroy", description = "Kilroy" }
 sprite{ id = "enemies/som/minotaur", description = "Minotaur" }
+sprite{ id = "enemies/som/spikey_tiger", description = "Spikey Tiger" }
 sprite{ id = "enemies/som/tropicallo", description = "Tropicallo" }
 sprite{ id = "enemies/som/vampire", description = "Vampire" }
 sprite{ id = "entities/arrow", description = "Arrow" }
@@ -532,6 +533,7 @@ enemy{ id = "som/ghoul", description = "Ghoul" }
 enemy{ id = "som/iceball", description = "Iceball" }
 enemy{ id = "som/kilroy", description = "Kilroy" }
 enemy{ id = "som/minotaur", description = "Minotaur" }
+enemy{ id = "som/spikey_tiger", description = "Spikey Tiger" }
 enemy{ id = "som/tropicallo", description = "Tropicallo" }
 enemy{ id = "som/vampire", description = "Vampire" }
 
