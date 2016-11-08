@@ -44,4 +44,28 @@ function enemy_meta:receive_attack_consequence(attack, reaction)
 
 end
 
+-- Randomly sets the treasure of the enemy between 3 items.
+-- item_1: 1/3
+-- item_2: 1/4
+-- item_3: 1/6
+-- nothing: 1/4
+function enemy_meta:set_random_treasures(item_1, item_2, item_3)
+
+  local item = nil
+  local random = math.random(12)
+  if random <= 4 then
+    item = item_1
+  elseif random <= 7 then
+    item = item_2
+  elseif random <= 9 then
+    item = item_3
+  end
+
+  if item == nil then
+    return
+  end
+
+  self:set_treasure(item[1], item[2] or 1)
+end
+
 return true
