@@ -5,7 +5,7 @@ properties{
   height = 960,
   min_layer = 0,
   max_layer = 2,
-  tileset = "cave",
+  tileset = "temple_blue",
 }
 
 tile{
@@ -19,8 +19,8 @@ tile{
 
 tile{
   layer = 1,
-  x = 624,
-  y = 32,
+  x = 616,
+  y = 40,
   width = 272,
   height = 192,
   pattern = "hole",
@@ -1324,8 +1324,8 @@ tile{
 
 tile{
   layer = 1,
-  x = 600,
-  y = 8,
+  x = 592,
+  y = 16,
   width = 24,
   height = 24,
   pattern = "wall.corner.1",
@@ -1333,8 +1333,8 @@ tile{
 
 tile{
   layer = 1,
-  x = 600,
-  y = 224,
+  x = 592,
+  y = 232,
   width = 24,
   height = 24,
   pattern = "wall.corner.3",
@@ -1342,8 +1342,8 @@ tile{
 
 tile{
   layer = 1,
-  x = 896,
-  y = 8,
+  x = 888,
+  y = 16,
   width = 24,
   height = 24,
   pattern = "wall.corner.2",
@@ -1351,8 +1351,8 @@ tile{
 
 tile{
   layer = 1,
-  x = 896,
-  y = 224,
+  x = 888,
+  y = 232,
   width = 24,
   height = 24,
   pattern = "wall.corner.4",
@@ -1360,8 +1360,8 @@ tile{
 
 tile{
   layer = 1,
-  x = 624,
-  y = 8,
+  x = 616,
+  y = 16,
   width = 272,
   height = 24,
   pattern = "wall.1",
@@ -1369,8 +1369,8 @@ tile{
 
 tile{
   layer = 1,
-  x = 896,
-  y = 32,
+  x = 888,
+  y = 40,
   width = 24,
   height = 192,
   pattern = "wall.4",
@@ -1378,8 +1378,8 @@ tile{
 
 tile{
   layer = 1,
-  x = 624,
-  y = 224,
+  x = 616,
+  y = 232,
   width = 272,
   height = 24,
   pattern = "wall.2",
@@ -1387,8 +1387,8 @@ tile{
 
 tile{
   layer = 1,
-  x = 600,
-  y = 32,
+  x = 592,
+  y = 40,
   width = 24,
   height = 192,
   pattern = "wall.3",
@@ -1396,8 +1396,8 @@ tile{
 
 tile{
   layer = 1,
-  x = 624,
-  y = 48,
+  x = 616,
+  y = 56,
   width = 16,
   height = 160,
   pattern = "wall_hole.3",
@@ -1405,8 +1405,8 @@ tile{
 
 tile{
   layer = 1,
-  x = 624,
-  y = 208,
+  x = 616,
+  y = 216,
   width = 16,
   height = 16,
   pattern = "wall_hole.corner.3",
@@ -1414,8 +1414,8 @@ tile{
 
 tile{
   layer = 1,
-  x = 640,
-  y = 32,
+  x = 632,
+  y = 40,
   width = 240,
   height = 16,
   pattern = "wall_hole.1",
@@ -1423,8 +1423,8 @@ tile{
 
 tile{
   layer = 1,
-  x = 880,
-  y = 32,
+  x = 872,
+  y = 40,
   width = 16,
   height = 16,
   pattern = "wall_hole.corner.2",
@@ -1432,8 +1432,8 @@ tile{
 
 tile{
   layer = 1,
-  x = 640,
-  y = 208,
+  x = 632,
+  y = 216,
   width = 240,
   height = 16,
   pattern = "wall_hole.2",
@@ -1441,8 +1441,8 @@ tile{
 
 tile{
   layer = 1,
-  x = 624,
-  y = 32,
+  x = 616,
+  y = 40,
   width = 16,
   height = 16,
   pattern = "wall_hole.corner.1",
@@ -1450,8 +1450,8 @@ tile{
 
 tile{
   layer = 1,
-  x = 880,
-  y = 48,
+  x = 872,
+  y = 56,
   width = 16,
   height = 160,
   pattern = "wall_hole.4",
@@ -1459,8 +1459,8 @@ tile{
 
 tile{
   layer = 1,
-  x = 880,
-  y = 208,
+  x = 872,
+  y = 216,
   width = 16,
   height = 16,
   pattern = "wall_hole.corner.4",
@@ -1814,7 +1814,7 @@ tile{
   y = 48,
   width = 256,
   height = 176,
-  pattern = "floor.19",
+  pattern = "floor.14",
 }
 
 destructible{
@@ -1823,7 +1823,6 @@ destructible{
   y = 445,
   sprite = "entities/vase",
   destruction_sound = "stone",
-  weight = 1,
   damage_on_enemies = 2,
 }
 
@@ -1831,10 +1830,8 @@ destructible{
   layer = 1,
   x = 368,
   y = 565,
-  treasure_name = "random",
   sprite = "entities/vase",
   destruction_sound = "stone",
-  weight = 1,
   damage_on_enemies = 2,
 }
 
@@ -1842,10 +1839,8 @@ destructible{
   layer = 1,
   x = 384,
   y = 565,
-  treasure_name = "random",
   sprite = "entities/vase_skull",
   destruction_sound = "stone",
-  weight = 1,
   damage_on_enemies = 2,
 }
 
@@ -2195,7 +2190,6 @@ destructible{
   y = 445,
   sprite = "entities/vase",
   destruction_sound = "stone",
-  weight = 1,
   damage_on_enemies = 2,
 }
 
@@ -2205,7 +2199,6 @@ destructible{
   y = 605,
   sprite = "entities/vase",
   destruction_sound = "stone",
-  weight = 1,
   damage_on_enemies = 2,
 }
 
@@ -2215,7 +2208,6 @@ destructible{
   y = 605,
   sprite = "entities/vase",
   destruction_sound = "stone",
-  weight = 1,
   damage_on_enemies = 2,
 }
 
@@ -2226,7 +2218,6 @@ destructible{
   y = 701,
   sprite = "entities/vase",
   destruction_sound = "stone",
-  weight = 1,
   damage_on_enemies = 2,
 }
 
@@ -2237,7 +2228,6 @@ destructible{
   y = 701,
   sprite = "entities/vase",
   destruction_sound = "stone",
-  weight = 1,
   damage_on_enemies = 2,
 }
 
@@ -2248,7 +2238,6 @@ destructible{
   y = 861,
   sprite = "entities/vase",
   destruction_sound = "stone",
-  weight = 1,
   damage_on_enemies = 2,
 }
 
@@ -2259,7 +2248,6 @@ destructible{
   y = 861,
   sprite = "entities/vase",
   destruction_sound = "stone",
-  weight = 1,
   damage_on_enemies = 2,
 }
 

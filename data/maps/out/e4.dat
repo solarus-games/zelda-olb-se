@@ -12390,15 +12390,6 @@ tile{
 
 tile{
   layer = 2,
-  x = 464,
-  y = 192,
-  width = 32,
-  height = 8,
-  pattern = "cave_entrance.top",
-}
-
-tile{
-  layer = 2,
   x = 400,
   y = 256,
   width = 16,
@@ -13433,7 +13424,7 @@ destination{
   name = "from_pit_house",
   layer = 2,
   x = 672,
-  y = 221,
+  y = 213,
   direction = 3,
 }
 
@@ -13662,6 +13653,24 @@ sensor{
   y = 717,
   width = 16,
   height = 16,
+}
+
+destination{
+  name = "from_portal_cave",
+  layer = 2,
+  x = 480,
+  y = 229,
+  direction = 3,
+}
+
+teletransporter{
+  layer = 2,
+  x = 472,
+  y = 200,
+  width = 16,
+  height = 16,
+  destination_map = "caves/portal_cave",
+  destination = "from_outside",
 }
 
 tile{
@@ -13905,6 +13914,15 @@ tile{
   width = 48,
   height = 40,
   pattern = "tree.green.1",
+}
+
+tile{
+  layer = 3,
+  x = 464,
+  y = 192,
+  width = 32,
+  height = 8,
+  pattern = "cave_entrance.top",
 }
 
 custom_entity{
