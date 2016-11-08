@@ -9394,39 +9394,6 @@ destructible{
   can_be_cut = true,
 }
 
-teletransporter{
-  layer = 1,
-  x = -16,
-  y = 0,
-  width = 16,
-  height = 960,
-  transition = "scrolling",
-  destination_map = "out/c2",
-  destination = "_side",
-}
-
-teletransporter{
-  layer = 1,
-  x = 1280,
-  y = 0,
-  width = 16,
-  height = 960,
-  transition = "scrolling",
-  destination_map = "out/e2",
-  destination = "_side",
-}
-
-teletransporter{
-  layer = 1,
-  x = 640,
-  y = 960,
-  width = 640,
-  height = 16,
-  transition = "scrolling",
-  destination_map = "out/d3",
-  destination = "_side",
-}
-
 tile{
   layer = 2,
   x = 480,
@@ -10216,39 +10183,6 @@ sensor{
   y = 157,
   width = 16,
   height = 16,
-}
-
-teletransporter{
-  layer = 2,
-  x = -16,
-  y = 0,
-  width = 16,
-  height = 960,
-  transition = "scrolling",
-  destination_map = "out/c2",
-  destination = "_side",
-}
-
-teletransporter{
-  layer = 2,
-  x = 1280,
-  y = 0,
-  width = 16,
-  height = 960,
-  transition = "scrolling",
-  destination_map = "out/e2",
-  destination = "_side",
-}
-
-teletransporter{
-  layer = 2,
-  x = 640,
-  y = 960,
-  width = 640,
-  height = 16,
-  transition = "scrolling",
-  destination_map = "out/d3",
-  destination = "_side",
 }
 
 tile{

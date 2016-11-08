@@ -10,15 +10,6 @@ properties{
   music = "mountain",
 }
 
-tile{
-  layer = 0,
-  x = 1824,
-  y = 176,
-  width = 16,
-  height = 144,
-  pattern = "water.cliff.4",
-}
-
 teletransporter{
   layer = 0,
   x = 0,
@@ -5243,28 +5234,6 @@ custom_entity{
   direction = 0,
   sprite = "entities/hook_tree_small_yellow",
   model = "hookable",
-}
-
-teletransporter{
-  layer = 1,
-  x = 0,
-  y = 1440,
-  width = 1280,
-  height = 16,
-  transition = "scrolling",
-  destination_map = "out/a2",
-  destination = "_side",
-}
-
-teletransporter{
-  layer = 1,
-  x = 1280,
-  y = 1440,
-  width = 1280,
-  height = 16,
-  transition = "scrolling",
-  destination_map = "out/b2",
-  destination = "_side",
 }
 
 tile{
@@ -11995,28 +11964,6 @@ custom_entity{
   model = "hookable",
 }
 
-teletransporter{
-  layer = 2,
-  x = 0,
-  y = 1440,
-  width = 1280,
-  height = 16,
-  transition = "scrolling",
-  destination_map = "out/a2",
-  destination = "_side",
-}
-
-teletransporter{
-  layer = 2,
-  x = 1280,
-  y = 1440,
-  width = 1280,
-  height = 16,
-  transition = "scrolling",
-  destination_map = "out/b2",
-  destination = "_side",
-}
-
 tile{
   layer = 3,
   x = 0,
@@ -18462,6 +18409,15 @@ tile{
   width = 16,
   height = 8,
   pattern = "sand.weed",
+}
+
+tile{
+  layer = 4,
+  x = 1824,
+  y = 176,
+  width = 16,
+  height = 144,
+  pattern = "water.cliff.4",
 }
 
 dynamic_tile{

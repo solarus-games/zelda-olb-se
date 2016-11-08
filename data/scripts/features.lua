@@ -4,6 +4,7 @@
 
 -- Features can be enabled to disabled independently by commenting
 -- or uncommenting lines below.
+
 require("scripts/debug")
 require("scripts/equipment")
 require("scripts/dungeons")

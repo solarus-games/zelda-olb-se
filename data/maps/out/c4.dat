@@ -11395,50 +11395,6 @@ sensor{
   height = 16,
 }
 
-teletransporter{
-  layer = 1,
-  x = 1920,
-  y = 0,
-  width = 16,
-  height = 960,
-  transition = "scrolling",
-  destination_map = "out/e4",
-  destination = "_side",
-}
-
-teletransporter{
-  layer = 1,
-  x = -16,
-  y = 0,
-  width = 16,
-  height = 960,
-  transition = "scrolling",
-  destination_map = "out/b4",
-  destination = "_side",
-}
-
-teletransporter{
-  layer = 1,
-  x = 0,
-  y = -16,
-  width = 1280,
-  height = 16,
-  transition = "scrolling",
-  destination_map = "out/c3",
-  destination = "_side",
-}
-
-teletransporter{
-  layer = 1,
-  x = 1280,
-  y = -16,
-  width = 640,
-  height = 16,
-  transition = "scrolling",
-  destination_map = "out/d3",
-  destination = "_side",
-}
-
 tile{
   layer = 2,
   x = 704,
@@ -12202,49 +12158,5 @@ tile{
   width = 32,
   height = 24,
   pattern = "dungeon_c.roof",
-}
-
-teletransporter{
-  layer = 2,
-  x = 1920,
-  y = 0,
-  width = 16,
-  height = 960,
-  transition = "scrolling",
-  destination_map = "out/e4",
-  destination = "_side",
-}
-
-teletransporter{
-  layer = 2,
-  x = -16,
-  y = 0,
-  width = 16,
-  height = 960,
-  transition = "scrolling",
-  destination_map = "out/b4",
-  destination = "_side",
-}
-
-teletransporter{
-  layer = 2,
-  x = 0,
-  y = -16,
-  width = 1280,
-  height = 16,
-  transition = "scrolling",
-  destination_map = "out/c3",
-  destination = "_side",
-}
-
-teletransporter{
-  layer = 2,
-  x = 1280,
-  y = -16,
-  width = 640,
-  height = 16,
-  transition = "scrolling",
-  destination_map = "out/d3",
-  destination = "_side",
 }
 

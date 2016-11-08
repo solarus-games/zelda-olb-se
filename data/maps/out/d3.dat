@@ -1273,6 +1273,17 @@ door{
   opening_method = "explosion",
 }
 
+teletransporter{
+  layer = 0,
+  x = 0,
+  y = 960,
+  width = 640,
+  height = 16,
+  transition = "scrolling",
+  destination_map = "out/c3",
+  destination = "_side",
+}
+
 tile{
   layer = 1,
   x = 288,
@@ -16156,50 +16167,6 @@ sensor{
   height = 16,
 }
 
-teletransporter{
-  layer = 1,
-  x = -16,
-  y = 0,
-  width = 16,
-  height = 960,
-  transition = "scrolling",
-  destination_map = "out/c3",
-  destination = "_side",
-}
-
-teletransporter{
-  layer = 1,
-  x = 640,
-  y = -16,
-  width = 1280,
-  height = 16,
-  transition = "scrolling",
-  destination_map = "out/e2",
-  destination = "_side",
-}
-
-teletransporter{
-  layer = 1,
-  x = 640,
-  y = 960,
-  width = 1280,
-  height = 16,
-  transition = "scrolling",
-  destination_map = "out/e4",
-  destination = "_side",
-}
-
-teletransporter{
-  layer = 1,
-  x = 0,
-  y = -16,
-  width = 640,
-  height = 16,
-  transition = "scrolling",
-  destination_map = "out/d2",
-  destination = "_side",
-}
-
 npc{
   layer = 1,
   x = 72,
@@ -19365,61 +19332,6 @@ sensor{
   y = 565,
   width = 16,
   height = 16,
-}
-
-teletransporter{
-  layer = 2,
-  x = -16,
-  y = 0,
-  width = 16,
-  height = 960,
-  transition = "scrolling",
-  destination_map = "out/c3",
-  destination = "_side",
-}
-
-teletransporter{
-  layer = 2,
-  x = 0,
-  y = -16,
-  width = 640,
-  height = 16,
-  transition = "scrolling",
-  destination_map = "out/d2",
-  destination = "_side",
-}
-
-teletransporter{
-  layer = 2,
-  x = 640,
-  y = -16,
-  width = 1280,
-  height = 16,
-  transition = "scrolling",
-  destination_map = "out/e2",
-  destination = "_side",
-}
-
-teletransporter{
-  layer = 2,
-  x = 0,
-  y = 960,
-  width = 640,
-  height = 16,
-  transition = "scrolling",
-  destination_map = "out/c3",
-  destination = "_side",
-}
-
-teletransporter{
-  layer = 2,
-  x = 640,
-  y = 960,
-  width = 1280,
-  height = 16,
-  transition = "scrolling",
-  destination_map = "out/e4",
-  destination = "_side",
 }
 
 tile{
