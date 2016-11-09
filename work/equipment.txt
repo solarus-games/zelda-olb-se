@@ -1,0 +1,77 @@
+Dungeons
+
+#1: Faron Temple -> Graal 1
+#2: Ruto Mine -> Bomb bag
+#3: Ordona Temple -> Graal 2
+#4: Haunted Mansion 1 -> Bow
+#5: Eldin Temple (Mountains) -> Graal 3
+#6: Monsters' Colosseum -> Hookshot
+#7: Lanayru Temple (Lake) -> Graal 4
+#8: Zelda Temple (Lake) -> Graal 5 + Blue Mail
+#9: Haunted Mansion 2 -> Daugther of the Mayor (Elegy of Emptiness then)
+#10: Din Temple -> Master Sword level 2
+#11: Nayru Temple -> Master Sword level 3
+#12: Farore Temple -> Master Sword level 4
+#13: Xantos Temple -> Fierce Diety Mask
+#14: Secret Temple (Monster house, find 3 rare monsters) -> Great Fairy Bow
+#15: Destiny Tower (Final dungeon) -> Triforce
+
+Bottles (3)
+
+#1: Ruto Village: 100 rupees to the merchant
+#2: Rauru City: inn, chest behind the counter
+#3: Desert: Cave after solving the stones puzzle
+
+Potions
+
+Ruto Village: Red & Green
+Rauru City: Red & Green
+Mido Village: Red & Green
+Witch's Swamp: Blue
+
+Items
+
+Termina Map: Pit's house after dungeon 1
+Bomb bag: Dungeon 2 (Ruto Mine) after the boss
+Silver Gloves: Dungeon 3 (Ordona Temple)
+Pegasus Boots: Outside Forest, chest after a stone
+Bow: Dungeon 4 (Haunted Mansion 1), right hand man of the mayor
+Lantern: West Plains, weak wall cave
+Hammer: Dungeon 5 (Eldin Temple)
+Hookshot: Dungeon 6 (Monsters' Colosseum), end of dungeon
+Flippers: Dungeon 7 (Lanayru Temple)
+Double Magic Meter: Outside Forest, fairy fountain cave accessible from west water
+Ocarina of Time: East plains, cave on the hill protected by fire
+Elegy of Emptiness (song): Rauru village after saving his daugther in Dungeon 9 (Haunted Mansion 2)
+Golden Gloves: Mountains, play Elegy of Emptiness near green stone, then weak wall cave
+Fire Rod: Dungeon 10 (Din Temple (Pyramid))
+Song of Soaring: Old man in Desert's house after Dungeon 8
+Ice Rod: Dungeon 11 (Nayru Temple)
+Spirit Mask: Play the Song of Soaring to the Swamp area to get to a weak wall cave (Ice Rod needed)
+Great Fairy Bow: Secret Temple after the boss
+Song of Spirit: Mido Village: Old man in house
+Fierce Deity Mask: Dungeon 13 (Xanto Temple): Play the Song of Spirit after beating Oni-Link
+
+Shields:
+
+#1 (Termina Shield): Portal cave
+#2 (Round Shield): Rauru village, 250 rupees to the merchant
+#3 (Mirror Shield): Farore Temple, weak wall in 2F
+
+Oni-Link shields ?
+
+Swords:
+
+#1 (Terminal Sword): Dungeon 1 (Faron Temple)
+#2 (Master Sword): Talk to Zelda in Pit's house after getting 5 graals
+#3 (Master Sword level 1): Dungeon 10 (Din Temple) after boss
+#4 (Master Sword level 2): Dungeon 11 (Nayru Temple) after boss
+#5 (Master Sword level 3): Dungeon 12 (Farore Temple) after boss
+
+Oni-Link swords?
+
+Tunics:
+
+Blue mail: Dungeon 8 (Zelda Temple), weak wall after the graal
+Red mail: Dungeon 13 (Xanto Temple)
+
