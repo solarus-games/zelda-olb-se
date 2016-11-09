@@ -18,20 +18,20 @@ function sol.main:on_started()
   -- Show the Solarus logo initially.
   sol.menu.start(self, solarus_logo)
 
-  solarus_logo.on_finished = function()
-    sol.menu.start(self, language_menu)
+  function solarus_logo:on_finished()
+    sol.menu.start(sol.main, language_menu)
   end
 
-  language_menu.on_finished = function()
-    sol.menu.start(self, presentation_screen)
+  function language_menu:on_finished()
+    sol.menu.start(sol.main, presentation_screen)
   end
 
-  presentation_screen.on_finished = function()
-    sol.menu.start(self, title_screen)
+  function presentation_screen:on_finished()
+    sol.menu.start(sol.main, title_screen)
   end
 
-  title_screen.on_finished = function()
-    sol.menu.start(self, savegames_menu)
+  function title_screen:on_finished()
+    sol.menu.start(sol.main, savegames_menu)
   end
 
 end
