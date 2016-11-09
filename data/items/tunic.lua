@@ -1,3 +1,8 @@
+-- 3 tunic variants.
+
+-- When the hero is transformed into Oni-Link, the sprite of the tunic changes
+-- but not his possessed variant.
+
 local item = ...
 
 function item:on_created()
@@ -9,4 +14,3 @@ function item:on_obtained(variant, savegame_variable)
   -- Give the built-in ability "tunic", but only after the treasure sequence is done.
   self:get_game():set_ability("tunic", variant)
 end
-

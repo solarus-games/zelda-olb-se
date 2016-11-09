@@ -17,3 +17,5 @@ function enemy:on_restarted()
   movement:set_speed(64)
   movement:start(enemy)
 end
+
+-- TODO when hurting the hero, add damage to Vampire's like points.

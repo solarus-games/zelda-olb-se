@@ -455,6 +455,7 @@ item{ id = "red_potion", description = "Red potion" }
 item{ id = "rupee", description = "Rupees (x1 / x5 / x20 / x50 / x100 / x300)" }
 item{ id = "shield", description = "Shield" }
 item{ id = "small_key", description = "Small key" }
+item{ id = "spirit_mask", description = "Spirit Mask (empty / Oni-Link)" }
 item{ id = "sword", description = "Sword" }
 item{ id = "triforce", description = "Triforce" }
 item{ id = "tunic", description = "Tunic (green / blue / red)" }

@@ -1,11 +1,13 @@
 -- Initialize enemy behavior specific to this quest.
 
+require("scripts/hero")
+
 local enemy_meta = sol.main.get_metatable("enemy")
 
 -- Redefine how to calculate the damage inflicted by the sword.
 function enemy_meta:on_hurt_by_sword(hero, enemy_sprite)
 
-  local force = hero:get_game():get_value("force")
+  local force = hero:get_force()
   local reaction = self:get_attack_consequence_sprite(enemy_sprite, "sword")
   -- Multiply the sword consequence by the force of the hero.
   local life_lost = reaction * force
