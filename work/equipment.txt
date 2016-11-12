@@ -74,8 +74,6 @@ When Oni-Link, the sword is kept but has a different sprite:
 - Without Fierce Deity Mask: Oni-Link Sword sprite 1 (red)
 - With Fierce Deity Mask: Oni-Link Sword sprite 2 (green/blue)
 
-Oni-Link swords?
-
 Tunics:
 
 Blue mail: Dungeon 8 (Zelda Temple), weak wall after the graal
