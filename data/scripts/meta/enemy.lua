@@ -1,6 +1,6 @@
 -- Initialize enemy behavior specific to this quest.
 
-require("scripts/hero")
+require("scripts/meta/hero")
 
 local enemy_meta = sol.main.get_metatable("enemy")
 
@@ -72,3 +72,4 @@ function enemy_meta:set_random_treasures(item_1, item_2, item_3)
 end
 
 return true
+
