@@ -4,22 +4,19 @@ local boss_life_builder = {}
 
 local life_bar_img = sol.surface.create("hud/boss_life.png")
 
-function boss_life_builder:new(game)
+function boss_life_builder:new(game, config)
 
   local boss_life = {}
   local life_bar_enabled = false
   local initial_life
   local current_life
 
-  function boss_life:set_dst_position(x, y)
-    self.dst_x = x
-    self.dst_y = y
-  end
+  local dst_x, dst_y = config.x, config.y
 
   function boss_life:on_draw(dst_surface)
 
     if life_bar_enabled then
-      life_bar_img:draw_region(0, 0, 100, 10, dst_surface, self.dst_x, self.dst_y)
+      life_bar_img:draw_region(0, 0, 100, 10, dst_surface, dst_x, dst_y)
       local src_width = math.floor(current_life / initial_life * 90)
       local src_height = 2
       local src_x = 95 - src_width
