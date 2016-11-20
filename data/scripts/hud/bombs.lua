@@ -4,7 +4,7 @@ local bombs_builder = {}
 
 local bomb_icon_img = sol.surface.create("hud/bomb_icon.png")
 
-function bombs_builder:new(game)
+function bombs_builder:new(game, config)
 
   local bombs = {}
 
@@ -16,14 +16,11 @@ function bombs_builder:new(game)
   local bombs_counter = game:get_item("bombs_counter")
   local amount_displayed = bombs_counter:get_amount()
 
-  function bombs:set_dst_position(x, y)
-    bombs.dst_x = x
-    bombs.dst_y = y
-  end
+  local dst_x, dst_y = config.x, config.y
 
   function bombs:on_draw(dst_surface)
 
-    local x, y = bombs.dst_x, bombs.dst_y
+    local x, y = dst_x, dst_y
     local width, height = dst_surface:get_size()
     if x < 0 then
       x = width + x

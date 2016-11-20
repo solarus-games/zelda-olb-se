@@ -2,7 +2,7 @@
 
 local magic_bar_builder = {}
 
-function magic_bar_builder:new(game)
+function magic_bar_builder:new(game, config)
 
   local magic_bar = {}
 
@@ -11,10 +11,7 @@ function magic_bar_builder:new(game)
   local magic_displayed = game:get_magic()
   local max_magic_displayed = 0
 
-  function magic_bar:set_dst_position(x, y)
-    magic_bar.dst_x = x
-    magic_bar.dst_y = y
-  end
+  local dst_x, dst_y = config.x, config.y
 
   -- Checks whether the view displays the correct info
   -- and updates it if necessary.
@@ -59,7 +56,7 @@ function magic_bar_builder:new(game)
       return
     end
 
-    local x, y = magic_bar.dst_x, magic_bar.dst_y
+    local x, y = dst_x, dst_y
     local width, height = dst_surface:get_size()
     if x < 0 then
       x = width + x

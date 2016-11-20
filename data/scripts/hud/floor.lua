@@ -2,7 +2,7 @@
 
 local floor_builder = {}
 
-function floor_builder:new(game)
+function floor_builder:new(game, config)
 
   local floor_view = {}
 
@@ -10,6 +10,8 @@ function floor_builder:new(game)
   local surface = sol.surface.create(32, 85)
   local floors_img = sol.surface.create("floors.png", true)  -- Language-specific image
   local current_floor = nil
+
+  local dst_x, dst_y = config.x, config.y
 
   function floor_view:on_map_changed(map)
 
@@ -76,11 +78,6 @@ function floor_builder:new(game)
     dst_y = (highest_floor_displayed - current_floor) * 16
 
     floors_img:draw_region(32, src_y, 32, 16, surface, 0, dst_y)
-  end
-
-  function floor_view:set_dst_position(x, y)
-    dst_x = x
-    dst_y = y
   end
 
   function floor_view:on_draw(dst_surface)

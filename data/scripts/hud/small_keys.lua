@@ -4,9 +4,11 @@ local small_keys_builder = {}
 
 local small_key_icon_img = sol.surface.create("hud/small_keys.png")
 
-function small_keys_builder:new(game)
+function small_keys_builder:new(game, config)
 
   local small_keys = {}
+
+  local dst_x, dst_y = config.x, config.y
 
   local digits_text = sol.text_surface.create{
     font = "white_digits",
@@ -18,18 +20,13 @@ function small_keys_builder:new(game)
     num_small_keys_displayed = game:get_num_small_keys()
   end
 
-  function small_keys:set_dst_position(x, y)
-    self.dst_x = x
-    self.dst_y = y
-  end
-
   function small_keys:on_draw(dst_surface)
 
     if not game:are_small_keys_enabled() then
       return
     end
 
-    local x, y = self.dst_x, self.dst_y
+    local x, y = dst_x, dst_y
     local width, height = dst_surface:get_size()
     if x < 0 then
       x = width + x

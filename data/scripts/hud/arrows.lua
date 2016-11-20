@@ -4,7 +4,7 @@ local arrows_builder = {}
 
 local arrow_icon_img = sol.surface.create("hud/arrow_icon.png")
 
-function arrows_builder:new(game)
+function arrows_builder:new(game, config)
 
   local arrows = {}
 
@@ -18,10 +18,8 @@ function arrows_builder:new(game)
   local amount_displayed = bow:get_amount()
   local max_amount_displayed = bow:get_max_amount()
 
-  function arrows:set_dst_position(x, y)
-    arrows.dst_x = x
-    arrows.dst_y = y
-  end
+  local dst_x = config.x or 0
+  local dst_y = config.y or 0
 
   function arrows:on_draw(dst_surface)
 
@@ -30,7 +28,7 @@ function arrows_builder:new(game)
       return
     end
 
-    local x, y = arrows.dst_x, arrows.dst_y
+    local x, y = dst_x, dst_y
     local width, height = dst_surface:get_size()
     if x < 0 then
       x = width + x

@@ -4,6 +4,7 @@
 -- require("scripts/hud/hud")
 
 require("scripts/multi_events")
+local hud_config = require("scripts/hud/hud_config")
 
 -- Creates and runs a HUD for the specified game.
 local function initialize_hud_features(game)
@@ -14,52 +15,15 @@ local function initialize_hud_features(game)
     elements = {},
   }
 
-  -- Create each element of the HUD.
-  local hearts_builder = require("scripts/hud/hearts")
-  local rupees_builder = require("scripts/hud/rupees")
-  local bombs_builder = require("scripts/hud/bombs")
-  local arrows_builder = require("scripts/hud/arrows")
-  local item_builder = require("scripts/hud/item")
-  local magic_bar_builder = require("scripts/hud/magic_bar")
-  local small_keys_builder = require("scripts/hud/small_keys")
-  local boss_life_builder = require("scripts/hud/boss_life")
-  local floor_builder = require("scripts/hud/floor")
-
-  local hearts = hearts_builder:new(game)
-  hearts:set_dst_position(-88, 0)
-  hud.elements[#hud.elements + 1] = hearts
-
-  local rupees = rupees_builder:new(game)
-  rupees:set_dst_position(121, 10)
-  hud.elements[#hud.elements + 1] = rupees
-
-  local bombs = bombs_builder:new(game)
-  bombs:set_dst_position(153, 10)
-  hud.elements[#hud.elements + 1] = bombs
-
-  local arrows = arrows_builder:new(game)
-  arrows:set_dst_position(178, 10)
-  hud.elements[#hud.elements + 1] = arrows
-
-  local item = item_builder:new(game, 1)
-  item:set_dst_position(27, 15)
-  hud.elements[#hud.elements + 1] = item
-
-  local magic_bar = magic_bar_builder:new(game, 1)
-  magic_bar:set_dst_position(10, 8)
-  hud.elements[#hud.elements + 1] = magic_bar
-
-  local small_keys = small_keys_builder:new(game)
-  small_keys:set_dst_position(88, 10)
-  hud.elements[#hud.elements + 1] = small_keys
-
-  local boss_life = boss_life_builder:new(game)
-  boss_life:set_dst_position(110, 220)
-  hud.elements[#hud.elements + 1] = boss_life
-
-  local floor = floor_builder:new(game, 1)
-  floor:set_dst_position(280, 40)
-  hud.elements[#hud.elements + 1] = floor
+  for _, element_config in ipairs(hud_config) do
+    local element_builder = require(element_config.menu_script)
+    local element = element_builder:new(game, element_config)
+    if element.set_dst_position ~= nil then
+      -- Compatibility with old HUD element scripts.
+      element:set_dst_position(element_config.x, element_config.y)
+    end
+    hud.elements[#hud.elements + 1] = element
+  end
 
   -- Destroys the HUD.
   function hud:quit()
