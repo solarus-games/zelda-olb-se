@@ -87,22 +87,22 @@ local function create_dialog_box(game)
   end
 
   -- Called by the engine when a dialog starts.
-  function game:on_dialog_started(dialog, info)
+  game:register_event("on_dialog_started", function(game, dialog, info)
 
     dialog_box.dialog = dialog
     dialog_box.info = info
     sol.menu.start(game, dialog_box)
-  end
+  end)
 
   -- Called by the engine when a dialog finishes.
-  function game:on_dialog_finished(dialog)
+  game:register_event("on_dialog_finished", function(game, dialog)
 
     if sol.menu.is_started(dialog_box) then
       sol.menu.stop(dialog_box)
     end
     dialog_box.dialog = nil
     dialog_box.info = nil
-  end
+  end)
 
   -- Determines the position of the dialog box on the screen.
   local function compute_position()
