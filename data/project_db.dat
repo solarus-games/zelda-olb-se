@@ -193,7 +193,7 @@ sprite{ id = "hero/shield1", description = "Shield 1" }
 sprite{ id = "hero/shield2", description = "Shield 2" }
 sprite{ id = "hero/shield3", description = "Shield 3" }
 sprite{ id = "hero/shield_onilink1", description = "Onilink Shield 1" }
-sprite{ id = "hero/shield_onilink2", description = "Onilink Shield 1" }
+sprite{ id = "hero/shield_onilink2", description = "Onilink Shield 2" }
 sprite{ id = "hero/sword1", description = "Sword 1" }
 sprite{ id = "hero/sword2", description = "Sword 2" }
 sprite{ id = "hero/sword3", description = "Sword 3" }
