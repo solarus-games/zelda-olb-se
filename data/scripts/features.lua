@@ -8,7 +8,7 @@
 require("scripts/debug")
 require("scripts/equipment")
 require("scripts/dungeons")
-require("scripts/menus/dialog_box")
+require("scripts/menus/alttp_dialog_box")
 require("scripts/menus/pause")
 require("scripts/menus/game_over")
 require("scripts/hud/hud")
