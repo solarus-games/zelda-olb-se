@@ -1,7 +1,33 @@
--- Script that creates a dialog box for a game.
-
+-- Script that creates an ALTTP-looking dialog box for games.
+--
 -- Usage:
--- require("scripts/menus/dialog_box")
+-- require("scripts/menus/alttp_dialog_box")
+--
+-- You really have nothing more to do:
+-- the dialog box will automatically be used in games.
+--
+-- To customize the dialog box, call
+-- local dialog_box = game:get_dialog_box()
+-- to get it and then it provides the following functions:
+--
+-- - dialog_box:set_style(style):
+--   Sets the style of the dialog box for subsequent dialogs.
+--   style must be one of:
+--   - "box" (default): Usual dialog box.
+--   - "empty": No decoration.
+--
+-- - dialog_box:set_position(position):
+--   Sets the vertical position of the dialog box for subsequent dialogs.
+--   position must be one of:
+--   - "auto": Choose automatically so that the hero is not hidden.
+--   - "top": Top of the screen.
+--   - "bottom" (default): Bottom of the screen.
+--   - a table with x and y integer fields.
+--
+-- - dialog_box:get_bounding_box():
+--   Returns the coordinates on screen and the size of the dialog box.
+--   This also works when the dialog box is inactive: in this case it
+--   returns the bounding box it would have if it was activated now.
 
 require("scripts/multi_events")
 
@@ -82,6 +108,7 @@ local function create_dialog_box(game)
     end
   end
 
+  -- Returns the dialog box.
   function game:get_dialog_box()
     return dialog_box
   end
@@ -132,28 +159,18 @@ local function create_dialog_box(game)
     end
   end
 
-  -- Sets the style of the dialog box for subsequent dialogs.
-  -- style must be one of:
-  -- - "box" (default): Usual dialog box.
-  -- - "empty": No decoration.
+  -- See the doc in the header comment.
   function dialog_box:set_style(style)
 
     dialog_box.style = style
   end
 
-  -- Sets the vertical position of the dialog box for subsequent dialogs.
-  -- position must be one of:
-  -- - "auto": Choose automatically so that the hero is not hidden.
-  -- - "top": Top of the screen.
-  -- - "bottom" (default): Bottom of the screen.
-  -- - a table with x and y integer fields.
+  -- See the doc in the header comment.
   function dialog_box:set_position(position)
     dialog_box.position = position
   end
 
-  -- Returns the coordinates on screen and the size of the dialog box.
-  -- This also works when the dialog box is inactive: in this case it
-  -- returns the bounding box it would have if it was activated now.
+  -- See the doc in the header comment.
   function dialog_box:get_bounding_box()
     compute_position()
     local width, height = self.box_img:get_size()
@@ -272,6 +289,7 @@ local function create_dialog_box(game)
   function dialog_box:show_next_dialog()
 
     local next_dialog_id = self.dialog.next
+    self.choices = {}  -- Clear previous choices list.
 
     if next_dialog_id ~= nil then
       -- Show the next dialog.
@@ -564,3 +582,4 @@ local game_meta = sol.main.get_metatable("game")
 game_meta:register_event("on_started", create_dialog_box)
 
 return true
+
