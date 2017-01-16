@@ -1,4 +1,5 @@
 map{ id = "caves/portal_cave", description = "Portal cave" }
+map{ id = "caves/portal_cave_old", description = "Portal cave" }
 map{ id = "enemy_store", description = "Enemy Store" }
 map{ id = "houses/pit_house", description = "Pit house" }
 map{ id = "inside_store", description = "Inside Store" }
@@ -19,6 +20,22 @@ map{ id = "out/e4", description = "E4 (Forest)" }
 map{ id = "outside_store", description = "Outside Store" }
 
 tileset{ id = "cave", description = "Cave" }
+tileset{ id = "dungeon/blue", description = "Blue dungeon" }
+tileset{ id = "dungeon/brown", description = "Brown dungeon" }
+tileset{ id = "dungeon/dark_brown", description = "Dark brown dungeon" }
+tileset{ id = "dungeon/dark_yellow", description = "Dark yellow dungeon" }
+tileset{ id = "dungeon/gray", description = "Gray dungeon" }
+tileset{ id = "dungeon/gray_blue", description = "Gray-blue dungeon" }
+tileset{ id = "dungeon/gray_brown", description = "Gray-brown dungeon" }
+tileset{ id = "dungeon/gray_pink", description = "Gray-pink dungeon" }
+tileset{ id = "dungeon/gray_yellow", description = "Gray-yellow dungeon" }
+tileset{ id = "dungeon/green", description = "Green dungeon" }
+tileset{ id = "dungeon/light_blue", description = "Light blue dungeon" }
+tileset{ id = "dungeon/light_brown", description = "Light brown dungeon" }
+tileset{ id = "dungeon/light_green", description = "Light green dungeon" }
+tileset{ id = "dungeon/pink", description = "Pink dungeon" }
+tileset{ id = "dungeon/purple", description = "Purple dungeon" }
+tileset{ id = "dungeon/yellow", description = "Yellow dungeon" }
 tileset{ id = "dungeon_blue", description = "Dungeon (blue)" }
 tileset{ id = "dungeon_grayblue", description = "Dungeon (gray-blue)" }
 tileset{ id = "dungeon_graybrown", description = "Dungeon (gray-brown)" }
