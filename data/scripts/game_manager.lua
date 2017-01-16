@@ -148,4 +148,3 @@ function game_manager:create(file)
 end
 
 return game_manager
-
