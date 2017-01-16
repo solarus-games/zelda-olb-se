@@ -1,30 +1,27 @@
 animation{
   name = "stopped",
-  src_image = "tileset",
+  src_image = "entities/sign.png",
   directions = {
-    { x = 208, y = 80, frame_width = 16, frame_height = 24, origin_x = 8, origin_y = 13 },
-    { x = 208, y = 80, frame_width = 16, frame_height = 24, origin_x = 8, origin_y = 13 },
-    { x = 208, y = 80, frame_width = 16, frame_height = 24, origin_x = 8, origin_y = 13 },
-    { x = 208, y = 80, frame_width = 16, frame_height = 24, origin_x = 8, origin_y = 13 },
+    { x = 0, y = 0, frame_width = 16, frame_height = 24, origin_x = 8, origin_y = 13 },
+    { x = 0, y = 0, frame_width = 16, frame_height = 24, origin_x = 8, origin_y = 13 },
+    { x = 0, y = 0, frame_width = 16, frame_height = 24, origin_x = 8, origin_y = 13 },
+    { x = 0, y = 0, frame_width = 16, frame_height = 24, origin_x = 8, origin_y = 13 },
   },
 }
-
+animation{
+  name = "destroy",
+  src_image = "entities/sign.png",
+  frame_delay = 100,
+  directions = {
+    { x = 0, y = 24, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 29, num_frames = 8 },
+  },
+}
 animation{
   name = "walking",
-  src_image = "tileset",
+  src_image = "entities/sign.png",
   frame_delay = 100,
   frame_to_loop_on = 0,
   directions = {
-    { x = 208, y = 80, frame_width = 16, frame_height = 24, origin_x = 8, origin_y = 13, num_frames = 3 },
+    { x = 0, y = 0, frame_width = 16, frame_height = 24, origin_x = 8, origin_y = 13, num_frames = 3 },
   },
 }
-
-animation{
-  name = "destroy",
-  src_image = "tileset",
-  frame_delay = 100,
-  directions = {
-    { x = 0, y = 200, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 29, num_frames = 8 },
-  },
-}
-
