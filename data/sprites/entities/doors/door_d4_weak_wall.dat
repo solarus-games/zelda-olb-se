@@ -1,0 +1,10 @@
+animation{
+  name = "closed",
+  src_image = "tileset",
+  directions = {
+    { x = 144, y = 72, frame_width = 16, frame_height = 16, origin_x = 0, origin_y = 0 },
+    { x = 136, y = 48, frame_width = 16, frame_height = 16, origin_x = 0, origin_y = 0 },
+    { x = 128, y = 72, frame_width = 16, frame_height = 16, origin_x = 0, origin_y = 0 },
+    { x = 136, y = 96, frame_width = 16, frame_height = 16, origin_x = 0, origin_y = 0 },
+  },
+}

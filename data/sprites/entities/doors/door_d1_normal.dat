@@ -1,0 +1,32 @@
+animation{
+  name = "closed",
+  src_image = "tileset",
+  directions = {
+    { x = 0, y = 144, frame_width = 16, frame_height = 32, origin_x = 0, origin_y = 8 },
+    { x = 0, y = 48, frame_width = 32, frame_height = 16, origin_x = 8, origin_y = 0 },
+    { x = 0, y = 16, frame_width = 16, frame_height = 32, origin_x = 0, origin_y = 8 },
+    { x = 0, y = 96, frame_width = 32, frame_height = 16, origin_x = 8, origin_y = 0 },
+  },
+}
+animation{
+  name = "closing",
+  src_image = "tileset",
+  frame_delay = 100,
+  directions = {
+    { x = 16, y = 144, frame_width = 16, frame_height = 32, origin_x = 0, origin_y = 8 },
+    { x = 0, y = 64, frame_width = 32, frame_height = 16, origin_x = 8, origin_y = 0 },
+    { x = 16, y = 16, frame_width = 16, frame_height = 32, origin_x = 0, origin_y = 8 },
+    { x = 0, y = 112, frame_width = 32, frame_height = 16, origin_x = 8, origin_y = 0 },
+  },
+}
+animation{
+  name = "opening",
+  src_image = "tileset",
+  frame_delay = 100,
+  directions = {
+    { x = 16, y = 144, frame_width = 16, frame_height = 32, origin_x = 0, origin_y = 8 },
+    { x = 0, y = 64, frame_width = 32, frame_height = 16, origin_x = 8, origin_y = 0 },
+    { x = 16, y = 16, frame_width = 16, frame_height = 32, origin_x = 0, origin_y = 8 },
+    { x = 0, y = 112, frame_width = 32, frame_height = 16, origin_x = 8, origin_y = 0 },
+  },
+}
