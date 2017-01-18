@@ -1314,6 +1314,15 @@ tile{
   pattern = "floor.16-1",
 }
 
+tile{
+  layer = 0,
+  x = 152,
+  y = 720,
+  width = 16,
+  height = 8,
+  pattern = "barrier.1-1",
+}
+
 wall{
   layer = 0,
   x = 152,
@@ -1540,8 +1549,8 @@ custom_entity{
   layer = 0,
   x = 104,
   y = 285,
-  width = 8,
-  height = 8,
+  width = 16,
+  height = 16,
   direction = 1,
   sprite = "entities/torch",
   model = "torch",
