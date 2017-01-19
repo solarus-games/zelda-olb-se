@@ -1,0 +1,236 @@
+properties{
+  x = 0,
+  y = 0,
+  width = 1600,
+  height = 1200,
+  min_layer = -1,
+  max_layer = 2,
+  tileset = "dungeon/light_brown",
+}
+
+tile{
+  layer = 0,
+  x = 24,
+  y = 24,
+  width = 272,
+  height = 192,
+  pattern = "floor_low.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 24,
+  y = 24,
+  width = 8,
+  height = 192,
+  pattern = "wall_border.3-1",
+}
+
+tile{
+  layer = 0,
+  x = 24,
+  y = 24,
+  width = 272,
+  height = 8,
+  pattern = "wall_border.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 0,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 24,
+  y = 0,
+  width = 272,
+  height = 24,
+  pattern = "wall.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 296,
+  y = 0,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 24,
+  width = 24,
+  height = 192,
+  pattern = "wall.3-1",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 216,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.3-1",
+}
+
+tile{
+  layer = 0,
+  x = 296,
+  y = 216,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.4-1",
+}
+
+tile{
+  layer = 0,
+  x = 24,
+  y = 216,
+  width = 272,
+  height = 24,
+  pattern = "wall.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 296,
+  y = 24,
+  width = 24,
+  height = 192,
+  pattern = "wall.4-1",
+}
+
+tile{
+  layer = 0,
+  x = 24,
+  y = 24,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 24,
+  y = 208,
+  width = 272,
+  height = 8,
+  pattern = "wall_border.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 288,
+  y = 24,
+  width = 8,
+  height = 192,
+  pattern = "wall_border.4-1",
+}
+
+tile{
+  layer = 0,
+  x = 24,
+  y = 208,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner.3-1",
+}
+
+tile{
+  layer = 0,
+  x = 288,
+  y = 208,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner.4-1",
+}
+
+tile{
+  layer = 0,
+  x = 288,
+  y = 24,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 56,
+  y = 280,
+  width = 16,
+  height = 16,
+  pattern = "door.2",
+}
+
+tile{
+  layer = 0,
+  x = 48,
+  y = 280,
+  width = 8,
+  height = 16,
+  pattern = "door.2.support.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 72,
+  y = 280,
+  width = 8,
+  height = 16,
+  pattern = "door.2.support.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 56,
+  y = 296,
+  width = 16,
+  height = 16,
+  pattern = "floor_low.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 56,
+  y = 304,
+  width = 16,
+  height = 8,
+  pattern = "barrier.1-1",
+}
+
+wall{
+  layer = 0,
+  x = 56,
+  y = 280,
+  width = 16,
+  height = 16,
+  stops_enemies = true,
+  stops_blocks = true,
+}
+
+tile{
+  layer = 1,
+  x = 16,
+  y = 296,
+  width = 96,
+  height = 8,
+  pattern = "door_cache.2-1",
+}
+
+tile{
+  layer = 1,
+  x = 48,
+  y = 296,
+  width = 32,
+  height = 8,
+  pattern = "door_top.2-1",
+}
+
