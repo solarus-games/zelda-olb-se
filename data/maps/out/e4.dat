@@ -13708,7 +13708,6 @@ teletransporter{
   width = 16,
   height = 16,
   destination_map = "houses/pit_house",
-  destination = "from_outside",
 }
 
 tile{
