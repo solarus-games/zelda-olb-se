@@ -4,7 +4,6 @@ map{ id = "enemy_store", description = "Enemy Store" }
 map{ id = "house_store", description = "House Store" }
 map{ id = "houses/pit_house", description = "Pit house" }
 map{ id = "houses/pit_house_old", description = "Pit house (old)" }
-map{ id = "inside_store_old", description = "Inside Store (old)" }
 map{ id = "out/a1", description = "A1 (Mountains)" }
 map{ id = "out/a2", description = "A2 (Mido)" }
 map{ id = "out/a3", description = "A3 (Graveyard)" }
