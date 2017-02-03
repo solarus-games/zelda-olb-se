@@ -1,6 +1,8 @@
 -- This script gives access to information about records
 -- independently of current savegames.
 
+-- TODO check Zelda ROTH savegames
+
 local records_manager = {}
 
 local records = {}
