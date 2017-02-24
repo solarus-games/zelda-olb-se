@@ -31,7 +31,7 @@ local function shoot_fireball()
 
   local sprite = enemy:get_sprite()
   sprite:set_animation("shooting")
-  sol.timer.start(enemy, 300, function() 
+  sol.timer.start(enemy, 300, function()
     sprite:set_animation("walking")
 
     enemy:create_enemy({
@@ -53,7 +53,7 @@ local function shoot_lightning()
 
   local sprite = enemy:get_sprite()
   sprite:set_animation("shooting")
-  sol.timer.start(enemy, 300, function() 
+  sol.timer.start(enemy, 300, function()
     sprite:set_animation("walking")
 
     enemy:create_enemy({
@@ -81,7 +81,7 @@ local function shoot_rabbit_beam()
 
   local sprite = enemy:get_sprite()
   sprite:set_animation("shooting")
-  sol.timer.start(enemy, 300, function() 
+  sol.timer.start(enemy, 300, function()
     sprite:set_animation("walking")
 
     enemy:create_enemy({
