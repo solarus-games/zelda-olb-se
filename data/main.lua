@@ -4,6 +4,7 @@ require("scripts/features")
 local game_manager = require("scripts/game_manager")
 local language_menu = require("scripts/menus/language")
 local solarus_logo = require("scripts/menus/solarus_logo")
+local team_logo = require("scripts/menus/team_logo")
 local presentation_screen = require("scripts/menus/presentation_screen")
 local title_screen = require("scripts/menus/title_screen")
 local savegames_menu = require("scripts/menus/savegames")
@@ -23,6 +24,10 @@ function sol.main:on_started()
   end
 
   function language_menu:on_finished()
+    sol.menu.start(sol.main, team_logo)
+  end
+
+  function team_logo:on_finished()
     sol.menu.start(sol.main, presentation_screen)
   end
 
