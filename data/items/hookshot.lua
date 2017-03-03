@@ -113,7 +113,7 @@ function item:on_using()
       return true
     end
 
-    if candidate_layer == 0 then
+    if candidate_layer == map:get_min_layer() then
       -- Cannot go deeper and no obstacle was found.
       return false
     end
@@ -253,7 +253,7 @@ function item:on_using()
     function movement:on_finished()
       stop()
 
-      if hero:test_obstacles(0, 0) then
+      if test_hero_obstacle_layers(hero:get_position()) then
         -- The hero ended up in a wall.
         local fixed_position = past_positions[1]  -- Initial position in case none is legal.
         for i = #past_positions, 2, -1 do
@@ -268,7 +268,6 @@ function item:on_using()
         hero:set_invincible(true, 1000)
         hero:set_blinking(true, 1000)
       end
-
     end
   end
 
