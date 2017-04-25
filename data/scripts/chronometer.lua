@@ -30,7 +30,7 @@ local function initialize_chronometer_features(game)
   end
 
   local timer = sol.timer.start(game, 100, function()
-    local time = game:get_time_played()
+    local time = game:get_value("time_played") or 0
     time = time + 100
     game:set_value("time_played", time)
     return true  -- Repeat the timer.
