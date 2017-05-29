@@ -3,7 +3,7 @@ properties{
   y = 0,
   width = 320,
   height = 720,
-  min_layer = -1,
+  min_layer = 0,
   max_layer = 2,
   tileset = "dungeon/dark_brown",
   music = "cave",

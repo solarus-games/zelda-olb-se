@@ -17256,7 +17256,7 @@ tile{
   layer = 2,
   x = 848,
   y = 680,
-  width = 160,
+  width = 64,
   height = 8,
   pattern = "cliff.top.1",
 }
@@ -17457,15 +17457,6 @@ tile{
   width = 16,
   height = 16,
   pattern = "house.entrance",
-}
-
-tile{
-  layer = 2,
-  x = 920,
-  y = 608,
-  width = 16,
-  height = 16,
-  pattern = "house.door",
 }
 
 tile{
@@ -18899,6 +18890,35 @@ tile{
   pattern = "sand.weed",
 }
 
+tile{
+  layer = 2,
+  x = 944,
+  y = 680,
+  width = 64,
+  height = 8,
+  pattern = "cliff.top.1",
+}
+
+sensor{
+  name = "open_house_monster_guy_door_sensor",
+  layer = 2,
+  x = 920,
+  y = 637,
+  width = 32,
+  height = 16,
+}
+
+dynamic_tile{
+  name = "monster_guy_door",
+  layer = 2,
+  x = 920,
+  y = 608,
+  pattern = "house.door",
+  width = 16,
+  height = 16,
+  enabled_at_start = true,
+}
+
 destructible{
   layer = 2,
   x = 856,
@@ -19199,7 +19219,7 @@ wall{
   x = 880,
   y = 560,
   width = 96,
-  height = 48,
+  height = 40,
   stops_hero = true,
   stops_npcs = true,
   stops_enemies = true,
@@ -19332,6 +19352,50 @@ sensor{
   y = 565,
   width = 16,
   height = 16,
+}
+
+destination{
+  name = "from_monster_house",
+  layer = 2,
+  x = 928,
+  y = 637,
+  direction = 3,
+}
+
+teletransporter{
+  layer = 2,
+  x = 920,
+  y = 600,
+  width = 16,
+  height = 16,
+  destination_map = "houses/monster_house/1f",
+  destination = "from_outside",
+}
+
+wall{
+  layer = 2,
+  x = 880,
+  y = 600,
+  width = 40,
+  height = 8,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 2,
+  x = 936,
+  y = 600,
+  width = 40,
+  height = 8,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
 }
 
 tile{

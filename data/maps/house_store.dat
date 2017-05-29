@@ -206,6 +206,42 @@ tile{
   pattern = "barrier.1-1",
 }
 
+tile{
+  layer = 0,
+  x = 64,
+  y = 336,
+  width = 8,
+  height = 24,
+  pattern = "stairs_down.2.border.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 72,
+  y = 336,
+  width = 16,
+  height = 24,
+  pattern = "stairs_down.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 88,
+  y = 336,
+  width = 8,
+  height = 24,
+  pattern = "stairs_down.2.border.3-1",
+}
+
+tile{
+  layer = 0,
+  x = 64,
+  y = 360,
+  width = 32,
+  height = 8,
+  pattern = "stairs_down.2.border.1-1",
+}
+
 wall{
   layer = 0,
   x = 56,

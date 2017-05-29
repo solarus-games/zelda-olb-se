@@ -1444,6 +1444,115 @@ custom_entity{
   model = "torch",
 }
 
+door{
+  layer = 0,
+  x = 168,
+  y = 408,
+  direction = 3,
+  sprite = "entities/doors/door_d2_normal",
+}
+
+door{
+  layer = 0,
+  x = 168,
+  y = 440,
+  direction = 1,
+  sprite = "entities/doors/door_d2_normal",
+}
+
+door{
+  layer = 0,
+  x = 280,
+  y = 408,
+  direction = 3,
+  sprite = "entities/doors/door_d2_small_key",
+}
+
+door{
+  layer = 0,
+  x = 280,
+  y = 440,
+  direction = 1,
+  sprite = "entities/doors/door_d2_small_key",
+}
+
+door{
+  layer = 0,
+  x = 392,
+  y = 408,
+  direction = 3,
+  sprite = "entities/doors/door_d2_big_key",
+}
+
+door{
+  layer = 0,
+  x = 392,
+  y = 440,
+  direction = 1,
+  sprite = "entities/doors/door_d2_big_key",
+}
+
+door{
+  layer = 0,
+  x = 88,
+  y = 328,
+  direction = 0,
+  sprite = "entities/doors/door_d2_normal",
+}
+
+door{
+  layer = 0,
+  x = 152,
+  y = 328,
+  direction = 0,
+  sprite = "entities/doors/door_d2_small_key",
+}
+
+door{
+  layer = 0,
+  x = 184,
+  y = 328,
+  direction = 2,
+  sprite = "entities/doors/door_d2_small_key",
+}
+
+door{
+  layer = 0,
+  x = 216,
+  y = 328,
+  direction = 0,
+  sprite = "entities/doors/door_d2_big_key",
+}
+
+door{
+  layer = 0,
+  x = 248,
+  y = 328,
+  direction = 2,
+  sprite = "entities/doors/door_d2_big_key",
+}
+
+door{
+  layer = 0,
+  x = 120,
+  y = 328,
+  direction = 2,
+  sprite = "entities/doors/door_d2_normal",
+}
+
+wall{
+  layer = 0,
+  x = 16,
+  y = 528,
+  width = 32,
+  height = 8,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
 tile{
   layer = 1,
   x = 40,
@@ -1802,114 +1911,5 @@ tile{
   width = 16,
   height = 16,
   pattern = "torch_big.top",
-}
-
-wall{
-  layer = 1,
-  x = 16,
-  y = 528,
-  width = 32,
-  height = 8,
-  stops_hero = true,
-  stops_npcs = true,
-  stops_enemies = true,
-  stops_blocks = true,
-  stops_projectiles = true,
-}
-
-door{
-  layer = 1,
-  x = 88,
-  y = 328,
-  direction = 0,
-  sprite = "entities/doors/door_d2_normal",
-}
-
-door{
-  layer = 1,
-  x = 168,
-  y = 408,
-  direction = 3,
-  sprite = "entities/doors/door_d2_normal",
-}
-
-door{
-  layer = 1,
-  x = 152,
-  y = 328,
-  direction = 0,
-  sprite = "entities/doors/door_d2_small_key",
-}
-
-door{
-  layer = 1,
-  x = 184,
-  y = 328,
-  direction = 2,
-  sprite = "entities/doors/door_d2_small_key",
-}
-
-door{
-  layer = 1,
-  x = 216,
-  y = 328,
-  direction = 0,
-  sprite = "entities/doors/door_d2_big_key",
-}
-
-door{
-  layer = 1,
-  x = 248,
-  y = 328,
-  direction = 2,
-  sprite = "entities/doors/door_d2_big_key",
-}
-
-door{
-  layer = 1,
-  x = 168,
-  y = 440,
-  direction = 1,
-  sprite = "entities/doors/door_d2_normal",
-}
-
-door{
-  layer = 1,
-  x = 280,
-  y = 408,
-  direction = 3,
-  sprite = "entities/doors/door_d2_small_key",
-}
-
-door{
-  layer = 1,
-  x = 280,
-  y = 440,
-  direction = 1,
-  sprite = "entities/doors/door_d2_small_key",
-}
-
-door{
-  layer = 1,
-  x = 392,
-  y = 408,
-  direction = 3,
-  sprite = "entities/doors/door_d2_big_key",
-}
-
-door{
-  layer = 1,
-  x = 392,
-  y = 440,
-  direction = 1,
-  sprite = "entities/doors/door_d2_big_key",
-}
-
-door{
-  layer = 1,
-  x = 120,
-  y = 328,
-  direction = 2,
-  sprite = "entities/doors/door_d2_normal",
 }
 
