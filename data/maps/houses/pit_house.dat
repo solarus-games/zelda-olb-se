@@ -404,6 +404,96 @@ tile{
   pattern = "window.2-2",
 }
 
+tile{
+  layer = 0,
+  x = 64,
+  y = 56,
+  width = 32,
+  height = 40,
+  pattern = "bed.default",
+}
+
+tile{
+  layer = 0,
+  x = 88,
+  y = 168,
+  width = 48,
+  height = 8,
+  pattern = "carpet.8",
+}
+
+tile{
+  layer = 0,
+  x = 80,
+  y = 128,
+  width = 8,
+  height = 8,
+  pattern = "carpet.1",
+}
+
+tile{
+  layer = 0,
+  x = 80,
+  y = 136,
+  width = 8,
+  height = 32,
+  pattern = "carpet.4",
+}
+
+tile{
+  layer = 0,
+  x = 80,
+  y = 168,
+  width = 8,
+  height = 8,
+  pattern = "carpet.7",
+}
+
+tile{
+  layer = 0,
+  x = 136,
+  y = 128,
+  width = 8,
+  height = 8,
+  pattern = "carpet.3",
+}
+
+tile{
+  layer = 0,
+  x = 136,
+  y = 168,
+  width = 8,
+  height = 8,
+  pattern = "carpet.9",
+}
+
+tile{
+  layer = 0,
+  x = 136,
+  y = 136,
+  width = 8,
+  height = 32,
+  pattern = "carpet.6",
+}
+
+tile{
+  layer = 0,
+  x = 88,
+  y = 136,
+  width = 48,
+  height = 32,
+  pattern = "carpet.5",
+}
+
+tile{
+  layer = 0,
+  x = 88,
+  y = 128,
+  width = 48,
+  height = 8,
+  pattern = "carpet.2",
+}
+
 wall{
   layer = 0,
   x = 152,
