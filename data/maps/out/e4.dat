@@ -11344,6 +11344,24 @@ npc{
   sprite = "entities/sign",
 }
 
+destination{
+  name = "from_forest_cave",
+  layer = 1,
+  x = 864,
+  y = 645,
+  direction = 3,
+}
+
+teletransporter{
+  layer = 1,
+  x = 856,
+  y = 616,
+  width = 16,
+  height = 16,
+  destination_map = "caves/forest_cave",
+  destination = "from_outside",
+}
+
 tile{
   layer = 2,
   x = 352,
@@ -12615,15 +12633,6 @@ tile{
 
 tile{
   layer = 2,
-  x = 848,
-  y = 528,
-  width = 16,
-  height = 16,
-  pattern = "grass.under_bush",
-}
-
-tile{
-  layer = 2,
   x = 880,
   y = 520,
   width = 16,
@@ -13306,6 +13315,15 @@ tile{
   pattern = "grass.cliff.top.diag.1",
 }
 
+tile{
+  layer = 2,
+  x = 848,
+  y = 528,
+  width = 16,
+  height = 16,
+  pattern = "grass.hole",
+}
+
 custom_entity{
   layer = 2,
   x = 520,
@@ -13421,7 +13439,7 @@ wall{
   x = 624,
   y = 128,
   width = 96,
-  height = 64,
+  height = 56,
   stops_hero = true,
   stops_npcs = true,
   stops_enemies = true,
@@ -13708,6 +13726,42 @@ teletransporter{
   width = 16,
   height = 16,
   destination_map = "houses/pit_house",
+}
+
+teletransporter{
+  layer = 2,
+  x = 848,
+  y = 528,
+  width = 16,
+  height = 16,
+  destination_map = "caves/forest_cave",
+  destination = "from_above",
+}
+
+wall{
+  layer = 2,
+  x = 624,
+  y = 184,
+  width = 40,
+  height = 8,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 2,
+  x = 680,
+  y = 184,
+  width = 40,
+  height = 8,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
 }
 
 tile{

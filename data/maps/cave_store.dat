@@ -1124,6 +1124,69 @@ tile{
   pattern = "floor.16-1",
 }
 
+tile{
+  layer = 0,
+  x = 992,
+  y = 32,
+  width = 16,
+  height = 16,
+  pattern = "floor_pot",
+}
+
+tile{
+  layer = 0,
+  x = 1232,
+  y = 32,
+  width = 16,
+  height = 16,
+  pattern = "floor_pot",
+}
+
+tile{
+  layer = 0,
+  x = 1232,
+  y = 192,
+  width = 16,
+  height = 16,
+  pattern = "floor_pot",
+}
+
+tile{
+  layer = 0,
+  x = 992,
+  y = 192,
+  width = 16,
+  height = 16,
+  pattern = "floor_pot",
+}
+
+tile{
+  layer = 0,
+  x = 16,
+  y = 592,
+  width = 16,
+  height = 16,
+  pattern = "floor_pot",
+}
+
+tile{
+  layer = 0,
+  x = 32,
+  y = 592,
+  width = 16,
+  height = 16,
+  pattern = "floor_pot",
+}
+
+tile{
+  layer = 0,
+  x = 80,
+  y = 592,
+  width = 16,
+  height = 16,
+  pattern = "torch_big.bottom",
+}
+
 wall{
   layer = 0,
   x = 56,
@@ -1222,6 +1285,163 @@ wall{
   height = 48,
   stops_enemies = true,
   stops_blocks = true,
+}
+
+custom_entity{
+  layer = 0,
+  x = 680,
+  y = 45,
+  width = 16,
+  height = 16,
+  direction = 1,
+  sprite = "entities/torch",
+  model = "torch",
+}
+
+custom_entity{
+  layer = 0,
+  x = 920,
+  y = 45,
+  width = 16,
+  height = 16,
+  direction = 1,
+  sprite = "entities/torch",
+  model = "torch",
+}
+
+custom_entity{
+  layer = 0,
+  x = 920,
+  y = 205,
+  width = 16,
+  height = 16,
+  direction = 1,
+  sprite = "entities/torch",
+  model = "torch",
+}
+
+custom_entity{
+  layer = 0,
+  x = 680,
+  y = 205,
+  width = 16,
+  height = 16,
+  direction = 1,
+  sprite = "entities/torch",
+  model = "torch",
+}
+
+destructible{
+  name = "auto_destrucible_1",
+  layer = 0,
+  x = 1000,
+  y = 45,
+  sprite = "entities/vase",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
+}
+
+destructible{
+  name = "auto_destrucible_2",
+  layer = 0,
+  x = 1240,
+  y = 45,
+  sprite = "entities/vase",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
+}
+
+destructible{
+  name = "auto_destrucible_3",
+  layer = 0,
+  x = 1240,
+  y = 205,
+  sprite = "entities/vase",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
+}
+
+destructible{
+  name = "auto_destrucible_4",
+  layer = 0,
+  x = 1000,
+  y = 205,
+  sprite = "entities/vase",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 0,
+  x = 24,
+  y = 605,
+  sprite = "entities/vase",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 0,
+  x = 40,
+  y = 605,
+  sprite = "entities/vase_skull",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
+}
+
+custom_entity{
+  layer = 0,
+  x = 24,
+  y = 637,
+  width = 16,
+  height = 16,
+  direction = 3,
+  sprite = "entities/hammer_stake_green",
+  model = "hammer_stake",
+}
+
+custom_entity{
+  layer = 0,
+  x = 40,
+  y = 637,
+  width = 16,
+  height = 16,
+  direction = 3,
+  sprite = "entities/hammer_stake_yellow",
+  model = "hammer_stake",
+}
+
+custom_entity{
+  layer = 0,
+  x = 56,
+  y = 637,
+  width = 16,
+  height = 16,
+  direction = 3,
+  sprite = "entities/hammer_stake_brown",
+  model = "hammer_stake",
+}
+
+custom_entity{
+  layer = 0,
+  x = 120,
+  y = 605,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/torch",
+  model = "torch",
+}
+
+custom_entity{
+  layer = 0,
+  x = 152,
+  y = 605,
+  width = 16,
+  height = 16,
+  direction = 1,
+  sprite = "entities/torch",
+  model = "torch",
 }
 
 tile{
@@ -1330,69 +1550,6 @@ tile{
   width = 32,
   height = 8,
   pattern = "door_top.2-3",
-}
-
-tile{
-  layer = 1,
-  x = 16,
-  y = 592,
-  width = 16,
-  height = 16,
-  pattern = "floor_pot",
-}
-
-tile{
-  layer = 1,
-  x = 32,
-  y = 592,
-  width = 16,
-  height = 16,
-  pattern = "floor_pot",
-}
-
-tile{
-  layer = 1,
-  x = 80,
-  y = 592,
-  width = 16,
-  height = 16,
-  pattern = "torch_big.bottom",
-}
-
-tile{
-  layer = 1,
-  x = 992,
-  y = 32,
-  width = 16,
-  height = 16,
-  pattern = "floor_pot",
-}
-
-tile{
-  layer = 1,
-  x = 1232,
-  y = 32,
-  width = 16,
-  height = 16,
-  pattern = "floor_pot",
-}
-
-tile{
-  layer = 1,
-  x = 1232,
-  y = 192,
-  width = 16,
-  height = 16,
-  pattern = "floor_pot",
-}
-
-tile{
-  layer = 1,
-  x = 992,
-  y = 192,
-  width = 16,
-  height = 16,
-  pattern = "floor_pot",
 }
 
 tile{
@@ -1638,121 +1795,13 @@ tile{
   pattern = "door_top.2-3",
 }
 
-destructible{
+tile{
   layer = 1,
-  x = 24,
-  y = 605,
-  sprite = "entities/vase",
-  destruction_sound = "stone",
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 1,
-  x = 40,
-  y = 605,
-  sprite = "entities/vase_skull",
-  destruction_sound = "stone",
-  damage_on_enemies = 2,
-}
-
-custom_entity{
-  layer = 1,
-  x = 24,
-  y = 637,
+  x = 80,
+  y = 576,
   width = 16,
   height = 16,
-  direction = 3,
-  sprite = "entities/hammer_stake_green",
-  model = "hammer_stake",
-}
-
-custom_entity{
-  layer = 1,
-  x = 40,
-  y = 637,
-  width = 16,
-  height = 16,
-  direction = 3,
-  sprite = "entities/hammer_stake_yellow",
-  model = "hammer_stake",
-}
-
-custom_entity{
-  layer = 1,
-  x = 56,
-  y = 637,
-  width = 16,
-  height = 16,
-  direction = 3,
-  sprite = "entities/hammer_stake_brown",
-  model = "hammer_stake",
-}
-
-custom_entity{
-  layer = 1,
-  x = 120,
-  y = 605,
-  width = 16,
-  height = 16,
-  direction = 0,
-  sprite = "entities/torch",
-  model = "torch",
-}
-
-custom_entity{
-  layer = 1,
-  x = 152,
-  y = 605,
-  width = 16,
-  height = 16,
-  direction = 1,
-  sprite = "entities/torch",
-  model = "torch",
-}
-
-custom_entity{
-  layer = 1,
-  x = 680,
-  y = 45,
-  width = 16,
-  height = 16,
-  direction = 1,
-  sprite = "entities/torch",
-  model = "torch",
-}
-
-custom_entity{
-  layer = 1,
-  x = 920,
-  y = 45,
-  width = 16,
-  height = 16,
-  direction = 1,
-  sprite = "entities/torch",
-  model = "torch",
-}
-
-custom_entity{
-  layer = 1,
-  x = 920,
-  y = 205,
-  width = 16,
-  height = 16,
-  direction = 1,
-  sprite = "entities/torch",
-  model = "torch",
-}
-
-custom_entity{
-  layer = 1,
-  x = 680,
-  y = 205,
-  width = 16,
-  height = 16,
-  direction = 1,
-  sprite = "entities/torch",
-  model = "torch",
+  pattern = "torch_big.top",
 }
 
 wall{
@@ -1766,46 +1815,6 @@ wall{
   stops_enemies = true,
   stops_blocks = true,
   stops_projectiles = true,
-}
-
-destructible{
-  name = "auto_destrucible_1",
-  layer = 1,
-  x = 1000,
-  y = 45,
-  sprite = "entities/vase",
-  destruction_sound = "stone",
-  damage_on_enemies = 2,
-}
-
-destructible{
-  name = "auto_destrucible_2",
-  layer = 1,
-  x = 1240,
-  y = 45,
-  sprite = "entities/vase",
-  destruction_sound = "stone",
-  damage_on_enemies = 2,
-}
-
-destructible{
-  name = "auto_destrucible_3",
-  layer = 1,
-  x = 1240,
-  y = 205,
-  sprite = "entities/vase",
-  destruction_sound = "stone",
-  damage_on_enemies = 2,
-}
-
-destructible{
-  name = "auto_destrucible_4",
-  layer = 1,
-  x = 1000,
-  y = 205,
-  sprite = "entities/vase",
-  destruction_sound = "stone",
-  damage_on_enemies = 2,
 }
 
 door{
@@ -1896,12 +1905,11 @@ door{
   sprite = "entities/doors/door_d2_big_key",
 }
 
-tile{
-  layer = 2,
-  x = 80,
-  y = 576,
-  width = 16,
-  height = 16,
-  pattern = "torch_big.top",
+door{
+  layer = 1,
+  x = 120,
+  y = 328,
+  direction = 2,
+  sprite = "entities/doors/door_d2_normal",
 }
 
