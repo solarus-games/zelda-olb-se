@@ -5,7 +5,7 @@ properties{
   height = 480,
   min_layer = 0,
   max_layer = 2,
-  tileset = "dungeon_grayblue",
+  tileset = "dungeon/blue",
   music = "same",
 }
 
