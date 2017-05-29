@@ -6762,7 +6762,7 @@ tile{
   layer = 2,
   x = 384,
   y = 184,
-  width = 768,
+  width = 256,
   height = 8,
   pattern = "cliff.top.1",
 }
@@ -6771,7 +6771,7 @@ tile{
   layer = 2,
   x = 384,
   y = 176,
-  width = 768,
+  width = 256,
   height = 8,
   pattern = "grass.cliff.top.1",
 }
@@ -10086,6 +10086,42 @@ tile{
   width = 8,
   height = 8,
   pattern = "grass.cliff.top.diag.3b",
+}
+
+tile{
+  layer = 2,
+  x = 704,
+  y = 184,
+  width = 192,
+  height = 8,
+  pattern = "cliff.top.1",
+}
+
+tile{
+  layer = 2,
+  x = 960,
+  y = 184,
+  width = 192,
+  height = 8,
+  pattern = "cliff.top.1",
+}
+
+tile{
+  layer = 2,
+  x = 704,
+  y = 176,
+  width = 192,
+  height = 8,
+  pattern = "grass.cliff.top.1",
+}
+
+tile{
+  layer = 2,
+  x = 960,
+  y = 176,
+  width = 192,
+  height = 8,
+  pattern = "grass.cliff.top.1",
 }
 
 custom_entity{

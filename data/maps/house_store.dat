@@ -242,6 +242,15 @@ tile{
   pattern = "stairs_down.2.border.1-1",
 }
 
+tile{
+  layer = 0,
+  x = 16,
+  y = 384,
+  width = 16,
+  height = 16,
+  pattern = "floor_pot",
+}
+
 wall{
   layer = 0,
   x = 56,
@@ -250,6 +259,16 @@ wall{
   height = 16,
   stops_enemies = true,
   stops_blocks = true,
+}
+
+destructible{
+  name = "auto_destrucible_1",
+  layer = 0,
+  x = 24,
+  y = 397,
+  sprite = "entities/vase",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
 }
 
 tile{

@@ -7321,7 +7321,7 @@ tile{
   layer = 1,
   x = 272,
   y = 1224,
-  width = 224,
+  width = 96,
   height = 8,
   pattern = "cliff.top.1",
 }
@@ -16236,6 +16236,15 @@ tile{
   pattern = "91",
 }
 
+tile{
+  layer = 1,
+  x = 400,
+  y = 1224,
+  width = 96,
+  height = 8,
+  pattern = "cliff.top.1",
+}
+
 wall{
   layer = 1,
   x = 3048,
@@ -19620,7 +19629,7 @@ tile{
   layer = 2,
   x = 3008,
   y = 168,
-  width = 96,
+  width = 32,
   height = 8,
   pattern = "cliff.top.1",
 }
@@ -22368,6 +22377,15 @@ tile{
   width = 32,
   height = 32,
   pattern = "91",
+}
+
+tile{
+  layer = 2,
+  x = 3072,
+  y = 168,
+  width = 32,
+  height = 8,
+  pattern = "cliff.top.1",
 }
 
 dynamic_tile{

@@ -21,6 +21,7 @@ map{ id = "out/d3", description = "D3 (East Plains)" }
 map{ id = "out/e2", description = "E2 (Ruto)" }
 map{ id = "out/e4", description = "E4 (Forest)" }
 map{ id = "outside_store", description = "Outside Store" }
+map{ id = "ruto/tavern", description = "Tavern" }
 
 tileset{ id = "dungeon/blue", description = "Blue dungeon" }
 tileset{ id = "dungeon/brown", description = "Brown dungeon" }

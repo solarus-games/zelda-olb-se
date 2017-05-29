@@ -209,24 +209,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 32,
-  y = 88,
-  width = 32,
-  height = 16,
-  pattern = "wall_pillar.3-9",
-}
-
-tile{
-  layer = 0,
-  x = 256,
-  y = 88,
-  width = 32,
-  height = 16,
-  pattern = "wall_pillar.4-9",
-}
-
-tile{
-  layer = 0,
   x = 88,
   y = 216,
   width = 32,
@@ -241,24 +223,6 @@ tile{
   width = 32,
   height = 24,
   pattern = "window.2-2",
-}
-
-tile{
-  layer = 0,
-  x = 32,
-  y = 168,
-  width = 32,
-  height = 16,
-  pattern = "wall_pillar.3-9",
-}
-
-tile{
-  layer = 0,
-  x = 256,
-  y = 168,
-  width = 32,
-  height = 16,
-  pattern = "wall_pillar.4-9",
 }
 
 tile{
@@ -629,6 +593,42 @@ tile{
   width = 32,
   height = 8,
   pattern = "door_top.2-1",
+}
+
+tile{
+  layer = 1,
+  x = 32,
+  y = 88,
+  width = 32,
+  height = 16,
+  pattern = "wall_pillar.3-9",
+}
+
+tile{
+  layer = 1,
+  x = 256,
+  y = 88,
+  width = 32,
+  height = 16,
+  pattern = "wall_pillar.4-9",
+}
+
+tile{
+  layer = 1,
+  x = 32,
+  y = 168,
+  width = 32,
+  height = 16,
+  pattern = "wall_pillar.3-9",
+}
+
+tile{
+  layer = 1,
+  x = 256,
+  y = 168,
+  width = 32,
+  height = 16,
+  pattern = "wall_pillar.4-9",
 }
 
 tile{
