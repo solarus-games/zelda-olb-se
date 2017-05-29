@@ -16847,6 +16847,25 @@ custom_entity{
   model = "hammer_stake",
 }
 
+custom_entity{
+  layer = 1,
+  x = 1688,
+  y = 509,
+  width = 32,
+  height = 32,
+  direction = 0,
+  sprite = "entities/hook_tree_small_green",
+  model = "hookable",
+}
+
+pickable{
+  layer = 1,
+  x = 1856,
+  y = 525,
+  treasure_name = "piece_of_heart",
+  treasure_savegame_variable = "east_plains_e_piece_of_heart",
+}
+
 tile{
   layer = 2,
   x = 1248,
