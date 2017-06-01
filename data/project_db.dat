@@ -1,6 +1,8 @@
 map{ id = "cave_store", description = "Cave Store" }
 map{ id = "caves/forest_cave", description = "Forest cave" }
 map{ id = "caves/portal_cave", description = "Portal cave" }
+map{ id = "dungeons/1/1f", description = "Dungeon 1 1F" }
+map{ id = "dungeons/1/store", description = "Dungeon 1 Store" }
 map{ id = "enemy_store", description = "Enemy Store" }
 map{ id = "house_store", description = "House Store" }
 map{ id = "houses/monster_house/1f", description = "Monster house 1F" }
@@ -328,6 +330,7 @@ sprite{ id = "npc/alttp/woman_yellow", description = "Yellow woman" }
 sprite{ id = "npc/alttp/young_girl_red", description = "Red young girl" }
 sprite{ id = "npc/alttp/zelda", description = "Zelda" }
 sprite{ id = "npc/pit", description = "Pit" }
+sprite{ id = "work/1600x960", description = "1600x960 PNG" }
 
 music{ id = "area_81", description = "Area 81" }
 music{ id = "bar", description = "Bar" }

@@ -11362,6 +11362,24 @@ teletransporter{
   destination = "from_outside",
 }
 
+destination{
+  name = "from_dungeon_1",
+  layer = 1,
+  x = 1120,
+  y = 621,
+  direction = 3,
+}
+
+teletransporter{
+  layer = 1,
+  x = 1112,
+  y = 592,
+  width = 16,
+  height = 16,
+  destination_map = "dungeons/1/1f",
+  destination = "from_outside",
+}
+
 tile{
   layer = 2,
   x = 352,
