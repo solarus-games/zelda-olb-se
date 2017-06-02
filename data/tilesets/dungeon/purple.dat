@@ -1,4 +1,4 @@
-background_color{ 172, 81, 81 }
+background_color{ 24, 48, 24 }
 tile_pattern{
   id = "1",
   ground = "empty",
@@ -19246,6 +19246,16 @@ tile_pattern{
 }
 
 tile_pattern{
+  id = "2716",
+  ground = "traversable",
+  default_layer = 0,
+  x = 224,
+  y = 456,
+  width = 8,
+  height = 8,
+}
+
+tile_pattern{
   id = "272",
   ground = "empty",
   default_layer = 2,
@@ -30005,6 +30015,28 @@ tile_pattern{
 }
 
 tile_pattern{
+  id = "cave_entry_top.1",
+  ground = "traversable",
+  default_layer = 1,
+  x = 408,
+  y = 472,
+  width = 32,
+  height = 8,
+  repeat_mode = "none",
+}
+
+tile_pattern{
+  id = "cave_entry_top.2",
+  ground = "traversable",
+  default_layer = 1,
+  x = 488,
+  y = 448,
+  width = 32,
+  height = 8,
+  repeat_mode = "none",
+}
+
+tile_pattern{
   id = "ceiling.1",
   ground = "traversable",
   default_layer = 2,
@@ -38986,7 +39018,7 @@ tile_pattern{
 
 tile_pattern{
   id = "stairs_inner_up.1.top.border.1-1",
-  ground = "wall",
+  ground = "low_wall",
   default_layer = 0,
   x = 360,
   y = 48,
@@ -38997,7 +39029,7 @@ tile_pattern{
 
 tile_pattern{
   id = "stairs_inner_up.1.top.border.1-2",
-  ground = "wall",
+  ground = "low_wall",
   default_layer = 0,
   x = 360,
   y = 112,
@@ -39008,7 +39040,7 @@ tile_pattern{
 
 tile_pattern{
   id = "stairs_inner_up.1.top.border.1-3",
-  ground = "wall",
+  ground = "low_wall",
   default_layer = 0,
   x = 360,
   y = 176,
@@ -39019,7 +39051,7 @@ tile_pattern{
 
 tile_pattern{
   id = "stairs_inner_up.1.top.border.2-1",
-  ground = "wall",
+  ground = "low_wall",
   default_layer = 0,
   x = 384,
   y = 48,
@@ -39030,7 +39062,7 @@ tile_pattern{
 
 tile_pattern{
   id = "stairs_inner_up.1.top.border.2-2",
-  ground = "wall",
+  ground = "low_wall",
   default_layer = 0,
   x = 384,
   y = 112,
@@ -39041,7 +39073,7 @@ tile_pattern{
 
 tile_pattern{
   id = "stairs_inner_up.1.top.border.2-3",
-  ground = "wall",
+  ground = "low_wall",
   default_layer = 0,
   x = 384,
   y = 176,
@@ -39184,7 +39216,7 @@ tile_pattern{
 
 tile_pattern{
   id = "stairs_inner_up.2.top.border.1-1",
-  ground = "wall",
+  ground = "low_wall",
   default_layer = 0,
   x = 392,
   y = 104,
@@ -39195,7 +39227,7 @@ tile_pattern{
 
 tile_pattern{
   id = "stairs_inner_up.2.top.border.1-2",
-  ground = "wall",
+  ground = "low_wall",
   default_layer = 0,
   x = 392,
   y = 168,
@@ -39206,7 +39238,7 @@ tile_pattern{
 
 tile_pattern{
   id = "stairs_inner_up.2.top.border.1-3",
-  ground = "wall",
+  ground = "low_wall",
   default_layer = 0,
   x = 360,
   y = 232,
@@ -39217,7 +39249,7 @@ tile_pattern{
 
 tile_pattern{
   id = "stairs_inner_up.2.top.border.2-1",
-  ground = "wall",
+  ground = "low_wall",
   default_layer = 0,
   x = 416,
   y = 104,
@@ -39228,7 +39260,7 @@ tile_pattern{
 
 tile_pattern{
   id = "stairs_inner_up.2.top.border.2-2",
-  ground = "wall",
+  ground = "low_wall",
   default_layer = 0,
   x = 416,
   y = 168,
@@ -39239,7 +39271,7 @@ tile_pattern{
 
 tile_pattern{
   id = "stairs_inner_up.2.top.border.2-3",
-  ground = "wall",
+  ground = "low_wall",
   default_layer = 0,
   x = 384,
   y = 232,
@@ -39382,7 +39414,7 @@ tile_pattern{
 
 tile_pattern{
   id = "stairs_inner_up.3.top.border.1-1",
-  ground = "wall",
+  ground = "low_wall",
   default_layer = 0,
   x = 360,
   y = 80,
@@ -39393,7 +39425,7 @@ tile_pattern{
 
 tile_pattern{
   id = "stairs_inner_up.3.top.border.1-2",
-  ground = "wall",
+  ground = "low_wall",
   default_layer = 0,
   x = 360,
   y = 144,
@@ -39404,7 +39436,7 @@ tile_pattern{
 
 tile_pattern{
   id = "stairs_inner_up.3.top.border.1-3",
-  ground = "wall",
+  ground = "low_wall",
   default_layer = 0,
   x = 424,
   y = 176,
@@ -39415,7 +39447,7 @@ tile_pattern{
 
 tile_pattern{
   id = "stairs_inner_up.3.top.border.2-1",
-  ground = "wall",
+  ground = "low_wall",
   default_layer = 0,
   x = 360,
   y = 104,
@@ -39426,7 +39458,7 @@ tile_pattern{
 
 tile_pattern{
   id = "stairs_inner_up.3.top.border.2-2",
-  ground = "wall",
+  ground = "low_wall",
   default_layer = 0,
   x = 360,
   y = 168,
@@ -39437,7 +39469,7 @@ tile_pattern{
 
 tile_pattern{
   id = "stairs_inner_up.3.top.border.2-3",
-  ground = "wall",
+  ground = "low_wall",
   default_layer = 0,
   x = 424,
   y = 200,
@@ -39580,7 +39612,7 @@ tile_pattern{
 
 tile_pattern{
   id = "stairs_inner_up.4.top.border.1-1",
-  ground = "wall",
+  ground = "low_wall",
   default_layer = 0,
   x = 416,
   y = 48,
@@ -39591,7 +39623,7 @@ tile_pattern{
 
 tile_pattern{
   id = "stairs_inner_up.4.top.border.1-2",
-  ground = "wall",
+  ground = "low_wall",
   default_layer = 0,
   x = 416,
   y = 112,
@@ -39602,7 +39634,7 @@ tile_pattern{
 
 tile_pattern{
   id = "stairs_inner_up.4.top.border.1-3",
-  ground = "wall",
+  ground = "low_wall",
   default_layer = 0,
   x = 416,
   y = 176,
@@ -39613,7 +39645,7 @@ tile_pattern{
 
 tile_pattern{
   id = "stairs_inner_up.4.top.border.2-1",
-  ground = "wall",
+  ground = "low_wall",
   default_layer = 0,
   x = 416,
   y = 72,
@@ -39624,7 +39656,7 @@ tile_pattern{
 
 tile_pattern{
   id = "stairs_inner_up.4.top.border.2-2",
-  ground = "wall",
+  ground = "low_wall",
   default_layer = 0,
   x = 416,
   y = 136,
@@ -39635,7 +39667,7 @@ tile_pattern{
 
 tile_pattern{
   id = "stairs_inner_up.4.top.border.2-3",
-  ground = "wall",
+  ground = "low_wall",
   default_layer = 0,
   x = 416,
   y = 200,
