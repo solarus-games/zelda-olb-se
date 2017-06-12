@@ -1,7 +1,7 @@
 quest{
   solarus_version = "1.5",
-  title = "Zelda Oni Link Begins SE",
   write_dir = "zelda_olb_se",
+  title = "Zelda Oni Link Begins SE",
   short_description = "Remake of the game from Vincent Jouillat",
   long_description = [[
 Solarus remake of Vincent Jouillat's second game, Zelda Oni Link Begins.
