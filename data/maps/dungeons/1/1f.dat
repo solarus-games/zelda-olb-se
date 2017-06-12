@@ -723,6 +723,32 @@ jumper{
   jump_length = 40,
 }
 
+destination{
+  name = "from_b1_c",
+  layer = -1,
+  x = 1128,
+  y = 597,
+  direction = 1,
+}
+
+teletransporter{
+  layer = -1,
+  x = 1120,
+  y = 584,
+  width = 16,
+  height = 16,
+  destination_map = "dungeons/1/b1",
+  destination = "from_1f_c",
+}
+
+stairs{
+  layer = -1,
+  x = 1120,
+  y = 584,
+  direction = 3,
+  subtype = 3,
+}
+
 tile{
   layer = 0,
   x = 344,
@@ -5630,9 +5656,9 @@ tile{
 
 tile{
   layer = 0,
-  x = 160,
+  x = 144,
   y = 336,
-  width = 16,
+  width = 32,
   height = 16,
   pattern = "floor_pot",
 }
@@ -6344,23 +6370,21 @@ wall{
 }
 
 door{
-  name = "door_a",
+  name = "auto_door_a",
   layer = 0,
   x = 152,
   y = 216,
   direction = 3,
   sprite = "entities/doors/door_d1_normal",
-  savegame_variable = "dungeon_1_1f_door_a",
 }
 
 door{
-  name = "door_a_2",
+  name = "auto_door_a_2",
   layer = 0,
   x = 152,
   y = 248,
   direction = 1,
   sprite = "entities/doors/door_d1_normal",
-  savegame_variable = "dungeon_1_1f_door_a",
 }
 
 wall{
@@ -6552,7 +6576,6 @@ door{
   y = 112,
   direction = 0,
   sprite = "entities/doors/door_d1_normal",
-  savegame_variable = "dungeon_1_1f_door_c",
 }
 
 door{
@@ -6562,7 +6585,6 @@ door{
   y = 112,
   direction = 2,
   sprite = "entities/doors/door_d1_normal",
-  savegame_variable = "dungeon_1_1f_door_c",
 }
 
 wall{
@@ -7543,6 +7565,146 @@ wall{
   stops_blocks = true,
 }
 
+destructible{
+  name = "auto_destructible_31",
+  layer = 0,
+  x = 152,
+  y = 349,
+  sprite = "entities/vase_skull",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
+}
+
+destination{
+  name = "from_b1_nw",
+  layer = 0,
+  x = 160,
+  y = 109,
+  direction = 1,
+}
+
+destination{
+  name = "from_b1_w",
+  layer = 0,
+  x = 160,
+  y = 589,
+  direction = 1,
+}
+
+destination{
+  name = "from_b1_sw",
+  layer = 0,
+  x = 160,
+  y = 829,
+  direction = 1,
+}
+
+destination{
+  name = "from_b1_se",
+  layer = 0,
+  x = 1440,
+  y = 829,
+  direction = 1,
+}
+
+destination{
+  name = "from_b1_n",
+  layer = 0,
+  x = 1120,
+  y = 109,
+  direction = 1,
+}
+
+teletransporter{
+  layer = 0,
+  x = 152,
+  y = 96,
+  width = 16,
+  height = 16,
+  destination_map = "dungeons/1/b1",
+  destination = "from_1f_nw",
+}
+
+teletransporter{
+  layer = 0,
+  x = 152,
+  y = 576,
+  width = 16,
+  height = 16,
+  destination_map = "dungeons/1/b1",
+  destination = "from_1f_w",
+}
+
+teletransporter{
+  layer = 0,
+  x = 152,
+  y = 816,
+  width = 16,
+  height = 16,
+  destination_map = "dungeons/1/b1",
+  destination = "from_1f_sw",
+}
+
+teletransporter{
+  layer = 0,
+  x = 1432,
+  y = 816,
+  width = 16,
+  height = 16,
+  destination_map = "dungeons/1/b1",
+  destination = "from_1f_se",
+}
+
+teletransporter{
+  layer = 0,
+  x = 1112,
+  y = 96,
+  width = 16,
+  height = 16,
+  destination_map = "dungeons/1/b1",
+  destination = "from_1f_n",
+}
+
+stairs{
+  layer = 0,
+  x = 152,
+  y = 96,
+  direction = 3,
+  subtype = 3,
+}
+
+stairs{
+  layer = 0,
+  x = 152,
+  y = 576,
+  direction = 3,
+  subtype = 3,
+}
+
+stairs{
+  layer = 0,
+  x = 152,
+  y = 816,
+  direction = 3,
+  subtype = 3,
+}
+
+stairs{
+  layer = 0,
+  x = 1432,
+  y = 816,
+  direction = 3,
+  subtype = 3,
+}
+
+stairs{
+  layer = 0,
+  x = 1112,
+  y = 96,
+  direction = 3,
+  subtype = 3,
+}
+
 tile{
   layer = 1,
   x = 120,
@@ -8117,6 +8279,51 @@ chest{
   treasure_name = "small_key",
   treasure_savegame_variable = "dungeon_1_1f_nw_key_chest",
   sprite = "entities/chest",
+}
+
+enemy{
+  name = "auto_enemy_auto_door_a_1",
+  layer = 1,
+  x = 40,
+  y = 285,
+  direction = 3,
+  breed = "alttp/keese",
+}
+
+enemy{
+  name = "auto_enemy_auto_door_a_2",
+  layer = 1,
+  x = 280,
+  y = 285,
+  direction = 3,
+  breed = "alttp/keese",
+}
+
+enemy{
+  name = "auto_enemy_4",
+  layer = 1,
+  x = 280,
+  y = 845,
+  direction = 3,
+  breed = "alttp/popo",
+}
+
+enemy{
+  name = "auto_enemy_auto_door_c",
+  layer = 1,
+  x = 920,
+  y = 125,
+  direction = 3,
+  breed = "alttp/popo",
+}
+
+enemy{
+  name = "auto_enemy_auto_door_c_2",
+  layer = 1,
+  x = 1120,
+  y = 861,
+  direction = 3,
+  breed = "alttp/popo",
 }
 
 tile{

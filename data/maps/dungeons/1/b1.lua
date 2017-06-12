@@ -1,24 +1,17 @@
--- Lua script of map dungeons/1/b1.
--- This script is executed every time the hero enters this map.
-
--- Feel free to modify the code below.
--- You can add more events and remove the ones you don't need.
-
--- See the Solarus Lua API documentation:
--- http://www.solarus-games.org/doc/latest
-
 local map = ...
 local game = map:get_game()
 
--- Event called at initialization time, as soon as this map becomes is loaded.
-function map:on_started()
+local separator_manager = require("scripts/maps/separator_manager")
+separator_manager:manage_map(map)
 
-  -- You can initialize the movement and sprites of various
-  -- map entities here.
-end
+local door_manager = require("scripts/maps/door_manager")
+door_manager:manage_map(map)
 
--- Event called after the opening transition effect of the map,
--- that is, when the player takes control of the hero.
-function map:on_opening_transition_finished()
+function map:on_started(destination)
 
+  if destination == from_1f_n then
+    map:set_doors_open("auto_door_c")
+  elseif destination == from_1f_w then
+    map:set_doors_open("auto_door_d")
+  end
 end
