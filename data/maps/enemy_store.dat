@@ -11,7 +11,7 @@ properties{
 
 dynamic_tile{
   name = "invisible_tile_3",
-  layer = 1,
+  layer = 0,
   x = 272,
   y = 224,
   pattern = "barrier.1",
@@ -22,7 +22,7 @@ dynamic_tile{
 
 dynamic_tile{
   name = "invisible_tile_4",
-  layer = 1,
+  layer = 0,
   x = 272,
   y = 232,
   pattern = "barrier.1",
@@ -33,7 +33,7 @@ dynamic_tile{
 
 dynamic_tile{
   name = "invisible_tile_1",
-  layer = 1,
+  layer = 0,
   x = 176,
   y = 176,
   pattern = "barrier.1",
@@ -44,7 +44,7 @@ dynamic_tile{
 
 dynamic_tile{
   name = "invisible_tile_2",
-  layer = 1,
+  layer = 0,
   x = 176,
   y = 184,
   pattern = "barrier.1",
@@ -55,7 +55,7 @@ dynamic_tile{
 
 enemy{
   name = "auto_enemy_1",
-  layer = 1,
+  layer = 0,
   x = 24,
   y = 45,
   direction = 3,
@@ -64,7 +64,7 @@ enemy{
 
 enemy{
   name = "auto_enemy_17",
-  layer = 1,
+  layer = 0,
   x = 216,
   y = 93,
   direction = 3,
@@ -73,7 +73,7 @@ enemy{
 
 enemy{
   name = "auto_enemy_18",
-  layer = 1,
+  layer = 0,
   x = 248,
   y = 93,
   direction = 3,
@@ -82,7 +82,7 @@ enemy{
 
 enemy{
   name = "auto_enemy_4",
-  layer = 1,
+  layer = 0,
   x = 120,
   y = 45,
   direction = 3,
@@ -91,7 +91,7 @@ enemy{
 
 enemy{
   name = "auto_enemy_3",
-  layer = 1,
+  layer = 0,
   x = 88,
   y = 45,
   direction = 3,
@@ -100,7 +100,7 @@ enemy{
 
 enemy{
   name = "auto_enemy_7",
-  layer = 1,
+  layer = 0,
   x = 216,
   y = 45,
   direction = 3,
@@ -109,7 +109,7 @@ enemy{
 
 enemy{
   name = "auto_enemy_8",
-  layer = 1,
+  layer = 0,
   x = 248,
   y = 45,
   direction = 3,
@@ -118,7 +118,7 @@ enemy{
 
 enemy{
   name = "auto_enemy_9",
-  layer = 1,
+  layer = 0,
   x = 280,
   y = 45,
   direction = 3,
@@ -127,7 +127,7 @@ enemy{
 
 enemy{
   name = "auto_enemy_10",
-  layer = 1,
+  layer = 0,
   x = 312,
   y = 45,
   direction = 3,
@@ -136,7 +136,7 @@ enemy{
 
 enemy{
   name = "auto_enemy_23",
-  layer = 1,
+  layer = 0,
   x = 88,
   y = 141,
   direction = 3,
@@ -144,7 +144,7 @@ enemy{
 }
 
 enemy{
-  layer = 1,
+  layer = 0,
   x = 56,
   y = 285,
   direction = 3,
@@ -153,7 +153,7 @@ enemy{
 
 enemy{
   name = "auto_enemy_22",
-  layer = 1,
+  layer = 0,
   x = 56,
   y = 141,
   direction = 3,
@@ -162,7 +162,7 @@ enemy{
 
 enemy{
   name = "auto_enemy_6",
-  layer = 1,
+  layer = 0,
   x = 184,
   y = 45,
   direction = 3,
@@ -171,7 +171,7 @@ enemy{
 
 enemy{
   name = "auto_enemy_5",
-  layer = 1,
+  layer = 0,
   x = 152,
   y = 45,
   direction = 3,
@@ -180,7 +180,7 @@ enemy{
 
 enemy{
   name = "auto_enemy_13",
-  layer = 1,
+  layer = 0,
   x = 88,
   y = 93,
   direction = 3,
@@ -189,7 +189,7 @@ enemy{
 
 enemy{
   name = "auto_enemy_14",
-  layer = 1,
+  layer = 0,
   x = 120,
   y = 93,
   direction = 3,
@@ -198,7 +198,7 @@ enemy{
 
 enemy{
   name = "auto_enemy_11",
-  layer = 1,
+  layer = 0,
   x = 24,
   y = 93,
   direction = 3,
@@ -207,7 +207,7 @@ enemy{
 
 enemy{
   name = "auto_enemy_12",
-  layer = 1,
+  layer = 0,
   x = 56,
   y = 93,
   direction = 3,
@@ -216,7 +216,7 @@ enemy{
 
 enemy{
   name = "auto_enemy_15",
-  layer = 1,
+  layer = 0,
   x = 152,
   y = 93,
   direction = 3,
@@ -225,7 +225,7 @@ enemy{
 
 enemy{
   name = "auto_enemy_29",
-  layer = 1,
+  layer = 0,
   x = 280,
   y = 141,
   direction = 3,
@@ -234,7 +234,7 @@ enemy{
 
 enemy{
   name = "auto_enemy_30",
-  layer = 1,
+  layer = 0,
   x = 312,
   y = 141,
   direction = 3,
@@ -243,7 +243,7 @@ enemy{
 
 enemy{
   name = "auto_enemy_21",
-  layer = 1,
+  layer = 0,
   x = 24,
   y = 141,
   direction = 3,
@@ -252,7 +252,7 @@ enemy{
 
 enemy{
   name = "auto_enemy_32",
-  layer = 1,
+  layer = 0,
   x = 56,
   y = 189,
   direction = 3,
@@ -261,7 +261,7 @@ enemy{
 
 enemy{
   name = "auto_enemy_33",
-  layer = 1,
+  layer = 0,
   x = 88,
   y = 189,
   direction = 3,
@@ -270,7 +270,7 @@ enemy{
 
 enemy{
   name = "auto_enemy_34",
-  layer = 1,
+  layer = 0,
   x = 120,
   y = 189,
   direction = 3,
@@ -279,7 +279,7 @@ enemy{
 
 enemy{
   name = "auto_enemy_16",
-  layer = 1,
+  layer = 0,
   x = 184,
   y = 93,
   direction = 3,
@@ -287,7 +287,7 @@ enemy{
 }
 
 enemy{
-  layer = 1,
+  layer = 0,
   x = 24,
   y = 285,
   direction = 3,
@@ -296,7 +296,7 @@ enemy{
 
 enemy{
   name = "auto_enemy_26",
-  layer = 1,
+  layer = 0,
   x = 184,
   y = 141,
   direction = 3,
@@ -305,7 +305,7 @@ enemy{
 
 enemy{
   name = "auto_enemy_25",
-  layer = 1,
+  layer = 0,
   x = 152,
   y = 141,
   direction = 3,
@@ -314,7 +314,7 @@ enemy{
 
 enemy{
   name = "auto_enemy_27",
-  layer = 1,
+  layer = 0,
   x = 216,
   y = 141,
   direction = 3,
@@ -323,7 +323,7 @@ enemy{
 
 enemy{
   name = "auto_enemy_41",
-  layer = 1,
+  layer = 0,
   x = 24,
   y = 237,
   direction = 3,
@@ -332,7 +332,7 @@ enemy{
 
 enemy{
   name = "auto_enemy_37",
-  layer = 1,
+  layer = 0,
   x = 216,
   y = 189,
   direction = 3,
@@ -341,7 +341,7 @@ enemy{
 
 enemy{
   name = "auto_enemy_38",
-  layer = 1,
+  layer = 0,
   x = 248,
   y = 189,
   direction = 3,
@@ -350,7 +350,7 @@ enemy{
 
 enemy{
   name = "auto_enemy_39",
-  layer = 1,
+  layer = 0,
   x = 280,
   y = 189,
   direction = 3,
@@ -359,7 +359,7 @@ enemy{
 
 enemy{
   name = "auto_enemy_2",
-  layer = 1,
+  layer = 0,
   x = 56,
   y = 45,
   direction = 3,
@@ -368,7 +368,7 @@ enemy{
 
 enemy{
   name = "auto_enemy_36",
-  layer = 1,
+  layer = 0,
   x = 184,
   y = 189,
   direction = 3,
@@ -377,7 +377,7 @@ enemy{
 
 enemy{
   name = "auto_enemy_42",
-  layer = 1,
+  layer = 0,
   x = 56,
   y = 237,
   direction = 3,
@@ -386,7 +386,7 @@ enemy{
 
 enemy{
   name = "auto_enemy_44",
-  layer = 1,
+  layer = 0,
   x = 120,
   y = 237,
   direction = 3,
@@ -395,7 +395,7 @@ enemy{
 
 enemy{
   name = "auto_enemy_46",
-  layer = 1,
+  layer = 0,
   x = 184,
   y = 237,
   direction = 3,
@@ -404,7 +404,7 @@ enemy{
 
 enemy{
   name = "auto_enemy_47",
-  layer = 1,
+  layer = 0,
   x = 216,
   y = 237,
   direction = 3,
@@ -413,7 +413,7 @@ enemy{
 
 enemy{
   name = "auto_enemy_48",
-  layer = 1,
+  layer = 0,
   x = 248,
   y = 237,
   direction = 3,
@@ -422,7 +422,7 @@ enemy{
 
 enemy{
   name = "auto_enemy_49",
-  layer = 1,
+  layer = 0,
   x = 280,
   y = 237,
   direction = 3,
@@ -431,7 +431,7 @@ enemy{
 
 enemy{
   name = "auto_enemy_53",
-  layer = 1,
+  layer = 0,
   x = 88,
   y = 285,
   direction = 3,
@@ -440,7 +440,7 @@ enemy{
 
 enemy{
   name = "auto_enemy_54",
-  layer = 1,
+  layer = 0,
   x = 120,
   y = 285,
   direction = 3,
@@ -449,7 +449,7 @@ enemy{
 
 enemy{
   name = "auto_enemy_55",
-  layer = 1,
+  layer = 0,
   x = 152,
   y = 285,
   direction = 3,
@@ -458,7 +458,7 @@ enemy{
 
 enemy{
   name = "auto_enemy_56",
-  layer = 1,
+  layer = 0,
   x = 184,
   y = 285,
   direction = 3,
@@ -467,7 +467,7 @@ enemy{
 
 enemy{
   name = "auto_enemy_64",
-  layer = 1,
+  layer = 0,
   x = 120,
   y = 333,
   direction = 3,
@@ -476,7 +476,7 @@ enemy{
 
 enemy{
   name = "auto_enemy_65",
-  layer = 1,
+  layer = 0,
   x = 152,
   y = 333,
   direction = 3,
@@ -485,7 +485,7 @@ enemy{
 
 enemy{
   name = "auto_enemy_72",
-  layer = 1,
+  layer = 0,
   x = 56,
   y = 381,
   direction = 3,
