@@ -22,7 +22,7 @@ end
 function hero_meta:get_defense()
 
   local game = self:get_game()
-  local defense = get_item("shield"):get_variant() + get_item("tunic"):get_variant() - 1
+  local defense = game:get_item("shield"):get_variant() + game:get_item("tunic"):get_variant() - 1
   if defense > 0 and game:is_onilink() then
     defense = defense - 1
   end
@@ -34,7 +34,7 @@ function hero_meta:on_taking_damage(damage)
 
   -- In the parameter, the damage unit is 1/2 of a heart.
   local game = self:get_game()
-  local defense = hero:get_defense()
+  local defense = self:get_defense()
   if defense <= 0 then
     -- Multiply the damage by two if the hero has no defense at all.
     damage = damage * 2
