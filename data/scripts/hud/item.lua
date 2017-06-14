@@ -77,10 +77,12 @@ function item_icon_builder:new(game, config)
     return true  -- Repeat the timer.
   end
 
-  -- Periodically check.
-  check()
-  sol.timer.start(game, 50, check)
-  item_icon:rebuild_surface()
+  function item_icon:on_started()
+    -- Periodically check.
+    check()
+    sol.timer.start(game, 50, check)
+    item_icon:rebuild_surface()
+  end
 
   return item_icon
 end

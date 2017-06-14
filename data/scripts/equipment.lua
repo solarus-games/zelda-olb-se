@@ -9,6 +9,11 @@ local num_bottles = 3
 
 local function initialize_equipment_features(game)
 
+  if game.are_small_keys_enabled ~= nil then
+    -- Already done.
+    return
+  end
+
   -- Returns whether a small key counter exists on the current map.
   function game:are_small_keys_enabled()
     return game:get_small_keys_savegame_variable() ~= nil

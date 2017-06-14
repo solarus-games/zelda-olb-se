@@ -8,12 +8,18 @@ require("scripts/multi_events")
 -- Creates a pause menu for the specified game.
 local function initialize_pause_features(game)
 
+  if game.pause_menu ~= nil then
+    -- Already done.
+    return
+  end
+
   local inventory_builder = require("scripts/menus/pause_inventory")
   local map_builder = require("scripts/menus/pause_map")
   local monsters_builder = require("scripts/menus/pause_monsters")
   local commands_builder = require("scripts/menus/pause_commands")
 
   local pause_menu = {}
+  game.pause_menu = pause_menu
   local pause_submenus
   local submenu_index
 

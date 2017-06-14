@@ -145,6 +145,7 @@ function hearts_builder:new(game, config)
     -- Unlike other HUD elements, the timers were canceled because they
     -- are attached to the menu and not to the game
     -- (this is because the hearts may also be used in the savegame menu).
+    hearts.nb_current_hearts_displayed = game:get_life()
     hearts.danger_sound_timer = nil
     -- Periodically check.
     check()

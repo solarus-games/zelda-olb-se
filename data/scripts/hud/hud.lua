@@ -9,6 +9,12 @@ local hud_config = require("scripts/hud/hud_config")
 -- Creates and runs a HUD for the specified game.
 local function initialize_hud_features(game)
 
+  if game.set_hud_enabled ~= nil then
+    -- Already done.
+    game:set_hud_enabled(true)
+    return
+  end
+
   -- Set up the HUD.
   local hud = {
     enabled = false,

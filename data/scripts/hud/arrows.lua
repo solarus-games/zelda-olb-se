@@ -88,9 +88,11 @@ function arrows_builder:new(game, config)
     return true  -- Repeat the timer.
   end
 
-  -- Periodically check.
-  check()
-  sol.timer.start(game, 40, check)
+  function arrows:on_started()
+    -- Periodically check.
+    check()
+    sol.timer.start(game, 40, check)
+  end
 
   return arrows
 end

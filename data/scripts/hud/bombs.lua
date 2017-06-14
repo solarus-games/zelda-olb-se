@@ -70,9 +70,11 @@ function bombs_builder:new(game, config)
     return true  -- Repeat the timer.
   end
 
-  -- Periodically check.
-  check()
-  sol.timer.start(game, 40, check)
+  function bombs:on_started()
+    -- Periodically check.
+    check()
+    sol.timer.start(game, 40, check)
+  end
 
   return bombs
 end

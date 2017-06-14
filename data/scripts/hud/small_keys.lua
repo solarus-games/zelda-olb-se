@@ -52,9 +52,11 @@ function small_keys_builder:new(game, config)
     return true  -- Repeat the timer.
   end
 
-  -- Periodically check the number of small keys.
-  check()
-  sol.timer.start(game, 40, check)
+  function small_keys:on_started()
+    -- Periodically check the number of small keys.
+    check()
+    sol.timer.start(game, 40, check)
+  end
 
   return small_keys
 end

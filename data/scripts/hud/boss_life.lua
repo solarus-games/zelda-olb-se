@@ -44,9 +44,11 @@ function boss_life_builder:new(game, config)
     return true  -- Repeat the timer.
   end
 
-  -- Periodically check whether we are fighting a boss.
-  check()
-  sol.timer.start(game, 20, check)
+  function boss_life:on_started()
+    -- Periodically check whether we are fighting a boss.
+    check()
+    sol.timer.start(game, 20, check)
+  end
 
   return boss_life
 end

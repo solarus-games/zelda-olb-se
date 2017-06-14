@@ -75,9 +75,11 @@ function rupees_builder:new(game, config)
     return true  -- Repeat the timer.
   end
 
-  -- Periodically check.
-  check()
-  sol.timer.start(game, 40, check)
+  function rupees:on_started()
+    -- Periodically check.
+    check()
+    sol.timer.start(game, 40, check)
+  end
 
   return rupees
 end

@@ -77,9 +77,11 @@ function magic_bar_builder:new(game, config)
     magic_bar_img:draw_region(20, 11, 8, height, dst_surface, x + 4, y + 43 - height)
   end
 
-  -- Periodically check.
-  check()
-  sol.timer.start(game, 20, check)
+  function magic_bar:on_started()
+    -- Periodically check.
+    check()
+    sol.timer.start(game, 20, check)
+  end
 
   return magic_bar
 end

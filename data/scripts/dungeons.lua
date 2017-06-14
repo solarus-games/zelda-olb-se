@@ -7,6 +7,11 @@ require("scripts/multi_events")
 
 local function initialize_dungeon_features(game)
 
+  if game.get_dungeon ~= nil then
+    -- Already done.
+    return
+  end
+
   -- Define the existing dungeons and their floors for the minimap menu.
   local dungeons_info = {
     [1] = {
