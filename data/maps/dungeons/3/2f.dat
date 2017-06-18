@@ -993,6 +993,7 @@ door{
 }
 
 enemy{
+  name = "auto_enemy_4",
   layer = 0,
   x = 72,
   y = 557,
@@ -1001,6 +1002,7 @@ enemy{
 }
 
 enemy{
+  name = "auto_enemy_3",
   layer = 0,
   x = 248,
   y = 557,

@@ -1731,7 +1731,7 @@ stairs{
 
 chest{
   layer = -1,
-  x = 808,
+  x = 800,
   y = 109,
   treasure_name = "glove",
   treasure_savegame_variable = "dungeon_3_glove_chest",
@@ -7914,6 +7914,7 @@ stairs{
 }
 
 enemy{
+  name = "auto_enemy_13",
   layer = 0,
   x = 1224,
   y = 1741,
@@ -7922,6 +7923,7 @@ enemy{
 }
 
 enemy{
+  name = "auto_enemy_12",
   layer = 0,
   x = 1016,
   y = 1741,
@@ -7930,6 +7932,7 @@ enemy{
 }
 
 enemy{
+  name = "auto_enemy_14",
   layer = 0,
   x = 1032,
   y = 1629,
@@ -7946,6 +7949,7 @@ enemy{
 }
 
 enemy{
+  name = "auto_enemy_15",
   layer = 0,
   x = 392,
   y = 1413,
@@ -7954,6 +7958,7 @@ enemy{
 }
 
 enemy{
+  name = "auto_enemy_16",
   layer = 0,
   x = 696,
   y = 1285,
@@ -7962,6 +7967,7 @@ enemy{
 }
 
 enemy{
+  name = "auto_enemy_6",
   layer = 0,
   x = 912,
   y = 525,
@@ -7970,6 +7976,7 @@ enemy{
 }
 
 enemy{
+  name = "auto_enemy_5",
   layer = 0,
   x = 688,
   y = 525,
@@ -7978,6 +7985,7 @@ enemy{
 }
 
 enemy{
+  name = "auto_enemy_8",
   layer = 0,
   x = 608,
   y = 645,
@@ -7986,6 +7994,7 @@ enemy{
 }
 
 enemy{
+  name = "auto_enemy_7",
   layer = 0,
   x = 472,
   y = 573,
@@ -7994,6 +8003,7 @@ enemy{
 }
 
 enemy{
+  name = "auto_enemy_4",
   layer = 0,
   x = 472,
   y = 429,
@@ -8002,6 +8012,7 @@ enemy{
 }
 
 enemy{
+  name = "auto_enemy_2",
   layer = 0,
   x = 392,
   y = 317,
@@ -8010,6 +8021,7 @@ enemy{
 }
 
 enemy{
+  name = "auto_enemy_3",
   layer = 0,
   x = 800,
   y = 373,
@@ -8018,6 +8030,7 @@ enemy{
 }
 
 enemy{
+  name = "auto_enemy_11",
   layer = 0,
   x = 1208,
   y = 317,
@@ -8026,6 +8039,7 @@ enemy{
 }
 
 enemy{
+  name = "auto_enemy_1",
   layer = 0,
   x = 1112,
   y = 429,
@@ -8034,6 +8048,7 @@ enemy{
 }
 
 enemy{
+  name = "auto_enemy_9",
   layer = 0,
   x = 992,
   y = 645,
@@ -8042,6 +8057,7 @@ enemy{
 }
 
 enemy{
+  name = "auto_enemy_10",
   layer = 0,
   x = 1128,
   y = 573,

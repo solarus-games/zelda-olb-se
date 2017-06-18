@@ -15444,6 +15444,7 @@ stairs{
 }
 
 enemy{
+  name = "auto_enemy_10",
   layer = 0,
   x = 1816,
   y = 1517,
@@ -15452,6 +15453,7 @@ enemy{
 }
 
 enemy{
+  name = "auto_enemy_11",
   layer = 0,
   x = 1816,
   y = 1613,
@@ -15487,6 +15489,7 @@ enemy{
 }
 
 enemy{
+  name = "auto_enemy_9",
   layer = 0,
   x = 1128,
   y = 1149,
@@ -15495,6 +15498,7 @@ enemy{
 }
 
 enemy{
+  name = "auto_enemy_7",
   layer = 0,
   x = 808,
   y = 1021,
@@ -15503,6 +15507,7 @@ enemy{
 }
 
 enemy{
+  name = "auto_enemy_8",
   layer = 0,
   x = 792,
   y = 1149,
@@ -15675,6 +15680,7 @@ dynamic_tile{
 }
 
 enemy{
+  name = "auto_enemy_12",
   layer = 0,
   x = 1760,
   y = 765,
@@ -15683,6 +15689,7 @@ enemy{
 }
 
 enemy{
+  name = "auto_enemy_16",
   layer = 0,
   x = 1680,
   y = 325,
@@ -15691,6 +15698,7 @@ enemy{
 }
 
 enemy{
+  name = "auto_enemy_15",
   layer = 0,
   x = 1552,
   y = 325,
@@ -15699,6 +15707,7 @@ enemy{
 }
 
 enemy{
+  name = "auto_enemy_17",
   layer = 0,
   x = 1424,
   y = 325,
@@ -15707,6 +15716,7 @@ enemy{
 }
 
 enemy{
+  name = "auto_enemy_14",
   layer = 0,
   x = 2080,
   y = 285,
@@ -15715,6 +15725,7 @@ enemy{
 }
 
 enemy{
+  name = "auto_enemy_20",
   layer = 0,
   x = 1560,
   y = 77,
@@ -15723,6 +15734,7 @@ enemy{
 }
 
 enemy{
+  name = "auto_enemy_19",
   layer = 0,
   x = 1560,
   y = 189,
@@ -15731,6 +15743,7 @@ enemy{
 }
 
 enemy{
+  name = "auto_enemy_18",
   layer = 0,
   x = 1472,
   y = 133,
@@ -15739,6 +15752,7 @@ enemy{
 }
 
 enemy{
+  name = "auto_enemy_21",
   layer = 0,
   x = 1120,
   y = 373,
@@ -15747,6 +15761,7 @@ enemy{
 }
 
 enemy{
+  name = "auto_enemy_25",
   layer = 0,
   x = 840,
   y = 429,
@@ -15755,6 +15770,7 @@ enemy{
 }
 
 enemy{
+  name = "auto_enemy_24",
   layer = 0,
   x = 664,
   y = 317,
@@ -15763,6 +15779,7 @@ enemy{
 }
 
 enemy{
+  name = "auto_enemy_29",
   layer = 0,
   x = 792,
   y = 253,
@@ -15771,6 +15788,7 @@ enemy{
 }
 
 enemy{
+  name = "auto_enemy_30",
   layer = 0,
   x = 744,
   y = 141,
@@ -15779,6 +15797,7 @@ enemy{
 }
 
 enemy{
+  name = "auto_enemy_31",
   layer = 0,
   x = 872,
   y = 61,
@@ -15787,6 +15806,7 @@ enemy{
 }
 
 enemy{
+  name = "auto_enemy_27",
   layer = 0,
   x = 552,
   y = 173,
@@ -15795,6 +15815,7 @@ enemy{
 }
 
 enemy{
+  name = "auto_enemy_26",
   layer = 0,
   x = 632,
   y = 237,
@@ -15803,6 +15824,7 @@ enemy{
 }
 
 enemy{
+  name = "auto_enemy_28",
   layer = 0,
   x = 472,
   y = 77,
@@ -15811,6 +15833,7 @@ enemy{
 }
 
 enemy{
+  name = "auto_enemy_23",
   layer = 0,
   x = 424,
   y = 269,
@@ -15819,6 +15842,7 @@ enemy{
 }
 
 enemy{
+  name = "auto_enemy_22",
   layer = 0,
   x = 488,
   y = 397,
@@ -15827,6 +15851,7 @@ enemy{
 }
 
 enemy{
+  name = "auto_enemy_4",
   layer = 0,
   x = 160,
   y = 285,
@@ -15835,6 +15860,7 @@ enemy{
 }
 
 enemy{
+  name = "auto_enemy_5",
   layer = 0,
   x = 160,
   y = 925,
@@ -15843,6 +15869,7 @@ enemy{
 }
 
 enemy{
+  name = "auto_enemy_3",
   layer = 0,
   x = 160,
   y = 605,
@@ -15851,6 +15878,7 @@ enemy{
 }
 
 enemy{
+  name = "auto_enemy_13",
   layer = 0,
   x = 2080,
   y = 925,
@@ -15859,6 +15887,7 @@ enemy{
 }
 
 enemy{
+  name = "auto_enemy_6",
   layer = 0,
   x = 536,
   y = 829,
