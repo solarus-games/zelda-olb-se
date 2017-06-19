@@ -1,0 +1,7 @@
+animation{
+  name = "normal",
+  src_image = "entities/pedestal.png",
+  directions = {
+    { x = 0, y = 0, frame_width = 160, frame_height = 152, origin_x = 80, origin_y = 149 },
+  },
+}

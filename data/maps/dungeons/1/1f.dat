@@ -788,6 +788,15 @@ enemy{
 
 tile{
   layer = 0,
+  x = 1304,
+  y = 24,
+  width = 272,
+  height = 192,
+  pattern = "floor.15-1",
+}
+
+tile{
+  layer = 0,
   x = 344,
   y = 24,
   width = 272,
@@ -6312,6 +6321,312 @@ tile{
   pattern = "stairs_inner_up.1.top.border.1-1",
 }
 
+tile{
+  layer = 0,
+  x = 792,
+  y = 952,
+  width = 16,
+  height = 16,
+  pattern = "floor.15-1",
+}
+
+tile{
+  layer = 0,
+  x = 1360,
+  y = 80,
+  width = 8,
+  height = 80,
+  pattern = "barrier.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 1512,
+  y = 80,
+  width = 8,
+  height = 80,
+  pattern = "barrier.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 1368,
+  y = 80,
+  width = 8,
+  height = 80,
+  pattern = "barrier.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 1504,
+  y = 80,
+  width = 8,
+  height = 80,
+  pattern = "barrier.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 1392,
+  y = 56,
+  width = 96,
+  height = 8,
+  pattern = "barrier.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 1392,
+  y = 48,
+  width = 96,
+  height = 8,
+  pattern = "barrier.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 1360,
+  y = 64,
+  width = 16,
+  height = 16,
+  pattern = "barrier_diag.3-1",
+}
+
+tile{
+  layer = 0,
+  x = 1376,
+  y = 48,
+  width = 16,
+  height = 16,
+  pattern = "barrier_diag.3-1",
+}
+
+tile{
+  layer = 0,
+  x = 1376,
+  y = 64,
+  width = 16,
+  height = 16,
+  pattern = "barrier_diag.4-1",
+}
+
+tile{
+  layer = 0,
+  x = 1488,
+  y = 64,
+  width = 16,
+  height = 16,
+  pattern = "barrier_diag.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 1488,
+  y = 48,
+  width = 16,
+  height = 16,
+  pattern = "barrier_diag.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 1504,
+  y = 64,
+  width = 16,
+  height = 16,
+  pattern = "barrier_diag.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 1376,
+  y = 152,
+  width = 16,
+  height = 16,
+  pattern = "barrier_diag.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 1360,
+  y = 160,
+  width = 16,
+  height = 16,
+  pattern = "barrier_diag.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 1376,
+  y = 176,
+  width = 16,
+  height = 16,
+  pattern = "barrier_diag.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 1384,
+  y = 160,
+  width = 16,
+  height = 16,
+  pattern = "barrier_diag.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 1392,
+  y = 176,
+  width = 8,
+  height = 16,
+  pattern = "barrier.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 1480,
+  y = 176,
+  width = 8,
+  height = 16,
+  pattern = "barrier.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 1368,
+  y = 168,
+  width = 16,
+  height = 16,
+  pattern = "barrier_diag.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 1488,
+  y = 176,
+  width = 16,
+  height = 16,
+  pattern = "barrier_diag.4-1",
+}
+
+tile{
+  layer = 0,
+  x = 1504,
+  y = 160,
+  width = 16,
+  height = 16,
+  pattern = "barrier_diag.4-1",
+}
+
+tile{
+  layer = 0,
+  x = 1496,
+  y = 168,
+  width = 16,
+  height = 16,
+  pattern = "barrier_diag.4-1",
+}
+
+tile{
+  layer = 0,
+  x = 1480,
+  y = 160,
+  width = 16,
+  height = 16,
+  pattern = "barrier_diag.3-1",
+}
+
+tile{
+  layer = 0,
+  x = 1488,
+  y = 152,
+  width = 16,
+  height = 16,
+  pattern = "barrier_diag.3-1",
+}
+
+tile{
+  layer = 0,
+  x = 1424,
+  y = 96,
+  width = 8,
+  height = 8,
+  pattern = "barrier.border-1",
+}
+
+tile{
+  layer = 0,
+  x = 1448,
+  y = 96,
+  width = 8,
+  height = 8,
+  pattern = "barrier.border-1",
+}
+
+tile{
+  layer = 0,
+  x = 1424,
+  y = 104,
+  width = 16,
+  height = 16,
+  pattern = "barrier_big.border.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 1440,
+  y = 104,
+  width = 16,
+  height = 16,
+  pattern = "barrier_big.border.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 1432,
+  y = 120,
+  width = 16,
+  height = 8,
+  pattern = "barrier.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 1424,
+  y = 120,
+  width = 16,
+  height = 16,
+  pattern = "barrier_diag.2-2",
+}
+
+tile{
+  layer = 0,
+  x = 1440,
+  y = 120,
+  width = 16,
+  height = 16,
+  pattern = "barrier_diag.4-1",
+}
+
+tile{
+  layer = 0,
+  x = 1432,
+  y = 128,
+  width = 16,
+  height = 8,
+  pattern = "897",
+}
+
+tile{
+  layer = 0,
+  x = 1400,
+  y = 176,
+  width = 80,
+  height = 16,
+  pattern = "1592",
+}
+
 wall{
   layer = 0,
   x = 792,
@@ -7853,6 +8168,25 @@ enemy{
   breed = "alttp/pike_auto",
 }
 
+destination{
+  name = "debug_destination",
+  layer = 0,
+  x = 1440,
+  y = 213,
+  direction = 1,
+  default = true,
+}
+
+custom_entity{
+  layer = 0,
+  x = 1440,
+  y = 197,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/pedestal",
+}
+
 tile{
   layer = 1,
   x = 120,
@@ -8391,6 +8725,15 @@ tile{
   width = 8,
   height = 32,
   pattern = "door_top.3-5",
+}
+
+tile{
+  layer = 1,
+  x = 784,
+  y = 952,
+  width = 32,
+  height = 8,
+  pattern = "door_top.2-5",
 }
 
 tile{
