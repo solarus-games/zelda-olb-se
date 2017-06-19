@@ -163,6 +163,11 @@ function map_manager:new(game)
 
   local function select_floor_up()
 
+    if selected_floor == nil then
+      -- No floor selector.
+      return
+    end
+
     sol.audio.play_sound("cursor")
     selected_floor = selected_floor + 1
     if selected_floor > dungeon.highest_floor then
@@ -172,6 +177,11 @@ function map_manager:new(game)
   end
 
   local function select_floor_down()
+
+    if selected_floor == nil then
+      -- No floor selector.
+      return
+    end
 
     sol.audio.play_sound("cursor")
     selected_floor = selected_floor - 1

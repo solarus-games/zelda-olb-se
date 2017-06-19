@@ -19,9 +19,9 @@ local function initialize_dungeon_features(game)
       highest_floor = 0,
       maps = { "dungeons/1/b1", "dungeons/1/1f" },
       boss = {
-        floor = -1,
-        x = 1440,
-        y = 365,
+        floor = 0,
+        x = 640 + 1440,
+        y = 720 + 365,
         savegame_variable = "dungeon_1_boss",
       },
     },
