@@ -17,100 +17,12 @@ local function initialize_dungeon_features(game)
     [1] = {
       lowest_floor = -1,
       highest_floor = 0,
-      maps = { "dungeon_1/b1", "dungeon_1/1f" },
+      maps = { "dungeons/1/b1", "dungeons/1/1f" },
       boss = {
         floor = -1,
-        x = 960 + 640,
-        y = 720 + 120,
+        x = 1440,
+        y = 365,
         savegame_variable = "dungeon_1_boss",
-      },
-    },
-    [2] = {
-      lowest_floor = 0,
-      highest_floor = 0,
-      maps = { "dungeon_2/1f" },
-      boss = {
-        floor = 0,
-        x = 320 + 1120,
-        y = 240 + 1056,
-        savegame_variable = "dungeon_2_boss",
-      },
-    },
-    [3] = {
-      lowest_floor = 0,
-      highest_floor = 1,
-      maps = { "dungeon_3/1f", "dungeon_3/2f" },
-      boss = {
-        floor = 0,
-        x = 640 + 1120,
-        y = 480 + 840,
-        savegame_variable = "dungeon_3_boss",
-      },
-    },
-    [4] = {
-      lowest_floor = 0,
-      highest_floor = 2,
-      maps = { "dungeon_4/1f", "dungeon_4/2f", "dungeon_4/3f" },
-      boss = {
-        floor = 0,
-        x = 640 + 800,
-        y = 480 + 608,
-        savegame_variable = "dungeon_4_boss",
-      },
-    },
-    [5] = {
-      lowest_floor = -2,
-      highest_floor = 0,
-      maps = { "dungeon_5/b2", "dungeon_5/b1", "dungeon_5/1f" },
-      boss = {
-        floor = -2,
-        x = 640 + 1760,
-        y = 480 + 840,
-        savegame_variable = "dungeon_5_boss",
-      },
-    },
-    [6] = {
-      lowest_floor = 0,
-      highest_floor = 1,
-      maps = { "dungeon_6/1f", "dungeon_6/2f" },
-      boss = {
-        floor = 1,
-        x = 320 + 1120,
-        y = 0 + 1560,
-        savegame_variable = "dungeon_6_boss",
-      },
-    },
-    [7] = {
-      lowest_floor = 0,
-      highest_floor = 1,
-      maps = { "dungeon_7/1f", "dungeon_7/2f" },
-      boss = {
-        floor = 1,
-        x = 640 + 800,
-        y = 480 + 360,
-        savegame_variable = "dungeon_7_boss",
-      },
-    },
-    [8] = {
-      lowest_floor = 0,
-      highest_floor = 0,
-      maps = { "dungeon_8/1f" },
-      boss = {
-        floor = 0,
-        x = 960 + 480,
-        y = 0 + 840,
-        savegame_variable = "dungeon_8_boss",
-      },
-    },
-    [9] = {
-      lowest_floor = -2,
-      highest_floor = 1,
-      maps = { "dungeon_9/b2", "dungeon_9/b1", "dungeon_9/1f", "dungeon_9/2f" },
-      boss = {
-        floor = 1,
-        x = 640 + 800,
-        y = 480 + 120,
-        savegame_variable = "dungeon_9_boss",
       },
     },
   }
