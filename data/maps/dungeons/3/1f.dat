@@ -9054,3 +9054,21 @@ separator{
   height = 16,
 }
 
+separator{
+  name = "auto_separator_16",
+  layer = 2,
+  x = 312,
+  y = 1200,
+  width = 16,
+  height = 240,
+}
+
+separator{
+  name = "auto_separator_17",
+  layer = 2,
+  x = 1912,
+  y = 1200,
+  width = 16,
+  height = 240,
+}
+

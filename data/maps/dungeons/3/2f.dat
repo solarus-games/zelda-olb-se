@@ -820,6 +820,303 @@ tile{
   pattern = "floor_border.3",
 }
 
+tile{
+  layer = 0,
+  x = 1040,
+  y = 320,
+  width = 8,
+  height = 80,
+  pattern = "barrier.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 1192,
+  y = 320,
+  width = 8,
+  height = 80,
+  pattern = "barrier.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 1048,
+  y = 320,
+  width = 8,
+  height = 80,
+  pattern = "barrier.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 1184,
+  y = 320,
+  width = 8,
+  height = 80,
+  pattern = "barrier.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 1072,
+  y = 296,
+  width = 96,
+  height = 8,
+  pattern = "barrier.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 1072,
+  y = 288,
+  width = 96,
+  height = 8,
+  pattern = "barrier.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 1040,
+  y = 304,
+  width = 16,
+  height = 16,
+  pattern = "barrier_diag.3-1",
+}
+
+tile{
+  layer = 0,
+  x = 1056,
+  y = 288,
+  width = 16,
+  height = 16,
+  pattern = "barrier_diag.3-1",
+}
+
+tile{
+  layer = 0,
+  x = 1056,
+  y = 304,
+  width = 16,
+  height = 16,
+  pattern = "barrier_diag.4-1",
+}
+
+tile{
+  layer = 0,
+  x = 1168,
+  y = 304,
+  width = 16,
+  height = 16,
+  pattern = "barrier_diag.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 1168,
+  y = 288,
+  width = 16,
+  height = 16,
+  pattern = "barrier_diag.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 1184,
+  y = 304,
+  width = 16,
+  height = 16,
+  pattern = "barrier_diag.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 1056,
+  y = 392,
+  width = 16,
+  height = 16,
+  pattern = "barrier_diag.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 1040,
+  y = 400,
+  width = 16,
+  height = 16,
+  pattern = "barrier_diag.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 1056,
+  y = 416,
+  width = 16,
+  height = 16,
+  pattern = "barrier_diag.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 1064,
+  y = 400,
+  width = 16,
+  height = 16,
+  pattern = "barrier_diag.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 1072,
+  y = 416,
+  width = 8,
+  height = 16,
+  pattern = "barrier.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 1160,
+  y = 416,
+  width = 8,
+  height = 16,
+  pattern = "barrier.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 1048,
+  y = 408,
+  width = 16,
+  height = 16,
+  pattern = "barrier_diag.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 1168,
+  y = 416,
+  width = 16,
+  height = 16,
+  pattern = "barrier_diag.4-1",
+}
+
+tile{
+  layer = 0,
+  x = 1184,
+  y = 400,
+  width = 16,
+  height = 16,
+  pattern = "barrier_diag.4-1",
+}
+
+tile{
+  layer = 0,
+  x = 1176,
+  y = 408,
+  width = 16,
+  height = 16,
+  pattern = "barrier_diag.4-1",
+}
+
+tile{
+  layer = 0,
+  x = 1160,
+  y = 400,
+  width = 16,
+  height = 16,
+  pattern = "barrier_diag.3-1",
+}
+
+tile{
+  layer = 0,
+  x = 1168,
+  y = 392,
+  width = 16,
+  height = 16,
+  pattern = "barrier_diag.3-1",
+}
+
+tile{
+  layer = 0,
+  x = 1104,
+  y = 336,
+  width = 8,
+  height = 8,
+  pattern = "barrier.border-1",
+}
+
+tile{
+  layer = 0,
+  x = 1128,
+  y = 336,
+  width = 8,
+  height = 8,
+  pattern = "barrier.border-1",
+}
+
+tile{
+  layer = 0,
+  x = 1104,
+  y = 344,
+  width = 16,
+  height = 16,
+  pattern = "barrier_big.border.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 1120,
+  y = 344,
+  width = 16,
+  height = 16,
+  pattern = "barrier_big.border.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 1112,
+  y = 360,
+  width = 16,
+  height = 8,
+  pattern = "barrier.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 1104,
+  y = 360,
+  width = 16,
+  height = 16,
+  pattern = "barrier_diag.2-2",
+}
+
+tile{
+  layer = 0,
+  x = 1120,
+  y = 360,
+  width = 16,
+  height = 16,
+  pattern = "barrier_diag.4-1",
+}
+
+tile{
+  layer = 0,
+  x = 1112,
+  y = 368,
+  width = 16,
+  height = 8,
+  pattern = "897",
+}
+
+tile{
+  layer = 0,
+  x = 1080,
+  y = 416,
+  width = 80,
+  height = 16,
+  pattern = "1592",
+}
+
 destination{
   name = "from_1f",
   layer = 0,
@@ -1108,6 +1405,16 @@ destination{
   direction = 1,
 }
 
+custom_entity{
+  layer = 0,
+  x = 1120,
+  y = 437,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/pedestal",
+}
+
 tile{
   layer = 1,
   x = 1080,
@@ -1205,5 +1512,41 @@ separator{
   y = 712,
   width = 320,
   height = 16,
+}
+
+separator{
+  name = "auto_separator_6",
+  layer = 2,
+  x = 960,
+  y = 232,
+  width = 320,
+  height = 16,
+}
+
+separator{
+  name = "auto_separator_7",
+  layer = 2,
+  x = 960,
+  y = 952,
+  width = 320,
+  height = 16,
+}
+
+separator{
+  name = "auto_separator_8",
+  layer = 2,
+  x = 952,
+  y = 240,
+  width = 16,
+  height = 720,
+}
+
+separator{
+  name = "auto_separator_9",
+  layer = 2,
+  x = 1272,
+  y = 240,
+  width = 16,
+  height = 720,
 }
 

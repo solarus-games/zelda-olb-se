@@ -17806,3 +17806,12 @@ separator{
   height = 16,
 }
 
+separator{
+  name = "auto_separator_15",
+  layer = 2,
+  x = 320,
+  y = 232,
+  width = 1600,
+  height = 16,
+}
+
