@@ -36017,6 +36017,7 @@ tile_pattern{
   y = 504,
   width = 8,
   height = 8,
+  repeat_mode = "horizontal",
 }
 
 tile_pattern{
@@ -36082,6 +36083,7 @@ tile_pattern{
   y = 496,
   width = 8,
   height = 8,
+  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -38051,6 +38053,60 @@ tile_pattern{
 }
 
 tile_pattern{
+  id = "shadow.1",
+  ground = "empty",
+  default_layer = 0,
+  x = 216,
+  y = 432,
+  width = 8,
+  height = 8,
+}
+
+tile_pattern{
+  id = "shadow.2",
+  ground = "empty",
+  default_layer = 0,
+  x = 208,
+  y = 440,
+  width = 8,
+  height = 8,
+  repeat_mode = "none",
+}
+
+tile_pattern{
+  id = "shadow.3",
+  ground = "empty",
+  default_layer = 0,
+  x = 216,
+  y = 440,
+  width = 8,
+  height = 8,
+  repeat_mode = "none",
+}
+
+tile_pattern{
+  id = "shadow.4",
+  ground = "empty",
+  default_layer = 0,
+  x = 208,
+  y = 448,
+  width = 8,
+  height = 8,
+  repeat_mode = "none",
+}
+
+tile_pattern{
+  id = "shadow.5",
+  ground = "empty",
+  default_layer = 0,
+  x = 216,
+  y = 448,
+  width = 8,
+  height = 8,
+  repeat_mode = "none",
+}
+
+tile_pattern{
   id = "shop_counter.1a",
   ground = "wall",
   default_layer = 0,
@@ -38336,7 +38392,7 @@ tile_pattern{
 
 tile_pattern{
   id = "stage.1-1",
-  ground = "wall",
+  ground = "low_wall",
   default_layer = 0,
   x = 408,
   y = 320,
@@ -38347,7 +38403,7 @@ tile_pattern{
 
 tile_pattern{
   id = "stage.1-2",
-  ground = "wall",
+  ground = "low_wall",
   default_layer = 0,
   x = 432,
   y = 320,
@@ -38358,7 +38414,7 @@ tile_pattern{
 
 tile_pattern{
   id = "stage.10-1",
-  ground = "wall",
+  ground = "low_wall",
   default_layer = 0,
   x = 416,
   y = 304,
@@ -38369,7 +38425,7 @@ tile_pattern{
 
 tile_pattern{
   id = "stage.10-2",
-  ground = "wall",
+  ground = "low_wall",
   default_layer = 0,
   x = 440,
   y = 304,
@@ -38380,7 +38436,7 @@ tile_pattern{
 
 tile_pattern{
   id = "stage.2-1",
-  ground = "wall",
+  ground = "low_wall",
   default_layer = 0,
   x = 424,
   y = 320,
@@ -38391,7 +38447,7 @@ tile_pattern{
 
 tile_pattern{
   id = "stage.2-2",
-  ground = "wall",
+  ground = "low_wall",
   default_layer = 0,
   x = 448,
   y = 320,
@@ -38402,7 +38458,7 @@ tile_pattern{
 
 tile_pattern{
   id = "stage.3-1",
-  ground = "wall",
+  ground = "low_wall",
   default_layer = 0,
   x = 416,
   y = 320,
@@ -38413,7 +38469,7 @@ tile_pattern{
 
 tile_pattern{
   id = "stage.3-2",
-  ground = "wall",
+  ground = "low_wall",
   default_layer = 0,
   x = 440,
   y = 320,
@@ -38424,7 +38480,7 @@ tile_pattern{
 
 tile_pattern{
   id = "stage.4-1",
-  ground = "wall",
+  ground = "low_wall",
   default_layer = 0,
   x = 408,
   y = 312,
@@ -38435,7 +38491,7 @@ tile_pattern{
 
 tile_pattern{
   id = "stage.4-2",
-  ground = "wall",
+  ground = "low_wall",
   default_layer = 0,
   x = 432,
   y = 312,
@@ -38446,7 +38502,7 @@ tile_pattern{
 
 tile_pattern{
   id = "stage.5-1",
-  ground = "wall",
+  ground = "low_wall",
   default_layer = 0,
   x = 424,
   y = 312,
@@ -38457,7 +38513,7 @@ tile_pattern{
 
 tile_pattern{
   id = "stage.5-2",
-  ground = "wall",
+  ground = "low_wall",
   default_layer = 0,
   x = 448,
   y = 312,
@@ -38468,7 +38524,7 @@ tile_pattern{
 
 tile_pattern{
   id = "stage.6-1",
-  ground = "wall",
+  ground = "low_wall",
   default_layer = 0,
   x = 408,
   y = 296,
@@ -38479,7 +38535,7 @@ tile_pattern{
 
 tile_pattern{
   id = "stage.6-2",
-  ground = "wall",
+  ground = "low_wall",
   default_layer = 0,
   x = 432,
   y = 296,
@@ -38490,7 +38546,7 @@ tile_pattern{
 
 tile_pattern{
   id = "stage.7-1",
-  ground = "wall",
+  ground = "low_wall",
   default_layer = 0,
   x = 424,
   y = 296,
@@ -38501,7 +38557,7 @@ tile_pattern{
 
 tile_pattern{
   id = "stage.7-2",
-  ground = "wall",
+  ground = "low_wall",
   default_layer = 0,
   x = 448,
   y = 296,
@@ -38512,7 +38568,7 @@ tile_pattern{
 
 tile_pattern{
   id = "stage.8-1",
-  ground = "wall",
+  ground = "low_wall",
   default_layer = 0,
   x = 408,
   y = 304,
@@ -38523,7 +38579,7 @@ tile_pattern{
 
 tile_pattern{
   id = "stage.8-2",
-  ground = "wall",
+  ground = "low_wall",
   default_layer = 0,
   x = 432,
   y = 304,
@@ -38534,7 +38590,7 @@ tile_pattern{
 
 tile_pattern{
   id = "stage.9-1",
-  ground = "wall",
+  ground = "low_wall",
   default_layer = 0,
   x = 424,
   y = 304,
@@ -38545,7 +38601,7 @@ tile_pattern{
 
 tile_pattern{
   id = "stage.9-2",
-  ground = "wall",
+  ground = "low_wall",
   default_layer = 0,
   x = 448,
   y = 304,
