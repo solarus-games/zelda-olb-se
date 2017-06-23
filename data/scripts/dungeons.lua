@@ -24,6 +24,16 @@ local function initialize_dungeon_features(game)
         y = 720 + 365,
         savegame_variable = "dungeon_1_boss",
       },
+    [3] = {
+      lowest_floor = -1,
+      highest_floor = 1,
+      maps = { "dungeons/3/b1", "dungeons/3/1f", "dungeons/3/2f" },
+      boss = {
+        floor = 1,
+        x = 320 + 1120,
+        y = 240 + 557,
+        savegame_variable = "dungeon_3_boss",
+      },
     },
   }
 
