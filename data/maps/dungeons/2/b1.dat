@@ -1,0 +1,13 @@
+properties{
+  x = 0,
+  y = 0,
+  width = 1600,
+  height = 1680,
+  min_layer = -1,
+  max_layer = 2,
+  world = "dungeon_2",
+  floor = -1,
+  tileset = "dungeon/dark_brown",
+  music = "dungeon_2",
+}
+
