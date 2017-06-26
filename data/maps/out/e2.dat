@@ -6343,6 +6343,15 @@ tile{
   pattern = "sand.weed",
 }
 
+tile{
+  layer = 1,
+  x = 1160,
+  y = 240,
+  width = 16,
+  height = 8,
+  pattern = "grass.soil",
+}
+
 dynamic_tile{
   name = "weak_wall_a_closed",
   layer = 1,
@@ -7118,6 +7127,24 @@ npc{
   direction = 3,
   subtype = 1,
   sprite = "npc/alttp/merchant_blue",
+}
+
+destination{
+  name = "from_dungeon_2",
+  layer = 1,
+  x = 1168,
+  y = 269,
+  direction = 3,
+}
+
+teletransporter{
+  layer = 1,
+  x = 1160,
+  y = 240,
+  width = 16,
+  height = 16,
+  destination_map = "dungeons/2/1f",
+  destination = "from_outside",
 }
 
 tile{

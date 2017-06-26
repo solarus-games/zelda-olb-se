@@ -147,6 +147,7 @@ sprite{ id = "enemies/som/minotaur", description = "Minotaur" }
 sprite{ id = "enemies/som/spikey_tiger", description = "Spikey Tiger" }
 sprite{ id = "enemies/som/tropicallo", description = "Tropicallo" }
 sprite{ id = "enemies/som/vampire", description = "Vampire" }
+sprite{ id = "entities/agahnim_statue", description = "Agahnim Statue" }
 sprite{ id = "entities/arrow", description = "Arrow" }
 sprite{ id = "entities/arrow_silver", description = "Silver arrow" }
 sprite{ id = "entities/bed", description = "Hero's bed" }
@@ -617,6 +618,7 @@ entity{ id = "fire", description = "Fire" }
 entity{ id = "hammer_stake", description = "Hammer stake" }
 entity{ id = "hookable", description = "Hookable" }
 entity{ id = "ice_beam", description = "Ice beam" }
+entity{ id = "statue_big", description = "Big statue" }
 entity{ id = "torch", description = "Torch" }
 
 language{ id = "fr", description = "Français" }
