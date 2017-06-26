@@ -7015,6 +7015,15 @@ chest{
   sprite = "entities/chest",
 }
 
+enemy{
+  name = "auto_enemy_3",
+  layer = 0,
+  x = 792,
+  y = 797,
+  direction = 3,
+  breed = "alttp/tektite_blue",
+}
+
 tile{
   layer = 1,
   x = 312,

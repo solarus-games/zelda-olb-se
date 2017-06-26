@@ -10,7 +10,7 @@ local hero_meta = sol.main.get_metatable("hero")
 function hero_meta:get_force()
 
   local game = self:get_game()
-  local force = get_item("sword"):get_variant()
+  local force = game:get_item("sword"):get_variant()
   if game:is_onilink() then
     force = force + 1
   end
