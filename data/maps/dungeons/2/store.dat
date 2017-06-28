@@ -1770,6 +1770,79 @@ tile{
   pattern = "floor_pot",
 }
 
+tile{
+  layer = 0,
+  x = 504,
+  y = 424,
+  width = 16,
+  height = 16,
+  pattern = "door_blast.1",
+}
+
+tile{
+  layer = 0,
+  x = 504,
+  y = 392,
+  width = 16,
+  height = 16,
+  pattern = "door_blast.2",
+}
+
+tile{
+  layer = 0,
+  x = 504,
+  y = 408,
+  width = 16,
+  height = 16,
+  pattern = "floor.16-1",
+}
+
+tile{
+  layer = 0,
+  x = 520,
+  y = 392,
+  width = 8,
+  height = 16,
+  pattern = "door_blast.2.support.2-2",
+}
+
+tile{
+  layer = 0,
+  x = 496,
+  y = 392,
+  width = 8,
+  height = 16,
+  pattern = "door_blast.2.support.1-2",
+}
+
+tile{
+  layer = 0,
+  x = 520,
+  y = 424,
+  width = 8,
+  height = 16,
+  pattern = "door_blast.1.support.2-2",
+}
+
+tile{
+  layer = 0,
+  x = 496,
+  y = 424,
+  width = 8,
+  height = 16,
+  pattern = "door_blast.1.support.1-2",
+}
+
+wall{
+  layer = 0,
+  x = 280,
+  y = 312,
+  width = 48,
+  height = 16,
+  stops_enemies = true,
+  stops_blocks = true,
+}
+
 destructible{
   name = "auto_destructible_1",
   layer = 0,
@@ -2208,6 +2281,7 @@ dynamic_tile{
 }
 
 door{
+  name = "weak_wall_a",
   layer = 0,
   x = 280,
   y = 312,
@@ -2218,6 +2292,7 @@ door{
 }
 
 door{
+  name = "weak_wall_a_2",
   layer = 0,
   x = 312,
   y = 312,
@@ -2265,6 +2340,60 @@ destructible{
   sprite = "entities/vase",
   destruction_sound = "stone",
   damage_on_enemies = 2,
+}
+
+wall{
+  layer = 0,
+  x = 504,
+  y = 392,
+  width = 16,
+  height = 48,
+  stops_enemies = true,
+  stops_blocks = true,
+}
+
+dynamic_tile{
+  name = "weak_wall_b_closed",
+  layer = 0,
+  x = 496,
+  y = 392,
+  pattern = "wall.2-3",
+  width = 32,
+  height = 24,
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  name = "weak_wall_b_closed_2",
+  layer = 0,
+  x = 496,
+  y = 416,
+  pattern = "wall.1-3",
+  width = 32,
+  height = 24,
+  enabled_at_start = true,
+}
+
+door{
+  name = "weak_wall_b",
+  layer = 0,
+  x = 504,
+  y = 392,
+  direction = 3,
+  sprite = "entities/doors/door_d2_weak_wall",
+  opening_method = "explosion",
+  opening_condition = "dungeon_3_boss_key",
+}
+
+door{
+  name = "weak_wall_b_2",
+  layer = 0,
+  x = 504,
+  y = 424,
+  direction = 1,
+  sprite = "entities/doors/door_d2_weak_wall",
+  opening_method = "explosion",
+  opening_condition = "dungeon_3_boss_key",
 }
 
 tile{
@@ -2618,6 +2747,24 @@ tile{
   pattern = "door_cache.3-3",
 }
 
+tile{
+  layer = 1,
+  x = 464,
+  y = 416,
+  width = 96,
+  height = 8,
+  pattern = "door_cache.1-3",
+}
+
+tile{
+  layer = 1,
+  x = 464,
+  y = 408,
+  width = 96,
+  height = 8,
+  pattern = "door_cache.2-3",
+}
+
 block{
   name = "auto_block_1",
   layer = 1,
@@ -2648,6 +2795,28 @@ dynamic_tile{
   pattern = "door_top.low.3-3",
   width = 8,
   height = 32,
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  name = "weak_wall_b_open",
+  layer = 1,
+  x = 496,
+  y = 408,
+  pattern = "door_top.low.2-3",
+  width = 32,
+  height = 8,
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  name = "weak_wall_b_open_2",
+  layer = 1,
+  x = 496,
+  y = 416,
+  pattern = "door_top.low.1-3",
+  width = 32,
+  height = 8,
   enabled_at_start = true,
 }
 
