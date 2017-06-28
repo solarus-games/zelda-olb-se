@@ -5834,6 +5834,36 @@ tile{
   pattern = "stairs_down.2.border.1-1",
 }
 
+teletransporter{
+  layer = 0,
+  x = 152,
+  y = 336,
+  width = 16,
+  height = 16,
+  destination_map = "dungeons/2/b1",
+  destination = "from_1f_nw",
+}
+
+teletransporter{
+  layer = 0,
+  x = 792,
+  y = 1536,
+  width = 16,
+  height = 16,
+  destination_map = "dungeons/2/b1",
+  destination = "from_1f_s",
+}
+
+teletransporter{
+  layer = 0,
+  x = 792,
+  y = 1056,
+  width = 16,
+  height = 16,
+  destination_map = "dungeons/2/b1",
+  destination = "from_1f_c",
+}
+
 sensor{
   name = "dungeon_room_11_1",
   layer = 0,
@@ -7022,6 +7052,30 @@ enemy{
   y = 797,
   direction = 3,
   breed = "alttp/tektite_blue",
+}
+
+stairs{
+  layer = 0,
+  x = 152,
+  y = 336,
+  direction = 3,
+  subtype = 3,
+}
+
+stairs{
+  layer = 0,
+  x = 792,
+  y = 1056,
+  direction = 3,
+  subtype = 3,
+}
+
+stairs{
+  layer = 0,
+  x = 792,
+  y = 1536,
+  direction = 3,
+  subtype = 3,
 }
 
 tile{

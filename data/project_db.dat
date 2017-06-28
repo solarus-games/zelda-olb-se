@@ -159,7 +159,6 @@ sprite{ id = "entities/bush", description = "Bush (from tileset)" }
 sprite{ id = "entities/bush_green", description = "Bush (green)" }
 sprite{ id = "entities/bush_purple", description = "Bush (purple)" }
 sprite{ id = "entities/bush_yellow", description = "Bush (yellow)" }
-sprite{ id = "entities/castle_lock", description = "Castle lock" }
 sprite{ id = "entities/chest", description = "Chest" }
 sprite{ id = "entities/conveyor_belt1", description = "Conveyor belt 1" }
 sprite{ id = "entities/conveyor_belt2", description = "Conveyor belt 2" }
@@ -183,6 +182,7 @@ sprite{ id = "entities/doors/door_d2_very_weak_wall", description = "Cave door (
 sprite{ id = "entities/doors/door_d2_weak_wall", description = "Cave door (weak wall)" }
 sprite{ id = "entities/doors/door_d4_very_weak_wall", description = "House door (very weak wall)" }
 sprite{ id = "entities/doors/door_d4_weak_wall", description = "House door (weak wall)" }
+sprite{ id = "entities/doors/prison_door", description = "Prison locked door" }
 sprite{ id = "entities/drinking_potion", description = "Potion to drink" }
 sprite{ id = "entities/explosion", description = "Explosion" }
 sprite{ id = "entities/fire", description = "Fire" }
@@ -202,7 +202,7 @@ sprite{ id = "entities/ice", description = "Ice ground" }
 sprite{ id = "entities/ice_beam", description = "Ice beam" }
 sprite{ id = "entities/items", description = "Items" }
 sprite{ id = "entities/pedestal", description = "Pedestal" }
-sprite{ id = "entities/prison_door", description = "Prison door" }
+sprite{ id = "entities/prison_door_mine", description = "Prison door for mine" }
 sprite{ id = "entities/rupee_icon", description = "Money icon" }
 sprite{ id = "entities/shadow", description = "Shadow" }
 sprite{ id = "entities/sign", description = "Sign" }

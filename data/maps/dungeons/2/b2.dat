@@ -11,6 +11,16 @@ properties{
   music = "dungeon_2",
 }
 
+custom_entity{
+  layer = -1,
+  x = 8,
+  y = 13,
+  width = 1600,
+  height = 1680,
+  direction = 0,
+  sprite = "work/1600x1680",
+}
+
 dynamic_tile{
   layer = 2,
   x = 328,
