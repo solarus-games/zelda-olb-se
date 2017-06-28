@@ -12485,6 +12485,24 @@ tile{
   pattern = "barrier.1-1",
 }
 
+sensor{
+  name = "dungeon_room_21_2",
+  layer = 0,
+  x = 1120,
+  y = 1333,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "dungeon_room_15_2",
+  layer = 0,
+  x = 160,
+  y = 1093,
+  width = 16,
+  height = 16,
+}
+
 teletransporter{
   layer = 0,
   x = 152,
@@ -13735,6 +13753,681 @@ switch{
   sound = "switch",
   needs_block = false,
   inactivate_when_leaving = false,
+}
+
+sensor{
+  name = "dungeon_room_1_1",
+  layer = 0,
+  x = 80,
+  y = 237,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "dungeon_room_1_2",
+  layer = 0,
+  x = 312,
+  y = 61,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "dungeon_room_1_3",
+  layer = 0,
+  x = 312,
+  y = 189,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "dungeon_room_1_4",
+  layer = 0,
+  x = 240,
+  y = 237,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "dungeon_room_2_1",
+  layer = 0,
+  x = 328,
+  y = 61,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "dungeon_room_2_2",
+  layer = 0,
+  x = 328,
+  y = 189,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "dungeon_room_2_3",
+  layer = 0,
+  x = 480,
+  y = 237,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "dungeon_room_2_4",
+  layer = 0,
+  x = 632,
+  y = 189,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "dungeon_room_2_5",
+  layer = 0,
+  x = 632,
+  y = 61,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "dungeon_room_3_1",
+  layer = 0,
+  x = 648,
+  y = 61,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "dungeon_room_3_2",
+  layer = 0,
+  x = 952,
+  y = 61,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "dungeon_room_3_3",
+  layer = 0,
+  x = 952,
+  y = 189,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "dungeon_room_3_4",
+  layer = 0,
+  x = 648,
+  y = 189,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "dungeon_room_4_1",
+  layer = 0,
+  x = 968,
+  y = 61,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "dungeon_room_4_2",
+  layer = 0,
+  x = 968,
+  y = 189,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "dungeon_room_4_3",
+  layer = 0,
+  x = 1120,
+  y = 237,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "dungeon_room_4_4",
+  layer = 0,
+  x = 1272,
+  y = 125,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "dungeon_room_5_1",
+  layer = 0,
+  x = 1288,
+  y = 125,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "dungeon_room_5_2",
+  layer = 0,
+  x = 1360,
+  y = 237,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "dungeon_room_5_3",
+  layer = 0,
+  x = 1520,
+  y = 237,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "dungeon_room_6_1",
+  layer = 0,
+  x = 80,
+  y = 253,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "dungeon_room_6_2",
+  layer = 0,
+  x = 240,
+  y = 253,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "dungeon_room_6_3",
+  layer = 0,
+  x = 160,
+  y = 477,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "dungeon_room_7_1",
+  layer = 0,
+  x = 480,
+  y = 253,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "dungeon_room_7_2",
+  layer = 0,
+  x = 328,
+  y = 605,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "dungeon_room_7_3",
+  layer = 0,
+  x = 480,
+  y = 717,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "dungeon_room_7_4",
+  layer = 0,
+  x = 800,
+  y = 717,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "dungeon_room_7_5",
+  layer = 0,
+  x = 1120,
+  y = 717,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "dungeon_room_7_6",
+  layer = 0,
+  x = 1272,
+  y = 605,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "dungeon_room_7_7",
+  layer = 0,
+  x = 1272,
+  y = 365,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "dungeon_room_7_8",
+  layer = 0,
+  x = 1120,
+  y = 253,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "dungeon_room_7_9",
+  layer = 0,
+  x = 800,
+  y = 253,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "dungeon_room_3_5",
+  layer = 0,
+  x = 800,
+  y = 237,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "dungeon_room_8_1",
+  layer = 0,
+  x = 1360,
+  y = 253,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "dungeon_room_8_2",
+  layer = 0,
+  x = 1288,
+  y = 365,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "dungeon_room_8_3",
+  layer = 0,
+  x = 1520,
+  y = 253,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "dungeon_room_8_4",
+  layer = 0,
+  x = 1440,
+  y = 477,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "dungeon_room_9_1",
+  layer = 0,
+  x = 160,
+  y = 493,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "dungeon_room_9_2",
+  layer = 0,
+  x = 312,
+  y = 605,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "dungeon_room_9_3",
+  layer = 0,
+  x = 160,
+  y = 957,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "dungeon_room_10_1",
+  layer = 0,
+  x = 1288,
+  y = 605,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "dungeon_room_10_2",
+  layer = 0,
+  x = 1440,
+  y = 493,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "dungeon_room_10_3",
+  layer = 0,
+  x = 1440,
+  y = 717,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "dungeon_room_11_1",
+  layer = 0,
+  x = 480,
+  y = 733,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "dungeon_room_11_2",
+  layer = 0,
+  x = 480,
+  y = 957,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "dungeon_room_11_3",
+  layer = 0,
+  x = 632,
+  y = 845,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "dungeon_room_12_1",
+  layer = 0,
+  x = 648,
+  y = 845,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "dungeon_room_12_2",
+  layer = 0,
+  x = 800,
+  y = 733,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "dungeon_room_13_1",
+  layer = 0,
+  x = 1120,
+  y = 733,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "dungeon_room_13_2",
+  layer = 0,
+  x = 1272,
+  y = 845,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "dungeon_room_14_1",
+  layer = 0,
+  x = 1288,
+  y = 845,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "dungeon_room_14_2",
+  layer = 0,
+  x = 1440,
+  y = 733,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "dungeon_room_13_3",
+  layer = 0,
+  x = 1440,
+  y = 957,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "dungeon_room_15_1",
+  layer = 0,
+  x = 160,
+  y = 973,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "dungeon_room_16_1",
+  layer = 0,
+  x = 480,
+  y = 973,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "dungeon_room_16_2",
+  layer = 0,
+  x = 480,
+  y = 1437,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "dungeon_room_17_1",
+  layer = 0,
+  x = 800,
+  y = 1197,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "dungeon_room_17_2",
+  layer = 0,
+  x = 952,
+  y = 1085,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "dungeon_room_18_1",
+  layer = 0,
+  x = 968,
+  y = 1085,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "dungeon_room_18_2",
+  layer = 0,
+  x = 1120,
+  y = 1197,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "dungeon_room_19_1",
+  layer = 0,
+  x = 1440,
+  y = 973,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "dungeon_room_20_1",
+  layer = 0,
+  x = 800,
+  y = 1213,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "dungeon_room_20_2",
+  layer = 0,
+  x = 800,
+  y = 1437,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "dungeon_room_21_1",
+  layer = 0,
+  x = 1120,
+  y = 1213,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "dungeon_room_22_2",
+  layer = 0,
+  x = 480,
+  y = 1453,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "dungeon_room_22_3",
+  layer = 0,
+  x = 632,
+  y = 1501,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "dungeon_room_22_4",
+  layer = 0,
+  x = 632,
+  y = 1629,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "dungeon_room_23_1",
+  layer = 0,
+  x = 648,
+  y = 1501,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "dungeon_room_23_2",
+  layer = 0,
+  x = 648,
+  y = 1629,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "dungeon_room_23_3",
+  layer = 0,
+  x = 952,
+  y = 1501,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "dungeon_room_23_4",
+  layer = 0,
+  x = 952,
+  y = 1629,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "dungeon_room_23_5",
+  layer = 0,
+  x = 800,
+  y = 1453,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "dungeon_room_24_1",
+  layer = 0,
+  x = 968,
+  y = 1501,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "dungeon_room_24_2",
+  layer = 0,
+  x = 968,
+  y = 1629,
+  width = 16,
+  height = 16,
+}
+
+chest{
+  layer = 0,
+  x = 824,
+  y = 493,
+  treasure_name = "boss_key",
+  treasure_savegame_variable = "dungeon_3_boss_key_chest",
+  sprite = "entities/chest",
 }
 
 tile{
@@ -15967,5 +16660,131 @@ dynamic_tile{
   width = 8,
   height = 16,
   enabled_at_start = false,
+}
+
+separator{
+  name = "auto_separator_3",
+  layer = 2,
+  x = 0,
+  y = 232,
+  width = 1600,
+  height = 16,
+}
+
+separator{
+  name = "auto_separator_4",
+  layer = 2,
+  x = 0,
+  y = 472,
+  width = 320,
+  height = 16,
+}
+
+separator{
+  name = "auto_separator_5",
+  layer = 2,
+  x = 1280,
+  y = 472,
+  width = 320,
+  height = 16,
+}
+
+separator{
+  name = "auto_separator_6",
+  layer = 2,
+  x = 320,
+  y = 712,
+  width = 1280,
+  height = 16,
+}
+
+separator{
+  name = "auto_separator_7",
+  layer = 2,
+  x = 0,
+  y = 952,
+  width = 1600,
+  height = 16,
+}
+
+separator{
+  name = "auto_separator_8",
+  layer = 2,
+  x = 640,
+  y = 1192,
+  width = 960,
+  height = 16,
+}
+
+separator{
+  name = "auto_separator_9",
+  layer = 2,
+  x = 0,
+  y = 1192,
+  width = 320,
+  height = 16,
+}
+
+separator{
+  name = "auto_separator_10",
+  layer = 2,
+  x = 320,
+  y = 1432,
+  width = 960,
+  height = 16,
+}
+
+separator{
+  name = "auto_separator_11",
+  layer = 2,
+  x = 312,
+  y = 0,
+  width = 16,
+  height = 1680,
+}
+
+separator{
+  name = "auto_separator_12",
+  layer = 2,
+  x = 632,
+  y = 0,
+  width = 16,
+  height = 240,
+}
+
+separator{
+  name = "auto_separator_13",
+  layer = 2,
+  x = 632,
+  y = 720,
+  width = 16,
+  height = 960,
+}
+
+separator{
+  name = "auto_separator_14",
+  layer = 2,
+  x = 952,
+  y = 720,
+  width = 16,
+  height = 960,
+}
+
+separator{
+  name = "auto_separator_15",
+  layer = 2,
+  x = 952,
+  y = 0,
+  width = 16,
+  height = 240,
+}
+
+separator{
+  name = "auto_separator_16",
+  layer = 2,
+  x = 1272,
+  y = 0,
+  width = 16,
+  height = 1680,
 }
 
