@@ -9946,6 +9946,36 @@ sensor{
   height = 16,
 }
 
+npc{
+  name = "prison_npc_1",
+  layer = 0,
+  x = 1192,
+  y = 301,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/alttp/thief_red",
+}
+
+npc{
+  name = "prison_npc_2",
+  layer = 0,
+  x = 1368,
+  y = 301,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/alttp/thief_green",
+}
+
+npc{
+  name = "prison_npc_3",
+  layer = 0,
+  x = 1512,
+  y = 989,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/alttp/thief_yellow",
+}
+
 tile{
   layer = 1,
   x = 1104,

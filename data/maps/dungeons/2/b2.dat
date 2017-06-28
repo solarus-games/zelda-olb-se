@@ -14430,6 +14430,16 @@ chest{
   sprite = "entities/chest",
 }
 
+npc{
+  name = "final_npc",
+  layer = 0,
+  x = 792,
+  y = 1021,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/alttp/average_middle_aged_man",
+}
+
 tile{
   layer = 1,
   x = 1088,
