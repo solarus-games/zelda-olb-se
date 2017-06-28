@@ -8642,6 +8642,44 @@ tile{
   pattern = "prison_wall.5",
 }
 
+sensor{
+  name = "dungeon_room_10_2",
+  layer = 0,
+  x = 160,
+  y = 1061,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "dungeon_room_12_2",
+  layer = 0,
+  x = 800,
+  y = 1093,
+  width = 16,
+  height = 16,
+}
+
+teletransporter{
+  layer = 0,
+  x = 792,
+  y = 1072,
+  width = 16,
+  height = 16,
+  destination_map = "dungeons/2/b2",
+  destination = "from_b1_se",
+}
+
+teletransporter{
+  layer = 0,
+  x = 152,
+  y = 1056,
+  width = 16,
+  height = 16,
+  destination_map = "dungeons/2/b2",
+  destination = "from_b1_sw",
+}
+
 wall{
   layer = 0,
   x = 936,
@@ -8666,24 +8704,6 @@ sensor{
   layer = 0,
   x = 1120,
   y = 1301,
-  width = 16,
-  height = 16,
-}
-
-sensor{
-  name = "dungeon_room_12_2",
-  layer = 0,
-  x = 800,
-  y = 1093,
-  width = 16,
-  height = 16,
-}
-
-sensor{
-  name = "dungeon_room_10_2",
-  layer = 0,
-  x = 160,
-  y = 1061,
   width = 16,
   height = 16,
 }
@@ -10729,6 +10749,465 @@ dynamic_tile{
   width = 8,
   height = 32,
   enabled_at_start = true,
+}
+
+tile{
+  layer = 2,
+  x = 0,
+  y = 240,
+  width = 320,
+  height = 16,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 0,
+  y = 256,
+  width = 80,
+  height = 224,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 240,
+  y = 256,
+  width = 80,
+  height = 32,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 240,
+  y = 432,
+  width = 80,
+  height = 48,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 320,
+  y = 480,
+  width = 256,
+  height = 32,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 320,
+  y = 512,
+  width = 32,
+  height = 272,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 352,
+  y = 768,
+  width = 112,
+  height = 16,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 320,
+  y = 896,
+  width = 112,
+  height = 64,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 0,
+  y = 960,
+  width = 320,
+  height = 16,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 0,
+  y = 1184,
+  width = 320,
+  height = 16,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 0,
+  y = 976,
+  width = 32,
+  height = 208,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 288,
+  y = 976,
+  width = 32,
+  height = 48,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 288,
+  y = 1136,
+  width = 32,
+  height = 48,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 320,
+  y = 960,
+  width = 112,
+  height = 64,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 416,
+  y = 1024,
+  width = 16,
+  height = 64,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 448,
+  y = 1104,
+  width = 16,
+  height = 16,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 448,
+  y = 1120,
+  width = 48,
+  height = 80,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 416,
+  y = 1088,
+  width = 48,
+  height = 16,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 448,
+  y = 1200,
+  width = 64,
+  height = 48,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 528,
+  y = 928,
+  width = 544,
+  height = 32,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 848,
+  y = 832,
+  width = 48,
+  height = 96,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 640,
+  y = 960,
+  width = 320,
+  height = 32,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 640,
+  y = 992,
+  width = 80,
+  height = 208,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 880,
+  y = 992,
+  width = 80,
+  height = 208,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 720,
+  y = 1152,
+  width = 32,
+  height = 48,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 848,
+  y = 1152,
+  width = 32,
+  height = 48,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 592,
+  y = 960,
+  width = 48,
+  height = 32,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 624,
+  y = 992,
+  width = 16,
+  height = 208,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 960,
+  y = 1232,
+  width = 32,
+  height = 32,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 960,
+  y = 1376,
+  width = 32,
+  height = 48,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 960,
+  y = 1200,
+  width = 320,
+  height = 32,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 960,
+  y = 1424,
+  width = 320,
+  height = 16,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 1248,
+  y = 1232,
+  width = 32,
+  height = 192,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 992,
+  y = 736,
+  width = 192,
+  height = 96,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 1168,
+  y = 896,
+  width = 112,
+  height = 64,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 1168,
+  y = 832,
+  width = 16,
+  height = 64,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 1424,
+  y = 720,
+  width = 176,
+  height = 208,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 1008,
+  y = 480,
+  width = 272,
+  height = 64,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 688,
+  y = 480,
+  width = 64,
+  height = 128,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 848,
+  y = 576,
+  width = 64,
+  height = 144,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 560,
+  y = 608,
+  width = 192,
+  height = 16,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 560,
+  y = 720,
+  width = 352,
+  height = 16,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 448,
+  y = 624,
+  width = 16,
+  height = 48,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 1072,
+  y = 240,
+  width = 32,
+  height = 128,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 1456,
+  y = 240,
+  width = 32,
+  height = 128,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 320,
+  y = 1376,
+  width = 320,
+  height = 64,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 720,
+  y = 1440,
+  width = 32,
+  height = 32,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 848,
+  y = 1440,
+  width = 32,
+  height = 32,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 640,
+  y = 1440,
+  width = 80,
+  height = 192,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 880,
+  y = 1440,
+  width = 80,
+  height = 192,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 640,
+  y = 1632,
+  width = 320,
+  height = 48,
+  pattern = "ceiling.2",
 }
 
 dynamic_tile{
