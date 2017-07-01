@@ -9976,6 +9976,17 @@ npc{
   sprite = "npc/alttp/thief_yellow",
 }
 
+enemy{
+  name = "auto_enemy_8",
+  layer = 0,
+  x = 472,
+  y = 349,
+  direction = 3,
+  breed = "alttp/pikku",
+  treasure_name = "small_key",
+  treasure_savegame_variable = "dungeon_2_b2_small_key_1",
+}
+
 tile{
   layer = 1,
   x = 1104,
