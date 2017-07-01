@@ -47,11 +47,18 @@ function enemy_meta:receive_attack_consequence(attack, reaction)
 end
 
 -- Randomly sets the treasure of the enemy between 3 items.
+-- Does not change anything if the enemy already has a treasure.
 -- item_1: 1/3
 -- item_2: 1/4
 -- item_3: 1/6
 -- nothing: 1/4
 function enemy_meta:set_random_treasures(item_1, item_2, item_3)
+
+  local existing_treasure = self:get_treasure()
+  if existing_treasure ~= nil then
+    -- Treasure already set from the editor.
+    return
+  end
 
   local item = nil
   local random = math.random(12)
