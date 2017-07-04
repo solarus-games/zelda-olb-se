@@ -16,17 +16,10 @@ function sprite:on_animation_finished()
   fire:remove()
 end
 
--- Returns the sprite of a destrucible.
--- TODO remove this when the engine provides a function destructible:get_sprite()
-local function get_destructible_sprite(destructible)
-
-  return fire.get_sprite(destructible)
-end
-
 -- Returns whether a destructible is a bush.
 local function is_bush(destructible)
 
-  local sprite = get_destructible_sprite(destructible)
+  local sprite = destructible:get_sprite()
   if sprite == nil then
     return false
   end

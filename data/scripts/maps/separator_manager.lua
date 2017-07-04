@@ -116,10 +116,7 @@ function separator_manager:manage_map(map)
   end
 
   local function get_destructible_sprite_name(destructible)
-    -- TODO the engine should have a destructible:get_sprite() method.
-    -- As a temporary workaround we use the one of custom entity, fortunately
-    -- it happens to work for all types of entities.
-    local sprite = sol.main.get_metatable("custom_entity").get_sprite(destructible)
+    local sprite = destructible:get_sprite()
     return sprite ~= nil and sprite:get_animation_set() or ""
   end
 
