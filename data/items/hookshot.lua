@@ -86,7 +86,15 @@ function item:on_using()
     entity:set_can_traverse("crystal_block", true)
     entity:set_can_traverse("hero", true)
     entity:set_can_traverse("jumper", true)
-    entity:set_can_traverse("stairs", false)  -- TODO only inner stairs should be obstacle and only when on their lowest layer.
+    entity:set_can_traverse("stairs", function(hookshot, stairs)
+      if not stairs:is_inner() then
+        return false
+      end
+      -- Inner stairs can be traversed if the hookshot is above.
+      local _, _, hookshot_layer = hookshot:get_position()
+      local _, _, stairs_layer = stairs:get_position()
+      return hookshot_layer > stairs_layer
+    end)
     entity:set_can_traverse("stream", true)
     entity:set_can_traverse("switch", true)
     entity:set_can_traverse("teletransporter", true)
@@ -95,7 +103,7 @@ function item:on_using()
     entity:set_can_traverse_ground("hole", true)
     entity:set_can_traverse_ground("lava", true)
     entity:set_can_traverse_ground("prickles", true)
-    entity:set_can_traverse_ground("low_wall", true)  -- Needed for cliffs.
+    entity:set_can_traverse_ground("low_wall", true)  -- Needed for cliffs and inner stairs.
     entity.apply_cliffs = true
   end
 
