@@ -9977,9 +9977,72 @@ npc{
 }
 
 enemy{
+  name = "auto_enemy_3",
+  layer = 0,
+  x = 800,
+  y = 317,
+  direction = 3,
+  breed = "alttp/pikku",
+}
+
+enemy{
+  name = "auto_enemy_4",
+  layer = 0,
+  x = 1120,
+  y = 1133,
+  direction = 3,
+  breed = "alttp/pikku",
+}
+
+enemy{
+  name = "auto_enemy_5",
+  layer = 0,
+  x = 1448,
+  y = 621,
+  direction = 3,
+  breed = "alttp/pikku",
+}
+
+enemy{
+  name = "auto_enemy_6",
+  layer = 0,
+  x = 480,
+  y = 1309,
+  direction = 3,
+  breed = "alttp/pikku",
+}
+
+enemy{
+  name = "auto_enemy_15",
+  layer = 0,
+  x = 792,
+  y = 1309,
+  direction = 3,
+  breed = "alttp/tektite_blue",
+}
+
+enemy{
+  name = "auto_enemy_21",
+  layer = 0,
+  x = 152,
+  y = 733,
+  direction = 3,
+  breed = "alttp/tektite_blue",
+}
+
+enemy{
+  name = "auto_enemy_22",
+  layer = 0,
+  x = 792,
+  y = 669,
+  direction = 3,
+  breed = "alttp/tektite_blue",
+}
+
+enemy{
   name = "auto_enemy_8",
   layer = 0,
-  x = 472,
+  x = 480,
   y = 349,
   direction = 3,
   breed = "alttp/pikku",
@@ -11907,5 +11970,95 @@ separator{
   y = 240,
   width = 16,
   height = 240,
+}
+
+enemy{
+  name = "auto_enemy_49",
+  layer = 2,
+  x = 456,
+  y = 653,
+  direction = 3,
+  breed = "alttp/keese",
+}
+
+enemy{
+  name = "auto_enemy_50",
+  layer = 2,
+  x = 584,
+  y = 621,
+  direction = 3,
+  breed = "alttp/keese",
+}
+
+enemy{
+  name = "auto_enemy_51",
+  layer = 2,
+  x = 696,
+  y = 733,
+  direction = 3,
+  breed = "alttp/keese",
+}
+
+enemy{
+  name = "auto_enemy_52",
+  layer = 2,
+  x = 744,
+  y = 605,
+  direction = 3,
+  breed = "alttp/keese",
+}
+
+enemy{
+  name = "auto_enemy_53",
+  layer = 2,
+  x = 872,
+  y = 653,
+  direction = 3,
+  breed = "alttp/keese",
+}
+
+enemy{
+  name = "auto_enemy_54",
+  layer = 2,
+  x = 872,
+  y = 877,
+  direction = 3,
+  breed = "alttp/keese",
+}
+
+enemy{
+  name = "auto_enemy_55",
+  layer = 2,
+  x = 1000,
+  y = 829,
+  direction = 3,
+  breed = "alttp/keese",
+}
+
+enemy{
+  name = "auto_enemy_56",
+  layer = 2,
+  x = 1112,
+  y = 541,
+  direction = 3,
+  breed = "alttp/keese",
+}
+
+enemy{
+  name = "auto_enemy_57",
+  layer = 2,
+  x = 1176,
+  y = 765,
+  direction = 3,
+  breed = "alttp/keese",
+}
+
+enemy{
+  name = "auto_enemy_58",
+  layer = 2,
+  x = 456,
+  y = 781,
+  direction = 3,
+  breed = "alttp/keese",
 }
 

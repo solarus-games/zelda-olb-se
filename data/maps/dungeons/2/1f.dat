@@ -6036,8 +6036,8 @@ door{
 enemy{
   name = "auto_enemy_auto_door_c_1",
   layer = 0,
-  x = 1384,
-  y = 557,
+  x = 1336,
+  y = 621,
   direction = 3,
   breed = "alttp/tektite_blue",
 }
@@ -6045,8 +6045,8 @@ enemy{
 enemy{
   name = "auto_enemy_auto_door_c_2",
   layer = 0,
-  x = 1496,
-  y = 557,
+  x = 1528,
+  y = 621,
   direction = 3,
   breed = "alttp/tektite_blue",
 }
@@ -6054,8 +6054,8 @@ enemy{
 enemy{
   name = "auto_enemy_auto_door_c_3",
   layer = 0,
-  x = 1440,
-  y = 621,
+  x = 1432,
+  y = 573,
   direction = 3,
   breed = "alttp/tektite_blue",
 }
@@ -7076,6 +7076,42 @@ stairs{
   y = 1536,
   direction = 3,
   subtype = 3,
+}
+
+enemy{
+  name = "auto_enemy_1",
+  layer = 0,
+  x = 792,
+  y = 797,
+  direction = 1,
+  breed = "alttp/tektite_blue",
+}
+
+enemy{
+  name = "auto_enemy_2",
+  layer = 0,
+  x = 1128,
+  y = 909,
+  direction = 1,
+  breed = "alttp/tektite_blue",
+}
+
+enemy{
+  name = "auto_enemy_4",
+  layer = 0,
+  x = 1480,
+  y = 925,
+  direction = 1,
+  breed = "alttp/tektite_blue",
+}
+
+enemy{
+  name = "auto_enemy_5",
+  layer = 0,
+  x = 1480,
+  y = 125,
+  direction = 1,
+  breed = "alttp/keese",
 }
 
 tile{
@@ -8190,5 +8226,91 @@ dynamic_tile{
   width = 8,
   height = 16,
   enabled_at_start = false,
+}
+
+enemy{
+  name = "auto_enemy_8",
+  layer = 2,
+  x = 856,
+  y = 61,
+  direction = 1,
+  breed = "alttp/keese",
+}
+
+enemy{
+  name = "auto_enemy_7",
+  layer = 2,
+  x = 960,
+  y = 61,
+  direction = 1,
+  breed = "alttp/keese",
+}
+
+enemy{
+  name = "auto_enemy_6",
+  layer = 2,
+  x = 1064,
+  y = 61,
+  direction = 1,
+  breed = "alttp/keese",
+}
+
+enemy{
+  name = "auto_enemy_9",
+  layer = 2,
+  x = 856,
+  y = 189,
+  direction = 1,
+  breed = "alttp/keese",
+}
+
+enemy{
+  name = "auto_enemy_10",
+  layer = 2,
+  x = 960,
+  y = 189,
+  direction = 1,
+  breed = "alttp/keese",
+}
+
+enemy{
+  name = "auto_enemy_11",
+  layer = 2,
+  x = 1064,
+  y = 189,
+  direction = 1,
+  breed = "alttp/keese",
+}
+
+enemy{
+  layer = 2,
+  x = 1104,
+  y = 861,
+  direction = 1,
+  breed = "alttp/keese",
+}
+
+enemy{
+  layer = 2,
+  x = 1240,
+  y = 861,
+  direction = 1,
+  breed = "alttp/keese",
+}
+
+enemy{
+  layer = 2,
+  x = 1376,
+  y = 861,
+  direction = 1,
+  breed = "alttp/keese",
+}
+
+enemy{
+  layer = 2,
+  x = 1552,
+  y = 765,
+  direction = 1,
+  breed = "alttp/keese",
 }
 
