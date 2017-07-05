@@ -1,4 +1,26 @@
--- Converts C++ code from OLB to Solarus entities.
+-- Converts C++ code fragments from ROTH/OLB/3T to Solarus entities.
+
+-- This script is useful to reproduce entities that are not in map data files
+-- but only specified in the C++ code in the original game.
+-- This is the case of enemies and treasures, destructible objects
+-- chests and blocks for example.
+
+-- This script currently handles the following types of entities:
+-- - Enemies
+-- - Destructibles
+
+-- TODO:
+-- - check enemy offsets
+-- - add support of destructibles other than vases
+-- - add support of chests and blocks
+-- - test outside maps
+
+-- The input code is read from stdin and should contain some
+-- ajouteEnnemi/ajouteObjet lines from Monde.cpp of the original game.
+-- You are supposed to only provide the ones from the map you are interested in.
+
+-- The output is written to stdout. It can be directly pasted to a map
+-- open in Solarus Quest Editor.
 
 local src = io.read("*a")
 
@@ -29,7 +51,8 @@ local treasures = {
   -- TODO
 }
 
--- Converts an enemy number from OLB to an enemy breed for OLB SE.
+-- Converts an enemy number from ROTH/OLB/3T to an enemy breed for a
+-- Solarus quest.
 local function enemy_id_to_breed(enemy_id)
 
   assert(enemy_id ~= nil)
@@ -84,7 +107,8 @@ local function write_enemies(enemies)
   end
 end
 
--- Converts a treasure type from OLB to a treasure name and variant for OLB SE.
+-- Converts an item type from ROTH/OLB/3T to a treasure name and variant for a
+-- Solarus quest.
 local function pickable_id_to_treasure(pickable_id)
 
   assert(pickable_id ~= nil)
