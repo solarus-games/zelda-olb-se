@@ -14227,6 +14227,8 @@ enemy{
   y = 1069,
   direction = 3,
   breed = "alttp/pikku",
+  treasure_name = "small_key",
+  treasure_savegame_variable = "dungeon_2_b2_small_key_1",
 }
 
 enemy{
@@ -14257,7 +14259,7 @@ enemy{
 }
 
 enemy{
-  name = "auto_enemy_10",
+  name = "auto_enemy_auto_door_k",
   layer = 0,
   x = 728,
   y = 797,
@@ -14266,7 +14268,7 @@ enemy{
 }
 
 enemy{
-  name = "auto_enemy_11",
+  name = "auto_enemy_auto_door_k_2",
   layer = 0,
   x = 872,
   y = 797,
@@ -14636,6 +14638,26 @@ destructible{
   layer = 0,
   x = 280,
   y = 1005,
+  sprite = "entities/vase",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
+}
+
+destructible{
+  name = "auto_destructible_7",
+  layer = 0,
+  x = 680,
+  y = 765,
+  sprite = "entities/vase",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
+}
+
+destructible{
+  name = "auto_destructible_8",
+  layer = 0,
+  x = 920,
+  y = 765,
   sprite = "entities/vase",
   destruction_sound = "stone",
   damage_on_enemies = 2,

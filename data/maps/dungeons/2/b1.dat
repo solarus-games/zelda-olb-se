@@ -9797,7 +9797,7 @@ npc{
 }
 
 enemy{
-  name = "auto_enemy_3",
+  name = "auto_enemy_auto_door_e",
   layer = 0,
   x = 800,
   y = 317,
@@ -9815,7 +9815,7 @@ enemy{
 }
 
 enemy{
-  name = "auto_enemy_5",
+  name = "auto_enemy_auto_door_f",
   layer = 0,
   x = 1448,
   y = 621,
@@ -9833,7 +9833,7 @@ enemy{
 }
 
 enemy{
-  name = "auto_enemy_15",
+  name = "auto_enemy_auto_door_h",
   layer = 0,
   x = 792,
   y = 1309,
@@ -9867,7 +9867,7 @@ enemy{
   direction = 3,
   breed = "alttp/pikku",
   treasure_name = "small_key",
-  treasure_savegame_variable = "dungeon_2_b2_small_key_1",
+  treasure_savegame_variable = "dungeon_2_b1_small_key_1",
 }
 
 destructible{
