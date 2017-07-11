@@ -1637,7 +1637,7 @@ chest{
 }
 
 destination{
-  name = "from_hyrule",
+  name = "from_intro",
   layer = 0,
   x = 160,
   y = 93,

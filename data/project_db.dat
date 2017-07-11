@@ -18,6 +18,7 @@ map{ id = "house_store", description = "House Store" }
 map{ id = "houses/monster_house/1f", description = "Monster house 1F" }
 map{ id = "houses/monster_house/b1", description = "Monster house B1" }
 map{ id = "houses/pit_house", description = "Pit house" }
+map{ id = "intro", description = "Intro" }
 map{ id = "out/a1", description = "A1 (Mountains)" }
 map{ id = "out/a2", description = "A2 (Mido)" }
 map{ id = "out/a3", description = "A3 (Graveyard)" }

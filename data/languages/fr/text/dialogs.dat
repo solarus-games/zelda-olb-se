@@ -505,6 +505,53 @@ supplémentaire !!!
 }
 
 dialog{
+  id = "intro.fresco_1",
+  text = [[
+Après la défaite de Ganon et la
+disparition de la Triforce, la légende
+laisse croire que la paix dura...
+
+Mais derrière chaque légende se cache
+souvent une plus sombre réalité...
+]]
+}
+
+dialog{
+  id = "intro.fresco_2",
+  text = [[
+La légende oublie qu'à la suite de ces
+évènements son héros fut frappé par une
+terrible malédiction...
+]]
+}
+
+dialog{
+  id = "intro.fresco_3",
+  text = [[
+Jour après jour, Link se transformait en
+un monstre au pouvoir destructeur
+incontrôlable surnommé Oni-Link...
+]]
+}
+
+dialog{
+  id = "intro.fresco_4",
+  text = [[
+Banni d'Hyrule, Link demanda conseil à
+la Princesse Zelda.
+]]
+}
+
+dialog{
+  id = "intro.fresco_5",
+  text = [[
+Cette dernière lui indiqua son tout
+dernier espoir : un portail vers un
+monde secret...
+]]
+}
+
+dialog{
   id = "not_enough_money",
   text = [[
 Désolé, mais tu n'as pas assez de rubis.

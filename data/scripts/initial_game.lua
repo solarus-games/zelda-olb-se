@@ -12,7 +12,7 @@ local initial_game = {}
 -- Sets initial values to a new savegame file.
 function initial_game:initialize_new_savegame(game)
 
-  game:set_starting_location("caves/portal_cave")  -- TODO intro
+  game:set_starting_location("intro")
   game:set_max_money(999)  -- TODO check this
   game:set_max_life(6)
   game:set_life(game:get_max_life())
