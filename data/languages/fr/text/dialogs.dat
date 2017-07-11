@@ -505,6 +505,24 @@ supplémentaire !!!
 }
 
 dialog{
+  id = "intro.arriving_portal_cave",
+  text = [[
+Oui... C'est par ici...
+Nous y sommes presque...
+
+
+Je suis désolée que tu ne puisses pas
+emmener d'armes... Mais tu comprends...
+Tu risques de te transformer à tout
+moment... Ce serait trop dangereux...
+Ca y est ! C'est ici ! Ne bouge plus,
+j'active le portail...
+
+Est-ce que tu es prêt ?
+]]
+}
+
+dialog{
   id = "intro.fresco_1",
   text = [[
 Après la défaite de Ganon et la

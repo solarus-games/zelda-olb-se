@@ -56,17 +56,18 @@ end
 local function next_fresco()
 
 
-  if fresco_index < #frescos then
-    fresco_index = fresco_index + 1
+  fresco_index = fresco_index + 1
+  if fresco_index <= #frescos then
     game:start_dialog("intro.fresco_" .. fresco_index, next_fresco)
   else
     -- Restore usual settings.
     game:get_dialog_box():set_style("box")
     game:get_dialog_box():set_position("bottom")
-    hero:unfreeze()
-
-    -- Go to the first map.
-    hero:teleport("caves/portal_cave", "from_intro")
+    game:start_dialog("intro.arriving_portal_cave", function()
+      hero:unfreeze()
+      -- Go to the first map.
+      hero:teleport("caves/portal_cave", "from_intro")
+    end)
   end
 end
 
@@ -84,6 +85,12 @@ end
 
 function map:on_draw(dst_surface)
 
+  if fresco_index <= 0 or fresco_index > #frescos then
+    -- Not displaying a fresco.
+    dst_surface:fill_color({0, 0, 0})
+    return
+  end
+
   -- Scrolling backgrounds.
   for y = -bg2_height, map_height + bg2_height, bg2_height do
     for x = -bg2_width, map_width + bg2_width, bg2_width do
@@ -98,9 +105,7 @@ function map:on_draw(dst_surface)
   end
 
   -- Fresco.
-  if fresco_index > 0 and fresco_index <= #frescos then
-    frescos[fresco_index]:draw(dst_surface)
-  end
+  frescos[fresco_index]:draw(dst_surface)
 
   -- Dialog box background.
   dialog_background_img:draw(dst_surface)
