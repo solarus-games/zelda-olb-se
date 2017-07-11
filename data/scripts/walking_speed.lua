@@ -38,6 +38,10 @@ local function game_on_key_pressed_or_released(game, key)
     return false
   end
 
+  if not game:has_item("pegasus_shoes") then
+    return false
+  end
+
   local handled = false
   if key == game:get_value("keyboard_run")
       or key == "caps lock" then
@@ -54,6 +58,10 @@ local function game_on_joypad_button_pressed_or_released(game, button)
   if game.customizing_command then
   -- Don't treat this input normally, it will be recorded as a new command binding
   -- by the commands menu.
+    return false
+  end
+
+  if not game:has_item("pegasus_shoes") then
     return false
   end
 

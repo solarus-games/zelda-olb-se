@@ -1684,6 +1684,15 @@ teletransporter{
   destination = "_side",
 }
 
+chest{
+  layer = 0,
+  x = 1048,
+  y = 317,
+  treasure_name = "pegasus_shoes",
+  treasure_savegame_variable = "out_e4_pegasus_shoes_chest",
+  sprite = "entities/chest",
+}
+
 tile{
   layer = 1,
   x = 264,
@@ -11379,6 +11388,22 @@ teletransporter{
   height = 16,
   destination_map = "dungeons/1/1f",
   destination = "from_outside",
+}
+
+pickable{
+  layer = 1,
+  x = 152,
+  y = 77,
+  treasure_name = "piece_of_heart",
+  treasure_savegame_variable = "out_e4_piece_of_heart_a",
+}
+
+pickable{
+  layer = 1,
+  x = 1224,
+  y = 909,
+  treasure_name = "piece_of_heart",
+  treasure_savegame_variable = "out_e4_piece_of_heart_b",
 }
 
 tile{

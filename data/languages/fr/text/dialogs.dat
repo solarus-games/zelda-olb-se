@@ -369,6 +369,15 @@ Ta défense vient d'augmenter !!!
 }
 
 dialog{
+  id = "_treasure.pegasus_shoes.1",
+  text = [[
+Tu as trouvé les bottes de Pégases !!!
+Maintiens Shift ou verrouille les majuscules
+pour courir.
+]]
+}
+
+dialog{
   id = "_treasure.piece_of_heart.1",
   text = [[
 Tu as trouvé un quart de coeur !!!

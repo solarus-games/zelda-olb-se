@@ -518,6 +518,7 @@ item{ id = "map", description = "Dungeon map" }
 item{ id = "monsters_encyclopedia", description = "Monsters Encyclopedia" }
 item{ id = "mudora_book", description = "Mudora's book" }
 item{ id = "nayru_medallion", description = "Nayru medallion" }
+item{ id = "pegasus_shoes", description = "Pegasus shoes" }
 item{ id = "piece_of_heart", description = "Piece of heart" }
 item{ id = "random", description = "Random" }
 item{ id = "random_heart", description = "Random, often heart" }

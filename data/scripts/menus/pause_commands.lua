@@ -117,7 +117,7 @@ function commands_manager:new(game)
     },
     {
       name = "run",
-      unlocked = true,
+      unlocked = game:has_item("pegasus_shoes"),
       customizable = true,
     },
     {
