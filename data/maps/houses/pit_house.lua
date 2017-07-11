@@ -10,15 +10,10 @@
 local map = ...
 local game = map:get_game()
 
--- Event called at initialization time, as soon as this map becomes is loaded.
-function map:on_started()
+function pit:on_interaction()
 
-  -- You can initialize the movement and sprites of various
-  -- map entities here.
-end
-
--- Event called after the opening transition effect of the map,
--- that is, when the player takes control of the hero.
-function map:on_opening_transition_finished()
-
+  if not game:is_dungeon_finished(1) then
+    game:start_dialog("houses.pit_house.go_dungeon_1")
+    game:set_value("pit_house_talked", true)
+  end
 end

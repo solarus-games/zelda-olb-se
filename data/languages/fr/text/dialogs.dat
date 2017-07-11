@@ -505,6 +505,33 @@ supplémentaire !!!
 }
 
 dialog{
+  id = "houses.pit_house.go_dungeon_1",
+  text = [[
+Tu dois te demander où tu es.
+Ici c'est Termina, et tu n'as pas besoin d'en
+savoir plus à ce sujet...
+
+C'est une terre secrète qui aurait dû le rester,
+la princesse Zelda n'aurait jamais dû t'envoyer
+ici...
+
+Plus précisément tu te trouves dans la forêt de
+Termina. Dans cette forêt se trouve un temple,
+et dans ce temple se trouve un objet sacré
+capable de conjurer n'importe quel maléfice...
+Trouve cet objet, puis reviens me voir.
+J'ouvrirai le portail à nouveau pour que tu
+puisses repartir.
+
+Une dernière chose, ne quitte la forêt à aucun
+prix ! Ta présence ici est secrète, et de plus,
+dans ton état tu constitues une menace pour tous
+ceux que tu croises...
+Bonne chance Link !
+]]
+}
+
+dialog{
   id = "intro.arriving_portal_cave",
   text = [[
 Oui... C'est par ici...
@@ -577,6 +604,22 @@ Désolé, mais tu n'as pas assez de rubis.
 }
 
 dialog{
+  id = "out.e4.dungeon_1_sign",
+  text = [[
+Temple de Firone
+
+Sauvez les arbres, mangez du castor !
+]]
+}
+
+dialog{
+  id = "out.e4.go_pit_house",
+  text = [[
+Pit t'attend dans la maison juste à côté.
+]]
+}
+
+dialog{
   id = "out.e4.pit_hello",
   text = [[
 Bonjour Link, je t'attendais.
@@ -587,6 +630,15 @@ Elle m'a prévenu de ton arrivée et m'a demandé
 de t'aider.
 Ma maison est juste à côté, nous serons mieux
 pour parler, suis-moi.
+]]
+}
+
+dialog{
+  id = "out.e4.portal_cave_sign",
+  text = [[
+Grotte du portail scellé.
+
+Entrée interdite.
 ]]
 }
 

@@ -28,3 +28,12 @@ function map:on_opening_transition_finished(destination)
     end
   end
 end
+
+function go_pit_house_sensor:on_activated()
+
+  if not game:get_value("pit_house_talked") then
+    game:start_dialog("out.e4.go_pit_house", function()
+      hero:walk("22")
+    end)
+  end
+end

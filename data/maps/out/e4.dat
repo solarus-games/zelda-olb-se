@@ -10775,6 +10775,7 @@ npc{
   direction = 3,
   subtype = 0,
   sprite = "entities/sign",
+  behavior = "dialog#out.e4.dungeon_1_sign",
 }
 
 destructible{
@@ -13725,6 +13726,7 @@ npc{
   direction = 3,
   subtype = 0,
   sprite = "entities/sign",
+  behavior = "dialog#out.e4.portal_cave_sign",
 }
 
 npc{
@@ -13780,6 +13782,15 @@ wall{
   stops_enemies = true,
   stops_blocks = true,
   stops_projectiles = true,
+}
+
+sensor{
+  name = "go_pit_house_sensor",
+  layer = 2,
+  x = 568,
+  y = 325,
+  width = 32,
+  height = 16,
 }
 
 tile{
