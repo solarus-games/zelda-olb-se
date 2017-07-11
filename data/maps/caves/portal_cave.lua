@@ -13,12 +13,22 @@ local game = map:get_game()
 -- Event called at initialization time, as soon as this map becomes is loaded.
 function map:on_started()
 
-  -- You can initialize the movement and sprites of various
-  -- map entities here.
 end
 
--- Event called after the opening transition effect of the map,
--- that is, when the player takes control of the hero.
-function map:on_opening_transition_finished()
+function map:on_opening_transition_finished(destination)
 
+  if destination == from_intro then
+    if not game:get_value("portal_cave_tutorial_1") then
+      game:start_dialog("caves.portal_cave.help")
+      game:set_value("portal_cave_tutorial_1", true)
+    end
+  end
+end
+
+function tutorial_sensor:on_activated()
+
+  if not game:get_value("portal_cave_tutorial_2") then
+    game:start_dialog("caves.portal_cave.tutorial", game:get_command_keyboard_binding("action"))
+    game:set_value("portal_cave_tutorial_2", true)
+  end
 end

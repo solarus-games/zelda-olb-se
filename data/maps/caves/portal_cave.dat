@@ -1645,6 +1645,15 @@ destination{
   default = true,
 }
 
+sensor{
+  name = "tutorial_sensor",
+  layer = 0,
+  x = 160,
+  y = 253,
+  width = 16,
+  height = 16,
+}
+
 tile{
   layer = 1,
   x = 112,
