@@ -81,27 +81,6 @@ local function initialize_dungeon_features(game)
     game:set_value("dungeon_" .. dungeon_index .. "_finished", finished)
   end
 
-  function game:has_all_crystals()
-
-    for i = 1, 7 do
-      if not game:is_dungeon_finished(i) then
-        return false
-      end
-    end
-    return true
-  end
-
-  function game:get_num_crystals()
-
-    local num_finished = 0
-    for i = 1, 7 do
-      if game:is_dungeon_finished(i) then
-        num_finished = num_finished + 1
-      end
-    end
-    return num_finished
-  end
-
   function game:has_dungeon_map(dungeon_index)
 
     dungeon_index = dungeon_index or game:get_dungeon_index()
