@@ -26,6 +26,7 @@ local src = io.read("*a")
 
 local enemy_breeds = {
   ["3"] = "alttp/tektite_blue",
+  ["4"] = "alttp/popo",
   ["8"] = "alttp/pikku",
   ["18"] = "alttp/keese",
   -- TODO
@@ -78,7 +79,7 @@ end
 -- Returns a table of enemy descriptions with their properties.
 local function parse_enemies(src)
   local enemies = {}
-  for enemy_id, x, y in src:gmatch("ajouteEnnemi%(([0-9]*), *([-+*0-9]*), *([-+*0-9]*)\)") do
+  for enemy_id, x, y in src:gmatch("ajouteEnnemi%(([0-9]*), *([-+*0-9]*), *([-+*0-9]*)%)") do
     local enemy = {}
     enemy.name = "auto_enemy_" .. (#enemies + 1)
     enemy.x = evaluate_math(x)
