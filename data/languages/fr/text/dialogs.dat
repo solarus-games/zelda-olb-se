@@ -577,6 +577,20 @@ Désolé, mais tu n'as pas assez de rubis.
 }
 
 dialog{
+  id = "out.e4.pit_hello",
+  text = [[
+Bonjour Link, je t'attendais.
+
+Je m'appelle Pit, j'ai été chargé de surveiller
+cette grotte par la princesse Zelda.
+Elle m'a prévenu de ton arrivée et m'a demandé
+de t'aider.
+Ma maison est juste à côté, nous serons mieux
+pour parler, suis-moi.
+]]
+}
+
+dialog{
   id = "potion_not_needed",
   text = [[
 Tu n'as pas besoin de boire cette potion

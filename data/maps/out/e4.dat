@@ -13732,7 +13732,7 @@ npc{
   layer = 2,
   x = 480,
   y = 261,
-  direction = 3,
+  direction = 1,
   subtype = 1,
   sprite = "npc/pit",
 }
