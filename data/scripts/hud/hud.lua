@@ -10,9 +10,8 @@ local hud_config = require("scripts/hud/hud_config")
 local function initialize_hud_features(game)
 
   if game.set_hud_enabled ~= nil then
-    -- Already done.
-    game:set_hud_enabled(true)
-    return
+    -- Close the previous HUD after game-over.
+    game:set_hud_enabled(false)
   end
 
   -- Set up the HUD.
@@ -49,17 +48,15 @@ local function initialize_hud_features(game)
   -- Enables or disables the HUD.
   function hud:set_enabled(enabled)
 
-    if enabled ~= hud.enabled then
-      hud.enabled = enabled
+    hud.enabled = enabled
 
-      for _, menu in ipairs(hud.elements) do
-        if enabled then
-          -- Start each HUD element.
-          sol.menu.start(game, menu)
-        else
-          -- Stop each HUD element.
-          sol.menu.stop(menu)
-        end
+    for _, menu in ipairs(hud.elements) do
+      if enabled then
+        -- Start each HUD element.
+        sol.menu.start(game, menu)
+      else
+        -- Stop each HUD element.
+        sol.menu.stop(menu)
       end
     end
   end
