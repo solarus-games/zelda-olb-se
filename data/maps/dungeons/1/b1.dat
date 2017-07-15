@@ -7271,11 +7271,13 @@ wall{
 }
 
 door{
+  name = "door_a_2",
   layer = 0,
   x = 152,
   y = 696,
   direction = 3,
   sprite = "entities/doors/door_d1_small_key",
+  savegame_variable = "dungeon_1_b1_door_a",
   opening_method = "interaction_if_savegame_variable",
   opening_condition = "dungeon_1_small_keys",
   opening_condition_consumed = true,
@@ -7283,6 +7285,7 @@ door{
 }
 
 door{
+  name = "door_a",
   layer = 0,
   x = 152,
   y = 728,

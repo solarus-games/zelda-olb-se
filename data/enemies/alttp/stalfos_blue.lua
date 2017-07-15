@@ -8,16 +8,14 @@ local behavior = require("enemies/lib/towards_hero")
 
 local properties = {
   sprite = "enemies/" .. enemy:get_breed(),
-  life = 1,
-  damage = 0,
+  life = 3,
+  damage = 2,
   normal_speed = 40,
   faster_speed = 40,
 }
 
 behavior:create(enemy, properties)
 
-enemy:set_life(3)
-enemy:set_damage(2)
 enemy:set_random_treasures(
   { "rupee", 1 },
   { "bomb", 1 },

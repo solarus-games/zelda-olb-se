@@ -12,6 +12,6 @@ function map:on_started(destination)
   if destination == from_1f_n then
     map:set_doors_open("auto_door_c")
   elseif destination == from_1f_w or destination == from_1f_sw then
-    map:set_doors_open("auto_door_d")
+    map:set_doors_open("auto_door_d", false)
   end
 end

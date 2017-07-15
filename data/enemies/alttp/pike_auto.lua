@@ -61,3 +61,11 @@ function enemy:on_position_changed()
   end
 end
 
+function enemy:on_attacking_hero(hero, enemy_sprite)
+
+  if enemy:get_distance(hero) > 12 then
+    return
+  end
+
+  hero:start_hurt(enemy, enemy_sprite, enemy:get_damage())
+end
