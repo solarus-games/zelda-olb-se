@@ -771,7 +771,7 @@ enemy{
 enemy{
   name = "auto_enemy_18",
   layer = -1,
-  x = 808,
+  x = 816,
   y = 397,
   direction = 3,
   breed = "alttp/pike_auto",
@@ -780,7 +780,7 @@ enemy{
 enemy{
   name = "auto_enemy_19",
   layer = -1,
-  x = 824,
+  x = 832,
   y = 605,
   direction = 3,
   breed = "alttp/pike_auto",
