@@ -16,6 +16,7 @@ function initial_game:initialize_new_savegame(game)
   game:set_max_money(999)  -- TODO check this
   game:set_max_life(6)
   game:set_life(game:get_max_life())
+  game:get_item("tunic"):set_variant(1)
   game:set_value("force", 0)
   game:set_value("defense", 0)
   game:set_value("keyboard_commands", "f1")
