@@ -529,6 +529,24 @@ enemy{
 
 tile{
   layer = 0,
+  x = 1280,
+  y = 264,
+  width = 24,
+  height = 160,
+  pattern = "wall.3-5",
+}
+
+tile{
+  layer = 0,
+  x = 936,
+  y = 88,
+  width = 24,
+  height = 64,
+  pattern = "wall.4-5",
+}
+
+tile{
+  layer = 0,
   x = 1336,
   y = 696,
   width = 208,
@@ -5623,15 +5641,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 1280,
-  y = 264,
-  width = 24,
-  height = 160,
-  pattern = "wall.3-5",
-}
-
-tile{
-  layer = 0,
   x = 1304,
   y = 424,
   width = 96,
@@ -6357,15 +6366,6 @@ tile{
   width = 24,
   height = 24,
   pattern = "wall.corner.4-5",
-}
-
-tile{
-  layer = 0,
-  x = 936,
-  y = 88,
-  width = 24,
-  height = 64,
-  pattern = "wall.4-5",
 }
 
 tile{

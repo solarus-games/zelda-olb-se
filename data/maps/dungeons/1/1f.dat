@@ -6985,7 +6985,7 @@ wall{
 }
 
 door{
-  name = "door_c_back",
+  name = "auto_door_c_back",
   layer = 0,
   x = 616,
   y = 112,
@@ -6994,7 +6994,7 @@ door{
 }
 
 door{
-  name = "door_c",
+  name = "auto_door_c",
   layer = 0,
   x = 648,
   y = 112,
