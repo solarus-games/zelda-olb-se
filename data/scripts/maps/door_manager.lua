@@ -47,7 +47,7 @@ function door_manager:open_when_enemies_dead(door)
   local function enemy_on_dead()
     if door:is_closed() and not has_entities_with_prefix_in_region(map, enemy_prefix) then
       sol.audio.play_sound("secret")
-      map:open_doors(door_prefix)
+      map:open_doors_until_world_changes(door_prefix)
     end
   end
 
@@ -63,9 +63,14 @@ function door_manager:open_when_switch_activated(door)
   local switch_name = "auto_switch_" .. door_prefix
   local switch = map:get_entity(switch_name)
   if switch ~= nil then
-    function switch:on_activated()
+    switch:register_event("on_activated", function()
       sol.audio.play_sound("secret")
       map:open_doors(door_prefix)
+    end)
+
+    if door:is_open() then
+      -- Door saved in state open.
+      switch:set_activated(true)
     end
   end
 end

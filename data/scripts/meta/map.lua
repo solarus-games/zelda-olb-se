@@ -43,4 +43,39 @@ function map_meta:move_camera(x, y, speed, callback, delay_before, delay_after)
   end)
 end
 
+function map_meta:open_doors_until_world_changes(door_prefix)
+
+  local map = self
+  local game = map:get_game()
+  local map_id = map:get_id()
+
+  map:open_doors(door_prefix)
+  game.world_persistent_doors = game.world_persistent_doors or {}
+  game.world_persistent_doors[map_id] = game.world_persistent_doors[map_id] or {}
+  local prefixes = game.world_persistent_doors[map_id]
+  prefixes[door_prefix] = true
+end
+
+-- Reset world local doors states if the world changes.
+local game_meta = sol.main.get_metatable("game")
+game_meta:register_event("notify_world_changed", function(game, previous_world, new_world)
+  game.world_persistent_doors = nil
+end)
+
+game_meta:register_event("on_map_changed", function(game, map)
+
+  if game.world_persistent_doors == nil then
+    return
+  end
+
+  local map_id = map:get_id()
+  if game.world_persistent_doors[map_id] == nil then
+    return
+  end
+
+  for prefix in pairs(game.world_persistent_doors[map_id]) do
+    map:set_doors_open(prefix, true)
+  end
+end)
+
 return true

@@ -123,16 +123,6 @@ torch:add_collision_test("overlapping", on_collision)
 
 -- Reset torches info if the world changes.
 local game_meta = sol.main.get_metatable("game")
-game_meta:register_event("on_map_changed", function(game)
-
-  -- TODO the engine should have an event game:on_world_changed().
-  local map = game:get_map()
-  local new_world = map:get_world()
-  local world_changed = previous_world == nil or
-      new_world == nil or
-      new_world ~= previous_world
-  if world_changed then
-    game.lit_torches_by_map = nil
-  end
-  game.previous_world = new_world
+game_meta:register_event("notify_world_changed", function(game, previous_world, new_world)
+  game.lit_torches_by_map = nil
 end)

@@ -7071,6 +7071,7 @@ wall{
 }
 
 door{
+  name = "auto_door_h",
   layer = 0,
   x = 1256,
   y = 832,
@@ -7079,6 +7080,7 @@ door{
 }
 
 door{
+  name = "auto_door_h_2",
   layer = 0,
   x = 1288,
   y = 832,
@@ -8133,7 +8135,7 @@ stairs{
 }
 
 enemy{
-  name = "auto_enemy_auto_door_c_2",
+  name = "auto_enemy_auto_door_h",
   layer = 0,
   x = 1120,
   y = 861,

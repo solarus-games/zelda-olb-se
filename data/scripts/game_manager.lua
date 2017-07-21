@@ -147,4 +147,28 @@ function game_manager:create(file)
   return game
 end
 
+-- TODO the engine should have an event game:on_world_changed().
+local game_meta = sol.main.get_metatable("game")
+game_meta:register_event("on_map_changed", function(game)
+
+  local map = game:get_map()
+  local new_world = map:get_world()
+  local previous_world = game.previous_world
+  local world_changed = previous_world == nil or
+      new_world == nil or
+      new_world ~= previous_world
+  game.previous_world = new_world
+  if world_changed then
+    if game.notify_world_changed ~= nil then
+      game:notify_world_changed(previous_world, new_world)
+    end
+  end
+end)
+
+game_meta:register_event("on_game_over_started", function(game)
+  -- Reset the previous world info on game-over
+  -- so that notify_world_changes gets called.
+  game.previous_world = nil
+end)
+
 return game_manager
