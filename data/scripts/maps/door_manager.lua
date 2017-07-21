@@ -54,7 +54,7 @@ function door_manager:open_when_enemies_dead(door)
   end
 
   for enemy in map:get_entities(enemy_prefix) do
-    enemy.on_dead = enemy_on_dead
+    enemy:register_event("on_dead", enemy_on_dead)
   end
 end
 
