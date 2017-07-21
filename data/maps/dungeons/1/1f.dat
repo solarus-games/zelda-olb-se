@@ -8532,53 +8532,6 @@ sensor{
   height = 16,
 }
 
-pickable{
-  layer = 0,
-  x = 760,
-  y = 829,
-  treasure_name = "heart",
-}
-
-pickable{
-  layer = 0,
-  x = 792,
-  y = 845,
-  treasure_name = "piece_of_heart",
-  treasure_savegame_variable = "test",
-}
-
-enemy{
-  name = "auto_enemy_1",
-  layer = 0,
-  x = 760,
-  y = 781,
-  direction = 3,
-  breed = "alttp/popo",
-}
-
-enemy{
-  name = "auto_enemy_2",
-  layer = 0,
-  x = 808,
-  y = 781,
-  direction = 3,
-  breed = "alttp/keese",
-  treasure_name = "small_key",
-  treasure_savegame_variable = "test2",
-}
-
-enemy{
-  name = "auto_enemy_3",
-  layer = 0,
-  x = 848,
-  y = 781,
-  direction = 3,
-  breed = "alttp/stalfos_blue",
-  savegame_variable = "test4",
-  treasure_name = "magic_crystal",
-  treasure_savegame_variable = "test3",
-}
-
 tile{
   layer = 1,
   x = 120,
