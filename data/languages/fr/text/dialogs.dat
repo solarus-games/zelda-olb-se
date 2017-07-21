@@ -482,6 +482,15 @@ Souhaites-tu sauvegarder ta partie ?
 }
 
 dialog{
+  id = "dungeons.1.welcome",
+  text = [[
+                   Niveau 1
+
+               Temple de Firone
+]]
+}
+
+dialog{
   id = "found_piece_of_heart.first",
   text = [[
 Encore 3 et tu gagneras un coeur

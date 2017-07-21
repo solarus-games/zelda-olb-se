@@ -151,6 +151,17 @@ local function initialize_dungeon_features(game)
     )
   end
 
+  -- Show the dungeon name when entering a dungeon.
+  game:register_event("notify_world_changed", function()
+    local dungeon_index = game:get_dungeon_index()
+    if dungeon_index ~= nil then
+      local map = game:get_map()
+      map:register_event("on_opening_transition_finished", function()
+        game:start_dialog("dungeons." .. dungeon_index .. ".welcome")
+      end)
+    end
+  end)
+
 end
 
 -- Set up dungeon features on any game that starts.
