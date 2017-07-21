@@ -5,6 +5,7 @@
 -- - Blocks prefixed by "auto_block".
 -- And the following entities are destroyed:
 -- - Bombs.
+-- - Pickable treasures other than pieces of hearts, heart containers and graals.
 
 local separator_manager = {}
 
@@ -91,6 +92,18 @@ function separator_manager:manage_map(map)
           -- We don't recreate the treasure.
           destructible_place.destructible = destructible
         end
+      end
+    end
+
+    -- Remove pickable treasures except in the old region.
+    for pickable in map:get_entities_by_type("pickable") do
+
+      local sprite = pickable:get_sprite()
+      local animation = sprite:get_animation()
+      if animation ~= "piece_of_heart" and
+          animation ~= "heart_container" and
+          animation ~= "graal" then
+        pickable:remove()
       end
     end
   end
