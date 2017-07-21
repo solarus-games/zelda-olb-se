@@ -8,6 +8,8 @@
 
 local door_manager = {}
 
+require("scripts/multi_events")
+
 function door_manager:manage_map(map)
 
   -- Find doors with prefix auto_door.
@@ -137,4 +139,9 @@ function door_manager:open_when_torches_unlit(door)
   end
 end
 
-return door_manager
+local game_meta = sol.main.get_metatable("game")
+game_meta:register_event("on_map_changed", function(game, map)
+  door_manager:manage_map(map)
+end)
+
+return true

@@ -12676,7 +12676,7 @@ door{
 }
 
 door{
-  name = "door_a_2",
+  name = "door_a_back",
   layer = 0,
   x = 792,
   y = 216,
@@ -12700,7 +12700,7 @@ wall{
 }
 
 door{
-  name = "auto_door_b",
+  name = "auto_door_b_back",
   layer = 0,
   x = 72,
   y = 216,
@@ -12710,7 +12710,7 @@ door{
 }
 
 door{
-  name = "auto_door_b_2",
+  name = "auto_door_b",
   layer = 0,
   x = 72,
   y = 248,
@@ -12750,7 +12750,7 @@ wall{
 }
 
 door{
-  name = "auto_door_c_2",
+  name = "auto_door_c_back",
   layer = 0,
   x = 648,
   y = 48,
@@ -12760,7 +12760,7 @@ door{
 }
 
 door{
-  name = "auto_door_d",
+  name = "auto_door_d_back",
   layer = 0,
   x = 616,
   y = 176,
@@ -12770,7 +12770,7 @@ door{
 }
 
 door{
-  name = "auto_door_d_2",
+  name = "auto_door_d",
   layer = 0,
   x = 648,
   y = 176,
@@ -12790,7 +12790,7 @@ wall{
 }
 
 door{
-  name = "auto_door_e",
+  name = "auto_door_e_back",
   layer = 0,
   x = 1256,
   y = 112,
@@ -12800,7 +12800,7 @@ door{
 }
 
 door{
-  name = "auto_door_e_2",
+  name = "auto_door_e",
   layer = 0,
   x = 1288,
   y = 112,
@@ -12820,7 +12820,7 @@ wall{
 }
 
 door{
-  name = "auto_door_f",
+  name = "auto_door_f_back",
   layer = 0,
   x = 1256,
   y = 592,
@@ -12830,7 +12830,7 @@ door{
 }
 
 door{
-  name = "auto_door_f_2",
+  name = "auto_door_f_back_2",
   layer = 0,
   x = 1288,
   y = 592,
@@ -12859,7 +12859,7 @@ door{
 }
 
 door{
-  name = "auto_door_g_2",
+  name = "auto_door_g_back",
   layer = 0,
   x = 1432,
   y = 488,
@@ -12888,7 +12888,7 @@ door{
 }
 
 door{
-  name = "auto_door_h_2",
+  name = "auto_door_h_back",
   layer = 0,
   x = 1112,
   y = 728,
@@ -12908,7 +12908,7 @@ wall{
 }
 
 door{
-  name = "auto_door_i",
+  name = "auto_door_i_back",
   layer = 0,
   x = 472,
   y = 696,
@@ -12918,7 +12918,7 @@ door{
 }
 
 door{
-  name = "auto_door_i_2",
+  name = "auto_door_i",
   layer = 0,
   x = 472,
   y = 728,
@@ -12966,7 +12966,7 @@ wall{
 }
 
 door{
-  name = "auto_door_k",
+  name = "auto_door_k_back",
   layer = 0,
   x = 616,
   y = 832,
@@ -12976,7 +12976,7 @@ door{
 }
 
 door{
-  name = "auto_door_k_2",
+  name = "auto_door_k",
   layer = 0,
   x = 648,
   y = 832,
@@ -12996,7 +12996,7 @@ wall{
 }
 
 door{
-  name = "auto_door_l",
+  name = "auto_door_l_back",
   layer = 0,
   x = 616,
   y = 1488,
@@ -13006,7 +13006,7 @@ door{
 }
 
 door{
-  name = "auto_door_l_2",
+  name = "auto_door_l",
   layer = 0,
   x = 648,
   y = 1488,

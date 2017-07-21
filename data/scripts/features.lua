@@ -8,6 +8,8 @@
 require("scripts/debug")
 require("scripts/equipment")
 require("scripts/dungeons")
+require("scripts/maps/door_manager.lua")
+require("scripts/maps/separator_manager.lua")
 require("scripts/menus/alttp_dialog_box")
 require("scripts/menus/pause")
 require("scripts/menus/game_over")

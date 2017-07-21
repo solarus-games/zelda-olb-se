@@ -7,6 +7,7 @@
 -- - Bombs.
 
 local separator_manager = {}
+
 require("scripts/multi_events")
 
 function separator_manager:manage_map(map)
@@ -144,4 +145,9 @@ function separator_manager:manage_map(map)
 
 end
 
-return separator_manager
+local game_meta = sol.main.get_metatable("game")
+game_meta:register_event("on_map_changed", function(game, map)
+  separator_manager:manage_map(map)
+end)
+
+return true

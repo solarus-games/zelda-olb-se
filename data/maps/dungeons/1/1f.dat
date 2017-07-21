@@ -6785,7 +6785,7 @@ wall{
 }
 
 door{
-  name = "auto_door_a",
+  name = "auto_door_a_back",
   layer = 0,
   x = 152,
   y = 216,
@@ -6794,7 +6794,7 @@ door{
 }
 
 door{
-  name = "auto_door_a_2",
+  name = "auto_door_a",
   layer = 0,
   x = 152,
   y = 248,
@@ -6813,7 +6813,7 @@ wall{
 }
 
 door{
-  name = "auto_door_b_2",
+  name = "auto_door_b",
   layer = 0,
   x = 472,
   y = 216,
@@ -6823,7 +6823,7 @@ door{
 }
 
 door{
-  name = "auto_door_b",
+  name = "auto_door_b_back",
   layer = 0,
   x = 472,
   y = 248,
@@ -6853,7 +6853,7 @@ door{
 }
 
 door{
-  name = "auto_door_e_2",
+  name = "auto_door_e_back",
   layer = 0,
   x = 152,
   y = 728,
@@ -6883,7 +6883,7 @@ door{
 }
 
 door{
-  name = "auto_door_d_2",
+  name = "auto_door_d_back",
   layer = 0,
   x = 792,
   y = 728,
@@ -6985,7 +6985,7 @@ wall{
 }
 
 door{
-  name = "door_c",
+  name = "door_c_back",
   layer = 0,
   x = 616,
   y = 112,
@@ -6994,7 +6994,7 @@ door{
 }
 
 door{
-  name = "door_c_2",
+  name = "door_c",
   layer = 0,
   x = 648,
   y = 112,
@@ -7013,7 +7013,7 @@ wall{
 }
 
 door{
-  name = "door_g",
+  name = "door_g_back",
   layer = 0,
   x = 616,
   y = 832,
@@ -7027,7 +7027,7 @@ door{
 }
 
 door{
-  name = "door_g_2",
+  name = "door_g",
   layer = 0,
   x = 648,
   y = 832,
@@ -7080,7 +7080,7 @@ door{
 }
 
 door{
-  name = "auto_door_h_2",
+  name = "auto_door_h_back",
   layer = 0,
   x = 1288,
   y = 832,
@@ -7099,7 +7099,7 @@ wall{
 }
 
 door{
-  name = "door_f",
+  name = "door_f_back",
   layer = 0,
   x = 296,
   y = 352,
@@ -7113,7 +7113,7 @@ door{
 }
 
 door{
-  name = "door_f_2",
+  name = "door_f",
   layer = 0,
   x = 328,
   y = 352,
@@ -9241,26 +9241,6 @@ tile{
   width = 32,
   height = 48,
   pattern = "ceiling.1",
-}
-
-dynamic_tile{
-  layer = 2,
-  x = 440,
-  y = 184,
-  pattern = "282",
-  width = 8,
-  height = 16,
-  enabled_at_start = false,
-}
-
-dynamic_tile{
-  layer = 2,
-  x = 496,
-  y = 208,
-  pattern = "282",
-  width = 8,
-  height = 16,
-  enabled_at_start = false,
 }
 
 dynamic_tile{
