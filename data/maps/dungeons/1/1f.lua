@@ -63,6 +63,12 @@ function boss_switch:on_activated()
   })
 
   function skull:on_removed()
+
+    if boss_switch == nil then
+      -- The map is being unloaded.
+      return
+    end
+
     if not fighting_boss then
       return
     end

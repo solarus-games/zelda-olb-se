@@ -23,7 +23,7 @@ animation{
 animation{
   name = "shooting",
   src_image = "enemies/som/tropicallo.png",
-  frame_delay = 300,
+  frame_delay = 600,
   directions = {
     { x = 48, y = 0, frame_width = 48, frame_height = 64, origin_x = 24, origin_y = 61, num_frames = 2 },
     { x = 48, y = 64, frame_width = 48, frame_height = 64, origin_x = 24, origin_y = 61, num_frames = 2 },
