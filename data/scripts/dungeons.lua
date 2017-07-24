@@ -156,9 +156,10 @@ local function initialize_dungeon_features(game)
     local dungeon_index = game:get_dungeon_index()
     if dungeon_index ~= nil then
       local map = game:get_map()
-      map:register_event("on_opening_transition_finished", function()
+      local timer = sol.timer.start(map, 10, function()
         game:start_dialog("dungeons." .. dungeon_index .. ".welcome")
       end)
+      timer:set_suspended_with_map(true)
     end
   end)
 

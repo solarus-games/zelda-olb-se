@@ -21,7 +21,7 @@ function boss_life_builder:new(game, config)
       local src_height = 2
       local src_x = 95 - src_width
       local src_y = 14
-      life_bar_img:draw_region(src_x, src_y, src_width, src_height, dst_surface, self.dst_x + 5, self.dst_y + 4)
+      life_bar_img:draw_region(src_x, src_y, src_width, src_height, dst_surface, dst_x + 5, dst_y + 4)
     end
   end
 
