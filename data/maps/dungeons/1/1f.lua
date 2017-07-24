@@ -52,7 +52,7 @@ function boss_switch:on_activated()
   local index = math.random(#boss_skull_placeholders)
   local placeholder = boss_skull_placeholders[index]
   local x, y, layer = placeholder:get_position()
-  map:create_destructible({
+  local skull = map:create_destructible({
     x = x,
     y = y,
     layer = layer,
@@ -61,15 +61,21 @@ function boss_switch:on_activated()
     destruction_sound = "stone",
     damage_on_enemies = 2,
   })
+
+  function skull:on_removed()
+    if not fighting_boss then
+      return
+    end
+    
+    -- Make the switch usable again.
+    boss_switch:set_activated(false)
+  end
 end
 
 if boss ~= nil then
   function boss:on_hurt()
 
-    if boss:get_life() > 1 then
-      -- Make the switch usable again.
-      boss_switch:set_activated(false)
-    else
+    if boss:get_life() == 1 then
       -- One more hit.
       boss_brambler_1:set_life(0)
       boss_brambler_2:set_life(0)

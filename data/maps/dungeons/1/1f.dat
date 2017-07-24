@@ -6638,7 +6638,6 @@ wall{
   stops_npcs = true,
   stops_enemies = true,
   stops_blocks = true,
-  stops_projectiles = true,
 }
 
 sensor{
