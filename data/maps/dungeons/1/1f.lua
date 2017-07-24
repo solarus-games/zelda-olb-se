@@ -2,6 +2,7 @@ local map = ...
 local game = map:get_game()
 
 local fighting_boss = false
+local music_id = map:get_music()
 
 local boss_skull_placeholders = {
 }
@@ -48,6 +49,10 @@ function boss_switch:on_activated()
     return
   end
 
+  if boss == nil or boss:get_life() <= 0 then
+    return
+  end
+
   -- Create a skull at a random place.
   local index = math.random(#boss_skull_placeholders)
   local placeholder = boss_skull_placeholders[index]
@@ -89,3 +94,28 @@ if boss ~= nil then
     end
   end
 end
+
+function map:on_obtained_treasure(item, variant, savegame_variable)
+
+  if item:get_name() == "heart_container" then
+
+    sol.audio.play_music(music_id)
+    map:open_doors("boss_door")
+
+  elseif item:get_name() == "graal" then
+
+    game:set_dungeon_finished()
+    hero:set_direction(3)
+    hero:start_victory(function()
+      game:start_dialog("dungeon_finished_save", function(answer)
+        sol.audio.play_sound("danger")
+        if answer == 3 then
+          game:save()
+        end
+        hero:unfreeze()
+      end)
+    end)
+
+  end
+end
+

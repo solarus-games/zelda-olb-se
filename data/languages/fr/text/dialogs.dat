@@ -284,6 +284,13 @@ soulever de lourds rochers.
 }
 
 dialog{
+  id = "_treasure.graal.1",
+  text = [[
+Tu as trouvé un Graal !!!
+]]
+}
+
+dialog{
   id = "_treasure.hammer.1",
   text = [[
 Tu as trouvé le marteau magique !!!
@@ -295,6 +302,15 @@ dialog{
   id = "_treasure.heart.1",
   text = [[
 Tu as trouvé un coeur !
+]]
+}
+
+dialog{
+  id = "_treasure.heart_container.1",
+  text = [[
+Tu as trouvé un nouveau coeur !!!
+
+Ta vie maximale augmente d'un coeur !!!
 ]]
 }
 
@@ -319,13 +335,6 @@ dialog{
   text = [[
 Tu as trouvé la lanterne !!!
 Utilise-la pour faire jaillir des flammes.
-]]
-}
-
-dialog{
-  id = "_treasure.magic_crystal.1",
-  text = [[
-Tu as trouvé un cristal magique !!!
 ]]
 }
 

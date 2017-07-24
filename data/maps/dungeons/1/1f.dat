@@ -8224,6 +8224,8 @@ enemy{
   direction = 0,
   breed = "som/tropicallo",
   savegame_variable = "dungeon_1_boss",
+  treasure_name = "heart_container",
+  treasure_savegame_variable = "dungeon_1_heart_container",
 }
 
 sensor{
@@ -8582,6 +8584,15 @@ custom_entity{
   width = 16,
   height = 16,
   direction = 0,
+}
+
+pickable{
+  name = "graal",
+  layer = 0,
+  x = 1440,
+  y = 109,
+  treasure_name = "graal",
+  treasure_savegame_variable = "dungeon_1_graal",
 }
 
 tile{

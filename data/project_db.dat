@@ -505,14 +505,15 @@ item{ id = "farore_medallion", description = "Farore medallion" }
 item{ id = "fire_rod", description = "Fire rod" }
 item{ id = "flippers", description = "Flippers" }
 item{ id = "glove", description = "Iron glove / Golden glove" }
+item{ id = "graal", description = "Graal" }
 item{ id = "green_potion", description = "Green potion" }
 item{ id = "hammer", description = "Magic hammer" }
 item{ id = "heart", description = "Heart (x1)" }
+item{ id = "heart_container", description = "Heart container" }
 item{ id = "hookshot", description = "Hookshot" }
 item{ id = "ice_rod", description = "Ice rod" }
 item{ id = "lamp", description = "Lamp" }
 item{ id = "magic_bar", description = "Maximum of magic (none / half / full)" }
-item{ id = "magic_crystal", description = "Magic Crystal" }
 item{ id = "magic_flask", description = "Magic flask (small / big)" }
 item{ id = "map", description = "Dungeon map" }
 item{ id = "monsters_encyclopedia", description = "Monsters Encyclopedia" }

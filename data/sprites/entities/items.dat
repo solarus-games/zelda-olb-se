@@ -188,6 +188,15 @@ animation{
   },
 }
 animation{
+  name = "graal",
+  src_image = "entities/items.png",
+  frame_delay = 200,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 192, y = 80, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 8 },
+  },
+}
+animation{
   name = "green_potion",
   src_image = "entities/items.png",
   directions = {
@@ -251,13 +260,6 @@ animation{
   directions = {
     { x = 704, y = 32, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
     { x = 704, y = 32, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
-  },
-}
-animation{
-  name = "magic_crystal",
-  src_image = "entities/items.png",
-  directions = {
-    { x = 112, y = 24, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
   },
 }
 animation{
@@ -353,12 +355,12 @@ animation{
   frame_delay = 100,
   frame_to_loop_on = 0,
   directions = {
-    { x = 0, y = 48, frame_width = 8, frame_height = 16, origin_x = 4, origin_y = 16, num_frames = 10 },
-    { x = 0, y = 64, frame_width = 8, frame_height = 16, origin_x = 4, origin_y = 16, num_frames = 10 },
-    { x = 0, y = 80, frame_width = 8, frame_height = 16, origin_x = 4, origin_y = 16, num_frames = 10 },
-    { x = 560, y = 48, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 16, num_frames = 10 },
-    { x = 560, y = 64, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 16, num_frames = 10 },
-    { x = 560, y = 80, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 16, num_frames = 10 },
+    { x = 0, y = 48, frame_width = 8, frame_height = 16, origin_x = 4, origin_y = 13, num_frames = 10 },
+    { x = 0, y = 64, frame_width = 8, frame_height = 16, origin_x = 4, origin_y = 13, num_frames = 10 },
+    { x = 0, y = 80, frame_width = 8, frame_height = 16, origin_x = 4, origin_y = 13, num_frames = 10 },
+    { x = 560, y = 48, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 10 },
+    { x = 560, y = 64, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 10 },
+    { x = 560, y = 80, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 10 },
   },
 }
 animation{
