@@ -101,9 +101,9 @@ animation{
   frame_delay = 100,
   frame_to_loop_on = 0,
   directions = {
-    { x = 0, y = 24, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21, num_frames = 8 },
     { x = 0, y = 96, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21, num_frames = 8 },
+    { x = 0, y = 120, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21, num_frames = 8 },
+    { x = 0, y = 144, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21, num_frames = 8 },
     { x = 0, y = 168, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21, num_frames = 8 },
-    { x = 0, y = 240, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21, num_frames = 8 },
   },
 }
