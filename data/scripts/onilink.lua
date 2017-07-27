@@ -14,6 +14,27 @@ local function initialize_onilink_features(game)
     return game:get_value("onilink")
   end
 
+  function game:show_onilink_transformation_animation()
+
+    local map = game:get_map()
+    local hero = game:get_hero()
+    local x, y, layer = hero:get_position()
+    local onilink_effect = map:create_custom_entity({
+      x = x,
+      y = y - 5,
+      layer = layer,
+      width = 16,
+      height = 16,
+      direction = 0,
+      sprite = "hero/onilink_transformation",
+    })
+    onilink_effect:get_sprite():set_ignore_suspend(true)
+    sol.timer.start(hero, 500, function()
+      onilink_effect:remove()
+    end)
+
+  end
+
   function game:start_onilink()
 
     if game:is_onilink() then
@@ -29,10 +50,13 @@ local function initialize_onilink_features(game)
     hero:set_sword_sprite_id("hero/sword_onilink1")
     hero:set_shield_sprite_id("hero/shield_onilink1")
 
+    game:show_onilink_transformation_animation()
+
     if not game:get_value("onilink_tutorial") then
       game:set_value("onilink_tutorial", true)
       game:start_dialog("onilink_tutorial")
     end
+
   end
 
   function game:stop_onilink()
@@ -47,6 +71,8 @@ local function initialize_onilink_features(game)
     hero:set_tunic_sprite_id("hero/tunic" .. game:get_ability("tunic"))
     hero:set_sword_sprite_id("hero/sword" .. game:get_ability("sword"))
     hero:set_shield_sprite_id("hero/shield" .. game:get_ability("shield"))
+
+    game:show_onilink_transformation_animation()
   end
 
   function game:get_anger()

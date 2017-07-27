@@ -33,7 +33,7 @@ local function initialize_rabbit_features(game)
       width = 16,
       height = 16,
       direction = 0,
-      sprite = "hero/rabbit_explosion",
+      sprite = "hero/rabbit_transformation",
     })
     sol.timer.start(hero, 500, function()
       rabbit_effect:remove()
