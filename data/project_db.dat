@@ -278,7 +278,7 @@ sprite{ id = "hero/trail", description = "Trail" }
 sprite{ id = "hero/tunic1", description = "Tunic 1" }
 sprite{ id = "hero/tunic2", description = "Tunic 2" }
 sprite{ id = "hero/tunic3", description = "Tunic 3" }
-sprite{ id = "hero/tunic_onilink1", description = "Onilink Tunic 1" }
+sprite{ id = "hero/tunic_onilink", description = "Onilink Tunic" }
 sprite{ id = "hud/piece_of_heart_icon", description = "Piece of heart icon" }
 sprite{ id = "menus/dungeon_maps/map_1", description = "Dungeon 1 map" }
 sprite{ id = "menus/hero_head", description = "Link head" }
