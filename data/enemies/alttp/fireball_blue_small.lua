@@ -56,7 +56,7 @@ end
 function enemy:on_attacking_hero(hero, enemy_sprite)
 
   local game = enemy:get_game()
-  -- TODO  game:add_anger(5)
+  game:add_anger(5)
 end
 
 -- Change the direction of the movement when hit with the sword.

@@ -46,6 +46,8 @@ function hero_meta:on_taking_damage(damage)
   end
 
   game:remove_life(damage)
+
+  -- TODO increase anger
 end
 
 return true

@@ -6,6 +6,20 @@ function item:on_created()
   item:set_sound_when_picked(nil)
 end
 
+function item:on_obtaining(variant, savegame_variable)
+
+  game:set_value("num_graals", game:get_num_graals() + 1)
+  game:set_anger(0)
+end
+
+function game:get_num_graals()
+  return game:get_value("num_graals") or 0
+end
+
+function game:has_all_graals()
+  return game:get_num_graals() >= 5
+end
+
 local function victory_cutscene()
 
   local map = game:get_map()
