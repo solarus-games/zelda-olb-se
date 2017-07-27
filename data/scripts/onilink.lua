@@ -28,6 +28,11 @@ local function initialize_onilink_features(game)
     hero:set_tunic_sprite_id("hero/tunic_onilink")
     hero:set_sword_sprite_id("hero/sword_onilink1")
     hero:set_shield_sprite_id("hero/shield_onilink1")
+
+    if not game:get_value("onilink_tutorial") then
+      game:set_value("onilink_tutorial", true)
+      game:start_dialog("onilink_tutorial")
+    end
   end
 
   function game:stop_onilink()

@@ -631,6 +631,23 @@ Désolé, mais tu n'as pas assez de rubis.
 }
 
 dialog{
+  id = "onilink_tutorial",
+  text = [[
+Tutoriel : lorsque la jauge de colère est pleine,
+tu te transformes en Oni-Link.
+Ton allonge et ta force augmentent alors que ta
+défense diminue.
+En Oni-Link, tu ne peux plus utiliser les objets
+équipables, mais tu peux te téléporter à l'entrée
+lorsque tu es dans un donjon en appuyant sur T
+
+A chaque ennemi vaincu par Oni-Link, ta jauge
+diminue. Une fois vide, Link reprend sa forme
+normale.
+]]
+}
+
+dialog{
   id = "out.e4.dungeon_1_sign",
   text = [[
 Temple de Firone
