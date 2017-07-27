@@ -81,6 +81,10 @@ local function initialize_onilink_features(game)
     game:set_anger(game:get_anger() + anger)
   end
 
+  function game:remove_anger(anger)
+    game:set_anger(game:get_anger() - anger)
+  end
+
   function game:get_max_anger()
     return 5 + game:get_num_graals() * 5
   end

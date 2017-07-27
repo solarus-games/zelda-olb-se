@@ -47,7 +47,8 @@ function hero_meta:on_taking_damage(damage)
 
   game:remove_life(damage)
 
-  -- TODO increase anger
+  -- Increase anger
+  game:add_anger(1)  -- TODO check if it is always 1
 end
 
 return true
