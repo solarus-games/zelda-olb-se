@@ -3,17 +3,13 @@ local game = item:get_game()
 
 function item:on_created()
 
-  self:set_shadow("small")
-  self:set_can_disappear(true)
-  self:set_brandish_when_picked(false)
-end
+  item:set_shadow("small")
+  item:set_can_disappear(true)
+  item:set_brandish_when_picked(false)
 
-function item:on_started()
+  local possession_bow = game:get_value("possession_bow") or 0
+  item:set_obtainable(possession_bow > 0)
 
-  -- Disable pickable arrows if the player has no bow.
-  -- We cannot do this from on_created() because we don't know if the bow
-  -- is already created there.
-  item:set_obtainable(game:has_item("bow"))
 end
 
 function item:on_obtaining(variant, savegame_variable)

@@ -1,9 +1,13 @@
 local item = ...
+local game = item:get_game()
 
 function item:on_created()
 
-  self:set_can_disappear(true)
-  self:set_brandish_when_picked(false)
+  item:set_can_disappear(true)
+  item:set_brandish_when_picked(false)
+
+  local possession_bombs_counter = game:get_value("possession_bombs_counter") or 0
+  item:set_obtainable(possession_bombs_counter > 0)
 end
 
 function item:on_obtaining(variant, savegame_variable)
@@ -14,6 +18,6 @@ function item:on_obtaining(variant, savegame_variable)
   if amount == nil then
     error("Invalid variant '" .. variant .. "' for item 'bomb'")
   end
-  self:get_game():get_item("bombs_counter"):add_amount(amount)
+  game:get_item("bombs_counter"):add_amount(amount)
 end
 
