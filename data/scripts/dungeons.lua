@@ -47,6 +47,17 @@ local function initialize_dungeon_features(game)
         savegame_variable = "dungeon_3_boss",
       },
     },
+    [4] = {
+      lowest_floor = -1,
+      highest_floor = 1,
+      maps = { "dungeons/4/b1", "dungeons/4/1f", "dungeons/4/2f" },
+      boss = {
+        floor = 1,  -- TODO
+        x = 320 + 1120,
+        y = 240 + 557,
+        savegame_variable = "dungeon_4_boss",
+      },
+    },
   }
 
   -- Returns the index of the current dungeon if any, or nil.
