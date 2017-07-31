@@ -8932,7 +8932,7 @@ separator{
   name = "auto_separator_2",
   layer = 2,
   x = 640,
-  y = 704,
+  y = 712,
   width = 960,
   height = 16,
 }
@@ -8967,19 +8967,19 @@ separator{
 separator{
   name = "auto_separator_6",
   layer = 2,
-  x = 944,
-  y = 704,
+  x = 952,
+  y = 720,
   width = 16,
-  height = 496,
+  height = 480,
 }
 
 separator{
   name = "auto_separator_7",
   layer = 2,
   x = 1272,
-  y = 704,
+  y = 720,
   width = 16,
-  height = 496,
+  height = 480,
 }
 
 separator{
