@@ -1,4 +1,4 @@
-background_color{ 0, 90, 239 }
+background_color{ 255, 255, 255 }
 tile_pattern{
   id = "1",
   ground = "empty",
@@ -50415,6 +50415,34 @@ tile_pattern{
 }
 
 border_set{
+  id = "carpet",
+  pattern_0 = "carpet.6",
+  pattern_1 = "carpet.2",
+  pattern_2 = "carpet.4",
+  pattern_3 = "carpet.8",
+  pattern_4 = "carpet.3",
+  pattern_5 = "carpet.1",
+  pattern_6 = "carpet.7",
+  pattern_7 = "carpet.9",
+}
+
+border_set{
+  id = "hole",
+  pattern_0 = "hole.4",
+  pattern_1 = "hole.1",
+  pattern_2 = "hole.3",
+  pattern_3 = "hole.2",
+  pattern_4 = "hole.corner.2",
+  pattern_5 = "hole.corner.1",
+  pattern_6 = "hole.corner.3",
+  pattern_7 = "hole.corner.4",
+  pattern_8 = "hole.corner_reverse.2",
+  pattern_9 = "hole.corner_reverse.1",
+  pattern_10 = "hole.corner_reverse.3",
+  pattern_11 = "hole.corner_reverse.4",
+}
+
+border_set{
   id = "wall-6",
   pattern_0 = "wall.4-6",
   pattern_1 = "wall.1-6",
@@ -50432,6 +50460,7 @@ border_set{
 
 border_set{
   id = "wall_border-6",
+  inner = true,
   pattern_0 = "wall_border.4-6",
   pattern_1 = "wall_border.1-6",
   pattern_2 = "wall_border.3-6",
@@ -50444,5 +50473,21 @@ border_set{
   pattern_9 = "wall_border.corner_reverse.1-6",
   pattern_10 = "wall_border.corner_reverse.3-6",
   pattern_11 = "wall_border.corner_reverse.4-6",
+}
+
+border_set{
+  id = "wall_hole",
+  pattern_0 = "wall_hole.4-1",
+  pattern_1 = "wall_hole.1-1",
+  pattern_2 = "wall_hole.3-1",
+  pattern_3 = "wall_hole.2-1",
+  pattern_4 = "wall_hole.corner.2-1",
+  pattern_5 = "wall_hole.corner.1-1",
+  pattern_6 = "wall_hole.corner.3-1",
+  pattern_7 = "wall_hole.corner.4-1",
+  pattern_8 = "wall_hole.corner_reverse.2-1",
+  pattern_9 = "wall_hole.corner_reverse.1-1",
+  pattern_10 = "wall_hole.corner_reverse.3-1",
+  pattern_11 = "wall_hole.corner_reverse.4-1",
 }
 

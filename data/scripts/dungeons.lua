@@ -50,11 +50,11 @@ local function initialize_dungeon_features(game)
     [4] = {
       lowest_floor = -1,
       highest_floor = 1,
-      maps = { "dungeons/4/b1", "dungeons/4/1f", "dungeons/4/2f" },
+      maps = { "dungeons/4/b1", "dungeons/4/1f", "dungeons/4/2f", "dungeons/4/3f" },
       boss = {
-        floor = 1,  -- TODO
-        x = 320 + 1120,
-        y = 240 + 557,
+        floor = -1,
+        x = 640 + 800,
+        y = 640 + 360,
         savegame_variable = "dungeon_4_boss",
       },
     },
