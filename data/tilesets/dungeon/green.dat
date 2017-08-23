@@ -50414,3 +50414,36 @@ tile_pattern{
   height = 16,
 }
 
+border_set{
+  id = "wall-2",
+  pattern_0 = "wall.4-2",
+  pattern_1 = "wall.1-2",
+  pattern_2 = "wall.3-2",
+  pattern_3 = "wall.2-2",
+  pattern_4 = "wall.corner.2-2",
+  pattern_5 = "wall.corner.1-2",
+  pattern_6 = "wall.corner.3-2",
+  pattern_7 = "wall.corner.4-2",
+  pattern_8 = "wall.corner_reverse.2-2",
+  pattern_9 = "wall.corner_reverse.1-2",
+  pattern_10 = "wall.corner_reverse.3-2",
+  pattern_11 = "wall.corner_reverse.4-2",
+}
+
+border_set{
+  id = "wall_border-4",
+  inner = true,
+  pattern_0 = "wall_border.4-4",
+  pattern_1 = "wall_border.1-4",
+  pattern_2 = "wall_border.3-4",
+  pattern_3 = "wall_border.2-4",
+  pattern_4 = "wall_border.corner.2-4",
+  pattern_5 = "wall_border.corner.1-4",
+  pattern_6 = "wall_border.corner.3-4",
+  pattern_7 = "wall_border.corner.4-4",
+  pattern_8 = "wall_border.corner_reverse.2-4",
+  pattern_9 = "wall_border.corner_reverse.1-4",
+  pattern_10 = "wall_border.corner_reverse.3-4",
+  pattern_11 = "wall_border.corner_reverse.4-4",
+}
+

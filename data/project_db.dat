@@ -13,6 +13,11 @@ map{ id = "dungeons/3/1f", description = "Dungeon 3 1F" }
 map{ id = "dungeons/3/2f", description = "Dungeon 3 2F" }
 map{ id = "dungeons/3/b1", description = "Dungeon 3 B1" }
 map{ id = "dungeons/3/store", description = "Dungeon 3 Store" }
+map{ id = "dungeons/4/1f", description = "Dungeon 4 1F" }
+map{ id = "dungeons/4/2f", description = "Dungeon 4 2F" }
+map{ id = "dungeons/4/3f", description = "Dungeon 4 3F" }
+map{ id = "dungeons/4/b1", description = "Dungeon 4 B1" }
+map{ id = "dungeons/4/store", description = "Dungeon 4 Store" }
 map{ id = "enemy_store", description = "Enemy Store" }
 map{ id = "house_store", description = "House Store" }
 map{ id = "houses/monster_house/1f", description = "Monster house 1F" }
@@ -204,7 +209,8 @@ sprite{ id = "entities/ice", description = "Ice ground" }
 sprite{ id = "entities/ice_beam", description = "Ice beam" }
 sprite{ id = "entities/items", description = "Items" }
 sprite{ id = "entities/pedestal", description = "Pedestal" }
-sprite{ id = "entities/prison_door_mine", description = "Prison door for mine" }
+sprite{ id = "entities/prison_door_dungeon_2", description = "Dungeon 2 prison door" }
+sprite{ id = "entities/prison_door_dungeon_4", description = "Dungeon 4 prison door" }
 sprite{ id = "entities/rupee_icon", description = "Money icon" }
 sprite{ id = "entities/shadow", description = "Shadow" }
 sprite{ id = "entities/sign", description = "Sign" }
@@ -337,6 +343,7 @@ sprite{ id = "npc/alttp/woman_yellow", description = "Yellow woman" }
 sprite{ id = "npc/alttp/young_girl_red", description = "Red young girl" }
 sprite{ id = "npc/alttp/zelda", description = "Zelda" }
 sprite{ id = "npc/pit", description = "Pit" }
+sprite{ id = "work/1600x1200", description = "1600x1200 PNG" }
 sprite{ id = "work/1600x1680", description = "1600x1680 PNG" }
 sprite{ id = "work/1600x960", description = "1600x960 PNG" }
 
