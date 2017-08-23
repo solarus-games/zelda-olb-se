@@ -50427,6 +50427,22 @@ border_set{
 }
 
 border_set{
+  id = "floor_to_hole",
+  pattern_0 = "hole.3",
+  pattern_1 = "hole.2",
+  pattern_2 = "hole.4",
+  pattern_3 = "hole.1",
+  pattern_4 = "hole.corner_reverse.3",
+  pattern_5 = "hole.corner_reverse.4",
+  pattern_6 = "hole.corner_reverse.2",
+  pattern_7 = "hole.corner_reverse.1",
+  pattern_8 = "hole.corner.3",
+  pattern_9 = "hole.corner.4",
+  pattern_10 = "hole.corner.2",
+  pattern_11 = "hole.corner.1",
+}
+
+border_set{
   id = "hole",
   pattern_0 = "hole.4",
   pattern_1 = "hole.1",
@@ -50477,6 +50493,7 @@ border_set{
 
 border_set{
   id = "wall_hole",
+  inner = true,
   pattern_0 = "wall_hole.4-1",
   pattern_1 = "wall_hole.1-1",
   pattern_2 = "wall_hole.3-1",

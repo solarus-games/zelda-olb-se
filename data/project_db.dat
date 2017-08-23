@@ -209,7 +209,8 @@ sprite{ id = "entities/ice", description = "Ice ground" }
 sprite{ id = "entities/ice_beam", description = "Ice beam" }
 sprite{ id = "entities/items", description = "Items" }
 sprite{ id = "entities/pedestal", description = "Pedestal" }
-sprite{ id = "entities/prison_door_mine", description = "Prison door for mine" }
+sprite{ id = "entities/prison_door_dungeon_2", description = "Dungeon 2 prison door" }
+sprite{ id = "entities/prison_door_dungeon_4", description = "Dungeon 4 prison door" }
 sprite{ id = "entities/rupee_icon", description = "Money icon" }
 sprite{ id = "entities/shadow", description = "Shadow" }
 sprite{ id = "entities/sign", description = "Sign" }
