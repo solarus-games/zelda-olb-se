@@ -2840,6 +2840,15 @@ dynamic_tile{
   enabled_at_start = true,
 }
 
+chest{
+  layer = 0,
+  x = 1120,
+  y = 605,
+  treasure_name = "small_key",
+  treasure_savegame_variable = "dungeon_4_2f_e_key_chest",
+  sprite = "entities/chest",
+}
+
 tile{
   layer = 1,
   x = 440,
@@ -3074,5 +3083,77 @@ teletransporter{
   height = 32,
   destination_map = "dungeon_7/1f",
   destination = "from_2f_hole",
+}
+
+separator{
+  name = "auto_separator_4",
+  layer = 2,
+  x = 320,
+  y = 472,
+  width = 960,
+  height = 16,
+}
+
+separator{
+  name = "auto_separator_5",
+  layer = 2,
+  x = 320,
+  y = 712,
+  width = 960,
+  height = 16,
+}
+
+separator{
+  name = "auto_separator_6",
+  layer = 2,
+  x = 632,
+  y = 240,
+  width = 16,
+  height = 480,
+}
+
+separator{
+  name = "auto_separator_7",
+  layer = 2,
+  x = 952,
+  y = 240,
+  width = 16,
+  height = 720,
+}
+
+separator{
+  name = "auto_separator_8",
+  layer = 2,
+  x = 1272,
+  y = 240,
+  width = 16,
+  height = 720,
+}
+
+separator{
+  name = "auto_separator_9",
+  layer = 2,
+  x = 312,
+  y = 240,
+  width = 16,
+  height = 720,
+}
+
+separator{
+  name = "auto_separator_10",
+  layer = 2,
+  x = 320,
+  y = 232,
+  width = 960,
+  height = 16,
+}
+
+separator{
+  name = "auto_separator_11",
+  layer = 2,
+  x = 320,
+  y = 952,
+  width = 960,
+  height = 16,
 }
 
