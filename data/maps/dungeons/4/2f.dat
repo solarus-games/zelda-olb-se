@@ -2849,6 +2849,84 @@ chest{
   sprite = "entities/chest",
 }
 
+destination{
+  name = "from_3f_n",
+  layer = 0,
+  x = 800,
+  y = 365,
+  direction = 1,
+}
+
+destination{
+  name = "from_1f_c",
+  layer = 0,
+  x = 800,
+  y = 589,
+  direction = 1,
+}
+
+destination{
+  name = "from_1f_se",
+  layer = 0,
+  x = 1120,
+  y = 829,
+  direction = 1,
+}
+
+teletransporter{
+  layer = 0,
+  x = 792,
+  y = 352,
+  width = 16,
+  height = 16,
+  destination_map = "dungeons/4/3f",
+  destination = "from_2f_n",
+}
+
+teletransporter{
+  layer = 0,
+  x = 792,
+  y = 576,
+  width = 16,
+  height = 16,
+  destination_map = "dungeons/4/1f",
+  destination = "from_2f_c",
+}
+
+teletransporter{
+  layer = 0,
+  x = 1112,
+  y = 816,
+  width = 16,
+  height = 16,
+  destination_map = "dungeons/4/1f",
+  destination = "from_2f_se",
+}
+
+stairs{
+  layer = 0,
+  x = 792,
+  y = 352,
+  direction = 1,
+  subtype = 2,
+}
+
+stairs{
+  layer = 0,
+  x = 792,
+  y = 576,
+  direction = 1,
+  subtype = 3,
+}
+
+stairs{
+  layer = 0,
+  x = 1112,
+  y = 816,
+  direction = 1,
+  subtype = 3,
+}
+
 tile{
   layer = 1,
   x = 440,

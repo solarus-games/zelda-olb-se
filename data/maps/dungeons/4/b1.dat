@@ -8774,6 +8774,32 @@ destination{
   default = true,
 }
 
+destination{
+  name = "from_1f_c",
+  layer = 0,
+  x = 800,
+  y = 845,
+  direction = 1,
+}
+
+teletransporter{
+  layer = 0,
+  x = 792,
+  y = 832,
+  width = 16,
+  height = 16,
+  destination_map = "dungeons/4/1f",
+  destination = "from_b1_c",
+}
+
+stairs{
+  layer = 0,
+  x = 792,
+  y = 832,
+  direction = 1,
+  subtype = 2,
+}
+
 tile{
   layer = 1,
   x = 120,

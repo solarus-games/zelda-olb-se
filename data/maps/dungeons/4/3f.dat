@@ -1742,6 +1742,32 @@ custom_entity{
   model = "statue_big",
 }
 
+destination{
+  name = "from_2f_n",
+  layer = 0,
+  x = 800,
+  y = 349,
+  direction = 1,
+}
+
+teletransporter{
+  layer = 0,
+  x = 792,
+  y = 336,
+  width = 16,
+  height = 16,
+  destination_map = "dungeons/4/2f",
+  destination = "from_3f_n",
+}
+
+stairs{
+  layer = 0,
+  x = 792,
+  y = 336,
+  direction = 1,
+  subtype = 3,
+}
+
 separator{
   name = "auto_separator_8",
   layer = 2,
