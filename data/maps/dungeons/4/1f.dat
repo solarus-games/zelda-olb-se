@@ -6194,6 +6194,18 @@ tile{
   pattern = "floor_pot",
 }
 
+switch{
+  name = "auto_switch_auto_door_c",
+  layer = 0,
+  x = 1232,
+  y = 992,
+  subtype = "walkable",
+  sprite = "entities/switches/switch",
+  sound = "switch",
+  needs_block = false,
+  inactivate_when_leaving = false,
+}
+
 wall{
   layer = 0,
   x = 936,
@@ -7331,6 +7343,33 @@ teletransporter{
   height = 16,
   destination_map = "out/e4",
   destination = "from_dungeon_1",
+}
+
+chest{
+  layer = 0,
+  x = 800,
+  y = 365,
+  treasure_name = "small_key",
+  treasure_savegame_variable = "dungeon_4_1f_nw_key_chest",
+  sprite = "entities/chest",
+}
+
+chest{
+  layer = 0,
+  x = 160,
+  y = 1093,
+  treasure_name = "small_key",
+  treasure_savegame_variable = "dungeon_4_1f_sw_key_chest",
+  sprite = "entities/chest",
+}
+
+chest{
+  layer = 0,
+  x = 480,
+  y = 605,
+  treasure_name = "map",
+  treasure_savegame_variable = "dungeon_4_map_chest",
+  sprite = "entities/chest",
 }
 
 tile{
