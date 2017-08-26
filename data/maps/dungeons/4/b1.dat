@@ -9142,6 +9142,30 @@ destructible{
   damage_on_enemies = 2,
 }
 
+door{
+  layer = 0,
+  x = 792,
+  y = 488,
+  direction = 1,
+  sprite = "entities/doors/door_d1_big_key",
+  savegame_variable = "dungeon_4_boss_door",
+  opening_method = "interaction_if_savegame_variable",
+  opening_condition = "dungeon_4_boss_key",
+  cannot_open_dialog = "boss_key_required",
+}
+
+door{
+  layer = 0,
+  x = 792,
+  y = 456,
+  direction = 3,
+  sprite = "entities/doors/door_d1_big_key",
+  savegame_variable = "dungeon_4_boss_door",
+  opening_method = "interaction_if_savegame_variable",
+  opening_condition = "dungeon_4_boss_key",
+  cannot_open_dialog = "boss_key_required",
+}
+
 tile{
   layer = 1,
   x = 120,

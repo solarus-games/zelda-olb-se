@@ -18,6 +18,9 @@ map{ id = "dungeons/4/3f", description = "Dungeon 4 3F" }
 map{ id = "dungeons/4/b1", description = "Dungeon 4 B1" }
 map{ id = "dungeons/4/entities", description = "Converted entities" }
 map{ id = "dungeons/4/store", description = "Dungeon 4 Store" }
+map{ id = "dungeons/5/1f", description = "Dungeon 5 1F" }
+map{ id = "dungeons/5/b1", description = "Dungeon 5 B1" }
+map{ id = "dungeons/5/store", description = "Dungeon 5 Store" }
 map{ id = "enemy_store", description = "Enemy Store" }
 map{ id = "house_store", description = "House Store" }
 map{ id = "houses/monster_house/1f", description = "Monster house 1F" }

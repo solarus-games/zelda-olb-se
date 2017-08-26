@@ -1,0 +1,13 @@
+properties{
+  x = 640,
+  y = 640,
+  width = 1600,
+  height = 1200,
+  min_layer = -1,
+  max_layer = 2,
+  world = "dungeon_5",
+  floor = 0,
+  tileset = "dungeon/light_yellow",
+  music = "ordona",
+}
+
