@@ -6356,6 +6356,17 @@ tile{
   pattern = "spikes",
 }
 
+destructible{
+  name = "auto_destructible_4",
+  layer = 0,
+  x = 1000,
+  y = 765,
+  treasure_name = "heart",
+  sprite = "entities/vase",
+  destruction_sound = "stone",
+  damage_on_enemies = 0,
+}
+
 switch{
   name = "auto_switch_auto_door_c",
   layer = 0,
@@ -7618,6 +7629,407 @@ destination{
   x = 480,
   y = 357,
   direction = -1,
+}
+
+npc{
+  name = "mayor_assistant",
+  layer = 0,
+  x = 480,
+  y = 765,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/alttp/uncle",
+}
+
+enemy{
+  name = "auto_enemy_15",
+  layer = 0,
+  x = 312,
+  y = 61,
+  direction = 3,
+  breed = "alttp/poe",
+}
+
+enemy{
+  name = "auto_enemy_16",
+  layer = 0,
+  x = 104,
+  y = 717,
+  direction = 3,
+  breed = "alttp/poe",
+}
+
+enemy{
+  name = "auto_enemy_17",
+  layer = 0,
+  x = 216,
+  y = 717,
+  direction = 3,
+  breed = "alttp/poe",
+}
+
+enemy{
+  name = "auto_enemy_18",
+  layer = 0,
+  x = 160,
+  y = 1149,
+  direction = 3,
+  breed = "alttp/poe",
+}
+
+enemy{
+  name = "auto_enemy_19",
+  layer = 0,
+  x = 480,
+  y = 605,
+  direction = 3,
+  breed = "alttp/poe",
+}
+
+enemy{
+  name = "auto_enemy_20",
+  layer = 0,
+  x = 808,
+  y = 397,
+  direction = 3,
+  breed = "alttp/poe",
+}
+
+enemy{
+  name = "auto_enemy_21",
+  layer = 0,
+  x = 1112,
+  y = 301,
+  direction = 3,
+  breed = "alttp/poe",
+}
+
+enemy{
+  name = "auto_enemy_22",
+  layer = 0,
+  x = 1208,
+  y = 77,
+  direction = 3,
+  breed = "alttp/poe",
+}
+
+enemy{
+  name = "auto_enemy_23",
+  layer = 0,
+  x = 1432,
+  y = 189,
+  direction = 3,
+  breed = "alttp/poe",
+}
+
+enemy{
+  name = "auto_enemy_24",
+  layer = 0,
+  x = 1528,
+  y = 61,
+  direction = 3,
+  breed = "alttp/poe",
+}
+
+enemy{
+  name = "auto_enemy_25",
+  layer = 0,
+  x = 1528,
+  y = 429,
+  direction = 3,
+  breed = "alttp/poe",
+}
+
+enemy{
+  name = "auto_enemy_29",
+  layer = 0,
+  x = 1120,
+  y = 637,
+  direction = 3,
+  breed = "alttp/stalfos_knight",
+}
+
+enemy{
+  name = "auto_enemy_30",
+  layer = 0,
+  x = 792,
+  y = 109,
+  direction = 3,
+  breed = "som/ghoul",
+}
+
+enemy{
+  name = "auto_enemy_31",
+  layer = 0,
+  x = 1392,
+  y = 733,
+  direction = 3,
+  breed = "som/ghoul",
+}
+
+enemy{
+  name = "auto_enemy_32",
+  layer = 0,
+  x = 1488,
+  y = 733,
+  direction = 3,
+  breed = "som/ghoul",
+}
+
+enemy{
+  name = "auto_enemy_33",
+  layer = 0,
+  x = 1440,
+  y = 765,
+  direction = 3,
+  breed = "som/ghoul",
+}
+
+enemy{
+  name = "auto_enemy_46",
+  layer = 0,
+  x = 40,
+  y = 45,
+  direction = 3,
+  breed = "alttp/wallmaster",
+}
+
+enemy{
+  name = "auto_enemy_57",
+  layer = 0,
+  x = 360,
+  y = 525,
+  direction = 3,
+  breed = "alttp/wallmaster",
+}
+
+enemy{
+  name = "auto_enemy_58",
+  layer = 0,
+  x = 1000,
+  y = 765,
+  direction = 3,
+  breed = "alttp/wallmaster",
+}
+
+enemy{
+  name = "auto_enemy_59",
+  layer = 0,
+  x = 40,
+  y = 525,
+  direction = 3,
+  breed = "alttp/wallmaster",
+}
+
+enemy{
+  name = "auto_enemy_60",
+  layer = 0,
+  x = 40,
+  y = 1005,
+  direction = 3,
+  breed = "alttp/wallmaster",
+}
+
+destructible{
+  name = "auto_destructible_1",
+  layer = 0,
+  x = 680,
+  y = 45,
+  treasure_name = "heart",
+  sprite = "entities/vase",
+  destruction_sound = "stone",
+  damage_on_enemies = 0,
+}
+
+destructible{
+  name = "auto_destructible_2",
+  layer = 0,
+  x = 920,
+  y = 45,
+  treasure_name = "heart",
+  sprite = "entities/vase",
+  destruction_sound = "stone",
+  damage_on_enemies = 0,
+}
+
+destructible{
+  name = "auto_destructible_3",
+  layer = 0,
+  x = 1240,
+  y = 525,
+  treasure_name = "heart",
+  sprite = "entities/vase",
+  destruction_sound = "stone",
+  damage_on_enemies = 0,
+}
+
+destructible{
+  name = "auto_destructible_5",
+  layer = 0,
+  x = 1240,
+  y = 765,
+  treasure_name = "heart",
+  sprite = "entities/vase",
+  destruction_sound = "stone",
+  damage_on_enemies = 0,
+}
+
+destructible{
+  name = "auto_destructible_7",
+  layer = 0,
+  x = 680,
+  y = 765,
+  treasure_name = "heart",
+  sprite = "entities/vase",
+  destruction_sound = "stone",
+  damage_on_enemies = 0,
+}
+
+destructible{
+  name = "auto_destructible_8",
+  layer = 0,
+  x = 920,
+  y = 765,
+  treasure_name = "heart",
+  sprite = "entities/vase",
+  destruction_sound = "stone",
+  damage_on_enemies = 0,
+}
+
+destructible{
+  name = "auto_destructible_10",
+  layer = 0,
+  x = 1000,
+  y = 525,
+  treasure_name = "bomb",
+  sprite = "entities/vase",
+  destruction_sound = "stone",
+  damage_on_enemies = 0,
+}
+
+destructible{
+  name = "auto_destructible_11",
+  layer = 0,
+  x = 1240,
+  y = 685,
+  treasure_name = "bomb",
+  sprite = "entities/vase",
+  destruction_sound = "stone",
+  damage_on_enemies = 0,
+}
+
+destructible{
+  name = "auto_destructible_13",
+  layer = 0,
+  x = 1352,
+  y = 189,
+  treasure_name = "magic_flask",
+  sprite = "entities/vase",
+  destruction_sound = "stone",
+  damage_on_enemies = 0,
+}
+
+destructible{
+  name = "auto_destructible_14",
+  layer = 0,
+  x = 1352,
+  y = 205,
+  treasure_name = "magic_flask",
+  sprite = "entities/vase",
+  destruction_sound = "stone",
+  damage_on_enemies = 0,
+}
+
+destructible{
+  name = "auto_destructible_15",
+  layer = 0,
+  x = 1368,
+  y = 189,
+  treasure_name = "magic_flask",
+  sprite = "entities/vase",
+  destruction_sound = "stone",
+  damage_on_enemies = 0,
+}
+
+destructible{
+  name = "auto_destructible_16",
+  layer = 0,
+  x = 1368,
+  y = 205,
+  treasure_name = "magic_flask",
+  sprite = "entities/vase",
+  destruction_sound = "stone",
+  damage_on_enemies = 0,
+}
+
+destructible{
+  name = "auto_destructible_6",
+  layer = 0,
+  x = 1336,
+  y = 189,
+  sprite = "entities/vase",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
+}
+
+destructible{
+  name = "auto_destructible_9",
+  layer = 0,
+  x = 1336,
+  y = 205,
+  sprite = "entities/vase",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
+}
+
+destructible{
+  name = "auto_destructible_12",
+  layer = 0,
+  x = 680,
+  y = 205,
+  sprite = "entities/vase",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
+}
+
+destructible{
+  name = "auto_destructible_17",
+  layer = 0,
+  x = 920,
+  y = 205,
+  sprite = "entities/vase",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
+}
+
+destructible{
+  name = "auto_destructible_18",
+  layer = 0,
+  x = 1000,
+  y = 685,
+  sprite = "entities/vase",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
+}
+
+destructible{
+  name = "auto_destructible_19",
+  layer = 0,
+  x = 1000,
+  y = 925,
+  sprite = "entities/vase",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
+}
+
+destructible{
+  name = "auto_destructible_20",
+  layer = 0,
+  x = 1240,
+  y = 925,
+  sprite = "entities/vase",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
 }
 
 tile{

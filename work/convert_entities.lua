@@ -11,7 +11,6 @@
 
 -- TODO:
 -- - check enemy offsets
--- - add support of traps
 -- - add support of destructibles other than vases
 -- - add support of chests and blocks
 -- - test outside maps
@@ -103,17 +102,38 @@ local breeds_on_high_layer = {
   ["alttp/vulture"] = true,
 }
 
-local treasures = {
+local treasures = {  -- enum Type_Items
 
   ["1"] = {
     treasure_name = "rupee",
     treasure_variant = 1,
   },
+  ["2"] = {
+    treasure_name = "rupee",
+    treasure_variant = 2,
+  },
+  ["3"] = {
+    treasure_name = "rupee",
+    treasure_variant = 3,
+  },
   ["4"] = {
     treasure_name = "heart",
-    treasure_variant = 1,
     offset_x = 0,
     offset_y = 4,
+  },
+  ["5"] = {
+    treasure_name = "arrow",
+  },
+  ["6"] = {
+    treasure_name = "bomb",
+  },
+  ["7"] = {
+    treasure_name = "magic_flask",
+    treasure_variant = 1,
+  },
+  ["8"] = {
+    treasure_name = "magic_flask",
+    treasure_variant = 2,
   },
   -- TODO
 }
@@ -157,6 +177,16 @@ local function parse_enemies(src)
     enemy.breed = enemy_id_to_breed(enemy_id)
     enemies[#enemies + 1] = enemy
   end
+  for enemy_id, x, y in src:gmatch("ajoutePiege%(([0-9]*), *([-+*0-9]*), *([-+*0-9]*)%)") do
+    local enemy = {}
+    enemy.name = "auto_enemy_" .. (#enemies + 1)
+    enemy.x = evaluate_math(x)
+    enemy.y = evaluate_math(y)
+    enemy.layer = get_enemy_layer(enemy.breed)
+    enemy.direction = 3
+    enemy.breed = enemy_id_to_breed(enemy_id)
+    enemies[#enemies + 1] = enemy
+  end
   return enemies
 end
 
@@ -182,7 +212,7 @@ local function pickable_id_to_treasure(pickable_id)
 
   assert(pickable_id ~= nil)
   local treasure = treasures[pickable_id]
-  assert(treasure ~= nil)
+  assert(treasure ~= nil, "Unknow treasure id: " .. pickable_id)
   return treasure
 end
 

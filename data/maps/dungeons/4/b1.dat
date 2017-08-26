@@ -8926,6 +8926,222 @@ stairs{
   subtype = 2,
 }
 
+enemy{
+  name = "auto_enemy_26",
+  layer = 0,
+  x = 1048,
+  y = 301,
+  direction = 3,
+  breed = "alttp/poe",
+}
+
+enemy{
+  name = "auto_enemy_27",
+  layer = 0,
+  x = 1208,
+  y = 173,
+  direction = 3,
+  breed = "alttp/poe",
+}
+
+enemy{
+  name = "auto_enemy_28",
+  layer = 0,
+  x = 1496,
+  y = 237,
+  direction = 3,
+  breed = "alttp/poe",
+}
+
+enemy{
+  name = "auto_enemy_34",
+  layer = 0,
+  x = 480,
+  y = 589,
+  direction = 3,
+  breed = "som/ghoul",
+}
+
+enemy{
+  name = "auto_enemy_35",
+  layer = 0,
+  x = 800,
+  y = 605,
+  direction = 3,
+  breed = "som/ghoul",
+}
+
+enemy{
+  name = "auto_enemy_36",
+  layer = 0,
+  x = 480,
+  y = 829,
+  direction = 3,
+  breed = "som/ghoul",
+}
+
+enemy{
+  name = "auto_enemy_37",
+  layer = 0,
+  x = 1280,
+  y = 589,
+  direction = 3,
+  breed = "som/ghoul",
+}
+
+enemy{
+  name = "auto_enemy_38",
+  layer = 0,
+  x = 1280,
+  y = 829,
+  direction = 3,
+  breed = "som/ghoul",
+}
+
+enemy{
+  name = "auto_enemy_39",
+  layer = 0,
+  x = 1152,
+  y = 1165,
+  direction = 3,
+  breed = "alttp/rolling_spike_trap",
+}
+
+enemy{
+  name = "auto_enemy_40",
+  layer = 0,
+  x = 1280,
+  y = 1005,
+  direction = 3,
+  breed = "alttp/rolling_spike_trap",
+}
+
+enemy{
+  name = "auto_enemy_41",
+  layer = 0,
+  x = 1408,
+  y = 1165,
+  direction = 3,
+  breed = "alttp/rolling_spike_trap",
+}
+
+enemy{
+  name = "auto_enemy_42",
+  layer = 0,
+  x = 320,
+  y = 1053,
+  direction = 3,
+  breed = "alttp/rolling_spike_trap",
+}
+
+enemy{
+  name = "auto_enemy_43",
+  layer = 0,
+  x = 312,
+  y = 221,
+  direction = 3,
+  breed = "alttp/medusa",
+}
+
+enemy{
+  name = "auto_enemy_47",
+  layer = 0,
+  x = 680,
+  y = 1005,
+  direction = 3,
+  breed = "alttp/wallmaster",
+}
+
+enemy{
+  name = "auto_enemy_48",
+  layer = 0,
+  x = 1000,
+  y = 45,
+  direction = 3,
+  breed = "alttp/wallmaster",
+}
+
+enemy{
+  name = "auto_enemy_49",
+  layer = 0,
+  x = 40,
+  y = 525,
+  direction = 3,
+  breed = "alttp/wallmaster",
+}
+
+enemy{
+  name = "auto_enemy_50",
+  layer = 0,
+  x = 40,
+  y = 765,
+  direction = 3,
+  breed = "alttp/wallmaster",
+}
+
+destructible{
+  name = "auto_destructible_6",
+  layer = 0,
+  x = 360,
+  y = 685,
+  treasure_name = "heart",
+  sprite = "entities/vase",
+  destruction_sound = "stone",
+  damage_on_enemies = 0,
+}
+
+destructible{
+  name = "auto_destructible_9",
+  layer = 0,
+  x = 1560,
+  y = 765,
+  treasure_name = "heart",
+  sprite = "entities/vase",
+  destruction_sound = "stone",
+  damage_on_enemies = 0,
+}
+
+destructible{
+  name = "auto_destructible_12",
+  layer = 0,
+  x = 600,
+  y = 685,
+  treasure_name = "bomb",
+  sprite = "entities/vase",
+  destruction_sound = "stone",
+  damage_on_enemies = 0,
+}
+
+destructible{
+  name = "auto_destructible_1",
+  layer = 0,
+  x = 360,
+  y = 525,
+  sprite = "entities/vase",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
+}
+
+destructible{
+  name = "auto_destructible_2",
+  layer = 0,
+  x = 600,
+  y = 525,
+  sprite = "entities/vase",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
+}
+
+destructible{
+  name = "auto_destructible_3",
+  layer = 0,
+  x = 1560,
+  y = 925,
+  sprite = "entities/vase",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
+}
+
 tile{
   layer = 1,
   x = 120,

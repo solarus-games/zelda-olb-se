@@ -1768,6 +1768,87 @@ stairs{
   subtype = 3,
 }
 
+enemy{
+  name = "auto_enemy_1",
+  layer = 0,
+  x = 440,
+  y = 813,
+  direction = 3,
+  breed = "alttp/poe",
+}
+
+enemy{
+  name = "auto_enemy_2",
+  layer = 0,
+  x = 472,
+  y = 605,
+  direction = 3,
+  breed = "alttp/poe",
+}
+
+enemy{
+  name = "auto_enemy_3",
+  layer = 0,
+  x = 536,
+  y = 397,
+  direction = 3,
+  breed = "alttp/poe",
+}
+
+enemy{
+  name = "auto_enemy_4",
+  layer = 0,
+  x = 632,
+  y = 877,
+  direction = 3,
+  breed = "alttp/poe",
+}
+
+enemy{
+  name = "auto_enemy_5",
+  layer = 0,
+  x = 808,
+  y = 477,
+  direction = 3,
+  breed = "alttp/poe",
+}
+
+enemy{
+  name = "auto_enemy_6",
+  layer = 0,
+  x = 952,
+  y = 813,
+  direction = 3,
+  breed = "alttp/poe",
+}
+
+enemy{
+  name = "auto_enemy_7",
+  layer = 0,
+  x = 1128,
+  y = 621,
+  direction = 3,
+  breed = "alttp/poe",
+}
+
+enemy{
+  name = "auto_enemy_8",
+  layer = 0,
+  x = 1144,
+  y = 333,
+  direction = 3,
+  breed = "alttp/poe",
+}
+
+enemy{
+  name = "auto_enemy_44",
+  layer = 0,
+  x = 360,
+  y = 285,
+  direction = 3,
+  breed = "alttp/wallmaster",
+}
+
 separator{
   name = "auto_separator_8",
   layer = 2,

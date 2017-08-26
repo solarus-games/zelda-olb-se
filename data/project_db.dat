@@ -7,7 +7,6 @@ map{ id = "dungeons/1/store", description = "Dungeon 1 Store" }
 map{ id = "dungeons/2/1f", description = "Dungeon 2 1F" }
 map{ id = "dungeons/2/b1", description = "Dungeon 2 B1" }
 map{ id = "dungeons/2/b2", description = "Dungeon 2 B2" }
-map{ id = "dungeons/2/entities", description = "Converted entities" }
 map{ id = "dungeons/2/store", description = "Dungeon 2 Store" }
 map{ id = "dungeons/3/1f", description = "Dungeon 3 1F" }
 map{ id = "dungeons/3/2f", description = "Dungeon 3 2F" }
@@ -17,6 +16,7 @@ map{ id = "dungeons/4/1f", description = "Dungeon 4 1F" }
 map{ id = "dungeons/4/2f", description = "Dungeon 4 2F" }
 map{ id = "dungeons/4/3f", description = "Dungeon 4 3F" }
 map{ id = "dungeons/4/b1", description = "Dungeon 4 B1" }
+map{ id = "dungeons/4/entities", description = "Converted entities" }
 map{ id = "dungeons/4/store", description = "Dungeon 4 Store" }
 map{ id = "enemy_store", description = "Enemy Store" }
 map{ id = "house_store", description = "House Store" }
