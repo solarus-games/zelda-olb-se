@@ -9398,7 +9398,7 @@ door{
   x = 1360,
   y = 352,
   direction = 1,
-  sprite = "entities/prison_door_mine",
+  sprite = "entities/prison_door_dungeon_2",
   savegame_variable = "dungeon_2_b1_prison_door_b",
 }
 
@@ -9408,7 +9408,7 @@ door{
   x = 1504,
   y = 1056,
   direction = 1,
-  sprite = "entities/prison_door_mine",
+  sprite = "entities/prison_door_dungeon_2",
   savegame_variable = "dungeon_2_b1_prison_door_c",
 }
 
