@@ -11,6 +11,7 @@
 
 -- TODO:
 -- - check enemy offsets
+-- - add support of traps
 -- - add support of destructibles other than vases
 -- - add support of chests and blocks
 -- - test outside maps
@@ -22,19 +23,84 @@
 -- The output is written to stdout. It can be directly pasted to a map
 -- open in Solarus Quest Editor.
 
-local src = io.read("*a")
-
 local enemy_breeds = {
+  ["1"] = "alttp/stalfos_blue",
+  ["2"] = "alttp/zazak_blue",
   ["3"] = "alttp/tektite_blue",
   ["4"] = "alttp/popo",
+  ["5"] = "alttp/moblin",
+  ["6"] = "alttp/armos",
+  ["7"] = "alttp/rope",
   ["8"] = "alttp/pikku",
+  ["9"] = "alttp/zora_feet",
+  ["10"] = "alttp/zora_water",
+  ["11"] = "alttp/stal",
+  ["12"] = "alttp/poe",
+  ["13"] = "alttp/vulture",
+  ["14"] = "alttp/geldman",
+  ["15"] = "alttp/lynel",
+  ["16"] = "alttp/wizzrobe_blue",
+  ["17"] = "alttp/pike_auto",
   ["18"] = "alttp/keese",
-  -- TODO
+  ["19"] = "alttp/mothula",
+  ["21"] = "alttp/hover",
+  ["22"] = "alttp/bari_blue",
+  ["23"] = "alttp/sand_crab",
+  ["24"] = "alttp/arrghus",
+  ["25"] = "alttp/hinox",
+  ["26"] = "alttp/chasupa",
+  ["27"] = "alttp/octorok",
+  ["28"] = "alttp/armos_knight",
+  ["29"] = "alttp/gibdo",
+  ["30"] = "alttp/wizzrobe_white",
+  ["31"] = "alttp/agahnim",
+  ["32"] = "alttp/ropa",
+  ["33"] = "alttp/goriya_green",
+  ["34"] = "alttp/eyegore_green",
+  ["35"] = "alttp/vitreous",
+  ["36"] = "alttp/medusa",
+  ["37"] = "alttp/stalfos_red",
+  ["38"] = "alttp/goriya_red",
+  ["39"] = "alttp/eyegore_red",
+  ["40"] = "alttp/blind",
+  ["41"] = "alttp/pengator",
+  ["42"] = "alttp/freezor",
+  ["43"] = "alttp/kholdstare",
+  ["44"] = "alttp/tarosu_red",
+  ["45"] = "alttp/helmasaur_king",
+  ["46"] = "alttp/sword_soldier_green",
+  ["47"] = "alttp/sword_soldier_blue",
+  ["48"] = "alttp/sword_soldier_red",
+  ["49"] = "alttp/medusa_purple",
+  ["50"] = "alttp/ganon",
+  ["51"] = "alttp/wallmaster",
+  ["52"] = "alttp/chicken",
+  ["53"] = "alttp/zol_green",
+  ["54"] = "alttp/crow",
+  ["55"] = "alttp/tarosu_blue",
+  ["56"] = "alttp/hyu",
+  ["57"] = "som/tropicallo",
+  ["58"] = "alttp/zol_green",
+  ["59"] = "som/brambler",
+  ["60"] = "som/kilroy",
+  ["61"] = "alttp/rolling_spike_trap",
+  ["62"] = "alttp/stalfos_knight",
+  ["63"] = "som/vampire",
+  ["64"] = "som/ghoul",
+  ["65"] = "alttp/medusa_blue",
+  ["66"] = "soe/aquagoth",
+  ["71"] = "som/minotaur",
+  ["72"] = "alttp/stalfos_grey",
+  ["73"] = "som/dragon_red",
+  ["74"] = "som/dragon_snow",
+  ["75"] = "alttp/onilink",
+  ["76"] = "som/spikey_tiger",
 }
 
 local breeds_on_high_layer = {
+  ["alttp/crow"] = true,
   ["alttp/keese"] = true,
-  -- TODO
+  ["alttp/vulture"] = true,
 }
 
 local treasures = {
@@ -51,6 +117,8 @@ local treasures = {
   },
   -- TODO
 }
+
+local src = io.read("*a")
 
 -- Converts an enemy number from ROTH/OLB/3T to an enemy breed for a
 -- Solarus quest.
