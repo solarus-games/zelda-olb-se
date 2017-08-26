@@ -1,6 +1,6 @@
 properties{
-  x = 0,
-  y = 0,
+  x = 640,
+  y = 640,
   width = 1600,
   height = 1200,
   min_layer = 0,
@@ -7619,7 +7619,7 @@ stairs{
   layer = 0,
   x = 792,
   y = 816,
-  direction = 1,
+  direction = 3,
   subtype = 3,
 }
 
