@@ -2396,6 +2396,141 @@ tile{
   pattern = "carpet.9",
 }
 
+tile{
+  layer = 0,
+  x = 496,
+  y = 744,
+  width = 32,
+  height = 16,
+  pattern = "spikes",
+}
+
+tile{
+  layer = 0,
+  x = 592,
+  y = 920,
+  width = 32,
+  height = 16,
+  pattern = "spikes",
+}
+
+tile{
+  layer = 0,
+  x = 752,
+  y = 744,
+  width = 32,
+  height = 16,
+  pattern = "spikes",
+}
+
+tile{
+  layer = 0,
+  x = 344,
+  y = 264,
+  width = 272,
+  height = 16,
+  pattern = "spikes",
+}
+
+tile{
+  layer = 0,
+  x = 600,
+  y = 280,
+  width = 16,
+  height = 176,
+  pattern = "spikes",
+}
+
+tile{
+  layer = 0,
+  x = 344,
+  y = 280,
+  width = 16,
+  height = 176,
+  pattern = "spikes",
+}
+
+tile{
+  layer = 0,
+  x = 352,
+  y = 440,
+  width = 112,
+  height = 16,
+  pattern = "spikes",
+}
+
+tile{
+  layer = 0,
+  x = 496,
+  y = 440,
+  width = 112,
+  height = 16,
+  pattern = "spikes",
+}
+
+tile{
+  layer = 0,
+  x = 992,
+  y = 504,
+  width = 112,
+  height = 16,
+  pattern = "spikes",
+}
+
+tile{
+  layer = 0,
+  x = 1136,
+  y = 504,
+  width = 112,
+  height = 16,
+  pattern = "spikes",
+}
+
+tile{
+  layer = 0,
+  x = 1136,
+  y = 680,
+  width = 112,
+  height = 16,
+  pattern = "spikes",
+}
+
+tile{
+  layer = 0,
+  x = 992,
+  y = 680,
+  width = 112,
+  height = 16,
+  pattern = "spikes",
+}
+
+tile{
+  layer = 0,
+  x = 984,
+  y = 504,
+  width = 16,
+  height = 192,
+  pattern = "spikes",
+}
+
+tile{
+  layer = 0,
+  x = 1240,
+  y = 504,
+  width = 16,
+  height = 192,
+  pattern = "spikes",
+}
+
+tile{
+  layer = 0,
+  x = 1240,
+  y = 320,
+  width = 16,
+  height = 80,
+  pattern = "spikes",
+}
+
 wall{
   layer = 0,
   x = 472,
@@ -3159,7 +3294,7 @@ teletransporter{
   y = 336,
   width = 32,
   height = 32,
-  destination_map = "dungeon_7/1f",
+  destination_map = "dungeons/4/1f",
   destination = "from_2f_hole",
 }
 

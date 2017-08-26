@@ -5557,9 +5557,9 @@ tile{
 
 tile{
   layer = 0,
-  x = 64,
+  x = 56,
   y = 1120,
-  width = 512,
+  width = 528,
   height = 16,
   pattern = "spikes",
 }
@@ -7524,6 +7524,132 @@ tile{
   width = 128,
   height = 8,
   pattern = "wall_border.2-6",
+}
+
+tile{
+  layer = 0,
+  x = 1456,
+  y = 1160,
+  width = 16,
+  height = 16,
+  pattern = "spikes",
+}
+
+tile{
+  layer = 0,
+  x = 1344,
+  y = 1160,
+  width = 16,
+  height = 16,
+  pattern = "spikes",
+}
+
+tile{
+  layer = 0,
+  x = 1328,
+  y = 984,
+  width = 16,
+  height = 16,
+  pattern = "spikes",
+}
+
+tile{
+  layer = 0,
+  x = 1216,
+  y = 984,
+  width = 16,
+  height = 16,
+  pattern = "spikes",
+}
+
+tile{
+  layer = 0,
+  x = 1088,
+  y = 1160,
+  width = 16,
+  height = 16,
+  pattern = "spikes",
+}
+
+tile{
+  layer = 0,
+  x = 1200,
+  y = 1160,
+  width = 16,
+  height = 16,
+  pattern = "spikes",
+}
+
+tile{
+  layer = 0,
+  x = 224,
+  y = 1032,
+  width = 192,
+  height = 16,
+  pattern = "spikes",
+}
+
+tile{
+  layer = 0,
+  x = 56,
+  y = 1128,
+  width = 528,
+  height = 16,
+  pattern = "spikes",
+}
+
+tile{
+  layer = 0,
+  x = 672,
+  y = 264,
+  width = 112,
+  height = 16,
+  pattern = "spikes",
+}
+
+tile{
+  layer = 0,
+  x = 816,
+  y = 264,
+  width = 112,
+  height = 16,
+  pattern = "spikes",
+}
+
+tile{
+  layer = 0,
+  x = 816,
+  y = 440,
+  width = 112,
+  height = 16,
+  pattern = "spikes",
+}
+
+tile{
+  layer = 0,
+  x = 672,
+  y = 440,
+  width = 112,
+  height = 16,
+  pattern = "spikes",
+}
+
+tile{
+  layer = 0,
+  x = 664,
+  y = 264,
+  width = 16,
+  height = 192,
+  pattern = "spikes",
+}
+
+tile{
+  layer = 0,
+  x = 920,
+  y = 264,
+  width = 16,
+  height = 192,
+  pattern = "spikes",
 }
 
 wall{
