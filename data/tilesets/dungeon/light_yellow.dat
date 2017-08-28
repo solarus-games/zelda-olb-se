@@ -50444,6 +50444,7 @@ border_set{
 
 border_set{
   id = "hole",
+  inner = true,
   pattern_0 = "hole.4",
   pattern_1 = "hole.1",
   pattern_2 = "hole.3",

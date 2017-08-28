@@ -7821,7 +7821,7 @@ wall{
 }
 
 door{
-  name = "auto_door_a",
+  name = "auto_door_a_back",
   layer = 0,
   x = 616,
   y = 832,
@@ -7830,7 +7830,7 @@ door{
 }
 
 door{
-  name = "auto_door_a_back",
+  name = "auto_door_a",
   layer = 0,
   x = 648,
   y = 832,
@@ -8511,42 +8511,10 @@ custom_entity{
 }
 
 custom_entity{
-  layer = 0,
-  x = 696,
-  y = 893,
-  width = 16,
-  height = 16,
-  direction = 0,
-  sprite = "entities/torch",
-  model = "torch",
-}
-
-custom_entity{
+  name = "auto_torch_auto_door_a_1",
   layer = 0,
   x = 696,
   y = 797,
-  width = 16,
-  height = 16,
-  direction = 0,
-  sprite = "entities/torch",
-  model = "torch",
-}
-
-custom_entity{
-  layer = 0,
-  x = 904,
-  y = 797,
-  width = 16,
-  height = 16,
-  direction = 0,
-  sprite = "entities/torch",
-  model = "torch",
-}
-
-custom_entity{
-  layer = 0,
-  x = 904,
-  y = 893,
   width = 16,
   height = 16,
   direction = 0,
@@ -8823,6 +8791,204 @@ wall{
   height = 48,
   stops_enemies = true,
   stops_blocks = true,
+}
+
+destination{
+  name = "from_b1_c",
+  layer = 0,
+  x = 800,
+  y = 589,
+  direction = 1,
+}
+
+destination{
+  name = "from_b1_sw",
+  layer = 0,
+  x = 800,
+  y = 1069,
+  direction = 1,
+}
+
+destination{
+  name = "from_b1_s",
+  layer = 0,
+  x = 1120,
+  y = 1069,
+  direction = 1,
+}
+
+destination{
+  name = "from_b1_se",
+  layer = 0,
+  x = 1536,
+  y = 1069,
+  direction = 1,
+}
+
+teletransporter{
+  layer = 0,
+  x = 792,
+  y = 576,
+  width = 16,
+  height = 16,
+  destination_map = "dungeons/5/b1",
+  destination = "from_1f_c",
+}
+
+teletransporter{
+  layer = 0,
+  x = 792,
+  y = 1056,
+  width = 16,
+  height = 16,
+  destination_map = "dungeons/5/b1",
+  destination = "from_1f_sw",
+}
+
+teletransporter{
+  layer = 0,
+  x = 1112,
+  y = 1056,
+  width = 16,
+  height = 16,
+  destination_map = "dungeons/5/b1",
+  destination = "from_1f_s",
+}
+
+teletransporter{
+  layer = 0,
+  x = 1528,
+  y = 1056,
+  width = 16,
+  height = 16,
+  destination_map = "dungeons/5/b1",
+  destination = "from_1f_se",
+}
+
+stairs{
+  layer = 0,
+  x = 792,
+  y = 576,
+  direction = 3,
+  subtype = 3,
+}
+
+stairs{
+  layer = 0,
+  x = 792,
+  y = 1056,
+  direction = 3,
+  subtype = 3,
+}
+
+stairs{
+  layer = 0,
+  x = 1112,
+  y = 1056,
+  direction = 3,
+  subtype = 3,
+}
+
+stairs{
+  layer = 0,
+  x = 1528,
+  y = 1056,
+  direction = 3,
+  subtype = 3,
+}
+
+pickable{
+  name = "graal",
+  layer = 0,
+  x = 1440,
+  y = 93,
+  treasure_name = "graal",
+  treasure_savegame_variable = "dungeon_5_graal",
+}
+
+chest{
+  layer = 0,
+  x = 696,
+  y = 541,
+  treasure_name = "map",
+  treasure_savegame_variable = "dungeon_5_map_chest",
+  sprite = "entities/chest",
+}
+
+chest{
+  layer = 0,
+  x = 160,
+  y = 1053,
+  treasure_name = "compass",
+  treasure_savegame_variable = "dungeon_5_compass_chest",
+  sprite = "entities/chest",
+}
+
+chest{
+  layer = 0,
+  x = 160,
+  y = 829,
+  treasure_name = "small_key",
+  treasure_savegame_variable = "dungeon_5_1f_w_key_chest",
+  sprite = "entities/chest",
+}
+
+custom_entity{
+  name = "auto_torch_auto_door_a_2",
+  layer = 0,
+  x = 696,
+  y = 893,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/torch",
+  model = "torch",
+}
+
+custom_entity{
+  name = "auto_torch_auto_door_b_1",
+  layer = 0,
+  x = 904,
+  y = 797,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/torch",
+  model = "torch",
+}
+
+custom_entity{
+  name = "auto_torch_auto_door_b_2",
+  layer = 0,
+  x = 904,
+  y = 893,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/torch",
+  model = "torch",
+}
+
+switch{
+  name = "auto_switch_auto_door_c",
+  layer = 0,
+  x = 1184,
+  y = 752,
+  subtype = "walkable",
+  sprite = "entities/switches/switch",
+  sound = "switch",
+  needs_block = false,
+  inactivate_when_leaving = false,
+}
+
+destructible{
+  name = "auto_destructible_2",
+  layer = 0,
+  x = 1192,
+  y = 765,
+  sprite = "entities/vase_skull",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
 }
 
 tile{
@@ -9786,5 +9952,365 @@ separator{
   y = 720,
   width = 16,
   height = 240,
+}
+
+dynamic_tile{
+  layer = 2,
+  x = 320,
+  y = -16,
+  pattern = "201",
+  width = 8,
+  height = 16,
+  enabled_at_start = false,
+}
+
+dynamic_tile{
+  layer = 2,
+  x = 328,
+  y = -16,
+  pattern = "199",
+  width = 8,
+  height = 16,
+  enabled_at_start = false,
+}
+
+dynamic_tile{
+  layer = 2,
+  x = 648,
+  y = -16,
+  pattern = "199",
+  width = 8,
+  height = 16,
+  enabled_at_start = false,
+}
+
+dynamic_tile{
+  layer = 2,
+  x = 640,
+  y = -16,
+  pattern = "203",
+  width = 8,
+  height = 16,
+  enabled_at_start = false,
+}
+
+dynamic_tile{
+  layer = 2,
+  x = 8,
+  y = -16,
+  pattern = "199",
+  width = 8,
+  height = 16,
+  enabled_at_start = false,
+}
+
+dynamic_tile{
+  layer = 2,
+  x = 968,
+  y = -16,
+  pattern = "199",
+  width = 8,
+  height = 16,
+  enabled_at_start = false,
+}
+
+dynamic_tile{
+  layer = 2,
+  x = 960,
+  y = -16,
+  pattern = "205",
+  width = 8,
+  height = 16,
+  enabled_at_start = false,
+}
+
+dynamic_tile{
+  layer = 2,
+  x = 1288,
+  y = -16,
+  pattern = "199",
+  width = 8,
+  height = 16,
+  enabled_at_start = false,
+}
+
+dynamic_tile{
+  layer = 2,
+  x = 1280,
+  y = -16,
+  pattern = "207",
+  width = 8,
+  height = 16,
+  enabled_at_start = false,
+}
+
+dynamic_tile{
+  layer = 2,
+  x = -16,
+  y = 240,
+  pattern = "200",
+  width = 8,
+  height = 16,
+  enabled_at_start = false,
+}
+
+dynamic_tile{
+  layer = 2,
+  x = -8,
+  y = 240,
+  pattern = "204",
+  width = 8,
+  height = 16,
+  enabled_at_start = false,
+}
+
+dynamic_tile{
+  layer = 2,
+  x = -8,
+  y = 480,
+  pattern = "199",
+  width = 8,
+  height = 16,
+  enabled_at_start = false,
+}
+
+dynamic_tile{
+  layer = 2,
+  x = -16,
+  y = 480,
+  pattern = "202",
+  width = 8,
+  height = 16,
+  enabled_at_start = false,
+}
+
+dynamic_tile{
+  layer = 2,
+  x = -8,
+  y = 720,
+  pattern = "204",
+  width = 8,
+  height = 16,
+  enabled_at_start = false,
+}
+
+dynamic_tile{
+  layer = 2,
+  x = -16,
+  y = 720,
+  pattern = "203",
+  width = 8,
+  height = 16,
+  enabled_at_start = false,
+}
+
+dynamic_tile{
+  layer = 2,
+  x = -8,
+  y = 960,
+  pattern = "199",
+  width = 8,
+  height = 16,
+  enabled_at_start = false,
+}
+
+dynamic_tile{
+  layer = 2,
+  x = -16,
+  y = 960,
+  pattern = "205",
+  width = 8,
+  height = 16,
+  enabled_at_start = false,
+}
+
+dynamic_tile{
+  layer = 2,
+  x = -8,
+  y = 0,
+  pattern = "199",
+  width = 8,
+  height = 16,
+  enabled_at_start = false,
+}
+
+dynamic_tile{
+  layer = 2,
+  x = 320,
+  y = 1200,
+  pattern = "201",
+  width = 8,
+  height = 16,
+  enabled_at_start = false,
+}
+
+dynamic_tile{
+  layer = 2,
+  x = 328,
+  y = 1200,
+  pattern = "199",
+  width = 8,
+  height = 16,
+  enabled_at_start = false,
+}
+
+dynamic_tile{
+  layer = 2,
+  x = 648,
+  y = 1200,
+  pattern = "199",
+  width = 8,
+  height = 16,
+  enabled_at_start = false,
+}
+
+dynamic_tile{
+  layer = 2,
+  x = 640,
+  y = 1200,
+  pattern = "203",
+  width = 8,
+  height = 16,
+  enabled_at_start = false,
+}
+
+dynamic_tile{
+  layer = 2,
+  x = 8,
+  y = 1200,
+  pattern = "199",
+  width = 8,
+  height = 16,
+  enabled_at_start = false,
+}
+
+dynamic_tile{
+  layer = 2,
+  x = 968,
+  y = 1200,
+  pattern = "199",
+  width = 8,
+  height = 16,
+  enabled_at_start = false,
+}
+
+dynamic_tile{
+  layer = 2,
+  x = 960,
+  y = 1200,
+  pattern = "205",
+  width = 8,
+  height = 16,
+  enabled_at_start = false,
+}
+
+dynamic_tile{
+  layer = 2,
+  x = 1288,
+  y = 1200,
+  pattern = "199",
+  width = 8,
+  height = 16,
+  enabled_at_start = false,
+}
+
+dynamic_tile{
+  layer = 2,
+  x = 1280,
+  y = 1200,
+  pattern = "207",
+  width = 8,
+  height = 16,
+  enabled_at_start = false,
+}
+
+dynamic_tile{
+  layer = 2,
+  x = 1600,
+  y = 240,
+  pattern = "200",
+  width = 8,
+  height = 16,
+  enabled_at_start = false,
+}
+
+dynamic_tile{
+  layer = 2,
+  x = 1608,
+  y = 240,
+  pattern = "204",
+  width = 8,
+  height = 16,
+  enabled_at_start = false,
+}
+
+dynamic_tile{
+  layer = 2,
+  x = 1608,
+  y = 480,
+  pattern = "199",
+  width = 8,
+  height = 16,
+  enabled_at_start = false,
+}
+
+dynamic_tile{
+  layer = 2,
+  x = 1600,
+  y = 480,
+  pattern = "202",
+  width = 8,
+  height = 16,
+  enabled_at_start = false,
+}
+
+dynamic_tile{
+  layer = 2,
+  x = 1608,
+  y = 720,
+  pattern = "204",
+  width = 8,
+  height = 16,
+  enabled_at_start = false,
+}
+
+dynamic_tile{
+  layer = 2,
+  x = 1600,
+  y = 720,
+  pattern = "203",
+  width = 8,
+  height = 16,
+  enabled_at_start = false,
+}
+
+dynamic_tile{
+  layer = 2,
+  x = 1608,
+  y = 960,
+  pattern = "199",
+  width = 8,
+  height = 16,
+  enabled_at_start = false,
+}
+
+dynamic_tile{
+  layer = 2,
+  x = 1600,
+  y = 960,
+  pattern = "205",
+  width = 8,
+  height = 16,
+  enabled_at_start = false,
+}
+
+dynamic_tile{
+  layer = 2,
+  x = 1608,
+  y = 0,
+  pattern = "199",
+  width = 8,
+  height = 16,
+  enabled_at_start = false,
 }
 
