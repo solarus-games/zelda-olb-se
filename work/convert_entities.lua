@@ -10,9 +10,8 @@
 -- - Destructibles
 
 -- TODO:
--- - check enemy offsets
+-- - check offsets for enemies, destructibles and blocks
 -- - add support of destructibles other than vases
--- - add support of chests and blocks
 -- - test outside maps
 
 -- The input code is read from stdin and should contain some
@@ -146,7 +145,7 @@ local function enemy_id_to_breed(enemy_id)
 
   assert(enemy_id ~= nil)
   local breed = enemy_breeds[enemy_id]
-  assert(breed ~= nil)
+  assert(breed ~= nil, "Unknow enemy id: " .. enemy_id)
   return breed
 end
 
@@ -235,7 +234,7 @@ local function parse_destructibles(src)
     entity.name = "auto_destructible_" .. (#entities + 1)
     entity.x, entity.y = get_destructible_coords(x, y, treasure)
     entity.layer = 0
-    entity.sprite = "entities/vase"
+    entity.sprite = "entities/vase_skull"
     entity.destruction_sound = "stone"
     entity.damage_on_enemies = 0
     entity.treasure_name, entity.treasure_variant = treasure.treasure_name, treasure.treasure_variant
@@ -265,10 +264,45 @@ local function write_destructibles(destructibles)
   end
 end
 
+-- Returns a table of blocks descriptions with their properties.
+local function parse_blocks(src)
+  local entities = {}
+  for x, y in src:gmatch("ajouteCaisse%([0-9]*, *([-+*0-9]*), *([-+*0-9]*)%)") do
+    local entity = {}
+    entity.name = "auto_block_" .. (#entities + 1)
+    entity.x = evaluate_math(x)
+    entity.y = evaluate_math(y)
+    entity.layer = 0
+    entities[#entities + 1] = entity
+  end
+  return entities
+end
+
+-- Write blocks in Solarus format.
+local function write_blocks(blocks)
+
+  for _, entity in ipairs(blocks) do
+    io.write("block{\n")
+    io.write("  name = \"" .. entity.name .. "\",\n")
+    io.write("  layer = " .. entity.layer .. ",\n")
+    io.write("  x = " .. entity.x .. ",\n")
+    io.write("  y = " .. entity.y .. ",\n")
+    io.write("  sprite = \"entities/block\",\n")
+    io.write("  pushable = true,\n")
+    io.write("  pullable = false,\n")
+    io.write("  maximum_moves = 2,\n")
+    io.write("}\n")
+    io.write("\n")
+  end
+end
+
 
 local enemies = parse_enemies(src)
 write_enemies(enemies)
 
 local destructibles = parse_destructibles(src)
 write_destructibles(destructibles)
+
+local blocks = parse_blocks(src)
+write_blocks(blocks)
 
