@@ -9100,7 +9100,7 @@ enemy{
 }
 
 enemy{
-  name = "auto_enemy_14",
+  name = "auto_enemy_auto_door_e",
   layer = 0,
   x = 800,
   y = 341,
@@ -9121,7 +9121,7 @@ enemy{
   name = "auto_enemy_21",
   layer = 0,
   x = 240,
-  y = 133,
+  y = 141,
   direction = 3,
   breed = "alttp/rolling_spike_trap",
 }
@@ -9130,7 +9130,7 @@ enemy{
   name = "auto_enemy_22",
   layer = 0,
   x = 368,
-  y = 133,
+  y = 141,
   direction = 3,
   breed = "alttp/rolling_spike_trap",
 }
@@ -9139,7 +9139,7 @@ enemy{
   name = "auto_enemy_23",
   layer = 0,
   x = 496,
-  y = 133,
+  y = 141,
   direction = 3,
   breed = "alttp/rolling_spike_trap",
 }
@@ -9148,7 +9148,7 @@ enemy{
   name = "auto_enemy_24",
   layer = 0,
   x = 320,
-  y = 1045,
+  y = 1053,
   direction = 3,
   breed = "alttp/rolling_spike_trap",
 }
@@ -9157,7 +9157,7 @@ enemy{
   name = "auto_enemy_25",
   layer = 0,
   x = 448,
-  y = 1045,
+  y = 1053,
   direction = 3,
   breed = "alttp/rolling_spike_trap",
 }
