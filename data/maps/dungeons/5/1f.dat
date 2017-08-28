@@ -3,22 +3,12 @@ properties{
   y = 640,
   width = 1600,
   height = 1200,
-  min_layer = -1,
+  min_layer = 0,
   max_layer = 2,
   world = "dungeon_5",
   floor = 0,
   tileset = "dungeon/light_yellow",
   music = "ordona",
-}
-
-custom_entity{
-  layer = -1,
-  x = 8,
-  y = 13,
-  width = 1600,
-  height = 1200,
-  direction = 0,
-  sprite = "work/1600x1200",
 }
 
 tile{
@@ -8001,6 +7991,7 @@ door{
   y = 696,
   direction = 3,
   sprite = "entities/doors/door_d1_normal",
+  savegame_variable = "dungeon_5_b1_door_d",
 }
 
 door{
@@ -8010,6 +8001,7 @@ door{
   y = 728,
   direction = 1,
   sprite = "entities/doors/door_d1_normal",
+  savegame_variable = "dungeon_5_b1_door_d",
 }
 
 wall{
