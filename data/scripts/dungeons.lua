@@ -31,8 +31,8 @@ local function initialize_dungeon_features(game)
       maps = { "dungeons/2/b2", "dungeons/2/b1", "dungeons/2/1f" },
       boss = {
         floor = -2,  -- TODO
-        x = 0,
-        y = 0,
+        x = 640 + 800,
+        y = 240 + 1312,
         savegame_variable = "dungeon_2_boss",
       },
     },
@@ -129,6 +129,7 @@ local function initialize_dungeon_features(game)
 
   -- Returns the name of the boolean variable that stores the exploration
   -- of a dungeon room, or nil.
+  -- If dungeon_index and floor are nil, the current dungeon and current floor are used.
   function game:get_explored_dungeon_room_variable(dungeon_index, floor, room)
 
     dungeon_index = dungeon_index or game:get_dungeon_index()
@@ -153,6 +154,7 @@ local function initialize_dungeon_features(game)
   end
 
   -- Returns whether a dungeon room has been explored.
+  -- If dungeon_index and floor are nil, the current dungeon and current floor are used.
   function game:has_explored_dungeon_room(dungeon_index, floor, room)
 
     return self:get_value(
@@ -161,6 +163,8 @@ local function initialize_dungeon_features(game)
   end
 
   -- Changes the exploration state of a dungeon room.
+  -- If dungeon_index and floor are nil, the current dungeon and current floor are used.
+  -- explored is true by default.
   function game:set_explored_dungeon_room(dungeon_index, floor, room, explored)
 
     if explored == nil then

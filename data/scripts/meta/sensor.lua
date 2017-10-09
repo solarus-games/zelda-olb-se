@@ -39,6 +39,7 @@ function sensor_meta:on_activated()
     return
   end
 
+  -- TODO remove
   -- Sensors prefixed by "dungeon_room_N" save the exploration state of the
   -- room "N" of the current dungeon floor.
   local room = name:match("^dungeon_room_(%d+)")
