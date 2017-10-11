@@ -127,6 +127,23 @@ local function initialize_dungeon_features(game)
     return sol.language.get_string("dungeon_" .. dungeon_index .. ".name")
   end
 
+  local function compute_merged_rooms(dungeon_index, floor, room)
+
+    assert(dungeon_index ~= nil)
+    assert(floor ~= nil)
+    assert(room ~= nil)
+
+    -- Use the minimap sprite to deduce merged rooms.
+    local sprite = sol.sprite.create("menus/dungeon_maps/map_" .. dungeon_index)
+    assert(sprite ~= nil)
+    local animation = tostring(floor)
+    local merged_rooms = {}
+    for direction = 1, sprite:get_num_directions(animation) - 1 do
+      local width, height = sprite:get_size(floor, direction)
+    end
+    return merged_rooms
+  end
+
   -- Returns the name of the boolean variable that stores the exploration
   -- of a dungeon room, or nil.
   -- If dungeon_index and floor are nil, the current dungeon and current floor are used.
@@ -134,7 +151,6 @@ local function initialize_dungeon_features(game)
 
     dungeon_index = dungeon_index or game:get_dungeon_index()
     room = room or 1
-
     if floor == nil then
       if game:get_map() ~= nil then
         floor = game:get_map():get_floor()
@@ -142,6 +158,14 @@ local function initialize_dungeon_features(game)
         floor = 0
       end
     end
+
+    local dungeon = game:get_dungeon(dungeon_index)
+
+    -- If it is a merged room, get the upper-left part.
+    -- Lazily compute merged rooms for this floor.
+    dungeon.merged_rooms = dungeon.merged_rooms or {}
+    dungeon.merged_rooms[floor] = dungeon.merged_rooms[floor] or compute_merged_rooms(dungeon_index, floor, room)
+    room = dungeon.merged_rooms[floor][room] or room
 
     local room_name
     if floor >= 0 then
