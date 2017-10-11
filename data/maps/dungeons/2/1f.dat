@@ -6913,6 +6913,114 @@ destructible{
   damage_on_enemies = 2,
 }
 
+destination{
+  name = "debug",
+  layer = 0,
+  x = 1440,
+  y = 781,
+  direction = 1,
+  starting_location_mode = "yes",
+}
+
+block{
+  name = "auto_block_1",
+  layer = 0,
+  x = 1320,
+  y = 93,
+  sprite = "entities/block",
+  pushable = true,
+  pullable = false,
+  maximum_moves = 2,
+}
+
+block{
+  name = "auto_block_2",
+  layer = 0,
+  x = 1336,
+  y = 93,
+  sprite = "entities/block",
+  pushable = true,
+  pullable = false,
+  maximum_moves = 2,
+}
+
+block{
+  name = "auto_block_3",
+  layer = 0,
+  x = 1336,
+  y = 109,
+  sprite = "entities/block",
+  pushable = true,
+  pullable = false,
+  maximum_moves = 2,
+}
+
+block{
+  name = "auto_block_4",
+  layer = 0,
+  x = 1336,
+  y = 125,
+  sprite = "entities/block",
+  pushable = true,
+  pullable = false,
+  maximum_moves = 2,
+}
+
+block{
+  name = "auto_block_5",
+  layer = 0,
+  x = 1320,
+  y = 157,
+  sprite = "entities/block",
+  pushable = true,
+  pullable = false,
+  maximum_moves = 2,
+}
+
+block{
+  name = "auto_block_6",
+  layer = 0,
+  x = 1336,
+  y = 141,
+  sprite = "entities/block",
+  pushable = true,
+  pullable = false,
+  maximum_moves = 2,
+}
+
+block{
+  name = "auto_block_7",
+  layer = 0,
+  x = 1320,
+  y = 173,
+  sprite = "entities/block",
+  pushable = true,
+  pullable = false,
+  maximum_moves = 2,
+}
+
+block{
+  name = "auto_block_8",
+  layer = 0,
+  x = 1320,
+  y = 77,
+  sprite = "entities/block",
+  pushable = true,
+  pullable = false,
+  maximum_moves = 2,
+}
+
+block{
+  name = "auto_block_9",
+  layer = 0,
+  x = 1336,
+  y = 157,
+  sprite = "entities/block",
+  pushable = true,
+  pullable = false,
+  maximum_moves = 2,
+}
+
 tile{
   layer = 1,
   x = 312,
@@ -7244,105 +7352,6 @@ tile{
   width = 32,
   height = 8,
   pattern = "door_top.2-3",
-}
-
-block{
-  name = "auto_block_1",
-  layer = 1,
-  x = 1320,
-  y = 93,
-  sprite = "entities/block",
-  pushable = true,
-  pullable = false,
-  maximum_moves = 2,
-}
-
-block{
-  name = "auto_block_2",
-  layer = 1,
-  x = 1336,
-  y = 93,
-  sprite = "entities/block",
-  pushable = true,
-  pullable = false,
-  maximum_moves = 2,
-}
-
-block{
-  name = "auto_block_3",
-  layer = 1,
-  x = 1336,
-  y = 109,
-  sprite = "entities/block",
-  pushable = true,
-  pullable = false,
-  maximum_moves = 2,
-}
-
-block{
-  name = "auto_block_4",
-  layer = 1,
-  x = 1336,
-  y = 125,
-  sprite = "entities/block",
-  pushable = true,
-  pullable = false,
-  maximum_moves = 2,
-}
-
-block{
-  name = "auto_block_5",
-  layer = 1,
-  x = 1320,
-  y = 157,
-  sprite = "entities/block",
-  pushable = true,
-  pullable = false,
-  maximum_moves = 2,
-}
-
-block{
-  name = "auto_block_6",
-  layer = 1,
-  x = 1336,
-  y = 141,
-  sprite = "entities/block",
-  pushable = true,
-  pullable = false,
-  maximum_moves = 2,
-}
-
-block{
-  name = "auto_block_7",
-  layer = 1,
-  x = 1320,
-  y = 173,
-  sprite = "entities/block",
-  pushable = true,
-  pullable = false,
-  maximum_moves = 2,
-}
-
-block{
-  name = "auto_block_8",
-  layer = 1,
-  x = 1320,
-  y = 77,
-  sprite = "entities/block",
-  pushable = true,
-  pullable = false,
-  maximum_moves = 2,
-}
-
-block{
-  name = "auto_block_9",
-  layer = 1,
-  x = 1336,
-  y = 157,
-  sprite = "entities/block",
-  pushable = true,
-  pullable = false,
-  maximum_moves = 2,
 }
 
 tile{
