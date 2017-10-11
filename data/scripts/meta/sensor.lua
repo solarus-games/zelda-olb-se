@@ -39,16 +39,6 @@ function sensor_meta:on_activated()
     return
   end
 
-  -- TODO remove
-  -- Sensors prefixed by "dungeon_room_N" save the exploration state of the
-  -- room "N" of the current dungeon floor.
-  local room = name:match("^dungeon_room_(%d+)")
-  if room ~= nil then
-    game:set_explored_dungeon_room(nil, nil, tonumber(room))
-    self:remove()
-    return
-  end
-
   -- Sensors named "open_quiet_X_sensor" silently open doors prefixed with "X".
   local door_prefix = name:match("^open_quiet_([a-zA-X0-9_]+)_sensor")
   if door_prefix ~= nil then
