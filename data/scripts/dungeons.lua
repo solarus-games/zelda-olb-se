@@ -127,19 +127,41 @@ local function initialize_dungeon_features(game)
     return sol.language.get_string("dungeon_" .. dungeon_index .. ".name")
   end
 
-  local function compute_merged_rooms(dungeon_index, floor, room)
+  local function compute_merged_rooms(game, dungeon_index, floor)
 
+    assert(game ~= nil)
     assert(dungeon_index ~= nil)
     assert(floor ~= nil)
-    assert(room ~= nil)
+
+    local map = game:get_map()
+    local map_width, map_height = map:get_size()
+    local room_width, room_height = 320, 240  -- TODO don't hardcode these numbers
+    local num_columns = math.floor(map_width / room_width)
+    -- TODO limitation: assumes that all maps of the dungeon have the same size
 
     -- Use the minimap sprite to deduce merged rooms.
     local sprite = sol.sprite.create("menus/dungeon_maps/map_" .. dungeon_index)
     assert(sprite ~= nil)
     local animation = tostring(floor)
     local merged_rooms = {}
-    for direction = 1, sprite:get_num_directions(animation) - 1 do
-      local width, height = sprite:get_size(floor, direction)
+
+    for room = 1, sprite:get_num_directions(animation) - 1 do
+      local width, height = sprite:get_size(floor, room)
+      local room_rows, room_columns = height / 16, width / 16  -- TODO don't hardcode these numbers
+      local current_room = room
+
+      if room_rows ~= 1 or room_columns ~= 1 then
+
+        for i = 1, room_rows do
+          for j = 1, room_columns do
+            if current_room ~= room then
+              merged_rooms[current_room] = room
+            end
+            current_room = current_room + 1
+          end
+          current_room = current_room + num_columns - room_columns
+        end
+      end
     end
     return merged_rooms
   end
@@ -164,7 +186,7 @@ local function initialize_dungeon_features(game)
     -- If it is a merged room, get the upper-left part.
     -- Lazily compute merged rooms for this floor.
     dungeon.merged_rooms = dungeon.merged_rooms or {}
-    dungeon.merged_rooms[floor] = dungeon.merged_rooms[floor] or compute_merged_rooms(dungeon_index, floor, room)
+    dungeon.merged_rooms[floor] = dungeon.merged_rooms[floor] or compute_merged_rooms(game, dungeon_index, floor)
     room = dungeon.merged_rooms[floor][room] or room
 
     local room_name
