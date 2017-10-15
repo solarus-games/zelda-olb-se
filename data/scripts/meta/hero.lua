@@ -52,7 +52,7 @@ function hero_meta:on_taking_damage(damage)
 end
 
 -- Detect the position of the hero to mark visited rooms in dungeons.
-hero_meta:register_event("on_position_changed", function(hero, hero_x, hero_y)
+hero_meta:register_event("on_position_changed", function(hero)
 
   local map = hero:get_map()
   local game = map:get_game()
@@ -66,6 +66,7 @@ hero_meta:register_event("on_position_changed", function(hero, hero_x, hero_y)
   local room_width, room_height = 320, 240  -- TODO don't hardcode these numbers
   local num_columns = math.floor(map_width / room_width)
 
+  local hero_x, hero_y = hero:get_center_position()
   local column = math.floor(hero_x / room_width)
   local row = math.floor(hero_y / room_height)
   local room = row * num_columns + column + 1

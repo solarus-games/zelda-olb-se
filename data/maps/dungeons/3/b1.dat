@@ -1,10 +1,11 @@
 properties{
-  x = 0,
-  y = 0,
+  x = 320,
+  y = 240,
   width = 2240,
   height = 1920,
   min_layer = 0,
   max_layer = 2,
+  world = "dungeon_3",
   floor = -1,
   tileset = "dungeon/green",
   music = "dungeon_1",

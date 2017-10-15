@@ -63,7 +63,9 @@ function map_manager:new(game)
       if game:has_explored_dungeon_room(dungeon_index, selected_floor, i) then
         -- If the room is visited, show it in another color.
         rooms_sprite:set_direction(i)
-        rooms_sprite:draw(rooms_img)
+        local src_x, src_y = rooms_sprite:get_frame_src_xy()
+        src_x = src_x - 160 * (selected_floor - dungeon.lowest_floor)
+        rooms_sprite:draw(rooms_img, src_x, src_y)
       end
     end
 

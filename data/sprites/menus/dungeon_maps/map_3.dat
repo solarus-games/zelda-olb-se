@@ -1,0 +1,21 @@
+animation{
+  name = "0",
+  src_image = "menus/dungeon_maps/map_3.png",
+  directions = {
+    { x = 160, y = 160, frame_width = 160, frame_height = 160, origin_x = 0, origin_y = 0 },
+  },
+}
+animation{
+  name = "-1",
+  src_image = "menus/dungeon_maps/map_3.png",
+  directions = {
+    { x = 0, y = 160, frame_width = 160, frame_height = 160, origin_x = 0, origin_y = 0 },
+  },
+}
+animation{
+  name = "1",
+  src_image = "menus/dungeon_maps/map_3.png",
+  directions = {
+    { x = 320, y = 160, frame_width = 160, frame_height = 160, origin_x = 0, origin_y = 0 },
+  },
+}
