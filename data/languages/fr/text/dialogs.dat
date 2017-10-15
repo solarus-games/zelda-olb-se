@@ -500,6 +500,132 @@ dialog{
 }
 
 dialog{
+  id = "dungeons.10.welcome",
+  text = [[
+                   Niveau 1
+
+                 Temple de Din
+]]
+}
+
+dialog{
+  id = "dungeons.11.welcome",
+  text = [[
+                   Niveau 1
+
+                Temple de Nayru
+]]
+}
+
+dialog{
+  id = "dungeons.12.welcome",
+  text = [[
+                   Niveau 1
+
+               Temple de Farore
+]]
+}
+
+dialog{
+  id = "dungeons.13.welcome",
+  text = [[
+                   Niveau 13
+
+                Temple de Xanto
+]]
+}
+
+dialog{
+  id = "dungeons.14.welcome",
+  text = [[
+                   Niveau ?
+
+                 Temple secret
+]]
+}
+
+dialog{
+  id = "dungeons.15.welcome",
+  text = [[
+                 Niveau Final
+
+                Tour du Destin
+]]
+}
+
+dialog{
+  id = "dungeons.2.welcome",
+  text = [[
+                   Niveau 2
+
+                 Mine de Ruto
+]]
+}
+
+dialog{
+  id = "dungeons.3.welcome",
+  text = [[
+                   Niveau 3
+
+              Temple de Latouane
+]]
+}
+
+dialog{
+  id = "dungeons.4.welcome",
+  text = [[
+                   Niveau 4
+
+                 Manoir hanté
+]]
+}
+
+dialog{
+  id = "dungeons.5.welcome",
+  text = [[
+                   Niveau 5
+
+               Temple d'Ordinn
+]]
+}
+
+dialog{
+  id = "dungeons.6.welcome",
+  text = [[
+                   Niveau 1
+
+             Colisée des Monstres
+]]
+}
+
+dialog{
+  id = "dungeons.7.welcome",
+  text = [[
+                   Niveau 7
+
+               Temple de Lanelle
+]]
+}
+
+dialog{
+  id = "dungeons.8.welcome",
+  text = [[
+                   Niveau 8
+
+                Temple de Zelda
+]]
+}
+
+dialog{
+  id = "dungeons.9.welcome",
+  text = [[
+                   Niveau 9
+
+                 Manoir hanté
+]]
+}
+
+dialog{
   id = "found_piece_of_heart.first",
   text = [[
 Encore 3 et tu gagneras un coeur
