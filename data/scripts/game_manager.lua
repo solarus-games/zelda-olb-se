@@ -167,7 +167,7 @@ end)
 
 game_meta:register_event("on_game_over_started", function(game)
   -- Reset the previous world info on game-over
-  -- so that notify_world_changes gets called.
+  -- so that notify_world_changed gets called.
   game.previous_world = nil
 end)
 
