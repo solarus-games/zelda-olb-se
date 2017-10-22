@@ -1,0 +1,7 @@
+animation{
+  name = "normal",
+  src_image = "work/2240x1440.png",
+  directions = {
+    { x = 0, y = 0, frame_width = 2240, frame_height = 1440, origin_x = 8, origin_y = 13 },
+  },
+}

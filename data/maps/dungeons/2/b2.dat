@@ -13031,9 +13031,9 @@ door{
   y = 1448,
   direction = 1,
   sprite = "entities/doors/door_d2_big_key",
-  savegame_variable = "dungeon_3_boss_door",
+  savegame_variable = "dungeon_2_boss_door",
   opening_method = "interaction_if_savegame_variable",
-  opening_condition = "dungeon_3_boss_key",
+  opening_condition = "dungeon_2_boss_key",
   cannot_open_dialog = "boss_key_required",
 }
 
@@ -13043,9 +13043,9 @@ door{
   y = 1416,
   direction = 3,
   sprite = "entities/doors/door_d2_big_key",
-  savegame_variable = "dungeon_3_boss_door",
+  savegame_variable = "dungeon_2_boss_door",
   opening_method = "interaction_if_savegame_variable",
-  opening_condition = "dungeon_3_boss_key",
+  opening_condition = "dungeon_2_boss_key",
   cannot_open_dialog = "boss_key_required",
 }
 

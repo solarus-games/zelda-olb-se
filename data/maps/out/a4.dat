@@ -5580,6 +5580,24 @@ destructible{
   can_be_cut = true,
 }
 
+destination{
+  name = "from_dungeon_6",
+  layer = 1,
+  x = 136,
+  y = 829,
+  direction = 3,
+}
+
+teletransporter{
+  layer = 1,
+  x = 128,
+  y = 800,
+  width = 16,
+  height = 16,
+  destination_map = "dungeons/6/1f",
+  destination = "from_outside",
+}
+
 tile{
   layer = 2,
   x = 496,

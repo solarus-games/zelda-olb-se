@@ -20,6 +20,10 @@ map{ id = "dungeons/4/store", description = "Dungeon 4 Store" }
 map{ id = "dungeons/5/1f", description = "Dungeon 5 1F" }
 map{ id = "dungeons/5/b1", description = "Dungeon 5 B1" }
 map{ id = "dungeons/5/store", description = "Dungeon 5 Store" }
+map{ id = "dungeons/6/1f", description = "Dungeon 6 1F" }
+map{ id = "dungeons/6/2f", description = "Dungeon 6 2F" }
+map{ id = "dungeons/6/b1", description = "Dungeon 6 B1" }
+map{ id = "dungeons/6/store", description = "Dungeon 6 Store" }
 map{ id = "enemy_store", description = "Enemy Store" }
 map{ id = "house_store", description = "House Store" }
 map{ id = "houses/monster_house/1f", description = "Monster house 1F" }
@@ -352,6 +356,7 @@ sprite{ id = "npc/pit", description = "Pit" }
 sprite{ id = "work/1600x1200", description = "1600x1200 PNG" }
 sprite{ id = "work/1600x1680", description = "1600x1680 PNG" }
 sprite{ id = "work/1600x960", description = "1600x960 PNG" }
+sprite{ id = "work/2240x1440", description = "2240x1440 PNG" }
 
 music{ id = "area_81", description = "Area 81" }
 music{ id = "bar", description = "Bar" }
