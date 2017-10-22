@@ -8,10 +8,13 @@
 -- This script currently handles the following types of entities:
 -- - Enemies
 -- - Destructibles
+-- - Blocks
 
 -- TODO:
 -- - check offsets for enemies, destructibles and blocks
+-- - add support of chests
 -- - add support of destructibles other than vases
+-- - add support of pickables without destructibles
 -- - test outside maps
 
 -- The input code is read from stdin and should contain some
@@ -163,30 +166,36 @@ local function evaluate_math(expression)
   return code()
 end
 
+-- Converts textual coordinate expressions to Solarus coordinates for an enemy.
+local function get_enemy_coords(src_x, src_y, breed)
+
+  local x, y = evaluate_math(src_x), evaluate_math(src_y)
+  x, y = x + 8, y + 13  -- Add Solarus origin point.
+  return x, y
+end
+
 -- Returns a table of enemy descriptions with their properties.
 local function parse_enemies(src)
-  local enemies = {}
+  local entities = {}
   for enemy_id, x, y in src:gmatch("ajouteEnnemi%(([0-9]*), *([-+*0-9]*), *([-+*0-9]*)%)") do
-    local enemy = {}
-    enemy.name = "auto_enemy_" .. (#enemies + 1)
-    enemy.x = evaluate_math(x)
-    enemy.y = evaluate_math(y)
-    enemy.layer = get_enemy_layer(enemy.breed)
-    enemy.direction = 3
-    enemy.breed = enemy_id_to_breed(enemy_id)
-    enemies[#enemies + 1] = enemy
+    local entity = {}
+    entity.name = "auto_enemy_" .. (#entities + 1)
+    entity.direction = 3
+    entity.breed = enemy_id_to_breed(enemy_id)
+    entity.x, entity.y = get_enemy_coords(x, y, entity.breed)
+    entity.layer = get_enemy_layer(entity.breed)
+    entities[#entities + 1] = entity
   end
   for enemy_id, x, y in src:gmatch("ajoutePiege%(([0-9]*), *([-+*0-9]*), *([-+*0-9]*)%)") do
-    local enemy = {}
-    enemy.name = "auto_enemy_" .. (#enemies + 1)
-    enemy.x = evaluate_math(x)
-    enemy.y = evaluate_math(y)
-    enemy.layer = get_enemy_layer(enemy.breed)
-    enemy.direction = 3
-    enemy.breed = enemy_id_to_breed(enemy_id)
-    enemies[#enemies + 1] = enemy
+    local entity = {}
+    entity.name = "auto_enemy_" .. (#entities + 1)
+    entity.direction = 3
+    entity.breed = enemy_id_to_breed(enemy_id)
+    entity.x, entity.y = get_enemy_coords(x, y, entity.breed)
+    entity.layer = get_enemy_layer(entity.breed)
+    entities[#entities + 1] = entity
   end
-  return enemies
+  return entities
 end
 
 -- Write enemies in Solarus format.
@@ -264,14 +273,21 @@ local function write_destructibles(destructibles)
   end
 end
 
+-- Converts textual coordinate expressions to Solarus coordinates for a block.
+local function get_block_coords(src_x, src_y)
+
+  local x, y = evaluate_math(src_x), evaluate_math(src_y)
+  x, y = x + 8, y + 13  -- Add Solarus origin point.
+  return x, y
+end
+
 -- Returns a table of blocks descriptions with their properties.
 local function parse_blocks(src)
   local entities = {}
   for x, y in src:gmatch("ajouteCaisse%([0-9]*, *([-+*0-9]*), *([-+*0-9]*)%)") do
     local entity = {}
     entity.name = "auto_block_" .. (#entities + 1)
-    entity.x = evaluate_math(x)
-    entity.y = evaluate_math(y)
+    entity.x, entity.y = get_block_coords(x, y, treasure)
     entity.layer = 0
     entities[#entities + 1] = entity
   end

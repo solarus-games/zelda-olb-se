@@ -2396,6 +2396,42 @@ door{
   opening_condition = "dungeon_3_boss_key",
 }
 
+chest{
+  layer = 0,
+  x = 24,
+  y = 669,
+  treasure_name = "map",
+  treasure_savegame_variable = "dungeon_6_map_chest",
+  sprite = "entities/chest",
+}
+
+chest{
+  layer = 0,
+  x = 56,
+  y = 669,
+  treasure_name = "compass",
+  treasure_savegame_variable = "dungeon_6_compass_chest",
+  sprite = "entities/chest",
+}
+
+chest{
+  layer = 0,
+  x = 88,
+  y = 669,
+  treasure_name = "boss_key",
+  treasure_savegame_variable = "dungeon_6_boss_key_chest",
+  sprite = "entities/chest",
+}
+
+chest{
+  layer = 0,
+  x = 120,
+  y = 669,
+  treasure_name = "hookshot",
+  treasure_savegame_variable = "dungeon_6_hookshot_chess",
+  sprite = "entities/chest",
+}
+
 tile{
   layer = 1,
   x = 80,
