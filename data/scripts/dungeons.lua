@@ -50,7 +50,7 @@ local function initialize_dungeon_features(game)
       boss = {
         floor = -1,
         x = 640 + 800,
-        y = 640 + 360,
+        y = 480 + 360,
         savegame_variable = "dungeon_4_boss",
       },
     },
