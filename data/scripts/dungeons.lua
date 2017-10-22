@@ -60,7 +60,7 @@ local function initialize_dungeon_features(game)
       boss = {
         floor = 0,
         x = 640 + 1280,
-        y = 640 + 480,
+        y = 480 + 480,
         savegame_variable = "dungeon_5_boss",
       },
     },
@@ -143,6 +143,10 @@ local function initialize_dungeon_features(game)
     end
   end
 
+  function game:get_dungeon_room_size(dungeon_index)
+    return 320, 240
+  end
+
   local function compute_merged_rooms(game, dungeon_index, floor)
 
     assert(game ~= nil)
@@ -151,7 +155,7 @@ local function initialize_dungeon_features(game)
 
     local map = game:get_map()
     local map_width, map_height = map:get_size()
-    local room_width, room_height = 320, 240  -- TODO don't hardcode these numbers
+    local room_width, room_height = game:get_dungeon_room_size(dungeon_index)
     local num_columns = math.floor(map_width / room_width)
     -- TODO limitation: assumes that all maps of the dungeon have the same size
 

@@ -57,13 +57,16 @@ function map_manager:new(game)
 
     -- Background: show the whole floor as non visited.
     rooms_sprite:set_direction(0)
-    rooms_sprite:draw(rooms_img)
+    local src_x, src_y = rooms_sprite:get_frame_src_xy()
+    src_x = src_x - 160 * (selected_floor - dungeon.lowest_floor)
+    src_y = src_y - 160
+    rooms_sprite:draw(rooms_img, src_x, src_y)
 
     for i = 1, rooms_sprite:get_num_directions() - 1 do
       if game:has_explored_dungeon_room(dungeon_index, selected_floor, i) then
         -- If the room is visited, show it in another color.
         rooms_sprite:set_direction(i)
-        local src_x, src_y = rooms_sprite:get_frame_src_xy()
+        src_x, src_y = rooms_sprite:get_frame_src_xy()
         src_x = src_x - 160 * (selected_floor - dungeon.lowest_floor)
         rooms_sprite:draw(rooms_img, src_x, src_y)
       end
@@ -208,11 +211,11 @@ function map_manager:new(game)
       -- Show rooms.
       rooms_img:draw(dst_surface, 128, 48)
 
-      local map_x, map_y = map:get_location()
-      local hero_x, hero_y = map:get_hero():get_position()
-      dst_x, dst_y = to_dungeon_minimap_coordinates(map_x + hero_x, map_y + hero_y)
-      dst_x, dst_y = dst_x + 128 - 8, dst_y + 48 - 8
       if selected_floor == current_floor then
+        local map_x, map_y = map:get_location()
+        local hero_x, hero_y = map:get_hero():get_position()
+        dst_x, dst_y = to_dungeon_minimap_coordinates(map_x + hero_x, map_y + hero_y)
+        dst_x, dst_y = dst_x + 128 - 8, dst_y + 48 - 8
         link_head_sprite:draw(dst_surface, dst_x, dst_y)
       end
     end

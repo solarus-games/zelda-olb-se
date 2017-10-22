@@ -2,7 +2,7 @@ animation{
   name = "-1",
   src_image = "menus/dungeon_maps/map_1.png",
   directions = {
-    { x = 0, y = 160, frame_width = 160, frame_height = 160, origin_x = 0, origin_y = 0 },
+    { x = 32, y = 208, frame_width = 80, frame_height = 64, origin_x = 0, origin_y = 0 },
     { x = 32, y = 48, frame_width = 16, frame_height = 16, origin_x = 0, origin_y = 0 },
     { x = 48, y = 48, frame_width = 16, frame_height = 16, origin_x = 0, origin_y = 0 },
     { x = 64, y = 48, frame_width = 16, frame_height = 32, origin_x = 0, origin_y = 0 },
@@ -29,7 +29,7 @@ animation{
   name = "0",
   src_image = "menus/dungeon_maps/map_1.png",
   directions = {
-    { x = 160, y = 160, frame_width = 160, frame_height = 160, origin_x = 0, origin_y = 0 },
+    { x = 192, y = 208, frame_width = 80, frame_height = 64, origin_x = 0, origin_y = 0 },
     { x = 192, y = 48, frame_width = 16, frame_height = 16, origin_x = 0, origin_y = 0 },
     { x = 208, y = 48, frame_width = 16, frame_height = 16, origin_x = 0, origin_y = 0 },
     { x = 224, y = 48, frame_width = 16, frame_height = 16, origin_x = 0, origin_y = 0 },
