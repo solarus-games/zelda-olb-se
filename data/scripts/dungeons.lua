@@ -17,7 +17,6 @@ local function initialize_dungeon_features(game)
     [1] = {
       lowest_floor = -1,
       highest_floor = 0,
-      maps = { "dungeons/1/b1", "dungeons/1/1f" },
       boss = {
         floor = 0,
         x = 640 + 1440,
@@ -28,7 +27,6 @@ local function initialize_dungeon_features(game)
     [2] = {
       lowest_floor = -2,
       highest_floor = 0,
-      maps = { "dungeons/2/b2", "dungeons/2/b1", "dungeons/2/1f" },
       boss = {
         floor = -2,  -- TODO
         x = 640 + 800,
@@ -39,7 +37,6 @@ local function initialize_dungeon_features(game)
     [3] = {
       lowest_floor = -1,
       highest_floor = 1,
-      maps = { "dungeons/3/b1", "dungeons/3/1f", "dungeons/3/2f" },
       boss = {
         floor = 1,
         x = 320 + 1120,
@@ -50,7 +47,6 @@ local function initialize_dungeon_features(game)
     [4] = {
       lowest_floor = -1,
       highest_floor = 2,
-      maps = { "dungeons/4/b1", "dungeons/4/1f", "dungeons/4/2f", "dungeons/4/3f" },
       boss = {
         floor = -1,
         x = 640 + 800,
@@ -61,7 +57,6 @@ local function initialize_dungeon_features(game)
     [5] = {
       lowest_floor = -1,
       highest_floor = 0,
-      maps = { "dungeons/5/b1", "dungeons/5/1f" },
       boss = {
         floor = 0,
         x = 640 + 1280,
@@ -125,6 +120,27 @@ local function initialize_dungeon_features(game)
 
     dungeon_index = dungeon_index or game:get_dungeon_index()
     return sol.language.get_string("dungeon_" .. dungeon_index .. ".name")
+  end
+
+  function game:get_dungeon_map_ids(dungeon_index)
+
+    dungeon_index = dungeon_index or game:get_dungeon_index()
+    local map_ids = {}
+    local dungeon = game:get_dungeon(dungeon_index)
+    assert(dungeon ~= nil)
+    for floor = dungeon.lowest_floor, dungeon.highest_floor do
+      map_ids[#map_ids + 1] = "dungeons/" .. dungeon_index .. "/" .. game:get_floor_name(floor)
+    end
+    return map_ids
+  end
+
+  function game:get_floor_name(floor)
+
+    if floor >= 0 then
+      return (floor + 1) .. "f"
+    else
+      return "b" .. (-floor)
+    end
   end
 
   local function compute_merged_rooms(game, dungeon_index, floor)

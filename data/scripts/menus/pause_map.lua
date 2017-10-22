@@ -5,7 +5,7 @@
 local map_manager = {}
 
 local gui_designer = require("scripts/menus/lib/gui_designer")
-local chest_loader = require("scripts/lib/chest_loader")
+local chest_loader = require("scripts/maps/chest_loader")
 
 local world_map_width, world_map_height = 5120, 3840
 local world_map_left_margin, world_map_top_margin = 0, 480
@@ -84,7 +84,7 @@ function map_manager:new(game)
       -- Chests.
       if dungeon.chests == nil then
         -- Lazily load the chest information.
-        dungeon.chests = chest_loader:load_chests(dungeon.maps)
+        dungeon.chests = chest_loader:load_chests(game:get_dungeon_map_ids(dungeon_index))
       end
       for _, chest in ipairs(dungeon.chests) do
         if chest.floor == selected_floor
