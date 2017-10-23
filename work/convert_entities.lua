@@ -15,7 +15,6 @@
 -- - add support of chests
 -- - add support of destructibles other than vases
 -- - add support of pickables without destructibles
--- - add support of crystal switches
 -- - test outside maps
 
 -- The input code is read from stdin and should contain some
@@ -138,6 +137,10 @@ local treasures = {  -- enum Type_Items
     treasure_name = "magic_flask",
     treasure_variant = 2,
   },
+  ["11"] = {
+    treasure_name = "graal",
+    treasure_variant = 1,
+  },
   -- TODO
 }
 
@@ -149,7 +152,7 @@ local function enemy_id_to_breed(enemy_id)
 
   assert(enemy_id ~= nil)
   local breed = enemy_breeds[enemy_id]
-  assert(breed ~= nil, "Unknow enemy id: " .. enemy_id)
+  assert(breed ~= nil, "Unknown enemy id: " .. enemy_id)
   return breed
 end
 
@@ -182,10 +185,12 @@ local function parse_enemies(src)
     local entity = {}
     entity.name = "auto_enemy_" .. (#entities + 1)
     entity.direction = 3
-    entity.breed = enemy_id_to_breed(enemy_id)
-    entity.x, entity.y = get_enemy_coords(x, y, entity.breed)
-    entity.layer = get_enemy_layer(entity.breed)
-    entities[#entities + 1] = entity
+    if enemy_id ~= "20" then  -- 20 means a crystal (not an enemy in Solarus).
+      entity.breed = enemy_id_to_breed(enemy_id)
+      entity.x, entity.y = get_enemy_coords(x, y, entity.breed)
+      entity.layer = get_enemy_layer(entity.breed)
+      entities[#entities + 1] = entity
+    end
   end
   for enemy_id, x, y in src:gmatch("ajoutePiege%(([0-9]*), *([-+*0-9]*), *([-+*0-9]*)%)") do
     local entity = {}
@@ -288,7 +293,7 @@ local function parse_blocks(src)
   for x, y in src:gmatch("ajouteCaisse%([0-9]*, *([-+*0-9]*), *([-+*0-9]*)%)") do
     local entity = {}
     entity.name = "auto_block_" .. (#entities + 1)
-    entity.x, entity.y = get_block_coords(x, y, treasure)
+    entity.x, entity.y = get_block_coords(x, y)
     entity.layer = 0
     entities[#entities + 1] = entity
   end
@@ -313,6 +318,39 @@ local function write_blocks(blocks)
   end
 end
 
+-- Converts textual coordinate expressions to Solarus coordinates for a crystal.
+local function get_crystal_coords(src_x, src_y)
+
+  local x, y = evaluate_math(src_x), evaluate_math(src_y)
+  x, y = x + 8, y + 13  -- Add Solarus origin point.
+  return x, y
+end
+
+-- Returns a table of crystals descriptions with their properties.
+local function parse_crystals(src)
+  local entities = {}
+  for x, y in src:gmatch("ajouteEnnemi%(20, *([-+*0-9]*), *([-+*0-9]*)%)") do
+    local entity = {}
+    entity.x, entity.y = get_crystal_coords(x, y)
+    entity.layer = 0
+    entities[#entities + 1] = entity
+  end
+  return entities
+end
+
+-- Write crystals in Solarus format.
+local function write_crystals(crystals)
+
+  for _, entity in ipairs(crystals) do
+    io.write("crystal{\n")
+    io.write("  layer = " .. entity.layer .. ",\n")
+    io.write("  x = " .. entity.x .. ",\n")
+    io.write("  y = " .. entity.y .. ",\n")
+    io.write("  sprite = \"entities/crystal\",\n")
+    io.write("}\n")
+    io.write("\n")
+  end
+end
 
 local enemies = parse_enemies(src)
 write_enemies(enemies)
@@ -322,4 +360,8 @@ write_destructibles(destructibles)
 
 local blocks = parse_blocks(src)
 write_blocks(blocks)
+
+
+local crystals = parse_crystals(src)
+write_crystals(crystals)
 

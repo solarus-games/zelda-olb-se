@@ -1797,6 +1797,24 @@ chest{
   sprite = "entities/chest",
 }
 
+crystal_block{
+  layer = 0,
+  x = 128,
+  y = 864,
+  width = 16,
+  height = 16,
+  subtype = 0,
+}
+
+crystal_block{
+  layer = 0,
+  x = 160,
+  y = 864,
+  width = 16,
+  height = 16,
+  subtype = 1,
+}
+
 tile{
   layer = 1,
   x = 184,
