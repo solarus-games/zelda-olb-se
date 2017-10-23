@@ -1,10 +1,19 @@
--- Falling hand that teleports the hero back to the entrance.
+-- Falling hand that teleports the hero back to the entrance or to a specified place.
 local enemy = ...
 local map = enemy:get_map()
 
 local sprite
 local shadow
 local grabbed_hero
+local destination_map_id
+local destination_name
+
+-- Sets the map id and destination name where to teletransport to hero.
+-- nil means the last saved entrance.
+function enemy:set_destination(map, destination)
+  destination_map_id = map
+  destination_name = destination
+end
 
 function enemy:on_created()
 
@@ -121,7 +130,10 @@ function enemy:on_attacking_hero(hero, enemy_sprite)
     sol.audio.play_sound("hero_hurt")
     hero:set_animation("hurt")
     local game = hero:get_game()
-    hero:teleport(game:get_starting_location())
+    if destination_map_id == nil then
+      destination_map_id, destination_name = game:get_starting_location()
+    end
+    hero:teleport(destination_map_id, destination_name)
 
     -- When teleporting to the same room, restart the hand while the screen is black.
     sol.timer.start(game, 600, function()

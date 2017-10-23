@@ -41,6 +41,7 @@ function separator_manager:manage_map(map)
           breed = enemy_place.breed,
           direction = enemy_place.direction,
           name = enemy_place.name,
+          -- TODO custom properties
         })
 
         if enemy_place.treasure[3] ~= nil then  -- Saved treasure.

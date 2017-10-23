@@ -11806,8 +11806,8 @@ teletransporter{
   y = 1424,
   width = 16,
   height = 16,
-  destination_map = "out/e2",
-  destination = "from_dungeon_2",
+  destination_map = "out/a4",
+  destination = "from_dungeon_6",
 }
 
 npc{
@@ -12145,7 +12145,7 @@ enemy{
 }
 
 enemy{
-  name = "auto_enemy_58",
+  name = "auto_enemy_wallmaster_to_2f",
   layer = 0,
   x = 56,
   y = 781,
@@ -12923,6 +12923,136 @@ pickable{
   y = 61,
   treasure_name = "small_key",
   treasure_savegame_variable = "dungeon_6_1f_small_key_7",
+}
+
+destination{
+  name = "from_b1_nw",
+  layer = 0,
+  x = 480,
+  y = 109,
+  direction = 1,
+}
+
+destination{
+  name = "from_b1_sw",
+  layer = 0,
+  x = 800,
+  y = 1309,
+  direction = 1,
+}
+
+destination{
+  name = "from_b1_se",
+  layer = 0,
+  x = 1440,
+  y = 1309,
+  direction = 1,
+}
+
+destination{
+  name = "from_b1_ne",
+  layer = 0,
+  x = 1760,
+  y = 109,
+  direction = 1,
+}
+
+destination{
+  name = "from_2f",
+  layer = 0,
+  x = 1120,
+  y = 861,
+  direction = 3,
+}
+
+teletransporter{
+  layer = 0,
+  x = 1112,
+  y = 848,
+  width = 16,
+  height = 16,
+  destination_map = "dungeons/6/2f",
+  destination = "from_1f",
+}
+
+teletransporter{
+  layer = 0,
+  x = 472,
+  y = 96,
+  width = 16,
+  height = 16,
+  destination_map = "dungeons/6/b1",
+  destination = "from_1f_nw",
+}
+
+teletransporter{
+  layer = 0,
+  x = 792,
+  y = 1296,
+  width = 16,
+  height = 16,
+  destination_map = "dungeons/6/b1",
+  destination = "from_1f_sw",
+}
+
+teletransporter{
+  layer = 0,
+  x = 1432,
+  y = 1296,
+  width = 16,
+  height = 16,
+  destination_map = "dungeons/6/b1",
+  destination = "from_1f_se",
+}
+
+teletransporter{
+  layer = 0,
+  x = 1752,
+  y = 96,
+  width = 16,
+  height = 16,
+  destination_map = "dungeons/6/b1",
+  destination = "from_1f_ne",
+}
+
+stairs{
+  layer = 0,
+  x = 1112,
+  y = 848,
+  direction = 1,
+  subtype = 2,
+}
+
+stairs{
+  layer = 0,
+  x = 1432,
+  y = 1296,
+  direction = 3,
+  subtype = 3,
+}
+
+stairs{
+  layer = 0,
+  x = 792,
+  y = 1296,
+  direction = 3,
+  subtype = 3,
+}
+
+stairs{
+  layer = 0,
+  x = 1752,
+  y = 96,
+  direction = 3,
+  subtype = 3,
+}
+
+stairs{
+  layer = 0,
+  x = 472,
+  y = 96,
+  direction = 3,
+  subtype = 3,
 }
 
 tile{
@@ -14721,5 +14851,131 @@ tile{
   width = 320,
   height = 480,
   pattern = "ceiling.2",
+}
+
+separator{
+  name = "auto_separator_1",
+  layer = 2,
+  x = 0,
+  y = 232,
+  width = 2240,
+  height = 16,
+}
+
+separator{
+  name = "auto_separator_2",
+  layer = 2,
+  x = 640,
+  y = 472,
+  width = 960,
+  height = 16,
+}
+
+separator{
+  name = "auto_separator_3",
+  layer = 2,
+  x = 0,
+  y = 712,
+  width = 2240,
+  height = 16,
+}
+
+separator{
+  name = "auto_separator_4",
+  layer = 2,
+  x = 0,
+  y = 952,
+  width = 960,
+  height = 16,
+}
+
+separator{
+  name = "auto_separator_5",
+  layer = 2,
+  x = 1280,
+  y = 952,
+  width = 960,
+  height = 16,
+}
+
+separator{
+  name = "auto_separator_6",
+  layer = 2,
+  x = 320,
+  y = 1192,
+  width = 1600,
+  height = 16,
+}
+
+separator{
+  name = "auto_separator_7",
+  layer = 2,
+  x = 312,
+  y = 0,
+  width = 16,
+  height = 240,
+}
+
+separator{
+  name = "auto_separator_8",
+  layer = 2,
+  x = 632,
+  y = 0,
+  width = 16,
+  height = 1440,
+}
+
+separator{
+  name = "auto_separator_9",
+  layer = 2,
+  x = 952,
+  y = 0,
+  width = 16,
+  height = 1440,
+}
+
+separator{
+  name = "auto_separator_10",
+  layer = 2,
+  x = 1272,
+  y = 0,
+  width = 16,
+  height = 1440,
+}
+
+separator{
+  name = "auto_separator_11",
+  layer = 2,
+  x = 1592,
+  y = 0,
+  width = 16,
+  height = 1440,
+}
+
+separator{
+  name = "auto_separator_12",
+  layer = 2,
+  x = 1912,
+  y = 0,
+  width = 16,
+  height = 240,
+}
+
+separator{
+  name = "auto_separator_13",
+  layer = 2,
+  x = 1912,
+  y = 720,
+  width = 16,
+  height = 720,
+}
+
+separator{
+  name = "auto_separator_14",
+  layer = 2,
+  x = 312,
+  y = 720,
+  width = 16,
+  height = 720,
 }
 
