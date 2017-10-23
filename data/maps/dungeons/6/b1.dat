@@ -1189,7 +1189,7 @@ enemy{
 }
 
 enemy{
-  name = "auto_enemy_41",
+  name = "auto_enemy_auto_pickable_a_2",
   layer = 0,
   x = 504,
   y = 317,
@@ -1198,7 +1198,7 @@ enemy{
 }
 
 enemy{
-  name = "auto_enemy_42",
+  name = "auto_enemy_auto_pickable_a_3",
   layer = 0,
   x = 776,
   y = 317,
@@ -1207,7 +1207,7 @@ enemy{
 }
 
 enemy{
-  name = "auto_enemy_43",
+  name = "auto_enemy_auto_pickable_a_1",
   layer = 0,
   x = 776,
   y = 125,
@@ -1216,7 +1216,7 @@ enemy{
 }
 
 enemy{
-  name = "auto_enemy_45",
+  name = "auto_enemy_auto_pickable_c_3",
   layer = 0,
   x = 504,
   y = 1309,
@@ -1225,7 +1225,7 @@ enemy{
 }
 
 enemy{
-  name = "auto_enemy_46",
+  name = "auto_enemy_auto_pickable_c_1",
   layer = 0,
   x = 504,
   y = 1085,
@@ -1234,7 +1234,7 @@ enemy{
 }
 
 enemy{
-  name = "auto_enemy_47",
+  name = "auto_enemy_auto_pickable_c_2",
   layer = 0,
   x = 776,
   y = 1085,
@@ -1243,7 +1243,7 @@ enemy{
 }
 
 enemy{
-  name = "auto_enemy_49",
+  name = "auto_enemy_auto_pickable_d_1",
   layer = 0,
   x = 1464,
   y = 1085,
@@ -1252,7 +1252,7 @@ enemy{
 }
 
 enemy{
-  name = "auto_enemy_50",
+  name = "auto_enemy_auto_pickable_d_2",
   layer = 0,
   x = 1736,
   y = 1085,
@@ -1261,7 +1261,7 @@ enemy{
 }
 
 enemy{
-  name = "auto_enemy_51",
+  name = "auto_enemy_auto_pickable_d_3",
   layer = 0,
   x = 1736,
   y = 1309,
@@ -1270,7 +1270,7 @@ enemy{
 }
 
 enemy{
-  name = "auto_enemy_54",
+  name = "auto_enemy_auto_pickable_b_1",
   layer = 0,
   x = 1464,
   y = 125,
@@ -1279,7 +1279,7 @@ enemy{
 }
 
 enemy{
-  name = "auto_enemy_55",
+  name = "auto_enemy_auto_pickable_b_2",
   layer = 0,
   x = 1464,
   y = 317,
@@ -1288,7 +1288,7 @@ enemy{
 }
 
 enemy{
-  name = "auto_enemy_56",
+  name = "auto_enemy_auto_pickable_b_3",
   layer = 0,
   x = 1736,
   y = 317,
@@ -1398,6 +1398,42 @@ stairs{
   y = 1312,
   direction = 1,
   subtype = 2,
+}
+
+pickable{
+  name = "auto_pickable_a",
+  layer = 0,
+  x = 376,
+  y = 61,
+  treasure_name = "small_key",
+  treasure_savegame_variable = "dungeon_6_b1_small_key_1",
+}
+
+pickable{
+  name = "auto_pickable_b",
+  layer = 0,
+  x = 1336,
+  y = 61,
+  treasure_name = "small_key",
+  treasure_savegame_variable = "dungeon_6_b1_small_key_2",
+}
+
+pickable{
+  name = "auto_pickable_c",
+  layer = 0,
+  x = 376,
+  y = 1021,
+  treasure_name = "small_key",
+  treasure_savegame_variable = "dungeon_6_b1_small_key_3",
+}
+
+pickable{
+  name = "auto_pickable_d",
+  layer = 0,
+  x = 1336,
+  y = 1021,
+  treasure_name = "small_key",
+  treasure_savegame_variable = "dungeon_6_b1_small_key_4",
 }
 
 separator{

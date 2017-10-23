@@ -1834,6 +1834,23 @@ stairs{
   subtype = 3,
 }
 
+pickable{
+  layer = 0,
+  x = 1224,
+  y = 877,
+  treasure_name = "small_key",
+  treasure_savegame_variable = "dungeon_6_2f_small_key_1",
+}
+
+chest{
+  layer = 0,
+  x = 1120,
+  y = 317,
+  treasure_name = "hookshot",
+  treasure_savegame_variable = "dungeon_6_hookshot_chess",
+  sprite = "entities/chest",
+}
+
 tile{
   layer = 1,
   x = 1072,
