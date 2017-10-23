@@ -9,6 +9,7 @@ function enemy:on_created()
   enemy:create_sprite("enemies/" .. enemy:get_breed())
   enemy:set_hurt_style("boss")
   enemy:set_pushed_back_when_hurt(false)
+  enemy:set_obstacle_behavior("swimming")
 
   enemy:set_invincible()
 end
