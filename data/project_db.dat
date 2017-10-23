@@ -626,6 +626,7 @@ enemy{ id = "alttp/zazak_blue", description = "Blue Zazak" }
 enemy{ id = "alttp/zol_green", description = "Zol" }
 enemy{ id = "alttp/zora_feet", description = "Zora (on feet)" }
 enemy{ id = "alttp/zora_water", description = "Zora (in water)" }
+enemy{ id = "soe/aquagoth", description = "Aquagoth" }
 enemy{ id = "som/brambler", description = "Tropicallo's plant" }
 enemy{ id = "som/dragon_red", description = "Red Dragon" }
 enemy{ id = "som/dragon_snow", description = "Snow Dragon" }

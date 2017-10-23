@@ -5449,12 +5449,15 @@ custom_entity{
 }
 
 enemy{
-  name = "auto_enemy_1",
+  name = "boss",
   layer = 0,
   x = 800,
   y = 381,
   direction = 3,
   breed = "soe/aquagoth",
+  savegame_variable = "dungeon_7_boss",
+  treasure_name = "heart_container",
+  treasure_savegame_variable = "dungeon_7_heart_container",
 }
 
 enemy{
@@ -5645,7 +5648,7 @@ pickable{
   name = "graal",
   layer = 0,
   x = 800,
-  y = 85,
+  y = 93,
   treasure_name = "graal",
   treasure_savegame_variable = "dungeon_7_graal",
 }
