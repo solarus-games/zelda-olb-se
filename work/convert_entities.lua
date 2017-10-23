@@ -15,6 +15,7 @@
 -- - add support of chests
 -- - add support of destructibles other than vases
 -- - add support of pickables without destructibles
+-- - add support of crystal switches
 -- - test outside maps
 
 -- The input code is read from stdin and should contain some

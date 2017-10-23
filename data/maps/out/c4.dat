@@ -11395,6 +11395,24 @@ sensor{
   height = 16,
 }
 
+destination{
+  name = "from_dungeon_7",
+  layer = 1,
+  x = 752,
+  y = 509,
+  direction = 3,
+}
+
+teletransporter{
+  layer = 1,
+  x = 744,
+  y = 480,
+  width = 16,
+  height = 16,
+  destination_map = "dungeons/7/1f",
+  destination = "from_outside",
+}
+
 tile{
   layer = 2,
   x = 704,

@@ -1847,7 +1847,7 @@ chest{
   x = 1120,
   y = 317,
   treasure_name = "hookshot",
-  treasure_savegame_variable = "dungeon_6_hookshot_chess",
+  treasure_savegame_variable = "dungeon_6_hookshot_chest",
   sprite = "entities/chest",
 }
 

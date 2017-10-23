@@ -1,0 +1,13 @@
+properties{
+  x = 640,
+  y = 720,
+  width = 1600,
+  height = 960,
+  min_layer = -1,
+  max_layer = 2,
+  world = "dungeon_7",
+  floor = -1,
+  tileset = "dungeon/blue",
+  music = "lanayru",
+}
+

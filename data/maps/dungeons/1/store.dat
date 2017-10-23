@@ -3462,3 +3462,14 @@ tile{
   pattern = "ceiling.1",
 }
 
+custom_entity{
+  layer = 2,
+  x = 88,
+  y = 861,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/hook_brown",
+  model = "hookable",
+}
+
