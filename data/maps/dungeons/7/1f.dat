@@ -11890,7 +11890,7 @@ door{
 }
 
 door{
-  name = "auto_door_f",
+  name = "auto_door_g",
   layer = 0,
   x = 1432,
   y = 728,
@@ -12422,7 +12422,7 @@ enemy{
 }
 
 enemy{
-  name = "auto_enemy_39",
+  name = "auto_enemy_auto_door_f_1",
   layer = 0,
   x = 1528,
   y = 781,
@@ -12431,7 +12431,7 @@ enemy{
 }
 
 enemy{
-  name = "auto_enemy_40",
+  name = "auto_enemy_auto_door_f_2",
   layer = 0,
   x = 1528,
   y = 909,
@@ -12479,7 +12479,7 @@ destructible{
 
 crystal{
   layer = 0,
-  x = 808,
+  x = 800,
   y = 45,
 }
 
@@ -12531,6 +12531,94 @@ dynamic_tile{
   width = 32,
   height = 16,
   enabled_at_start = true,
+}
+
+destination{
+  name = "from_b1_sw",
+  layer = 0,
+  x = 160,
+  y = 829,
+  direction = 1,
+}
+
+destination{
+  name = "from_b1_s",
+  layer = 0,
+  x = 800,
+  y = 829,
+  direction = 1,
+}
+
+teletransporter{
+  layer = 0,
+  x = 152,
+  y = 816,
+  width = 16,
+  height = 16,
+  destination_map = "dungeons/7/b1",
+  destination = "from_1f_sw",
+}
+
+teletransporter{
+  layer = 0,
+  x = 792,
+  y = 816,
+  width = 16,
+  height = 16,
+  destination_map = "dungeons/7/b1",
+  destination = "from_1f_s",
+}
+
+stairs{
+  layer = 0,
+  x = 152,
+  y = 816,
+  direction = 3,
+  subtype = 3,
+}
+
+stairs{
+  layer = 0,
+  x = 792,
+  y = 816,
+  direction = 3,
+  subtype = 3,
+}
+
+chest{
+  layer = 0,
+  x = 1544,
+  y = 301,
+  treasure_name = "map",
+  treasure_savegame_variable = "dungeon_7_map_chest",
+  sprite = "entities/chest",
+}
+
+chest{
+  layer = 0,
+  x = 480,
+  y = 45,
+  treasure_name = "compass",
+  treasure_savegame_variable = "dungeon_7_compass_chest",
+  sprite = "entities/chest",
+}
+
+chest{
+  layer = 0,
+  x = 800,
+  y = 109,
+  treasure_name = "boss_key",
+  treasure_savegame_variable = "dungeon_7_boss_key_chest",
+  sprite = "entities/chest",
+}
+
+chest{
+  layer = 0,
+  x = 1432,
+  y = 45,
+  treasure_name = "small_key",
+  treasure_savegame_variable = "dungeon_7_1f_small_key_1",
+  sprite = "entities/chest",
 }
 
 tile{
