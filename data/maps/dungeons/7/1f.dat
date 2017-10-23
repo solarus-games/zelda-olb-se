@@ -12422,7 +12422,7 @@ enemy{
 }
 
 enemy{
-  name = "auto_enemy_auto_door_f_1",
+  name = "auto_enemy_auto_door_g_1",
   layer = 0,
   x = 1528,
   y = 781,
@@ -12431,7 +12431,7 @@ enemy{
 }
 
 enemy{
-  name = "auto_enemy_auto_door_f_2",
+  name = "auto_enemy_auto_door_g_2",
   layer = 0,
   x = 1528,
   y = 909,
@@ -12449,7 +12449,7 @@ enemy{
 }
 
 enemy{
-  name = "auto_enemy_42",
+  name = "auto_enemy_auto_door_c_1",
   layer = 0,
   x = 72,
   y = 61,
@@ -12458,7 +12458,7 @@ enemy{
 }
 
 enemy{
-  name = "auto_enemy_43",
+  name = "auto_enemy_auto_door_c_2",
   layer = 0,
   x = 248,
   y = 61,

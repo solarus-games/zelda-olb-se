@@ -14982,7 +14982,7 @@ enemy{
 }
 
 enemy{
-  name = "auto_enemy_44",
+  name = "auto_enemy_auto_door_c_1",
   layer = 0,
   x = 1512,
   y = 813,
@@ -14991,7 +14991,7 @@ enemy{
 }
 
 enemy{
-  name = "auto_enemy_45",
+  name = "auto_enemy_auto_door_c_2",
   layer = 0,
   x = 1512,
   y = 877,
