@@ -5758,7 +5758,7 @@ chest{
   x = 904,
   y = 813,
   treasure_name = "flippers",
-  treasure_savegame_variable = "dungeon_7_flipper_chest",
+  treasure_savegame_variable = "dungeon_7_flippers_chest",
   sprite = "entities/chest",
 }
 

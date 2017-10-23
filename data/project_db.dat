@@ -28,6 +28,11 @@ map{ id = "dungeons/7/1f", description = "Dungeon 7 1F" }
 map{ id = "dungeons/7/b1", description = "Dungeon 7 B1" }
 map{ id = "dungeons/7/b2", description = "Dungeon 7 B2" }
 map{ id = "dungeons/7/store", description = "Dungeon 7 Store" }
+map{ id = "dungeons/8/1f", description = "Dungeon 8 1F" }
+map{ id = "dungeons/8/2f", description = "Dungeon 8 2F" }
+map{ id = "dungeons/8/b1", description = "Dungeon 8 B1" }
+map{ id = "dungeons/8/imported_entities", description = "Imported entities" }
+map{ id = "dungeons/8/store", description = "Dungeon 8 Store" }
 map{ id = "enemy_store", description = "Enemy Store" }
 map{ id = "house_store", description = "House Store" }
 map{ id = "houses/monster_house/1f", description = "Monster house 1F" }
@@ -359,6 +364,7 @@ sprite{ id = "npc/alttp/woman_yellow", description = "Yellow woman" }
 sprite{ id = "npc/alttp/young_girl_red", description = "Red young girl" }
 sprite{ id = "npc/alttp/zelda", description = "Zelda" }
 sprite{ id = "npc/pit", description = "Pit" }
+sprite{ id = "work/1280x1440", description = "1280x1440 PNG" }
 sprite{ id = "work/1600x1200", description = "1600x1200 PNG" }
 sprite{ id = "work/1600x1680", description = "1600x1680 PNG" }
 sprite{ id = "work/1600x960", description = "1600x960 PNG" }

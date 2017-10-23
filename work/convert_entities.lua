@@ -132,6 +132,8 @@ local treasures = {  -- enum Type_Items
   ["7"] = {
     treasure_name = "magic_flask",
     treasure_variant = 1,
+    offset_x = 0,
+    offset_y = 8,
   },
   ["8"] = {
     treasure_name = "magic_flask",
@@ -249,7 +251,8 @@ local function parse_destructibles(src)
     entity.name = "auto_destructible_" .. (#entities + 1)
     entity.x, entity.y = get_destructible_coords(x, y, treasure)
     entity.layer = 0
-    entity.sprite = "entities/vase_skull"
+    entity.sprite = "entities/vase"
+    -- TODO entity.sprite = "entities/vase_skull"
     entity.destruction_sound = "stone"
     entity.damage_on_enemies = 0
     entity.treasure_name, entity.treasure_variant = treasure.treasure_name, treasure.treasure_variant

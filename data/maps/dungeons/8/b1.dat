@@ -1,0 +1,13 @@
+properties{
+  x = 960,
+  y = 480,
+  width = 1280,
+  height = 1440,
+  min_layer = 0,
+  max_layer = 2,
+  world = "dungeon_8",
+  floor = -1,
+  tileset = "dungeon/yellow",
+  music = "dungeon_final",
+}
+
