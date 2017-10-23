@@ -1340,6 +1340,24 @@ tile{
   pattern = "wall_border.corner.2-5",
 }
 
+tile{
+  layer = 0,
+  x = 368,
+  y = 288,
+  width = 272,
+  height = 192,
+  pattern = "floor_small.2",
+}
+
+tile{
+  layer = 0,
+  x = 368,
+  y = 288,
+  width = 272,
+  height = 192,
+  pattern = "water.transparent",
+}
+
 stairs{
   layer = 0,
   x = 136,
@@ -1540,9 +1558,9 @@ door{
   y = 536,
   direction = 3,
   sprite = "entities/doors/door_d1_big_key",
-  savegame_variable = "dungeon_1_boss_door",
+  savegame_variable = "dungeon_7_boss_door",
   opening_method = "interaction_if_savegame_variable",
-  opening_condition = "dungeon_1_boss_key",
+  opening_condition = "dungeon_7_boss_key",
   cannot_open_dialog = "boss_key_required",
 }
 

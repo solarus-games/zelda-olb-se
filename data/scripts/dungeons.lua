@@ -74,7 +74,7 @@ local function initialize_dungeon_features(game)
         savegame_variable = "dungeon_6_boss",
       },
     },
-    [6] = {
+    [7] = {
       lowest_floor = -2,
       highest_floor = 0,
       boss = {

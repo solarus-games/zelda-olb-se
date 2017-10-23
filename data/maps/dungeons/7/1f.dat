@@ -10389,7 +10389,7 @@ dynamic_tile{
 dynamic_tile{
   name = "invisible_tile_63",
   layer = 0,
-  x = 672,
+  x = 680,
   y = 880,
   pattern = "water",
   width = 32,
@@ -12388,7 +12388,7 @@ enemy{
 enemy{
   name = "auto_enemy_29",
   layer = 0,
-  x = 1432,
+  x = 1440,
   y = 589,
   direction = 3,
   breed = "alttp/sand_crab",
@@ -12397,7 +12397,7 @@ enemy{
 enemy{
   name = "auto_enemy_30",
   layer = 0,
-  x = 1160,
+  x = 1168,
   y = 109,
   direction = 3,
   breed = "alttp/sand_crab",
@@ -12406,7 +12406,7 @@ enemy{
 enemy{
   name = "auto_enemy_31",
   layer = 0,
-  x = 152,
+  x = 160,
   y = 589,
   direction = 3,
   breed = "alttp/sand_crab",
@@ -12415,7 +12415,7 @@ enemy{
 enemy{
   name = "auto_enemy_38",
   layer = 0,
-  x = 472,
+  x = 480,
   y = 845,
   direction = 3,
   breed = "alttp/sand_crab",
@@ -12509,6 +12509,28 @@ destructible{
   sprite = "entities/vase_skull",
   destruction_sound = "stone",
   damage_on_enemies = 2,
+}
+
+dynamic_tile{
+  name = "invisible_tile_73",
+  layer = 0,
+  x = 880,
+  y = 768,
+  pattern = "water",
+  width = 48,
+  height = 112,
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  name = "invisible_tile_74",
+  layer = 0,
+  x = 896,
+  y = 752,
+  pattern = "water",
+  width = 32,
+  height = 16,
+  enabled_at_start = true,
 }
 
 tile{
