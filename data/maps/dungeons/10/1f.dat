@@ -13799,6 +13799,240 @@ teletransporter{
   destination = "_same",
 }
 
+destination{
+  name = "from_2f_w",
+  layer = 0,
+  x = 480,
+  y = 365,
+  direction = 1,
+}
+
+destination{
+  name = "from_2f_e",
+  layer = 0,
+  x = 1120,
+  y = 365,
+  direction = 1,
+}
+
+destination{
+  name = "from_b1_nw",
+  layer = 0,
+  x = 480,
+  y = 109,
+  direction = 1,
+}
+
+destination{
+  name = "from_b1_ne",
+  layer = 0,
+  x = 1120,
+  y = 109,
+  direction = 1,
+}
+
+destination{
+  name = "from_b1_e",
+  layer = 0,
+  x = 1120,
+  y = 589,
+  direction = 1,
+}
+
+destination{
+  name = "from_b1_se",
+  layer = 0,
+  x = 1120,
+  y = 829,
+  direction = 1,
+}
+
+destination{
+  name = "from_b1_s",
+  layer = 0,
+  x = 800,
+  y = 1069,
+  direction = 1,
+}
+
+destination{
+  name = "from_b1_sw",
+  layer = 0,
+  x = 480,
+  y = 829,
+  direction = 1,
+}
+
+destination{
+  name = "from_b1_w",
+  layer = 0,
+  x = 160,
+  y = 589,
+  direction = 1,
+}
+
+teletransporter{
+  layer = 0,
+  x = 472,
+  y = 352,
+  width = 16,
+  height = 16,
+  destination_map = "dungeons/10/2f",
+  destination = "from_1f_w",
+}
+
+teletransporter{
+  layer = 0,
+  x = 1112,
+  y = 352,
+  width = 16,
+  height = 16,
+  destination_map = "dungeons/10/2f",
+  destination = "from_1f_e",
+}
+
+teletransporter{
+  layer = 0,
+  x = 472,
+  y = 96,
+  width = 16,
+  height = 16,
+  destination_map = "dungeons/10/b1",
+  destination = "from_1f_nw",
+}
+
+teletransporter{
+  layer = 0,
+  x = 1112,
+  y = 96,
+  width = 16,
+  height = 16,
+  destination_map = "dungeons/10/b1",
+  destination = "from_1f_ne",
+}
+
+teletransporter{
+  layer = 0,
+  x = 1112,
+  y = 576,
+  width = 16,
+  height = 16,
+  destination_map = "dungeons/10/b1",
+  destination = "from_1f_e",
+}
+
+teletransporter{
+  layer = 0,
+  x = 1112,
+  y = 816,
+  width = 16,
+  height = 16,
+  destination_map = "dungeons/10/b1",
+  destination = "from_1f_se",
+}
+
+teletransporter{
+  layer = 0,
+  x = 792,
+  y = 1056,
+  width = 16,
+  height = 16,
+  destination_map = "dungeons/10/b1",
+  destination = "from_1f_s",
+}
+
+teletransporter{
+  layer = 0,
+  x = 472,
+  y = 816,
+  width = 16,
+  height = 16,
+  destination_map = "dungeons/10/b1",
+  destination = "from_1f_sw",
+}
+
+teletransporter{
+  layer = 0,
+  x = 152,
+  y = 576,
+  width = 16,
+  height = 16,
+  destination_map = "dungeons/10/b1",
+  destination = "from_1f_w",
+}
+
+stairs{
+  layer = 0,
+  x = 472,
+  y = 96,
+  direction = 3,
+  subtype = 3,
+}
+
+stairs{
+  layer = 0,
+  x = 1112,
+  y = 96,
+  direction = 3,
+  subtype = 3,
+}
+
+stairs{
+  layer = 0,
+  x = 1112,
+  y = 576,
+  direction = 3,
+  subtype = 3,
+}
+
+stairs{
+  layer = 0,
+  x = 1112,
+  y = 816,
+  direction = 3,
+  subtype = 3,
+}
+
+stairs{
+  layer = 0,
+  x = 792,
+  y = 1056,
+  direction = 3,
+  subtype = 3,
+}
+
+stairs{
+  layer = 0,
+  x = 472,
+  y = 816,
+  direction = 3,
+  subtype = 3,
+}
+
+stairs{
+  layer = 0,
+  x = 152,
+  y = 576,
+  direction = 3,
+  subtype = 3,
+}
+
+stairs{
+  layer = 0,
+  x = 472,
+  y = 352,
+  direction = 1,
+  subtype = 2,
+}
+
+stairs{
+  layer = 0,
+  x = 1112,
+  y = 352,
+  direction = 1,
+  subtype = 2,
+}
+
 tile{
   layer = 1,
   x = 312,

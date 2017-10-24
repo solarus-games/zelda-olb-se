@@ -13517,7 +13517,7 @@ enemy{
 }
 
 enemy{
-  name = "auto_enemy_57",
+  name = "boss",
   layer = 0,
   x = 800,
   y = 549,
@@ -13635,6 +13635,188 @@ destructible{
   sprite = "entities/vase_skull",
   destruction_sound = "stone",
   damage_on_enemies = 2,
+}
+
+destination{
+  name = "from_1f_nw",
+  layer = 0,
+  x = 480,
+  y = 125,
+  direction = 1,
+}
+
+destination{
+  name = "from_1f_ne",
+  layer = 0,
+  x = 1120,
+  y = 125,
+  direction = 1,
+}
+
+destination{
+  name = "from_1f_e",
+  layer = 0,
+  x = 1120,
+  y = 605,
+  direction = 1,
+}
+
+destination{
+  name = "from_1f_se",
+  layer = 0,
+  x = 1120,
+  y = 845,
+  direction = 1,
+}
+
+destination{
+  name = "from_1f_s",
+  layer = 0,
+  x = 800,
+  y = 1085,
+  direction = 1,
+}
+
+destination{
+  name = "from_1f_sw",
+  layer = 0,
+  x = 480,
+  y = 845,
+  direction = 1,
+}
+
+destination{
+  name = "from_1f_w",
+  layer = 0,
+  x = 160,
+  y = 605,
+  direction = 1,
+}
+
+teletransporter{
+  layer = 0,
+  x = 472,
+  y = 112,
+  width = 16,
+  height = 16,
+  destination_map = "dungeons/10/1f",
+  destination = "from_b1_nw",
+}
+
+teletransporter{
+  layer = 0,
+  x = 1112,
+  y = 112,
+  width = 16,
+  height = 16,
+  destination_map = "dungeons/10/1f",
+  destination = "from_b1_ne",
+}
+
+teletransporter{
+  layer = 0,
+  x = 1112,
+  y = 592,
+  width = 16,
+  height = 16,
+  destination_map = "dungeons/10/1f",
+  destination = "from_b1_e",
+}
+
+teletransporter{
+  layer = 0,
+  x = 1112,
+  y = 832,
+  width = 16,
+  height = 16,
+  destination_map = "dungeons/10/1f",
+  destination = "from_b1_se",
+}
+
+teletransporter{
+  layer = 0,
+  x = 792,
+  y = 1072,
+  width = 16,
+  height = 16,
+  destination_map = "dungeons/10/1f",
+  destination = "from_b1_s",
+}
+
+teletransporter{
+  layer = 0,
+  x = 472,
+  y = 832,
+  width = 16,
+  height = 16,
+  destination_map = "dungeons/10/1f",
+  destination = "from_b1_sw",
+}
+
+teletransporter{
+  layer = 0,
+  x = 152,
+  y = 592,
+  width = 16,
+  height = 16,
+  destination_map = "dungeons/10/1f",
+  destination = "from_b1_w",
+}
+
+stairs{
+  layer = 0,
+  x = 472,
+  y = 112,
+  direction = 1,
+  subtype = 2,
+}
+
+stairs{
+  layer = 0,
+  x = 1112,
+  y = 112,
+  direction = 1,
+  subtype = 2,
+}
+
+stairs{
+  layer = 0,
+  x = 1112,
+  y = 592,
+  direction = 1,
+  subtype = 2,
+}
+
+stairs{
+  layer = 0,
+  x = 1112,
+  y = 832,
+  direction = 1,
+  subtype = 2,
+}
+
+stairs{
+  layer = 0,
+  x = 792,
+  y = 1072,
+  direction = 1,
+  subtype = 2,
+}
+
+stairs{
+  layer = 0,
+  x = 472,
+  y = 832,
+  direction = 1,
+  subtype = 2,
+}
+
+stairs{
+  layer = 0,
+  x = 152,
+  y = 592,
+  direction = 1,
+  subtype = 2,
 }
 
 tile{

@@ -4631,6 +4631,58 @@ destructible{
   damage_on_enemies = 2,
 }
 
+destination{
+  name = "from_1f_w",
+  layer = 0,
+  x = 480,
+  y = 349,
+  direction = 1,
+}
+
+destination{
+  name = "from_1f_e",
+  layer = 0,
+  x = 1120,
+  y = 349,
+  direction = 1,
+}
+
+teletransporter{
+  layer = 0,
+  x = 472,
+  y = 336,
+  width = 16,
+  height = 16,
+  destination_map = "dungeons/10/1f",
+  destination = "from_2f_w",
+}
+
+teletransporter{
+  layer = 0,
+  x = 1112,
+  y = 336,
+  width = 16,
+  height = 16,
+  destination_map = "dungeons/10/1f",
+  destination = "from_2f_e",
+}
+
+stairs{
+  layer = 0,
+  x = 472,
+  y = 336,
+  direction = 3,
+  subtype = 3,
+}
+
+stairs{
+  layer = 0,
+  x = 1112,
+  y = 336,
+  direction = 3,
+  subtype = 3,
+}
+
 tile{
   layer = 1,
   x = 760,
