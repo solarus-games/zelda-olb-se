@@ -21,7 +21,7 @@ local function initialize_dungeon_features(game)
         floor = 0,
         x = 640 + 1440,
         y = 720 + 365,
-        savegame_variable = "dungeon_1_boss",
+        savegame_variable = "d1_boss",
       },
     },
     [2] = {
@@ -31,7 +31,7 @@ local function initialize_dungeon_features(game)
         floor = -2,  -- TODO
         x = 640 + 800,
         y = 240 + 1312,
-        savegame_variable = "dungeon_2_boss",
+        savegame_variable = "d2_boss",
       },
     },
     [3] = {
@@ -41,7 +41,7 @@ local function initialize_dungeon_features(game)
         floor = 1,
         x = 320 + 1120,
         y = 240 + 557,
-        savegame_variable = "dungeon_3_boss",
+        savegame_variable = "d3_boss",
       },
     },
     [4] = {
@@ -51,7 +51,7 @@ local function initialize_dungeon_features(game)
         floor = -1,
         x = 640 + 800,
         y = 480 + 360,
-        savegame_variable = "dungeon_4_boss",
+        savegame_variable = "d4_boss",
       },
     },
     [5] = {
@@ -61,7 +61,7 @@ local function initialize_dungeon_features(game)
         floor = 0,
         x = 640 + 1280,
         y = 480 + 480,
-        savegame_variable = "dungeon_5_boss",
+        savegame_variable = "d5_boss",
       },
     },
     [6] = {
@@ -71,7 +71,7 @@ local function initialize_dungeon_features(game)
         floor = 0,
         x = 320 + 160,
         y = 480 + 360,
-        savegame_variable = "dungeon_6_boss",
+        savegame_variable = "d6_boss",
       },
     },
     [7] = {
@@ -81,7 +81,7 @@ local function initialize_dungeon_features(game)
         floor = -2,
         x = 640 + 800,
         y = 720 + 360,
-        savegame_variable = "dungeon_7_boss",
+        savegame_variable = "d7_boss",
       },
     },
     [8] = {
@@ -91,7 +91,7 @@ local function initialize_dungeon_features(game)
         floor = 0,
         x = 960 + 160,
         y = 480 + 360,
-        savegame_variable = "dungeon_7_boss",
+        savegame_variable = "d7_boss",
       },
     },
   }

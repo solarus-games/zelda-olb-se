@@ -2161,7 +2161,7 @@ door{
   direction = 0,
   sprite = "entities/doors/door_d2_small_key",
   opening_method = "interaction_if_savegame_variable",
-  opening_condition = "dungeon_6_small_keys",
+  opening_condition = "d6_small_keys",
   opening_condition_consumed = true,
   cannot_open_dialog = "small_key_required",
 }
@@ -2172,9 +2172,9 @@ door{
   y = 312,
   direction = 0,
   sprite = "entities/doors/door_d2_big_key",
-  savegame_variable = "dungeon_6_boss_door",
+  savegame_variable = "d6_boss_door",
   opening_method = "interaction_if_savegame_variable",
-  opening_condition = "dungeon_6_boss_key",
+  opening_condition = "d6_boss_key",
   cannot_open_dialog = "boss_key_required",
 }
 
@@ -2193,7 +2193,7 @@ door{
   direction = 2,
   sprite = "entities/doors/door_d2_small_key",
   opening_method = "interaction_if_savegame_variable",
-  opening_condition = "dungeon_6_small_keys",
+  opening_condition = "d6_small_keys",
   opening_condition_consumed = true,
   cannot_open_dialog = "small_key_required",
 }
@@ -2205,7 +2205,7 @@ door{
   direction = 3,
   sprite = "entities/doors/door_d2_small_key",
   opening_method = "interaction_if_savegame_variable",
-  opening_condition = "dungeon_6_small_keys",
+  opening_condition = "d6_small_keys",
   opening_condition_consumed = true,
   cannot_open_dialog = "small_key_required",
 }
@@ -2217,7 +2217,7 @@ door{
   direction = 1,
   sprite = "entities/doors/door_d2_small_key",
   opening_method = "interaction_if_savegame_variable",
-  opening_condition = "dungeon_6_small_keys",
+  opening_condition = "d6_small_keys",
   opening_condition_consumed = true,
   cannot_open_dialog = "small_key_required",
 }
@@ -2228,9 +2228,9 @@ door{
   y = 312,
   direction = 2,
   sprite = "entities/doors/door_d2_big_key",
-  savegame_variable = "dungeon_6_boss_door",
+  savegame_variable = "d6_boss_door",
   opening_method = "interaction_if_savegame_variable",
-  opening_condition = "dungeon_6_boss_key",
+  opening_condition = "d6_boss_key",
   cannot_open_dialog = "boss_key_required",
 }
 
@@ -2240,9 +2240,9 @@ door{
   y = 424,
   direction = 1,
   sprite = "entities/doors/door_d2_big_key",
-  savegame_variable = "dungeon_6_boss_door",
+  savegame_variable = "d6_boss_door",
   opening_method = "interaction_if_savegame_variable",
-  opening_condition = "dungeon_6_boss_key",
+  opening_condition = "d6_boss_key",
   cannot_open_dialog = "boss_key_required",
 }
 
@@ -2252,9 +2252,9 @@ door{
   y = 392,
   direction = 3,
   sprite = "entities/doors/door_d2_big_key",
-  savegame_variable = "dungeon_6_boss_door",
+  savegame_variable = "d6_boss_door",
   opening_method = "interaction_if_savegame_variable",
-  opening_condition = "dungeon_6_boss_key",
+  opening_condition = "d6_boss_key",
   cannot_open_dialog = "boss_key_required",
 }
 
@@ -2288,7 +2288,7 @@ door{
   direction = 0,
   sprite = "entities/doors/door_d2_weak_wall",
   opening_method = "explosion",
-  opening_condition = "dungeon_3_boss_key",
+  opening_condition = "d3_boss_key",
 }
 
 door{
@@ -2299,7 +2299,7 @@ door{
   direction = 2,
   sprite = "entities/doors/door_d2_weak_wall",
   opening_method = "explosion",
-  opening_condition = "dungeon_3_boss_key",
+  opening_condition = "d3_boss_key",
 }
 
 destructible{
@@ -2382,7 +2382,7 @@ door{
   direction = 3,
   sprite = "entities/doors/door_d2_weak_wall",
   opening_method = "explosion",
-  opening_condition = "dungeon_3_boss_key",
+  opening_condition = "d3_boss_key",
 }
 
 door{
@@ -2393,7 +2393,7 @@ door{
   direction = 1,
   sprite = "entities/doors/door_d2_weak_wall",
   opening_method = "explosion",
-  opening_condition = "dungeon_3_boss_key",
+  opening_condition = "d3_boss_key",
 }
 
 chest{
@@ -2401,7 +2401,7 @@ chest{
   x = 24,
   y = 669,
   treasure_name = "map",
-  treasure_savegame_variable = "dungeon_6_map_chest",
+  treasure_savegame_variable = "d6_map_chest",
   sprite = "entities/chest",
 }
 
@@ -2410,7 +2410,7 @@ chest{
   x = 56,
   y = 669,
   treasure_name = "compass",
-  treasure_savegame_variable = "dungeon_6_compass_chest",
+  treasure_savegame_variable = "d6_compass_chest",
   sprite = "entities/chest",
 }
 
@@ -2419,7 +2419,7 @@ chest{
   x = 88,
   y = 669,
   treasure_name = "boss_key",
-  treasure_savegame_variable = "dungeon_6_boss_key_chest",
+  treasure_savegame_variable = "d6_boss_key_chest",
   sprite = "entities/chest",
 }
 
@@ -2428,7 +2428,7 @@ chest{
   x = 120,
   y = 669,
   treasure_name = "hookshot",
-  treasure_savegame_variable = "dungeon_6_hookshot_chest",
+  treasure_savegame_variable = "d6_hookshot_chest",
   sprite = "entities/chest",
 }
 

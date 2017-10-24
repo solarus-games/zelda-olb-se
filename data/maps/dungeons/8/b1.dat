@@ -9698,7 +9698,7 @@ door{
   y = 456,
   direction = 3,
   sprite = "entities/doors/door_d1_normal",
-  savegame_variable = "dungeon_8_b1_door_a",
+  savegame_variable = "d8_b1_door_a",
 }
 
 door{
@@ -9708,7 +9708,7 @@ door{
   y = 488,
   direction = 1,
   sprite = "entities/doors/door_d1_normal",
-  savegame_variable = "dungeon_8_b1_door_a",
+  savegame_variable = "d8_b1_door_a",
 }
 
 wall{
@@ -9784,7 +9784,7 @@ door{
   y = 1176,
   direction = 3,
   sprite = "entities/doors/door_d1_normal",
-  savegame_variable = "dungeon_8_b1_door_d",
+  savegame_variable = "d8_b1_door_d",
 }
 
 door{
@@ -9794,7 +9794,7 @@ door{
   y = 1208,
   direction = 1,
   sprite = "entities/doors/door_d1_normal",
-  savegame_variable = "dungeon_8_b1_door_d",
+  savegame_variable = "d8_b1_door_d",
 }
 
 switch{
@@ -10951,7 +10951,7 @@ chest{
   x = 160,
   y = 1309,
   treasure_name = "small_key",
-  treasure_savegame_variable = "dungeon_8_b1_small_key_2",
+  treasure_savegame_variable = "d8_b1_small_key_2",
   sprite = "entities/chest",
 }
 

@@ -14275,7 +14275,7 @@ door{
   y = 1176,
   direction = 3,
   sprite = "entities/doors/door_d1_normal",
-  savegame_variable = "dungeon_3_b1_door_a",
+  savegame_variable = "d3_b1_door_a",
 }
 
 door{
@@ -14285,7 +14285,7 @@ door{
   y = 1208,
   direction = 1,
   sprite = "entities/doors/door_d1_normal",
-  savegame_variable = "dungeon_3_b1_door_a",
+  savegame_variable = "d3_b1_door_a",
 }
 
 wall{
@@ -14432,7 +14432,7 @@ door{
   y = 1792,
   direction = 0,
   sprite = "entities/doors/door_d1_normal",
-  savegame_variable = "dungeon_3_b1_door_d",
+  savegame_variable = "d3_b1_door_d",
 }
 
 door{
@@ -14442,7 +14442,7 @@ door{
   y = 1792,
   direction = 2,
   sprite = "entities/doors/door_d1_normal",
-  savegame_variable = "dungeon_3_b1_door_d",
+  savegame_variable = "d3_b1_door_d",
 }
 
 wall{
@@ -14472,7 +14472,7 @@ door{
   y = 1312,
   direction = 0,
   sprite = "entities/doors/door_d1_normal",
-  savegame_variable = "dungeon_3_b1_door_b",
+  savegame_variable = "d3_b1_door_b",
 }
 
 door{
@@ -14482,7 +14482,7 @@ door{
   y = 1312,
   direction = 2,
   sprite = "entities/doors/door_d1_normal",
-  savegame_variable = "dungeon_3_b1_door_b",
+  savegame_variable = "d3_b1_door_b",
 }
 
 wall{
@@ -14502,7 +14502,7 @@ door{
   y = 1176,
   direction = 3,
   sprite = "entities/doors/door_d1_normal",
-  savegame_variable = "dungeon_3_b1_door_c",
+  savegame_variable = "d3_b1_door_c",
 }
 
 door{
@@ -14512,7 +14512,7 @@ door{
   y = 1208,
   direction = 1,
   sprite = "entities/doors/door_d1_normal",
-  savegame_variable = "dungeon_3_b1_door_c",
+  savegame_variable = "d3_b1_door_c",
 }
 
 switch{
@@ -14615,7 +14615,7 @@ door{
   direction = 3,
   sprite = "entities/doors/door_d1_small_key",
   opening_method = "interaction_if_savegame_variable",
-  opening_condition = "dungeon_1_small_keys",
+  opening_condition = "d1_small_keys",
   opening_condition_consumed = true,
   cannot_open_dialog = "small_key_required",
 }
@@ -14627,7 +14627,7 @@ door{
   direction = 1,
   sprite = "entities/doors/door_d1_small_key",
   opening_method = "interaction_if_savegame_variable",
-  opening_condition = "dungeon_1_small_keys",
+  opening_condition = "d1_small_keys",
   opening_condition_consumed = true,
   cannot_open_dialog = "small_key_required",
 }
@@ -14955,7 +14955,7 @@ chest{
   x = 1768,
   y = 1805,
   treasure_name = "map",
-  treasure_savegame_variable = "dungeon_3_map_chest",
+  treasure_savegame_variable = "d3_map_chest",
   sprite = "entities/chest",
 }
 
@@ -14964,7 +14964,7 @@ chest{
   x = 1768,
   y = 1565,
   treasure_name = "compass",
-  treasure_savegame_variable = "dungeon_1_compass_chest",
+  treasure_savegame_variable = "d1_compass_chest",
   sprite = "entities/chest",
 }
 
@@ -15112,7 +15112,7 @@ chest{
   layer = 0,
   x = 1128,
   y = 845,
-  treasure_savegame_variable = "dungeon_3_b1_n_key_chest",
+  treasure_savegame_variable = "d3_b1_n_key_chest",
   sprite = "entities/chest",
 }
 
@@ -15133,7 +15133,7 @@ chest{
   layer = 0,
   x = 488,
   y = 1565,
-  treasure_savegame_variable = "dungeon_3_b1_sw_key_chest",
+  treasure_savegame_variable = "d3_b1_sw_key_chest",
   sprite = "entities/chest",
 }
 
@@ -15536,7 +15536,7 @@ door{
   y = 1792,
   direction = 0,
   sprite = "entities/doors/door_d1_weak_wall",
-  savegame_variable = "dungeon_3_b1_weak_wall_a",
+  savegame_variable = "d3_b1_weak_wall_a",
   opening_method = "explosion",
 }
 
@@ -15547,7 +15547,7 @@ door{
   y = 1792,
   direction = 2,
   sprite = "entities/doors/door_d1_weak_wall",
-  savegame_variable = "dungeon_3_b1_weak_wall_a",
+  savegame_variable = "d3_b1_weak_wall_a",
   opening_method = "explosion",
 }
 
@@ -15590,7 +15590,7 @@ door{
   y = 1688,
   direction = 1,
   sprite = "entities/doors/door_d1_weak_wall",
-  savegame_variable = "dungeon_3_b1_weak_wall_b",
+  savegame_variable = "d3_b1_weak_wall_b",
   opening_method = "explosion",
 }
 
@@ -15601,7 +15601,7 @@ door{
   y = 1656,
   direction = 3,
   sprite = "entities/doors/door_d1_weak_wall",
-  savegame_variable = "dungeon_3_b1_weak_wall_b",
+  savegame_variable = "d3_b1_weak_wall_b",
   opening_method = "explosion",
 }
 
@@ -15644,7 +15644,7 @@ door{
   y = 728,
   direction = 1,
   sprite = "entities/doors/door_d1_weak_wall",
-  savegame_variable = "dungeon_3_b1_weak_wall_c",
+  savegame_variable = "d3_b1_weak_wall_c",
   opening_method = "explosion",
 }
 
@@ -15655,7 +15655,7 @@ door{
   y = 696,
   direction = 3,
   sprite = "entities/doors/door_d1_weak_wall",
-  savegame_variable = "dungeon_3_b1_weak_wall_c",
+  savegame_variable = "d3_b1_weak_wall_c",
   opening_method = "explosion",
 }
 

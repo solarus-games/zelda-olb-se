@@ -12266,7 +12266,7 @@ door{
   y = 832,
   direction = 0,
   sprite = "entities/doors/door_d1_normal",
-  savegame_variable = "dungeon_7_b1_door_b",
+  savegame_variable = "d7_b1_door_b",
 }
 
 door{
@@ -12276,7 +12276,7 @@ door{
   y = 832,
   direction = 2,
   sprite = "entities/doors/door_d1_normal",
-  savegame_variable = "dungeon_7_b1_door_b",
+  savegame_variable = "d7_b1_door_b",
 }
 
 wall{
@@ -12324,7 +12324,7 @@ door{
   y = 216,
   direction = 3,
   sprite = "entities/doors/door_d1_normal",
-  savegame_variable = "dungeon_7_b1_door_d",
+  savegame_variable = "d7_b1_door_d",
 }
 
 door{
@@ -12334,7 +12334,7 @@ door{
   y = 248,
   direction = 1,
   sprite = "entities/doors/door_d1_normal",
-  savegame_variable = "dungeon_7_b1_door_d",
+  savegame_variable = "d7_b1_door_d",
 }
 
 wall{
@@ -12354,7 +12354,7 @@ door{
   y = 216,
   direction = 3,
   sprite = "entities/doors/door_d1_normal",
-  savegame_variable = "dungeon_7_b1_door_e",
+  savegame_variable = "d7_b1_door_e",
 }
 
 door{
@@ -12364,7 +12364,7 @@ door{
   y = 248,
   direction = 1,
   sprite = "entities/doors/door_d1_normal",
-  savegame_variable = "dungeon_7_b1_door_e",
+  savegame_variable = "d7_b1_door_e",
 }
 
 wall{
@@ -12384,9 +12384,9 @@ door{
   y = 352,
   direction = 0,
   sprite = "entities/doors/door_d1_small_key",
-  savegame_variable = "dungeon_7_b1_door_f",
+  savegame_variable = "d7_b1_door_f",
   opening_method = "interaction_if_savegame_variable",
-  opening_condition = "dungeon_7_small_keys",
+  opening_condition = "d7_small_keys",
   opening_condition_consumed = true,
   cannot_open_dialog = "small_key_required",
 }
@@ -12398,9 +12398,9 @@ door{
   y = 352,
   direction = 2,
   sprite = "entities/doors/door_d1_small_key",
-  savegame_variable = "dungeon_7_b1_door_f",
+  savegame_variable = "d7_b1_door_f",
   opening_method = "interaction_if_savegame_variable",
-  opening_condition = "dungeon_7_small_keys",
+  opening_condition = "d7_small_keys",
   opening_condition_consumed = true,
   cannot_open_dialog = "small_key_required",
 }
@@ -12422,9 +12422,9 @@ door{
   y = 832,
   direction = 0,
   sprite = "entities/doors/door_d1_small_key",
-  savegame_variable = "dungeon_7_b1_door_g",
+  savegame_variable = "d7_b1_door_g",
   opening_method = "interaction_if_savegame_variable",
-  opening_condition = "dungeon_7_small_keys",
+  opening_condition = "d7_small_keys",
   opening_condition_consumed = true,
   cannot_open_dialog = "small_key_required",
 }
@@ -12436,9 +12436,9 @@ door{
   y = 832,
   direction = 2,
   sprite = "entities/doors/door_d1_small_key",
-  savegame_variable = "dungeon_7_b1_door_g",
+  savegame_variable = "d7_b1_door_g",
   opening_method = "interaction_if_savegame_variable",
-  opening_condition = "dungeon_7_small_keys",
+  opening_condition = "d7_small_keys",
   opening_condition_consumed = true,
   cannot_open_dialog = "small_key_required",
 }
@@ -12460,9 +12460,9 @@ door{
   y = 832,
   direction = 0,
   sprite = "entities/doors/door_d1_small_key",
-  savegame_variable = "dungeon_7_b1_door_h",
+  savegame_variable = "d7_b1_door_h",
   opening_method = "interaction_if_savegame_variable",
-  opening_condition = "dungeon_7_small_keys",
+  opening_condition = "d7_small_keys",
   opening_condition_consumed = true,
   cannot_open_dialog = "small_key_required",
 }
@@ -12474,9 +12474,9 @@ door{
   y = 832,
   direction = 2,
   sprite = "entities/doors/door_d1_small_key",
-  savegame_variable = "dungeon_7_b1_door_h",
+  savegame_variable = "d7_b1_door_h",
   opening_method = "interaction_if_savegame_variable",
-  opening_condition = "dungeon_7_small_keys",
+  opening_condition = "d7_small_keys",
   opening_condition_consumed = true,
   cannot_open_dialog = "small_key_required",
 }
@@ -15330,7 +15330,7 @@ chest{
   x = 104,
   y = 45,
   treasure_name = "small_key",
-  treasure_savegame_variable = "dungeon_7_b1_small_key_1",
+  treasure_savegame_variable = "d7_b1_small_key_1",
   sprite = "entities/chest",
 }
 
@@ -15339,7 +15339,7 @@ chest{
   x = 392,
   y = 605,
   treasure_name = "small_key",
-  treasure_savegame_variable = "dungeon_7_b1_small_key_2",
+  treasure_savegame_variable = "d7_b1_small_key_2",
   sprite = "entities/chest",
 }
 
@@ -15348,7 +15348,7 @@ chest{
   x = 952,
   y = 365,
   treasure_name = "small_key",
-  treasure_savegame_variable = "dungeon_7_b1_small_key_3",
+  treasure_savegame_variable = "d7_b1_small_key_3",
   sprite = "entities/chest",
 }
 
@@ -15357,7 +15357,7 @@ chest{
   x = 936,
   y = 605,
   treasure_name = "small_key",
-  treasure_savegame_variable = "dungeon_7_b1_small_key_4",
+  treasure_savegame_variable = "d7_b1_small_key_4",
   sprite = "entities/chest",
 }
 

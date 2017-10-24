@@ -1523,7 +1523,7 @@ door{
   direction = 3,
   sprite = "entities/doors/door_d1_small_key",
   opening_method = "interaction_if_savegame_variable",
-  opening_condition = "dungeon_7_small_keys",
+  opening_condition = "d7_small_keys",
   opening_condition_consumed = true,
   cannot_open_dialog = "small_key_required",
 }
@@ -1535,7 +1535,7 @@ door{
   direction = 1,
   sprite = "entities/doors/door_d1_small_key",
   opening_method = "interaction_if_savegame_variable",
-  opening_condition = "dungeon_7_small_keys",
+  opening_condition = "d7_small_keys",
   opening_condition_consumed = true,
   cannot_open_dialog = "small_key_required",
 }
@@ -1546,9 +1546,9 @@ door{
   y = 568,
   direction = 1,
   sprite = "entities/doors/door_d1_big_key",
-  savegame_variable = "dungeon_7_boss_door",
+  savegame_variable = "d7_boss_door",
   opening_method = "interaction_if_savegame_variable",
-  opening_condition = "dungeon_7_boss_key",
+  opening_condition = "d7_boss_key",
   cannot_open_dialog = "boss_key_required",
 }
 
@@ -1558,9 +1558,9 @@ door{
   y = 536,
   direction = 3,
   sprite = "entities/doors/door_d1_big_key",
-  savegame_variable = "dungeon_7_boss_door",
+  savegame_variable = "d7_boss_door",
   opening_method = "interaction_if_savegame_variable",
-  opening_condition = "dungeon_7_boss_key",
+  opening_condition = "d7_boss_key",
   cannot_open_dialog = "boss_key_required",
 }
 
@@ -1611,7 +1611,7 @@ door{
   direction = 0,
   sprite = "entities/doors/door_d1_small_key",
   opening_method = "interaction_if_savegame_variable",
-  opening_condition = "dungeon_7_small_keys",
+  opening_condition = "d7_small_keys",
   opening_condition_consumed = true,
   cannot_open_dialog = "small_key_required",
 }
@@ -1623,7 +1623,7 @@ door{
   direction = 2,
   sprite = "entities/doors/door_d1_small_key",
   opening_method = "interaction_if_savegame_variable",
-  opening_condition = "dungeon_7_small_keys",
+  opening_condition = "d7_small_keys",
   opening_condition_consumed = true,
   cannot_open_dialog = "small_key_required",
 }
@@ -1634,9 +1634,9 @@ door{
   y = 648,
   direction = 2,
   sprite = "entities/doors/door_d1_big_key",
-  savegame_variable = "dungeon_7_boss_door",
+  savegame_variable = "d7_boss_door",
   opening_method = "interaction_if_savegame_variable",
-  opening_condition = "dungeon_7_boss_key",
+  opening_condition = "d7_boss_key",
   cannot_open_dialog = "boss_key_required",
 }
 
@@ -1646,9 +1646,9 @@ door{
   y = 648,
   direction = 0,
   sprite = "entities/doors/door_d1_big_key",
-  savegame_variable = "dungeon_7_boss_door",
+  savegame_variable = "d7_boss_door",
   opening_method = "interaction_if_savegame_variable",
-  opening_condition = "dungeon_7_boss_key",
+  opening_condition = "d7_boss_key",
   cannot_open_dialog = "boss_key_required",
 }
 
@@ -1784,7 +1784,7 @@ chest{
   x = 40,
   y = 909,
   treasure_name = "map",
-  treasure_savegame_variable = "dungeon_7_map_chest",
+  treasure_savegame_variable = "d7_map_chest",
   sprite = "entities/chest",
 }
 
@@ -1793,7 +1793,7 @@ chest{
   x = 72,
   y = 909,
   treasure_name = "compass",
-  treasure_savegame_variable = "dungeon_7_compass_chest",
+  treasure_savegame_variable = "d7_compass_chest",
   sprite = "entities/chest",
 }
 
@@ -1802,7 +1802,7 @@ chest{
   x = 104,
   y = 909,
   treasure_name = "boss_key",
-  treasure_savegame_variable = "dungeon_7_boss_key_chest",
+  treasure_savegame_variable = "d7_boss_key_chest",
   sprite = "entities/chest",
 }
 
@@ -1811,7 +1811,7 @@ chest{
   x = 136,
   y = 909,
   treasure_name = "flippers",
-  treasure_savegame_variable = "dungeon_7_flippers_chest",
+  treasure_savegame_variable = "d7_flippers_chest",
   sprite = "entities/chest",
 }
 

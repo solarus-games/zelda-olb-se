@@ -5911,7 +5911,7 @@ door{
   y = 216,
   direction = 3,
   sprite = "entities/doors/door_d2_normal",
-  savegame_variable = "dungeon_2_1f_door_a",
+  savegame_variable = "d2_1f_door_a",
 }
 
 door{
@@ -5921,7 +5921,7 @@ door{
   y = 248,
   direction = 1,
   sprite = "entities/doors/door_d2_normal",
-  savegame_variable = "dungeon_2_1f_door_a",
+  savegame_variable = "d2_1f_door_a",
 }
 
 switch{
@@ -5953,7 +5953,7 @@ door{
   y = 216,
   direction = 3,
   sprite = "entities/doors/door_d2_normal",
-  savegame_variable = "dungeon_2_1f_door_b",
+  savegame_variable = "d2_1f_door_b",
 }
 
 door{
@@ -5963,7 +5963,7 @@ door{
   y = 248,
   direction = 1,
   sprite = "entities/doors/door_d2_normal",
-  savegame_variable = "dungeon_2_1f_door_b",
+  savegame_variable = "d2_1f_door_b",
 }
 
 switch{
@@ -6070,7 +6070,7 @@ door{
   y = 832,
   direction = 0,
   sprite = "entities/doors/door_d2_normal",
-  savegame_variable = "dungeon_2_1f_door_d",
+  savegame_variable = "d2_1f_door_d",
 }
 
 door{
@@ -6080,7 +6080,7 @@ door{
   y = 832,
   direction = 2,
   sprite = "entities/doors/door_d2_normal",
-  savegame_variable = "dungeon_2_1f_door_d",
+  savegame_variable = "d2_1f_door_d",
 }
 
 switch{
@@ -6373,7 +6373,7 @@ chest{
   x = 160,
   y = 125,
   treasure_name = "map",
-  treasure_savegame_variable = "dungeon_3_map_chest",
+  treasure_savegame_variable = "d3_map_chest",
   sprite = "entities/chest",
 }
 

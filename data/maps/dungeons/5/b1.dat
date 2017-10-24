@@ -13151,7 +13151,7 @@ door{
   y = 456,
   direction = 3,
   sprite = "entities/doors/door_d1_normal",
-  savegame_variable = "dungeon_5_b1_door_a",
+  savegame_variable = "d5_b1_door_a",
 }
 
 door{
@@ -13161,7 +13161,7 @@ door{
   y = 488,
   direction = 1,
   sprite = "entities/doors/door_d1_normal",
-  savegame_variable = "dungeon_5_b1_door_a",
+  savegame_variable = "d5_b1_door_a",
 }
 
 wall{
@@ -13181,7 +13181,7 @@ door{
   y = 936,
   direction = 3,
   sprite = "entities/doors/door_d1_normal",
-  savegame_variable = "dungeon_5_b1_door_b",
+  savegame_variable = "d5_b1_door_b",
 }
 
 door{
@@ -13191,7 +13191,7 @@ door{
   y = 968,
   direction = 1,
   sprite = "entities/doors/door_d1_normal",
-  savegame_variable = "dungeon_5_b1_door_b",
+  savegame_variable = "d5_b1_door_b",
 }
 
 wall{
@@ -13211,7 +13211,7 @@ door{
   y = 216,
   direction = 3,
   sprite = "entities/doors/door_d1_normal",
-  savegame_variable = "dungeon_5_b1_door_c",
+  savegame_variable = "d5_b1_door_c",
 }
 
 door{
@@ -13221,7 +13221,7 @@ door{
   y = 248,
   direction = 1,
   sprite = "entities/doors/door_d1_normal",
-  savegame_variable = "dungeon_5_b1_door_c",
+  savegame_variable = "d5_b1_door_c",
 }
 
 wall{
@@ -13241,7 +13241,7 @@ door{
   y = 592,
   direction = 0,
   sprite = "entities/doors/door_d1_normal",
-  savegame_variable = "dungeon_5_b1_door_d",
+  savegame_variable = "d5_b1_door_d",
 }
 
 door{
@@ -13251,7 +13251,7 @@ door{
   y = 592,
   direction = 2,
   sprite = "entities/doors/door_d1_normal",
-  savegame_variable = "dungeon_5_b1_door_d",
+  savegame_variable = "d5_b1_door_d",
 }
 
 wall{
@@ -13299,7 +13299,7 @@ door{
   y = 1072,
   direction = 0,
   sprite = "entities/doors/door_d1_normal",
-  savegame_variable = "dungeon_5_b1_door_f",
+  savegame_variable = "d5_b1_door_f",
 }
 
 door{
@@ -13309,7 +13309,7 @@ door{
   y = 1072,
   direction = 2,
   sprite = "entities/doors/door_d1_normal",
-  savegame_variable = "dungeon_5_b1_door_f",
+  savegame_variable = "d5_b1_door_f",
 }
 
 wall{
@@ -13329,9 +13329,9 @@ door{
   y = 1072,
   direction = 0,
   sprite = "entities/doors/door_d1_small_key",
-  savegame_variable = "dungeon_5_b1_door_g",
+  savegame_variable = "d5_b1_door_g",
   opening_method = "interaction_if_savegame_variable",
-  opening_condition = "dungeon_5_small_keys",
+  opening_condition = "d5_small_keys",
   opening_condition_consumed = true,
   cannot_open_dialog = "small_key_required",
 }
@@ -13343,9 +13343,9 @@ door{
   y = 1072,
   direction = 2,
   sprite = "entities/doors/door_d1_small_key",
-  savegame_variable = "dungeon_5_b1_door_g",
+  savegame_variable = "d5_b1_door_g",
   opening_method = "interaction_if_savegame_variable",
-  opening_condition = "dungeon_5_small_keys",
+  opening_condition = "d5_small_keys",
   opening_condition_consumed = true,
   cannot_open_dialog = "small_key_required",
 }
@@ -13367,9 +13367,9 @@ door{
   y = 112,
   direction = 0,
   sprite = "entities/doors/door_d1_small_key",
-  savegame_variable = "dungeon_5_b1_door_h",
+  savegame_variable = "d5_b1_door_h",
   opening_method = "interaction_if_savegame_variable",
-  opening_condition = "dungeon_5_small_keys",
+  opening_condition = "d5_small_keys",
   opening_condition_consumed = true,
   cannot_open_dialog = "small_key_required",
 }
@@ -13381,9 +13381,9 @@ door{
   y = 112,
   direction = 2,
   sprite = "entities/doors/door_d1_small_key",
-  savegame_variable = "dungeon_5_b1_door_h",
+  savegame_variable = "d5_b1_door_h",
   opening_method = "interaction_if_savegame_variable",
-  opening_condition = "dungeon_5_small_keys",
+  opening_condition = "d5_small_keys",
   opening_condition_consumed = true,
   cannot_open_dialog = "small_key_required",
 }
@@ -13405,9 +13405,9 @@ door{
   y = 456,
   direction = 3,
   sprite = "entities/doors/door_d1_small_key",
-  savegame_variable = "dungeon_5_b1_door_i",
+  savegame_variable = "d5_b1_door_i",
   opening_method = "interaction_if_savegame_variable",
-  opening_condition = "dungeon_5_small_keys",
+  opening_condition = "d5_small_keys",
   opening_condition_consumed = true,
   cannot_open_dialog = "small_key_required",
 }
@@ -13419,9 +13419,9 @@ door{
   y = 488,
   direction = 1,
   sprite = "entities/doors/door_d1_small_key",
-  savegame_variable = "dungeon_5_b1_door_i",
+  savegame_variable = "d5_b1_door_i",
   opening_method = "interaction_if_savegame_variable",
-  opening_condition = "dungeon_5_small_keys",
+  opening_condition = "d5_small_keys",
   opening_condition_consumed = true,
   cannot_open_dialog = "small_key_required",
 }
@@ -15142,7 +15142,7 @@ chest{
   x = 1544,
   y = 845,
   treasure_name = "boss_key",
-  treasure_savegame_variable = "dungeon_5_boss_key_chest",
+  treasure_savegame_variable = "d5_boss_key_chest",
   sprite = "entities/chest",
 }
 
@@ -15151,7 +15151,7 @@ chest{
   x = 744,
   y = 1069,
   treasure_name = "small_key",
-  treasure_savegame_variable = "dungeon_5_b1_s_key_chest",
+  treasure_savegame_variable = "d5_b1_s_key_chest",
   sprite = "entities/chest",
 }
 
@@ -15160,7 +15160,7 @@ chest{
   x = 1112,
   y = 381,
   treasure_name = "small_key",
-  treasure_savegame_variable = "dungeon_5_b1_n_key_chest",
+  treasure_savegame_variable = "d5_b1_n_key_chest",
   sprite = "entities/chest",
 }
 
@@ -15169,7 +15169,7 @@ chest{
   x = 1416,
   y = 1085,
   treasure_name = "small_key",
-  treasure_savegame_variable = "dungeon_5_b1_se_key_chest",
+  treasure_savegame_variable = "d5_b1_se_key_chest",
   sprite = "entities/chest",
 }
 
@@ -15178,7 +15178,7 @@ chest{
   x = 200,
   y = 1085,
   treasure_name = "small_key",
-  treasure_savegame_variable = "dungeon_5_b1_sw_key_chest",
+  treasure_savegame_variable = "d5_b1_sw_key_chest",
   sprite = "entities/chest",
 }
 
@@ -15187,7 +15187,7 @@ chest{
   x = 1128,
   y = 285,
   treasure_name = "small_key",
-  treasure_savegame_variable = "dungeon_5_1f_w_key_chest",
+  treasure_savegame_variable = "d5_1f_w_key_chest",
   sprite = "entities/chest",
 }
 

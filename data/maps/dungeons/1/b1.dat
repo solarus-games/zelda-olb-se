@@ -7223,9 +7223,9 @@ door{
   y = 696,
   direction = 3,
   sprite = "entities/doors/door_d1_small_key",
-  savegame_variable = "dungeon_1_b1_door_a",
+  savegame_variable = "d1_b1_door_a",
   opening_method = "interaction_if_savegame_variable",
-  opening_condition = "dungeon_1_small_keys",
+  opening_condition = "d1_small_keys",
   opening_condition_consumed = true,
   cannot_open_dialog = "small_key_required",
 }
@@ -7237,9 +7237,9 @@ door{
   y = 728,
   direction = 1,
   sprite = "entities/doors/door_d1_small_key",
-  savegame_variable = "dungeon_1_b1_door_a",
+  savegame_variable = "d1_b1_door_a",
   opening_method = "interaction_if_savegame_variable",
-  opening_condition = "dungeon_1_small_keys",
+  opening_condition = "d1_small_keys",
   opening_condition_consumed = true,
   cannot_open_dialog = "small_key_required",
 }
@@ -7261,9 +7261,9 @@ door{
   y = 352,
   direction = 0,
   sprite = "entities/doors/door_d1_small_key",
-  savegame_variable = "dungeon_1_b1_door_b",
+  savegame_variable = "d1_b1_door_b",
   opening_method = "interaction_if_savegame_variable",
-  opening_condition = "dungeon_1_small_keys",
+  opening_condition = "d1_small_keys",
   opening_condition_consumed = true,
   cannot_open_dialog = "small_key_required",
 }
@@ -7275,9 +7275,9 @@ door{
   y = 352,
   direction = 2,
   sprite = "entities/doors/door_d1_small_key",
-  savegame_variable = "dungeon_1_b1_door_b",
+  savegame_variable = "d1_b1_door_b",
   opening_method = "interaction_if_savegame_variable",
-  opening_condition = "dungeon_1_small_keys",
+  opening_condition = "d1_small_keys",
   opening_condition_consumed = true,
   cannot_open_dialog = "small_key_required",
 }
@@ -8098,7 +8098,7 @@ chest{
   x = 1120,
   y = 365,
   treasure_name = "boss_key",
-  treasure_savegame_variable = "dungeon_1_boss_key_chest",
+  treasure_savegame_variable = "d1_boss_key_chest",
   sprite = "entities/chest",
 }
 
@@ -8107,7 +8107,7 @@ chest{
   x = 1120,
   y = 845,
   treasure_name = "small_key",
-  treasure_savegame_variable = "dungeon_1_b1_se_key_chest",
+  treasure_savegame_variable = "d1_b1_se_key_chest",
   sprite = "entities/chest",
 }
 
@@ -8116,7 +8116,7 @@ chest{
   x = 1440,
   y = 125,
   treasure_name = "small_key",
-  treasure_savegame_variable = "dungeon_1_b1_ne_key_chest",
+  treasure_savegame_variable = "d1_b1_ne_key_chest",
   sprite = "entities/chest",
 }
 
@@ -8125,7 +8125,7 @@ chest{
   x = 480,
   y = 125,
   treasure_name = "sword",
-  treasure_savegame_variable = "dungeon_1_sword_chest",
+  treasure_savegame_variable = "d1_sword_chest",
   sprite = "entities/chest",
 }
 

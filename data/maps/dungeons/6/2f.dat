@@ -1503,9 +1503,9 @@ door{
   y = 728,
   direction = 1,
   sprite = "entities/doors/door_d2_big_key",
-  savegame_variable = "dungeon_6_boss_door",
+  savegame_variable = "d6_boss_door",
   opening_method = "interaction_if_savegame_variable",
-  opening_condition = "dungeon_6_boss_key",
+  opening_condition = "d6_boss_key",
   cannot_open_dialog = "boss_key_required",
 }
 
@@ -1515,9 +1515,9 @@ door{
   y = 696,
   direction = 3,
   sprite = "entities/doors/door_d2_big_key",
-  savegame_variable = "dungeon_6_boss_door",
+  savegame_variable = "d6_boss_door",
   opening_method = "interaction_if_savegame_variable",
-  opening_condition = "dungeon_6_boss_key",
+  opening_condition = "d6_boss_key",
   cannot_open_dialog = "boss_key_required",
 }
 
@@ -1750,9 +1750,9 @@ enemy{
   y = 557,
   direction = 3,
   breed = "alttp/blind",
-  savegame_variable = "dungeon_6_boss",
+  savegame_variable = "d6_boss",
   treasure_name = "heart_container",
-  treasure_savegame_variable = "dungeon_6_heart_container",
+  treasure_savegame_variable = "d6_heart_container",
 }
 
 enemy{
@@ -1839,7 +1839,7 @@ pickable{
   x = 1224,
   y = 877,
   treasure_name = "small_key",
-  treasure_savegame_variable = "dungeon_6_2f_small_key_1",
+  treasure_savegame_variable = "d6_2f_small_key_1",
 }
 
 chest{
@@ -1847,7 +1847,7 @@ chest{
   x = 1120,
   y = 317,
   treasure_name = "hookshot",
-  treasure_savegame_variable = "dungeon_6_hookshot_chest",
+  treasure_savegame_variable = "d6_hookshot_chest",
   sprite = "entities/chest",
 }
 

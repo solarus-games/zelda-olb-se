@@ -2606,23 +2606,23 @@ door{
   y = 352,
   direction = 0,
   sprite = "entities/doors/door_d1_small_key",
-  savegame_variable = "dungeon_4_f2_door_b",
+  savegame_variable = "d4_f2_door_b",
   opening_method = "interaction_if_savegame_variable",
-  opening_condition = "dungeon_4_small_keys",
+  opening_condition = "d4_small_keys",
   opening_condition_consumed = true,
   cannot_open_dialog = "small_key_required",
 }
 
 door{
-  name = "dungeon_4_door_b",
+  name = "door_b",
   layer = 0,
   x = 968,
   y = 352,
   direction = 2,
   sprite = "entities/doors/door_d1_small_key",
-  savegame_variable = "dungeon_4_2f_door_b",
+  savegame_variable = "d4_2f_door_b",
   opening_method = "interaction_if_savegame_variable",
-  opening_condition = "dungeon_4_small_keys",
+  opening_condition = "d4_small_keys",
   opening_condition_consumed = true,
   cannot_open_dialog = "small_key_required",
 }
@@ -2644,23 +2644,23 @@ door{
   y = 832,
   direction = 0,
   sprite = "entities/doors/door_d1_small_key",
-  savegame_variable = "dungeon_4_2f_door_c",
+  savegame_variable = "d4_2f_door_c",
   opening_method = "interaction_if_savegame_variable",
-  opening_condition = "dungeon_4_small_keys",
+  opening_condition = "d4_small_keys",
   opening_condition_consumed = true,
   cannot_open_dialog = "small_key_required",
 }
 
 door{
-  name = "dungeon_4_door_c",
+  name = "door_c",
   layer = 0,
   x = 968,
   y = 832,
   direction = 2,
   sprite = "entities/doors/door_d1_small_key",
-  savegame_variable = "dungeon_4_2f_door_c",
+  savegame_variable = "d4_2f_door_c",
   opening_method = "interaction_if_savegame_variable",
-  opening_condition = "dungeon_4_small_keys",
+  opening_condition = "d4_small_keys",
   opening_condition_consumed = true,
   cannot_open_dialog = "small_key_required",
 }
@@ -2980,7 +2980,7 @@ chest{
   x = 1120,
   y = 605,
   treasure_name = "small_key",
-  treasure_savegame_variable = "dungeon_4_2f_e_key_chest",
+  treasure_savegame_variable = "d4_2f_e_key_chest",
   sprite = "entities/chest",
 }
 

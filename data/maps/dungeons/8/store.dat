@@ -1830,7 +1830,7 @@ door{
   direction = 3,
   sprite = "entities/doors/door_d1_small_key",
   opening_method = "interaction_if_savegame_variable",
-  opening_condition = "dungeon_8_small_keys",
+  opening_condition = "d8_small_keys",
   opening_condition_consumed = true,
   cannot_open_dialog = "small_key_required",
 }
@@ -1842,7 +1842,7 @@ door{
   direction = 1,
   sprite = "entities/doors/door_d1_small_key",
   opening_method = "interaction_if_savegame_variable",
-  opening_condition = "dungeon_8_small_keys",
+  opening_condition = "d8_small_keys",
   opening_condition_consumed = true,
   cannot_open_dialog = "small_key_required",
 }
@@ -1853,9 +1853,9 @@ door{
   y = 312,
   direction = 1,
   sprite = "entities/doors/door_d1_big_key",
-  savegame_variable = "dungeon_8_boss_door",
+  savegame_variable = "d8_boss_door",
   opening_method = "interaction_if_savegame_variable",
-  opening_condition = "dungeon_8_boss_key",
+  opening_condition = "d8_boss_key",
   cannot_open_dialog = "boss_key_required",
 }
 
@@ -1865,9 +1865,9 @@ door{
   y = 280,
   direction = 3,
   sprite = "entities/doors/door_d1_big_key",
-  savegame_variable = "dungeon_8_boss_door",
+  savegame_variable = "d8_boss_door",
   opening_method = "interaction_if_savegame_variable",
-  opening_condition = "dungeon_8_boss_key",
+  opening_condition = "d8_boss_key",
   cannot_open_dialog = "boss_key_required",
 }
 
@@ -1908,7 +1908,7 @@ door{
   direction = 0,
   sprite = "entities/doors/door_d1_small_key",
   opening_method = "interaction_if_savegame_variable",
-  opening_condition = "dungeon_8_small_keys",
+  opening_condition = "d8_small_keys",
   opening_condition_consumed = true,
   cannot_open_dialog = "small_key_required",
 }
@@ -1920,7 +1920,7 @@ door{
   direction = 2,
   sprite = "entities/doors/door_d1_small_key",
   opening_method = "interaction_if_savegame_variable",
-  opening_condition = "dungeon_8_small_keys",
+  opening_condition = "d8_small_keys",
   opening_condition_consumed = true,
   cannot_open_dialog = "small_key_required",
 }
@@ -2095,7 +2095,7 @@ chest{
   x = 40,
   y = 653,
   treasure_name = "map",
-  treasure_savegame_variable = "dungeon_8_map_chest",
+  treasure_savegame_variable = "d8_map_chest",
   sprite = "entities/chest",
 }
 
@@ -2104,7 +2104,7 @@ chest{
   x = 72,
   y = 653,
   treasure_name = "compass",
-  treasure_savegame_variable = "dungeon_8_compass_chest",
+  treasure_savegame_variable = "d8_compass_chest",
   sprite = "entities/chest",
 }
 
@@ -2113,7 +2113,7 @@ chest{
   x = 104,
   y = 653,
   treasure_name = "boss_key",
-  treasure_savegame_variable = "dungeon_8_boss_key_chest",
+  treasure_savegame_variable = "d8_boss_key_chest",
   sprite = "entities/chest",
 }
 

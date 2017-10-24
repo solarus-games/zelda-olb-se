@@ -7669,7 +7669,7 @@ door{
   y = 456,
   direction = 3,
   sprite = "entities/doors/door_d1_normal",
-  savegame_variable = "dungeon_4_b1_door_a",
+  savegame_variable = "d4_b1_door_a",
 }
 
 door{
@@ -7679,7 +7679,7 @@ door{
   y = 488,
   direction = 1,
   sprite = "entities/doors/door_d1_normal",
-  savegame_variable = "dungeon_4_b1_door_a",
+  savegame_variable = "d4_b1_door_a",
 }
 
 wall{
@@ -7795,7 +7795,7 @@ door{
   y = 456,
   direction = 3,
   sprite = "entities/doors/door_d1_normal",
-  savegame_variable = "dungeon_4_b1_door_b",
+  savegame_variable = "d4_b1_door_b",
 }
 
 door{
@@ -7805,7 +7805,7 @@ door{
   y = 488,
   direction = 1,
   sprite = "entities/doors/door_d1_normal",
-  savegame_variable = "dungeon_4_b1_door_b",
+  savegame_variable = "d4_b1_door_b",
 }
 
 wall{
@@ -7825,7 +7825,7 @@ door{
   y = 936,
   direction = 3,
   sprite = "entities/doors/door_d1_normal",
-  savegame_variable = "dungeon_4_b1_door_c",
+  savegame_variable = "d4_b1_door_c",
 }
 
 door{
@@ -7835,7 +7835,7 @@ door{
   y = 968,
   direction = 1,
   sprite = "entities/doors/door_d1_normal",
-  savegame_variable = "dungeon_4_b1_door_c",
+  savegame_variable = "d4_b1_door_c",
 }
 
 wall{
@@ -7855,7 +7855,7 @@ door{
   y = 592,
   direction = 0,
   sprite = "entities/doors/door_d1_normal",
-  savegame_variable = "dungeon_4_b1_door_k",
+  savegame_variable = "d4_b1_door_k",
 }
 
 door{
@@ -7865,7 +7865,7 @@ door{
   y = 592,
   direction = 2,
   sprite = "entities/doors/door_d1_normal",
-  savegame_variable = "dungeon_4_b1_door_k",
+  savegame_variable = "d4_b1_door_k",
 }
 
 wall{
@@ -7885,7 +7885,7 @@ door{
   y = 832,
   direction = 0,
   sprite = "entities/doors/door_d1_normal",
-  savegame_variable = "dungeon_4_b1_door_d",
+  savegame_variable = "d4_b1_door_d",
 }
 
 door{
@@ -7895,7 +7895,7 @@ door{
   y = 832,
   direction = 2,
   sprite = "entities/doors/door_d1_normal",
-  savegame_variable = "dungeon_4_b1_door_d",
+  savegame_variable = "d4_b1_door_d",
 }
 
 wall{
@@ -7915,7 +7915,7 @@ door{
   y = 832,
   direction = 0,
   sprite = "entities/doors/door_d1_normal",
-  savegame_variable = "dungeon_4_b1_door_e",
+  savegame_variable = "d4_b1_door_e",
 }
 
 door{
@@ -7925,7 +7925,7 @@ door{
   y = 832,
   direction = 2,
   sprite = "entities/doors/door_d1_normal",
-  savegame_variable = "dungeon_4_b1_door_e",
+  savegame_variable = "d4_b1_door_e",
 }
 
 wall{
@@ -7945,7 +7945,7 @@ door{
   y = 832,
   direction = 0,
   sprite = "entities/doors/door_d1_normal",
-  savegame_variable = "dungeon_4_b1_door_f",
+  savegame_variable = "d4_b1_door_f",
 }
 
 door{
@@ -7955,7 +7955,7 @@ door{
   y = 832,
   direction = 2,
   sprite = "entities/doors/door_d1_normal",
-  savegame_variable = "dungeon_4_b1_door_f",
+  savegame_variable = "d4_b1_door_f",
 }
 
 wall{
@@ -7985,9 +7985,9 @@ door{
   y = 1072,
   direction = 0,
   sprite = "entities/doors/door_d1_small_key",
-  savegame_variable = "dungeon_4_b1_door_g",
+  savegame_variable = "d4_b1_door_g",
   opening_method = "interaction_if_savegame_variable",
-  opening_condition = "dungeon_4_small_keys",
+  opening_condition = "d4_small_keys",
   opening_condition_consumed = true,
   cannot_open_dialog = "small_key_required",
 }
@@ -7999,9 +7999,9 @@ door{
   y = 1072,
   direction = 2,
   sprite = "entities/doors/door_d1_small_key",
-  savegame_variable = "dungeon_4_b1_door_g",
+  savegame_variable = "d4_b1_door_g",
   opening_method = "interaction_if_savegame_variable",
-  opening_condition = "dungeon_4_small_keys",
+  opening_condition = "d4_small_keys",
   opening_condition_consumed = true,
   cannot_open_dialog = "small_key_required",
 }
@@ -8023,9 +8023,9 @@ door{
   y = 592,
   direction = 0,
   sprite = "entities/doors/door_d1_small_key",
-  savegame_variable = "dungeon_4_b1_door_h",
+  savegame_variable = "d4_b1_door_h",
   opening_method = "interaction_if_savegame_variable",
-  opening_condition = "dungeon_4_small_keys",
+  opening_condition = "d4_small_keys",
   opening_condition_consumed = true,
   cannot_open_dialog = "small_key_required",
 }
@@ -8037,9 +8037,9 @@ door{
   y = 592,
   direction = 2,
   sprite = "entities/doors/door_d1_small_key",
-  savegame_variable = "dungeon_4_b1_door_h",
+  savegame_variable = "d4_b1_door_h",
   opening_method = "interaction_if_savegame_variable",
-  opening_condition = "dungeon_4_small_keys",
+  opening_condition = "d4_small_keys",
   opening_condition_consumed = true,
   cannot_open_dialog = "small_key_required",
 }
@@ -8061,9 +8061,9 @@ door{
   y = 696,
   direction = 3,
   sprite = "entities/doors/door_d1_small_key",
-  savegame_variable = "dungeon_4_b1_door_i",
+  savegame_variable = "d4_b1_door_i",
   opening_method = "interaction_if_savegame_variable",
-  opening_condition = "dungeon_4_small_keys",
+  opening_condition = "d4_small_keys",
   opening_condition_consumed = true,
   cannot_open_dialog = "small_key_required",
 }
@@ -8075,9 +8075,9 @@ door{
   y = 728,
   direction = 1,
   sprite = "entities/doors/door_d1_small_key",
-  savegame_variable = "dungeon_4_b1_door_i",
+  savegame_variable = "d4_b1_door_i",
   opening_method = "interaction_if_savegame_variable",
-  opening_condition = "dungeon_4_small_keys",
+  opening_condition = "d4_small_keys",
   opening_condition_consumed = true,
   cannot_open_dialog = "small_key_required",
 }
@@ -8099,9 +8099,9 @@ door{
   y = 696,
   direction = 3,
   sprite = "entities/doors/door_d1_small_key",
-  savegame_variable = "dungeon_4_b1_door_j",
+  savegame_variable = "d4_b1_door_j",
   opening_method = "interaction_if_savegame_variable",
-  opening_condition = "dungeon_4_small_keys",
+  opening_condition = "d4_small_keys",
   opening_condition_consumed = true,
   cannot_open_dialog = "small_key_required",
 }
@@ -8113,9 +8113,9 @@ door{
   y = 728,
   direction = 1,
   sprite = "entities/doors/door_d1_small_key",
-  savegame_variable = "dungeon_4_b1_door_j",
+  savegame_variable = "d4_b1_door_j",
   opening_method = "interaction_if_savegame_variable",
-  opening_condition = "dungeon_4_small_keys",
+  opening_condition = "d4_small_keys",
   opening_condition_consumed = true,
   cannot_open_dialog = "small_key_required",
 }
@@ -8159,9 +8159,9 @@ door{
   y = 968,
   direction = 1,
   sprite = "entities/doors/door_d1_very_weak_wall",
-  savegame_variable = "dungeon_4_b1_weak_wall_a",
+  savegame_variable = "d4_b1_weak_wall_a",
   opening_method = "explosion",
-  opening_condition = "dungeon_3_boss_key",
+  opening_condition = "d3_boss_key",
 }
 
 door{
@@ -8171,9 +8171,9 @@ door{
   y = 936,
   direction = 3,
   sprite = "entities/doors/door_d1_very_weak_wall",
-  savegame_variable = "dungeon_4_b1_weak_wall_a",
+  savegame_variable = "d4_b1_weak_wall_a",
   opening_method = "explosion",
-  opening_condition = "dungeon_3_boss_key",
+  opening_condition = "d3_boss_key",
 }
 
 door{
@@ -8183,7 +8183,7 @@ door{
   y = 128,
   direction = 1,
   sprite = "entities/prison_door_dungeon_4",
-  savegame_variable = "dungeon_4_b1_prison_door_a",
+  savegame_variable = "d4_b1_prison_door_a",
 }
 
 switch{
@@ -8877,7 +8877,7 @@ door{
   direction = 1,
   sprite = "entities/doors/door_d1_very_weak_wall",
   opening_method = "explosion",
-  opening_condition = "dungeon_3_boss_key",
+  opening_condition = "d3_boss_key",
 }
 
 door{
@@ -8888,7 +8888,7 @@ door{
   direction = 3,
   sprite = "entities/doors/door_d1_very_weak_wall",
   opening_method = "explosion",
-  opening_condition = "dungeon_3_boss_key",
+  opening_condition = "d3_boss_key",
 }
 
 destination{
@@ -9148,9 +9148,9 @@ door{
   y = 488,
   direction = 1,
   sprite = "entities/doors/door_d1_big_key",
-  savegame_variable = "dungeon_4_boss_door",
+  savegame_variable = "d4_boss_door",
   opening_method = "interaction_if_savegame_variable",
-  opening_condition = "dungeon_4_boss_key",
+  opening_condition = "d4_boss_key",
   cannot_open_dialog = "boss_key_required",
 }
 
@@ -9160,9 +9160,9 @@ door{
   y = 456,
   direction = 3,
   sprite = "entities/doors/door_d1_big_key",
-  savegame_variable = "dungeon_4_boss_door",
+  savegame_variable = "d4_boss_door",
   opening_method = "interaction_if_savegame_variable",
-  opening_condition = "dungeon_4_boss_key",
+  opening_condition = "d4_boss_key",
   cannot_open_dialog = "boss_key_required",
 }
 
