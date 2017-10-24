@@ -191,9 +191,13 @@ local function initialize_dungeon_features(game)
 
     -- Use the minimap sprite to deduce merged rooms.
     local sprite = sol.sprite.create("menus/dungeon_maps/map_" .. dungeon_index)
-    assert(sprite ~= nil)
     local animation = tostring(floor)
     local merged_rooms = {}
+
+    if not sprite:has_animation(animation) then
+      -- Missing sprite or animation: avoid repeated errors.
+      return merged_rooms
+    end
 
     for room = 1, sprite:get_num_directions(animation) - 1 do
       local width, height = sprite:get_size(floor, room)
