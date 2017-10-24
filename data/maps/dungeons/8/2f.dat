@@ -9317,7 +9317,7 @@ chest{
   x = 152,
   y = 381,
   treasure_name = "small_key",
-  treasure_savegame_variable = "d8_2f_key_chest_1",
+  treasure_savegame_variable = "d8_2f_key_1_chest",
   sprite = "entities/chest",
 }
 

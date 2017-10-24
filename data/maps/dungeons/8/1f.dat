@@ -10695,7 +10695,7 @@ chest{
   x = 56,
   y = 781,
   treasure_name = "small_key",
-  treasure_savegame_variable = "d8_1f_key_chest_3",
+  treasure_savegame_variable = "d8_1f_key_3_chest",
   sprite = "entities/chest",
 }
 
@@ -10704,7 +10704,7 @@ chest{
   x = 640,
   y = 573,
   treasure_name = "small_key",
-  treasure_savegame_variable = "d8_1f_key_chest_2",
+  treasure_savegame_variable = "d8_1f_key_2_chest",
   sprite = "entities/chest",
 }
 
@@ -10713,7 +10713,7 @@ chest{
   x = 1224,
   y = 541,
   treasure_name = "small_key",
-  treasure_savegame_variable = "d8_1f_key_chest_1",
+  treasure_savegame_variable = "d8_1f_key_1_chest",
   sprite = "entities/chest",
 }
 
