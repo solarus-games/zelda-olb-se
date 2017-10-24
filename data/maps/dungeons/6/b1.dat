@@ -1406,7 +1406,7 @@ pickable{
   x = 376,
   y = 61,
   treasure_name = "small_key",
-  treasure_savegame_variable = "d6_b1_small_key_1",
+  treasure_savegame_variable = "d6_b1_key_1",
 }
 
 pickable{
@@ -1415,7 +1415,7 @@ pickable{
   x = 1336,
   y = 61,
   treasure_name = "small_key",
-  treasure_savegame_variable = "d6_b1_small_key_2",
+  treasure_savegame_variable = "d6_b1_key_2",
 }
 
 pickable{
@@ -1424,7 +1424,7 @@ pickable{
   x = 376,
   y = 1021,
   treasure_name = "small_key",
-  treasure_savegame_variable = "d6_b1_small_key_3",
+  treasure_savegame_variable = "d6_b1_key_3",
 }
 
 pickable{
@@ -1433,7 +1433,7 @@ pickable{
   x = 1336,
   y = 1021,
   treasure_name = "small_key",
-  treasure_savegame_variable = "d6_b1_small_key_4",
+  treasure_savegame_variable = "d6_b1_key_4",
 }
 
 separator{

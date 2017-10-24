@@ -12097,7 +12097,7 @@ enemy{
   direction = 3,
   breed = "alttp/hinox",
   treasure_name = "small_key",
-  treasure_savegame_variable = "d6_1f_small_key_4",
+  treasure_savegame_variable = "d6_1f_key_4",
 }
 
 enemy{
@@ -12108,7 +12108,7 @@ enemy{
   direction = 3,
   breed = "alttp/stalfos_red",
   treasure_name = "small_key",
-  treasure_savegame_variable = "d6_1f_small_key_2",
+  treasure_savegame_variable = "d6_1f_key_2",
 }
 
 enemy{
@@ -12119,7 +12119,7 @@ enemy{
   direction = 3,
   breed = "alttp/pengator",
   treasure_name = "small_key",
-  treasure_savegame_variable = "d6_1f_small_key_3",
+  treasure_savegame_variable = "d6_1f_key_3",
 }
 
 enemy{
@@ -12130,7 +12130,7 @@ enemy{
   direction = 3,
   breed = "alttp/stalfos_blue",
   treasure_name = "small_key",
-  treasure_savegame_variable = "d6_1f_small_key_1",
+  treasure_savegame_variable = "d6_1f_key_1",
 }
 
 enemy{
@@ -12141,7 +12141,7 @@ enemy{
   direction = 3,
   breed = "alttp/lynel",
   treasure_name = "small_key",
-  treasure_savegame_variable = "d6_1f_small_key_5",
+  treasure_savegame_variable = "d6_1f_key_5",
 }
 
 enemy{
@@ -12357,7 +12357,7 @@ destructible{
   x = 1880,
   y = 1405,
   treasure_name = "small_key",
-  treasure_savegame_variable = "d6_1f_small_key_6",
+  treasure_savegame_variable = "d6_1f_key_6",
   sprite = "entities/vase_skull",
   destruction_sound = "stone",
   damage_on_enemies = 0,
@@ -12369,7 +12369,7 @@ destructible{
   x = 1800,
   y = 637,
   treasure_name = "small_key",
-  treasure_savegame_variable = "d6_1f_small_key_8",
+  treasure_savegame_variable = "d6_1f_key_9",
   sprite = "entities/vase_skull",
   destruction_sound = "stone",
   damage_on_enemies = 0,
@@ -12914,7 +12914,7 @@ pickable{
   x = 56,
   y = 461,
   treasure_name = "small_key",
-  treasure_savegame_variable = "d6_1f_small_key_7",
+  treasure_savegame_variable = "d6_1f_key_7",
 }
 
 pickable{
@@ -12922,7 +12922,7 @@ pickable{
   x = 56,
   y = 61,
   treasure_name = "small_key",
-  treasure_savegame_variable = "d6_1f_small_key_7",
+  treasure_savegame_variable = "d6_1f_key_8",
 }
 
 destination{

@@ -1839,7 +1839,7 @@ pickable{
   x = 1224,
   y = 877,
   treasure_name = "small_key",
-  treasure_savegame_variable = "d6_2f_small_key_1",
+  treasure_savegame_variable = "d6_2f_key_1",
 }
 
 chest{
