@@ -9296,7 +9296,7 @@ teletransporter{
 
 chest{
   layer = 0,
-  x = 632,
+  x = 640,
   y = 525,
   treasure_name = "compass",
   treasure_savegame_variable = "d8_compass_chest",
