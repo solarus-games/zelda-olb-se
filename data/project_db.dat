@@ -31,7 +31,6 @@ map{ id = "dungeons/7/store", description = "Dungeon 7 Store" }
 map{ id = "dungeons/8/1f", description = "Dungeon 8 1F" }
 map{ id = "dungeons/8/2f", description = "Dungeon 8 2F" }
 map{ id = "dungeons/8/b1", description = "Dungeon 8 B1" }
-map{ id = "dungeons/8/imported_entities", description = "Imported entities" }
 map{ id = "dungeons/8/store", description = "Dungeon 8 Store" }
 map{ id = "enemy_store", description = "Enemy Store" }
 map{ id = "house_store", description = "House Store" }

@@ -14964,7 +14964,7 @@ chest{
   x = 1768,
   y = 1565,
   treasure_name = "compass",
-  treasure_savegame_variable = "d1_compass_chest",
+  treasure_savegame_variable = "d3_compass_chest",
   sprite = "entities/chest",
 }
 

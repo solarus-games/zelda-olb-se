@@ -6373,7 +6373,7 @@ chest{
   x = 160,
   y = 125,
   treasure_name = "map",
-  treasure_savegame_variable = "d3_map_chest",
+  treasure_savegame_variable = "d2_map_chest",
   sprite = "entities/chest",
 }
 
