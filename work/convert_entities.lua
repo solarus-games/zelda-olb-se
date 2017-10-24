@@ -11,8 +11,7 @@
 -- - Blocks
 
 -- TODO:
--- - check offsets for enemies, destructibles and blocks
--- - add support of chests
+-- - check offsets of enemies
 -- - add support of destructibles other than vases
 -- - add support of pickables without destructibles
 -- - test outside maps
@@ -104,7 +103,7 @@ local breeds_on_high_layer = {
   ["alttp/vulture"] = true,
 }
 
-local treasures = {  -- enum Type_Items
+local pickable_id_to_treasure_map = {  -- enum Type_Items
 
   ["1"] = {
     treasure_name = "rupee",
@@ -142,6 +141,35 @@ local treasures = {  -- enum Type_Items
   ["11"] = {
     treasure_name = "graal",
     treasure_variant = 1,
+  },
+  -- TODO
+}
+
+local chest_content_id_to_treasure_map = {  -- enum Type_Contenu
+
+  ["CARTE"] = {
+    treasure_name = "map",
+    treasure_variant = 1,
+  },
+  ["BOUSSOLE"] = {
+    treasure_name = "compass",
+    treasure_variant = 1,
+  },
+  ["CLE_BOSS"] = {
+    treasure_name = "boss_key",
+    treasure_variant = 1,
+  },
+  ["CLE"] = {
+    treasure_name = "small_key",
+    treasure_variant = 1,
+  },
+  ["TUNIQUE_BLEUE"] = {
+    treasure_name = "tunic",
+    treasure_variant = 2,
+  },
+  ["TUNIQUE_ROUGE"] = {
+    treasure_name = "tunic",
+    treasure_variant = 3,
   },
   -- TODO
 }
@@ -227,8 +255,8 @@ end
 local function pickable_id_to_treasure(pickable_id)
 
   assert(pickable_id ~= nil)
-  local treasure = treasures[pickable_id]
-  assert(treasure ~= nil, "Unknow treasure id: " .. pickable_id)
+  local treasure = pickable_id_to_treasure_map[pickable_id]
+  assert(treasure ~= nil, "Unknown item id: " .. pickable_id)
   return treasure
 end
 
@@ -321,14 +349,6 @@ local function write_blocks(blocks)
   end
 end
 
--- Converts textual coordinate expressions to Solarus coordinates for a crystal.
-local function get_crystal_coords(src_x, src_y)
-
-  local x, y = evaluate_math(src_x), evaluate_math(src_y)
-  x, y = x + 8, y + 13  -- Add Solarus origin point.
-  return x, y
-end
-
 -- Returns a table of crystals descriptions with their properties.
 local function parse_crystals(src)
   local entities = {}
@@ -355,6 +375,56 @@ local function write_crystals(crystals)
   end
 end
 
+-- Converts a chest content name from ROTH/OLB/3T to a treasure name and variant for a
+-- Solarus quest.
+local function chest_content_id_to_treasure(chest_content_id)
+
+  assert(chest_content_id ~= nil)
+  local treasure = chest_content_id_to_treasure_map[chest_content_id]
+  assert(treasure ~= nil, "Unknown chest content id: " .. chest_content_id)
+  return treasure
+end
+
+-- Converts textual coordinate expressions to Solarus coordinates for a chest.
+local function get_chest_coords(src_x, src_y)
+
+  local x, y = evaluate_math(src_x), evaluate_math(src_y)
+  x, y = x + 8, y + 13  -- Add Solarus origin point.
+  return x, y
+end
+
+-- Returns a table of chests descriptions with their properties.
+local function parse_chests(src)
+  local entities = {}
+  for x, y, chest_content_id in src:gmatch("setValeur%( *([-+*0-9]*), *([-+*0-9]*), *303, *-1, *PLEIN, *C_([A-Za-Z_]*)%)") do
+    local entity = {}
+    local treasure = chest_content_id_to_treasure(chest_content_id)
+    entity.x, entity.y = get_chest_coords(x, y)
+    entity.layer = 0
+    entity.treasure_name, entity.treasure_variant = treasure.treasure_name, treasure.treasure_variant
+    entities[#entities + 1] = entity
+  end
+  return entities
+end
+
+-- Write chests in Solarus format.
+local function write_chests(chests)
+
+  for _, entity in ipairs(chests) do
+    io.write("chest{\n")
+    io.write("  layer = " .. entity.layer .. ",\n")
+    io.write("  x = " .. entity.x .. ",\n")
+    io.write("  y = " .. entity.y .. ",\n")
+    io.write("  sprite = \"entities/chest\",\n")
+    io.write("  treasure_name = \"" .. entity.treasure_name .. "\",\n")
+    if entity.treasure_variant ~= nil and entity.treasure_variant ~= 1 then
+      io.write("  treasure_variant = " .. entity.treasure_variant .. ",\n")
+    end
+    io.write("}\n")
+    io.write("\n")
+  end
+end
+
 local enemies = parse_enemies(src)
 write_enemies(enemies)
 
@@ -364,7 +434,9 @@ write_destructibles(destructibles)
 local blocks = parse_blocks(src)
 write_blocks(blocks)
 
-
 local crystals = parse_crystals(src)
 write_crystals(crystals)
+
+local chests = parse_chests(src)
+write_chests(chests)
 
