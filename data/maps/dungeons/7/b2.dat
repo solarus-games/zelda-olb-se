@@ -5780,6 +5780,94 @@ chest{
   sprite = "entities/chest",
 }
 
+custom_entity{
+  layer = 0,
+  x = 152,
+  y = 285,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/hook_brown",
+  model = "hookable",
+}
+
+custom_entity{
+  layer = 0,
+  x = 200,
+  y = 173,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/hook_brown",
+  model = "hookable",
+}
+
+custom_entity{
+  layer = 0,
+  x = 328,
+  y = 157,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/hook_brown",
+  model = "hookable",
+}
+
+custom_entity{
+  layer = 0,
+  x = 472,
+  y = 141,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/hook_brown",
+  model = "hookable",
+}
+
+custom_entity{
+  layer = 0,
+  x = 456,
+  y = 237,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/hook_brown",
+  model = "hookable",
+}
+
+custom_entity{
+  layer = 0,
+  x = 440,
+  y = 333,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/hook_brown",
+  model = "hookable",
+}
+
+custom_entity{
+  layer = 0,
+  x = 904,
+  y = 861,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/hook_brown",
+  model = "hookable",
+}
+
+custom_entity{
+  layer = 0,
+  x = 1032,
+  y = 205,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/hook_brown",
+  model = "hookable",
+}
+
 tile{
   layer = 1,
   x = 120,
@@ -6327,94 +6415,6 @@ tile{
   width = 640,
   height = 48,
   pattern = "ceiling.1",
-}
-
-custom_entity{
-  layer = 2,
-  x = 152,
-  y = 285,
-  width = 16,
-  height = 16,
-  direction = 0,
-  sprite = "entities/hook_brown",
-  model = "hookable",
-}
-
-custom_entity{
-  layer = 2,
-  x = 200,
-  y = 173,
-  width = 16,
-  height = 16,
-  direction = 0,
-  sprite = "entities/hook_brown",
-  model = "hookable",
-}
-
-custom_entity{
-  layer = 2,
-  x = 328,
-  y = 157,
-  width = 16,
-  height = 16,
-  direction = 0,
-  sprite = "entities/hook_brown",
-  model = "hookable",
-}
-
-custom_entity{
-  layer = 2,
-  x = 472,
-  y = 141,
-  width = 16,
-  height = 16,
-  direction = 0,
-  sprite = "entities/hook_brown",
-  model = "hookable",
-}
-
-custom_entity{
-  layer = 2,
-  x = 456,
-  y = 237,
-  width = 16,
-  height = 16,
-  direction = 0,
-  sprite = "entities/hook_brown",
-  model = "hookable",
-}
-
-custom_entity{
-  layer = 2,
-  x = 440,
-  y = 333,
-  width = 16,
-  height = 16,
-  direction = 0,
-  sprite = "entities/hook_brown",
-  model = "hookable",
-}
-
-custom_entity{
-  layer = 2,
-  x = 904,
-  y = 861,
-  width = 16,
-  height = 16,
-  direction = 0,
-  sprite = "entities/hook_brown",
-  model = "hookable",
-}
-
-custom_entity{
-  layer = 2,
-  x = 1032,
-  y = 205,
-  width = 16,
-  height = 16,
-  direction = 0,
-  sprite = "entities/hook_brown",
-  model = "hookable",
 }
 
 separator{

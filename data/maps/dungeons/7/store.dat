@@ -1833,6 +1833,17 @@ crystal_block{
   subtype = 1,
 }
 
+custom_entity{
+  layer = 0,
+  x = 104,
+  y = 877,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/hook_brown",
+  model = "hookable",
+}
+
 tile{
   layer = 1,
   x = 184,
@@ -2128,16 +2139,5 @@ tile{
   width = 8,
   height = 32,
   pattern = "door_top.closed.4-5",
-}
-
-custom_entity{
-  layer = 2,
-  x = 104,
-  y = 877,
-  width = 16,
-  height = 16,
-  direction = 0,
-  sprite = "entities/hook_brown",
-  model = "hookable",
 }
 

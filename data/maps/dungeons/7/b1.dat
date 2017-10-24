@@ -15361,6 +15361,17 @@ chest{
   sprite = "entities/chest",
 }
 
+custom_entity{
+  layer = 0,
+  x = 408,
+  y = 333,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/hook_brown",
+  model = "hookable",
+}
+
 tile{
   layer = 1,
   x = 40,
@@ -16331,17 +16342,6 @@ tile{
   width = 32,
   height = 224,
   pattern = "ceiling.1",
-}
-
-custom_entity{
-  layer = 2,
-  x = 408,
-  y = 333,
-  width = 16,
-  height = 16,
-  direction = 0,
-  sprite = "entities/hook_brown",
-  model = "hookable",
 }
 
 separator{

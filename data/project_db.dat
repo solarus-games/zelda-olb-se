@@ -209,6 +209,7 @@ sprite{ id = "entities/drinking_potion", description = "Potion to drink" }
 sprite{ id = "entities/explosion", description = "Explosion" }
 sprite{ id = "entities/fire", description = "Fire" }
 sprite{ id = "entities/grass", description = "Grass" }
+sprite{ id = "entities/hammer_stake_animated", description = "Hammer stake (animated)" }
 sprite{ id = "entities/hammer_stake_brown", description = "Hammer stake (brown)" }
 sprite{ id = "entities/hammer_stake_green", description = "Hammer stake (green)" }
 sprite{ id = "entities/hammer_stake_yellow", description = "Hammer stake (yellow)" }
