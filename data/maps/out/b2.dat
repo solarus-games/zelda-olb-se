@@ -17547,6 +17547,24 @@ npc{
   sprite = "entities/sign",
 }
 
+destination{
+  name = "from_dungeon_8",
+  layer = 1,
+  x = 640,
+  y = 461,
+  direction = 3,
+}
+
+teletransporter{
+  layer = 1,
+  x = 632,
+  y = 432,
+  width = 16,
+  height = 16,
+  destination_map = "dungeons/8/1f",
+  destination = "from_outside",
+}
+
 tile{
   layer = 2,
   x = 1192,

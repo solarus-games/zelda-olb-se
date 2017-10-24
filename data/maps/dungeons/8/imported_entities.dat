@@ -9,24 +9,6 @@ properties{
 }
 
 enemy{
-  name = "auto_enemy_3",
-  layer = 0,
-  x = 2024,
-  y = 341,
-  direction = 3,
-  breed = "alttp/rolling_spike_trap",
-}
-
-enemy{
-  name = "auto_enemy_4",
-  layer = 0,
-  x = 2344,
-  y = 341,
-  direction = 3,
-  breed = "alttp/rolling_spike_trap",
-}
-
-enemy{
   name = "auto_enemy_5",
   layer = 0,
   x = 3320,
@@ -81,24 +63,6 @@ enemy{
 }
 
 enemy{
-  name = "auto_enemy_11",
-  layer = 0,
-  x = 2504,
-  y = 589,
-  direction = 3,
-  breed = "alttp/stalfos_blue",
-}
-
-enemy{
-  name = "auto_enemy_12",
-  layer = 0,
-  x = 1336,
-  y = 829,
-  direction = 3,
-  breed = "alttp/stalfos_blue",
-}
-
-enemy{
   name = "auto_enemy_16",
   layer = 0,
   x = 3000,
@@ -135,77 +99,12 @@ enemy{
 }
 
 enemy{
-  name = "auto_enemy_25",
-  layer = 0,
-  x = 1745,
-  y = 1309,
-  direction = 3,
-  breed = "alttp/tarosu_blue",
-}
-
-enemy{
-  name = "auto_enemy_26",
-  layer = 0,
-  x = 2065,
-  y = 1309,
-  direction = 3,
-  breed = "alttp/tarosu_blue",
-}
-
-enemy{
-  name = "auto_enemy_27",
-  layer = 0,
-  x = 1744,
-  y = 685,
-  direction = 3,
-  breed = "alttp/tarosu_blue",
-}
-
-enemy{
-  name = "auto_enemy_28",
-  layer = 0,
-  x = 2064,
-  y = 685,
-  direction = 3,
-  breed = "alttp/tarosu_blue",
-}
-
-enemy{
-  name = "auto_enemy_29",
-  layer = 0,
-  x = 1904,
-  y = 941,
-  direction = 3,
-  breed = "alttp/tarosu_blue",
-}
-
-enemy{
   name = "auto_enemy_34",
   layer = 0,
   x = 2736,
   y = 1309,
   direction = 3,
   breed = "alttp/tarosu_blue",
-}
-
-enemy{
-  name = "auto_enemy_35",
-  layer = 0,
-  x = 1432,
-  y = 285,
-  direction = 3,
-  breed = "alttp/armos_knight",
-}
-
-destructible{
-  name = "auto_destructible_1",
-  layer = 0,
-  x = 1440,
-  y = 93,
-  treasure_name = "graal",
-  sprite = "entities/vase",
-  destruction_sound = "stone",
-  damage_on_enemies = 0,
 }
 
 destructible{
@@ -235,17 +134,6 @@ destructible{
   layer = 0,
   x = 3800,
   y = 813,
-  treasure_name = "heart",
-  sprite = "entities/vase",
-  destruction_sound = "stone",
-  damage_on_enemies = 0,
-}
-
-destructible{
-  name = "auto_destructible_7",
-  layer = 0,
-  x = 1352,
-  y = 557,
   treasure_name = "heart",
   sprite = "entities/vase",
   destruction_sound = "stone",
@@ -286,17 +174,6 @@ destructible{
 }
 
 destructible{
-  name = "auto_destructible_13",
-  layer = 0,
-  x = 1528,
-  y = 557,
-  treasure_name = "arrow",
-  sprite = "entities/vase",
-  destruction_sound = "stone",
-  damage_on_enemies = 0,
-}
-
-destructible{
   name = "auto_destructible_15",
   layer = 0,
   x = 2840,
@@ -316,28 +193,6 @@ destructible{
   sprite = "entities/vase",
   destruction_sound = "stone",
   damage_on_enemies = 0,
-}
-
-block{
-  name = "auto_block_1",
-  layer = 0,
-  x = 2232,
-  y = 365,
-  sprite = "entities/block",
-  pushable = true,
-  pullable = false,
-  maximum_moves = 2,
-}
-
-block{
-  name = "auto_block_2",
-  layer = 0,
-  x = 2248,
-  y = 365,
-  sprite = "entities/block",
-  pushable = true,
-  pullable = false,
-  maximum_moves = 2,
 }
 
 block{

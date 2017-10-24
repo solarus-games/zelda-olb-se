@@ -9022,7 +9022,7 @@ enemy{
 enemy{
   name = "auto_enemy_32",
   layer = 0,
-  x = 1096,
+  x = 1104,
   y = 941,
   direction = 3,
   breed = "alttp/tarosu_blue",
@@ -9031,7 +9031,7 @@ enemy{
 enemy{
   name = "auto_enemy_33",
   layer = 0,
-  x = 144,
+  x = 160,
   y = 701,
   direction = 3,
   breed = "alttp/tarosu_blue",
@@ -10123,6 +10123,15 @@ tile{
   y = 688,
   width = 48,
   height = 64,
+  pattern = "ceiling.1",
+}
+
+tile{
+  layer = 2,
+  x = 0,
+  y = 0,
+  width = 1280,
+  height = 240,
   pattern = "ceiling.1",
 }
 
