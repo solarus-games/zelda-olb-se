@@ -10691,6 +10691,52 @@ block{
   maximum_moves = 2,
 }
 
+chest{
+  layer = 0,
+  x = 840,
+  y = 1245,
+  treasure_name = "map",
+  treasure_savegame_variable = "dungeon_8_map_chest",
+  sprite = "entities/chest",
+}
+
+chest{
+  layer = 0,
+  x = 56,
+  y = 781,
+  treasure_name = "small_key",
+  treasure_savegame_variable = "dungeon_8_1f_small_key_3",
+  sprite = "entities/chest",
+}
+
+chest{
+  layer = 0,
+  x = 640,
+  y = 573,
+  treasure_name = "small_key",
+  treasure_savegame_variable = "dungeon_8_1f_small_key_2",
+  sprite = "entities/chest",
+}
+
+chest{
+  layer = 0,
+  x = 1224,
+  y = 541,
+  treasure_name = "small_key",
+  treasure_savegame_variable = "dungeon_8_1f_small_key_1",
+  sprite = "entities/chest",
+}
+
+chest{
+  layer = 0,
+  x = 488,
+  y = 125,
+  treasure_name = "tunic",
+  treasure_variant = 2,
+  treasure_savegame_variable = "dungeon_8_tunic_chest",
+  sprite = "entities/chest",
+}
+
 tile{
   layer = 1,
   x = 760,

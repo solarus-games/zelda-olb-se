@@ -239,6 +239,22 @@ block{
   maximum_moves = 2,
 }
 
+chest{
+  layer = 0,
+  x = 2712,
+  y = 1309,
+  treasure_name = "small_key",
+  sprite = "entities/chest",
+}
+
+chest{
+  layer = 0,
+  x = 2872,
+  y = 125,
+  treasure_name = "small_key",
+  sprite = "entities/chest",
+}
+
 enemy{
   name = "auto_enemy_19",
   layer = 2,

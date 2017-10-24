@@ -9294,6 +9294,33 @@ teletransporter{
   destination = "_same",
 }
 
+chest{
+  layer = 0,
+  x = 632,
+  y = 525,
+  treasure_name = "compass",
+  treasure_savegame_variable = "dungeon_8_compass_chest",
+  sprite = "entities/chest",
+}
+
+chest{
+  layer = 0,
+  x = 808,
+  y = 349,
+  treasure_name = "boss_key",
+  treasure_savegame_variable = "dungeon_8_boss_key_chest",
+  sprite = "entities/chest",
+}
+
+chest{
+  layer = 0,
+  x = 152,
+  y = 381,
+  treasure_name = "small_key",
+  treasure_savegame_variable = "dungeon_8_2f_small_key_1",
+  sprite = "entities/chest",
+}
+
 tile{
   layer = 1,
   x = 440,
