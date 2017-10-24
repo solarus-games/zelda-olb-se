@@ -1166,8 +1166,8 @@ enemy{
 enemy{
   name = "auto_enemy_58",
   layer = 0,
-  x = 24,
-  y = 29,
+  x = 96,
+  y = 69,
   direction = 3,
   breed = "alttp/wallmaster",
 }
@@ -1175,8 +1175,8 @@ enemy{
 enemy{
   name = "auto_enemy_59",
   layer = 0,
-  x = 24,
-  y = 989,
+  x = 96,
+  y = 1029,
   direction = 3,
   breed = "alttp/wallmaster",
 }
@@ -1184,8 +1184,8 @@ enemy{
 enemy{
   name = "auto_enemy_60",
   layer = 0,
-  x = 664,
-  y = 509,
+  x = 656,
+  y = 501,
   direction = 3,
   breed = "alttp/wallmaster",
 }
@@ -1193,8 +1193,8 @@ enemy{
 enemy{
   name = "auto_enemy_61",
   layer = 0,
-  x = 1304,
-  y = 29,
+  x = 1328,
+  y = 21,
   direction = 3,
   breed = "alttp/wallmaster",
 }
@@ -1202,8 +1202,8 @@ enemy{
 enemy{
   name = "auto_enemy_62",
   layer = 0,
-  x = 1304,
-  y = 989,
+  x = 1376,
+  y = 1029,
   direction = 3,
   breed = "alttp/wallmaster",
 }
@@ -1286,6 +1286,141 @@ tile{
   y = 592,
   width = 64,
   height = 16,
+  pattern = "ceiling.1",
+}
+
+tile{
+  layer = 2,
+  x = 0,
+  y = 0,
+  width = 320,
+  height = 48,
+  pattern = "ceiling.1",
+}
+
+tile{
+  layer = 2,
+  x = 0,
+  y = 192,
+  width = 320,
+  height = 48,
+  pattern = "ceiling.1",
+}
+
+tile{
+  layer = 2,
+  x = 0,
+  y = 48,
+  width = 80,
+  height = 144,
+  pattern = "ceiling.1",
+}
+
+tile{
+  layer = 2,
+  x = 240,
+  y = 48,
+  width = 80,
+  height = 144,
+  pattern = "ceiling.1",
+}
+
+tile{
+  layer = 2,
+  x = 0,
+  y = 960,
+  width = 320,
+  height = 48,
+  pattern = "ceiling.1",
+}
+
+tile{
+  layer = 2,
+  x = 0,
+  y = 1152,
+  width = 320,
+  height = 48,
+  pattern = "ceiling.1",
+}
+
+tile{
+  layer = 2,
+  x = 0,
+  y = 1008,
+  width = 80,
+  height = 144,
+  pattern = "ceiling.1",
+}
+
+tile{
+  layer = 2,
+  x = 240,
+  y = 1008,
+  width = 80,
+  height = 144,
+  pattern = "ceiling.1",
+}
+
+tile{
+  layer = 2,
+  x = 1280,
+  y = 960,
+  width = 320,
+  height = 48,
+  pattern = "ceiling.1",
+}
+
+tile{
+  layer = 2,
+  x = 1280,
+  y = 1152,
+  width = 320,
+  height = 48,
+  pattern = "ceiling.1",
+}
+
+tile{
+  layer = 2,
+  x = 1280,
+  y = 1008,
+  width = 80,
+  height = 144,
+  pattern = "ceiling.1",
+}
+
+tile{
+  layer = 2,
+  x = 1520,
+  y = 1008,
+  width = 80,
+  height = 144,
+  pattern = "ceiling.1",
+}
+
+tile{
+  layer = 2,
+  x = 1280,
+  y = 208,
+  width = 320,
+  height = 32,
+  pattern = "ceiling.1",
+}
+
+tile{
+  layer = 2,
+  x = 1280,
+  y = 0,
+  width = 32,
+  height = 208,
+  pattern = "ceiling.1",
+}
+
+tile{
+  layer = 2,
+  x = 1568,
+  y = 0,
+  width = 32,
+  height = 208,
   pattern = "ceiling.1",
 }
 

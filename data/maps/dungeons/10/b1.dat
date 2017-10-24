@@ -13016,6 +13016,7 @@ custom_entity{
 }
 
 custom_entity{
+  name = "auto_torch_auto_door_d_1",
   layer = 0,
   x = 472,
   y = 1165,
@@ -13027,6 +13028,7 @@ custom_entity{
 }
 
 custom_entity{
+  name = "auto_torch_auto_door_d_2",
   layer = 0,
   x = 488,
   y = 1165,
