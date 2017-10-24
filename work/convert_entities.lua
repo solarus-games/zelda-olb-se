@@ -12,6 +12,7 @@
 
 -- TODO:
 -- - check offsets of enemies
+-- - add support of enemy treasures
 -- - add support of destructibles other than vases
 -- - add support of pickables without destructibles
 -- - test outside maps
@@ -43,6 +44,7 @@ local enemy_breeds = {
   ["17"] = "alttp/pike_auto",
   ["18"] = "alttp/keese",
   ["19"] = "alttp/mothula",
+  -- 20: crystal
   ["21"] = "alttp/hover",
   ["22"] = "alttp/bari_blue",
   ["23"] = "alttp/sand_crab",
@@ -89,6 +91,7 @@ local enemy_breeds = {
   ["64"] = "som/ghoul",
   ["65"] = "alttp/medusa_blue",
   ["66"] = "soe/aquagoth",
+  -- 70: moving walls
   ["71"] = "som/minotaur",
   ["72"] = "alttp/stalfos_grey",
   ["73"] = "som/dragon_red",
@@ -132,7 +135,7 @@ local pickable_id_to_treasure_map = {  -- enum Type_Items
     treasure_name = "magic_flask",
     treasure_variant = 1,
     offset_x = 0,
-    offset_y = 8,
+    offset_y = 4,
   },
   ["8"] = {
     treasure_name = "magic_flask",
@@ -171,6 +174,10 @@ local chest_content_id_to_treasure_map = {  -- enum Type_Contenu
     treasure_name = "tunic",
     treasure_variant = 3,
   },
+  ["BFEU"] = {
+    treasure_name = "fire_rod",
+    treasure_variant = 1,
+  },
   -- TODO
 }
 
@@ -181,6 +188,13 @@ local src = io.read("*a")
 local function enemy_id_to_breed(enemy_id)
 
   assert(enemy_id ~= nil)
+
+  if enemy_id == "20" or  -- Crystal.
+      enemy_id == "70" then  -- Moving walls.
+    -- Not a Solarus enemy.
+    return nil
+  end
+
   local breed = enemy_breeds[enemy_id]
   assert(breed ~= nil, "Unknown enemy id: " .. enemy_id)
   return breed
@@ -215,8 +229,8 @@ local function parse_enemies(src)
     local entity = {}
     entity.name = "auto_enemy_" .. (#entities + 1)
     entity.direction = 3
-    if enemy_id ~= "20" then  -- 20 means a crystal (not an enemy in Solarus).
-      entity.breed = enemy_id_to_breed(enemy_id)
+    entity.breed = enemy_id_to_breed(enemy_id)
+    if entity.breed ~= nil then
       entity.x, entity.y = get_enemy_coords(x, y, entity.breed)
       entity.layer = get_enemy_layer(entity.breed)
       entities[#entities + 1] = entity
@@ -279,8 +293,9 @@ local function parse_destructibles(src)
     entity.name = "auto_destructible_" .. (#entities + 1)
     entity.x, entity.y = get_destructible_coords(x, y, treasure)
     entity.layer = 0
-    entity.sprite = "entities/vase"
-    -- TODO entity.sprite = "entities/vase_skull"
+    -- TODO
+    -- entity.sprite = "entities/vase"
+    entity.sprite = "entities/vase_skull"
     entity.destruction_sound = "stone"
     entity.damage_on_enemies = 0
     entity.treasure_name, entity.treasure_variant = treasure.treasure_name, treasure.treasure_variant

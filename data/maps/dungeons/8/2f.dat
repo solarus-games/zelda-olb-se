@@ -8845,6 +8845,7 @@ custom_entity{
 }
 
 custom_entity{
+  name = "auto_torch_auto_door_c_1",
   layer = 0,
   x = 1000,
   y = 797,
@@ -8856,6 +8857,7 @@ custom_entity{
 }
 
 custom_entity{
+  name = "auto_torch_auto_door_c_3",
   layer = 0,
   x = 1000,
   y = 893,
@@ -8867,6 +8869,7 @@ custom_entity{
 }
 
 custom_entity{
+  name = "auto_torch_auto_door_c_2",
   layer = 0,
   x = 1208,
   y = 797,
@@ -8878,6 +8881,7 @@ custom_entity{
 }
 
 custom_entity{
+  name = "auto_torch_auto_door_c_4",
   layer = 0,
   x = 1208,
   y = 893,
@@ -8889,6 +8893,7 @@ custom_entity{
 }
 
 custom_entity{
+  name = "auto_torch_auto_door_c_5",
   layer = 0,
   x = 1000,
   y = 1037,
@@ -8900,6 +8905,7 @@ custom_entity{
 }
 
 custom_entity{
+  name = "auto_torch_auto_door_c_7",
   layer = 0,
   x = 1000,
   y = 1133,
@@ -8911,6 +8917,7 @@ custom_entity{
 }
 
 custom_entity{
+  name = "auto_torch_auto_door_c_6",
   layer = 0,
   x = 1208,
   y = 1037,
@@ -8922,6 +8929,7 @@ custom_entity{
 }
 
 custom_entity{
+  name = "auto_torch_auto_door_c_8",
   layer = 0,
   x = 1208,
   y = 1133,

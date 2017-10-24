@@ -91,7 +91,17 @@ local function initialize_dungeon_features(game)
         floor = 0,
         x = 960 + 160,
         y = 480 + 360,
-        savegame_variable = "d7_boss",
+        savegame_variable = "d8_boss",
+      },
+    },
+    [10] = {
+      lowest_floor = -2,
+      highest_floor = 2,
+      boss = {
+        floor = 0,
+        x = 640 + 800,
+        y = 480 + 600,
+        savegame_variable = "d10_boss",
       },
     },
   }

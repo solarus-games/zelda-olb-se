@@ -4,6 +4,13 @@ map{ id = "caves/portal_cave", description = "Portal cave" }
 map{ id = "dungeons/1/1f", description = "Dungeon 1 1F" }
 map{ id = "dungeons/1/b1", description = "Dungeon 1 B1" }
 map{ id = "dungeons/1/store", description = "Dungeon 1 Store" }
+map{ id = "dungeons/10/1f", description = "Dungeon 10 1F" }
+map{ id = "dungeons/10/2f", description = "Dungeon 10 2F" }
+map{ id = "dungeons/10/3f", description = "Dungeon 10 3F" }
+map{ id = "dungeons/10/b1", description = "Dungeon 10 B1" }
+map{ id = "dungeons/10/b2", description = "Dungeon 10 B2" }
+map{ id = "dungeons/10/imported_entities", description = "Imported entities" }
+map{ id = "dungeons/10/store", description = "Dungeon 10 Store" }
 map{ id = "dungeons/2/1f", description = "Dungeon 2 1F" }
 map{ id = "dungeons/2/b1", description = "Dungeon 2 B1" }
 map{ id = "dungeons/2/b2", description = "Dungeon 2 B2" }

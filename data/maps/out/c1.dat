@@ -17519,6 +17519,32 @@ destructible{
   damage_on_enemies = 2,
 }
 
+destination{
+  name = "from_dungeon_10_1f",
+  layer = 1,
+  x = 352,
+  y = 333,
+  direction = 3,
+}
+
+destination{
+  name = "from_dungeon_10_3f",
+  layer = 1,
+  x = 352,
+  y = 237,
+  direction = 3,
+}
+
+teletransporter{
+  layer = 1,
+  x = 344,
+  y = 304,
+  width = 16,
+  height = 16,
+  destination_map = "dungeons/10/1f",
+  destination = "from_outside",
+}
+
 tile{
   layer = 2,
   x = 2992,

@@ -1,0 +1,159 @@
+properties{
+  x = 0,
+  y = 0,
+  width = 5760,
+  height = 1200,
+  min_layer = 0,
+  max_layer = 2,
+  tileset = "dungeon/blue",
+}
+
+enemy{
+  name = "auto_enemy_10",
+  layer = 0,
+  x = 360,
+  y = 685,
+  direction = 3,
+  breed = "alttp/medusa",
+}
+
+enemy{
+  name = "auto_enemy_11",
+  layer = 0,
+  x = 600,
+  y = 525,
+  direction = 3,
+  breed = "alttp/medusa",
+}
+
+enemy{
+  name = "auto_enemy_12",
+  layer = 0,
+  x = 680,
+  y = 445,
+  direction = 3,
+  breed = "alttp/medusa",
+}
+
+enemy{
+  name = "auto_enemy_13",
+  layer = 0,
+  x = 920,
+  y = 445,
+  direction = 3,
+  breed = "alttp/medusa",
+}
+
+enemy{
+  name = "auto_enemy_18",
+  layer = 0,
+  x = 156,
+  y = 333,
+  direction = 3,
+  breed = "alttp/stalfos_knight",
+}
+
+enemy{
+  name = "auto_enemy_28",
+  layer = 0,
+  x = 160,
+  y = 1053,
+  direction = 3,
+  breed = "alttp/rope",
+}
+
+enemy{
+  name = "auto_enemy_37",
+  layer = 0,
+  x = 800,
+  y = 601,
+  direction = 3,
+  breed = "alttp/wizzrobe_white",
+}
+
+enemy{
+  name = "auto_enemy_54",
+  layer = 0,
+  x = 160,
+  y = 584,
+  direction = 3,
+  breed = "alttp/gibdo",
+}
+
+destructible{
+  name = "auto_destructible_11",
+  layer = 0,
+  x = 792,
+  y = 641,
+  treasure_name = "magic_flask",
+  sprite = "entities/vase_skull",
+  destruction_sound = "stone",
+  damage_on_enemies = 0,
+}
+
+block{
+  name = "auto_block_1",
+  layer = 0,
+  x = 824,
+  y = 589,
+  sprite = "entities/block",
+  pushable = true,
+  pullable = false,
+  maximum_moves = 2,
+}
+
+block{
+  name = "auto_block_2",
+  layer = 0,
+  x = 824,
+  y = 605,
+  sprite = "entities/block",
+  pushable = true,
+  pullable = false,
+  maximum_moves = 2,
+}
+
+block{
+  name = "auto_block_3",
+  layer = 0,
+  x = 824,
+  y = 621,
+  sprite = "entities/block",
+  pushable = true,
+  pullable = false,
+  maximum_moves = 2,
+}
+
+block{
+  name = "auto_block_4",
+  layer = 0,
+  x = 856,
+  y = 589,
+  sprite = "entities/block",
+  pushable = true,
+  pullable = false,
+  maximum_moves = 2,
+}
+
+block{
+  name = "auto_block_5",
+  layer = 0,
+  x = 856,
+  y = 605,
+  sprite = "entities/block",
+  pushable = true,
+  pullable = false,
+  maximum_moves = 2,
+}
+
+block{
+  name = "auto_block_6",
+  layer = 0,
+  x = 856,
+  y = 621,
+  sprite = "entities/block",
+  pushable = true,
+  pullable = false,
+  maximum_moves = 2,
+}
+
