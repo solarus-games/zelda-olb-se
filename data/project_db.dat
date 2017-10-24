@@ -309,6 +309,7 @@ sprite{ id = "hero/tunic3", description = "Tunic 3" }
 sprite{ id = "hero/tunic_onilink", description = "Onilink Tunic" }
 sprite{ id = "hud/piece_of_heart_icon", description = "Piece of heart icon" }
 sprite{ id = "menus/dungeon_maps/map_1", description = "Dungeon 1 map" }
+sprite{ id = "menus/dungeon_maps/map_10", description = "Dungeon 10 map" }
 sprite{ id = "menus/dungeon_maps/map_2", description = "Dungeon 2 map" }
 sprite{ id = "menus/dungeon_maps/map_3", description = "Dungeon 3 map" }
 sprite{ id = "menus/dungeon_maps/map_4", description = "Dungeon 4 map" }
