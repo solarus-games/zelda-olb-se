@@ -14690,6 +14690,8 @@ enemy{
   y = 301,
   direction = 3,
   breed = "alttp/kholdstare",
+  treasure_name = "heart_container",
+  treasure_savegame_variable = "d11_heart_container",
 }
 
 destructible{
@@ -14808,6 +14810,136 @@ destructible{
   sprite = "entities/vase_skull",
   destruction_sound = "stone",
   damage_on_enemies = 2,
+}
+
+destination{
+  name = "from_1f_nw",
+  layer = 0,
+  x = 160,
+  y = 109,
+  direction = 1,
+}
+
+destination{
+  name = "from_1f_w",
+  layer = 0,
+  x = 480,
+  y = 589,
+  direction = 1,
+}
+
+destination{
+  name = "from_1f_c",
+  layer = 0,
+  x = 800,
+  y = 589,
+  direction = 1,
+}
+
+destination{
+  name = "from_1f_ne",
+  layer = 0,
+  x = 1120,
+  y = 349,
+  direction = 1,
+}
+
+destination{
+  name = "from_1f_se",
+  layer = 0,
+  x = 1440,
+  y = 829,
+  direction = 1,
+}
+
+teletransporter{
+  layer = 0,
+  x = 152,
+  y = 96,
+  width = 16,
+  height = 16,
+  destination_map = "dungeons/11/1f",
+  destination = "from_2f_nw",
+}
+
+teletransporter{
+  layer = 0,
+  x = 472,
+  y = 576,
+  width = 16,
+  height = 16,
+  destination_map = "dungeons/11/1f",
+  destination = "from_2f_w",
+}
+
+teletransporter{
+  layer = 0,
+  x = 792,
+  y = 576,
+  width = 16,
+  height = 16,
+  destination_map = "dungeons/11/1f",
+  destination = "from_2f_c",
+}
+
+teletransporter{
+  layer = 0,
+  x = 1432,
+  y = 816,
+  width = 16,
+  height = 16,
+  destination_map = "dungeons/11/1f",
+  destination = "from_2f_se",
+}
+
+teletransporter{
+  layer = 0,
+  x = 1112,
+  y = 336,
+  width = 16,
+  height = 16,
+  destination_map = "dungeons/11/1f",
+  destination = "from_2f_ne",
+}
+
+stairs{
+  layer = 0,
+  x = 152,
+  y = 96,
+  direction = 3,
+  subtype = 3,
+}
+
+stairs{
+  layer = 0,
+  x = 472,
+  y = 576,
+  direction = 3,
+  subtype = 3,
+}
+
+stairs{
+  layer = 0,
+  x = 792,
+  y = 576,
+  direction = 3,
+  subtype = 3,
+}
+
+stairs{
+  layer = 0,
+  x = 1112,
+  y = 336,
+  direction = 3,
+  subtype = 3,
+}
+
+stairs{
+  layer = 0,
+  x = 1432,
+  y = 816,
+  direction = 3,
+  subtype = 3,
 }
 
 tile{

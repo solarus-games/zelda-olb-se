@@ -14236,6 +14236,244 @@ dynamic_tile{
   enabled_at_start = true,
 }
 
+destructible{
+  name = "auto_destructible_2",
+  layer = 0,
+  x = 88,
+  y = 1133,
+  sprite = "entities/vase_skull",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
+}
+
+destructible{
+  name = "auto_destructible_3",
+  layer = 0,
+  x = 392,
+  y = 925,
+  sprite = "entities/vase_skull",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
+}
+
+destructible{
+  name = "auto_destructible_4",
+  layer = 0,
+  x = 392,
+  y = 765,
+  sprite = "entities/vase_skull",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
+}
+
+destination{
+  name = "from_b1_n",
+  layer = 0,
+  x = 800,
+  y = 109,
+  direction = 1,
+}
+
+destination{
+  name = "from_b1_s",
+  layer = 0,
+  x = 1120,
+  y = 1069,
+  direction = 1,
+}
+
+destination{
+  name = "from_b1_se",
+  layer = 0,
+  x = 1440,
+  y = 1069,
+  direction = 1,
+}
+
+destination{
+  name = "from_2f_se",
+  layer = 0,
+  x = 1440,
+  y = 845,
+  direction = 1,
+}
+
+destination{
+  name = "from_2f_ne",
+  layer = 0,
+  x = 1120,
+  y = 365,
+  direction = 1,
+}
+
+destination{
+  name = "from_2f_c",
+  layer = 0,
+  x = 800,
+  y = 605,
+  direction = 1,
+}
+
+destination{
+  name = "from_2f_w",
+  layer = 0,
+  x = 480,
+  y = 605,
+  direction = 1,
+}
+
+destination{
+  name = "from_2f_nw",
+  layer = 0,
+  x = 160,
+  y = 125,
+  direction = 1,
+}
+
+teletransporter{
+  layer = 0,
+  x = 152,
+  y = 112,
+  width = 16,
+  height = 16,
+  destination_map = "dungeons/11/2f",
+  destination = "from_1f_nw",
+}
+
+teletransporter{
+  layer = 0,
+  x = 472,
+  y = 592,
+  width = 16,
+  height = 16,
+  destination_map = "dungeons/11/2f",
+  destination = "from_1f_w",
+}
+
+teletransporter{
+  layer = 0,
+  x = 792,
+  y = 592,
+  width = 16,
+  height = 16,
+  destination_map = "dungeons/11/2f",
+  destination = "from_1f_c",
+}
+
+teletransporter{
+  layer = 0,
+  x = 1112,
+  y = 352,
+  width = 16,
+  height = 16,
+  destination_map = "dungeons/11/2f",
+  destination = "from_1f_ne",
+}
+
+teletransporter{
+  layer = 0,
+  x = 1432,
+  y = 832,
+  width = 16,
+  height = 16,
+  destination_map = "dungeons/11/2f",
+  destination = "from_1f_se",
+}
+
+teletransporter{
+  layer = 0,
+  x = 1112,
+  y = 1056,
+  width = 16,
+  height = 16,
+  destination_map = "dungeons/11/b1",
+  destination = "from_1f_s",
+}
+
+teletransporter{
+  layer = 0,
+  x = 1432,
+  y = 1056,
+  width = 16,
+  height = 16,
+  destination_map = "dungeons/11/b1",
+  destination = "from_1f_se",
+}
+
+teletransporter{
+  layer = 0,
+  x = 792,
+  y = 96,
+  width = 16,
+  height = 16,
+  destination_map = "dungeons/11/b1",
+  destination = "from_1f_n",
+}
+
+stairs{
+  layer = 0,
+  x = 1432,
+  y = 832,
+  direction = 1,
+  subtype = 2,
+}
+
+stairs{
+  layer = 0,
+  x = 792,
+  y = 592,
+  direction = 1,
+  subtype = 2,
+}
+
+stairs{
+  layer = 0,
+  x = 472,
+  y = 592,
+  direction = 1,
+  subtype = 2,
+}
+
+stairs{
+  layer = 0,
+  x = 1112,
+  y = 352,
+  direction = 1,
+  subtype = 2,
+}
+
+stairs{
+  layer = 0,
+  x = 152,
+  y = 112,
+  direction = 1,
+  subtype = 2,
+}
+
+stairs{
+  layer = 0,
+  x = 1112,
+  y = 1056,
+  direction = 3,
+  subtype = 3,
+}
+
+stairs{
+  layer = 0,
+  x = 1432,
+  y = 1056,
+  direction = 3,
+  subtype = 3,
+}
+
+stairs{
+  layer = 0,
+  x = 792,
+  y = 96,
+  direction = 3,
+  subtype = 3,
+}
+
 tile{
   layer = 1,
   x = 784,

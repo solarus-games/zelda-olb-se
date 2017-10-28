@@ -13523,6 +13523,8 @@ enemy{
   y = 549,
   direction = 3,
   breed = "som/minotaur",
+  treasure_name = "heart_container",
+  treasure_savegame_variable = "d10_heart_container",
 }
 
 destructible{
