@@ -20391,6 +20391,32 @@ wall{
   stops_projectiles = true,
 }
 
+destination{
+  name = "from_dungeon_11",
+  layer = 5,
+  x = 336,
+  y = 301,
+  direction = 3,
+}
+
+teletransporter{
+  layer = 5,
+  x = 328,
+  y = 288,
+  width = 16,
+  height = 16,
+  destination_map = "dungeons/11/1f",
+  destination = "from_outside",
+}
+
+stairs{
+  layer = 5,
+  x = 328,
+  y = 288,
+  direction = 1,
+  subtype = 3,
+}
+
 tile{
   layer = 6,
   x = 2016,
