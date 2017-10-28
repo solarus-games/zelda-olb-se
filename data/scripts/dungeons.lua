@@ -104,6 +104,16 @@ local function initialize_dungeon_features(game)
         savegame_variable = "d10_boss",
       },
     },
+    [11] = {
+      lowest_floor = -1,
+      highest_floor = 0,
+      boss = {
+        floor = 0,
+        x = 640 + 800,
+        y = 480 + 360,
+        savegame_variable = "d11_boss",
+      },
+    },
   }
 
   -- Returns the index of the current dungeon if any, or nil.
