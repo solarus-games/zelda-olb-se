@@ -114,6 +114,11 @@ local function initialize_dungeon_features(game)
         savegame_variable = "d11_boss",
       },
     },
+    [12] = {
+      lowest_floor = -2,
+      highest_floor = 2,
+      -- No boss on the minimap (the boss is on the roof).
+    },
   }
 
   -- Returns the index of the current dungeon if any, or nil.

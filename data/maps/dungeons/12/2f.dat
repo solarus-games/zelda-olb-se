@@ -1,0 +1,13 @@
+properties{
+  x = 960,
+  y = 720,
+  width = 1280,
+  height = 960,
+  min_layer = -1,
+  max_layer = 2,
+  world = "dungeon_12",
+  floor = 1,
+  tileset = "dungeon/pink",
+  music = "farore",
+}
+

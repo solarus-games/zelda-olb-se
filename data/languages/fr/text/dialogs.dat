@@ -520,9 +520,9 @@ dialog{
 dialog{
   id = "dungeons.12.welcome",
   text = [[
-                   Niveau 1
+                   Niveau 12
 
-               Temple de Farore
+                Temple de Farore
 ]]
 }
 
