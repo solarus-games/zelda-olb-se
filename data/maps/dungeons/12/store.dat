@@ -1821,7 +1821,7 @@ door{
   direction = 3,
   sprite = "entities/doors/door_d1_small_key",
   opening_method = "interaction_if_savegame_variable",
-  opening_condition = "d8_small_keys",
+  opening_condition = "d12_small_keys",
   opening_condition_consumed = true,
   cannot_open_dialog = "small_key_required",
 }
@@ -1833,7 +1833,7 @@ door{
   direction = 1,
   sprite = "entities/doors/door_d1_small_key",
   opening_method = "interaction_if_savegame_variable",
-  opening_condition = "d8_small_keys",
+  opening_condition = "d12_small_keys",
   opening_condition_consumed = true,
   cannot_open_dialog = "small_key_required",
 }
@@ -1844,9 +1844,9 @@ door{
   y = 312,
   direction = 1,
   sprite = "entities/doors/door_d1_big_key",
-  savegame_variable = "d8_boss_door",
+  savegame_variable = "d12_boss_door",
   opening_method = "interaction_if_savegame_variable",
-  opening_condition = "d8_boss_key",
+  opening_condition = "d12_boss_key",
   cannot_open_dialog = "boss_key_required",
 }
 
@@ -1856,9 +1856,9 @@ door{
   y = 280,
   direction = 3,
   sprite = "entities/doors/door_d1_big_key",
-  savegame_variable = "d8_boss_door",
+  savegame_variable = "d12_boss_door",
   opening_method = "interaction_if_savegame_variable",
-  opening_condition = "d8_boss_key",
+  opening_condition = "d12_boss_key",
   cannot_open_dialog = "boss_key_required",
 }
 
@@ -1899,7 +1899,7 @@ door{
   direction = 0,
   sprite = "entities/doors/door_d1_small_key",
   opening_method = "interaction_if_savegame_variable",
-  opening_condition = "d8_small_keys",
+  opening_condition = "d12_small_keys",
   opening_condition_consumed = true,
   cannot_open_dialog = "small_key_required",
 }
@@ -1911,7 +1911,7 @@ door{
   direction = 2,
   sprite = "entities/doors/door_d1_small_key",
   opening_method = "interaction_if_savegame_variable",
-  opening_condition = "d8_small_keys",
+  opening_condition = "d12_small_keys",
   opening_condition_consumed = true,
   cannot_open_dialog = "small_key_required",
 }
