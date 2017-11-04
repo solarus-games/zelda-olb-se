@@ -386,6 +386,7 @@ sprite{ id = "npc/alttp/young_girl_red", description = "Red young girl" }
 sprite{ id = "npc/alttp/zelda", description = "Zelda" }
 sprite{ id = "npc/pit", description = "Pit" }
 sprite{ id = "work/1280x1440", description = "1280x1440 PNG" }
+sprite{ id = "work/1280x960", description = "1280x960 PNG" }
 sprite{ id = "work/1600x1200", description = "1600x1200 PNG" }
 sprite{ id = "work/1600x1680", description = "1600x1680 PNG" }
 sprite{ id = "work/1600x960", description = "1600x960 PNG" }

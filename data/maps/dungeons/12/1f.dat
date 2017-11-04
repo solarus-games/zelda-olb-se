@@ -3,11 +3,1183 @@ properties{
   y = 720,
   width = 1280,
   height = 960,
-  min_layer = -1,
+  min_layer = -2,
   max_layer = 2,
   world = "dungeon_12",
   floor = 0,
   tileset = "dungeon/pink",
   music = "farore",
+}
+
+custom_entity{
+  layer = -2,
+  x = 8,
+  y = 13,
+  width = 1280,
+  height = 960,
+  direction = 0,
+  sprite = "work/1280x960",
+}
+
+tile{
+  layer = 0,
+  x = 112,
+  y = 272,
+  width = 96,
+  height = 384,
+  pattern = "floor.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 208,
+  y = 576,
+  width = 80,
+  height = 48,
+  pattern = "floor.2-1",
+}
+
+stream{
+  layer = 0,
+  x = 120,
+  y = 285,
+  direction = 2,
+  sprite = "entities/stream",
+}
+
+stream{
+  layer = 0,
+  x = 136,
+  y = 285,
+  direction = 2,
+  sprite = "entities/stream",
+}
+
+stream{
+  layer = 0,
+  x = 152,
+  y = 285,
+  direction = 2,
+  sprite = "entities/stream",
+}
+
+stream{
+  layer = 0,
+  x = 168,
+  y = 285,
+  direction = 2,
+  sprite = "entities/stream",
+}
+
+stream{
+  layer = 0,
+  x = 184,
+  y = 285,
+  direction = 2,
+  sprite = "entities/stream",
+}
+
+stream{
+  layer = 0,
+  x = 200,
+  y = 285,
+  direction = 2,
+  sprite = "entities/stream",
+}
+
+stream{
+  layer = 0,
+  x = 120,
+  y = 301,
+  direction = 2,
+  sprite = "entities/stream",
+}
+
+stream{
+  layer = 0,
+  x = 136,
+  y = 301,
+  direction = 2,
+  sprite = "entities/stream",
+}
+
+stream{
+  layer = 0,
+  x = 152,
+  y = 301,
+  direction = 2,
+  sprite = "entities/stream",
+}
+
+stream{
+  layer = 0,
+  x = 168,
+  y = 301,
+  direction = 2,
+  sprite = "entities/stream",
+}
+
+stream{
+  layer = 0,
+  x = 184,
+  y = 301,
+  direction = 2,
+  sprite = "entities/stream",
+}
+
+stream{
+  layer = 0,
+  x = 200,
+  y = 301,
+  direction = 2,
+  sprite = "entities/stream",
+}
+
+stream{
+  layer = 0,
+  x = 120,
+  y = 317,
+  direction = 2,
+  sprite = "entities/stream",
+}
+
+stream{
+  layer = 0,
+  x = 136,
+  y = 317,
+  direction = 2,
+  sprite = "entities/stream",
+}
+
+stream{
+  layer = 0,
+  x = 152,
+  y = 317,
+  direction = 2,
+  sprite = "entities/stream",
+}
+
+stream{
+  layer = 0,
+  x = 168,
+  y = 317,
+  direction = 2,
+  sprite = "entities/stream",
+}
+
+stream{
+  layer = 0,
+  x = 184,
+  y = 317,
+  direction = 2,
+  sprite = "entities/stream",
+}
+
+stream{
+  layer = 0,
+  x = 200,
+  y = 317,
+  direction = 2,
+  sprite = "entities/stream",
+}
+
+stream{
+  layer = 0,
+  x = 120,
+  y = 333,
+  direction = 2,
+  sprite = "entities/stream",
+}
+
+stream{
+  layer = 0,
+  x = 136,
+  y = 333,
+  direction = 2,
+  sprite = "entities/stream",
+}
+
+stream{
+  layer = 0,
+  x = 152,
+  y = 333,
+  direction = 2,
+  sprite = "entities/stream",
+}
+
+stream{
+  layer = 0,
+  x = 168,
+  y = 333,
+  direction = 2,
+  sprite = "entities/stream",
+}
+
+stream{
+  layer = 0,
+  x = 184,
+  y = 333,
+  direction = 2,
+  sprite = "entities/stream",
+}
+
+stream{
+  layer = 0,
+  x = 200,
+  y = 333,
+  direction = 2,
+  sprite = "entities/stream",
+}
+
+stream{
+  layer = 0,
+  x = 120,
+  y = 349,
+  direction = 2,
+  sprite = "entities/stream",
+}
+
+stream{
+  layer = 0,
+  x = 136,
+  y = 349,
+  direction = 2,
+  sprite = "entities/stream",
+}
+
+stream{
+  layer = 0,
+  x = 152,
+  y = 349,
+  direction = 2,
+  sprite = "entities/stream",
+}
+
+stream{
+  layer = 0,
+  x = 168,
+  y = 349,
+  direction = 2,
+  sprite = "entities/stream",
+}
+
+stream{
+  layer = 0,
+  x = 184,
+  y = 349,
+  direction = 2,
+  sprite = "entities/stream",
+}
+
+stream{
+  layer = 0,
+  x = 200,
+  y = 349,
+  direction = 2,
+  sprite = "entities/stream",
+}
+
+stream{
+  layer = 0,
+  x = 120,
+  y = 365,
+  direction = 2,
+  sprite = "entities/stream",
+}
+
+stream{
+  layer = 0,
+  x = 136,
+  y = 365,
+  direction = 2,
+  sprite = "entities/stream",
+}
+
+stream{
+  layer = 0,
+  x = 152,
+  y = 365,
+  direction = 2,
+  sprite = "entities/stream",
+}
+
+stream{
+  layer = 0,
+  x = 168,
+  y = 365,
+  direction = 2,
+  sprite = "entities/stream",
+}
+
+stream{
+  layer = 0,
+  x = 184,
+  y = 365,
+  direction = 2,
+  sprite = "entities/stream",
+}
+
+stream{
+  layer = 0,
+  x = 200,
+  y = 365,
+  direction = 2,
+  sprite = "entities/stream",
+}
+
+stream{
+  layer = 0,
+  x = 120,
+  y = 381,
+  direction = 2,
+  sprite = "entities/stream",
+}
+
+stream{
+  layer = 0,
+  x = 136,
+  y = 381,
+  direction = 2,
+  sprite = "entities/stream",
+}
+
+stream{
+  layer = 0,
+  x = 152,
+  y = 381,
+  direction = 2,
+  sprite = "entities/stream",
+}
+
+stream{
+  layer = 0,
+  x = 168,
+  y = 381,
+  direction = 2,
+  sprite = "entities/stream",
+}
+
+stream{
+  layer = 0,
+  x = 184,
+  y = 381,
+  direction = 2,
+  sprite = "entities/stream",
+}
+
+stream{
+  layer = 0,
+  x = 200,
+  y = 381,
+  direction = 2,
+  sprite = "entities/stream",
+}
+
+stream{
+  layer = 0,
+  x = 120,
+  y = 397,
+  direction = 2,
+  sprite = "entities/stream",
+}
+
+stream{
+  layer = 0,
+  x = 136,
+  y = 397,
+  direction = 2,
+  sprite = "entities/stream",
+}
+
+stream{
+  layer = 0,
+  x = 152,
+  y = 397,
+  direction = 2,
+  sprite = "entities/stream",
+}
+
+stream{
+  layer = 0,
+  x = 168,
+  y = 397,
+  direction = 2,
+  sprite = "entities/stream",
+}
+
+stream{
+  layer = 0,
+  x = 184,
+  y = 397,
+  direction = 2,
+  sprite = "entities/stream",
+}
+
+stream{
+  layer = 0,
+  x = 200,
+  y = 397,
+  direction = 2,
+  sprite = "entities/stream",
+}
+
+stream{
+  layer = 0,
+  x = 120,
+  y = 413,
+  direction = 2,
+  sprite = "entities/stream",
+}
+
+stream{
+  layer = 0,
+  x = 136,
+  y = 413,
+  direction = 2,
+  sprite = "entities/stream",
+}
+
+stream{
+  layer = 0,
+  x = 152,
+  y = 413,
+  direction = 2,
+  sprite = "entities/stream",
+}
+
+stream{
+  layer = 0,
+  x = 168,
+  y = 413,
+  direction = 2,
+  sprite = "entities/stream",
+}
+
+stream{
+  layer = 0,
+  x = 184,
+  y = 413,
+  direction = 2,
+  sprite = "entities/stream",
+}
+
+stream{
+  layer = 0,
+  x = 200,
+  y = 413,
+  direction = 2,
+  sprite = "entities/stream",
+}
+
+stream{
+  layer = 0,
+  x = 120,
+  y = 429,
+  direction = 2,
+  sprite = "entities/stream",
+}
+
+stream{
+  layer = 0,
+  x = 136,
+  y = 429,
+  direction = 2,
+  sprite = "entities/stream",
+}
+
+stream{
+  layer = 0,
+  x = 152,
+  y = 429,
+  direction = 2,
+  sprite = "entities/stream",
+}
+
+stream{
+  layer = 0,
+  x = 168,
+  y = 429,
+  direction = 2,
+  sprite = "entities/stream",
+}
+
+stream{
+  layer = 0,
+  x = 184,
+  y = 429,
+  direction = 2,
+  sprite = "entities/stream",
+}
+
+stream{
+  layer = 0,
+  x = 200,
+  y = 429,
+  direction = 2,
+  sprite = "entities/stream",
+}
+
+stream{
+  layer = 0,
+  x = 120,
+  y = 445,
+  direction = 2,
+  sprite = "entities/stream",
+}
+
+stream{
+  layer = 0,
+  x = 136,
+  y = 445,
+  direction = 2,
+  sprite = "entities/stream",
+}
+
+stream{
+  layer = 0,
+  x = 152,
+  y = 445,
+  direction = 2,
+  sprite = "entities/stream",
+}
+
+stream{
+  layer = 0,
+  x = 168,
+  y = 445,
+  direction = 2,
+  sprite = "entities/stream",
+}
+
+stream{
+  layer = 0,
+  x = 184,
+  y = 445,
+  direction = 2,
+  sprite = "entities/stream",
+}
+
+stream{
+  layer = 0,
+  x = 200,
+  y = 445,
+  direction = 2,
+  sprite = "entities/stream",
+}
+
+stream{
+  layer = 0,
+  x = 120,
+  y = 461,
+  direction = 2,
+  sprite = "entities/stream",
+}
+
+stream{
+  layer = 0,
+  x = 136,
+  y = 461,
+  direction = 2,
+  sprite = "entities/stream",
+}
+
+stream{
+  layer = 0,
+  x = 152,
+  y = 461,
+  direction = 2,
+  sprite = "entities/stream",
+}
+
+stream{
+  layer = 0,
+  x = 168,
+  y = 461,
+  direction = 2,
+  sprite = "entities/stream",
+}
+
+stream{
+  layer = 0,
+  x = 184,
+  y = 461,
+  direction = 2,
+  sprite = "entities/stream",
+}
+
+stream{
+  layer = 0,
+  x = 200,
+  y = 461,
+  direction = 2,
+  sprite = "entities/stream",
+}
+
+stream{
+  layer = 0,
+  x = 120,
+  y = 477,
+  direction = 2,
+  sprite = "entities/stream",
+}
+
+stream{
+  layer = 0,
+  x = 136,
+  y = 477,
+  direction = 2,
+  sprite = "entities/stream",
+}
+
+stream{
+  layer = 0,
+  x = 152,
+  y = 477,
+  direction = 2,
+  sprite = "entities/stream",
+}
+
+stream{
+  layer = 0,
+  x = 168,
+  y = 477,
+  direction = 2,
+  sprite = "entities/stream",
+}
+
+stream{
+  layer = 0,
+  x = 184,
+  y = 477,
+  direction = 2,
+  sprite = "entities/stream",
+}
+
+stream{
+  layer = 0,
+  x = 200,
+  y = 477,
+  direction = 2,
+  sprite = "entities/stream",
+}
+
+stream{
+  layer = 0,
+  x = 120,
+  y = 493,
+  direction = 2,
+  sprite = "entities/stream",
+}
+
+stream{
+  layer = 0,
+  x = 136,
+  y = 493,
+  direction = 2,
+  sprite = "entities/stream",
+}
+
+stream{
+  layer = 0,
+  x = 152,
+  y = 493,
+  direction = 2,
+  sprite = "entities/stream",
+}
+
+stream{
+  layer = 0,
+  x = 168,
+  y = 493,
+  direction = 2,
+  sprite = "entities/stream",
+}
+
+stream{
+  layer = 0,
+  x = 184,
+  y = 493,
+  direction = 2,
+  sprite = "entities/stream",
+}
+
+stream{
+  layer = 0,
+  x = 200,
+  y = 493,
+  direction = 2,
+  sprite = "entities/stream",
+}
+
+stream{
+  layer = 0,
+  x = 120,
+  y = 509,
+  direction = 2,
+  sprite = "entities/stream",
+}
+
+stream{
+  layer = 0,
+  x = 136,
+  y = 509,
+  direction = 2,
+  sprite = "entities/stream",
+}
+
+stream{
+  layer = 0,
+  x = 152,
+  y = 509,
+  direction = 2,
+  sprite = "entities/stream",
+}
+
+stream{
+  layer = 0,
+  x = 168,
+  y = 509,
+  direction = 2,
+  sprite = "entities/stream",
+}
+
+stream{
+  layer = 0,
+  x = 184,
+  y = 509,
+  direction = 2,
+  sprite = "entities/stream",
+}
+
+stream{
+  layer = 0,
+  x = 200,
+  y = 509,
+  direction = 2,
+  sprite = "entities/stream",
+}
+
+stream{
+  layer = 0,
+  x = 120,
+  y = 525,
+  direction = 2,
+  sprite = "entities/stream",
+}
+
+stream{
+  layer = 0,
+  x = 136,
+  y = 525,
+  direction = 2,
+  sprite = "entities/stream",
+}
+
+stream{
+  layer = 0,
+  x = 152,
+  y = 525,
+  direction = 2,
+  sprite = "entities/stream",
+}
+
+stream{
+  layer = 0,
+  x = 168,
+  y = 525,
+  direction = 2,
+  sprite = "entities/stream",
+}
+
+stream{
+  layer = 0,
+  x = 184,
+  y = 525,
+  direction = 2,
+  sprite = "entities/stream",
+}
+
+stream{
+  layer = 0,
+  x = 200,
+  y = 525,
+  direction = 2,
+  sprite = "entities/stream",
+}
+
+stream{
+  layer = 0,
+  x = 120,
+  y = 541,
+  direction = 2,
+  sprite = "entities/stream",
+}
+
+stream{
+  layer = 0,
+  x = 136,
+  y = 541,
+  direction = 2,
+  sprite = "entities/stream",
+}
+
+stream{
+  layer = 0,
+  x = 152,
+  y = 541,
+  direction = 2,
+  sprite = "entities/stream",
+}
+
+stream{
+  layer = 0,
+  x = 168,
+  y = 541,
+  direction = 2,
+  sprite = "entities/stream",
+}
+
+stream{
+  layer = 0,
+  x = 184,
+  y = 541,
+  direction = 2,
+  sprite = "entities/stream",
+}
+
+stream{
+  layer = 0,
+  x = 200,
+  y = 541,
+  direction = 2,
+  sprite = "entities/stream",
+}
+
+stream{
+  layer = 0,
+  x = 120,
+  y = 557,
+  direction = 2,
+  sprite = "entities/stream",
+}
+
+stream{
+  layer = 0,
+  x = 136,
+  y = 557,
+  direction = 2,
+  sprite = "entities/stream",
+}
+
+stream{
+  layer = 0,
+  x = 152,
+  y = 557,
+  direction = 2,
+  sprite = "entities/stream",
+}
+
+stream{
+  layer = 0,
+  x = 168,
+  y = 557,
+  direction = 2,
+  sprite = "entities/stream",
+}
+
+stream{
+  layer = 0,
+  x = 184,
+  y = 557,
+  direction = 2,
+  sprite = "entities/stream",
+}
+
+stream{
+  layer = 0,
+  x = 200,
+  y = 557,
+  direction = 2,
+  sprite = "entities/stream",
+}
+
+stream{
+  layer = 0,
+  x = 120,
+  y = 573,
+  direction = 2,
+  sprite = "entities/stream",
+}
+
+stream{
+  layer = 0,
+  x = 136,
+  y = 573,
+  direction = 2,
+  sprite = "entities/stream",
+}
+
+stream{
+  layer = 0,
+  x = 152,
+  y = 573,
+  direction = 2,
+  sprite = "entities/stream",
+}
+
+stream{
+  layer = 0,
+  x = 168,
+  y = 573,
+  direction = 2,
+  sprite = "entities/stream",
+}
+
+stream{
+  layer = 0,
+  x = 184,
+  y = 573,
+  direction = 2,
+  sprite = "entities/stream",
+}
+
+stream{
+  layer = 0,
+  x = 200,
+  y = 573,
+  direction = 2,
+  sprite = "entities/stream",
+}
+
+stream{
+  layer = 0,
+  x = 120,
+  y = 589,
+  direction = 2,
+  sprite = "entities/stream",
+}
+
+stream{
+  layer = 0,
+  x = 136,
+  y = 589,
+  direction = 2,
+  sprite = "entities/stream",
+}
+
+stream{
+  layer = 0,
+  x = 152,
+  y = 589,
+  direction = 2,
+  sprite = "entities/stream",
+}
+
+stream{
+  layer = 0,
+  x = 168,
+  y = 589,
+  direction = 2,
+  sprite = "entities/stream",
+}
+
+stream{
+  layer = 0,
+  x = 184,
+  y = 589,
+  direction = 2,
+  sprite = "entities/stream",
+}
+
+stream{
+  layer = 0,
+  x = 200,
+  y = 589,
+  direction = 2,
+  sprite = "entities/stream",
+}
+
+stream{
+  layer = 0,
+  x = 120,
+  y = 605,
+  direction = 2,
+  sprite = "entities/stream",
+}
+
+stream{
+  layer = 0,
+  x = 136,
+  y = 605,
+  direction = 2,
+  sprite = "entities/stream",
+}
+
+stream{
+  layer = 0,
+  x = 152,
+  y = 605,
+  direction = 2,
+  sprite = "entities/stream",
+}
+
+stream{
+  layer = 0,
+  x = 168,
+  y = 605,
+  direction = 2,
+  sprite = "entities/stream",
+}
+
+stream{
+  layer = 0,
+  x = 184,
+  y = 605,
+  direction = 2,
+  sprite = "entities/stream",
+}
+
+stream{
+  layer = 0,
+  x = 200,
+  y = 605,
+  direction = 2,
+  sprite = "entities/stream",
+}
+
+stream{
+  layer = 0,
+  x = 120,
+  y = 621,
+  direction = 2,
+  sprite = "entities/stream",
+}
+
+stream{
+  layer = 0,
+  x = 136,
+  y = 621,
+  direction = 2,
+  sprite = "entities/stream",
+}
+
+stream{
+  layer = 0,
+  x = 152,
+  y = 621,
+  direction = 2,
+  sprite = "entities/stream",
+}
+
+stream{
+  layer = 0,
+  x = 168,
+  y = 621,
+  direction = 2,
+  sprite = "entities/stream",
+}
+
+stream{
+  layer = 0,
+  x = 184,
+  y = 621,
+  direction = 2,
+  sprite = "entities/stream",
+}
+
+stream{
+  layer = 0,
+  x = 200,
+  y = 621,
+  direction = 2,
+  sprite = "entities/stream",
+}
+
+stream{
+  layer = 0,
+  x = 120,
+  y = 637,
+  direction = 2,
+  sprite = "entities/stream",
+}
+
+stream{
+  layer = 0,
+  x = 136,
+  y = 637,
+  direction = 2,
+  sprite = "entities/stream",
+}
+
+stream{
+  layer = 0,
+  x = 152,
+  y = 637,
+  direction = 2,
+  sprite = "entities/stream",
+}
+
+stream{
+  layer = 0,
+  x = 168,
+  y = 637,
+  direction = 2,
+  sprite = "entities/stream",
+}
+
+stream{
+  layer = 0,
+  x = 184,
+  y = 637,
+  direction = 2,
+  sprite = "entities/stream",
+}
+
+stream{
+  layer = 0,
+  x = 200,
+  y = 637,
+  direction = 2,
+  sprite = "entities/stream",
+}
+
+stream{
+  layer = 0,
+  x = 136,
+  y = 653,
+  direction = 2,
+  sprite = "entities/stream",
+}
+
+stream{
+  layer = 0,
+  x = 152,
+  y = 653,
+  direction = 2,
+  sprite = "entities/stream",
+}
+
+stream{
+  layer = 0,
+  x = 168,
+  y = 653,
+  direction = 2,
+  sprite = "entities/stream",
+}
+
+stream{
+  layer = 0,
+  x = 184,
+  y = 653,
+  direction = 2,
+  sprite = "entities/stream",
+}
+
+destination{
+  name = "destination",
+  layer = 0,
+  x = 240,
+  y = 605,
+  direction = 1,
 }
 
