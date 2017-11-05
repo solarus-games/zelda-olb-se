@@ -50415,6 +50415,18 @@ tile_pattern{
 }
 
 border_set{
+  id = "alter_floor",
+  pattern_0 = "alter_floor.4",
+  pattern_1 = "alter_floor.1",
+  pattern_2 = "alter_floor.3",
+  pattern_3 = "alter_floor.2",
+  pattern_4 = "alter_floor_corner.2",
+  pattern_5 = "alter_floor_corner.1",
+  pattern_6 = "alter_floor_corner.3",
+  pattern_7 = "alter_floor_corner.4",
+}
+
+border_set{
   id = "carpet",
   pattern_0 = "carpet.6",
   pattern_1 = "carpet.2",

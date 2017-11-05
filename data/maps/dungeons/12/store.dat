@@ -2013,6 +2013,24 @@ custom_entity{
   model = "hookable",
 }
 
+destination{
+  layer = 0,
+  x = 232,
+  y = 621,
+  direction = 1,
+  sprite = "entities/destination",
+}
+
+teletransporter{
+  layer = 0,
+  x = 192,
+  y = 608,
+  width = 16,
+  height = 16,
+  destination_map = "dungeons/12/1f",
+  sprite = "entities/teletransporter",
+}
+
 tile{
   layer = 1,
   x = 96,

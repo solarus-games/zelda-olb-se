@@ -283,6 +283,7 @@ sprite{ id = "entities/switches/switch_d4-4", description = "Dungeon switch 4-4"
 sprite{ id = "entities/switches/switch_d4-5", description = "Dungeon switch 4-5" }
 sprite{ id = "entities/switches/switch_d4-6", description = "Dungeon switch 4-6" }
 sprite{ id = "entities/switches/switch_d4-7", description = "Dungeon switch 4-7" }
+sprite{ id = "entities/teletransporter", description = "Teletransporter" }
 sprite{ id = "entities/torch", description = "Torch" }
 sprite{ id = "entities/turtle_rock_entrance", description = "Turtle Rock entrance" }
 sprite{ id = "entities/vase", description = "Vase" }
