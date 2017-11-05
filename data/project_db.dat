@@ -240,6 +240,7 @@ sprite{ id = "entities/hookshot", description = "Hookshot" }
 sprite{ id = "entities/ice", description = "Ice ground" }
 sprite{ id = "entities/ice_beam", description = "Ice beam" }
 sprite{ id = "entities/items", description = "Items" }
+sprite{ id = "entities/low_wall_dungeon", description = "Low wall for dungeon" }
 sprite{ id = "entities/pedestal", description = "Pedestal" }
 sprite{ id = "entities/prison_door_dungeon_2", description = "Dungeon 2 prison door" }
 sprite{ id = "entities/prison_door_dungeon_4", description = "Dungeon 4 prison door" }
@@ -677,6 +678,7 @@ entity{ id = "fire", description = "Fire" }
 entity{ id = "hammer_stake", description = "Hammer stake" }
 entity{ id = "hookable", description = "Hookable" }
 entity{ id = "ice_beam", description = "Ice beam" }
+entity{ id = "low_wall", description = "Low wall" }
 entity{ id = "statue_big", description = "Big statue" }
 entity{ id = "torch", description = "Torch" }
 

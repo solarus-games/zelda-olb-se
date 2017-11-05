@@ -3,9 +3,88 @@ properties{
   y = 0,
   width = 1600,
   height = 1200,
-  min_layer = 0,
+  min_layer = -1,
   max_layer = 2,
   tileset = "dungeon/pink",
+}
+
+tile{
+  layer = -1,
+  x = 128,
+  y = 520,
+  width = 8,
+  height = 24,
+  pattern = "stairs_inner_up.1.border.1-1",
+}
+
+tile{
+  layer = -1,
+  x = 152,
+  y = 520,
+  width = 8,
+  height = 24,
+  pattern = "stairs_inner_up.1.border.2-1",
+}
+
+tile{
+  layer = -1,
+  x = 136,
+  y = 520,
+  width = 16,
+  height = 24,
+  pattern = "stairs_inner_up.1-1",
+}
+
+tile{
+  layer = -1,
+  x = 200,
+  y = 512,
+  width = 8,
+  height = 24,
+  pattern = "stairs_inner_up.2.border.2-1",
+}
+
+tile{
+  layer = -1,
+  x = 184,
+  y = 512,
+  width = 16,
+  height = 24,
+  pattern = "stairs_inner_up.2-1",
+}
+
+tile{
+  layer = -1,
+  x = 176,
+  y = 512,
+  width = 8,
+  height = 24,
+  pattern = "stairs_inner_up.2.border.1-1",
+}
+
+stairs{
+  layer = -1,
+  x = 136,
+  y = 520,
+  direction = 1,
+  subtype = 4,
+}
+
+stairs{
+  layer = -1,
+  x = 184,
+  y = 520,
+  direction = 3,
+  subtype = 4,
+}
+
+tile{
+  layer = 0,
+  x = 216,
+  y = 40,
+  width = 96,
+  height = 80,
+  pattern = "floor.12-1",
 }
 
 tile{
@@ -24,60 +103,6 @@ tile{
   width = 80,
   height = 80,
   pattern = "floor.2-1",
-}
-
-tile{
-  layer = 0,
-  x = 128,
-  y = 520,
-  width = 8,
-  height = 24,
-  pattern = "stairs_inner_up.1.border.1-1",
-}
-
-tile{
-  layer = 0,
-  x = 152,
-  y = 520,
-  width = 8,
-  height = 24,
-  pattern = "stairs_inner_up.1.border.2-1",
-}
-
-tile{
-  layer = 0,
-  x = 136,
-  y = 520,
-  width = 16,
-  height = 24,
-  pattern = "stairs_inner_up.1-1",
-}
-
-tile{
-  layer = 0,
-  x = 200,
-  y = 512,
-  width = 8,
-  height = 24,
-  pattern = "stairs_inner_up.2.border.2-1",
-}
-
-tile{
-  layer = 0,
-  x = 184,
-  y = 512,
-  width = 16,
-  height = 24,
-  pattern = "stairs_inner_up.2-1",
-}
-
-tile{
-  layer = 0,
-  x = 176,
-  y = 512,
-  width = 8,
-  height = 24,
-  pattern = "stairs_inner_up.2.border.1-1",
 }
 
 tile{
@@ -1541,22 +1566,6 @@ dynamic_tile{
   width = 24,
   height = 32,
   enabled_at_start = true,
-}
-
-stairs{
-  layer = 0,
-  x = 136,
-  y = 520,
-  direction = 1,
-  subtype = 4,
-}
-
-stairs{
-  layer = 0,
-  x = 184,
-  y = 520,
-  direction = 3,
-  subtype = 4,
 }
 
 destructible{

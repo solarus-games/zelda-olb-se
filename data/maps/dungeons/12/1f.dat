@@ -3,7 +3,7 @@ properties{
   y = 720,
   width = 1280,
   height = 960,
-  min_layer = -2,
+  min_layer = -1,
   max_layer = 2,
   world = "dungeon_12",
   floor = 0,
@@ -18,78 +18,6 @@ tile{
   width = 288,
   height = 192,
   pattern = "floor.18-2",
-}
-
-tile{
-  layer = -1,
-  x = 496,
-  y = 616,
-  width = 288,
-  height = 8,
-  pattern = "wall_border.1-2",
-}
-
-tile{
-  layer = -1,
-  x = 488,
-  y = 624,
-  width = 8,
-  height = 192,
-  pattern = "wall_border.3-2",
-}
-
-tile{
-  layer = -1,
-  x = 784,
-  y = 624,
-  width = 8,
-  height = 192,
-  pattern = "wall_border.4-2",
-}
-
-tile{
-  layer = -1,
-  x = 496,
-  y = 816,
-  width = 288,
-  height = 8,
-  pattern = "wall_border.2-2",
-}
-
-tile{
-  layer = -1,
-  x = 488,
-  y = 616,
-  width = 8,
-  height = 8,
-  pattern = "wall_border.corner.1-2",
-}
-
-tile{
-  layer = -1,
-  x = 784,
-  y = 616,
-  width = 8,
-  height = 8,
-  pattern = "wall_border.corner.2-2",
-}
-
-tile{
-  layer = -1,
-  x = 488,
-  y = 816,
-  width = 8,
-  height = 8,
-  pattern = "wall_border.corner.3-2",
-}
-
-tile{
-  layer = -1,
-  x = 784,
-  y = 816,
-  width = 8,
-  height = 8,
-  pattern = "wall_border.corner.4-2",
 }
 
 tile{
@@ -279,6 +207,78 @@ tile{
   width = 24,
   height = 24,
   pattern = "wall_low.corner.4-1",
+}
+
+tile{
+  layer = -1,
+  x = 496,
+  y = 616,
+  width = 288,
+  height = 8,
+  pattern = "wall_low_border.1-2",
+}
+
+tile{
+  layer = -1,
+  x = 488,
+  y = 624,
+  width = 8,
+  height = 192,
+  pattern = "wall_low_border.3-2",
+}
+
+tile{
+  layer = -1,
+  x = 784,
+  y = 624,
+  width = 8,
+  height = 192,
+  pattern = "wall_low_border.4-2",
+}
+
+tile{
+  layer = -1,
+  x = 496,
+  y = 816,
+  width = 288,
+  height = 8,
+  pattern = "wall_low_border.2-2",
+}
+
+tile{
+  layer = -1,
+  x = 488,
+  y = 616,
+  width = 8,
+  height = 8,
+  pattern = "wall_low_border.corner.1-2",
+}
+
+tile{
+  layer = -1,
+  x = 784,
+  y = 616,
+  width = 8,
+  height = 8,
+  pattern = "wall_low_border.corner.2-2",
+}
+
+tile{
+  layer = -1,
+  x = 488,
+  y = 816,
+  width = 8,
+  height = 8,
+  pattern = "wall_low_border.corner.3-2",
+}
+
+tile{
+  layer = -1,
+  x = 784,
+  y = 816,
+  width = 8,
+  height = 8,
+  pattern = "wall_low_border.corner.4-2",
 }
 
 tile{
@@ -8864,7 +8864,7 @@ crystal_block{
 wall{
   layer = 0,
   x = 464,
-  y = 848,
+  y = 840,
   width = 352,
   height = 8,
   stops_hero = true,
@@ -8876,7 +8876,7 @@ wall{
 wall{
   layer = 0,
   x = 464,
-  y = 584,
+  y = 592,
   width = 352,
   height = 8,
   stops_hero = true,
@@ -8887,10 +8887,10 @@ wall{
 
 wall{
   layer = 0,
-  x = 456,
-  y = 592,
+  x = 464,
+  y = 600,
   width = 8,
-  height = 256,
+  height = 240,
   stops_hero = true,
   stops_npcs = true,
   stops_enemies = true,
@@ -8899,10 +8899,10 @@ wall{
 
 wall{
   layer = 0,
-  x = 816,
-  y = 592,
+  x = 808,
+  y = 600,
   width = 8,
-  height = 256,
+  height = 240,
   stops_hero = true,
   stops_npcs = true,
   stops_enemies = true,
