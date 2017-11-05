@@ -45,78 +45,6 @@ enemy{
 }
 
 enemy{
-  name = "auto_enemy_14",
-  layer = 0,
-  x = 2344,
-  y = 1285,
-  direction = 3,
-  breed = "alttp/rolling_spike_trap",
-}
-
-enemy{
-  name = "auto_enemy_15",
-  layer = 0,
-  x = 2344,
-  y = 1605,
-  direction = 3,
-  breed = "alttp/rolling_spike_trap",
-}
-
-enemy{
-  name = "auto_enemy_18",
-  layer = 0,
-  x = 2476,
-  y = 1037,
-  direction = 3,
-  breed = "alttp/stalfos_knight",
-}
-
-enemy{
-  name = "auto_enemy_21",
-  layer = 0,
-  x = 1353,
-  y = 1133,
-  direction = 3,
-  breed = "alttp/chasupa",
-}
-
-enemy{
-  name = "auto_enemy_22",
-  layer = 0,
-  x = 1353,
-  y = 1261,
-  direction = 3,
-  breed = "alttp/chasupa",
-}
-
-enemy{
-  name = "auto_enemy_23",
-  layer = 0,
-  x = 1529,
-  y = 1165,
-  direction = 3,
-  breed = "alttp/chasupa",
-}
-
-enemy{
-  name = "auto_enemy_24",
-  layer = 0,
-  x = 1529,
-  y = 1293,
-  direction = 3,
-  breed = "alttp/chasupa",
-}
-
-enemy{
-  name = "auto_enemy_25",
-  layer = 0,
-  x = 1785,
-  y = 1085,
-  direction = 3,
-  breed = "alttp/chasupa",
-}
-
-enemy{
   name = "auto_enemy_26",
   layer = 0,
   x = 2649,
@@ -216,60 +144,6 @@ enemy{
 }
 
 enemy{
-  name = "auto_enemy_62",
-  layer = 0,
-  x = 1384,
-  y = 1558,
-  direction = 3,
-  breed = "alttp/ropa",
-}
-
-enemy{
-  name = "auto_enemy_63",
-  layer = 0,
-  x = 2136,
-  y = 1078,
-  direction = 3,
-  breed = "alttp/ropa",
-}
-
-enemy{
-  name = "auto_enemy_64",
-  layer = 0,
-  x = 1688,
-  y = 1078,
-  direction = 3,
-  breed = "alttp/ropa",
-}
-
-enemy{
-  name = "auto_enemy_65",
-  layer = 0,
-  x = 2344,
-  y = 1798,
-  direction = 3,
-  breed = "alttp/ropa",
-}
-
-enemy{
-  name = "auto_enemy_83",
-  layer = 0,
-  x = 1685,
-  y = 1476,
-  direction = 3,
-  breed = "alttp/goriya_green",
-}
-
-enemy{
-  name = "auto_enemy_84",
-  layer = 0,
-  x = 1941,
-  y = 1556,
-  direction = 3,
-  breed = "alttp/goriya_green",
-}
-
-enemy{
   name = "auto_enemy_85",
   layer = 0,
   x = 2981,
@@ -285,33 +159,6 @@ enemy{
   y = 1796,
   direction = 3,
   breed = "alttp/goriya_green",
-}
-
-enemy{
-  name = "auto_enemy_87",
-  layer = 0,
-  x = 2165,
-  y = 1252,
-  direction = 3,
-  breed = "alttp/goriya_green",
-}
-
-enemy{
-  name = "auto_enemy_92",
-  layer = 0,
-  x = 2116,
-  y = 1796,
-  direction = 3,
-  breed = "alttp/eyegore_green",
-}
-
-enemy{
-  name = "auto_enemy_96",
-  layer = 0,
-  x = 1656,
-  y = 1853,
-  direction = 3,
-  breed = "alttp/stalfos_grey",
 }
 
 enemy{

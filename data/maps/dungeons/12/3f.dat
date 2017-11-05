@@ -3,22 +3,12 @@ properties{
   y = 720,
   width = 1280,
   height = 960,
-  min_layer = -2,
+  min_layer = -1,
   max_layer = 2,
   world = "dungeon_12",
   floor = 2,
   tileset = "dungeon/pink",
   music = "farore",
-}
-
-custom_entity{
-  layer = -2,
-  x = 8,
-  y = 13,
-  width = 1280,
-  height = 960,
-  direction = 0,
-  sprite = "work/1280x960",
 }
 
 tile{
