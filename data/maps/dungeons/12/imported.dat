@@ -45,87 +45,6 @@ enemy{
 }
 
 enemy{
-  name = "auto_enemy_5",
-  layer = 0,
-  x = 424,
-  y = 189,
-  direction = 3,
-  breed = "alttp/medusa",
-}
-
-enemy{
-  name = "auto_enemy_6",
-  layer = 0,
-  x = 568,
-  y = 109,
-  direction = 3,
-  breed = "alttp/medusa",
-}
-
-enemy{
-  name = "auto_enemy_7",
-  layer = 0,
-  x = 720,
-  y = 141,
-  direction = 3,
-  breed = "alttp/medusa",
-}
-
-enemy{
-  name = "auto_enemy_8",
-  layer = 0,
-  x = 856,
-  y = 61,
-  direction = 3,
-  breed = "alttp/medusa",
-}
-
-enemy{
-  name = "auto_enemy_9",
-  layer = 0,
-  x = 1112,
-  y = 605,
-  direction = 3,
-  breed = "alttp/medusa",
-}
-
-enemy{
-  name = "auto_enemy_10",
-  layer = 0,
-  x = 1128,
-  y = 605,
-  direction = 3,
-  breed = "alttp/medusa",
-}
-
-enemy{
-  name = "auto_enemy_11",
-  layer = 0,
-  x = 744,
-  y = 789,
-  direction = 3,
-  breed = "alttp/rolling_spike_trap",
-}
-
-enemy{
-  name = "auto_enemy_12",
-  layer = 0,
-  x = 904,
-  y = 789,
-  direction = 3,
-  breed = "alttp/rolling_spike_trap",
-}
-
-enemy{
-  name = "auto_enemy_13",
-  layer = 0,
-  x = 1064,
-  y = 789,
-  direction = 3,
-  breed = "alttp/rolling_spike_trap",
-}
-
-enemy{
   name = "auto_enemy_14",
   layer = 0,
   x = 2344,
@@ -150,24 +69,6 @@ enemy{
   y = 1037,
   direction = 3,
   breed = "alttp/stalfos_knight",
-}
-
-enemy{
-  name = "auto_enemy_19",
-  layer = 0,
-  x = 481,
-  y = 605,
-  direction = 3,
-  breed = "alttp/chasupa",
-}
-
-enemy{
-  name = "auto_enemy_20",
-  layer = 0,
-  x = 745,
-  y = 429,
-  direction = 3,
-  breed = "alttp/chasupa",
 }
 
 enemy{
@@ -315,105 +216,6 @@ enemy{
 }
 
 enemy{
-  name = "auto_enemy_37",
-  layer = 0,
-  x = 73,
-  y = 429,
-  direction = 3,
-  breed = "alttp/chasupa",
-}
-
-enemy{
-  name = "auto_enemy_38",
-  layer = 0,
-  x = 73,
-  y = 621,
-  direction = 3,
-  breed = "alttp/chasupa",
-}
-
-enemy{
-  name = "auto_enemy_39",
-  layer = 0,
-  x = 249,
-  y = 333,
-  direction = 3,
-  breed = "alttp/chasupa",
-}
-
-enemy{
-  name = "auto_enemy_40",
-  layer = 0,
-  x = 249,
-  y = 525,
-  direction = 3,
-  breed = "alttp/chasupa",
-}
-
-enemy{
-  name = "auto_enemy_44",
-  layer = 0,
-  x = 600,
-  y = 169,
-  direction = 3,
-  breed = "alttp/wizzrobe_white",
-}
-
-enemy{
-  name = "auto_enemy_45",
-  layer = 0,
-  x = 744,
-  y = 73,
-  direction = 3,
-  breed = "alttp/wizzrobe_white",
-}
-
-enemy{
-  name = "auto_enemy_50",
-  layer = 0,
-  x = 408,
-  y = 534,
-  direction = 3,
-  breed = "alttp/ropa",
-}
-
-enemy{
-  name = "auto_enemy_51",
-  layer = 0,
-  x = 552,
-  y = 534,
-  direction = 3,
-  breed = "alttp/ropa",
-}
-
-enemy{
-  name = "auto_enemy_52",
-  layer = 0,
-  x = 1144,
-  y = 86,
-  direction = 3,
-  breed = "alttp/ropa",
-}
-
-enemy{
-  name = "auto_enemy_53",
-  layer = 0,
-  x = 1016,
-  y = 598,
-  direction = 3,
-  breed = "alttp/ropa",
-}
-
-enemy{
-  name = "auto_enemy_54",
-  layer = 0,
-  x = 1224,
-  y = 598,
-  direction = 3,
-  breed = "alttp/ropa",
-}
-
-enemy{
   name = "auto_enemy_62",
   layer = 0,
   x = 1384,
@@ -447,51 +249,6 @@ enemy{
   y = 1798,
   direction = 3,
   breed = "alttp/ropa",
-}
-
-enemy{
-  name = "auto_enemy_72",
-  layer = 0,
-  x = 85,
-  y = 52,
-  direction = 3,
-  breed = "alttp/goriya_green",
-}
-
-enemy{
-  name = "auto_enemy_73",
-  layer = 0,
-  x = 229,
-  y = 52,
-  direction = 3,
-  breed = "alttp/goriya_green",
-}
-
-enemy{
-  name = "auto_enemy_74",
-  layer = 0,
-  x = 1173,
-  y = 388,
-  direction = 3,
-  breed = "alttp/goriya_green",
-}
-
-enemy{
-  name = "auto_enemy_75",
-  layer = 0,
-  x = 85,
-  y = 820,
-  direction = 3,
-  breed = "alttp/goriya_green",
-}
-
-enemy{
-  name = "auto_enemy_76",
-  layer = 0,
-  x = 229,
-  y = 820,
-  direction = 3,
-  breed = "alttp/goriya_green",
 }
 
 enemy{
@@ -540,39 +297,12 @@ enemy{
 }
 
 enemy{
-  name = "auto_enemy_89",
-  layer = 0,
-  x = 156,
-  y = 132,
-  direction = 3,
-  breed = "alttp/eyegore_green",
-}
-
-enemy{
-  name = "auto_enemy_90",
-  layer = 0,
-  x = 476,
-  y = 836,
-  direction = 3,
-  breed = "alttp/eyegore_green",
-}
-
-enemy{
   name = "auto_enemy_92",
   layer = 0,
   x = 2116,
   y = 1796,
   direction = 3,
   breed = "alttp/eyegore_green",
-}
-
-enemy{
-  name = "auto_enemy_93",
-  layer = 0,
-  x = 904,
-  y = 589,
-  direction = 3,
-  breed = "alttp/stalfos_grey",
 }
 
 enemy{
@@ -609,111 +339,6 @@ enemy{
   y = -139,
   direction = 3,
   breed = "som/dragon_snow",
-}
-
-block{
-  name = "auto_block_1",
-  layer = 0,
-  x = 280,
-  y = 77,
-  sprite = "entities/block",
-  pushable = true,
-  pullable = false,
-  maximum_moves = 2,
-}
-
-block{
-  name = "auto_block_2",
-  layer = 0,
-  x = 280,
-  y = 93,
-  sprite = "entities/block",
-  pushable = true,
-  pullable = false,
-  maximum_moves = 2,
-}
-
-block{
-  name = "auto_block_3",
-  layer = 0,
-  x = 264,
-  y = 93,
-  sprite = "entities/block",
-  pushable = true,
-  pullable = false,
-  maximum_moves = 2,
-}
-
-block{
-  name = "auto_block_4",
-  layer = 0,
-  x = 264,
-  y = 109,
-  sprite = "entities/block",
-  pushable = true,
-  pullable = false,
-  maximum_moves = 2,
-}
-
-block{
-  name = "auto_block_5",
-  layer = 0,
-  x = 264,
-  y = 125,
-  sprite = "entities/block",
-  pushable = true,
-  pullable = false,
-  maximum_moves = 2,
-}
-
-block{
-  name = "auto_block_6",
-  layer = 0,
-  x = 264,
-  y = 141,
-  sprite = "entities/block",
-  pushable = true,
-  pullable = false,
-  maximum_moves = 2,
-}
-
-block{
-  name = "auto_block_7",
-  layer = 0,
-  x = 264,
-  y = 157,
-  sprite = "entities/block",
-  pushable = true,
-  pullable = false,
-  maximum_moves = 2,
-}
-
-block{
-  name = "auto_block_8",
-  layer = 0,
-  x = 280,
-  y = 157,
-  sprite = "entities/block",
-  pushable = true,
-  pullable = false,
-  maximum_moves = 2,
-}
-
-block{
-  name = "auto_block_9",
-  layer = 0,
-  x = 280,
-  y = 173,
-  sprite = "entities/block",
-  pushable = true,
-  pullable = false,
-  maximum_moves = 2,
-}
-
-crystal{
-  layer = 0,
-  x = 480,
-  y = 349,
 }
 
 crystal{

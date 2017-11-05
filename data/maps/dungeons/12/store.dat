@@ -1918,7 +1918,7 @@ door{
 }
 
 door{
-  name = "weak_wall_a_3",
+  name = "weak_wall_a_2",
   layer = 0,
   x = 528,
   y = 400,
