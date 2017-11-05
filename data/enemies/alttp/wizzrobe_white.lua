@@ -81,7 +81,7 @@ end
 -- Function called by the bounced beam when colliding.
 function enemy:receive_bounced_projectile(other)
 
-  if other:get_breed() ~= "wizzrobe_beam" then
+  if other:get_breed() ~= "alttp/wizzrobe_beam" then
     return
   end
 

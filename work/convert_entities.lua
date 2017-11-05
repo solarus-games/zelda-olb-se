@@ -182,6 +182,10 @@ local chest_content_id_to_treasure_map = {  -- enum Type_Contenu
     treasure_name = "ice_rod",
     treasure_variant = 1,
   },
+  ["BOUCLIER_J"] = {
+    treasure_name = "shield",
+    treasure_variant = 3,
+  },
   -- TODO
 }
 
@@ -366,6 +370,14 @@ local function write_blocks(blocks)
     io.write("}\n")
     io.write("\n")
   end
+end
+
+-- Converts textual coordinate expressions to Solarus coordinates for a crystal.
+local function get_crystal_coords(src_x, src_y)
+
+  local x, y = evaluate_math(src_x), evaluate_math(src_y)
+  x, y = x + 8, y + 13  -- Add Solarus origin point.
+  return x, y
 end
 
 -- Returns a table of crystals descriptions with their properties.

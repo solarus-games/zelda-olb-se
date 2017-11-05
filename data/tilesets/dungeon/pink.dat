@@ -50685,3 +50685,19 @@ border_set{
   pattern_11 = "wall_hole.corner_reverse.4-1",
 }
 
+border_set{
+  id = "wall_low-1",
+  pattern_0 = "wall_low.4-1",
+  pattern_1 = "wall_low.1-1",
+  pattern_2 = "wall_low.3-1",
+  pattern_3 = "wall_low.2-1",
+  pattern_4 = "wall_low.corner.2-1",
+  pattern_5 = "wall_low.corner.1-1",
+  pattern_6 = "wall_low.corner.3-1",
+  pattern_7 = "wall_low.corner.4-1",
+  pattern_8 = "wall_low.corner_reverse.2-1",
+  pattern_9 = "wall_low.corner_reverse.1-1",
+  pattern_10 = "wall_low.corner_reverse.3-1",
+  pattern_11 = "wall_low.corner_reverse.4-1",
+}
+
