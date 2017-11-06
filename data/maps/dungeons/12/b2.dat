@@ -3,11 +3,10904 @@ properties{
   y = 720,
   width = 1280,
   height = 960,
-  min_layer = -1,
+  min_layer = 0,
   max_layer = 2,
   world = "dungeon_12",
   floor = -2,
   tileset = "dungeon/pink",
   music = "farore",
+}
+
+tile{
+  layer = 0,
+  x = 392,
+  y = 264,
+  width = 432,
+  height = 160,
+  pattern = "lava_parallax",
+}
+
+tile{
+  layer = 0,
+  x = 392,
+  y = 504,
+  width = 432,
+  height = 160,
+  pattern = "lava_parallax",
+}
+
+tile{
+  layer = 0,
+  x = 392,
+  y = 424,
+  width = 176,
+  height = 80,
+  pattern = "lava_parallax",
+}
+
+tile{
+  layer = 0,
+  x = 648,
+  y = 424,
+  width = 176,
+  height = 80,
+  pattern = "lava_parallax",
+}
+
+tile{
+  layer = 0,
+  x = 408,
+  y = 264,
+  width = 400,
+  height = 16,
+  pattern = "wall_hole.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 392,
+  y = 280,
+  width = 16,
+  height = 368,
+  pattern = "wall_hole.3-1",
+}
+
+tile{
+  layer = 0,
+  x = 808,
+  y = 280,
+  width = 16,
+  height = 368,
+  pattern = "wall_hole.4-1",
+}
+
+tile{
+  layer = 0,
+  x = 568,
+  y = 408,
+  width = 80,
+  height = 16,
+  pattern = "wall_hole.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 552,
+  y = 424,
+  width = 16,
+  height = 80,
+  pattern = "wall_hole.4-1",
+}
+
+tile{
+  layer = 0,
+  x = 648,
+  y = 424,
+  width = 16,
+  height = 80,
+  pattern = "wall_hole.3-1",
+}
+
+tile{
+  layer = 0,
+  x = 568,
+  y = 504,
+  width = 80,
+  height = 16,
+  pattern = "wall_hole.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 408,
+  y = 648,
+  width = 400,
+  height = 16,
+  pattern = "wall_hole.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 392,
+  y = 264,
+  width = 16,
+  height = 16,
+  pattern = "wall_hole.corner.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 808,
+  y = 264,
+  width = 16,
+  height = 16,
+  pattern = "wall_hole.corner.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 552,
+  y = 408,
+  width = 16,
+  height = 16,
+  pattern = "wall_hole.corner_reverse.4-1",
+}
+
+tile{
+  layer = 0,
+  x = 648,
+  y = 408,
+  width = 16,
+  height = 16,
+  pattern = "wall_hole.corner_reverse.3-1",
+}
+
+tile{
+  layer = 0,
+  x = 552,
+  y = 504,
+  width = 16,
+  height = 16,
+  pattern = "wall_hole.corner_reverse.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 648,
+  y = 504,
+  width = 16,
+  height = 16,
+  pattern = "wall_hole.corner_reverse.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 392,
+  y = 648,
+  width = 16,
+  height = 16,
+  pattern = "wall_hole.corner.3-1",
+}
+
+tile{
+  layer = 0,
+  x = 808,
+  y = 648,
+  width = 16,
+  height = 16,
+  pattern = "wall_hole.corner.4-1",
+}
+
+tile{
+  layer = 0,
+  x = 392,
+  y = 240,
+  width = 432,
+  height = 24,
+  pattern = "wall.1-2",
+}
+
+tile{
+  layer = 0,
+  x = 368,
+  y = 264,
+  width = 24,
+  height = 400,
+  pattern = "wall.3-2",
+}
+
+tile{
+  layer = 0,
+  x = 824,
+  y = 264,
+  width = 24,
+  height = 400,
+  pattern = "wall.4-2",
+}
+
+tile{
+  layer = 0,
+  x = 584,
+  y = 424,
+  width = 48,
+  height = 24,
+  pattern = "wall.2-2",
+}
+
+tile{
+  layer = 0,
+  x = 568,
+  y = 440,
+  width = 24,
+  height = 48,
+  pattern = "wall.4-2",
+}
+
+tile{
+  layer = 0,
+  x = 624,
+  y = 440,
+  width = 24,
+  height = 48,
+  pattern = "wall.3-2",
+}
+
+tile{
+  layer = 0,
+  x = 584,
+  y = 480,
+  width = 48,
+  height = 24,
+  pattern = "wall.1-2",
+}
+
+tile{
+  layer = 0,
+  x = 392,
+  y = 664,
+  width = 432,
+  height = 24,
+  pattern = "wall.2-2",
+}
+
+tile{
+  layer = 0,
+  x = 368,
+  y = 240,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.1-2",
+}
+
+tile{
+  layer = 0,
+  x = 824,
+  y = 240,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.2-2",
+}
+
+tile{
+  layer = 0,
+  x = 568,
+  y = 424,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner_reverse.4-2",
+}
+
+tile{
+  layer = 0,
+  x = 624,
+  y = 424,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner_reverse.3-2",
+}
+
+tile{
+  layer = 0,
+  x = 568,
+  y = 480,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner_reverse.2-2",
+}
+
+tile{
+  layer = 0,
+  x = 624,
+  y = 480,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner_reverse.1-2",
+}
+
+tile{
+  layer = 0,
+  x = 368,
+  y = 664,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.3-2",
+}
+
+tile{
+  layer = 0,
+  x = 824,
+  y = 664,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.4-2",
+}
+
+tile{
+  layer = 0,
+  x = 720,
+  y = 400,
+  width = 32,
+  height = 128,
+  pattern = "floor.20-1",
+}
+
+tile{
+  layer = 0,
+  x = 464,
+  y = 400,
+  width = 32,
+  height = 128,
+  pattern = "floor.20-1",
+}
+
+tile{
+  layer = 0,
+  x = 528,
+  y = 560,
+  width = 128,
+  height = 32,
+  pattern = "floor.20-1",
+}
+
+tile{
+  layer = 0,
+  x = 528,
+  y = 336,
+  width = 160,
+  height = 32,
+  pattern = "floor.20-1",
+}
+
+tile{
+  layer = 0,
+  x = 432,
+  y = 304,
+  width = 96,
+  height = 96,
+  pattern = "floor.20-1",
+}
+
+tile{
+  layer = 0,
+  x = 488,
+  y = 336,
+  width = 8,
+  height = 8,
+  pattern = "stairs_inner_up.1.top.border.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 472,
+  y = 336,
+  width = 16,
+  height = 8,
+  pattern = "stairs_inner_up.1.top-1",
+}
+
+tile{
+  layer = 0,
+  x = 464,
+  y = 336,
+  width = 8,
+  height = 8,
+  pattern = "stairs_inner_up.1.top.border.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 464,
+  y = 344,
+  width = 8,
+  height = 24,
+  pattern = "stairs_inner_up.1.border.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 488,
+  y = 344,
+  width = 8,
+  height = 24,
+  pattern = "stairs_inner_up.1.border.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 472,
+  y = 344,
+  width = 16,
+  height = 24,
+  pattern = "stairs_inner_up.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 688,
+  y = 304,
+  width = 96,
+  height = 96,
+  pattern = "floor.20-1",
+}
+
+tile{
+  layer = 0,
+  x = 688,
+  y = 528,
+  width = 96,
+  height = 96,
+  pattern = "floor.20-1",
+}
+
+tile{
+  layer = 0,
+  x = 432,
+  y = 528,
+  width = 96,
+  height = 96,
+  pattern = "floor.20-1",
+}
+
+tile{
+  layer = 0,
+  x = 432,
+  y = 296,
+  width = 96,
+  height = 8,
+  pattern = "hole.2",
+}
+
+tile{
+  layer = 0,
+  x = 688,
+  y = 296,
+  width = 96,
+  height = 8,
+  pattern = "hole.2",
+}
+
+tile{
+  layer = 0,
+  x = 424,
+  y = 304,
+  width = 8,
+  height = 96,
+  pattern = "hole.4",
+}
+
+tile{
+  layer = 0,
+  x = 528,
+  y = 304,
+  width = 8,
+  height = 24,
+  pattern = "hole.3",
+}
+
+tile{
+  layer = 0,
+  x = 680,
+  y = 304,
+  width = 8,
+  height = 24,
+  pattern = "hole.4",
+}
+
+tile{
+  layer = 0,
+  x = 784,
+  y = 304,
+  width = 8,
+  height = 96,
+  pattern = "hole.3",
+}
+
+tile{
+  layer = 0,
+  x = 536,
+  y = 328,
+  width = 144,
+  height = 8,
+  pattern = "hole.2",
+}
+
+tile{
+  layer = 0,
+  x = 536,
+  y = 368,
+  width = 144,
+  height = 8,
+  pattern = "hole.1",
+}
+
+tile{
+  layer = 0,
+  x = 528,
+  y = 376,
+  width = 8,
+  height = 24,
+  pattern = "hole.3",
+}
+
+tile{
+  layer = 0,
+  x = 680,
+  y = 376,
+  width = 8,
+  height = 24,
+  pattern = "hole.4",
+}
+
+tile{
+  layer = 0,
+  x = 432,
+  y = 400,
+  width = 24,
+  height = 8,
+  pattern = "hole.1",
+}
+
+tile{
+  layer = 0,
+  x = 504,
+  y = 400,
+  width = 24,
+  height = 8,
+  pattern = "hole.1",
+}
+
+tile{
+  layer = 0,
+  x = 688,
+  y = 400,
+  width = 24,
+  height = 8,
+  pattern = "hole.1",
+}
+
+tile{
+  layer = 0,
+  x = 760,
+  y = 400,
+  width = 24,
+  height = 8,
+  pattern = "hole.1",
+}
+
+tile{
+  layer = 0,
+  x = 456,
+  y = 408,
+  width = 8,
+  height = 112,
+  pattern = "hole.4",
+}
+
+tile{
+  layer = 0,
+  x = 496,
+  y = 408,
+  width = 8,
+  height = 112,
+  pattern = "hole.3",
+}
+
+tile{
+  layer = 0,
+  x = 712,
+  y = 408,
+  width = 8,
+  height = 112,
+  pattern = "hole.4",
+}
+
+tile{
+  layer = 0,
+  x = 752,
+  y = 408,
+  width = 8,
+  height = 112,
+  pattern = "hole.3",
+}
+
+tile{
+  layer = 0,
+  x = 432,
+  y = 520,
+  width = 24,
+  height = 8,
+  pattern = "hole.2",
+}
+
+tile{
+  layer = 0,
+  x = 504,
+  y = 520,
+  width = 24,
+  height = 8,
+  pattern = "hole.2",
+}
+
+tile{
+  layer = 0,
+  x = 688,
+  y = 520,
+  width = 24,
+  height = 8,
+  pattern = "hole.2",
+}
+
+tile{
+  layer = 0,
+  x = 760,
+  y = 520,
+  width = 24,
+  height = 8,
+  pattern = "hole.2",
+}
+
+tile{
+  layer = 0,
+  x = 424,
+  y = 528,
+  width = 8,
+  height = 96,
+  pattern = "hole.4",
+}
+
+tile{
+  layer = 0,
+  x = 528,
+  y = 528,
+  width = 8,
+  height = 24,
+  pattern = "hole.3",
+}
+
+tile{
+  layer = 0,
+  x = 680,
+  y = 528,
+  width = 8,
+  height = 96,
+  pattern = "hole.4",
+}
+
+tile{
+  layer = 0,
+  x = 784,
+  y = 528,
+  width = 8,
+  height = 96,
+  pattern = "hole.3",
+}
+
+tile{
+  layer = 0,
+  x = 536,
+  y = 552,
+  width = 120,
+  height = 8,
+  pattern = "hole.2",
+}
+
+tile{
+  layer = 0,
+  x = 656,
+  y = 560,
+  width = 8,
+  height = 32,
+  pattern = "hole.3",
+}
+
+tile{
+  layer = 0,
+  x = 536,
+  y = 592,
+  width = 120,
+  height = 8,
+  pattern = "hole.1",
+}
+
+tile{
+  layer = 0,
+  x = 528,
+  y = 600,
+  width = 8,
+  height = 24,
+  pattern = "hole.3",
+}
+
+tile{
+  layer = 0,
+  x = 432,
+  y = 624,
+  width = 96,
+  height = 8,
+  pattern = "hole.1",
+}
+
+tile{
+  layer = 0,
+  x = 688,
+  y = 624,
+  width = 96,
+  height = 8,
+  pattern = "hole.1",
+}
+
+tile{
+  layer = 0,
+  x = 424,
+  y = 296,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner_reverse.4",
+}
+
+tile{
+  layer = 0,
+  x = 528,
+  y = 296,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner_reverse.3",
+}
+
+tile{
+  layer = 0,
+  x = 680,
+  y = 296,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner_reverse.4",
+}
+
+tile{
+  layer = 0,
+  x = 784,
+  y = 296,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner_reverse.3",
+}
+
+tile{
+  layer = 0,
+  x = 528,
+  y = 328,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner.3",
+}
+
+tile{
+  layer = 0,
+  x = 680,
+  y = 328,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner.4",
+}
+
+tile{
+  layer = 0,
+  x = 528,
+  y = 368,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner.1",
+}
+
+tile{
+  layer = 0,
+  x = 680,
+  y = 368,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner.2",
+}
+
+tile{
+  layer = 0,
+  x = 424,
+  y = 400,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner_reverse.2",
+}
+
+tile{
+  layer = 0,
+  x = 456,
+  y = 400,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner.2",
+}
+
+tile{
+  layer = 0,
+  x = 496,
+  y = 400,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner.1",
+}
+
+tile{
+  layer = 0,
+  x = 528,
+  y = 400,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner_reverse.1",
+}
+
+tile{
+  layer = 0,
+  x = 680,
+  y = 400,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner_reverse.2",
+}
+
+tile{
+  layer = 0,
+  x = 712,
+  y = 400,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner.2",
+}
+
+tile{
+  layer = 0,
+  x = 752,
+  y = 400,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner.1",
+}
+
+tile{
+  layer = 0,
+  x = 784,
+  y = 400,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner_reverse.1",
+}
+
+tile{
+  layer = 0,
+  x = 424,
+  y = 520,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner_reverse.4",
+}
+
+tile{
+  layer = 0,
+  x = 456,
+  y = 520,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner.4",
+}
+
+tile{
+  layer = 0,
+  x = 496,
+  y = 520,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner.3",
+}
+
+tile{
+  layer = 0,
+  x = 528,
+  y = 520,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner_reverse.3",
+}
+
+tile{
+  layer = 0,
+  x = 680,
+  y = 520,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner_reverse.4",
+}
+
+tile{
+  layer = 0,
+  x = 712,
+  y = 520,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner.4",
+}
+
+tile{
+  layer = 0,
+  x = 752,
+  y = 520,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner.3",
+}
+
+tile{
+  layer = 0,
+  x = 784,
+  y = 520,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner_reverse.3",
+}
+
+tile{
+  layer = 0,
+  x = 528,
+  y = 552,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner.3",
+}
+
+tile{
+  layer = 0,
+  x = 656,
+  y = 552,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner_reverse.3",
+}
+
+tile{
+  layer = 0,
+  x = 528,
+  y = 592,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner.1",
+}
+
+tile{
+  layer = 0,
+  x = 656,
+  y = 592,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner_reverse.1",
+}
+
+tile{
+  layer = 0,
+  x = 424,
+  y = 624,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner_reverse.2",
+}
+
+tile{
+  layer = 0,
+  x = 528,
+  y = 624,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner_reverse.1",
+}
+
+tile{
+  layer = 0,
+  x = 680,
+  y = 624,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner_reverse.2",
+}
+
+tile{
+  layer = 0,
+  x = 784,
+  y = 624,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner_reverse.1",
+}
+
+tile{
+  layer = 0,
+  x = 344,
+  y = 744,
+  width = 272,
+  height = 192,
+  pattern = "lava_parallax",
+}
+
+tile{
+  layer = 0,
+  x = 360,
+  y = 744,
+  width = 240,
+  height = 16,
+  pattern = "wall_hole.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 344,
+  y = 760,
+  width = 16,
+  height = 160,
+  pattern = "wall_hole.3-1",
+}
+
+tile{
+  layer = 0,
+  x = 600,
+  y = 760,
+  width = 16,
+  height = 160,
+  pattern = "wall_hole.4-1",
+}
+
+tile{
+  layer = 0,
+  x = 360,
+  y = 920,
+  width = 240,
+  height = 16,
+  pattern = "wall_hole.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 344,
+  y = 744,
+  width = 16,
+  height = 16,
+  pattern = "wall_hole.corner.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 600,
+  y = 744,
+  width = 16,
+  height = 16,
+  pattern = "wall_hole.corner.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 344,
+  y = 920,
+  width = 16,
+  height = 16,
+  pattern = "wall_hole.corner.3-1",
+}
+
+tile{
+  layer = 0,
+  x = 600,
+  y = 920,
+  width = 16,
+  height = 16,
+  pattern = "wall_hole.corner.4-1",
+}
+
+tile{
+  layer = 0,
+  x = 344,
+  y = 720,
+  width = 272,
+  height = 24,
+  pattern = "wall.1-2",
+}
+
+tile{
+  layer = 0,
+  x = 320,
+  y = 744,
+  width = 24,
+  height = 192,
+  pattern = "wall.3-2",
+}
+
+tile{
+  layer = 0,
+  x = 616,
+  y = 744,
+  width = 24,
+  height = 192,
+  pattern = "wall.4-2",
+}
+
+tile{
+  layer = 0,
+  x = 344,
+  y = 936,
+  width = 272,
+  height = 24,
+  pattern = "wall.2-2",
+}
+
+tile{
+  layer = 0,
+  x = 320,
+  y = 720,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.1-2",
+}
+
+tile{
+  layer = 0,
+  x = 616,
+  y = 720,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.2-2",
+}
+
+tile{
+  layer = 0,
+  x = 320,
+  y = 936,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.3-2",
+}
+
+tile{
+  layer = 0,
+  x = 616,
+  y = 936,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.4-2",
+}
+
+tile{
+  layer = 0,
+  x = 344,
+  y = 40,
+  width = 240,
+  height = 160,
+  pattern = "lava_parallax",
+}
+
+tile{
+  layer = 0,
+  x = 360,
+  y = 40,
+  width = 208,
+  height = 16,
+  pattern = "wall_hole.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 344,
+  y = 56,
+  width = 16,
+  height = 128,
+  pattern = "wall_hole.3-1",
+}
+
+tile{
+  layer = 0,
+  x = 568,
+  y = 56,
+  width = 16,
+  height = 128,
+  pattern = "wall_hole.4-1",
+}
+
+tile{
+  layer = 0,
+  x = 360,
+  y = 184,
+  width = 208,
+  height = 16,
+  pattern = "wall_hole.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 344,
+  y = 40,
+  width = 16,
+  height = 16,
+  pattern = "wall_hole.corner.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 568,
+  y = 40,
+  width = 16,
+  height = 16,
+  pattern = "wall_hole.corner.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 344,
+  y = 184,
+  width = 16,
+  height = 16,
+  pattern = "wall_hole.corner.3-1",
+}
+
+tile{
+  layer = 0,
+  x = 568,
+  y = 184,
+  width = 16,
+  height = 16,
+  pattern = "wall_hole.corner.4-1",
+}
+
+tile{
+  layer = 0,
+  x = 344,
+  y = 16,
+  width = 240,
+  height = 24,
+  pattern = "wall.1-2",
+}
+
+tile{
+  layer = 0,
+  x = 320,
+  y = 40,
+  width = 24,
+  height = 160,
+  pattern = "wall.3-2",
+}
+
+tile{
+  layer = 0,
+  x = 584,
+  y = 40,
+  width = 24,
+  height = 160,
+  pattern = "wall.4-2",
+}
+
+tile{
+  layer = 0,
+  x = 344,
+  y = 200,
+  width = 240,
+  height = 24,
+  pattern = "wall.2-2",
+}
+
+tile{
+  layer = 0,
+  x = 320,
+  y = 16,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.1-2",
+}
+
+tile{
+  layer = 0,
+  x = 584,
+  y = 16,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.2-2",
+}
+
+tile{
+  layer = 0,
+  x = 320,
+  y = 200,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.3-2",
+}
+
+tile{
+  layer = 0,
+  x = 584,
+  y = 200,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.4-2",
+}
+
+tile{
+  layer = 0,
+  x = 40,
+  y = 40,
+  width = 256,
+  height = 416,
+  pattern = "lava_parallax",
+}
+
+tile{
+  layer = 0,
+  x = 56,
+  y = 40,
+  width = 224,
+  height = 16,
+  pattern = "wall_hole.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 40,
+  y = 56,
+  width = 16,
+  height = 384,
+  pattern = "wall_hole.3-1",
+}
+
+tile{
+  layer = 0,
+  x = 280,
+  y = 56,
+  width = 16,
+  height = 384,
+  pattern = "wall_hole.4-1",
+}
+
+tile{
+  layer = 0,
+  x = 56,
+  y = 440,
+  width = 224,
+  height = 16,
+  pattern = "wall_hole.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 40,
+  y = 40,
+  width = 16,
+  height = 16,
+  pattern = "wall_hole.corner.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 280,
+  y = 40,
+  width = 16,
+  height = 16,
+  pattern = "wall_hole.corner.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 40,
+  y = 440,
+  width = 16,
+  height = 16,
+  pattern = "wall_hole.corner.3-1",
+}
+
+tile{
+  layer = 0,
+  x = 280,
+  y = 440,
+  width = 16,
+  height = 16,
+  pattern = "wall_hole.corner.4-1",
+}
+
+tile{
+  layer = 0,
+  x = 40,
+  y = 16,
+  width = 256,
+  height = 24,
+  pattern = "wall.1-2",
+}
+
+tile{
+  layer = 0,
+  x = 16,
+  y = 40,
+  width = 24,
+  height = 416,
+  pattern = "wall.3-2",
+}
+
+tile{
+  layer = 0,
+  x = 296,
+  y = 40,
+  width = 24,
+  height = 416,
+  pattern = "wall.4-2",
+}
+
+tile{
+  layer = 0,
+  x = 40,
+  y = 456,
+  width = 256,
+  height = 24,
+  pattern = "wall.2-2",
+}
+
+tile{
+  layer = 0,
+  x = 16,
+  y = 16,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.1-2",
+}
+
+tile{
+  layer = 0,
+  x = 296,
+  y = 16,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.2-2",
+}
+
+tile{
+  layer = 0,
+  x = 16,
+  y = 456,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.3-2",
+}
+
+tile{
+  layer = 0,
+  x = 296,
+  y = 456,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.4-2",
+}
+
+tile{
+  layer = 0,
+  x = 352,
+  y = 816,
+  width = 32,
+  height = 48,
+  pattern = "floor.20-1",
+}
+
+tile{
+  layer = 0,
+  x = 576,
+  y = 816,
+  width = 32,
+  height = 48,
+  pattern = "floor.20-1",
+}
+
+tile{
+  layer = 0,
+  x = 384,
+  y = 784,
+  width = 192,
+  height = 112,
+  pattern = "floor.20-1",
+}
+
+tile{
+  layer = 0,
+  x = 608,
+  y = 816,
+  width = 8,
+  height = 48,
+  pattern = "wall_border.4-2",
+}
+
+tile{
+  layer = 0,
+  x = 344,
+  y = 816,
+  width = 8,
+  height = 48,
+  pattern = "wall_border.3-2",
+}
+
+tile{
+  layer = 0,
+  x = 384,
+  y = 776,
+  width = 192,
+  height = 8,
+  pattern = "hole.2",
+}
+
+tile{
+  layer = 0,
+  x = 376,
+  y = 784,
+  width = 8,
+  height = 24,
+  pattern = "hole.4",
+}
+
+tile{
+  layer = 0,
+  x = 576,
+  y = 784,
+  width = 8,
+  height = 24,
+  pattern = "hole.3",
+}
+
+tile{
+  layer = 0,
+  x = 344,
+  y = 808,
+  width = 32,
+  height = 8,
+  pattern = "hole.2",
+}
+
+tile{
+  layer = 0,
+  x = 584,
+  y = 808,
+  width = 32,
+  height = 8,
+  pattern = "hole.2",
+}
+
+tile{
+  layer = 0,
+  x = 344,
+  y = 864,
+  width = 32,
+  height = 8,
+  pattern = "hole.1",
+}
+
+tile{
+  layer = 0,
+  x = 584,
+  y = 864,
+  width = 32,
+  height = 8,
+  pattern = "hole.1",
+}
+
+tile{
+  layer = 0,
+  x = 376,
+  y = 872,
+  width = 8,
+  height = 24,
+  pattern = "hole.4",
+}
+
+tile{
+  layer = 0,
+  x = 576,
+  y = 872,
+  width = 8,
+  height = 24,
+  pattern = "hole.3",
+}
+
+tile{
+  layer = 0,
+  x = 384,
+  y = 896,
+  width = 192,
+  height = 8,
+  pattern = "hole.1",
+}
+
+tile{
+  layer = 0,
+  x = 376,
+  y = 776,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner_reverse.4",
+}
+
+tile{
+  layer = 0,
+  x = 576,
+  y = 776,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner_reverse.3",
+}
+
+tile{
+  layer = 0,
+  x = 376,
+  y = 808,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner.4",
+}
+
+tile{
+  layer = 0,
+  x = 576,
+  y = 808,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner.3",
+}
+
+tile{
+  layer = 0,
+  x = 376,
+  y = 864,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner.2",
+}
+
+tile{
+  layer = 0,
+  x = 576,
+  y = 864,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner.1",
+}
+
+tile{
+  layer = 0,
+  x = 376,
+  y = 896,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner_reverse.2",
+}
+
+tile{
+  layer = 0,
+  x = 576,
+  y = 896,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner_reverse.1",
+}
+
+tile{
+  layer = 0,
+  x = 696,
+  y = 24,
+  width = 240,
+  height = 192,
+  pattern = "lava_parallax",
+}
+
+tile{
+  layer = 0,
+  x = 712,
+  y = 24,
+  width = 208,
+  height = 16,
+  pattern = "wall_hole.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 696,
+  y = 40,
+  width = 16,
+  height = 160,
+  pattern = "wall_hole.3-1",
+}
+
+tile{
+  layer = 0,
+  x = 920,
+  y = 40,
+  width = 16,
+  height = 160,
+  pattern = "wall_hole.4-1",
+}
+
+tile{
+  layer = 0,
+  x = 712,
+  y = 200,
+  width = 208,
+  height = 16,
+  pattern = "wall_hole.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 696,
+  y = 24,
+  width = 16,
+  height = 16,
+  pattern = "wall_hole.corner.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 920,
+  y = 24,
+  width = 16,
+  height = 16,
+  pattern = "wall_hole.corner.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 696,
+  y = 200,
+  width = 16,
+  height = 16,
+  pattern = "wall_hole.corner.3-1",
+}
+
+tile{
+  layer = 0,
+  x = 920,
+  y = 200,
+  width = 16,
+  height = 16,
+  pattern = "wall_hole.corner.4-1",
+}
+
+tile{
+  layer = 0,
+  x = 696,
+  y = 0,
+  width = 240,
+  height = 24,
+  pattern = "wall.1-2",
+}
+
+tile{
+  layer = 0,
+  x = 672,
+  y = 24,
+  width = 24,
+  height = 192,
+  pattern = "wall.3-2",
+}
+
+tile{
+  layer = 0,
+  x = 936,
+  y = 24,
+  width = 24,
+  height = 192,
+  pattern = "wall.4-2",
+}
+
+tile{
+  layer = 0,
+  x = 696,
+  y = 216,
+  width = 240,
+  height = 24,
+  pattern = "wall.2-2",
+}
+
+tile{
+  layer = 0,
+  x = 672,
+  y = 0,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.1-2",
+}
+
+tile{
+  layer = 0,
+  x = 936,
+  y = 0,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.2-2",
+}
+
+tile{
+  layer = 0,
+  x = 672,
+  y = 216,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.3-2",
+}
+
+tile{
+  layer = 0,
+  x = 936,
+  y = 216,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.4-2",
+}
+
+tile{
+  layer = 0,
+  x = 864,
+  y = 96,
+  width = 64,
+  height = 48,
+  pattern = "floor.20-1",
+}
+
+tile{
+  layer = 0,
+  x = 736,
+  y = 64,
+  width = 128,
+  height = 112,
+  pattern = "floor.20-1",
+}
+
+tile{
+  layer = 0,
+  x = 984,
+  y = 40,
+  width = 272,
+  height = 416,
+  pattern = "lava_parallax",
+}
+
+tile{
+  layer = 0,
+  x = 1000,
+  y = 440,
+  width = 240,
+  height = 16,
+  pattern = "wall_hole.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 1000,
+  y = 40,
+  width = 240,
+  height = 16,
+  pattern = "wall_hole.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 984,
+  y = 56,
+  width = 16,
+  height = 384,
+  pattern = "wall_hole.3-1",
+}
+
+tile{
+  layer = 0,
+  x = 1240,
+  y = 56,
+  width = 16,
+  height = 384,
+  pattern = "wall_hole.4-1",
+}
+
+tile{
+  layer = 0,
+  x = 984,
+  y = 40,
+  width = 16,
+  height = 16,
+  pattern = "wall_hole.corner.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 1240,
+  y = 40,
+  width = 16,
+  height = 16,
+  pattern = "wall_hole.corner.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 984,
+  y = 440,
+  width = 16,
+  height = 16,
+  pattern = "wall_hole.corner.3-1",
+}
+
+tile{
+  layer = 0,
+  x = 1240,
+  y = 440,
+  width = 16,
+  height = 16,
+  pattern = "wall_hole.corner.4-1",
+}
+
+tile{
+  layer = 0,
+  x = 984,
+  y = 16,
+  width = 272,
+  height = 24,
+  pattern = "wall.1-2",
+}
+
+tile{
+  layer = 0,
+  x = 960,
+  y = 40,
+  width = 24,
+  height = 416,
+  pattern = "wall.3-2",
+}
+
+tile{
+  layer = 0,
+  x = 1256,
+  y = 40,
+  width = 24,
+  height = 416,
+  pattern = "wall.4-2",
+}
+
+tile{
+  layer = 0,
+  x = 984,
+  y = 456,
+  width = 272,
+  height = 24,
+  pattern = "wall.2-2",
+}
+
+tile{
+  layer = 0,
+  x = 960,
+  y = 16,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.1-2",
+}
+
+tile{
+  layer = 0,
+  x = 1256,
+  y = 16,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.2-2",
+}
+
+tile{
+  layer = 0,
+  x = 960,
+  y = 456,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.3-2",
+}
+
+tile{
+  layer = 0,
+  x = 1256,
+  y = 456,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.4-2",
+}
+
+tile{
+  layer = 0,
+  x = 1016,
+  y = 504,
+  width = 208,
+  height = 192,
+  pattern = "lava_parallax",
+}
+
+tile{
+  layer = 0,
+  x = 1032,
+  y = 504,
+  width = 176,
+  height = 16,
+  pattern = "wall_hole.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 1016,
+  y = 520,
+  width = 16,
+  height = 160,
+  pattern = "wall_hole.3-1",
+}
+
+tile{
+  layer = 0,
+  x = 1208,
+  y = 520,
+  width = 16,
+  height = 160,
+  pattern = "wall_hole.4-1",
+}
+
+tile{
+  layer = 0,
+  x = 1032,
+  y = 680,
+  width = 176,
+  height = 16,
+  pattern = "wall_hole.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 1016,
+  y = 504,
+  width = 16,
+  height = 16,
+  pattern = "wall_hole.corner.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 1208,
+  y = 504,
+  width = 16,
+  height = 16,
+  pattern = "wall_hole.corner.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 1016,
+  y = 680,
+  width = 16,
+  height = 16,
+  pattern = "wall_hole.corner.3-1",
+}
+
+tile{
+  layer = 0,
+  x = 1208,
+  y = 680,
+  width = 16,
+  height = 16,
+  pattern = "wall_hole.corner.4-1",
+}
+
+tile{
+  layer = 0,
+  x = 1016,
+  y = 480,
+  width = 208,
+  height = 24,
+  pattern = "wall.1-2",
+}
+
+tile{
+  layer = 0,
+  x = 992,
+  y = 504,
+  width = 24,
+  height = 192,
+  pattern = "wall.3-2",
+}
+
+tile{
+  layer = 0,
+  x = 1224,
+  y = 504,
+  width = 24,
+  height = 192,
+  pattern = "wall.4-2",
+}
+
+tile{
+  layer = 0,
+  x = 1016,
+  y = 696,
+  width = 208,
+  height = 24,
+  pattern = "wall.2-2",
+}
+
+tile{
+  layer = 0,
+  x = 992,
+  y = 480,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.1-2",
+}
+
+tile{
+  layer = 0,
+  x = 1224,
+  y = 480,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.2-2",
+}
+
+tile{
+  layer = 0,
+  x = 992,
+  y = 696,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.3-2",
+}
+
+tile{
+  layer = 0,
+  x = 1224,
+  y = 696,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.4-2",
+}
+
+tile{
+  layer = 0,
+  x = 984,
+  y = 808,
+  width = 160,
+  height = 64,
+  pattern = "floor.20-1",
+}
+
+tile{
+  layer = 0,
+  x = 1096,
+  y = 744,
+  width = 48,
+  height = 64,
+  pattern = "floor.20-1",
+}
+
+tile{
+  layer = 0,
+  x = 1104,
+  y = 744,
+  width = 32,
+  height = 8,
+  pattern = "wall_border.1-2",
+}
+
+tile{
+  layer = 0,
+  x = 1096,
+  y = 752,
+  width = 8,
+  height = 64,
+  pattern = "wall_border.3-2",
+}
+
+tile{
+  layer = 0,
+  x = 1136,
+  y = 752,
+  width = 8,
+  height = 112,
+  pattern = "wall_border.4-2",
+}
+
+tile{
+  layer = 0,
+  x = 992,
+  y = 808,
+  width = 112,
+  height = 8,
+  pattern = "wall_border.1-2",
+}
+
+tile{
+  layer = 0,
+  x = 984,
+  y = 816,
+  width = 8,
+  height = 48,
+  pattern = "wall_border.3-2",
+}
+
+tile{
+  layer = 0,
+  x = 992,
+  y = 864,
+  width = 144,
+  height = 8,
+  pattern = "wall_border.2-2",
+}
+
+tile{
+  layer = 0,
+  x = 1096,
+  y = 744,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner.1-2",
+}
+
+tile{
+  layer = 0,
+  x = 1136,
+  y = 744,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner.2-2",
+}
+
+tile{
+  layer = 0,
+  x = 984,
+  y = 808,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner.1-2",
+}
+
+tile{
+  layer = 0,
+  x = 1096,
+  y = 808,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner_reverse.1-2",
+}
+
+tile{
+  layer = 0,
+  x = 984,
+  y = 864,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner.3-2",
+}
+
+tile{
+  layer = 0,
+  x = 1136,
+  y = 864,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner.4-2",
+}
+
+tile{
+  layer = 0,
+  x = 1096,
+  y = 720,
+  width = 48,
+  height = 24,
+  pattern = "wall.1-2",
+}
+
+tile{
+  layer = 0,
+  x = 1072,
+  y = 744,
+  width = 24,
+  height = 48,
+  pattern = "wall.3-2",
+}
+
+tile{
+  layer = 0,
+  x = 1144,
+  y = 744,
+  width = 24,
+  height = 128,
+  pattern = "wall.4-2",
+}
+
+tile{
+  layer = 0,
+  x = 984,
+  y = 784,
+  width = 96,
+  height = 24,
+  pattern = "wall.1-2",
+}
+
+tile{
+  layer = 0,
+  x = 960,
+  y = 808,
+  width = 24,
+  height = 64,
+  pattern = "wall.3-2",
+}
+
+tile{
+  layer = 0,
+  x = 984,
+  y = 872,
+  width = 160,
+  height = 24,
+  pattern = "wall.2-2",
+}
+
+tile{
+  layer = 0,
+  x = 1072,
+  y = 720,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.1-2",
+}
+
+tile{
+  layer = 0,
+  x = 1144,
+  y = 720,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.2-2",
+}
+
+tile{
+  layer = 0,
+  x = 960,
+  y = 784,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.1-2",
+}
+
+tile{
+  layer = 0,
+  x = 1072,
+  y = 784,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner_reverse.1-2",
+}
+
+tile{
+  layer = 0,
+  x = 960,
+  y = 872,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.3-2",
+}
+
+tile{
+  layer = 0,
+  x = 1144,
+  y = 872,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.4-2",
+}
+
+tile{
+  layer = 0,
+  x = 664,
+  y = 808,
+  width = 64,
+  height = 64,
+  pattern = "floor.20-1",
+}
+
+tile{
+  layer = 0,
+  x = 872,
+  y = 808,
+  width = 64,
+  height = 64,
+  pattern = "floor.20-1",
+}
+
+tile{
+  layer = 0,
+  x = 728,
+  y = 776,
+  width = 144,
+  height = 128,
+  pattern = "floor.20-1",
+}
+
+tile{
+  layer = 0,
+  x = 736,
+  y = 776,
+  width = 128,
+  height = 8,
+  pattern = "wall_border.1-2",
+}
+
+tile{
+  layer = 0,
+  x = 728,
+  y = 784,
+  width = 8,
+  height = 32,
+  pattern = "wall_border.3-2",
+}
+
+tile{
+  layer = 0,
+  x = 864,
+  y = 784,
+  width = 8,
+  height = 32,
+  pattern = "wall_border.4-2",
+}
+
+tile{
+  layer = 0,
+  x = 672,
+  y = 808,
+  width = 64,
+  height = 8,
+  pattern = "wall_border.1-2",
+}
+
+tile{
+  layer = 0,
+  x = 864,
+  y = 808,
+  width = 64,
+  height = 8,
+  pattern = "wall_border.1-2",
+}
+
+tile{
+  layer = 0,
+  x = 664,
+  y = 816,
+  width = 8,
+  height = 48,
+  pattern = "wall_border.3-2",
+}
+
+tile{
+  layer = 0,
+  x = 928,
+  y = 816,
+  width = 8,
+  height = 48,
+  pattern = "wall_border.4-2",
+}
+
+tile{
+  layer = 0,
+  x = 672,
+  y = 864,
+  width = 64,
+  height = 8,
+  pattern = "wall_border.2-2",
+}
+
+tile{
+  layer = 0,
+  x = 864,
+  y = 864,
+  width = 64,
+  height = 8,
+  pattern = "wall_border.2-2",
+}
+
+tile{
+  layer = 0,
+  x = 728,
+  y = 864,
+  width = 8,
+  height = 32,
+  pattern = "wall_border.3-2",
+}
+
+tile{
+  layer = 0,
+  x = 864,
+  y = 864,
+  width = 8,
+  height = 32,
+  pattern = "wall_border.4-2",
+}
+
+tile{
+  layer = 0,
+  x = 736,
+  y = 896,
+  width = 128,
+  height = 8,
+  pattern = "wall_border.2-2",
+}
+
+tile{
+  layer = 0,
+  x = 728,
+  y = 776,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner.1-2",
+}
+
+tile{
+  layer = 0,
+  x = 864,
+  y = 776,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner.2-2",
+}
+
+tile{
+  layer = 0,
+  x = 664,
+  y = 808,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner.1-2",
+}
+
+tile{
+  layer = 0,
+  x = 728,
+  y = 808,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner_reverse.1-2",
+}
+
+tile{
+  layer = 0,
+  x = 864,
+  y = 808,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner_reverse.2-2",
+}
+
+tile{
+  layer = 0,
+  x = 928,
+  y = 808,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner.2-2",
+}
+
+tile{
+  layer = 0,
+  x = 664,
+  y = 864,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner.3-2",
+}
+
+tile{
+  layer = 0,
+  x = 728,
+  y = 864,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner_reverse.3-2",
+}
+
+tile{
+  layer = 0,
+  x = 864,
+  y = 864,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner_reverse.4-2",
+}
+
+tile{
+  layer = 0,
+  x = 928,
+  y = 864,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner.4-2",
+}
+
+tile{
+  layer = 0,
+  x = 728,
+  y = 896,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner.3-2",
+}
+
+tile{
+  layer = 0,
+  x = 864,
+  y = 896,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner.4-2",
+}
+
+tile{
+  layer = 0,
+  x = 728,
+  y = 752,
+  width = 144,
+  height = 24,
+  pattern = "wall.1-2",
+}
+
+tile{
+  layer = 0,
+  x = 704,
+  y = 776,
+  width = 24,
+  height = 16,
+  pattern = "wall.3-2",
+}
+
+tile{
+  layer = 0,
+  x = 872,
+  y = 776,
+  width = 24,
+  height = 16,
+  pattern = "wall.4-2",
+}
+
+tile{
+  layer = 0,
+  x = 664,
+  y = 784,
+  width = 48,
+  height = 24,
+  pattern = "wall.1-2",
+}
+
+tile{
+  layer = 0,
+  x = 888,
+  y = 784,
+  width = 48,
+  height = 24,
+  pattern = "wall.1-2",
+}
+
+tile{
+  layer = 0,
+  x = 640,
+  y = 808,
+  width = 24,
+  height = 64,
+  pattern = "wall.3-2",
+}
+
+tile{
+  layer = 0,
+  x = 936,
+  y = 808,
+  width = 24,
+  height = 64,
+  pattern = "wall.4-2",
+}
+
+tile{
+  layer = 0,
+  x = 664,
+  y = 872,
+  width = 48,
+  height = 24,
+  pattern = "wall.2-2",
+}
+
+tile{
+  layer = 0,
+  x = 888,
+  y = 872,
+  width = 48,
+  height = 24,
+  pattern = "wall.2-2",
+}
+
+tile{
+  layer = 0,
+  x = 704,
+  y = 888,
+  width = 24,
+  height = 16,
+  pattern = "wall.3-2",
+}
+
+tile{
+  layer = 0,
+  x = 872,
+  y = 888,
+  width = 24,
+  height = 16,
+  pattern = "wall.4-2",
+}
+
+tile{
+  layer = 0,
+  x = 728,
+  y = 904,
+  width = 144,
+  height = 24,
+  pattern = "wall.2-2",
+}
+
+tile{
+  layer = 0,
+  x = 704,
+  y = 752,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.1-2",
+}
+
+tile{
+  layer = 0,
+  x = 872,
+  y = 752,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.2-2",
+}
+
+tile{
+  layer = 0,
+  x = 640,
+  y = 784,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.1-2",
+}
+
+tile{
+  layer = 0,
+  x = 704,
+  y = 784,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner_reverse.1-2",
+}
+
+tile{
+  layer = 0,
+  x = 872,
+  y = 784,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner_reverse.2-2",
+}
+
+tile{
+  layer = 0,
+  x = 936,
+  y = 784,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.2-2",
+}
+
+tile{
+  layer = 0,
+  x = 640,
+  y = 872,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.3-2",
+}
+
+tile{
+  layer = 0,
+  x = 704,
+  y = 872,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner_reverse.3-2",
+}
+
+tile{
+  layer = 0,
+  x = 872,
+  y = 872,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner_reverse.4-2",
+}
+
+tile{
+  layer = 0,
+  x = 936,
+  y = 872,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.4-2",
+}
+
+tile{
+  layer = 0,
+  x = 704,
+  y = 904,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.3-2",
+}
+
+tile{
+  layer = 0,
+  x = 872,
+  y = 904,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.4-2",
+}
+
+tile{
+  layer = 0,
+  x = 56,
+  y = 744,
+  width = 208,
+  height = 192,
+  pattern = "floor.20-1",
+}
+
+tile{
+  layer = 0,
+  x = 264,
+  y = 808,
+  width = 32,
+  height = 64,
+  pattern = "floor.20-1",
+}
+
+tile{
+  layer = 0,
+  x = 64,
+  y = 744,
+  width = 192,
+  height = 8,
+  pattern = "wall_border.1-2",
+}
+
+tile{
+  layer = 0,
+  x = 56,
+  y = 752,
+  width = 8,
+  height = 176,
+  pattern = "wall_border.3-2",
+}
+
+tile{
+  layer = 0,
+  x = 256,
+  y = 752,
+  width = 8,
+  height = 64,
+  pattern = "wall_border.4-2",
+}
+
+tile{
+  layer = 0,
+  x = 256,
+  y = 808,
+  width = 32,
+  height = 8,
+  pattern = "wall_border.1-2",
+}
+
+tile{
+  layer = 0,
+  x = 288,
+  y = 816,
+  width = 8,
+  height = 48,
+  pattern = "wall_border.4-2",
+}
+
+tile{
+  layer = 0,
+  x = 256,
+  y = 864,
+  width = 32,
+  height = 8,
+  pattern = "wall_border.2-2",
+}
+
+tile{
+  layer = 0,
+  x = 256,
+  y = 864,
+  width = 8,
+  height = 64,
+  pattern = "wall_border.4-2",
+}
+
+tile{
+  layer = 0,
+  x = 64,
+  y = 928,
+  width = 192,
+  height = 8,
+  pattern = "wall_border.2-2",
+}
+
+tile{
+  layer = 0,
+  x = 56,
+  y = 744,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner.1-2",
+}
+
+tile{
+  layer = 0,
+  x = 256,
+  y = 744,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner.2-2",
+}
+
+tile{
+  layer = 0,
+  x = 256,
+  y = 808,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner_reverse.2-2",
+}
+
+tile{
+  layer = 0,
+  x = 288,
+  y = 808,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner.2-2",
+}
+
+tile{
+  layer = 0,
+  x = 256,
+  y = 864,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner_reverse.4-2",
+}
+
+tile{
+  layer = 0,
+  x = 288,
+  y = 864,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner.4-2",
+}
+
+tile{
+  layer = 0,
+  x = 56,
+  y = 928,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner.3-2",
+}
+
+tile{
+  layer = 0,
+  x = 256,
+  y = 928,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner.4-2",
+}
+
+tile{
+  layer = 0,
+  x = 56,
+  y = 720,
+  width = 208,
+  height = 24,
+  pattern = "wall.1-2",
+}
+
+tile{
+  layer = 0,
+  x = 32,
+  y = 744,
+  width = 24,
+  height = 192,
+  pattern = "wall.3-2",
+}
+
+tile{
+  layer = 0,
+  x = 264,
+  y = 744,
+  width = 24,
+  height = 48,
+  pattern = "wall.4-2",
+}
+
+tile{
+  layer = 0,
+  x = 280,
+  y = 784,
+  width = 16,
+  height = 24,
+  pattern = "wall.1-2",
+}
+
+tile{
+  layer = 0,
+  x = 296,
+  y = 808,
+  width = 24,
+  height = 64,
+  pattern = "wall.4-2",
+}
+
+tile{
+  layer = 0,
+  x = 280,
+  y = 872,
+  width = 16,
+  height = 24,
+  pattern = "wall.2-2",
+}
+
+tile{
+  layer = 0,
+  x = 264,
+  y = 888,
+  width = 24,
+  height = 48,
+  pattern = "wall.4-2",
+}
+
+tile{
+  layer = 0,
+  x = 56,
+  y = 936,
+  width = 208,
+  height = 24,
+  pattern = "wall.2-2",
+}
+
+tile{
+  layer = 0,
+  x = 32,
+  y = 720,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.1-2",
+}
+
+tile{
+  layer = 0,
+  x = 264,
+  y = 720,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.2-2",
+}
+
+tile{
+  layer = 0,
+  x = 264,
+  y = 784,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner_reverse.2-2",
+}
+
+tile{
+  layer = 0,
+  x = 296,
+  y = 784,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.2-2",
+}
+
+tile{
+  layer = 0,
+  x = 264,
+  y = 872,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner_reverse.4-2",
+}
+
+tile{
+  layer = 0,
+  x = 296,
+  y = 872,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.4-2",
+}
+
+tile{
+  layer = 0,
+  x = 32,
+  y = 936,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.3-2",
+}
+
+tile{
+  layer = 0,
+  x = 264,
+  y = 936,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.4-2",
+}
+
+tile{
+  layer = 0,
+  x = 120,
+  y = 504,
+  width = 80,
+  height = 48,
+  pattern = "floor.20-1",
+}
+
+tile{
+  layer = 0,
+  x = 120,
+  y = 648,
+  width = 80,
+  height = 48,
+  pattern = "floor.20-1",
+}
+
+tile{
+  layer = 0,
+  x = 88,
+  y = 552,
+  width = 144,
+  height = 96,
+  pattern = "floor.20-1",
+}
+
+tile{
+  layer = 0,
+  x = 128,
+  y = 504,
+  width = 64,
+  height = 8,
+  pattern = "wall_border.1-2",
+}
+
+tile{
+  layer = 0,
+  x = 120,
+  y = 512,
+  width = 8,
+  height = 48,
+  pattern = "wall_border.3-2",
+}
+
+tile{
+  layer = 0,
+  x = 192,
+  y = 512,
+  width = 8,
+  height = 48,
+  pattern = "wall_border.4-2",
+}
+
+tile{
+  layer = 0,
+  x = 96,
+  y = 552,
+  width = 32,
+  height = 8,
+  pattern = "wall_border.1-2",
+}
+
+tile{
+  layer = 0,
+  x = 192,
+  y = 552,
+  width = 32,
+  height = 8,
+  pattern = "wall_border.1-2",
+}
+
+tile{
+  layer = 0,
+  x = 88,
+  y = 560,
+  width = 8,
+  height = 80,
+  pattern = "wall_border.3-2",
+}
+
+tile{
+  layer = 0,
+  x = 224,
+  y = 560,
+  width = 8,
+  height = 80,
+  pattern = "wall_border.4-2",
+}
+
+tile{
+  layer = 0,
+  x = 96,
+  y = 640,
+  width = 32,
+  height = 8,
+  pattern = "wall_border.2-2",
+}
+
+tile{
+  layer = 0,
+  x = 192,
+  y = 640,
+  width = 32,
+  height = 8,
+  pattern = "wall_border.2-2",
+}
+
+tile{
+  layer = 0,
+  x = 120,
+  y = 640,
+  width = 8,
+  height = 48,
+  pattern = "wall_border.3-2",
+}
+
+tile{
+  layer = 0,
+  x = 192,
+  y = 640,
+  width = 8,
+  height = 48,
+  pattern = "wall_border.4-2",
+}
+
+tile{
+  layer = 0,
+  x = 128,
+  y = 688,
+  width = 64,
+  height = 8,
+  pattern = "wall_border.2-2",
+}
+
+tile{
+  layer = 0,
+  x = 120,
+  y = 504,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner.1-2",
+}
+
+tile{
+  layer = 0,
+  x = 192,
+  y = 504,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner.2-2",
+}
+
+tile{
+  layer = 0,
+  x = 88,
+  y = 552,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner.1-2",
+}
+
+tile{
+  layer = 0,
+  x = 120,
+  y = 552,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner_reverse.1-2",
+}
+
+tile{
+  layer = 0,
+  x = 192,
+  y = 552,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner_reverse.2-2",
+}
+
+tile{
+  layer = 0,
+  x = 224,
+  y = 552,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner.2-2",
+}
+
+tile{
+  layer = 0,
+  x = 88,
+  y = 640,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner.3-2",
+}
+
+tile{
+  layer = 0,
+  x = 120,
+  y = 640,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner_reverse.3-2",
+}
+
+tile{
+  layer = 0,
+  x = 192,
+  y = 640,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner_reverse.4-2",
+}
+
+tile{
+  layer = 0,
+  x = 224,
+  y = 640,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner.4-2",
+}
+
+tile{
+  layer = 0,
+  x = 120,
+  y = 688,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner.3-2",
+}
+
+tile{
+  layer = 0,
+  x = 192,
+  y = 688,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner.4-2",
+}
+
+tile{
+  layer = 0,
+  x = 120,
+  y = 480,
+  width = 80,
+  height = 24,
+  pattern = "wall.1-2",
+}
+
+tile{
+  layer = 0,
+  x = 96,
+  y = 504,
+  width = 24,
+  height = 32,
+  pattern = "wall.3-2",
+}
+
+tile{
+  layer = 0,
+  x = 200,
+  y = 504,
+  width = 24,
+  height = 32,
+  pattern = "wall.4-2",
+}
+
+tile{
+  layer = 0,
+  x = 88,
+  y = 528,
+  width = 16,
+  height = 24,
+  pattern = "wall.1-2",
+}
+
+tile{
+  layer = 0,
+  x = 216,
+  y = 528,
+  width = 16,
+  height = 24,
+  pattern = "wall.1-2",
+}
+
+tile{
+  layer = 0,
+  x = 64,
+  y = 552,
+  width = 24,
+  height = 96,
+  pattern = "wall.3-2",
+}
+
+tile{
+  layer = 0,
+  x = 232,
+  y = 552,
+  width = 24,
+  height = 96,
+  pattern = "wall.4-2",
+}
+
+tile{
+  layer = 0,
+  x = 88,
+  y = 648,
+  width = 16,
+  height = 24,
+  pattern = "wall.2-2",
+}
+
+tile{
+  layer = 0,
+  x = 216,
+  y = 648,
+  width = 16,
+  height = 24,
+  pattern = "wall.2-2",
+}
+
+tile{
+  layer = 0,
+  x = 96,
+  y = 664,
+  width = 24,
+  height = 32,
+  pattern = "wall.3-2",
+}
+
+tile{
+  layer = 0,
+  x = 200,
+  y = 664,
+  width = 24,
+  height = 32,
+  pattern = "wall.4-2",
+}
+
+tile{
+  layer = 0,
+  x = 120,
+  y = 696,
+  width = 80,
+  height = 24,
+  pattern = "wall.2-2",
+}
+
+tile{
+  layer = 0,
+  x = 96,
+  y = 480,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.1-2",
+}
+
+tile{
+  layer = 0,
+  x = 200,
+  y = 480,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.2-2",
+}
+
+tile{
+  layer = 0,
+  x = 64,
+  y = 528,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.1-2",
+}
+
+tile{
+  layer = 0,
+  x = 96,
+  y = 528,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner_reverse.1-2",
+}
+
+tile{
+  layer = 0,
+  x = 200,
+  y = 528,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner_reverse.2-2",
+}
+
+tile{
+  layer = 0,
+  x = 232,
+  y = 528,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.2-2",
+}
+
+tile{
+  layer = 0,
+  x = 64,
+  y = 648,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.3-2",
+}
+
+tile{
+  layer = 0,
+  x = 96,
+  y = 648,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner_reverse.3-2",
+}
+
+tile{
+  layer = 0,
+  x = 200,
+  y = 648,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner_reverse.4-2",
+}
+
+tile{
+  layer = 0,
+  x = 232,
+  y = 648,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.4-2",
+}
+
+tile{
+  layer = 0,
+  x = 96,
+  y = 696,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.3-2",
+}
+
+tile{
+  layer = 0,
+  x = 200,
+  y = 696,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.4-2",
+}
+
+tile{
+  layer = 0,
+  x = 144,
+  y = 488,
+  width = 8,
+  height = 16,
+  pattern = "door.1.support.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 168,
+  y = 488,
+  width = 8,
+  height = 16,
+  pattern = "door.1.support.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 168,
+  y = 456,
+  width = 8,
+  height = 16,
+  pattern = "door.2.support.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 144,
+  y = 456,
+  width = 8,
+  height = 16,
+  pattern = "door.2.support.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 152,
+  y = 488,
+  width = 16,
+  height = 16,
+  pattern = "door.1",
+}
+
+tile{
+  layer = 0,
+  x = 152,
+  y = 456,
+  width = 16,
+  height = 16,
+  pattern = "door.2",
+}
+
+tile{
+  layer = 0,
+  x = 152,
+  y = 472,
+  width = 16,
+  height = 16,
+  pattern = "floor.15-1",
+}
+
+tile{
+  layer = 0,
+  x = 144,
+  y = 728,
+  width = 8,
+  height = 16,
+  pattern = "door.1.support.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 168,
+  y = 728,
+  width = 8,
+  height = 16,
+  pattern = "door.1.support.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 168,
+  y = 696,
+  width = 8,
+  height = 16,
+  pattern = "door.2.support.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 144,
+  y = 696,
+  width = 8,
+  height = 16,
+  pattern = "door.2.support.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 152,
+  y = 728,
+  width = 16,
+  height = 16,
+  pattern = "door.1",
+}
+
+tile{
+  layer = 0,
+  x = 152,
+  y = 696,
+  width = 16,
+  height = 16,
+  pattern = "door.2",
+}
+
+tile{
+  layer = 0,
+  x = 152,
+  y = 712,
+  width = 16,
+  height = 16,
+  pattern = "floor.15-1",
+}
+
+tile{
+  layer = 0,
+  x = 296,
+  y = 832,
+  width = 16,
+  height = 16,
+  pattern = "door.4",
+}
+
+tile{
+  layer = 0,
+  x = 296,
+  y = 824,
+  width = 16,
+  height = 8,
+  pattern = "door.4.support.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 296,
+  y = 848,
+  width = 16,
+  height = 8,
+  pattern = "door.4.support.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 328,
+  y = 824,
+  width = 16,
+  height = 8,
+  pattern = "door.3.support.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 328,
+  y = 848,
+  width = 16,
+  height = 8,
+  pattern = "door.3.support.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 312,
+  y = 832,
+  width = 16,
+  height = 16,
+  pattern = "floor.15-1",
+}
+
+tile{
+  layer = 0,
+  x = 328,
+  y = 832,
+  width = 16,
+  height = 16,
+  pattern = "door.3",
+}
+
+tile{
+  layer = 0,
+  x = 936,
+  y = 832,
+  width = 16,
+  height = 16,
+  pattern = "door.4",
+}
+
+tile{
+  layer = 0,
+  x = 936,
+  y = 824,
+  width = 16,
+  height = 8,
+  pattern = "door.4.support.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 936,
+  y = 848,
+  width = 16,
+  height = 8,
+  pattern = "door.4.support.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 968,
+  y = 824,
+  width = 16,
+  height = 8,
+  pattern = "door.3.support.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 968,
+  y = 848,
+  width = 16,
+  height = 8,
+  pattern = "door.3.support.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 952,
+  y = 832,
+  width = 16,
+  height = 16,
+  pattern = "floor.15-1",
+}
+
+tile{
+  layer = 0,
+  x = 968,
+  y = 832,
+  width = 16,
+  height = 16,
+  pattern = "door.3",
+}
+
+tile{
+  layer = 0,
+  x = 936,
+  y = 112,
+  width = 16,
+  height = 16,
+  pattern = "door.4",
+}
+
+tile{
+  layer = 0,
+  x = 936,
+  y = 104,
+  width = 16,
+  height = 8,
+  pattern = "door.4.support.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 936,
+  y = 128,
+  width = 16,
+  height = 8,
+  pattern = "door.4.support.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 968,
+  y = 104,
+  width = 16,
+  height = 8,
+  pattern = "door.3.support.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 968,
+  y = 128,
+  width = 16,
+  height = 8,
+  pattern = "door.3.support.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 952,
+  y = 112,
+  width = 16,
+  height = 16,
+  pattern = "floor.15-1",
+}
+
+tile{
+  layer = 0,
+  x = 968,
+  y = 112,
+  width = 16,
+  height = 16,
+  pattern = "door.3",
+}
+
+tile{
+  layer = 0,
+  x = 1104,
+  y = 488,
+  width = 8,
+  height = 16,
+  pattern = "door.1.support.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 1128,
+  y = 488,
+  width = 8,
+  height = 16,
+  pattern = "door.1.support.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 1128,
+  y = 456,
+  width = 8,
+  height = 16,
+  pattern = "door.2.support.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 1104,
+  y = 456,
+  width = 8,
+  height = 16,
+  pattern = "door.2.support.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 1112,
+  y = 488,
+  width = 16,
+  height = 16,
+  pattern = "door.1",
+}
+
+tile{
+  layer = 0,
+  x = 1112,
+  y = 456,
+  width = 16,
+  height = 16,
+  pattern = "door.2",
+}
+
+tile{
+  layer = 0,
+  x = 1112,
+  y = 472,
+  width = 16,
+  height = 16,
+  pattern = "floor.15-1",
+}
+
+tile{
+  layer = 0,
+  x = 1104,
+  y = 728,
+  width = 8,
+  height = 16,
+  pattern = "door.1.support.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 1128,
+  y = 728,
+  width = 8,
+  height = 16,
+  pattern = "door.1.support.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 1128,
+  y = 696,
+  width = 8,
+  height = 16,
+  pattern = "door.2.support.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 1104,
+  y = 696,
+  width = 8,
+  height = 16,
+  pattern = "door.2.support.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 1112,
+  y = 728,
+  width = 16,
+  height = 16,
+  pattern = "door.1",
+}
+
+tile{
+  layer = 0,
+  x = 1112,
+  y = 696,
+  width = 16,
+  height = 16,
+  pattern = "door.2",
+}
+
+tile{
+  layer = 0,
+  x = 1112,
+  y = 712,
+  width = 16,
+  height = 16,
+  pattern = "floor.15-1",
+}
+
+tile{
+  layer = 0,
+  x = 296,
+  y = 112,
+  width = 16,
+  height = 16,
+  pattern = "door.4",
+}
+
+tile{
+  layer = 0,
+  x = 296,
+  y = 104,
+  width = 16,
+  height = 8,
+  pattern = "door.4.support.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 296,
+  y = 128,
+  width = 16,
+  height = 8,
+  pattern = "door.4.support.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 328,
+  y = 104,
+  width = 16,
+  height = 8,
+  pattern = "door.3.support.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 328,
+  y = 128,
+  width = 16,
+  height = 8,
+  pattern = "door.3.support.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 312,
+  y = 112,
+  width = 16,
+  height = 16,
+  pattern = "floor.15-1",
+}
+
+tile{
+  layer = 0,
+  x = 328,
+  y = 112,
+  width = 16,
+  height = 16,
+  pattern = "door.3",
+}
+
+tile{
+  layer = 0,
+  x = 616,
+  y = 832,
+  width = 16,
+  height = 16,
+  pattern = "door.4",
+}
+
+tile{
+  layer = 0,
+  x = 616,
+  y = 824,
+  width = 16,
+  height = 8,
+  pattern = "door.4.support.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 616,
+  y = 848,
+  width = 16,
+  height = 8,
+  pattern = "door.4.support.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 648,
+  y = 824,
+  width = 16,
+  height = 8,
+  pattern = "door.3.support.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 648,
+  y = 848,
+  width = 16,
+  height = 8,
+  pattern = "door.3.support.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 632,
+  y = 832,
+  width = 16,
+  height = 16,
+  pattern = "floor.15-1",
+}
+
+tile{
+  layer = 0,
+  x = 648,
+  y = 832,
+  width = 16,
+  height = 16,
+  pattern = "door.3",
+}
+
+tile{
+  layer = 0,
+  x = 808,
+  y = 96,
+  width = 8,
+  height = 8,
+  pattern = "stairs_inner_up.1.top.border.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 792,
+  y = 96,
+  width = 16,
+  height = 8,
+  pattern = "stairs_inner_up.1.top-1",
+}
+
+tile{
+  layer = 0,
+  x = 784,
+  y = 96,
+  width = 8,
+  height = 8,
+  pattern = "stairs_inner_up.1.top.border.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 784,
+  y = 104,
+  width = 8,
+  height = 24,
+  pattern = "stairs_inner_up.1.border.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 808,
+  y = 104,
+  width = 8,
+  height = 24,
+  pattern = "stairs_inner_up.1.border.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 792,
+  y = 104,
+  width = 16,
+  height = 24,
+  pattern = "stairs_inner_up.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 168,
+  y = 576,
+  width = 8,
+  height = 8,
+  pattern = "stairs_inner_up.1.top.border.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 152,
+  y = 576,
+  width = 16,
+  height = 8,
+  pattern = "stairs_inner_up.1.top-1",
+}
+
+tile{
+  layer = 0,
+  x = 144,
+  y = 576,
+  width = 8,
+  height = 8,
+  pattern = "stairs_inner_up.1.top.border.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 144,
+  y = 584,
+  width = 8,
+  height = 24,
+  pattern = "stairs_inner_up.1.border.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 168,
+  y = 584,
+  width = 8,
+  height = 24,
+  pattern = "stairs_inner_up.1.border.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 152,
+  y = 584,
+  width = 16,
+  height = 24,
+  pattern = "stairs_inner_up.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 872,
+  y = 808,
+  width = 16,
+  height = 64,
+  pattern = "alter_wall.4",
+}
+
+tile{
+  layer = 0,
+  x = 760,
+  y = 808,
+  width = 80,
+  height = 64,
+  pattern = "alter_floor",
+}
+
+tile{
+  layer = 0,
+  x = 760,
+  y = 800,
+  width = 80,
+  height = 8,
+  pattern = "alter_floor.1",
+}
+
+tile{
+  layer = 0,
+  x = 752,
+  y = 808,
+  width = 8,
+  height = 64,
+  pattern = "alter_floor.3",
+}
+
+tile{
+  layer = 0,
+  x = 840,
+  y = 808,
+  width = 8,
+  height = 64,
+  pattern = "alter_floor.4",
+}
+
+tile{
+  layer = 0,
+  x = 760,
+  y = 872,
+  width = 80,
+  height = 8,
+  pattern = "alter_floor.2",
+}
+
+tile{
+  layer = 0,
+  x = 752,
+  y = 800,
+  width = 8,
+  height = 8,
+  pattern = "alter_floor_corner.1",
+}
+
+tile{
+  layer = 0,
+  x = 840,
+  y = 800,
+  width = 8,
+  height = 8,
+  pattern = "alter_floor_corner.2",
+}
+
+tile{
+  layer = 0,
+  x = 752,
+  y = 872,
+  width = 8,
+  height = 8,
+  pattern = "alter_floor_corner.3",
+}
+
+tile{
+  layer = 0,
+  x = 840,
+  y = 872,
+  width = 8,
+  height = 8,
+  pattern = "alter_floor_corner.4",
+}
+
+tile{
+  layer = 0,
+  x = 136,
+  y = 824,
+  width = 48,
+  height = 32,
+  pattern = "alter_floor",
+}
+
+tile{
+  layer = 0,
+  x = 136,
+  y = 816,
+  width = 48,
+  height = 8,
+  pattern = "alter_floor.1",
+}
+
+tile{
+  layer = 0,
+  x = 128,
+  y = 824,
+  width = 8,
+  height = 32,
+  pattern = "alter_floor.3",
+}
+
+tile{
+  layer = 0,
+  x = 184,
+  y = 824,
+  width = 8,
+  height = 32,
+  pattern = "alter_floor.4",
+}
+
+tile{
+  layer = 0,
+  x = 136,
+  y = 856,
+  width = 48,
+  height = 8,
+  pattern = "alter_floor.2",
+}
+
+tile{
+  layer = 0,
+  x = 128,
+  y = 816,
+  width = 8,
+  height = 8,
+  pattern = "alter_floor_corner.1",
+}
+
+tile{
+  layer = 0,
+  x = 184,
+  y = 816,
+  width = 8,
+  height = 8,
+  pattern = "alter_floor_corner.2",
+}
+
+tile{
+  layer = 0,
+  x = 128,
+  y = 856,
+  width = 8,
+  height = 8,
+  pattern = "alter_floor_corner.3",
+}
+
+tile{
+  layer = 0,
+  x = 184,
+  y = 856,
+  width = 8,
+  height = 8,
+  pattern = "alter_floor_corner.4",
+}
+
+tile{
+  layer = 0,
+  x = 128,
+  y = 864,
+  width = 64,
+  height = 16,
+  pattern = "alter_wall.1",
+}
+
+tile{
+  layer = 0,
+  x = 1104,
+  y = 512,
+  width = 32,
+  height = 48,
+  pattern = "floor.20-1",
+}
+
+tile{
+  layer = 0,
+  x = 1072,
+  y = 560,
+  width = 96,
+  height = 80,
+  pattern = "floor.20-1",
+}
+
+tile{
+  layer = 0,
+  x = 1104,
+  y = 640,
+  width = 32,
+  height = 48,
+  pattern = "floor.20-1",
+}
+
+tile{
+  layer = 0,
+  x = 1080,
+  y = 504,
+  width = 8,
+  height = 24,
+  pattern = "hole.4",
+}
+
+tile{
+  layer = 0,
+  x = 1152,
+  y = 504,
+  width = 8,
+  height = 24,
+  pattern = "hole.3",
+}
+
+tile{
+  layer = 0,
+  x = 1088,
+  y = 528,
+  width = 8,
+  height = 8,
+  pattern = "hole.1",
+}
+
+tile{
+  layer = 0,
+  x = 1144,
+  y = 528,
+  width = 8,
+  height = 8,
+  pattern = "hole.1",
+}
+
+tile{
+  layer = 0,
+  x = 1096,
+  y = 536,
+  width = 8,
+  height = 16,
+  pattern = "hole.4",
+}
+
+tile{
+  layer = 0,
+  x = 1136,
+  y = 536,
+  width = 8,
+  height = 16,
+  pattern = "hole.3",
+}
+
+tile{
+  layer = 0,
+  x = 1072,
+  y = 552,
+  width = 24,
+  height = 8,
+  pattern = "hole.2",
+}
+
+tile{
+  layer = 0,
+  x = 1144,
+  y = 552,
+  width = 24,
+  height = 8,
+  pattern = "hole.2",
+}
+
+tile{
+  layer = 0,
+  x = 1064,
+  y = 560,
+  width = 8,
+  height = 80,
+  pattern = "hole.4",
+}
+
+tile{
+  layer = 0,
+  x = 1168,
+  y = 560,
+  width = 8,
+  height = 80,
+  pattern = "hole.3",
+}
+
+tile{
+  layer = 0,
+  x = 1072,
+  y = 640,
+  width = 24,
+  height = 8,
+  pattern = "hole.1",
+}
+
+tile{
+  layer = 0,
+  x = 1144,
+  y = 640,
+  width = 24,
+  height = 8,
+  pattern = "hole.1",
+}
+
+tile{
+  layer = 0,
+  x = 1096,
+  y = 648,
+  width = 8,
+  height = 16,
+  pattern = "hole.4",
+}
+
+tile{
+  layer = 0,
+  x = 1136,
+  y = 648,
+  width = 8,
+  height = 16,
+  pattern = "hole.3",
+}
+
+tile{
+  layer = 0,
+  x = 1088,
+  y = 664,
+  width = 8,
+  height = 8,
+  pattern = "hole.2",
+}
+
+tile{
+  layer = 0,
+  x = 1144,
+  y = 664,
+  width = 8,
+  height = 8,
+  pattern = "hole.2",
+}
+
+tile{
+  layer = 0,
+  x = 1080,
+  y = 672,
+  width = 8,
+  height = 24,
+  pattern = "hole.4",
+}
+
+tile{
+  layer = 0,
+  x = 1152,
+  y = 672,
+  width = 8,
+  height = 24,
+  pattern = "hole.3",
+}
+
+tile{
+  layer = 0,
+  x = 1080,
+  y = 528,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner_reverse.2",
+}
+
+tile{
+  layer = 0,
+  x = 1096,
+  y = 528,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner.2",
+}
+
+tile{
+  layer = 0,
+  x = 1136,
+  y = 528,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner.1",
+}
+
+tile{
+  layer = 0,
+  x = 1152,
+  y = 528,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner_reverse.1",
+}
+
+tile{
+  layer = 0,
+  x = 1064,
+  y = 552,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner_reverse.4",
+}
+
+tile{
+  layer = 0,
+  x = 1096,
+  y = 552,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner.4",
+}
+
+tile{
+  layer = 0,
+  x = 1136,
+  y = 552,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner.3",
+}
+
+tile{
+  layer = 0,
+  x = 1168,
+  y = 552,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner_reverse.3",
+}
+
+tile{
+  layer = 0,
+  x = 1064,
+  y = 640,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner_reverse.2",
+}
+
+tile{
+  layer = 0,
+  x = 1096,
+  y = 640,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner.2",
+}
+
+tile{
+  layer = 0,
+  x = 1136,
+  y = 640,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner.1",
+}
+
+tile{
+  layer = 0,
+  x = 1168,
+  y = 640,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner_reverse.1",
+}
+
+tile{
+  layer = 0,
+  x = 1080,
+  y = 664,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner_reverse.4",
+}
+
+tile{
+  layer = 0,
+  x = 1096,
+  y = 664,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner.4",
+}
+
+tile{
+  layer = 0,
+  x = 1136,
+  y = 664,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner.3",
+}
+
+tile{
+  layer = 0,
+  x = 1152,
+  y = 664,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner_reverse.3",
+}
+
+tile{
+  layer = 0,
+  x = 1088,
+  y = 504,
+  width = 64,
+  height = 8,
+  pattern = "wall_border.1-2",
+}
+
+tile{
+  layer = 0,
+  x = 1088,
+  y = 688,
+  width = 64,
+  height = 8,
+  pattern = "wall_border.2-2",
+}
+
+tile{
+  layer = 0,
+  x = 992,
+  y = 96,
+  width = 64,
+  height = 48,
+  pattern = "floor.20-1",
+}
+
+tile{
+  layer = 0,
+  x = 1056,
+  y = 96,
+  width = 128,
+  height = 128,
+  pattern = "floor.20-1",
+}
+
+tile{
+  layer = 0,
+  x = 1088,
+  y = 224,
+  width = 64,
+  height = 64,
+  pattern = "floor.20-1",
+}
+
+tile{
+  layer = 0,
+  x = 1056,
+  y = 288,
+  width = 128,
+  height = 96,
+  pattern = "floor.20-1",
+}
+
+tile{
+  layer = 0,
+  x = 1104,
+  y = 384,
+  width = 32,
+  height = 64,
+  pattern = "floor.20-1",
+}
+
+tile{
+  layer = 0,
+  x = 984,
+  y = 72,
+  width = 24,
+  height = 8,
+  pattern = "hole.2",
+}
+
+tile{
+  layer = 0,
+  x = 1088,
+  y = 72,
+  width = 64,
+  height = 8,
+  pattern = "hole.2",
+}
+
+tile{
+  layer = 0,
+  x = 1008,
+  y = 80,
+  width = 8,
+  height = 8,
+  pattern = "hole.3",
+}
+
+tile{
+  layer = 0,
+  x = 1080,
+  y = 80,
+  width = 8,
+  height = 8,
+  pattern = "hole.4",
+}
+
+tile{
+  layer = 0,
+  x = 1152,
+  y = 80,
+  width = 8,
+  height = 8,
+  pattern = "hole.3",
+}
+
+tile{
+  layer = 0,
+  x = 1016,
+  y = 88,
+  width = 64,
+  height = 8,
+  pattern = "hole.2",
+}
+
+tile{
+  layer = 0,
+  x = 1160,
+  y = 88,
+  width = 24,
+  height = 8,
+  pattern = "hole.2",
+}
+
+tile{
+  layer = 0,
+  x = 1184,
+  y = 96,
+  width = 8,
+  height = 128,
+  pattern = "hole.3",
+}
+
+tile{
+  layer = 0,
+  x = 1016,
+  y = 144,
+  width = 32,
+  height = 8,
+  pattern = "hole.1",
+}
+
+tile{
+  layer = 0,
+  x = 1008,
+  y = 152,
+  width = 8,
+  height = 8,
+  pattern = "hole.3",
+}
+
+tile{
+  layer = 0,
+  x = 1048,
+  y = 152,
+  width = 8,
+  height = 72,
+  pattern = "hole.4",
+}
+
+tile{
+  layer = 0,
+  x = 984,
+  y = 160,
+  width = 24,
+  height = 8,
+  pattern = "hole.1",
+}
+
+tile{
+  layer = 0,
+  x = 1056,
+  y = 224,
+  width = 24,
+  height = 8,
+  pattern = "hole.1",
+}
+
+tile{
+  layer = 0,
+  x = 1160,
+  y = 224,
+  width = 24,
+  height = 8,
+  pattern = "hole.1",
+}
+
+tile{
+  layer = 0,
+  x = 1080,
+  y = 232,
+  width = 8,
+  height = 48,
+  pattern = "hole.4",
+}
+
+tile{
+  layer = 0,
+  x = 1152,
+  y = 232,
+  width = 8,
+  height = 48,
+  pattern = "hole.3",
+}
+
+tile{
+  layer = 0,
+  x = 1056,
+  y = 280,
+  width = 24,
+  height = 8,
+  pattern = "hole.2",
+}
+
+tile{
+  layer = 0,
+  x = 1160,
+  y = 280,
+  width = 24,
+  height = 8,
+  pattern = "hole.2",
+}
+
+tile{
+  layer = 0,
+  x = 1048,
+  y = 288,
+  width = 8,
+  height = 96,
+  pattern = "hole.4",
+}
+
+tile{
+  layer = 0,
+  x = 1184,
+  y = 288,
+  width = 8,
+  height = 96,
+  pattern = "hole.3",
+}
+
+tile{
+  layer = 0,
+  x = 1056,
+  y = 384,
+  width = 40,
+  height = 8,
+  pattern = "hole.1",
+}
+
+tile{
+  layer = 0,
+  x = 1144,
+  y = 384,
+  width = 40,
+  height = 8,
+  pattern = "hole.1",
+}
+
+tile{
+  layer = 0,
+  x = 1096,
+  y = 392,
+  width = 8,
+  height = 32,
+  pattern = "hole.4",
+}
+
+tile{
+  layer = 0,
+  x = 1136,
+  y = 392,
+  width = 8,
+  height = 32,
+  pattern = "hole.3",
+}
+
+tile{
+  layer = 0,
+  x = 1088,
+  y = 424,
+  width = 8,
+  height = 8,
+  pattern = "hole.2",
+}
+
+tile{
+  layer = 0,
+  x = 1144,
+  y = 424,
+  width = 8,
+  height = 8,
+  pattern = "hole.2",
+}
+
+tile{
+  layer = 0,
+  x = 1080,
+  y = 432,
+  width = 8,
+  height = 24,
+  pattern = "hole.4",
+}
+
+tile{
+  layer = 0,
+  x = 1152,
+  y = 432,
+  width = 8,
+  height = 24,
+  pattern = "hole.3",
+}
+
+tile{
+  layer = 0,
+  x = 1008,
+  y = 72,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner_reverse.3",
+}
+
+tile{
+  layer = 0,
+  x = 1080,
+  y = 72,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner_reverse.4",
+}
+
+tile{
+  layer = 0,
+  x = 1152,
+  y = 72,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner_reverse.3",
+}
+
+tile{
+  layer = 0,
+  x = 1008,
+  y = 88,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner.3",
+}
+
+tile{
+  layer = 0,
+  x = 1080,
+  y = 88,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner.4",
+}
+
+tile{
+  layer = 0,
+  x = 1152,
+  y = 88,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner.3",
+}
+
+tile{
+  layer = 0,
+  x = 1184,
+  y = 88,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner_reverse.3",
+}
+
+tile{
+  layer = 0,
+  x = 1008,
+  y = 144,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner.1",
+}
+
+tile{
+  layer = 0,
+  x = 1048,
+  y = 144,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner.2",
+}
+
+tile{
+  layer = 0,
+  x = 1008,
+  y = 160,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner_reverse.1",
+}
+
+tile{
+  layer = 0,
+  x = 1048,
+  y = 224,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner_reverse.2",
+}
+
+tile{
+  layer = 0,
+  x = 1080,
+  y = 224,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner.2",
+}
+
+tile{
+  layer = 0,
+  x = 1152,
+  y = 224,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner.1",
+}
+
+tile{
+  layer = 0,
+  x = 1184,
+  y = 224,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner_reverse.1",
+}
+
+tile{
+  layer = 0,
+  x = 1048,
+  y = 280,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner_reverse.4",
+}
+
+tile{
+  layer = 0,
+  x = 1080,
+  y = 280,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner.4",
+}
+
+tile{
+  layer = 0,
+  x = 1152,
+  y = 280,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner.3",
+}
+
+tile{
+  layer = 0,
+  x = 1184,
+  y = 280,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner_reverse.3",
+}
+
+tile{
+  layer = 0,
+  x = 1048,
+  y = 384,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner_reverse.2",
+}
+
+tile{
+  layer = 0,
+  x = 1096,
+  y = 384,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner.2",
+}
+
+tile{
+  layer = 0,
+  x = 1136,
+  y = 384,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner.1",
+}
+
+tile{
+  layer = 0,
+  x = 1184,
+  y = 384,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner_reverse.1",
+}
+
+tile{
+  layer = 0,
+  x = 1080,
+  y = 424,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner_reverse.4",
+}
+
+tile{
+  layer = 0,
+  x = 1096,
+  y = 424,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner.4",
+}
+
+tile{
+  layer = 0,
+  x = 1136,
+  y = 424,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner.3",
+}
+
+tile{
+  layer = 0,
+  x = 1152,
+  y = 424,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner_reverse.3",
+}
+
+tile{
+  layer = 0,
+  x = 984,
+  y = 80,
+  width = 8,
+  height = 80,
+  pattern = "wall_border.3-2",
+}
+
+tile{
+  layer = 0,
+  x = 1088,
+  y = 448,
+  width = 64,
+  height = 8,
+  pattern = "wall_border.2-2",
+}
+
+tile{
+  layer = 0,
+  x = 928,
+  y = 80,
+  width = 8,
+  height = 80,
+  pattern = "wall_border.4-2",
+}
+
+tile{
+  layer = 0,
+  x = 736,
+  y = 56,
+  width = 128,
+  height = 8,
+  pattern = "hole.2",
+}
+
+tile{
+  layer = 0,
+  x = 728,
+  y = 64,
+  width = 8,
+  height = 112,
+  pattern = "hole.4",
+}
+
+tile{
+  layer = 0,
+  x = 864,
+  y = 64,
+  width = 8,
+  height = 24,
+  pattern = "hole.3",
+}
+
+tile{
+  layer = 0,
+  x = 912,
+  y = 72,
+  width = 24,
+  height = 8,
+  pattern = "hole.2",
+}
+
+tile{
+  layer = 0,
+  x = 904,
+  y = 80,
+  width = 8,
+  height = 8,
+  pattern = "hole.4",
+}
+
+tile{
+  layer = 0,
+  x = 872,
+  y = 88,
+  width = 32,
+  height = 8,
+  pattern = "hole.2",
+}
+
+tile{
+  layer = 0,
+  x = 872,
+  y = 144,
+  width = 32,
+  height = 8,
+  pattern = "hole.1",
+}
+
+tile{
+  layer = 0,
+  x = 864,
+  y = 152,
+  width = 8,
+  height = 24,
+  pattern = "hole.3",
+}
+
+tile{
+  layer = 0,
+  x = 904,
+  y = 152,
+  width = 8,
+  height = 8,
+  pattern = "hole.4",
+}
+
+tile{
+  layer = 0,
+  x = 912,
+  y = 160,
+  width = 24,
+  height = 8,
+  pattern = "hole.1",
+}
+
+tile{
+  layer = 0,
+  x = 736,
+  y = 176,
+  width = 128,
+  height = 8,
+  pattern = "hole.1",
+}
+
+tile{
+  layer = 0,
+  x = 728,
+  y = 56,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner_reverse.4",
+}
+
+tile{
+  layer = 0,
+  x = 864,
+  y = 56,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner_reverse.3",
+}
+
+tile{
+  layer = 0,
+  x = 904,
+  y = 72,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner_reverse.4",
+}
+
+tile{
+  layer = 0,
+  x = 864,
+  y = 88,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner.3",
+}
+
+tile{
+  layer = 0,
+  x = 904,
+  y = 88,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner.4",
+}
+
+tile{
+  layer = 0,
+  x = 864,
+  y = 144,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner.1",
+}
+
+tile{
+  layer = 0,
+  x = 904,
+  y = 144,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner.2",
+}
+
+tile{
+  layer = 0,
+  x = 904,
+  y = 160,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner_reverse.2",
+}
+
+tile{
+  layer = 0,
+  x = 728,
+  y = 176,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner_reverse.2",
+}
+
+tile{
+  layer = 0,
+  x = 864,
+  y = 176,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner_reverse.1",
+}
+
+tile{
+  layer = 0,
+  x = 352,
+  y = 96,
+  width = 160,
+  height = 48,
+  pattern = "floor.20-1",
+}
+
+tile{
+  layer = 0,
+  x = 344,
+  y = 80,
+  width = 8,
+  height = 80,
+  pattern = "wall_border.3-2",
+}
+
+tile{
+  layer = 0,
+  x = 344,
+  y = 72,
+  width = 24,
+  height = 8,
+  pattern = "hole.2",
+}
+
+tile{
+  layer = 0,
+  x = 368,
+  y = 80,
+  width = 8,
+  height = 8,
+  pattern = "hole.3",
+}
+
+tile{
+  layer = 0,
+  x = 376,
+  y = 88,
+  width = 136,
+  height = 8,
+  pattern = "hole.2",
+}
+
+tile{
+  layer = 0,
+  x = 512,
+  y = 96,
+  width = 8,
+  height = 48,
+  pattern = "hole.3",
+}
+
+tile{
+  layer = 0,
+  x = 376,
+  y = 144,
+  width = 136,
+  height = 8,
+  pattern = "hole.1",
+}
+
+tile{
+  layer = 0,
+  x = 368,
+  y = 152,
+  width = 8,
+  height = 8,
+  pattern = "hole.3",
+}
+
+tile{
+  layer = 0,
+  x = 344,
+  y = 160,
+  width = 24,
+  height = 8,
+  pattern = "hole.1",
+}
+
+tile{
+  layer = 0,
+  x = 368,
+  y = 72,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner_reverse.3",
+}
+
+tile{
+  layer = 0,
+  x = 368,
+  y = 88,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner.3",
+}
+
+tile{
+  layer = 0,
+  x = 512,
+  y = 88,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner_reverse.3",
+}
+
+tile{
+  layer = 0,
+  x = 368,
+  y = 144,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner.1",
+}
+
+tile{
+  layer = 0,
+  x = 512,
+  y = 144,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner_reverse.1",
+}
+
+tile{
+  layer = 0,
+  x = 368,
+  y = 160,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner_reverse.1",
+}
+
+tile{
+  layer = 0,
+  x = 112,
+  y = 96,
+  width = 176,
+  height = 48,
+  pattern = "floor.20-1",
+}
+
+tile{
+  layer = 0,
+  x = 112,
+  y = 144,
+  width = 96,
+  height = 240,
+  pattern = "floor.20-1",
+}
+
+tile{
+  layer = 0,
+  x = 144,
+  y = 384,
+  width = 32,
+  height = 64,
+  pattern = "floor.20-1",
+}
+
+tile{
+  layer = 0,
+  x = 128,
+  y = 448,
+  width = 64,
+  height = 8,
+  pattern = "wall_border.2-2",
+}
+
+tile{
+  layer = 0,
+  x = 288,
+  y = 80,
+  width = 8,
+  height = 80,
+  pattern = "wall_border.4-2",
+}
+
+tile{
+  layer = 0,
+  x = 288,
+  y = 224,
+  width = 8,
+  height = 16,
+  pattern = "wall_border.4-2",
+}
+
+tile{
+  layer = 0,
+  x = 288,
+  y = 304,
+  width = 8,
+  height = 16,
+  pattern = "wall_border.4-2",
+}
+
+tile{
+  layer = 0,
+  x = 40,
+  y = 304,
+  width = 8,
+  height = 16,
+  pattern = "wall_border.3-2",
+}
+
+tile{
+  layer = 0,
+  x = 40,
+  y = 224,
+  width = 8,
+  height = 16,
+  pattern = "wall_border.3-2",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 72,
+  width = 24,
+  height = 8,
+  pattern = "hole.2",
+}
+
+tile{
+  layer = 0,
+  x = 264,
+  y = 80,
+  width = 8,
+  height = 8,
+  pattern = "hole.4",
+}
+
+tile{
+  layer = 0,
+  x = 112,
+  y = 88,
+  width = 152,
+  height = 8,
+  pattern = "hole.2",
+}
+
+tile{
+  layer = 0,
+  x = 104,
+  y = 96,
+  width = 8,
+  height = 288,
+  pattern = "hole.4",
+}
+
+tile{
+  layer = 0,
+  x = 216,
+  y = 144,
+  width = 48,
+  height = 8,
+  pattern = "hole.1",
+}
+
+tile{
+  layer = 0,
+  x = 208,
+  y = 152,
+  width = 8,
+  height = 232,
+  pattern = "hole.3",
+}
+
+tile{
+  layer = 0,
+  x = 264,
+  y = 152,
+  width = 8,
+  height = 8,
+  pattern = "hole.4",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 160,
+  width = 24,
+  height = 8,
+  pattern = "hole.1",
+}
+
+tile{
+  layer = 0,
+  x = 40,
+  y = 216,
+  width = 24,
+  height = 8,
+  pattern = "hole.2",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 216,
+  width = 24,
+  height = 8,
+  pattern = "hole.2",
+}
+
+tile{
+  layer = 0,
+  x = 64,
+  y = 224,
+  width = 8,
+  height = 16,
+  pattern = "hole.3",
+}
+
+tile{
+  layer = 0,
+  x = 264,
+  y = 224,
+  width = 8,
+  height = 16,
+  pattern = "hole.4",
+}
+
+tile{
+  layer = 0,
+  x = 40,
+  y = 240,
+  width = 24,
+  height = 8,
+  pattern = "hole.1",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 240,
+  width = 24,
+  height = 8,
+  pattern = "hole.1",
+}
+
+tile{
+  layer = 0,
+  x = 40,
+  y = 296,
+  width = 24,
+  height = 8,
+  pattern = "hole.2",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 296,
+  width = 24,
+  height = 8,
+  pattern = "hole.2",
+}
+
+tile{
+  layer = 0,
+  x = 64,
+  y = 304,
+  width = 8,
+  height = 16,
+  pattern = "hole.3",
+}
+
+tile{
+  layer = 0,
+  x = 264,
+  y = 304,
+  width = 8,
+  height = 16,
+  pattern = "hole.4",
+}
+
+tile{
+  layer = 0,
+  x = 40,
+  y = 320,
+  width = 24,
+  height = 8,
+  pattern = "hole.1",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 320,
+  width = 24,
+  height = 8,
+  pattern = "hole.1",
+}
+
+tile{
+  layer = 0,
+  x = 112,
+  y = 384,
+  width = 24,
+  height = 8,
+  pattern = "hole.1",
+}
+
+tile{
+  layer = 0,
+  x = 184,
+  y = 384,
+  width = 24,
+  height = 8,
+  pattern = "hole.1",
+}
+
+tile{
+  layer = 0,
+  x = 136,
+  y = 392,
+  width = 8,
+  height = 32,
+  pattern = "hole.4",
+}
+
+tile{
+  layer = 0,
+  x = 176,
+  y = 392,
+  width = 8,
+  height = 32,
+  pattern = "hole.3",
+}
+
+tile{
+  layer = 0,
+  x = 128,
+  y = 424,
+  width = 8,
+  height = 8,
+  pattern = "hole.2",
+}
+
+tile{
+  layer = 0,
+  x = 184,
+  y = 424,
+  width = 8,
+  height = 8,
+  pattern = "hole.2",
+}
+
+tile{
+  layer = 0,
+  x = 120,
+  y = 432,
+  width = 8,
+  height = 24,
+  pattern = "hole.4",
+}
+
+tile{
+  layer = 0,
+  x = 192,
+  y = 432,
+  width = 8,
+  height = 24,
+  pattern = "hole.3",
+}
+
+tile{
+  layer = 0,
+  x = 264,
+  y = 72,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner_reverse.4",
+}
+
+tile{
+  layer = 0,
+  x = 104,
+  y = 88,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner_reverse.4",
+}
+
+tile{
+  layer = 0,
+  x = 264,
+  y = 88,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner.4",
+}
+
+tile{
+  layer = 0,
+  x = 208,
+  y = 144,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner.1",
+}
+
+tile{
+  layer = 0,
+  x = 264,
+  y = 144,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner.2",
+}
+
+tile{
+  layer = 0,
+  x = 264,
+  y = 160,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner_reverse.2",
+}
+
+tile{
+  layer = 0,
+  x = 64,
+  y = 216,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner_reverse.3",
+}
+
+tile{
+  layer = 0,
+  x = 264,
+  y = 216,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner_reverse.4",
+}
+
+tile{
+  layer = 0,
+  x = 64,
+  y = 240,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner_reverse.1",
+}
+
+tile{
+  layer = 0,
+  x = 264,
+  y = 240,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner_reverse.2",
+}
+
+tile{
+  layer = 0,
+  x = 64,
+  y = 296,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner_reverse.3",
+}
+
+tile{
+  layer = 0,
+  x = 264,
+  y = 296,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner_reverse.4",
+}
+
+tile{
+  layer = 0,
+  x = 64,
+  y = 320,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner_reverse.1",
+}
+
+tile{
+  layer = 0,
+  x = 264,
+  y = 320,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner_reverse.2",
+}
+
+tile{
+  layer = 0,
+  x = 104,
+  y = 384,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner_reverse.2",
+}
+
+tile{
+  layer = 0,
+  x = 136,
+  y = 384,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner.2",
+}
+
+tile{
+  layer = 0,
+  x = 176,
+  y = 384,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner.1",
+}
+
+tile{
+  layer = 0,
+  x = 208,
+  y = 384,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner_reverse.1",
+}
+
+tile{
+  layer = 0,
+  x = 120,
+  y = 424,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner_reverse.4",
+}
+
+tile{
+  layer = 0,
+  x = 136,
+  y = 424,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner.4",
+}
+
+tile{
+  layer = 0,
+  x = 176,
+  y = 424,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner.3",
+}
+
+tile{
+  layer = 0,
+  x = 192,
+  y = 424,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner_reverse.3",
+}
+
+stream{
+  layer = 0,
+  x = 200,
+  y = 381,
+  direction = 0,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 120,
+  y = 157,
+  direction = 4,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 136,
+  y = 157,
+  direction = 4,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 152,
+  y = 157,
+  direction = 4,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 120,
+  y = 173,
+  direction = 4,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 136,
+  y = 173,
+  direction = 4,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 152,
+  y = 173,
+  direction = 4,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 120,
+  y = 189,
+  direction = 4,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 136,
+  y = 189,
+  direction = 4,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 152,
+  y = 189,
+  direction = 4,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 120,
+  y = 205,
+  direction = 4,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 136,
+  y = 205,
+  direction = 4,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 1128,
+  y = 141,
+  direction = 0,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 1144,
+  y = 141,
+  direction = 0,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 1160,
+  y = 141,
+  direction = 0,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 1176,
+  y = 141,
+  direction = 0,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 1128,
+  y = 157,
+  direction = 0,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 1144,
+  y = 157,
+  direction = 0,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 1160,
+  y = 157,
+  direction = 0,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 1176,
+  y = 157,
+  direction = 0,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 1128,
+  y = 173,
+  direction = 0,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 1144,
+  y = 173,
+  direction = 0,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 1160,
+  y = 173,
+  direction = 0,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 1176,
+  y = 173,
+  direction = 0,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+wall{
+  layer = 0,
+  x = 152,
+  y = 456,
+  width = 16,
+  height = 48,
+  stops_enemies = true,
+  stops_blocks = true,
+}
+
+wall{
+  layer = 0,
+  x = 152,
+  y = 696,
+  width = 16,
+  height = 48,
+  stops_enemies = true,
+  stops_blocks = true,
+}
+
+wall{
+  layer = 0,
+  x = 296,
+  y = 832,
+  width = 48,
+  height = 16,
+  stops_enemies = true,
+  stops_blocks = true,
+}
+
+wall{
+  layer = 0,
+  x = 936,
+  y = 832,
+  width = 48,
+  height = 16,
+  stops_enemies = true,
+  stops_blocks = true,
+}
+
+wall{
+  layer = 0,
+  x = 936,
+  y = 112,
+  width = 48,
+  height = 16,
+  stops_enemies = true,
+  stops_blocks = true,
+}
+
+wall{
+  layer = 0,
+  x = 1112,
+  y = 456,
+  width = 16,
+  height = 48,
+  stops_enemies = true,
+  stops_blocks = true,
+}
+
+wall{
+  layer = 0,
+  x = 1112,
+  y = 696,
+  width = 16,
+  height = 48,
+  stops_enemies = true,
+  stops_blocks = true,
+}
+
+wall{
+  layer = 0,
+  x = 296,
+  y = 112,
+  width = 48,
+  height = 16,
+  stops_enemies = true,
+  stops_blocks = true,
+}
+
+door{
+  name = "auto_door_a",
+  layer = 0,
+  x = 296,
+  y = 112,
+  direction = 0,
+  sprite = "entities/doors/door_d1_normal",
+}
+
+door{
+  name = "auto_door_a_back",
+  layer = 0,
+  x = 328,
+  y = 112,
+  direction = 2,
+  sprite = "entities/doors/door_d1_normal",
+}
+
+wall{
+  layer = 0,
+  x = 616,
+  y = 832,
+  width = 48,
+  height = 16,
+  stops_enemies = true,
+  stops_blocks = true,
+}
+
+door{
+  name = "auto_door_b",
+  layer = 0,
+  x = 616,
+  y = 832,
+  direction = 0,
+  sprite = "entities/doors/door_d1_normal",
+}
+
+door{
+  name = "auto_door_b_back",
+  layer = 0,
+  x = 648,
+  y = 832,
+  direction = 2,
+  sprite = "entities/doors/door_d1_normal",
+}
+
+wall{
+  layer = 0,
+  x = 472,
+  y = 336,
+  width = 16,
+  height = 8,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 792,
+  y = 96,
+  width = 16,
+  height = 8,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 152,
+  y = 576,
+  width = 16,
+  height = 8,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+crystal_block{
+  layer = 0,
+  x = 128,
+  y = 544,
+  width = 64,
+  height = 16,
+  subtype = 1,
+}
+
+crystal_block{
+  layer = 0,
+  x = 464,
+  y = 416,
+  width = 32,
+  height = 16,
+  subtype = 1,
+}
+
+crystal_block{
+  layer = 0,
+  x = 544,
+  y = 336,
+  width = 16,
+  height = 32,
+  subtype = 0,
+}
+
+custom_entity{
+  layer = 0,
+  x = 280,
+  y = 93,
+  width = 16,
+  height = 16,
+  direction = 1,
+  sprite = "entities/torch",
+  model = "torch",
+}
+
+custom_entity{
+  layer = 0,
+  x = 280,
+  y = 157,
+  width = 16,
+  height = 16,
+  direction = 1,
+  sprite = "entities/torch",
+  model = "torch",
+}
+
+custom_entity{
+  layer = 0,
+  x = 360,
+  y = 93,
+  width = 16,
+  height = 16,
+  direction = 1,
+  sprite = "entities/torch",
+  model = "torch",
+}
+
+custom_entity{
+  layer = 0,
+  x = 360,
+  y = 157,
+  width = 16,
+  height = 16,
+  direction = 1,
+  sprite = "entities/torch",
+  model = "torch",
+}
+
+custom_entity{
+  layer = 0,
+  x = 920,
+  y = 93,
+  width = 16,
+  height = 16,
+  direction = 1,
+  sprite = "entities/torch",
+  model = "torch",
+}
+
+custom_entity{
+  layer = 0,
+  x = 920,
+  y = 157,
+  width = 16,
+  height = 16,
+  direction = 1,
+  sprite = "entities/torch",
+  model = "torch",
+}
+
+custom_entity{
+  layer = 0,
+  x = 1000,
+  y = 93,
+  width = 16,
+  height = 16,
+  direction = 1,
+  sprite = "entities/torch",
+  model = "torch",
+}
+
+custom_entity{
+  layer = 0,
+  x = 1000,
+  y = 157,
+  width = 16,
+  height = 16,
+  direction = 1,
+  sprite = "entities/torch",
+  model = "torch",
+}
+
+custom_entity{
+  layer = 0,
+  x = 1096,
+  y = 93,
+  width = 16,
+  height = 16,
+  direction = 1,
+  sprite = "entities/torch",
+  model = "torch",
+}
+
+custom_entity{
+  layer = 0,
+  x = 1112,
+  y = 93,
+  width = 16,
+  height = 16,
+  direction = 1,
+  sprite = "entities/torch",
+  model = "torch",
+}
+
+custom_entity{
+  layer = 0,
+  x = 1128,
+  y = 93,
+  width = 16,
+  height = 16,
+  direction = 1,
+  sprite = "entities/torch",
+  model = "torch",
+}
+
+custom_entity{
+  layer = 0,
+  x = 1144,
+  y = 93,
+  width = 16,
+  height = 16,
+  direction = 1,
+  sprite = "entities/torch",
+  model = "torch",
+}
+
+custom_entity{
+  layer = 0,
+  x = 1096,
+  y = 349,
+  width = 16,
+  height = 16,
+  direction = 1,
+  sprite = "entities/torch",
+  model = "torch",
+}
+
+custom_entity{
+  layer = 0,
+  x = 1112,
+  y = 349,
+  width = 16,
+  height = 16,
+  direction = 1,
+  sprite = "entities/torch",
+  model = "torch",
+}
+
+custom_entity{
+  layer = 0,
+  x = 1128,
+  y = 349,
+  width = 16,
+  height = 16,
+  direction = 1,
+  sprite = "entities/torch",
+  model = "torch",
+}
+
+custom_entity{
+  layer = 0,
+  x = 1144,
+  y = 349,
+  width = 16,
+  height = 16,
+  direction = 1,
+  sprite = "entities/torch",
+  model = "torch",
+}
+
+custom_entity{
+  layer = 0,
+  x = 1096,
+  y = 445,
+  width = 16,
+  height = 16,
+  direction = 1,
+  sprite = "entities/torch",
+  model = "torch",
+}
+
+custom_entity{
+  layer = 0,
+  x = 1144,
+  y = 445,
+  width = 16,
+  height = 16,
+  direction = 1,
+  sprite = "entities/torch",
+  model = "torch",
+}
+
+custom_entity{
+  layer = 0,
+  x = 1096,
+  y = 525,
+  width = 16,
+  height = 16,
+  direction = 1,
+  sprite = "entities/torch",
+  model = "torch",
+}
+
+custom_entity{
+  layer = 0,
+  x = 1144,
+  y = 525,
+  width = 16,
+  height = 16,
+  direction = 1,
+  sprite = "entities/torch",
+  model = "torch",
+}
+
+custom_entity{
+  layer = 0,
+  x = 1096,
+  y = 685,
+  width = 16,
+  height = 16,
+  direction = 1,
+  sprite = "entities/torch",
+  model = "torch",
+}
+
+custom_entity{
+  layer = 0,
+  x = 1144,
+  y = 685,
+  width = 16,
+  height = 16,
+  direction = 1,
+  sprite = "entities/torch",
+  model = "torch",
+}
+
+custom_entity{
+  layer = 0,
+  x = 120,
+  y = 813,
+  width = 16,
+  height = 16,
+  direction = 1,
+  sprite = "entities/torch",
+  model = "torch",
+}
+
+custom_entity{
+  layer = 0,
+  x = 136,
+  y = 813,
+  width = 16,
+  height = 16,
+  direction = 1,
+  sprite = "entities/torch",
+  model = "torch",
+}
+
+custom_entity{
+  layer = 0,
+  x = 152,
+  y = 813,
+  width = 16,
+  height = 16,
+  direction = 1,
+  sprite = "entities/torch",
+  model = "torch",
+}
+
+custom_entity{
+  layer = 0,
+  x = 168,
+  y = 813,
+  width = 16,
+  height = 16,
+  direction = 1,
+  sprite = "entities/torch",
+  model = "torch",
+}
+
+custom_entity{
+  layer = 0,
+  x = 184,
+  y = 813,
+  width = 16,
+  height = 16,
+  direction = 1,
+  sprite = "entities/torch",
+  model = "torch",
+}
+
+custom_entity{
+  layer = 0,
+  x = 200,
+  y = 813,
+  width = 16,
+  height = 16,
+  direction = 1,
+  sprite = "entities/torch",
+  model = "torch",
+}
+
+custom_entity{
+  layer = 0,
+  x = 200,
+  y = 829,
+  width = 16,
+  height = 16,
+  direction = 1,
+  sprite = "entities/torch",
+  model = "torch",
+}
+
+custom_entity{
+  layer = 0,
+  x = 200,
+  y = 845,
+  width = 16,
+  height = 16,
+  direction = 1,
+  sprite = "entities/torch",
+  model = "torch",
+}
+
+custom_entity{
+  layer = 0,
+  x = 200,
+  y = 861,
+  width = 16,
+  height = 16,
+  direction = 1,
+  sprite = "entities/torch",
+  model = "torch",
+}
+
+custom_entity{
+  layer = 0,
+  x = 200,
+  y = 877,
+  width = 16,
+  height = 16,
+  direction = 1,
+  sprite = "entities/torch",
+  model = "torch",
+}
+
+custom_entity{
+  layer = 0,
+  x = 120,
+  y = 877,
+  width = 16,
+  height = 16,
+  direction = 1,
+  sprite = "entities/torch",
+  model = "torch",
+}
+
+custom_entity{
+  layer = 0,
+  x = 120,
+  y = 861,
+  width = 16,
+  height = 16,
+  direction = 1,
+  sprite = "entities/torch",
+  model = "torch",
+}
+
+custom_entity{
+  layer = 0,
+  x = 120,
+  y = 845,
+  width = 16,
+  height = 16,
+  direction = 1,
+  sprite = "entities/torch",
+  model = "torch",
+}
+
+custom_entity{
+  layer = 0,
+  x = 120,
+  y = 829,
+  width = 16,
+  height = 16,
+  direction = 1,
+  sprite = "entities/torch",
+  model = "torch",
+}
+
+custom_entity{
+  layer = 0,
+  x = 136,
+  y = 445,
+  width = 16,
+  height = 16,
+  direction = 1,
+  sprite = "entities/torch",
+  model = "torch",
+}
+
+custom_entity{
+  layer = 0,
+  x = 184,
+  y = 445,
+  width = 16,
+  height = 16,
+  direction = 1,
+  sprite = "entities/torch",
+  model = "torch",
+}
+
+custom_entity{
+  layer = 0,
+  x = 56,
+  y = 317,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/torch",
+  model = "torch",
+}
+
+custom_entity{
+  layer = 0,
+  x = 56,
+  y = 237,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/torch",
+  model = "torch",
+}
+
+custom_entity{
+  layer = 0,
+  x = 280,
+  y = 237,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/torch",
+  model = "torch",
+}
+
+custom_entity{
+  layer = 0,
+  x = 280,
+  y = 317,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/torch",
+  model = "torch",
+}
+
+custom_entity{
+  layer = 0,
+  x = 912,
+  y = 845,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/hook_brown",
+  model = "hookable",
+}
+
+custom_entity{
+  layer = 0,
+  x = 880,
+  y = 821,
+  width = 16,
+  height = 64,
+  direction = 0,
+  model = "low_wall",
+}
+
+stream{
+  layer = 0,
+  x = 72,
+  y = 765,
+  direction = 6,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 72,
+  y = 781,
+  direction = 6,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 88,
+  y = 781,
+  direction = 6,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 88,
+  y = 797,
+  direction = 6,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 72,
+  y = 797,
+  direction = 6,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 72,
+  y = 813,
+  direction = 6,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 88,
+  y = 813,
+  direction = 6,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 104,
+  y = 813,
+  direction = 6,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 72,
+  y = 829,
+  direction = 6,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 88,
+  y = 829,
+  direction = 6,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 104,
+  y = 829,
+  direction = 6,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 72,
+  y = 845,
+  direction = 6,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 88,
+  y = 845,
+  direction = 6,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 104,
+  y = 845,
+  direction = 6,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 72,
+  y = 861,
+  direction = 6,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 88,
+  y = 861,
+  direction = 6,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 104,
+  y = 861,
+  direction = 6,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 72,
+  y = 877,
+  direction = 6,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 88,
+  y = 877,
+  direction = 6,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 104,
+  y = 877,
+  direction = 6,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 72,
+  y = 893,
+  direction = 6,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 88,
+  y = 893,
+  direction = 6,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 104,
+  y = 893,
+  direction = 6,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 72,
+  y = 909,
+  direction = 6,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 248,
+  y = 797,
+  direction = 2,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 248,
+  y = 813,
+  direction = 2,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 232,
+  y = 797,
+  direction = 2,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 232,
+  y = 813,
+  direction = 2,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 248,
+  y = 829,
+  direction = 2,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 248,
+  y = 845,
+  direction = 2,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 232,
+  y = 829,
+  direction = 2,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 216,
+  y = 797,
+  direction = 2,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 248,
+  y = 861,
+  direction = 2,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 232,
+  y = 845,
+  direction = 2,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 216,
+  y = 813,
+  direction = 2,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 248,
+  y = 877,
+  direction = 2,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 232,
+  y = 861,
+  direction = 2,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 216,
+  y = 829,
+  direction = 2,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 248,
+  y = 893,
+  direction = 2,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 232,
+  y = 877,
+  direction = 2,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 216,
+  y = 845,
+  direction = 2,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 248,
+  y = 909,
+  direction = 2,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 232,
+  y = 893,
+  direction = 2,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 216,
+  y = 861,
+  direction = 2,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 248,
+  y = 925,
+  direction = 2,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 232,
+  y = 909,
+  direction = 2,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 216,
+  y = 877,
+  direction = 2,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 248,
+  y = 781,
+  direction = 2,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 88,
+  y = 765,
+  direction = 4,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 104,
+  y = 765,
+  direction = 4,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 120,
+  y = 765,
+  direction = 4,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 136,
+  y = 765,
+  direction = 4,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 152,
+  y = 765,
+  direction = 4,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 168,
+  y = 765,
+  direction = 4,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 184,
+  y = 765,
+  direction = 4,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 200,
+  y = 765,
+  direction = 4,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 216,
+  y = 765,
+  direction = 4,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 232,
+  y = 765,
+  direction = 4,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 248,
+  y = 765,
+  direction = 4,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 104,
+  y = 781,
+  direction = 4,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 120,
+  y = 781,
+  direction = 4,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 136,
+  y = 781,
+  direction = 4,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 152,
+  y = 781,
+  direction = 4,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 168,
+  y = 781,
+  direction = 4,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 184,
+  y = 781,
+  direction = 4,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 200,
+  y = 781,
+  direction = 4,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 216,
+  y = 781,
+  direction = 4,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 232,
+  y = 781,
+  direction = 4,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 104,
+  y = 797,
+  direction = 4,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 120,
+  y = 797,
+  direction = 4,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 136,
+  y = 797,
+  direction = 4,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 152,
+  y = 797,
+  direction = 4,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 168,
+  y = 797,
+  direction = 4,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 184,
+  y = 797,
+  direction = 4,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 200,
+  y = 797,
+  direction = 4,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 120,
+  y = 893,
+  direction = 0,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 136,
+  y = 893,
+  direction = 0,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 152,
+  y = 893,
+  direction = 0,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 168,
+  y = 893,
+  direction = 0,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 184,
+  y = 893,
+  direction = 0,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 200,
+  y = 893,
+  direction = 0,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 216,
+  y = 893,
+  direction = 0,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 120,
+  y = 909,
+  direction = 0,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 136,
+  y = 909,
+  direction = 0,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 152,
+  y = 909,
+  direction = 0,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 168,
+  y = 909,
+  direction = 0,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 184,
+  y = 909,
+  direction = 0,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 200,
+  y = 909,
+  direction = 0,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 216,
+  y = 909,
+  direction = 0,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 120,
+  y = 925,
+  direction = 0,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 136,
+  y = 925,
+  direction = 0,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 152,
+  y = 925,
+  direction = 0,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 168,
+  y = 925,
+  direction = 0,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 184,
+  y = 925,
+  direction = 0,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 200,
+  y = 925,
+  direction = 0,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 216,
+  y = 925,
+  direction = 0,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 232,
+  y = 925,
+  direction = 0,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 104,
+  y = 909,
+  direction = 0,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 88,
+  y = 909,
+  direction = 0,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 72,
+  y = 925,
+  direction = 0,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 88,
+  y = 925,
+  direction = 0,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 104,
+  y = 925,
+  direction = 0,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 168,
+  y = 157,
+  direction = 0,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 184,
+  y = 157,
+  direction = 0,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 200,
+  y = 157,
+  direction = 0,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 168,
+  y = 173,
+  direction = 0,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 184,
+  y = 173,
+  direction = 0,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 200,
+  y = 173,
+  direction = 0,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 168,
+  y = 189,
+  direction = 0,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 184,
+  y = 189,
+  direction = 0,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 200,
+  y = 189,
+  direction = 0,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 168,
+  y = 205,
+  direction = 0,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 184,
+  y = 205,
+  direction = 0,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 200,
+  y = 205,
+  direction = 0,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 168,
+  y = 221,
+  direction = 0,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 184,
+  y = 221,
+  direction = 0,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 200,
+  y = 221,
+  direction = 0,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 168,
+  y = 237,
+  direction = 0,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 184,
+  y = 237,
+  direction = 0,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 200,
+  y = 237,
+  direction = 0,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 168,
+  y = 253,
+  direction = 0,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 184,
+  y = 253,
+  direction = 0,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 200,
+  y = 253,
+  direction = 0,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 168,
+  y = 269,
+  direction = 0,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 184,
+  y = 269,
+  direction = 0,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 200,
+  y = 269,
+  direction = 0,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 168,
+  y = 285,
+  direction = 0,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 184,
+  y = 285,
+  direction = 0,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 200,
+  y = 285,
+  direction = 0,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 168,
+  y = 301,
+  direction = 0,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 184,
+  y = 301,
+  direction = 0,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 200,
+  y = 301,
+  direction = 0,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 168,
+  y = 317,
+  direction = 0,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 184,
+  y = 317,
+  direction = 0,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 200,
+  y = 317,
+  direction = 0,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 168,
+  y = 333,
+  direction = 0,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 184,
+  y = 333,
+  direction = 0,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 200,
+  y = 333,
+  direction = 0,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 168,
+  y = 349,
+  direction = 0,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 184,
+  y = 349,
+  direction = 0,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 200,
+  y = 349,
+  direction = 0,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 168,
+  y = 365,
+  direction = 0,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 184,
+  y = 365,
+  direction = 0,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 200,
+  y = 365,
+  direction = 0,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 168,
+  y = 381,
+  direction = 0,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 184,
+  y = 381,
+  direction = 0,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 152,
+  y = 205,
+  direction = 4,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 120,
+  y = 221,
+  direction = 4,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 136,
+  y = 221,
+  direction = 4,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 152,
+  y = 221,
+  direction = 4,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 120,
+  y = 237,
+  direction = 4,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 136,
+  y = 237,
+  direction = 4,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 152,
+  y = 237,
+  direction = 4,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 120,
+  y = 253,
+  direction = 4,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 136,
+  y = 253,
+  direction = 4,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 152,
+  y = 253,
+  direction = 4,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 120,
+  y = 269,
+  direction = 4,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 136,
+  y = 269,
+  direction = 4,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 152,
+  y = 269,
+  direction = 4,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 120,
+  y = 285,
+  direction = 4,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 136,
+  y = 285,
+  direction = 4,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 152,
+  y = 285,
+  direction = 4,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 120,
+  y = 301,
+  direction = 4,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 136,
+  y = 301,
+  direction = 4,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 152,
+  y = 301,
+  direction = 4,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 120,
+  y = 317,
+  direction = 4,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 136,
+  y = 317,
+  direction = 4,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 152,
+  y = 317,
+  direction = 4,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 120,
+  y = 333,
+  direction = 4,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 136,
+  y = 333,
+  direction = 4,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 152,
+  y = 333,
+  direction = 4,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 120,
+  y = 349,
+  direction = 4,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 136,
+  y = 349,
+  direction = 4,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 152,
+  y = 349,
+  direction = 4,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 120,
+  y = 365,
+  direction = 4,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 136,
+  y = 365,
+  direction = 4,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 152,
+  y = 365,
+  direction = 4,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 120,
+  y = 381,
+  direction = 4,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 136,
+  y = 381,
+  direction = 4,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 152,
+  y = 381,
+  direction = 4,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 120,
+  y = 109,
+  direction = 2,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 120,
+  y = 125,
+  direction = 2,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 120,
+  y = 141,
+  direction = 2,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 136,
+  y = 109,
+  direction = 2,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 136,
+  y = 125,
+  direction = 2,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 136,
+  y = 141,
+  direction = 2,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 152,
+  y = 109,
+  direction = 2,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 152,
+  y = 125,
+  direction = 2,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 152,
+  y = 141,
+  direction = 2,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 168,
+  y = 109,
+  direction = 2,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 168,
+  y = 125,
+  direction = 2,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 168,
+  y = 141,
+  direction = 2,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 184,
+  y = 109,
+  direction = 2,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 184,
+  y = 125,
+  direction = 2,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 184,
+  y = 141,
+  direction = 2,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 200,
+  y = 109,
+  direction = 2,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 200,
+  y = 125,
+  direction = 2,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 200,
+  y = 141,
+  direction = 2,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 584,
+  y = 349,
+  direction = 2,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 584,
+  y = 365,
+  direction = 2,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 600,
+  y = 349,
+  direction = 2,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 600,
+  y = 365,
+  direction = 2,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 616,
+  y = 349,
+  direction = 2,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 616,
+  y = 365,
+  direction = 2,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 632,
+  y = 349,
+  direction = 2,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 632,
+  y = 365,
+  direction = 2,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 648,
+  y = 349,
+  direction = 2,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 648,
+  y = 365,
+  direction = 2,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 664,
+  y = 349,
+  direction = 2,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 664,
+  y = 365,
+  direction = 2,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 1064,
+  y = 109,
+  direction = 4,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 1080,
+  y = 109,
+  direction = 4,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 1096,
+  y = 109,
+  direction = 4,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 1112,
+  y = 109,
+  direction = 4,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 1064,
+  y = 125,
+  direction = 4,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 1080,
+  y = 125,
+  direction = 4,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 1096,
+  y = 125,
+  direction = 4,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 1112,
+  y = 125,
+  direction = 4,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 1064,
+  y = 141,
+  direction = 4,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 1080,
+  y = 141,
+  direction = 4,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 1096,
+  y = 141,
+  direction = 4,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 1112,
+  y = 141,
+  direction = 4,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 1064,
+  y = 157,
+  direction = 4,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 1080,
+  y = 157,
+  direction = 4,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 1096,
+  y = 157,
+  direction = 4,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 1112,
+  y = 157,
+  direction = 4,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 1064,
+  y = 173,
+  direction = 4,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 1080,
+  y = 173,
+  direction = 4,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 1096,
+  y = 173,
+  direction = 4,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 1112,
+  y = 173,
+  direction = 4,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 1064,
+  y = 189,
+  direction = 4,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 1080,
+  y = 189,
+  direction = 4,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 1096,
+  y = 189,
+  direction = 4,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 1112,
+  y = 189,
+  direction = 4,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 1064,
+  y = 205,
+  direction = 4,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 1080,
+  y = 205,
+  direction = 4,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 1096,
+  y = 205,
+  direction = 4,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 1112,
+  y = 205,
+  direction = 4,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 1064,
+  y = 221,
+  direction = 4,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 1080,
+  y = 221,
+  direction = 4,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 1096,
+  y = 221,
+  direction = 4,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 1112,
+  y = 221,
+  direction = 4,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 1128,
+  y = 109,
+  direction = 0,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 1144,
+  y = 109,
+  direction = 0,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 1160,
+  y = 109,
+  direction = 0,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 1176,
+  y = 109,
+  direction = 0,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 1128,
+  y = 125,
+  direction = 0,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 1144,
+  y = 125,
+  direction = 0,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 1160,
+  y = 125,
+  direction = 0,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 1176,
+  y = 125,
+  direction = 0,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 1128,
+  y = 189,
+  direction = 0,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 1144,
+  y = 189,
+  direction = 0,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 1160,
+  y = 189,
+  direction = 0,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 1176,
+  y = 189,
+  direction = 0,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 1128,
+  y = 205,
+  direction = 0,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 1144,
+  y = 205,
+  direction = 0,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 1160,
+  y = 205,
+  direction = 0,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 1176,
+  y = 205,
+  direction = 0,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 1128,
+  y = 221,
+  direction = 0,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 1144,
+  y = 221,
+  direction = 0,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 1160,
+  y = 221,
+  direction = 0,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 1176,
+  y = 221,
+  direction = 0,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 1064,
+  y = 301,
+  direction = 4,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 1080,
+  y = 301,
+  direction = 4,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 1096,
+  y = 301,
+  direction = 4,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 1112,
+  y = 301,
+  direction = 4,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 1064,
+  y = 317,
+  direction = 4,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 1080,
+  y = 317,
+  direction = 4,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 1096,
+  y = 317,
+  direction = 4,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 1112,
+  y = 317,
+  direction = 4,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 1064,
+  y = 333,
+  direction = 4,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 1080,
+  y = 333,
+  direction = 4,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 1096,
+  y = 333,
+  direction = 4,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 1112,
+  y = 333,
+  direction = 4,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 1128,
+  y = 301,
+  direction = 0,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 1144,
+  y = 301,
+  direction = 0,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 1160,
+  y = 301,
+  direction = 0,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 1176,
+  y = 301,
+  direction = 0,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 1128,
+  y = 317,
+  direction = 0,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 1144,
+  y = 317,
+  direction = 0,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 1160,
+  y = 317,
+  direction = 0,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 1176,
+  y = 317,
+  direction = 0,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 1128,
+  y = 333,
+  direction = 0,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 1144,
+  y = 333,
+  direction = 0,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 1160,
+  y = 333,
+  direction = 0,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 1176,
+  y = 333,
+  direction = 0,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 1096,
+  y = 237,
+  direction = 4,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 1112,
+  y = 237,
+  direction = 4,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 1096,
+  y = 253,
+  direction = 4,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 1112,
+  y = 253,
+  direction = 4,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 1096,
+  y = 269,
+  direction = 4,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 1112,
+  y = 269,
+  direction = 4,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 1128,
+  y = 237,
+  direction = 0,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 1144,
+  y = 237,
+  direction = 0,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 1128,
+  y = 253,
+  direction = 0,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 1144,
+  y = 253,
+  direction = 0,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 1128,
+  y = 269,
+  direction = 0,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 1144,
+  y = 269,
+  direction = 0,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 1096,
+  y = 285,
+  direction = 4,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 1112,
+  y = 285,
+  direction = 4,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 1128,
+  y = 285,
+  direction = 0,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 1144,
+  y = 285,
+  direction = 0,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 728,
+  y = 429,
+  direction = 4,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 744,
+  y = 429,
+  direction = 4,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 744,
+  y = 445,
+  direction = 4,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 728,
+  y = 445,
+  direction = 4,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 728,
+  y = 461,
+  direction = 4,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 744,
+  y = 461,
+  direction = 4,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 744,
+  y = 477,
+  direction = 4,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 728,
+  y = 477,
+  direction = 4,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 728,
+  y = 493,
+  direction = 4,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 744,
+  y = 493,
+  direction = 4,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 744,
+  y = 509,
+  direction = 4,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+stream{
+  layer = 0,
+  x = 728,
+  y = 509,
+  direction = 4,
+  sprite = "entities/stream",
+  speed = 25,
+}
+
+enemy{
+  name = "auto_enemy_1",
+  layer = 0,
+  x = 1096,
+  y = 109,
+  direction = 3,
+  breed = "alttp/pike_auto",
+}
+
+enemy{
+  name = "auto_enemy_2",
+  layer = 0,
+  x = 1112,
+  y = 109,
+  direction = 3,
+  breed = "alttp/pike_auto",
+}
+
+enemy{
+  name = "auto_enemy_3",
+  layer = 0,
+  x = 1128,
+  y = 109,
+  direction = 3,
+  breed = "alttp/pike_auto",
+}
+
+enemy{
+  name = "auto_enemy_4",
+  layer = 0,
+  x = 1144,
+  y = 109,
+  direction = 3,
+  breed = "alttp/pike_auto",
+}
+
+enemy{
+  name = "auto_enemy_26",
+  layer = 0,
+  x = 88,
+  y = 781,
+  direction = 3,
+  breed = "alttp/chasupa",
+}
+
+enemy{
+  name = "auto_enemy_27",
+  layer = 0,
+  x = 88,
+  y = 909,
+  direction = 3,
+  breed = "alttp/chasupa",
+}
+
+enemy{
+  name = "auto_enemy_28",
+  layer = 0,
+  x = 232,
+  y = 781,
+  direction = 3,
+  breed = "alttp/chasupa",
+}
+
+enemy{
+  name = "auto_enemy_29",
+  layer = 0,
+  x = 232,
+  y = 909,
+  direction = 3,
+  breed = "alttp/chasupa",
+}
+
+enemy{
+  name = "auto_enemy_30",
+  layer = 0,
+  x = 88,
+  y = 173,
+  direction = 3,
+  breed = "alttp/chasupa",
+}
+
+enemy{
+  name = "auto_enemy_31",
+  layer = 0,
+  x = 88,
+  y = 269,
+  direction = 3,
+  breed = "alttp/chasupa",
+}
+
+enemy{
+  name = "auto_enemy_32",
+  layer = 0,
+  x = 232,
+  y = 173,
+  direction = 3,
+  breed = "alttp/chasupa",
+}
+
+enemy{
+  name = "auto_enemy_33",
+  layer = 0,
+  x = 232,
+  y = 269,
+  direction = 3,
+  breed = "alttp/chasupa",
+}
+
+enemy{
+  name = "auto_enemy_34",
+  layer = 0,
+  x = 736,
+  y = 349,
+  direction = 3,
+  breed = "alttp/chasupa",
+}
+
+enemy{
+  name = "auto_enemy_35",
+  layer = 0,
+  x = 624,
+  y = 301,
+  direction = 3,
+  breed = "alttp/chasupa",
+}
+
+enemy{
+  name = "auto_enemy_36",
+  layer = 0,
+  x = 792,
+  y = 469,
+  direction = 3,
+  breed = "alttp/chasupa",
+}
+
+enemy{
+  name = "auto_enemy_85",
+  layer = 0,
+  x = 424,
+  y = 125,
+  direction = 3,
+  breed = "alttp/goriya_green",
+}
+
+enemy{
+  name = "auto_enemy_86",
+  layer = 0,
+  x = 1080,
+  y = 845,
+  direction = 3,
+  breed = "alttp/goriya_green",
+}
+
+enemy{
+  name = "auto_enemy_97",
+  layer = 0,
+  x = 552,
+  y = 829,
+  direction = 3,
+  breed = "alttp/stalfos_grey",
+}
+
+crystal{
+  layer = 0,
+  x = 160,
+  y = 845,
+}
+
+crystal{
+  layer = 0,
+  x = 736,
+  y = 573,
+}
+
+chest{
+  layer = 0,
+  x = 776,
+  y = 845,
+  treasure_name = "boss_key",
+  treasure_savegame_variable = "d12_boss_key_chest",
+  sprite = "entities/chest",
+}
+
+chest{
+  layer = 0,
+  x = 488,
+  y = 125,
+  treasure_name = "small_key",
+  treasure_savegame_variable = "d12_b2_key_1_chest",
+  sprite = "entities/chest",
+}
+
+chest{
+  layer = 0,
+  x = 480,
+  y = 573,
+  treasure_name = "small_key",
+  treasure_savegame_variable = "d12_b2_key_2_chest",
+  sprite = "entities/chest",
+}
+
+chest{
+  layer = 0,
+  x = 1120,
+  y = 605,
+  treasure_name = "small_key",
+  treasure_savegame_variable = "d12_b2_key_3_chest",
+  sprite = "entities/chest",
+}
+
+destination{
+  name = "from_b1_c",
+  layer = 0,
+  x = 480,
+  y = 365,
+  direction = 1,
+}
+
+destination{
+  name = "from_b1_n",
+  layer = 0,
+  x = 800,
+  y = 125,
+  direction = 1,
+}
+
+destination{
+  name = "from_b1_w",
+  layer = 0,
+  x = 160,
+  y = 605,
+  direction = 1,
+}
+
+teletransporter{
+  layer = 0,
+  x = 152,
+  y = 592,
+  width = 16,
+  height = 16,
+  destination_map = "dungeons/12/b1",
+  destination = "from_b2_w",
+}
+
+teletransporter{
+  layer = 0,
+  x = 472,
+  y = 352,
+  width = 16,
+  height = 16,
+  destination_map = "dungeons/12/b1",
+  destination = "from_b2_c",
+}
+
+teletransporter{
+  layer = 0,
+  x = 792,
+  y = 112,
+  width = 16,
+  height = 16,
+  destination_map = "dungeons/12/b1",
+  destination = "from_b2_n",
+}
+
+tile{
+  layer = 1,
+  x = 120,
+  y = 472,
+  width = 80,
+  height = 8,
+  pattern = "door_cache.2-2",
+}
+
+tile{
+  layer = 1,
+  x = 120,
+  y = 480,
+  width = 80,
+  height = 8,
+  pattern = "door_cache.1-2",
+}
+
+tile{
+  layer = 1,
+  x = 144,
+  y = 472,
+  width = 32,
+  height = 8,
+  pattern = "door_top.2-2",
+}
+
+tile{
+  layer = 1,
+  x = 144,
+  y = 480,
+  width = 32,
+  height = 8,
+  pattern = "door_top.1-2",
+}
+
+tile{
+  layer = 1,
+  x = 120,
+  y = 712,
+  width = 80,
+  height = 8,
+  pattern = "door_cache.2-2",
+}
+
+tile{
+  layer = 1,
+  x = 120,
+  y = 720,
+  width = 80,
+  height = 8,
+  pattern = "door_cache.1-2",
+}
+
+tile{
+  layer = 1,
+  x = 144,
+  y = 712,
+  width = 32,
+  height = 8,
+  pattern = "door_top.2-2",
+}
+
+tile{
+  layer = 1,
+  x = 144,
+  y = 720,
+  width = 32,
+  height = 8,
+  pattern = "door_top.1-2",
+}
+
+tile{
+  layer = 1,
+  x = 312,
+  y = 792,
+  width = 8,
+  height = 96,
+  pattern = "door_cache.4-2",
+}
+
+tile{
+  layer = 1,
+  x = 320,
+  y = 792,
+  width = 8,
+  height = 96,
+  pattern = "door_cache.3-2",
+}
+
+tile{
+  layer = 1,
+  x = 312,
+  y = 824,
+  width = 8,
+  height = 32,
+  pattern = "door_top.4-2",
+}
+
+tile{
+  layer = 1,
+  x = 320,
+  y = 824,
+  width = 8,
+  height = 32,
+  pattern = "door_top.3-2",
+}
+
+tile{
+  layer = 1,
+  x = 952,
+  y = 792,
+  width = 8,
+  height = 96,
+  pattern = "door_cache.4-2",
+}
+
+tile{
+  layer = 1,
+  x = 960,
+  y = 792,
+  width = 8,
+  height = 96,
+  pattern = "door_cache.3-2",
+}
+
+tile{
+  layer = 1,
+  x = 952,
+  y = 824,
+  width = 8,
+  height = 32,
+  pattern = "door_top.4-2",
+}
+
+tile{
+  layer = 1,
+  x = 960,
+  y = 824,
+  width = 8,
+  height = 32,
+  pattern = "door_top.3-2",
+}
+
+tile{
+  layer = 1,
+  x = 952,
+  y = 72,
+  width = 8,
+  height = 96,
+  pattern = "door_cache.4-2",
+}
+
+tile{
+  layer = 1,
+  x = 960,
+  y = 72,
+  width = 8,
+  height = 96,
+  pattern = "door_cache.3-2",
+}
+
+tile{
+  layer = 1,
+  x = 952,
+  y = 104,
+  width = 8,
+  height = 32,
+  pattern = "door_top.4-2",
+}
+
+tile{
+  layer = 1,
+  x = 960,
+  y = 104,
+  width = 8,
+  height = 32,
+  pattern = "door_top.3-2",
+}
+
+tile{
+  layer = 1,
+  x = 1080,
+  y = 472,
+  width = 80,
+  height = 8,
+  pattern = "door_cache.2-2",
+}
+
+tile{
+  layer = 1,
+  x = 1080,
+  y = 480,
+  width = 80,
+  height = 8,
+  pattern = "door_cache.1-2",
+}
+
+tile{
+  layer = 1,
+  x = 1104,
+  y = 472,
+  width = 32,
+  height = 8,
+  pattern = "door_top.2-2",
+}
+
+tile{
+  layer = 1,
+  x = 1104,
+  y = 480,
+  width = 32,
+  height = 8,
+  pattern = "door_top.1-2",
+}
+
+tile{
+  layer = 1,
+  x = 1080,
+  y = 712,
+  width = 80,
+  height = 8,
+  pattern = "door_cache.2-2",
+}
+
+tile{
+  layer = 1,
+  x = 1080,
+  y = 720,
+  width = 80,
+  height = 8,
+  pattern = "door_cache.1-2",
+}
+
+tile{
+  layer = 1,
+  x = 1104,
+  y = 712,
+  width = 32,
+  height = 8,
+  pattern = "door_top.2-2",
+}
+
+tile{
+  layer = 1,
+  x = 1104,
+  y = 720,
+  width = 32,
+  height = 8,
+  pattern = "door_top.1-2",
+}
+
+tile{
+  layer = 1,
+  x = 312,
+  y = 72,
+  width = 8,
+  height = 96,
+  pattern = "door_cache.4-2",
+}
+
+tile{
+  layer = 1,
+  x = 320,
+  y = 72,
+  width = 8,
+  height = 96,
+  pattern = "door_cache.3-2",
+}
+
+tile{
+  layer = 1,
+  x = 312,
+  y = 104,
+  width = 8,
+  height = 32,
+  pattern = "door_top.closed.4-2",
+}
+
+tile{
+  layer = 1,
+  x = 320,
+  y = 104,
+  width = 8,
+  height = 32,
+  pattern = "door_top.closed.3-2",
+}
+
+tile{
+  layer = 1,
+  x = 632,
+  y = 792,
+  width = 8,
+  height = 96,
+  pattern = "door_cache.4-2",
+}
+
+tile{
+  layer = 1,
+  x = 640,
+  y = 792,
+  width = 8,
+  height = 96,
+  pattern = "door_cache.3-2",
+}
+
+tile{
+  layer = 1,
+  x = 632,
+  y = 824,
+  width = 8,
+  height = 32,
+  pattern = "door_top.closed.4-2",
+}
+
+tile{
+  layer = 1,
+  x = 640,
+  y = 824,
+  width = 8,
+  height = 32,
+  pattern = "door_top.closed.3-2",
+}
+
+tile{
+  layer = 2,
+  x = 0,
+  y = 0,
+  width = 320,
+  height = 16,
+  pattern = "ceiling.1",
+}
+
+tile{
+  layer = 2,
+  x = 320,
+  y = 0,
+  width = 320,
+  height = 16,
+  pattern = "ceiling.1",
+}
+
+tile{
+  layer = 2,
+  x = 320,
+  y = 224,
+  width = 320,
+  height = 16,
+  pattern = "ceiling.1",
+}
+
+tile{
+  layer = 2,
+  x = 0,
+  y = 16,
+  width = 16,
+  height = 464,
+  pattern = "ceiling.1",
+}
+
+tile{
+  layer = 2,
+  x = 320,
+  y = 240,
+  width = 48,
+  height = 448,
+  pattern = "ceiling.1",
+}
+
+tile{
+  layer = 2,
+  x = 848,
+  y = 240,
+  width = 112,
+  height = 448,
+  pattern = "ceiling.1",
+}
+
+tile{
+  layer = 2,
+  x = 608,
+  y = 16,
+  width = 32,
+  height = 208,
+  pattern = "ceiling.1",
+}
+
+tile{
+  layer = 2,
+  x = 640,
+  y = 0,
+  width = 32,
+  height = 240,
+  pattern = "ceiling.1",
+}
+
+tile{
+  layer = 2,
+  x = 0,
+  y = 480,
+  width = 96,
+  height = 48,
+  pattern = "ceiling.1",
+}
+
+tile{
+  layer = 2,
+  x = 224,
+  y = 480,
+  width = 96,
+  height = 48,
+  pattern = "ceiling.1",
+}
+
+tile{
+  layer = 2,
+  x = 0,
+  y = 672,
+  width = 96,
+  height = 48,
+  pattern = "ceiling.1",
+}
+
+tile{
+  layer = 2,
+  x = 224,
+  y = 672,
+  width = 96,
+  height = 48,
+  pattern = "ceiling.1",
+}
+
+tile{
+  layer = 2,
+  x = 0,
+  y = 528,
+  width = 64,
+  height = 144,
+  pattern = "ceiling.1",
+}
+
+tile{
+  layer = 2,
+  x = 256,
+  y = 528,
+  width = 64,
+  height = 144,
+  pattern = "ceiling.1",
+}
+
+tile{
+  layer = 2,
+  x = 288,
+  y = 720,
+  width = 32,
+  height = 64,
+  pattern = "ceiling.1",
+}
+
+tile{
+  layer = 2,
+  x = 288,
+  y = 896,
+  width = 32,
+  height = 64,
+  pattern = "ceiling.1",
+}
+
+tile{
+  layer = 2,
+  x = 0,
+  y = 720,
+  width = 32,
+  height = 240,
+  pattern = "ceiling.1",
+}
+
+tile{
+  layer = 2,
+  x = 320,
+  y = 688,
+  width = 640,
+  height = 32,
+  pattern = "ceiling.1",
+}
+
+tile{
+  layer = 2,
+  x = 640,
+  y = 752,
+  width = 64,
+  height = 32,
+  pattern = "ceiling.1",
+}
+
+tile{
+  layer = 2,
+  x = 896,
+  y = 752,
+  width = 64,
+  height = 32,
+  pattern = "ceiling.1",
+}
+
+tile{
+  layer = 2,
+  x = 896,
+  y = 896,
+  width = 64,
+  height = 32,
+  pattern = "ceiling.1",
+}
+
+tile{
+  layer = 2,
+  x = 640,
+  y = 896,
+  width = 64,
+  height = 32,
+  pattern = "ceiling.1",
+}
+
+tile{
+  layer = 2,
+  x = 640,
+  y = 720,
+  width = 320,
+  height = 32,
+  pattern = "ceiling.1",
+}
+
+tile{
+  layer = 2,
+  x = 640,
+  y = 928,
+  width = 320,
+  height = 32,
+  pattern = "ceiling.1",
+}
+
+tile{
+  layer = 2,
+  x = 960,
+  y = 720,
+  width = 112,
+  height = 64,
+  pattern = "ceiling.1",
+}
+
+tile{
+  layer = 2,
+  x = 960,
+  y = 896,
+  width = 320,
+  height = 64,
+  pattern = "ceiling.1",
+}
+
+tile{
+  layer = 2,
+  x = 1168,
+  y = 720,
+  width = 112,
+  height = 176,
+  pattern = "ceiling.1",
+}
+
+tile{
+  layer = 2,
+  x = 960,
+  y = 480,
+  width = 32,
+  height = 240,
+  pattern = "ceiling.1",
+}
+
+tile{
+  layer = 2,
+  x = 1248,
+  y = 480,
+  width = 32,
+  height = 240,
+  pattern = "ceiling.1",
+}
+
+tile{
+  layer = 2,
+  x = 592,
+  y = 448,
+  width = 32,
+  height = 32,
+  pattern = "ceiling.1",
+}
+
+separator{
+  name = "auto_separator_2",
+  layer = 2,
+  x = 320,
+  y = 232,
+  width = 960,
+  height = 16,
+}
+
+separator{
+  name = "auto_separator_3",
+  layer = 2,
+  x = 0,
+  y = 472,
+  width = 320,
+  height = 16,
+}
+
+separator{
+  name = "auto_separator_4",
+  layer = 2,
+  x = 960,
+  y = 472,
+  width = 320,
+  height = 16,
+}
+
+separator{
+  name = "auto_separator_5",
+  layer = 2,
+  x = 0,
+  y = 712,
+  width = 1280,
+  height = 16,
+}
+
+separator{
+  name = "auto_separator_6",
+  layer = 2,
+  x = 312,
+  y = 0,
+  width = 16,
+  height = 960,
+}
+
+separator{
+  name = "auto_separator_7",
+  layer = 2,
+  x = 632,
+  y = 0,
+  width = 16,
+  height = 240,
+}
+
+separator{
+  name = "auto_separator_8",
+  layer = 2,
+  x = 632,
+  y = 720,
+  width = 16,
+  height = 240,
+}
+
+separator{
+  name = "auto_separator_9",
+  layer = 2,
+  x = 952,
+  y = 0,
+  width = 16,
+  height = 960,
 }
 

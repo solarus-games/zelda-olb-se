@@ -6998,8 +6998,8 @@ teletransporter{
   y = 944,
   width = 16,
   height = 16,
-  destination_map = "out/e4",
-  destination = "from_dungeon_1",
+  destination_map = "out/c2",
+  destination = "from_dungeon_12",
 }
 
 wall{
@@ -8877,7 +8877,7 @@ enemy{
   name = "auto_enemy_16",
   layer = 0,
   x = 384,
-  y = 317,
+  y = 333,
   direction = 3,
   breed = "alttp/stalfos_knight",
 }
@@ -8886,7 +8886,7 @@ enemy{
   name = "auto_enemy_17",
   layer = 0,
   x = 576,
-  y = 317,
+  y = 333,
   direction = 3,
   breed = "alttp/stalfos_knight",
 }
@@ -8895,7 +8895,7 @@ enemy{
   name = "auto_enemy_41",
   layer = 0,
   x = 128,
-  y = 373,
+  y = 381,
   direction = 3,
   breed = "alttp/wizzrobe_white",
 }
@@ -8904,7 +8904,7 @@ enemy{
   name = "auto_enemy_42",
   layer = 0,
   x = 160,
-  y = 405,
+  y = 413,
   direction = 3,
   breed = "alttp/wizzrobe_white",
 }
@@ -8913,7 +8913,7 @@ enemy{
   name = "auto_enemy_43",
   layer = 0,
   x = 192,
-  y = 437,
+  y = 445,
   direction = 3,
   breed = "alttp/wizzrobe_white",
 }
@@ -8922,7 +8922,7 @@ enemy{
   name = "auto_enemy_46",
   layer = 0,
   x = 424,
-  y = 597,
+  y = 605,
   direction = 3,
   breed = "alttp/ropa",
 }
@@ -8931,7 +8931,7 @@ enemy{
   name = "auto_enemy_47",
   layer = 0,
   x = 856,
-  y = 597,
+  y = 605,
   direction = 3,
   breed = "alttp/ropa",
 }
@@ -8940,7 +8940,7 @@ enemy{
   name = "auto_enemy_48",
   layer = 0,
   x = 424,
-  y = 853,
+  y = 861,
   direction = 3,
   breed = "alttp/ropa",
 }
@@ -8949,7 +8949,7 @@ enemy{
   name = "auto_enemy_49",
   layer = 0,
   x = 856,
-  y = 853,
+  y = 861,
   direction = 3,
   breed = "alttp/ropa",
 }
@@ -8958,7 +8958,7 @@ enemy{
   name = "auto_enemy_66",
   layer = 0,
   x = 72,
-  y = 101,
+  y = 109,
   direction = 3,
   breed = "alttp/ropa",
 }
@@ -8967,7 +8967,7 @@ enemy{
   name = "auto_enemy_67",
   layer = 0,
   x = 248,
-  y = 101,
+  y = 109,
   direction = 3,
   breed = "alttp/ropa",
 }
@@ -9203,6 +9203,78 @@ custom_entity{
   height = 48,
   direction = 0,
   model = "low_wall",
+}
+
+destination{
+  name = "from_b1_sw",
+  layer = 0,
+  x = 160,
+  y = 829,
+  direction = 1,
+}
+
+destination{
+  name = "from_b1_se",
+  layer = 0,
+  x = 1120,
+  y = 829,
+  direction = 1,
+}
+
+destination{
+  name = "from_2f_ne",
+  layer = 0,
+  x = 1120,
+  y = 125,
+  direction = 1,
+}
+
+destination{
+  name = "from_2f_nw",
+  layer = 0,
+  x = 480,
+  y = 125,
+  direction = 1,
+}
+
+teletransporter{
+  layer = 0,
+  x = 472,
+  y = 112,
+  width = 16,
+  height = 16,
+  destination_map = "dungeons/12/2f",
+  destination = "from_1f_nw",
+}
+
+teletransporter{
+  layer = 0,
+  x = 1112,
+  y = 112,
+  width = 16,
+  height = 16,
+  destination_map = "dungeons/12/2f",
+  destination = "from_1f_ne",
+}
+
+teletransporter{
+  layer = 0,
+  x = 1112,
+  y = 816,
+  width = 16,
+  height = 16,
+  destination_map = "dungeons/12/b1",
+  destination = "from_1f_se",
+}
+
+teletransporter{
+  layer = 0,
+  x = 152,
+  y = 816,
+  width = 16,
+  height = 16,
+  destination_map = "dungeons/12/b1",
+  destination = "from_1f_sw",
 }
 
 tile{

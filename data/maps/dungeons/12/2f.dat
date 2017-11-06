@@ -6496,7 +6496,7 @@ enemy{
   name = "auto_enemy_55",
   layer = 0,
   x = 1048,
-  y = 597,
+  y = 605,
   direction = 3,
   breed = "alttp/ropa",
 }
@@ -6505,7 +6505,7 @@ enemy{
   name = "auto_enemy_56",
   layer = 0,
   x = 1192,
-  y = 597,
+  y = 605,
   direction = 3,
   breed = "alttp/ropa",
 }
@@ -6514,7 +6514,7 @@ enemy{
   name = "auto_enemy_57",
   layer = 0,
   x = 800,
-  y = 373,
+  y = 381,
   direction = 3,
   breed = "alttp/ropa",
 }
@@ -6523,7 +6523,7 @@ enemy{
   name = "auto_enemy_58",
   layer = 0,
   x = 104,
-  y = 85,
+  y = 93,
   direction = 3,
   breed = "alttp/ropa",
 }
@@ -6532,7 +6532,7 @@ enemy{
   name = "auto_enemy_59",
   layer = 0,
   x = 216,
-  y = 85,
+  y = 93,
   direction = 3,
   breed = "alttp/ropa",
 }
@@ -6541,7 +6541,7 @@ enemy{
   name = "auto_enemy_60",
   layer = 0,
   x = 408,
-  y = 133,
+  y = 141,
   direction = 3,
   breed = "alttp/ropa",
 }
@@ -6550,7 +6550,7 @@ enemy{
   name = "auto_enemy_61",
   layer = 0,
   x = 552,
-  y = 133,
+  y = 141,
   direction = 3,
   breed = "alttp/ropa",
 }
@@ -6978,6 +6978,78 @@ destructible{
   sprite = "entities/vase_skull",
   destruction_sound = "stone",
   damage_on_enemies = 2,
+}
+
+destination{
+  name = "from_1f_nw",
+  layer = 0,
+  x = 480,
+  y = 109,
+  direction = 1,
+}
+
+destination{
+  name = "from_1f_ne",
+  layer = 0,
+  x = 1120,
+  y = 109,
+  direction = 1,
+}
+
+destination{
+  name = "from_3f_e",
+  layer = 0,
+  x = 1120,
+  y = 365,
+  direction = 1,
+}
+
+destination{
+  name = "from_3f_sw",
+  layer = 0,
+  x = 160,
+  y = 845,
+  direction = 1,
+}
+
+teletransporter{
+  layer = 0,
+  x = 152,
+  y = 832,
+  width = 16,
+  height = 16,
+  destination_map = "dungeons/12/3f",
+  destination = "from_2f_sw",
+}
+
+teletransporter{
+  layer = 0,
+  x = 1112,
+  y = 352,
+  width = 16,
+  height = 16,
+  destination_map = "dungeons/12/3f",
+  destination = "from_2f_e",
+}
+
+teletransporter{
+  layer = 0,
+  x = 1112,
+  y = 96,
+  width = 16,
+  height = 16,
+  destination_map = "dungeons/12/1f",
+  destination = "from_2f_ne",
+}
+
+teletransporter{
+  layer = 0,
+  x = 472,
+  y = 96,
+  width = 16,
+  height = 16,
+  destination_map = "dungeons/12/1f",
+  destination = "from_2f_nw",
 }
 
 tile{

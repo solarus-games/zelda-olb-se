@@ -12296,7 +12296,7 @@ enemy{
   name = "auto_enemy_50",
   layer = 0,
   x = 408,
-  y = 533,
+  y = 541,
   direction = 3,
   breed = "alttp/ropa",
 }
@@ -12305,7 +12305,7 @@ enemy{
   name = "auto_enemy_51",
   layer = 0,
   x = 552,
-  y = 533,
+  y = 541,
   direction = 3,
   breed = "alttp/ropa",
 }
@@ -12314,7 +12314,7 @@ enemy{
   name = "auto_enemy_52",
   layer = 0,
   x = 1144,
-  y = 85,
+  y = 93,
   direction = 3,
   breed = "alttp/ropa",
 }
@@ -12323,7 +12323,7 @@ enemy{
   name = "auto_enemy_53",
   layer = 0,
   x = 1016,
-  y = 597,
+  y = 605,
   direction = 3,
   breed = "alttp/ropa",
 }
@@ -12332,7 +12332,7 @@ enemy{
   name = "auto_enemy_54",
   layer = 0,
   x = 1224,
-  y = 597,
+  y = 605,
   direction = 3,
   breed = "alttp/ropa",
 }
@@ -12341,7 +12341,7 @@ enemy{
   name = "auto_enemy_72",
   layer = 0,
   x = 88,
-  y = 53,
+  y = 61,
   direction = 3,
   breed = "alttp/goriya_green",
 }
@@ -12350,7 +12350,7 @@ enemy{
   name = "auto_enemy_73",
   layer = 0,
   x = 232,
-  y = 53,
+  y = 61,
   direction = 3,
   breed = "alttp/goriya_green",
 }
@@ -12359,7 +12359,7 @@ enemy{
   name = "auto_enemy_74",
   layer = 0,
   x = 1176,
-  y = 389,
+  y = 397,
   direction = 3,
   breed = "alttp/goriya_green",
 }
@@ -12368,7 +12368,7 @@ enemy{
   name = "auto_enemy_75",
   layer = 0,
   x = 88,
-  y = 821,
+  y = 829,
   direction = 3,
   breed = "alttp/goriya_green",
 }
@@ -12377,7 +12377,7 @@ enemy{
   name = "auto_enemy_76",
   layer = 0,
   x = 232,
-  y = 821,
+  y = 829,
   direction = 3,
   breed = "alttp/goriya_green",
 }
@@ -12395,7 +12395,7 @@ enemy{
   name = "auto_enemy_90",
   layer = 0,
   x = 480,
-  y = 837,
+  y = 845,
   direction = 3,
   breed = "alttp/eyegore_green",
 }
@@ -12552,6 +12552,42 @@ custom_entity{
   height = 16,
   direction = 0,
   model = "low_wall",
+}
+
+destination{
+  name = "from_2f_sw",
+  layer = 0,
+  x = 160,
+  y = 829,
+  direction = 1,
+}
+
+destination{
+  name = "from_2f_e",
+  layer = 0,
+  x = 1120,
+  y = 349,
+  direction = 1,
+}
+
+teletransporter{
+  layer = 0,
+  x = 1112,
+  y = 336,
+  width = 16,
+  height = 16,
+  destination_map = "dungeons/12/2f",
+  destination = "from_3f_e",
+}
+
+teletransporter{
+  layer = 0,
+  x = 152,
+  y = 816,
+  width = 16,
+  height = 16,
+  destination_map = "dungeons/12/2f",
+  destination = "from_3f_sw",
 }
 
 tile{
