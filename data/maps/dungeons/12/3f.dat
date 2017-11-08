@@ -3,7 +3,7 @@ properties{
   y = 720,
   width = 1280,
   height = 960,
-  min_layer = -1,
+  min_layer = 0,
   max_layer = 2,
   world = "dungeon_12",
   floor = 2,
