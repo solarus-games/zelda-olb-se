@@ -3,20 +3,10 @@ properties{
   y = 0,
   width = 320,
   height = 240,
-  min_layer = -1,
+  min_layer = 0,
   max_layer = 2,
   world = "dungeon_12",
   tileset = "light_world",
-}
-
-custom_entity{
-  layer = -1,
-  x = 8,
-  y = 13,
-  width = 320,
-  height = 240,
-  direction = 0,
-  sprite = "work/320x240",
 }
 
 tile{
