@@ -7084,6 +7084,7 @@ custom_entity{
 }
 
 custom_entity{
+  name = "auto_torch_auto_door_a_2",
   layer = 0,
   x = 56,
   y = 317,
@@ -7095,6 +7096,7 @@ custom_entity{
 }
 
 custom_entity{
+  name = "auto_torch_auto_door_a_1",
   layer = 0,
   x = 56,
   y = 237,
@@ -7106,6 +7108,7 @@ custom_entity{
 }
 
 custom_entity{
+  name = "auto_torch_auto_door_a_3",
   layer = 0,
   x = 280,
   y = 237,
@@ -7117,6 +7120,7 @@ custom_entity{
 }
 
 custom_entity{
+  name = "auto_torch_auto_door_a_4",
   layer = 0,
   x = 280,
   y = 317,
@@ -10128,7 +10132,7 @@ enemy{
 }
 
 enemy{
-  name = "auto_enemy_97",
+  name = "invincible_stalfos",
   layer = 0,
   x = 552,
   y = 829,

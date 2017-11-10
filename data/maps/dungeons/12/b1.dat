@@ -6938,6 +6938,7 @@ door{
   y = 456,
   direction = 3,
   sprite = "entities/doors/door_d1_normal",
+  savegame_variable = "d12_b1_door_a",
 }
 
 door{
@@ -6947,6 +6948,7 @@ door{
   y = 488,
   direction = 1,
   sprite = "entities/doors/door_d1_normal",
+  savegame_variable = "d12_b1_door_a",
 }
 
 wall{
@@ -6960,21 +6962,23 @@ wall{
 }
 
 door{
-  name = "auto_door_b_back",
+  name = "auto_door_b",
   layer = 0,
   x = 792,
   y = 216,
   direction = 3,
   sprite = "entities/doors/door_d1_normal",
+  savegame_variable = "d12_b1_door_b",
 }
 
 door{
-  name = "auto_door_b",
+  name = "auto_door_b_back",
   layer = 0,
   x = 792,
   y = 248,
   direction = 1,
   sprite = "entities/doors/door_d1_normal",
+  savegame_variable = "d12_b1_door_b",
 }
 
 wall{
@@ -7479,6 +7483,7 @@ custom_entity{
 }
 
 switch{
+  name = "auto_switch_auto_door_b",
   layer = 0,
   x = 688,
   y = 112,
@@ -7503,6 +7508,7 @@ wall{
 }
 
 switch{
+  name = "auto_switch_auto_door_a",
   layer = 0,
   x = 256,
   y = 592,
@@ -12164,7 +12170,7 @@ enemy{
 }
 
 enemy{
-  name = "auto_enemy_18",
+  name = "auto_enemy_auto_door_c",
   layer = 0,
   x = 1192,
   y = 93,
@@ -12281,7 +12287,7 @@ enemy{
 }
 
 enemy{
-  name = "auto_enemy_96",
+  name = "invincible_stalfos",
   layer = 0,
   x = 376,
   y = 893,

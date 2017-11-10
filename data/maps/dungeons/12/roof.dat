@@ -227,6 +227,7 @@ tile{
 }
 
 destination{
+  name = "from_1f",
   layer = 0,
   x = 136,
   y = 125,
@@ -240,5 +241,17 @@ destination{
   y = 125,
   direction = 1,
   sprite = "entities/destination",
+}
+
+teletransporter{
+  name = "to_1f",
+  layer = 0,
+  x = 176,
+  y = 112,
+  width = 16,
+  height = 16,
+  destination_map = "dungeons/12/1f",
+  destination = "from_roof",
+  sprite = "entities/teletransporter",
 }
 

@@ -12401,7 +12401,7 @@ enemy{
 }
 
 enemy{
-  name = "auto_enemy_93",
+  name = "invincible_stalfos",
   layer = 0,
   x = 904,
   y = 589,
