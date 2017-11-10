@@ -191,6 +191,12 @@ local function initialize_dungeon_features(game)
 
   function game:get_floor_name(floor)
 
+    local map = game:get_map()
+    floor = floor or tonumber(map:get_floor())
+    if floor == nil then
+      return nil
+    end
+
     if floor >= 0 then
       return (floor + 1) .. "f"
     else

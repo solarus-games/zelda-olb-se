@@ -2965,7 +2965,7 @@ custom_entity{
 }
 
 dynamic_tile{
-  name = "weak_floor_a_2",
+  name = "weak_floor_a_closed",
   layer = 0,
   x = 464,
   y = 336,
@@ -3402,17 +3402,6 @@ sensor{
   y = 349,
   width = 32,
   height = 32,
-}
-
-teletransporter{
-  name = "weak_floor_a_teletransporter",
-  layer = 1,
-  x = 464,
-  y = 336,
-  width = 32,
-  height = 32,
-  destination_map = "dungeons/4/1f",
-  destination = "from_2f_hole",
 }
 
 separator{

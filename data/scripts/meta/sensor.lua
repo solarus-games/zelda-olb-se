@@ -67,16 +67,32 @@ function sensor_meta:on_activated()
     return
   end
 
-  -- Sensors named "weak_floor_X_sensor" detect explosions on a weak floor dynamic tile called "weak_floor_x".
-  local tile_name = name:match("^weak_floor_([a-zA-X0-9_]+)_sensor")
-  if tile_name ~= nil then
-    local tile map:get_entity(tile_name)
-    if tile ~= nil then
-      tile:remove()
+end
+
+function sensor_meta:on_collision_explosion()
+
+  local game = self:get_game()
+  local map = self:get_map()
+  local name = self:get_name()
+
+  -- Sensors named "weak_floor_X_sensor" detect explosions to disable dynamic tiles prefixed with "weak_floor_X_closed".
+  local prefix = name:match("^(weak_floor_[a-zA-X0-9_]+)_sensor")
+  if prefix ~= nil then
+    sol.audio.play_sound("secret")
+    map:set_entities_enabled(prefix .. "_closed", false)
+
+    local dungeon_index = game:get_dungeon_index()
+    if dungeon_index ~= nil then
+      local floor_name = game:get_floor_name()
+      if floor_name ~= nil then
+        local savegame_variable = "d" .. dungeon_index .. "_" .. floor_name .. "_" .. prefix
+        game:set_value(prefix, true)
+      end
     end
+
+    self:set_enabled(false)
     return
   end
-
 end
 
 function sensor_meta:on_activated_repeat()
@@ -95,6 +111,29 @@ function sensor_meta:on_activated_repeat()
 	         and door:is_enabled() then
         door:set_enabled(false)
         sol.audio.play_sound("door_open")
+      end
+    end
+  end
+end
+
+function sensor_meta:on_created()
+
+  local game = self:get_game()
+  local map = self:get_map()
+  local name = self:get_name()
+
+  if name ~= nil then
+    local prefix = name:match("^(weak_floor_[a-zA-X0-9_]+)_sensor")
+    if prefix ~= nil then
+      local dungeon_index = game:get_dungeon_index()
+      if dungeon_index ~= nil then
+        local floor_name = game:get_floor_name()
+        if floor_name ~= nil then
+          local savegame_variable = "d" .. dungeon_index .. "_" .. floor_name .. "_" .. prefix
+          if game:get_value(prefix) then
+            map:set_entities_enabled(prefix .. "_closed", false)
+          end
+        end
       end
     end
   end

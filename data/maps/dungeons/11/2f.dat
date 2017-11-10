@@ -12251,6 +12251,87 @@ tile{
   pattern = "wall_border.1-4",
 }
 
+tile{
+  layer = 0,
+  x = 1104,
+  y = 96,
+  width = 32,
+  height = 32,
+  pattern = "hole_parallax.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 1112,
+  y = 96,
+  width = 16,
+  height = 8,
+  pattern = "hole.1",
+}
+
+tile{
+  layer = 0,
+  x = 1104,
+  y = 104,
+  width = 8,
+  height = 16,
+  pattern = "hole.3",
+}
+
+tile{
+  layer = 0,
+  x = 1128,
+  y = 104,
+  width = 8,
+  height = 16,
+  pattern = "hole.4",
+}
+
+tile{
+  layer = 0,
+  x = 1112,
+  y = 120,
+  width = 16,
+  height = 8,
+  pattern = "hole.2",
+}
+
+tile{
+  layer = 0,
+  x = 1104,
+  y = 96,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner.1",
+}
+
+tile{
+  layer = 0,
+  x = 1128,
+  y = 96,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner.2",
+}
+
+tile{
+  layer = 0,
+  x = 1104,
+  y = 120,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner.3",
+}
+
+tile{
+  layer = 0,
+  x = 1128,
+  y = 120,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner.4",
+}
+
 door{
   name = "boss_door_3",
   layer = 0,
@@ -14402,6 +14483,7 @@ dynamic_tile{
 }
 
 custom_entity{
+  name = "auto_torch_auto_door_a_1",
   layer = 0,
   x = 440,
   y = 525,
@@ -14413,6 +14495,7 @@ custom_entity{
 }
 
 custom_entity{
+  name = "auto_torch_auto_door_a_2",
   layer = 0,
   x = 520,
   y = 525,
@@ -14940,6 +15023,58 @@ stairs{
   y = 816,
   direction = 3,
   subtype = 3,
+}
+
+dynamic_tile{
+  name = "weak_floor_a_closed_1",
+  layer = 0,
+  x = 1104,
+  y = 96,
+  pattern = "865",
+  width = 32,
+  height = 32,
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  name = "weak_floor_a_closed_2",
+  layer = 0,
+  x = 1104,
+  y = 96,
+  pattern = "ice_semi-solid",
+  width = 32,
+  height = 32,
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  name = "weak_floor_a_closed_3",
+  layer = 0,
+  x = 1104,
+  y = 96,
+  pattern = "ice_semi-solid",
+  width = 32,
+  height = 32,
+  enabled_at_start = true,
+}
+
+sensor{
+  name = "weak_floor_a_sensor",
+  layer = 0,
+  x = 1112,
+  y = 109,
+  width = 32,
+  height = 32,
+}
+
+destination{
+  name = "debug",
+  layer = 0,
+  x = 1096,
+  y = 117,
+  direction = 0,
+  starting_location_mode = "yes",
+  default = true,
 }
 
 tile{
