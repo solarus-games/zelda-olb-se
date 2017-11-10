@@ -7623,14 +7623,6 @@ stairs{
   subtype = 3,
 }
 
-destination{
-  name = "from_2f_hole",
-  layer = 0,
-  x = 480,
-  y = 357,
-  direction = -1,
-}
-
 npc{
   name = "mayor_assistant",
   layer = 0,

@@ -85,16 +85,19 @@ hero_meta:register_event("on_state_changed", function(hero, state)
     hero.life_before_falling = game:get_life()
   end
 
+  -- TODO check how much life is lost in the original game in normal holes
+
   if state == "back to solid ground" and
       hero:get_previous_state() == "falling" then
     local dungeon_index = game:get_dungeon_index()
     local floor = map:get_floor()
-    game:set_life(hero.life_before_falling)  -- Cancel removing life points after falling.
+    print(floor, game:get_dungeon_lowest_floor(dungeon_index) )
     if dungeon_index ~= nil and
         floor ~= nil and
         floor > game:get_dungeon_lowest_floor(dungeon_index) then
       local next_floor = floor - 1
       local destination_map_id = "dungeons/" .. dungeon_index .. "/" .. game:get_floor_name(next_floor)
+      game:set_life(hero.life_before_falling)  -- Cancel removing life points after falling.
       hero:teleport(destination_map_id, "_same")
     end
   end

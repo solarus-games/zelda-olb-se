@@ -1849,6 +1849,349 @@ enemy{
   breed = "alttp/wallmaster",
 }
 
+destination{
+  name = "debug",
+  layer = 0,
+  x = 648,
+  y = 589,
+  direction = 1,
+  starting_location_mode = "yes",
+  default = true,
+}
+
+wall{
+  layer = 0,
+  x = 584,
+  y = 264,
+  width = 8,
+  height = 160,
+  stops_hero = true,
+}
+
+wall{
+  layer = 0,
+  x = 344,
+  y = 424,
+  width = 248,
+  height = 8,
+  stops_hero = true,
+}
+
+wall{
+  layer = 0,
+  x = 344,
+  y = 528,
+  width = 248,
+  height = 16,
+  stops_hero = true,
+}
+
+wall{
+  layer = 0,
+  x = 344,
+  y = 656,
+  width = 248,
+  height = 16,
+  stops_hero = true,
+}
+
+wall{
+  layer = 0,
+  x = 584,
+  y = 544,
+  width = 8,
+  height = 112,
+  stops_hero = true,
+}
+
+wall{
+  layer = 0,
+  x = 688,
+  y = 264,
+  width = 8,
+  height = 152,
+  stops_hero = true,
+}
+
+wall{
+  layer = 0,
+  x = 688,
+  y = 416,
+  width = 224,
+  height = 16,
+  stops_hero = true,
+}
+
+wall{
+  layer = 0,
+  x = 904,
+  y = 264,
+  width = 8,
+  height = 152,
+  stops_hero = true,
+}
+
+wall{
+  layer = 0,
+  x = 1008,
+  y = 264,
+  width = 8,
+  height = 152,
+  stops_hero = true,
+}
+
+wall{
+  layer = 0,
+  x = 1008,
+  y = 416,
+  width = 248,
+  height = 16,
+  stops_hero = true,
+}
+
+wall{
+  layer = 0,
+  x = 1008,
+  y = 544,
+  width = 16,
+  height = 112,
+  stops_hero = true,
+}
+
+wall{
+  layer = 0,
+  x = 1008,
+  y = 528,
+  width = 248,
+  height = 16,
+  stops_hero = true,
+}
+
+wall{
+  layer = 0,
+  x = 1008,
+  y = 656,
+  width = 248,
+  height = 16,
+  stops_hero = true,
+}
+
+wall{
+  layer = 0,
+  x = 1008,
+  y = 768,
+  width = 248,
+  height = 8,
+  stops_hero = true,
+}
+
+wall{
+  layer = 0,
+  x = 1008,
+  y = 776,
+  width = 8,
+  height = 160,
+  stops_hero = true,
+}
+
+wall{
+  layer = 0,
+  x = 344,
+  y = 768,
+  width = 568,
+  height = 16,
+  stops_hero = true,
+}
+
+wall{
+  layer = 0,
+  x = 904,
+  y = 784,
+  width = 8,
+  height = 152,
+  stops_hero = true,
+}
+
+wall{
+  layer = 0,
+  x = 904,
+  y = 536,
+  width = 8,
+  height = 128,
+  stops_hero = true,
+}
+
+wall{
+  layer = 0,
+  x = 688,
+  y = 536,
+  width = 8,
+  height = 128,
+  stops_hero = true,
+}
+
+wall{
+  layer = 0,
+  x = 688,
+  y = 528,
+  width = 224,
+  height = 8,
+  stops_hero = true,
+}
+
+wall{
+  layer = 0,
+  x = 688,
+  y = 664,
+  width = 224,
+  height = 8,
+  stops_hero = true,
+}
+
+wall{
+  layer = 0,
+  x = 864,
+  y = 784,
+  width = 8,
+  height = 112,
+  stops_hero = true,
+}
+
+wall{
+  layer = 0,
+  x = 408,
+  y = 896,
+  width = 464,
+  height = 8,
+  stops_hero = true,
+}
+
+wall{
+  layer = 0,
+  x = 408,
+  y = 784,
+  width = 8,
+  height = 112,
+  stops_hero = true,
+}
+
+wall{
+  layer = 0,
+  x = 544,
+  y = 784,
+  width = 8,
+  height = 112,
+  stops_hero = true,
+}
+
+wall{
+  layer = 0,
+  x = 568,
+  y = 784,
+  width = 8,
+  height = 112,
+  stops_hero = true,
+}
+
+wall{
+  layer = 0,
+  x = 704,
+  y = 784,
+  width = 8,
+  height = 112,
+  stops_hero = true,
+}
+
+wall{
+  layer = 0,
+  x = 728,
+  y = 784,
+  width = 8,
+  height = 112,
+  stops_hero = true,
+}
+
+wall{
+  layer = 0,
+  x = 1216,
+  y = 544,
+  width = 16,
+  height = 112,
+  stops_hero = true,
+}
+
+wall{
+  layer = 0,
+  x = 544,
+  y = 544,
+  width = 8,
+  height = 112,
+  stops_hero = true,
+}
+
+wall{
+  layer = 0,
+  x = 408,
+  y = 544,
+  width = 8,
+  height = 112,
+  stops_hero = true,
+}
+
+wall{
+  layer = 0,
+  x = 864,
+  y = 304,
+  width = 8,
+  height = 112,
+  stops_hero = true,
+}
+
+wall{
+  layer = 0,
+  x = 728,
+  y = 304,
+  width = 8,
+  height = 112,
+  stops_hero = true,
+}
+
+wall{
+  layer = 0,
+  x = 728,
+  y = 296,
+  width = 144,
+  height = 8,
+  stops_hero = true,
+}
+
+wall{
+  layer = 0,
+  x = 1048,
+  y = 296,
+  width = 144,
+  height = 8,
+  stops_hero = true,
+}
+
+wall{
+  layer = 0,
+  x = 1048,
+  y = 304,
+  width = 8,
+  height = 112,
+  stops_hero = true,
+}
+
+wall{
+  layer = 0,
+  x = 1184,
+  y = 304,
+  width = 8,
+  height = 112,
+  stops_hero = true,
+}
+
 separator{
   name = "auto_separator_8",
   layer = 2,
