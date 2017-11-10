@@ -119,6 +119,9 @@ local function initialize_dungeon_features(game)
       highest_floor = 2,
       -- No boss on the minimap (the boss is on the roof).
     },
+    [13] = {
+      -- TODO
+    },
   }
 
   -- Returns the index of the current dungeon if any, or nil.
