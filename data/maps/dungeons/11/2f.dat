@@ -12332,6 +12332,87 @@ tile{
   pattern = "hole.corner.4",
 }
 
+tile{
+  layer = 0,
+  x = 784,
+  y = 1056,
+  width = 32,
+  height = 32,
+  pattern = "hole_parallax.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 792,
+  y = 1056,
+  width = 16,
+  height = 8,
+  pattern = "hole.1",
+}
+
+tile{
+  layer = 0,
+  x = 784,
+  y = 1064,
+  width = 8,
+  height = 16,
+  pattern = "hole.3",
+}
+
+tile{
+  layer = 0,
+  x = 808,
+  y = 1064,
+  width = 8,
+  height = 16,
+  pattern = "hole.4",
+}
+
+tile{
+  layer = 0,
+  x = 792,
+  y = 1080,
+  width = 16,
+  height = 8,
+  pattern = "hole.2",
+}
+
+tile{
+  layer = 0,
+  x = 784,
+  y = 1056,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner.1",
+}
+
+tile{
+  layer = 0,
+  x = 808,
+  y = 1056,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner.2",
+}
+
+tile{
+  layer = 0,
+  x = 784,
+  y = 1080,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner.3",
+}
+
+tile{
+  layer = 0,
+  x = 808,
+  y = 1080,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner.4",
+}
+
 door{
   name = "boss_door_3",
   layer = 0,
@@ -12541,7 +12622,7 @@ wall{
 }
 
 door{
-  name = "door_d",
+  name = "auto_door_d",
   layer = 0,
   x = 152,
   y = 696,
@@ -12550,7 +12631,7 @@ door{
 }
 
 door{
-  name = "door_d_back",
+  name = "auto_door_d_back",
   layer = 0,
   x = 152,
   y = 728,
@@ -14686,7 +14767,7 @@ enemy{
 }
 
 enemy{
-  name = "auto_enemy_21",
+  name = "auto_enemy_auto_door_d",
   layer = 0,
   x = 160,
   y = 637,
@@ -15075,6 +15156,48 @@ destination{
   direction = 0,
   starting_location_mode = "yes",
   default = true,
+}
+
+dynamic_tile{
+  name = "weak_floor_b_closed_1",
+  layer = 0,
+  x = 784,
+  y = 1056,
+  pattern = "865",
+  width = 32,
+  height = 32,
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  name = "weak_floor_b_closed_3",
+  layer = 0,
+  x = 784,
+  y = 1056,
+  pattern = "ice_semi-solid",
+  width = 32,
+  height = 32,
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  name = "weak_floor_b_closed_2",
+  layer = 0,
+  x = 784,
+  y = 1056,
+  pattern = "ice_semi-solid",
+  width = 32,
+  height = 32,
+  enabled_at_start = true,
+}
+
+sensor{
+  name = "weak_floor_b_sensor",
+  layer = 0,
+  x = 792,
+  y = 1069,
+  width = 32,
+  height = 32,
 }
 
 tile{

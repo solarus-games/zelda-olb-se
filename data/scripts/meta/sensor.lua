@@ -86,7 +86,7 @@ function sensor_meta:on_collision_explosion()
       local floor_name = game:get_floor_name()
       if floor_name ~= nil then
         local savegame_variable = "d" .. dungeon_index .. "_" .. floor_name .. "_" .. prefix
-        game:set_value(prefix, true)
+        game:set_value(savegame_variable, true)
       end
     end
 
@@ -130,7 +130,7 @@ function sensor_meta:on_created()
         local floor_name = game:get_floor_name()
         if floor_name ~= nil then
           local savegame_variable = "d" .. dungeon_index .. "_" .. floor_name .. "_" .. prefix
-          if game:get_value(prefix) then
+          if game:get_value(savegame_variable) then
             map:set_entities_enabled(prefix .. "_closed", false)
           end
         end
