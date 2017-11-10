@@ -91,7 +91,6 @@ hero_meta:register_event("on_state_changed", function(hero, state)
       hero:get_previous_state() == "falling" then
     local dungeon_index = game:get_dungeon_index()
     local floor = map:get_floor()
-    print(floor, game:get_dungeon_lowest_floor(dungeon_index) )
     if dungeon_index ~= nil and
         floor ~= nil and
         floor > game:get_dungeon_lowest_floor(dungeon_index) then
