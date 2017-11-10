@@ -74,4 +74,31 @@ hero_meta:register_event("on_position_changed", function(hero)
   game:set_explored_dungeon_room(nil, nil, room)
 end)
 
+-- Send the hero to lower floors when falling in a hole.
+hero_meta:register_event("on_state_changed", function(hero, state)
+
+  if hero:get_previous_state() == "falling" then
+    local map = hero:get_map()
+    local game = map:get_game()
+    local dungeon_index = game:get_dungeon_index()
+    local floor = map:get_floor()
+    if dungeon_index ~= nil and
+        floor ~= nil and
+        floor > game:get_dungeon_lowest_floor(dungeon_index) then
+      local next_floor = floor - 1
+      local destination_map_id = "dungeons/" .. dungeon_index .. "/" .. game:get_floor_name(next_floor)
+      hero:teleport(destination_map_id, "_same")
+    end
+  end
+end)
+
+function hero_meta:get_previous_state()
+  return self.previous_state
+end
+
+hero_meta:register_event("on_state_changed", function(hero, state)
+  -- Should be done after other on_state_changed() events.
+  hero.previous_state = state
+end)
+
 return true

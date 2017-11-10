@@ -189,19 +189,20 @@ local function initialize_dungeon_features(game)
     return map_ids
   end
 
-  function game:get_floor_name(floor)
+  function game:get_dungeon_lowest_floor(dungeon_index)
 
-    local map = game:get_map()
-    floor = floor or tonumber(map:get_floor())
-    if floor == nil then
-      return nil
-    end
+    dungeon_index = dungeon_index or game:get_dungeon_index()
+    local dungeon = game:get_dungeon(dungeon_index)
+    assert(dungeon ~= nil)
+    return dungeon.lowest_floor
+  end
 
-    if floor >= 0 then
-      return (floor + 1) .. "f"
-    else
-      return "b" .. (-floor)
-    end
+  function game:get_dungeon_highest_floor(dungeon_index)
+
+    dungeon_index = dungeon_index or game:get_dungeon_index()
+    local dungeon = game:get_dungeon(dungeon_index)
+    assert(dungeon ~= nil)
+    return dungeon.highest_floor
   end
 
   function game:get_dungeon_room_size(dungeon_index)
@@ -302,6 +303,21 @@ local function initialize_dungeon_features(game)
       self:get_explored_dungeon_room_variable(dungeon_index, floor, room),
       explored
     )
+  end
+
+  function game:get_floor_name(floor)
+
+    local map = game:get_map()
+    floor = floor or tonumber(map:get_floor())
+    if floor == nil then
+      return nil
+    end
+
+    if floor >= 0 then
+      return (floor + 1) .. "f"
+    else
+      return "b" .. (-floor)
+    end
   end
 
   -- Show the dungeon name when entering a dungeon.

@@ -4353,86 +4353,6 @@ custom_entity{
   model = "torch",
 }
 
-teletransporter{
-  layer = 0,
-  x = 688,
-  y = 736,
-  width = 224,
-  height = 32,
-  destination_map = "dungeons/10/1f",
-  destination = "_same",
-}
-
-teletransporter{
-  layer = 0,
-  x = 688,
-  y = 912,
-  width = 224,
-  height = 32,
-  destination_map = "dungeons/10/1f",
-  destination = "_same",
-}
-
-teletransporter{
-  layer = 0,
-  x = 664,
-  y = 768,
-  width = 272,
-  height = 48,
-  destination_map = "dungeons/10/1f",
-  destination = "_same",
-}
-
-teletransporter{
-  layer = 0,
-  x = 664,
-  y = 864,
-  width = 272,
-  height = 48,
-  destination_map = "dungeons/10/1f",
-  destination = "_same",
-}
-
-teletransporter{
-  layer = 0,
-  x = 1072,
-  y = 544,
-  width = 96,
-  height = 48,
-  destination_map = "dungeons/10/1f",
-  destination = "_same",
-}
-
-teletransporter{
-  layer = 0,
-  x = 1072,
-  y = 608,
-  width = 96,
-  height = 48,
-  destination_map = "dungeons/10/1f",
-  destination = "_same",
-}
-
-teletransporter{
-  layer = 0,
-  x = 1072,
-  y = 592,
-  width = 32,
-  height = 16,
-  destination_map = "dungeons/10/1f",
-  destination = "_same",
-}
-
-teletransporter{
-  layer = 0,
-  x = 1136,
-  y = 592,
-  width = 32,
-  height = 16,
-  destination_map = "dungeons/10/1f",
-  destination = "_same",
-}
-
 wall{
   layer = 0,
   x = 1112,
@@ -4469,16 +4389,6 @@ door{
   opening_condition = "d10_small_keys",
   opening_condition_consumed = true,
   cannot_open_dialog = "small_key_required",
-}
-
-teletransporter{
-  layer = 0,
-  x = 768,
-  y = 256,
-  width = 64,
-  height = 64,
-  destination_map = "dungeons/10/1f",
-  destination = "_same",
 }
 
 enemy{
