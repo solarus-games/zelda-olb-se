@@ -17,7 +17,7 @@ tile{
   y = 264,
   width = 912,
   height = 672,
-  pattern = "hole",
+  pattern = "hole_parallax.3-1",
 }
 
 tile{
