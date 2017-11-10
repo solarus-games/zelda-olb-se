@@ -77,11 +77,18 @@ end)
 -- Send the hero to lower floors when falling in a hole.
 hero_meta:register_event("on_state_changed", function(hero, state)
 
-  if hero:get_previous_state() == "falling" then
-    local map = hero:get_map()
-    local game = map:get_game()
+  local map = hero:get_map()
+  local game = map:get_game()
+
+  if state == "falling" then
+    hero.life_before_falling = game:get_life()
+  end
+
+  if state == "back to solid ground" and
+      hero:get_previous_state() == "falling" then
     local dungeon_index = game:get_dungeon_index()
     local floor = map:get_floor()
+    game:set_life(hero.life_before_falling)  -- Cancel removing life points after falling.
     if dungeon_index ~= nil and
         floor ~= nil and
         floor > game:get_dungeon_lowest_floor(dungeon_index) then
