@@ -19,7 +19,7 @@ map{ id = "dungeons/12/2f", description = "Dungeon 12 2F" }
 map{ id = "dungeons/12/3f", description = "Dungeon 12 3F" }
 map{ id = "dungeons/12/b1", description = "Dungeon 12 B1" }
 map{ id = "dungeons/12/b2", description = "Dungeon 12 B2" }
-map{ id = "dungeons/12/imported", description = "Imported entities" }
+map{ id = "dungeons/12/roof", description = "Dungeon 12 roof" }
 map{ id = "dungeons/12/store", description = "Dungeon 12 Store" }
 map{ id = "dungeons/2/1f", description = "Dungeon 2 1F" }
 map{ id = "dungeons/2/b1", description = "Dungeon 2 B1" }
@@ -394,6 +394,7 @@ sprite{ id = "work/1600x1200", description = "1600x1200 PNG" }
 sprite{ id = "work/1600x1680", description = "1600x1680 PNG" }
 sprite{ id = "work/1600x960", description = "1600x960 PNG" }
 sprite{ id = "work/2240x1440", description = "2240x1440 PNG" }
+sprite{ id = "work/320x240", description = "320x240 PNG" }
 
 music{ id = "area_81", description = "Area 81" }
 music{ id = "bar", description = "Bar" }

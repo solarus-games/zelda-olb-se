@@ -1,4 +1,4 @@
--- Lua script of map dungeons/11/imported.
+-- Lua script of map dungeons/12/roof.
 -- This script is executed every time the hero enters this map.
 
 -- Feel free to modify the code below.

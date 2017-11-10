@@ -1,0 +1,244 @@
+properties{
+  x = 0,
+  y = 0,
+  width = 320,
+  height = 240,
+  min_layer = -1,
+  max_layer = 2,
+  world = "dungeon_12",
+  tileset = "light_world",
+}
+
+custom_entity{
+  layer = -1,
+  x = 8,
+  y = 13,
+  width = 320,
+  height = 240,
+  direction = 0,
+  sprite = "work/320x240",
+}
+
+tile{
+  layer = 0,
+  x = 296,
+  y = 208,
+  width = 8,
+  height = 32,
+  pattern = "tower.floor.shadow.4",
+}
+
+tile{
+  layer = 0,
+  x = 288,
+  y = 232,
+  width = 8,
+  height = 8,
+  pattern = "tower.floor.shadow",
+}
+
+tile{
+  layer = 0,
+  x = 24,
+  y = 232,
+  width = 8,
+  height = 8,
+  pattern = "tower.floor.shadow",
+}
+
+tile{
+  layer = 0,
+  x = 16,
+  y = 208,
+  width = 8,
+  height = 32,
+  pattern = "tower.floor.shadow.3",
+}
+
+tile{
+  layer = 0,
+  x = 24,
+  y = 88,
+  width = 272,
+  height = 120,
+  pattern = "tower.floor",
+}
+
+tile{
+  layer = 0,
+  x = 32,
+  y = 216,
+  width = 256,
+  height = 24,
+  pattern = "tower.wall_red",
+}
+
+tile{
+  layer = 0,
+  x = 24,
+  y = 216,
+  width = 8,
+  height = 24,
+  pattern = "tower.wall.corner.1",
+}
+
+tile{
+  layer = 0,
+  x = 288,
+  y = 216,
+  width = 8,
+  height = 24,
+  pattern = "tower.wall.corner.2",
+}
+
+tile{
+  layer = 0,
+  x = 8,
+  y = 128,
+  width = 8,
+  height = 8,
+  pattern = "tower.floor.corner.1",
+}
+
+tile{
+  layer = 0,
+  x = 8,
+  y = 136,
+  width = 8,
+  height = 104,
+  pattern = "tower.floor.3",
+}
+
+tile{
+  layer = 0,
+  x = 16,
+  y = 80,
+  width = 8,
+  height = 8,
+  pattern = "tower.floor.corner.1",
+}
+
+tile{
+  layer = 0,
+  x = 16,
+  y = 88,
+  width = 8,
+  height = 120,
+  pattern = "tower.floor.3",
+}
+
+tile{
+  layer = 0,
+  x = 24,
+  y = 208,
+  width = 272,
+  height = 8,
+  pattern = "tower.floor.2",
+}
+
+tile{
+  layer = 0,
+  x = 16,
+  y = 208,
+  width = 8,
+  height = 8,
+  pattern = "tower.floor.corner.3",
+}
+
+tile{
+  layer = 0,
+  x = 48,
+  y = 208,
+  width = 32,
+  height = 40,
+  pattern = "tower.pillar",
+}
+
+tile{
+  layer = 0,
+  x = 144,
+  y = 208,
+  width = 32,
+  height = 40,
+  pattern = "tower.pillar",
+}
+
+tile{
+  layer = 0,
+  x = 240,
+  y = 208,
+  width = 32,
+  height = 40,
+  pattern = "tower.pillar",
+}
+
+tile{
+  layer = 0,
+  x = 296,
+  y = 208,
+  width = 8,
+  height = 8,
+  pattern = "tower.floor.corner.4",
+}
+
+tile{
+  layer = 0,
+  x = 296,
+  y = 80,
+  width = 8,
+  height = 8,
+  pattern = "tower.floor.corner.2",
+}
+
+tile{
+  layer = 0,
+  x = 296,
+  y = 88,
+  width = 8,
+  height = 120,
+  pattern = "tower.floor.4",
+}
+
+tile{
+  layer = 0,
+  x = 304,
+  y = 128,
+  width = 8,
+  height = 8,
+  pattern = "tower.floor.corner.2",
+}
+
+tile{
+  layer = 0,
+  x = 304,
+  y = 136,
+  width = 8,
+  height = 104,
+  pattern = "tower.floor.4",
+}
+
+tile{
+  layer = 0,
+  x = 24,
+  y = 80,
+  width = 272,
+  height = 8,
+  pattern = "tower.floor.1",
+}
+
+destination{
+  layer = 0,
+  x = 136,
+  y = 125,
+  direction = 1,
+  sprite = "entities/destination",
+}
+
+destination{
+  layer = 0,
+  x = 184,
+  y = 125,
+  direction = 1,
+  sprite = "entities/destination",
+}
+
