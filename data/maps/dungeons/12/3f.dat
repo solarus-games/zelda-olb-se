@@ -5602,42 +5602,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 616,
-  y = 344,
-  width = 16,
-  height = 8,
-  pattern = "door.4.support.1-1",
-}
-
-tile{
-  layer = 0,
-  x = 616,
-  y = 368,
-  width = 16,
-  height = 8,
-  pattern = "door.4.support.2-1",
-}
-
-tile{
-  layer = 0,
-  x = 648,
-  y = 344,
-  width = 16,
-  height = 8,
-  pattern = "door.3.support.1-1",
-}
-
-tile{
-  layer = 0,
-  x = 648,
-  y = 368,
-  width = 16,
-  height = 8,
-  pattern = "door.3.support.2-1",
-}
-
-tile{
-  layer = 0,
   x = 632,
   y = 352,
   width = 16,

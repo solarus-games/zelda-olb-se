@@ -13778,7 +13778,7 @@ wall{
 }
 
 door{
-  name = "auto_door_a",
+  name = "auto_door_a_back",
   layer = 0,
   x = 792,
   y = 456,
@@ -13787,7 +13787,7 @@ door{
 }
 
 door{
-  name = "auto_door_a_back",
+  name = "auto_door_a",
   layer = 0,
   x = 792,
   y = 488,
@@ -13834,7 +13834,7 @@ wall{
 }
 
 door{
-  name = "auto_door_c",
+  name = "auto_door_c_back",
   layer = 0,
   x = 792,
   y = 696,
@@ -13843,7 +13843,7 @@ door{
 }
 
 door{
-  name = "auto_door_c_back",
+  name = "auto_door_c",
   layer = 0,
   x = 792,
   y = 728,
@@ -14756,6 +14756,7 @@ wall{
 }
 
 custom_entity{
+  name = "auto_torch_auto_door_a_1",
   layer = 0,
   x = 760,
   y = 525,
@@ -14767,6 +14768,7 @@ custom_entity{
 }
 
 custom_entity{
+  name = "auto_torch_auto_door_a_2",
   layer = 0,
   x = 840,
   y = 525,
@@ -14941,7 +14943,7 @@ enemy{
 }
 
 enemy{
-  name = "auto_enemy_22",
+  name = "auto_enemy_auto_door_b",
   layer = 0,
   x = 1176,
   y = 317,
@@ -15058,7 +15060,7 @@ enemy{
 }
 
 enemy{
-  name = "auto_enemy_53",
+  name = "auto_enemy_auto_door_c_1",
   layer = 0,
   x = 768,
   y = 829,
@@ -15067,7 +15069,7 @@ enemy{
 }
 
 enemy{
-  name = "auto_enemy_54",
+  name = "auto_enemy_auto_door_c_2",
   layer = 0,
   x = 800,
   y = 893,
@@ -15076,7 +15078,7 @@ enemy{
 }
 
 enemy{
-  name = "auto_enemy_55",
+  name = "auto_enemy_auto_door_c_3",
   layer = 0,
   x = 880,
   y = 845,
