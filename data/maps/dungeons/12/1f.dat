@@ -22,6 +22,15 @@ tile{
 
 tile{
   layer = -1,
+  x = 496,
+  y = 768,
+  width = 48,
+  height = 48,
+  pattern = "hole_parallax.1-2",
+}
+
+tile{
+  layer = -1,
   x = 568,
   y = 680,
   width = 144,
@@ -265,15 +274,6 @@ tile{
 
 tile{
   layer = -1,
-  x = 496,
-  y = 768,
-  width = 48,
-  height = 48,
-  pattern = "hole_parallax.1-1",
-}
-
-tile{
-  layer = -1,
   x = 504,
   y = 768,
   width = 32,
@@ -411,6 +411,14 @@ enemy{
   y = 717,
   direction = 3,
   breed = "alttp/stalfos_grey",
+}
+
+destination{
+  name = "destination",
+  layer = -1,
+  x = 568,
+  y = 797,
+  direction = 1,
 }
 
 tile{
@@ -6855,14 +6863,6 @@ stream{
   direction = 2,
   sprite = "entities/stream",
   speed = 25,
-}
-
-destination{
-  name = "destination",
-  layer = 0,
-  x = 240,
-  y = 605,
-  direction = 1,
 }
 
 wall{
