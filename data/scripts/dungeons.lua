@@ -274,14 +274,10 @@ local function initialize_dungeon_features(game)
     dungeon.merged_rooms[floor] = dungeon.merged_rooms[floor] or compute_merged_rooms(game, dungeon_index, floor)
     room = dungeon.merged_rooms[floor][room] or room
 
-    local room_name
-    if floor >= 0 then
-      room_name = tostring(floor + 1) .. "f_" .. room
-    else
-      room_name = math.abs(floor) .. "b_" .. room
-    end
+    local floor_name = game:get_floor_name(floor)
+    local room_name = floor_name .. "_" .. room
 
-    return "dungeon_" .. dungeon_index .. "_explored_" .. room_name
+    return "d" .. dungeon_index .. "_explored_" .. room_name
   end
 
   -- Returns whether a dungeon room has been explored.
