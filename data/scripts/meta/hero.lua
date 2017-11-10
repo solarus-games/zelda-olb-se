@@ -35,17 +35,18 @@ function hero_meta:on_taking_damage(damage)
   -- In the parameter, the damage unit is 1/2 of a heart.
   local game = self:get_game()
   local defense = self:get_defense()
+  local life_to_remove
   if defense <= 0 then
     -- Multiply the damage by two if the hero has no defense at all.
-    damage = damage * 2
+    life_to_remove = damage * 2
   else
-    damage = math.floor(damage / defense)
-    if damage <= 0 then
-      damage = 1
+    life_to_remove = math.floor(damage / defense)
+    if life_to_remove <= 0 and damage > 0 then
+      life_to_remove = 1
     end
   end
 
-  game:remove_life(damage)
+  game:remove_life(life_to_remove)
 
   -- Increase anger
   game:add_anger(1)  -- TODO check if it is always 1
