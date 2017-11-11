@@ -34,7 +34,7 @@ local function initialize_equipment_features(game)
       -- Are we in a dungeon?
       local dungeon_index = game:get_dungeon_index()
       if dungeon_index ~= nil then
-        return "dungeon_" .. dungeon_index .. "_small_keys"
+        return "d" .. dungeon_index .. "_small_keys"
       end
     end
 
