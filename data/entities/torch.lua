@@ -53,7 +53,7 @@ function torch:set_lit(lit)
   local name = torch:get_name()
   if name ~= nil then
     -- Store the state into the game.
-    -- game_manager should clear game.lit_torches_by_map when the world changes.
+    -- game.lit_torches_by_map is cleared when the world changes.
     local game = torch:get_game()
     local map_id = game:get_map():get_id()
     game.lit_torches_by_map = game.lit_torches_by_map or {}

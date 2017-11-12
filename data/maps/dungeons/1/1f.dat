@@ -8134,15 +8134,6 @@ enemy{
   breed = "alttp/pike_auto",
 }
 
-destination{
-  name = "debug_destination",
-  layer = 0,
-  x = 1440,
-  y = 213,
-  direction = 1,
-  default = true,
-}
-
 custom_entity{
   layer = 0,
   x = 1440,
@@ -8260,6 +8251,16 @@ pickable{
   y = 109,
   treasure_name = "graal",
   treasure_savegame_variable = "d1_graal",
+}
+
+destination{
+  name = "debug_destination",
+  layer = 0,
+  x = 160,
+  y = 325,
+  direction = 1,
+  starting_location_mode = "yes",
+  default = true,
 }
 
 tile{
