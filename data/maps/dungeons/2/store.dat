@@ -2240,9 +2240,9 @@ door{
   y = 424,
   direction = 1,
   sprite = "entities/doors/door_d2_big_key",
-  savegame_variable = "d3_boss_door",
+  savegame_variable = "d2_boss_door",
   opening_method = "interaction_if_savegame_variable",
-  opening_condition = "d3_boss_key",
+  opening_condition = "d2_boss_key",
   cannot_open_dialog = "boss_key_required",
 }
 
@@ -2252,9 +2252,9 @@ door{
   y = 392,
   direction = 3,
   sprite = "entities/doors/door_d2_big_key",
-  savegame_variable = "d3_boss_door",
+  savegame_variable = "d2_boss_door",
   opening_method = "interaction_if_savegame_variable",
-  opening_condition = "d3_boss_key",
+  opening_condition = "d2_boss_key",
   cannot_open_dialog = "boss_key_required",
 }
 
