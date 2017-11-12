@@ -122,6 +122,22 @@ local function initialize_dungeon_features(game)
     [13] = {
       lowest_floor = -2,
       highest_floor = 0,
+      -- No boss on the minimap (the floor is not on the map).
+    },
+    [14] = {
+      lowest_floor = 0,
+      highest_floor = 0,
+      boss = {
+        floor = 0,
+        x = 320 + 480,
+        y = 0 + 840,
+        savegame_variable = "d14_boss",
+      },
+    },
+    [15] = {
+      lowest_floor = 0,
+      highest_floor = 2,
+      -- No boss on the minimap (the boss is on the roof).
     },
   }
 

@@ -1,5 +1,5 @@
 properties{
-  x = 0,
+  x = 320,
   y = 0,
   width = 2880,
   height = 2160,
