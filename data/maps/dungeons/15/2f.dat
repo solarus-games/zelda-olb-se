@@ -8176,7 +8176,7 @@ custom_entity{
 enemy{
   name = "auto_enemy_26",
   layer = 0,
-  x = 800,
+  x = 792,
   y = 1053,
   direction = 3,
   breed = "alttp/sword_soldier_blue",
@@ -8185,7 +8185,7 @@ enemy{
 enemy{
   name = "auto_enemy_27",
   layer = 0,
-  x = 752,
+  x = 744,
   y = 797,
   direction = 3,
   breed = "alttp/sword_soldier_blue",
@@ -8194,7 +8194,7 @@ enemy{
 enemy{
   name = "auto_enemy_28",
   layer = 0,
-  x = 864,
+  x = 856,
   y = 797,
   direction = 3,
   breed = "alttp/sword_soldier_blue",
@@ -8203,7 +8203,7 @@ enemy{
 enemy{
   name = "auto_enemy_29",
   layer = 0,
-  x = 496,
+  x = 488,
   y = 813,
   direction = 3,
   breed = "alttp/sword_soldier_blue",
@@ -8212,7 +8212,7 @@ enemy{
 enemy{
   name = "auto_enemy_30",
   layer = 0,
-  x = 1120,
+  x = 1112,
   y = 813,
   direction = 3,
   breed = "alttp/sword_soldier_blue",
@@ -8221,7 +8221,7 @@ enemy{
 enemy{
   name = "auto_enemy_31",
   layer = 0,
-  x = 432,
+  x = 424,
   y = 445,
   direction = 3,
   breed = "alttp/sword_soldier_blue",
@@ -8230,7 +8230,7 @@ enemy{
 enemy{
   name = "auto_enemy_32",
   layer = 0,
-  x = 544,
+  x = 536,
   y = 445,
   direction = 3,
   breed = "alttp/sword_soldier_blue",
@@ -8239,7 +8239,7 @@ enemy{
 enemy{
   name = "auto_enemy_33",
   layer = 0,
-  x = 1072,
+  x = 1064,
   y = 493,
   direction = 3,
   breed = "alttp/sword_soldier_blue",
@@ -8248,7 +8248,7 @@ enemy{
 enemy{
   name = "auto_enemy_34",
   layer = 0,
-  x = 1184,
+  x = 1176,
   y = 493,
   direction = 3,
   breed = "alttp/sword_soldier_blue",
@@ -8257,7 +8257,7 @@ enemy{
 enemy{
   name = "auto_enemy_35",
   layer = 0,
-  x = 800,
+  x = 792,
   y = 349,
   direction = 3,
   breed = "alttp/spear_soldier_red",
@@ -8268,7 +8268,7 @@ enemy{
 enemy{
   name = "auto_enemy_36",
   layer = 0,
-  x = 488,
+  x = 480,
   y = 525,
   direction = 3,
   breed = "alttp/spear_soldier_red",
@@ -8277,7 +8277,7 @@ enemy{
 enemy{
   name = "auto_enemy_37",
   layer = 0,
-  x = 1128,
+  x = 1120,
   y = 445,
   direction = 3,
   breed = "alttp/spear_soldier_red",
@@ -8286,7 +8286,7 @@ enemy{
 enemy{
   name = "auto_enemy_auto_door_b",
   layer = 0,
-  x = 80,
+  x = 72,
   y = 605,
   direction = 3,
   breed = "alttp/spear_soldier_red",
@@ -8295,7 +8295,7 @@ enemy{
 enemy{
   name = "auto_enemy_auto_door_c",
   layer = 0,
-  x = 1536,
+  x = 1528,
   y = 605,
   direction = 3,
   breed = "alttp/spear_soldier_red",
@@ -8304,7 +8304,7 @@ enemy{
 enemy{
   name = "auto_enemy_auto_door_a",
   layer = 0,
-  x = 808,
+  x = 800,
   y = 109,
   direction = 3,
   breed = "alttp/spear_soldier_red",
@@ -8332,6 +8332,58 @@ chest{
   y = 605,
   treasure_name = "small_key",
   sprite = "entities/chest",
+}
+
+destination{
+  name = "from_3f",
+  layer = 0,
+  x = 480,
+  y = 1085,
+  direction = 1,
+}
+
+destination{
+  name = "from_1f",
+  layer = 0,
+  x = 1120,
+  y = 1069,
+  direction = 1,
+}
+
+stairs{
+  layer = 0,
+  x = 472,
+  y = 1072,
+  direction = 1,
+  subtype = 2,
+}
+
+stairs{
+  layer = 0,
+  x = 1112,
+  y = 1056,
+  direction = 3,
+  subtype = 3,
+}
+
+teletransporter{
+  layer = 0,
+  x = 1112,
+  y = 1056,
+  width = 16,
+  height = 16,
+  destination_map = "dungeons/15/1f",
+  destination = "from_2f",
+}
+
+teletransporter{
+  layer = 0,
+  x = 472,
+  y = 1072,
+  width = 16,
+  height = 16,
+  destination_map = "dungeons/15/3f",
+  destination = "from_2f",
 }
 
 tile{

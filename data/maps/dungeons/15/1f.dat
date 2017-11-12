@@ -8901,6 +8901,32 @@ chest{
   sprite = "entities/chest",
 }
 
+destination{
+  name = "from_2f",
+  layer = 0,
+  x = 1120,
+  y = 1085,
+  direction = 1,
+}
+
+stairs{
+  layer = 0,
+  x = 1112,
+  y = 1072,
+  direction = 1,
+  subtype = 2,
+}
+
+teletransporter{
+  layer = 0,
+  x = 1112,
+  y = 1072,
+  width = 16,
+  height = 16,
+  destination_map = "dungeons/15/2f",
+  destination = "from_1f",
+}
+
 tile{
   layer = 1,
   x = 792,
