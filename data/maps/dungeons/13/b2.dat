@@ -1,0 +1,23 @@
+properties{
+  x = 320,
+  y = 240,
+  width = 2240,
+  height = 1680,
+  min_layer = -1,
+  max_layer = 2,
+  world = "dungeon_13",
+  floor = 0,
+  tileset = "dungeon/dark_turquoise",
+  music = "zant",
+}
+
+custom_entity{
+  layer = -1,
+  x = 8,
+  y = 13,
+  width = 2240,
+  height = 1680,
+  direction = 0,
+  sprite = "work/2240x1680",
+}
+

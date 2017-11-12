@@ -120,7 +120,8 @@ local function initialize_dungeon_features(game)
       -- No boss on the minimap (the boss is on the roof).
     },
     [13] = {
-      -- TODO
+      lowest_floor = -2,
+      highest_floor = 0,
     },
   }
 
