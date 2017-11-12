@@ -402,7 +402,6 @@ sprite{ id = "work/1600x1680", description = "1600x1680 PNG" }
 sprite{ id = "work/1600x960", description = "1600x960 PNG" }
 sprite{ id = "work/2240x1440", description = "2240x1440 PNG" }
 sprite{ id = "work/2240x1680", description = "2240x1680 PNG" }
-sprite{ id = "work/2880x2160", description = "2880x2160 PNG" }
 sprite{ id = "work/320x240", description = "320x240 PNG" }
 
 music{ id = "area_81", description = "Area 81" }
