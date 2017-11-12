@@ -15702,6 +15702,15 @@ tile{
   pattern = "cliff.top.1",
 }
 
+tile{
+  layer = 1,
+  x = 1072,
+  y = 496,
+  width = 80,
+  height = 32,
+  pattern = "dirt.soil",
+}
+
 dynamic_tile{
   name = "invisible_tile_19",
   layer = 1,
