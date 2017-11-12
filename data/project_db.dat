@@ -27,6 +27,11 @@ map{ id = "dungeons/13/b2", description = "Dungeon 13 B2" }
 map{ id = "dungeons/13/store", description = "Dungeon 13 Store" }
 map{ id = "dungeons/14/1f", description = "Dungeon 14 1F" }
 map{ id = "dungeons/14/store", description = "Dungeon 14 Store" }
+map{ id = "dungeons/15/1f", description = "Dungeon 15 1F" }
+map{ id = "dungeons/15/b1", description = "Dungeon 15 B1" }
+map{ id = "dungeons/15/b2", description = "Dungeon 15 B2" }
+map{ id = "dungeons/15/imported", description = "Imported" }
+map{ id = "dungeons/15/store", description = "Dungeon 15 Store" }
 map{ id = "dungeons/2/1f", description = "Dungeon 2 1F" }
 map{ id = "dungeons/2/b1", description = "Dungeon 2 B1" }
 map{ id = "dungeons/2/b2", description = "Dungeon 2 B2" }
@@ -415,12 +420,12 @@ music{ id = "castle", description = "Castle" }
 music{ id = "cave", description = "Cave" }
 music{ id = "coliseum", description = "Coliseum" }
 music{ id = "desert", description = "Desert" }
+music{ id = "destiny_tower", description = "Destiny tower" }
 music{ id = "dungeon_1", description = "Dungeon 1" }
 music{ id = "dungeon_2", description = "Dungeon 2" }
 music{ id = "dungeon_desert", description = "Desert dungeon" }
 music{ id = "dungeon_final", description = "Final dungeon" }
 music{ id = "dungeon_secret", description = "Secret dungeon" }
-music{ id = "dungeon_tower", description = "Tower dungeon" }
 music{ id = "end", description = "End" }
 music{ id = "fairy", description = "Fairy" }
 music{ id = "farore", description = "Farore" }

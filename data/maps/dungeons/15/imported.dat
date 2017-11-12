@@ -1,0 +1,313 @@
+properties{
+  x = 0,
+  y = 0,
+  width = 3200,
+  height = 2400,
+  min_layer = 0,
+  max_layer = 2,
+  tileset = "dungeon/blue",
+}
+
+enemy{
+  name = "auto_enemy_1",
+  layer = 0,
+  x = 2382,
+  y = 1741,
+  direction = 3,
+  breed = "alttp/ganon",
+}
+
+enemy{
+  name = "auto_enemy_3",
+  layer = 0,
+  x = 552,
+  y = 285,
+  direction = 3,
+  breed = "alttp/medusa_purple",
+}
+
+enemy{
+  name = "auto_enemy_4",
+  layer = 0,
+  x = 1048,
+  y = 285,
+  direction = 3,
+  breed = "alttp/medusa_purple",
+}
+
+enemy{
+  name = "auto_enemy_5",
+  layer = 0,
+  x = 712,
+  y = 925,
+  direction = 3,
+  breed = "alttp/medusa_purple",
+}
+
+enemy{
+  name = "auto_enemy_6",
+  layer = 0,
+  x = 888,
+  y = 925,
+  direction = 3,
+  breed = "alttp/medusa_purple",
+}
+
+enemy{
+  name = "auto_enemy_26",
+  layer = 0,
+  x = 2398,
+  y = 1050,
+  direction = 3,
+  breed = "alttp/sword_soldier_blue",
+}
+
+enemy{
+  name = "auto_enemy_27",
+  layer = 0,
+  x = 2350,
+  y = 794,
+  direction = 3,
+  breed = "alttp/sword_soldier_blue",
+}
+
+enemy{
+  name = "auto_enemy_28",
+  layer = 0,
+  x = 2462,
+  y = 794,
+  direction = 3,
+  breed = "alttp/sword_soldier_blue",
+}
+
+enemy{
+  name = "auto_enemy_29",
+  layer = 0,
+  x = 2094,
+  y = 810,
+  direction = 3,
+  breed = "alttp/sword_soldier_blue",
+}
+
+enemy{
+  name = "auto_enemy_30",
+  layer = 0,
+  x = 2718,
+  y = 810,
+  direction = 3,
+  breed = "alttp/sword_soldier_blue",
+}
+
+enemy{
+  name = "auto_enemy_31",
+  layer = 0,
+  x = 2030,
+  y = 442,
+  direction = 3,
+  breed = "alttp/sword_soldier_blue",
+}
+
+enemy{
+  name = "auto_enemy_32",
+  layer = 0,
+  x = 2142,
+  y = 442,
+  direction = 3,
+  breed = "alttp/sword_soldier_blue",
+}
+
+enemy{
+  name = "auto_enemy_33",
+  layer = 0,
+  x = 2670,
+  y = 490,
+  direction = 3,
+  breed = "alttp/sword_soldier_blue",
+}
+
+enemy{
+  name = "auto_enemy_34",
+  layer = 0,
+  x = 2782,
+  y = 490,
+  direction = 3,
+  breed = "alttp/sword_soldier_blue",
+}
+
+enemy{
+  name = "auto_enemy_35",
+  layer = 0,
+  x = 2401,
+  y = 346,
+  direction = 3,
+  breed = "alttp/sword_soldier_red",
+}
+
+enemy{
+  name = "auto_enemy_36",
+  layer = 0,
+  x = 2089,
+  y = 522,
+  direction = 3,
+  breed = "alttp/sword_soldier_red",
+}
+
+enemy{
+  name = "auto_enemy_37",
+  layer = 0,
+  x = 2729,
+  y = 442,
+  direction = 3,
+  breed = "alttp/sword_soldier_red",
+}
+
+enemy{
+  name = "auto_enemy_38",
+  layer = 0,
+  x = 1681,
+  y = 602,
+  direction = 3,
+  breed = "alttp/sword_soldier_red",
+}
+
+enemy{
+  name = "auto_enemy_39",
+  layer = 0,
+  x = 3137,
+  y = 602,
+  direction = 3,
+  breed = "alttp/sword_soldier_red",
+}
+
+enemy{
+  name = "auto_enemy_40",
+  layer = 0,
+  x = 2409,
+  y = 106,
+  direction = 3,
+  breed = "alttp/sword_soldier_red",
+}
+
+enemy{
+  name = "auto_enemy_41",
+  layer = 0,
+  x = 809,
+  y = 1082,
+  direction = 3,
+  breed = "alttp/sword_soldier_red",
+}
+
+enemy{
+  name = "auto_enemy_42",
+  layer = 0,
+  x = 641,
+  y = 826,
+  direction = 3,
+  breed = "alttp/sword_soldier_red",
+}
+
+enemy{
+  name = "auto_enemy_43",
+  layer = 0,
+  x = 977,
+  y = 826,
+  direction = 3,
+  breed = "alttp/sword_soldier_red",
+}
+
+enemy{
+  name = "auto_enemy_44",
+  layer = 0,
+  x = 809,
+  y = 362,
+  direction = 3,
+  breed = "alttp/sword_soldier_red",
+}
+
+enemy{
+  name = "auto_enemy_45",
+  layer = 0,
+  x = 809,
+  y = 602,
+  direction = 3,
+  breed = "alttp/sword_soldier_red",
+}
+
+enemy{
+  name = "auto_enemy_46",
+  layer = 0,
+  x = 1089,
+  y = 1082,
+  direction = 3,
+  breed = "alttp/sword_soldier_red",
+}
+
+enemy{
+  name = "auto_enemy_47",
+  layer = 0,
+  x = 113,
+  y = 602,
+  direction = 3,
+  breed = "alttp/sword_soldier_red",
+}
+
+enemy{
+  name = "auto_enemy_48",
+  layer = 0,
+  x = 225,
+  y = 602,
+  direction = 3,
+  breed = "alttp/sword_soldier_red",
+}
+
+enemy{
+  name = "auto_enemy_49",
+  layer = 0,
+  x = 809,
+  y = 122,
+  direction = 3,
+  breed = "alttp/sword_soldier_red",
+}
+
+enemy{
+  name = "auto_enemy_50",
+  layer = 0,
+  x = 1393,
+  y = 602,
+  direction = 3,
+  breed = "alttp/sword_soldier_red",
+}
+
+enemy{
+  name = "auto_enemy_51",
+  layer = 0,
+  x = 1505,
+  y = 602,
+  direction = 3,
+  breed = "alttp/sword_soldier_red",
+}
+
+chest{
+  layer = 0,
+  x = 1752,
+  y = 605,
+  treasure_name = "compass",
+  sprite = "entities/chest",
+}
+
+chest{
+  layer = 0,
+  x = 2392,
+  y = 589,
+  treasure_name = "boss_key",
+  sprite = "entities/chest",
+}
+
+chest{
+  layer = 0,
+  x = 3048,
+  y = 605,
+  treasure_name = "small_key",
+  sprite = "entities/chest",
+}
+
