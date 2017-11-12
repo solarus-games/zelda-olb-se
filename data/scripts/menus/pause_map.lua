@@ -29,6 +29,7 @@ function map_manager:new(game)
   local grid_img = sol.surface.create("menus/map_grid.png")
   local boss_icon_img = sol.surface.create("menus/boss_icon.png")
   local chest_icon_img = sol.surface.create("menus/chest_icon.png")
+  local unkwown_floor_img = sol.surface.create("menus/unknown.png")
   local rooms_sprite
   local rooms_img
   local dungeon_map_widget
@@ -50,9 +51,19 @@ function map_manager:new(game)
     return x, y
   end
 
+  local function is_floor_known(floor)
+    return rooms_sprite:has_animation(selected_floor)
+  end
+
   local function build_rooms_image()
 
+    rooms_sprite = sol.sprite.create("menus/dungeon_maps/map_" .. dungeon_index)
     rooms_img = sol.surface.create(160, 160)
+    if not is_floor_known(selected_floor) then
+      unkwown_floor_img:draw(rooms_img, 64, 64)
+      return
+    end
+
     rooms_sprite:set_animation(selected_floor)
 
     -- Background: show the whole floor as non visited.
@@ -148,21 +159,25 @@ function map_manager:new(game)
 
       dungeon_map_widget:make_image_region(floors_img, src_x, src_y, src_width, src_height, dst_x, dst_y)
 
+      -- Rooms.
+      build_rooms_image()
+
       -- Show Link's head near his floor.
-      dst_x = 24
-      dst_y = (2 - current_floor) * 16 + 64
-      dungeon_map_widget:make_sprite(link_head_sprite, dst_x, dst_y)
+      if is_floor_known(current_floor) then
+        dst_x = 24
+        dst_y = (2 - current_floor) * 16 + 64
+        dungeon_map_widget:make_sprite(link_head_sprite, dst_x, dst_y)
+      end
 
       -- Show the boss icon near his floor.
-      if game:has_dungeon_compass() and dungeon.boss ~= nil then
+      if game:has_dungeon_compass() and
+          dungeon.boss ~= nil and
+          is_floor_known(current_floor) then
         dst_x = 76
         dst_y = (2 - dungeon.boss.floor) * 16 + 68
         dungeon_map_widget:make_image(boss_icon_img, dst_x, dst_y)
       end
 
-      -- Rooms.
-      rooms_sprite = sol.sprite.create("menus/dungeon_maps/map_" .. dungeon_index)
-      build_rooms_image()
     end
   end
 
@@ -211,7 +226,8 @@ function map_manager:new(game)
       -- Show rooms.
       rooms_img:draw(dst_surface, 128, 48)
 
-      if selected_floor == current_floor then
+      if selected_floor == current_floor and
+          is_floor_known(selected_floor) then
         local map_x, map_y = map:get_location()
         local hero_x, hero_y = map:get_hero():get_position()
         dst_x, dst_y = to_dungeon_minimap_coordinates(map_x + hero_x, map_y + hero_y)

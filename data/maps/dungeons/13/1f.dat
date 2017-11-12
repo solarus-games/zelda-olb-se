@@ -1451,6 +1451,114 @@ tile{
   pattern = "floor_low.20-2",
 }
 
+tile{
+  layer = -1,
+  x = 784,
+  y = 1040,
+  width = 8,
+  height = 24,
+  pattern = "stairs_inner_up.1.border.1-1",
+}
+
+tile{
+  layer = -1,
+  x = 808,
+  y = 1040,
+  width = 8,
+  height = 24,
+  pattern = "stairs_inner_up.1.border.2-1",
+}
+
+tile{
+  layer = -1,
+  x = 792,
+  y = 1040,
+  width = 16,
+  height = 24,
+  pattern = "stairs_inner_up.1-1",
+}
+
+tile{
+  layer = -1,
+  x = 488,
+  y = 1320,
+  width = 8,
+  height = 24,
+  pattern = "stairs_inner_up.2.border.2-1",
+}
+
+tile{
+  layer = -1,
+  x = 472,
+  y = 1320,
+  width = 16,
+  height = 24,
+  pattern = "stairs_inner_up.2-1",
+}
+
+tile{
+  layer = -1,
+  x = 464,
+  y = 1320,
+  width = 8,
+  height = 24,
+  pattern = "stairs_inner_up.2.border.1-1",
+}
+
+tile{
+  layer = -1,
+  x = 1784,
+  y = 1040,
+  width = 8,
+  height = 24,
+  pattern = "stairs_inner_up.1.border.1-1",
+}
+
+tile{
+  layer = -1,
+  x = 1808,
+  y = 1040,
+  width = 8,
+  height = 24,
+  pattern = "stairs_inner_up.1.border.2-1",
+}
+
+tile{
+  layer = -1,
+  x = 1792,
+  y = 1040,
+  width = 16,
+  height = 24,
+  pattern = "stairs_inner_up.1-1",
+}
+
+tile{
+  layer = -1,
+  x = 2024,
+  y = 1040,
+  width = 8,
+  height = 24,
+  pattern = "stairs_inner_up.1.border.1-1",
+}
+
+tile{
+  layer = -1,
+  x = 2048,
+  y = 1040,
+  width = 8,
+  height = 24,
+  pattern = "stairs_inner_up.1.border.2-1",
+}
+
+tile{
+  layer = -1,
+  x = 2032,
+  y = 1040,
+  width = 16,
+  height = 24,
+  pattern = "stairs_inner_up.1-1",
+}
+
 switch{
   name = "auto_switch_auto_door_n",
   layer = -1,
@@ -1461,6 +1569,38 @@ switch{
   sound = "switch",
   needs_block = false,
   inactivate_when_leaving = false,
+}
+
+stairs{
+  layer = -1,
+  x = 792,
+  y = 1040,
+  direction = 1,
+  subtype = 4,
+}
+
+stairs{
+  layer = -1,
+  x = 472,
+  y = 1328,
+  direction = 3,
+  subtype = 4,
+}
+
+stairs{
+  layer = -1,
+  x = 1792,
+  y = 1040,
+  direction = 1,
+  subtype = 4,
+}
+
+stairs{
+  layer = -1,
+  x = 2032,
+  y = 1040,
+  direction = 1,
+  subtype = 4,
 }
 
 tile{
@@ -17665,33 +17805,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 784,
-  y = 1040,
-  width = 8,
-  height = 24,
-  pattern = "stairs_inner_up.1.border.1-1",
-}
-
-tile{
-  layer = 0,
-  x = 808,
-  y = 1040,
-  width = 8,
-  height = 24,
-  pattern = "stairs_inner_up.1.border.2-1",
-}
-
-tile{
-  layer = 0,
-  x = 792,
-  y = 1040,
-  width = 16,
-  height = 24,
-  pattern = "stairs_inner_up.1-1",
-}
-
-tile{
-  layer = 0,
   x = 808,
   y = 1032,
   width = 8,
@@ -17715,33 +17828,6 @@ tile{
   width = 8,
   height = 8,
   pattern = "stairs_inner_up.1.top.border.1-1",
-}
-
-tile{
-  layer = 0,
-  x = 488,
-  y = 1320,
-  width = 8,
-  height = 24,
-  pattern = "stairs_inner_up.2.border.2-1",
-}
-
-tile{
-  layer = 0,
-  x = 472,
-  y = 1320,
-  width = 16,
-  height = 24,
-  pattern = "stairs_inner_up.2-1",
-}
-
-tile{
-  layer = 0,
-  x = 464,
-  y = 1320,
-  width = 8,
-  height = 24,
-  pattern = "stairs_inner_up.2.border.1-1",
 }
 
 tile{
@@ -17782,33 +17868,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 1784,
-  y = 1040,
-  width = 8,
-  height = 24,
-  pattern = "stairs_inner_up.1.border.1-1",
-}
-
-tile{
-  layer = 0,
-  x = 1808,
-  y = 1040,
-  width = 8,
-  height = 24,
-  pattern = "stairs_inner_up.1.border.2-1",
-}
-
-tile{
-  layer = 0,
-  x = 1792,
-  y = 1040,
-  width = 16,
-  height = 24,
-  pattern = "stairs_inner_up.1-1",
-}
-
-tile{
-  layer = 0,
   x = 1808,
   y = 1032,
   width = 8,
@@ -17832,33 +17891,6 @@ tile{
   width = 8,
   height = 8,
   pattern = "stairs_inner_up.1.top.border.1-1",
-}
-
-tile{
-  layer = 0,
-  x = 2024,
-  y = 1040,
-  width = 8,
-  height = 24,
-  pattern = "stairs_inner_up.1.border.1-1",
-}
-
-tile{
-  layer = 0,
-  x = 2048,
-  y = 1040,
-  width = 8,
-  height = 24,
-  pattern = "stairs_inner_up.1.border.2-1",
-}
-
-tile{
-  layer = 0,
-  x = 2032,
-  y = 1040,
-  width = 16,
-  height = 24,
-  pattern = "stairs_inner_up.1-1",
 }
 
 tile{
@@ -20057,22 +20089,6 @@ custom_entity{
   model = "hookable",
 }
 
-stairs{
-  layer = 0,
-  x = 792,
-  y = 1040,
-  direction = 1,
-  subtype = 4,
-}
-
-stairs{
-  layer = 0,
-  x = 472,
-  y = 1328,
-  direction = 3,
-  subtype = 4,
-}
-
 custom_entity{
   layer = 0,
   x = 1856,
@@ -20115,22 +20131,6 @@ custom_entity{
   direction = 0,
   sprite = "entities/hook_brown",
   model = "hookable",
-}
-
-stairs{
-  layer = 0,
-  x = 1792,
-  y = 1040,
-  direction = 1,
-  subtype = 4,
-}
-
-stairs{
-  layer = 0,
-  x = 2032,
-  y = 1040,
-  direction = 1,
-  subtype = 4,
 }
 
 enemy{

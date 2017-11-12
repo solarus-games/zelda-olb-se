@@ -3,9 +3,79 @@ properties{
   y = 0,
   width = 1600,
   height = 1200,
-  min_layer = 0,
+  min_layer = -1,
   max_layer = 2,
   tileset = "dungeon/dark_turquoise",
+}
+
+tile{
+  layer = -1,
+  x = 112,
+  y = 504,
+  width = 8,
+  height = 24,
+  pattern = "stairs_inner_up.1.border.1-1",
+}
+
+tile{
+  layer = -1,
+  x = 136,
+  y = 504,
+  width = 8,
+  height = 24,
+  pattern = "stairs_inner_up.1.border.2-1",
+}
+
+tile{
+  layer = -1,
+  x = 120,
+  y = 504,
+  width = 16,
+  height = 24,
+  pattern = "stairs_inner_up.1-1",
+}
+
+tile{
+  layer = -1,
+  x = 184,
+  y = 496,
+  width = 8,
+  height = 24,
+  pattern = "stairs_inner_up.2.border.2-1",
+}
+
+tile{
+  layer = -1,
+  x = 168,
+  y = 496,
+  width = 16,
+  height = 24,
+  pattern = "stairs_inner_up.2-1",
+}
+
+tile{
+  layer = -1,
+  x = 160,
+  y = 496,
+  width = 8,
+  height = 24,
+  pattern = "stairs_inner_up.2.border.1-1",
+}
+
+stairs{
+  layer = -1,
+  x = 120,
+  y = 504,
+  direction = 1,
+  subtype = 4,
+}
+
+stairs{
+  layer = -1,
+  x = 168,
+  y = 504,
+  direction = 3,
+  subtype = 4,
 }
 
 tile{
@@ -15,60 +85,6 @@ tile{
   width = 256,
   height = 176,
   pattern = "floor_low.12-2",
-}
-
-tile{
-  layer = 0,
-  x = 112,
-  y = 504,
-  width = 8,
-  height = 24,
-  pattern = "stairs_inner_up.1.border.1-1",
-}
-
-tile{
-  layer = 0,
-  x = 136,
-  y = 504,
-  width = 8,
-  height = 24,
-  pattern = "stairs_inner_up.1.border.2-1",
-}
-
-tile{
-  layer = 0,
-  x = 120,
-  y = 504,
-  width = 16,
-  height = 24,
-  pattern = "stairs_inner_up.1-1",
-}
-
-tile{
-  layer = 0,
-  x = 184,
-  y = 496,
-  width = 8,
-  height = 24,
-  pattern = "stairs_inner_up.2.border.2-1",
-}
-
-tile{
-  layer = 0,
-  x = 168,
-  y = 496,
-  width = 16,
-  height = 24,
-  pattern = "stairs_inner_up.2-1",
-}
-
-tile{
-  layer = 0,
-  x = 160,
-  y = 496,
-  width = 8,
-  height = 24,
-  pattern = "stairs_inner_up.2.border.1-1",
 }
 
 tile{
@@ -1122,22 +1138,6 @@ tile{
   width = 16,
   height = 16,
   pattern = "floor_pot",
-}
-
-stairs{
-  layer = 0,
-  x = 120,
-  y = 504,
-  direction = 1,
-  subtype = 4,
-}
-
-stairs{
-  layer = 0,
-  x = 168,
-  y = 504,
-  direction = 3,
-  subtype = 4,
 }
 
 wall{
