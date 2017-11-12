@@ -3761,6 +3761,69 @@ door{
   cannot_open_dialog = "small_key_required",
 }
 
+enemy{
+  name = "onilink",
+  layer = 0,
+  x = 1120,
+  y = 525,
+  direction = 3,
+  breed = "onilink",
+}
+
+enemy{
+  name = "ganon",
+  layer = 0,
+  x = 1120,
+  y = 301,
+  direction = 3,
+  breed = "alttp/ganon",
+}
+
+enemy{
+  name = "auto_enemy_57",
+  layer = 0,
+  x = 792,
+  y = 605,
+  direction = 3,
+  breed = "alttp/hyu",
+}
+
+enemy{
+  name = "auto_enemy_58",
+  layer = 0,
+  x = 1432,
+  y = 605,
+  direction = 3,
+  breed = "alttp/hyu",
+}
+
+chest{
+  layer = 0,
+  x = 800,
+  y = 317,
+  treasure_name = "boss_key",
+  treasure_savegame_variable = "d13_boss_key_chest",
+  sprite = "entities/chest",
+}
+
+chest{
+  layer = 0,
+  x = 1440,
+  y = 317,
+  treasure_name = "small_key",
+  treasure_savegame_variable = "d13_b2_key_1_chest",
+  sprite = "entities/chest",
+}
+
+chest{
+  name = "pegasus_shoes_chest",
+  layer = 0,
+  x = 1032,
+  y = 797,
+  treasure_name = "pegasus_shoes",
+  sprite = "entities/chest",
+}
+
 tile{
   layer = 1,
   x = 768,
@@ -4055,7 +4118,7 @@ tile{
   y = 240,
   width = 320,
   height = 32,
-  pattern = "ceiling.1",
+  pattern = "ceiling.2",
 }
 
 tile{
@@ -4064,7 +4127,7 @@ tile{
   y = 272,
   width = 64,
   height = 176,
-  pattern = "ceiling.1",
+  pattern = "ceiling.2",
 }
 
 tile{
@@ -4073,7 +4136,7 @@ tile{
   y = 272,
   width = 64,
   height = 176,
-  pattern = "ceiling.1",
+  pattern = "ceiling.2",
 }
 
 tile{
@@ -4082,7 +4145,7 @@ tile{
   y = 448,
   width = 96,
   height = 32,
-  pattern = "ceiling.1",
+  pattern = "ceiling.2",
 }
 
 tile{
@@ -4091,7 +4154,7 @@ tile{
   y = 448,
   width = 96,
   height = 32,
-  pattern = "ceiling.1",
+  pattern = "ceiling.2",
 }
 
 tile{
@@ -4100,7 +4163,7 @@ tile{
   y = 240,
   width = 320,
   height = 32,
-  pattern = "ceiling.1",
+  pattern = "ceiling.2",
 }
 
 tile{
@@ -4109,7 +4172,7 @@ tile{
   y = 272,
   width = 64,
   height = 176,
-  pattern = "ceiling.1",
+  pattern = "ceiling.2",
 }
 
 tile{
@@ -4118,7 +4181,7 @@ tile{
   y = 272,
   width = 64,
   height = 176,
-  pattern = "ceiling.1",
+  pattern = "ceiling.2",
 }
 
 tile{
@@ -4127,7 +4190,7 @@ tile{
   y = 448,
   width = 96,
   height = 32,
-  pattern = "ceiling.1",
+  pattern = "ceiling.2",
 }
 
 tile{
@@ -4136,7 +4199,7 @@ tile{
   y = 448,
   width = 96,
   height = 32,
-  pattern = "ceiling.1",
+  pattern = "ceiling.2",
 }
 
 tile{
@@ -4145,7 +4208,7 @@ tile{
   y = 240,
   width = 32,
   height = 208,
-  pattern = "ceiling.1",
+  pattern = "ceiling.2",
 }
 
 tile{
@@ -4154,7 +4217,7 @@ tile{
   y = 240,
   width = 32,
   height = 208,
-  pattern = "ceiling.1",
+  pattern = "ceiling.2",
 }
 
 tile{
@@ -4163,7 +4226,7 @@ tile{
   y = 448,
   width = 96,
   height = 32,
-  pattern = "ceiling.1",
+  pattern = "ceiling.2",
 }
 
 tile{
@@ -4172,7 +4235,7 @@ tile{
   y = 448,
   width = 96,
   height = 32,
-  pattern = "ceiling.1",
+  pattern = "ceiling.2",
 }
 
 tile{
@@ -4181,7 +4244,7 @@ tile{
   y = 480,
   width = 96,
   height = 32,
-  pattern = "ceiling.1",
+  pattern = "ceiling.2",
 }
 
 tile{
@@ -4190,7 +4253,7 @@ tile{
   y = 480,
   width = 96,
   height = 32,
-  pattern = "ceiling.1",
+  pattern = "ceiling.2",
 }
 
 tile{
@@ -4199,7 +4262,7 @@ tile{
   y = 688,
   width = 96,
   height = 32,
-  pattern = "ceiling.1",
+  pattern = "ceiling.2",
 }
 
 tile{
@@ -4208,7 +4271,7 @@ tile{
   y = 688,
   width = 96,
   height = 32,
-  pattern = "ceiling.1",
+  pattern = "ceiling.2",
 }
 
 tile{
@@ -4217,7 +4280,7 @@ tile{
   y = 512,
   width = 64,
   height = 176,
-  pattern = "ceiling.1",
+  pattern = "ceiling.2",
 }
 
 tile{
@@ -4226,7 +4289,7 @@ tile{
   y = 512,
   width = 64,
   height = 176,
-  pattern = "ceiling.1",
+  pattern = "ceiling.2",
 }
 
 tile{
@@ -4235,7 +4298,7 @@ tile{
   y = 480,
   width = 96,
   height = 32,
-  pattern = "ceiling.1",
+  pattern = "ceiling.2",
 }
 
 tile{
@@ -4244,7 +4307,7 @@ tile{
   y = 480,
   width = 96,
   height = 32,
-  pattern = "ceiling.1",
+  pattern = "ceiling.2",
 }
 
 tile{
@@ -4253,7 +4316,7 @@ tile{
   y = 688,
   width = 96,
   height = 32,
-  pattern = "ceiling.1",
+  pattern = "ceiling.2",
 }
 
 tile{
@@ -4262,7 +4325,7 @@ tile{
   y = 688,
   width = 96,
   height = 32,
-  pattern = "ceiling.1",
+  pattern = "ceiling.2",
 }
 
 tile{
@@ -4271,7 +4334,7 @@ tile{
   y = 512,
   width = 64,
   height = 176,
-  pattern = "ceiling.1",
+  pattern = "ceiling.2",
 }
 
 tile{
@@ -4280,7 +4343,7 @@ tile{
   y = 512,
   width = 64,
   height = 176,
-  pattern = "ceiling.1",
+  pattern = "ceiling.2",
 }
 
 tile{
@@ -4289,7 +4352,7 @@ tile{
   y = 720,
   width = 112,
   height = 64,
-  pattern = "ceiling.1",
+  pattern = "ceiling.2",
 }
 
 tile{
@@ -4298,7 +4361,7 @@ tile{
   y = 896,
   width = 320,
   height = 64,
-  pattern = "ceiling.1",
+  pattern = "ceiling.2",
 }
 
 tile{
@@ -4307,7 +4370,7 @@ tile{
   y = 720,
   width = 112,
   height = 176,
-  pattern = "ceiling.1",
+  pattern = "ceiling.2",
 }
 
 tile{
@@ -4316,7 +4379,7 @@ tile{
   y = 720,
   width = 112,
   height = 176,
-  pattern = "ceiling.1",
+  pattern = "ceiling.2",
 }
 
 tile{
@@ -4325,7 +4388,7 @@ tile{
   y = 896,
   width = 320,
   height = 64,
-  pattern = "ceiling.1",
+  pattern = "ceiling.2",
 }
 
 tile{
@@ -4334,7 +4397,7 @@ tile{
   y = 720,
   width = 112,
   height = 64,
-  pattern = "ceiling.1",
+  pattern = "ceiling.2",
 }
 
 tile{
@@ -4343,7 +4406,7 @@ tile{
   y = 720,
   width = 96,
   height = 32,
-  pattern = "ceiling.1",
+  pattern = "ceiling.2",
 }
 
 tile{
@@ -4352,7 +4415,7 @@ tile{
   y = 720,
   width = 96,
   height = 32,
-  pattern = "ceiling.1",
+  pattern = "ceiling.2",
 }
 
 tile{
@@ -4361,7 +4424,7 @@ tile{
   y = 752,
   width = 32,
   height = 32,
-  pattern = "ceiling.1",
+  pattern = "ceiling.2",
 }
 
 tile{
@@ -4370,7 +4433,7 @@ tile{
   y = 752,
   width = 32,
   height = 32,
-  pattern = "ceiling.1",
+  pattern = "ceiling.2",
 }
 
 tile{
@@ -4379,7 +4442,7 @@ tile{
   y = 896,
   width = 32,
   height = 32,
-  pattern = "ceiling.1",
+  pattern = "ceiling.2",
 }
 
 tile{
@@ -4388,7 +4451,7 @@ tile{
   y = 896,
   width = 32,
   height = 32,
-  pattern = "ceiling.1",
+  pattern = "ceiling.2",
 }
 
 tile{
@@ -4397,7 +4460,7 @@ tile{
   y = 928,
   width = 320,
   height = 32,
-  pattern = "ceiling.1",
+  pattern = "ceiling.2",
 }
 
 separator{
