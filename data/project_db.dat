@@ -28,8 +28,8 @@ map{ id = "dungeons/13/store", description = "Dungeon 13 Store" }
 map{ id = "dungeons/14/1f", description = "Dungeon 14 1F" }
 map{ id = "dungeons/14/store", description = "Dungeon 14 Store" }
 map{ id = "dungeons/15/1f", description = "Dungeon 15 1F" }
-map{ id = "dungeons/15/b1", description = "Dungeon 15 B1" }
-map{ id = "dungeons/15/b2", description = "Dungeon 15 B2" }
+map{ id = "dungeons/15/2f", description = "Dungeon 15 2F" }
+map{ id = "dungeons/15/3f", description = "Dungeon 15 3F" }
 map{ id = "dungeons/15/imported", description = "Imported" }
 map{ id = "dungeons/15/store", description = "Dungeon 15 Store" }
 map{ id = "dungeons/2/1f", description = "Dungeon 2 1F" }

@@ -54,147 +54,12 @@ enemy{
 }
 
 enemy{
-  name = "auto_enemy_26",
-  layer = 0,
-  x = 2398,
-  y = 1050,
-  direction = 3,
-  breed = "alttp/sword_soldier_blue",
-}
-
-enemy{
-  name = "auto_enemy_27",
-  layer = 0,
-  x = 2350,
-  y = 794,
-  direction = 3,
-  breed = "alttp/sword_soldier_blue",
-}
-
-enemy{
-  name = "auto_enemy_28",
-  layer = 0,
-  x = 2462,
-  y = 794,
-  direction = 3,
-  breed = "alttp/sword_soldier_blue",
-}
-
-enemy{
-  name = "auto_enemy_29",
-  layer = 0,
-  x = 2094,
-  y = 810,
-  direction = 3,
-  breed = "alttp/sword_soldier_blue",
-}
-
-enemy{
-  name = "auto_enemy_30",
-  layer = 0,
-  x = 2718,
-  y = 810,
-  direction = 3,
-  breed = "alttp/sword_soldier_blue",
-}
-
-enemy{
-  name = "auto_enemy_31",
-  layer = 0,
-  x = 2030,
-  y = 442,
-  direction = 3,
-  breed = "alttp/sword_soldier_blue",
-}
-
-enemy{
-  name = "auto_enemy_32",
-  layer = 0,
-  x = 2142,
-  y = 442,
-  direction = 3,
-  breed = "alttp/sword_soldier_blue",
-}
-
-enemy{
-  name = "auto_enemy_33",
-  layer = 0,
-  x = 2670,
-  y = 490,
-  direction = 3,
-  breed = "alttp/sword_soldier_blue",
-}
-
-enemy{
-  name = "auto_enemy_34",
-  layer = 0,
-  x = 2782,
-  y = 490,
-  direction = 3,
-  breed = "alttp/sword_soldier_blue",
-}
-
-enemy{
-  name = "auto_enemy_35",
-  layer = 0,
-  x = 2401,
-  y = 346,
-  direction = 3,
-  breed = "alttp/sword_soldier_red",
-}
-
-enemy{
-  name = "auto_enemy_36",
-  layer = 0,
-  x = 2089,
-  y = 522,
-  direction = 3,
-  breed = "alttp/sword_soldier_red",
-}
-
-enemy{
-  name = "auto_enemy_37",
-  layer = 0,
-  x = 2729,
-  y = 442,
-  direction = 3,
-  breed = "alttp/sword_soldier_red",
-}
-
-enemy{
-  name = "auto_enemy_38",
-  layer = 0,
-  x = 1681,
-  y = 602,
-  direction = 3,
-  breed = "alttp/sword_soldier_red",
-}
-
-enemy{
-  name = "auto_enemy_39",
-  layer = 0,
-  x = 3137,
-  y = 602,
-  direction = 3,
-  breed = "alttp/sword_soldier_red",
-}
-
-enemy{
-  name = "auto_enemy_40",
-  layer = 0,
-  x = 2409,
-  y = 106,
-  direction = 3,
-  breed = "alttp/sword_soldier_red",
-}
-
-enemy{
   name = "auto_enemy_41",
   layer = 0,
   x = 809,
   y = 1082,
   direction = 3,
-  breed = "alttp/sword_soldier_red",
+  breed = "alttp/spear_soldier_red",
 }
 
 enemy{
@@ -203,7 +68,7 @@ enemy{
   x = 641,
   y = 826,
   direction = 3,
-  breed = "alttp/sword_soldier_red",
+  breed = "alttp/spear_soldier_red",
 }
 
 enemy{
@@ -212,7 +77,7 @@ enemy{
   x = 977,
   y = 826,
   direction = 3,
-  breed = "alttp/sword_soldier_red",
+  breed = "alttp/spear_soldier_red",
 }
 
 enemy{
@@ -221,7 +86,7 @@ enemy{
   x = 809,
   y = 362,
   direction = 3,
-  breed = "alttp/sword_soldier_red",
+  breed = "alttp/spear_soldier_red",
 }
 
 enemy{
@@ -230,7 +95,7 @@ enemy{
   x = 809,
   y = 602,
   direction = 3,
-  breed = "alttp/sword_soldier_red",
+  breed = "alttp/spear_soldier_red",
 }
 
 enemy{
@@ -239,7 +104,7 @@ enemy{
   x = 1089,
   y = 1082,
   direction = 3,
-  breed = "alttp/sword_soldier_red",
+  breed = "alttp/spear_soldier_red",
 }
 
 enemy{
@@ -248,7 +113,7 @@ enemy{
   x = 113,
   y = 602,
   direction = 3,
-  breed = "alttp/sword_soldier_red",
+  breed = "alttp/spear_soldier_red",
 }
 
 enemy{
@@ -257,7 +122,7 @@ enemy{
   x = 225,
   y = 602,
   direction = 3,
-  breed = "alttp/sword_soldier_red",
+  breed = "alttp/spear_soldier_red",
 }
 
 enemy{
@@ -266,7 +131,7 @@ enemy{
   x = 809,
   y = 122,
   direction = 3,
-  breed = "alttp/sword_soldier_red",
+  breed = "alttp/spear_soldier_red",
 }
 
 enemy{
@@ -275,7 +140,7 @@ enemy{
   x = 1393,
   y = 602,
   direction = 3,
-  breed = "alttp/sword_soldier_red",
+  breed = "alttp/spear_soldier_red",
 }
 
 enemy{
@@ -284,30 +149,6 @@ enemy{
   x = 1505,
   y = 602,
   direction = 3,
-  breed = "alttp/sword_soldier_red",
-}
-
-chest{
-  layer = 0,
-  x = 1752,
-  y = 605,
-  treasure_name = "compass",
-  sprite = "entities/chest",
-}
-
-chest{
-  layer = 0,
-  x = 2392,
-  y = 589,
-  treasure_name = "boss_key",
-  sprite = "entities/chest",
-}
-
-chest{
-  layer = 0,
-  x = 3048,
-  y = 605,
-  treasure_name = "small_key",
-  sprite = "entities/chest",
+  breed = "alttp/spear_soldier_red",
 }
 
