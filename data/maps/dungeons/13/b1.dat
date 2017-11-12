@@ -6,7 +6,7 @@ properties{
   min_layer = 0,
   max_layer = 2,
   world = "dungeon_13",
-  floor = 0,
+  floor = -1,
   tileset = "dungeon/dark_turquoise",
   music = "zant",
 }

@@ -3,10 +3,10 @@ properties{
   y = 240,
   width = 2240,
   height = 1680,
-  min_layer = -1,
+  min_layer = 0,
   max_layer = 2,
   world = "dungeon_13",
-  floor = 0,
+  floor = -2,
   tileset = "dungeon/dark_turquoise",
   music = "zant",
 }
