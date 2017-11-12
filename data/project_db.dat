@@ -24,6 +24,7 @@ map{ id = "dungeons/12/store", description = "Dungeon 12 Store" }
 map{ id = "dungeons/13/1f", description = "Dungeon 13 1F" }
 map{ id = "dungeons/13/b1", description = "Dungeon 13 B1" }
 map{ id = "dungeons/13/b2", description = "Dungeon 13 B2" }
+map{ id = "dungeons/13/imported", description = "Imported" }
 map{ id = "dungeons/13/store", description = "Dungeon 13 Store" }
 map{ id = "dungeons/2/1f", description = "Dungeon 2 1F" }
 map{ id = "dungeons/2/b1", description = "Dungeon 2 B1" }
