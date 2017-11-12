@@ -190,6 +190,10 @@ local chest_content_id_to_treasure_map = {  -- enum Type_Contenu
     treasure_name = "pegasus_shoes",
     treasure_variant = 1,
   },
+  ["ARC_FEE"] = {
+    treasure_name = "bow",
+    treasure_variant = 2,
+  },
   -- TODO
 }
 

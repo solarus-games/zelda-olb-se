@@ -778,11 +778,13 @@ stairs{
 }
 
 door{
+  name = "dungeon_14_door",
   layer = 0,
   x = 152,
   y = 8,
   direction = 1,
   sprite = "entities/doors/door_d2_normal",
+  savegame_variable = "monster_house_dungeon_14_door",
 }
 
 wall{
@@ -796,6 +798,24 @@ wall{
   stops_enemies = true,
   stops_blocks = true,
   stops_projectiles = true,
+}
+
+destination{
+  name = "from_dungeon_14",
+  layer = 0,
+  x = 160,
+  y = 29,
+  direction = 3,
+}
+
+teletransporter{
+  layer = 0,
+  x = 152,
+  y = 0,
+  width = 16,
+  height = 16,
+  destination_map = "dungeons/14/1f",
+  destination = "from_outside",
 }
 
 tile{
