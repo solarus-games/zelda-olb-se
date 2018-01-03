@@ -1,13 +1,19 @@
--- Initialize sensor behavior specific to this quest.
+-- Provides additional features to the sensor type for this quest.
+
+require("scripts/multi_events")
 
 local sensor_meta = sol.main.get_metatable("sensor")
 
-function sensor_meta:on_activated()
+sensor_meta:register_event("on_activated", function(sensor)
 
-  local hero = self:get_map():get_hero()
-  local game = self:get_game()
-  local map = self:get_map()
-  local name = self:get_name()
+  local hero = sensor:get_map():get_hero()
+  local game = sensor:get_game()
+  local map = sensor:get_map()
+  local name = sensor:get_name()
+
+  if name == nil then
+    return
+  end
 
   -- Sensors named "to_layer_X_sensor" move the hero on that layer.
   -- TODO use a custom entity or a wall to block enemies and thrown items?
@@ -67,13 +73,17 @@ function sensor_meta:on_activated()
     return
   end
 
-end
+end)
 
-function sensor_meta:on_collision_explosion()
+sensor_meta:register_event("on_collision_explosion", function(sensor)
 
-  local game = self:get_game()
-  local map = self:get_map()
-  local name = self:get_name()
+  local game = sensor:get_game()
+  local map = sensor:get_map()
+  local name = sensor:get_name()
+
+  if name == nil then
+    return
+  end
 
   -- Sensors named "weak_floor_X_sensor" detect explosions to disable dynamic tiles prefixed with "weak_floor_X_closed".
   local prefix = name:match("^(weak_floor_[a-zA-X0-9_]+)_sensor")
@@ -90,17 +100,19 @@ function sensor_meta:on_collision_explosion()
       end
     end
 
-    self:set_enabled(false)
+    sensor:set_enabled(false)
+  end
+end)
+
+sensor_meta:register_event("on_activated_repeat", function(sensor)
+
+  local game = sensor:get_game()
+  local map = sensor:get_map()
+  local name = sensor:get_name()
+
+  if name == nil then
     return
   end
-end
-
-function sensor_meta:on_activated_repeat()
-
-  local hero = self:get_map():get_hero()
-  local game = self:get_game()
-  local map = self:get_map()
-  local name = self:get_name()
 
   -- Sensors called open_house_xxx_sensor automatically open an outside house door tile.
   local door_name = name:match("^open_house_([a-zA-X0-9_]+)_sensor")
@@ -114,29 +126,31 @@ function sensor_meta:on_activated_repeat()
       end
     end
   end
-end
+end)
 
-function sensor_meta:on_created()
+sensor_meta:register_event("on_created", function(sensor)
 
-  local game = self:get_game()
-  local map = self:get_map()
-  local name = self:get_name()
+  local game = sensor:get_game()
+  local map = sensor:get_map()
+  local name = sensor:get_name()
 
-  if name ~= nil then
-    local prefix = name:match("^(weak_floor_[a-zA-X0-9_]+)_sensor")
-    if prefix ~= nil then
-      local dungeon_index = game:get_dungeon_index()
-      if dungeon_index ~= nil then
-        local floor_name = game:get_floor_name()
-        if floor_name ~= nil then
-          local savegame_variable = "d" .. dungeon_index .. "_" .. floor_name .. "_" .. prefix
-          if game:get_value(savegame_variable) then
-            map:set_entities_enabled(prefix .. "_closed", false)
-          end
+  if name == nil then
+    return
+  end
+
+  local prefix = name:match("^(weak_floor_[a-zA-X0-9_]+)_sensor")
+  if prefix ~= nil then
+    local dungeon_index = game:get_dungeon_index()
+    if dungeon_index ~= nil then
+      local floor_name = game:get_floor_name()
+      if floor_name ~= nil then
+        local savegame_variable = "d" .. dungeon_index .. "_" .. floor_name .. "_" .. prefix
+        if game:get_value(savegame_variable) then
+          map:set_entities_enabled(prefix .. "_closed", false)
         end
       end
     end
   end
-end
+end)
 
 return true
