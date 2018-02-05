@@ -12278,6 +12278,168 @@ tile{
   pattern = "spikes",
 }
 
+tile{
+  layer = 0,
+  x = 616,
+  y = 592,
+  width = 16,
+  height = 16,
+  pattern = "door_blast.4",
+}
+
+tile{
+  layer = 0,
+  x = 648,
+  y = 592,
+  width = 16,
+  height = 16,
+  pattern = "door_blast.3",
+}
+
+tile{
+  layer = 0,
+  x = 616,
+  y = 584,
+  width = 16,
+  height = 8,
+  pattern = "door_blast.4.support.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 616,
+  y = 608,
+  width = 16,
+  height = 8,
+  pattern = "door_blast.4.support.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 648,
+  y = 584,
+  width = 16,
+  height = 8,
+  pattern = "door_blast.3.support.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 648,
+  y = 608,
+  width = 16,
+  height = 8,
+  pattern = "door_blast.3.support.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 616,
+  y = 592,
+  width = 16,
+  height = 16,
+  pattern = "door.4",
+}
+
+tile{
+  layer = 0,
+  x = 632,
+  y = 592,
+  width = 16,
+  height = 16,
+  pattern = "floor.15-1",
+}
+
+tile{
+  layer = 0,
+  x = 648,
+  y = 592,
+  width = 16,
+  height = 16,
+  pattern = "door.3",
+}
+
+tile{
+  layer = 0,
+  x = 936,
+  y = 592,
+  width = 16,
+  height = 16,
+  pattern = "door_blast.4",
+}
+
+tile{
+  layer = 0,
+  x = 968,
+  y = 592,
+  width = 16,
+  height = 16,
+  pattern = "door_blast.3",
+}
+
+tile{
+  layer = 0,
+  x = 936,
+  y = 584,
+  width = 16,
+  height = 8,
+  pattern = "door_blast.4.support.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 936,
+  y = 608,
+  width = 16,
+  height = 8,
+  pattern = "door_blast.4.support.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 968,
+  y = 584,
+  width = 16,
+  height = 8,
+  pattern = "door_blast.3.support.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 968,
+  y = 608,
+  width = 16,
+  height = 8,
+  pattern = "door_blast.3.support.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 936,
+  y = 592,
+  width = 16,
+  height = 16,
+  pattern = "door.4",
+}
+
+tile{
+  layer = 0,
+  x = 952,
+  y = 592,
+  width = 16,
+  height = 16,
+  pattern = "floor.15-1",
+}
+
+tile{
+  layer = 0,
+  x = 968,
+  y = 592,
+  width = 16,
+  height = 16,
+  pattern = "door.3",
+}
+
 wall{
   layer = 0,
   x = 296,
@@ -12437,7 +12599,7 @@ wall{
 }
 
 door{
-  name = "auto_door_a_back",
+  name = "auto_door_a",
   layer = 0,
   x = 152,
   y = 216,
@@ -12446,7 +12608,7 @@ door{
 }
 
 door{
-  name = "auto_door_a",
+  name = "auto_door_a_back",
   layer = 0,
   x = 152,
   y = 248,
@@ -12465,7 +12627,7 @@ wall{
 }
 
 door{
-  name = "auto_door_b_back",
+  name = "auto_door_b",
   layer = 0,
   x = 792,
   y = 696,
@@ -12474,7 +12636,7 @@ door{
 }
 
 door{
-  name = "auto_door_b",
+  name = "auto_door_b_back",
   layer = 0,
   x = 792,
   y = 728,
@@ -12797,6 +12959,7 @@ custom_entity{
 }
 
 custom_entity{
+  name = "auto_torch_auto_door_b_1",
   layer = 0,
   x = 696,
   y = 669,
@@ -12808,6 +12971,7 @@ custom_entity{
 }
 
 custom_entity{
+  name = "auto_torch_auto_door_b_2",
   layer = 0,
   x = 904,
   y = 669,
@@ -13399,10 +13563,12 @@ enemy{
   y = 61,
   direction = 3,
   breed = "alttp/stalfos_knight",
+  treasure_name = "small_key",
+  treasure_savegame_variable = "d10_1f_key_2",
 }
 
 enemy{
-  name = "auto_enemy_17",
+  name = "auto_enemy_auto_door_a",
   layer = 0,
   x = 160,
   y = 61,
@@ -13429,7 +13595,7 @@ enemy{
 }
 
 enemy{
-  name = "auto_enemy_29",
+  name = "auto_enemy_auto_door_c",
   layer = 0,
   x = 480,
   y = 1085,
@@ -13891,6 +14057,118 @@ destination{
   direction = 1,
   starting_location_mode = "yes",
   default = true,
+}
+
+wall{
+  layer = 0,
+  x = 616,
+  y = 592,
+  width = 48,
+  height = 16,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+dynamic_tile{
+  name = "weak_wall_a_closed_2",
+  layer = 0,
+  x = 640,
+  y = 584,
+  pattern = "wall.3-7",
+  width = 24,
+  height = 32,
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  name = "weak_wall_a_closed",
+  layer = 0,
+  x = 616,
+  y = 584,
+  pattern = "wall.4-7",
+  width = 24,
+  height = 32,
+  enabled_at_start = true,
+}
+
+door{
+  name = "weak_wall_a",
+  layer = 0,
+  x = 616,
+  y = 592,
+  direction = 0,
+  sprite = "entities/doors/door_d1_weak_wall",
+  savegame_variable = "d10_1f_weak_wall_a",
+  opening_method = "explosion",
+}
+
+door{
+  name = "weak_wall_a_2",
+  layer = 0,
+  x = 648,
+  y = 592,
+  direction = 2,
+  sprite = "entities/doors/door_d1_weak_wall",
+  savegame_variable = "d10_1f_weak_wall_a",
+  opening_method = "explosion",
+}
+
+wall{
+  layer = 0,
+  x = 936,
+  y = 592,
+  width = 48,
+  height = 16,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+dynamic_tile{
+  name = "weak_wall_b_closed",
+  layer = 0,
+  x = 960,
+  y = 584,
+  pattern = "wall.3-7",
+  width = 24,
+  height = 32,
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  name = "weak_wall_b_closed_2",
+  layer = 0,
+  x = 936,
+  y = 584,
+  pattern = "wall.4-7",
+  width = 24,
+  height = 32,
+  enabled_at_start = true,
+}
+
+door{
+  name = "weak_wall_b",
+  layer = 0,
+  x = 936,
+  y = 592,
+  direction = 0,
+  sprite = "entities/doors/door_d1_weak_wall",
+  savegame_variable = "d10_1f_weak_wall_b",
+  opening_method = "explosion",
+}
+
+door{
+  name = "weak_wall_b_2",
+  layer = 0,
+  x = 968,
+  y = 592,
+  direction = 2,
+  sprite = "entities/doors/door_d1_weak_wall",
+  savegame_variable = "d10_1f_weak_wall_b",
+  opening_method = "explosion",
 }
 
 tile{
@@ -14584,6 +14862,122 @@ tile{
   width = 32,
   height = 8,
   pattern = "door_top.2-7",
+}
+
+tile{
+  layer = 1,
+  x = 632,
+  y = 584,
+  width = 8,
+  height = 32,
+  pattern = "door_top.closed.4-2",
+}
+
+tile{
+  layer = 1,
+  x = 640,
+  y = 584,
+  width = 8,
+  height = 32,
+  pattern = "door_top.closed.3-2",
+}
+
+tile{
+  layer = 1,
+  x = 632,
+  y = 560,
+  width = 8,
+  height = 80,
+  pattern = "door_cache.4-7",
+}
+
+tile{
+  layer = 1,
+  x = 640,
+  y = 560,
+  width = 8,
+  height = 80,
+  pattern = "door_cache.3-7",
+}
+
+tile{
+  layer = 1,
+  x = 952,
+  y = 584,
+  width = 8,
+  height = 32,
+  pattern = "door_top.closed.4-2",
+}
+
+tile{
+  layer = 1,
+  x = 960,
+  y = 584,
+  width = 8,
+  height = 32,
+  pattern = "door_top.closed.3-2",
+}
+
+tile{
+  layer = 1,
+  x = 952,
+  y = 560,
+  width = 8,
+  height = 80,
+  pattern = "door_cache.4-7",
+}
+
+tile{
+  layer = 1,
+  x = 960,
+  y = 560,
+  width = 8,
+  height = 80,
+  pattern = "door_cache.3-7",
+}
+
+dynamic_tile{
+  name = "weak_wall_a_open",
+  layer = 1,
+  x = 632,
+  y = 584,
+  pattern = "door_top.blast.4-2",
+  width = 8,
+  height = 32,
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  name = "weak_wall_a_open_2",
+  layer = 1,
+  x = 640,
+  y = 584,
+  pattern = "door_top.blast.3-2",
+  width = 8,
+  height = 32,
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  name = "weak_wall_b_open",
+  layer = 1,
+  x = 952,
+  y = 584,
+  pattern = "door_top.blast.4-2",
+  width = 8,
+  height = 32,
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  name = "weak_wall_b_open_2",
+  layer = 1,
+  x = 960,
+  y = 584,
+  pattern = "door_top.blast.3-2",
+  width = 8,
+  height = 32,
+  enabled_at_start = true,
 }
 
 tile{

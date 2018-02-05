@@ -4211,6 +4211,7 @@ custom_entity{
 }
 
 custom_entity{
+  name = "auto_torch_auto_door_d_1",
   layer = 0,
   x = 680,
   y = 765,
@@ -4222,6 +4223,7 @@ custom_entity{
 }
 
 custom_entity{
+  name = "auto_torch_auto_door_d_2",
   layer = 0,
   x = 920,
   y = 925,
@@ -4233,6 +4235,7 @@ custom_entity{
 }
 
 custom_entity{
+  name = "auto_torch_auto_door_c_1",
   layer = 0,
   x = 1112,
   y = 893,
@@ -4244,6 +4247,7 @@ custom_entity{
 }
 
 custom_entity{
+  name = "auto_torch_auto_door_c_2",
   layer = 0,
   x = 1128,
   y = 893,
@@ -4255,6 +4259,7 @@ custom_entity{
 }
 
 custom_entity{
+  name = "auto_torch_auto_door_c_3",
   layer = 0,
   x = 1224,
   y = 845,
@@ -4266,6 +4271,7 @@ custom_entity{
 }
 
 custom_entity{
+  name = "auto_torch_auto_door_b_1",
   layer = 0,
   x = 1112,
   y = 605,
@@ -4277,6 +4283,7 @@ custom_entity{
 }
 
 custom_entity{
+  name = "auto_torch_auto_door_b_2",
   layer = 0,
   x = 1128,
   y = 605,
@@ -4428,7 +4435,7 @@ enemy{
 }
 
 enemy{
-  name = "auto_enemy_18",
+  name = "auto_enemy_auto_door_a",
   layer = 0,
   x = 480,
   y = 573,
