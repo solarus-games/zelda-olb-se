@@ -1851,6 +1851,14 @@ chest{
   sprite = "entities/chest",
 }
 
+destination{
+  name = "from_1f_wallmaster",
+  layer = 0,
+  x = 1120,
+  y = 1325,
+  direction = 3,
+}
+
 tile{
   layer = 1,
   x = 1072,
