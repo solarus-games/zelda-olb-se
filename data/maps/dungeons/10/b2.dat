@@ -1186,6 +1186,16 @@ enemy{
   layer = 0,
   x = 656,
   y = 501,
+  properties = {
+    {
+      key = "destination_map",
+      value = "dungeons/10/b1",
+    },
+    {
+      key = "destination",
+      value = "from_b2_wallmaster",
+    },
+  },
   direction = 3,
   breed = "alttp/wallmaster",
 }
@@ -1278,6 +1288,16 @@ chest{
   treasure_name = "small_key",
   treasure_savegame_variable = "d10_b2_key_1_chest",
   sprite = "entities/chest",
+}
+
+destination{
+  name = "debug",
+  layer = 0,
+  x = 720,
+  y = 565,
+  direction = 1,
+  starting_location_mode = "yes",
+  default = true,
 }
 
 tile{

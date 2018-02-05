@@ -13249,7 +13249,7 @@ switch{
 }
 
 switch{
-  name = "auto_switch_auto_door_d_2",
+  name = "auto_switch_auto_door_g",
   layer = 0,
   x = 512,
   y = 416,

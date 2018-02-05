@@ -27,6 +27,10 @@ function enemy:on_created()
   enemy:set_invincible()
   sprite = enemy:create_sprite("enemies/" .. enemy:get_breed())
   sprite:set_animation("sleeping")
+
+  local destination_map = enemy:get_property("destination_map")
+  local destination = enemy:get_property("destination")
+  enemy:set_destination(destination_map, destination)
 end
 
 function enemy:on_restarted()

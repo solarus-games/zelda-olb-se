@@ -13731,6 +13731,14 @@ stairs{
   subtype = 2,
 }
 
+destination{
+  name = "from_b2_wallmaster",
+  layer = 0,
+  x = 800,
+  y = 829,
+  direction = 3,
+}
+
 tile{
   layer = 1,
   x = 120,
