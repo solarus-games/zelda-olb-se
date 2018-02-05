@@ -1654,6 +1654,16 @@ sensor{
   height = 16,
 }
 
+teletransporter{
+  layer = 0,
+  x = 152,
+  y = 40,
+  width = 16,
+  height = 16,
+  destination_map = "out/e4",
+  destination = "from_portal_cave",
+}
+
 tile{
   layer = 1,
   x = 112,

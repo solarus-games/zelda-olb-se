@@ -1,6 +1,33 @@
 local map = ...
 local game = map:get_game()
 
+local cutscene = require("scripts/maps/cutscene")
+
+local function start_pit_initial_cutscene()
+
+  cutscene.builder(game, map, hero)
+  .dialog("out.e4.pit_hello")
+  .exec(function()
+      hero:freeze()
+    end)
+  .movement({
+    type = "straight",
+    entity = pit,
+    properties = {
+      angle = 0,
+      speed = 64,
+      max_distance = 176,
+      ignore_obstacles = true,
+    },
+  })
+  .exec(function()
+      pit:remove()
+      hero:unfreeze()
+    end)
+  .start()
+
+end
+
 function map:on_started(destination)
 
   if game:get_value("out_e4_pit_first_dialog") then
@@ -13,18 +40,8 @@ function map:on_opening_transition_finished(destination)
   if destination == from_portal_cave then
     if not game:get_value("out_e4_pit_first_dialog") then
       game:set_value("out_e4_pit_first_dialog", true)
-      game:start_dialog("out.e4.pit_hello", function()
-        hero:freeze()
-        local movement = sol.movement.create("straight")
-        movement:set_angle(0)
-        movement:set_speed(64)
-        movement:set_max_distance(176)
-        movement:set_ignore_obstacles(true)
-        movement:start(pit, function()
-          pit:remove()
-          hero:unfreeze()
-        end)
-      end)
+
+      start_pit_initial_cutscene()
     end
   end
 end
